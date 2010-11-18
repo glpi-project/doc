@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un document à un autre document</title>
+  <taskbody>
+    <context>Associer un document à un autre document</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Documents</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du document ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom du document ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans l&apos;onglet <uicontrol>Document(s) associé(s)</uicontrol>;</cmd>
+      </step>
+      <step>
+        <cmd>Sélectionner un document ou cliquer sur le bouton <uicontrol>Parcourir</uicontrol> pour en ajouter un ;</cmd>
+      </step>
+      <step>
+        <cmd>Ajouter.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec les deux document associés</result>
+  </taskbody>
+</task>

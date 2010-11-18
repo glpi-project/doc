@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_peripheral" xml:lang="fr-fr">
+  <title>Gérer les périphériques</title>
+  <shortdesc>Les périphériques se gèrent depuis le menu <menucascade>
+      <uicontrol>Inventaire</uicontrol>
+      <uicontrol>Périphériques</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Dans la fiche d&apos;un périphérique, plusieurs informations sont disponibles:<ul>
+        <li>Sur les caractéristiques générales du périphérique (le fabricant, le modèle, le type, le numéro de série...)</li>
+        <li>Sur la gestion du périphérique (le responsable technique, son statut, le lieu où elle se trouve...)</li>
+        <li>Sur les usagers du périphérique (connus ou non dans GLPI, groupe d&apos;utilisateurs...)</li>
+      </ul></p>
+    <p><b>Description du type de gestion :</b></p>
+    <p>Il est possible de gérer les périphériques  de manière unitaire ou globale.</p>
+    <p>La gestion unitaire correspond à une gestion classique (un périphérique pour un ordinateur) alors que dans la gestion globale, le périphérique devient un élément virtuel global qui sera connecté à plusieurs ordinateurs.</p>
+    <p>La gestion globale permet de limiter le nombre d&apos;élément à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.</p>
+  </body>
+</topic>

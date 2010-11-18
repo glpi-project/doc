@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_volume" xml:lang="fr-fr">
+  <title>Onglet &quot;Volumes&quot;</title>
+  <shortdesc>Gestion des volumes des ordinateurs</shortdesc>
+  <body>
+    <p>Ces informations sont visibles dans l&apos;onglet <b>Volumes</b> de la fiche d&apos;un ordinateur.</p>
+    <p>Un volume lié  à un ordinateur est caractérisé par son nom, la partition physique, son point de montage et son système de fichiers ainsi que sa taille.</p>
+    <p>Il est également possible de définir la taille restant libre sur le volume.</p>
+    <note>En cas d&apos;utilisation du mode OCSNG ces informations peuvent être automatiquement importées et mises à jour. Voir <i>
+        <xref href="config_ocsng.dita">Configurer le Mode OCSNG</xref>
+      </i>.</note>
+  </body>
+</topic>

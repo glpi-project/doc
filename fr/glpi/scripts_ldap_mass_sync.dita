@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification" xml:lang="fr-fr">
+  <title>Importer et synchroniser depuis un annuaire par script</title>
+  <shortdesc>Un script permet l&apos;import et la synchronisation à partir d&apos;un annuaire.</shortdesc>
+  <body>
+    <p>Présent dans le répertoire scripts/ de GLPI, il s&apos;appelle ldap_mass_sync.php.  Pour le lancer, il suffit exécuter le script suivant :<codeblock>php ldap_mass_sync.php [actions=0|1|2] [ldapservers_id=x] [filter=(xx)] [before-days=x] [after-days=y]</codeblock>  <note type="attention">le script doit être lancé par l&apos;utilisateur apache.</note></p>
+    <p>Le paramètre <option>action</option> indique s&apos;il faut effectuer un import (valeur <userinput>0</userinput>), une synchronisation (valeur <userinput>1</userinput>), ou s&apos;il faut réimporter et resynchroniser tous les utilisateurs (valeur <userinput>2</userinput>). Si cette option est pas définie, le script est en mode synchronisation.</p>
+    <p>L&apos;option <option>ldapservers_id</option> indique au script de restreindre les traitements à un seul serveur. La valeur à passer est l&apos;identifiant de l&apos;annuaire LDAP tel qu&apos;affiché en entếte du formulaire de l&apos;annuaire dans GLPI. Voir <xref href="config_auth_ldap.dita"/>. Si <option>ldapservers_id</option> est omis, le script traite tous les annuaires les uns après les autres.</p>
+    <p><option>Filter</option> est le filtre au format LDAP qui permet de limiter la recherche des utilisateurs. Cette option n&apos;est pas obligatoire.</p>
+    <p>La restriction des dates, identique à celle disponible dans l&apos;interface d&apos;import simplifiée (voir <xref href="administration_user_import.dita"/>) repose sur les options <option>before-days</option> et <option>after-days</option>. La valeur est un nombre de jours.<note>il est impossible de spécifiquer à la fois <option>before-days</option> et <option>after-days</option>.</note></p>
+    <p>Une fois terminé, le script indique en console le nombre d&apos;utilisateurs importé, synchronisé et supprimés pour chaque annuaire.</p>
+  </body>
+</topic>

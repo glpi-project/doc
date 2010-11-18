@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_software_version" xml:lang="fr-fr">
+  <title>Gérer les versions</title>
+  <shortdesc>Principes et gestion des versions logiciels dans GLPI</shortdesc>
+  <body>
+    <p>Une version d&apos;un logiciel est l&apos;élément pouvant être installé sur un ordinateur. </p>
+    <p>Voir <xref href="inventory_software_installation.dita">Les versions et les licences</xref>.</p>
+    <p>La vue principale liste le nombre d&apos;installation de la version.</p>
+    <p><b>Champs spécifiques : </b></p>
+    <ul>
+      <li><b>Nom</b> : correspond au numéro de version. En mode OCSNG, il est récupéré ou positionné à N/A. Voir <xref href="config_ocsng.dita"/>.</li>
+      <li><b>Statut</b> : en préconisations ITIL, il permet de suivre la DSL (bibliothèque de stockage des versions autorisées).</li>
+    </ul>
+  </body>
+</topic>

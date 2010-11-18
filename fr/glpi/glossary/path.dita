@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-path">
+  <glossterm>Chemin</glossterm>
+  <glossdef>Adresse permettant de localiser un élément dans une arborescence.</glossdef>
+</glossentry>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-receiver">
+  <glossterm>Collecteur</glossterm>
+  <glossdef>Fonctionnalité de GLPI permettant de créer des tickets ou des suivis en important des messages d&apos;une boite de messagerie.</glossdef>
+</glossentry>

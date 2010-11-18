@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un contact à un fournisseur</title>
+  <taskbody>
+    <context>Associer un contact à un fournisseur</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Contacts</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du contact ;</cmd>
+      </step>
+      <step>
+        <cmd>2 possibilités pour associer un fournisseur</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du contact</li>
+              <li>Aller dans l&apos;onglet <b>Fournisseurs</b></li>
+              <li>Sélectionner un fournisseur</li>
+              <li>Ajouter</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le contact</li>
+              <li>Modification massive : <uicontrol>Ajouter Fournisseur...</uicontrol></li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Le contact est désormais associé au fournisseur. La fiche du contact est affichée.</result>
+  </taskbody>
+</task>

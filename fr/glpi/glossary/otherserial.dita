@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-otherserial">
+  <glossterm>Numéro d'inventaire</glossterm>
+  <glossdef>Chaîne de caractères assignée à un objet afin de l&apos;identifier au sein de l&apos;organisation.</glossdef>
+</glossentry>

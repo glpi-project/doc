@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-processor">
+  <glossterm>En cours (attribué) (Ticket)</glossterm>
+  <glossdef>Statut d&apos;un ticket lorsque celui-ci est affecté à un technicien ou un groupe de techniciens.</glossdef>
+</glossentry>

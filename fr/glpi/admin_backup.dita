@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin_backup" xml:lang="fr-fr">
+  <title>Sauvegarder GLPI</title>
+  <shortdesc>Réaliser une sauvegarde complète de GLPI.</shortdesc>
+  <body>
+    <p>Pour une sauvegarde complète de GLPI, il est indispensable d&apos;archiver la base de données et les fichiers. </p>
+  </body>
+</topic>

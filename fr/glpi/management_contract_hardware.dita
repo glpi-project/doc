@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd">
+<topic id="management_contract_hardware" xml:lang="fr-fr">
+  <title>Les matériels associés</title>
+  <shortdesc>Les matériels associés aux contrats</shortdesc>
+  <body>
+    <p>L&apos;onglet <uicontrol>Matériel</uicontrol> permet de lier un matériel de l&apos;inventaire à un contrat.</p>
+    <p>Pour lier un objet à un contrat, sélectionner le type puis le nom du matériel.</p>
+    <p>Ceux-ci seront listés par type, les numéros de série et d&apos;inventaire seront visibles.</p>
+  </body>
+</topic>

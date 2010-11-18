@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_planning" xml:lang="fr-fr">
+  <title>Consulter et gérer les plannings</title>
+  <shortdesc>Les plannings se gèrent depuis le menu <menucascade>
+      <uicontrol>Assistance</uicontrol>
+      <uicontrol>Planning</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>La vue planning permet de visualiser les tâches planifiées affectées à un technicien, à un groupe de technicien, ou à l&apos;utilisateur connecté et ses groupes.</p>
+    <p>Il est possible de choisir la date et la période à visualiser.</p>
+    <p>Il est possible de télécharger ces informations au format Ical afin de les intégrer dans le calendrier d&apos;un logiciel tiers, ou d&apos;utiliser le &quot;protocole&quot; Webcal qui permet d&apos;abonner un calendrier d&apos;un logiciel tiers sur le planning de GLPI.<note class="- topic/important">Vérifier Webcal</note></p>
+  </body>
+</topic>

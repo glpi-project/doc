@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-automatic_action">
+  <glossterm>Action automatique</glossterm>
+  <glossdef>Système permettant de déclencher régulièrement des actions soit en interne à GLPI soit en externe (Cron unix, tâche planifiée sous Windows...).</glossdef>
+</glossentry>

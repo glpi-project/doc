@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_ocs" xml:lang="fr-fr">
+  <title>Affecter une machine provenant d&apos;OCSNG à une entité</title>
+  <shortdesc>GLPI dispose d&apos;un type de règles permettant d&apos;affecter automatiquement une machine provenant d&apos;OCSNG à une entité.</shortdesc>
+  <body>
+    <p>Ce type de règle est accessible depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+        <uicontrol>Régles d&apos;affectation d&apos;un machine à une entité</uicontrol>
+      </menucascade>.</p>
+    <p><note>si le mode OCSNG n&apos;est pas activé, l&apos;entrée dans le menu <b>Règles</b> n&apos;est pas disponible.</note></p>
+    <p>Un certain nombre de critères sont disponibles : ceux reprenant les champs d&apos;OCSNG (nom, description, numéro de série, domaine, adresse IP, sous-réseau, TAG) ou alors le serveur OCS déclaré dans GLPI.</p>
+    <p>Les actions possibles sont d&apos;<b>ignorer l&apos;import de la machine</b>, de l&apos;<b>affecter à une entité</b> (statiquement),  de l&apos;<b>affecter à une entité en utilisant le résultat d&apos;une expression rationnelle</b> ou de l&apos;<b>affecter à un lieu défini</b>.</p>
+    <note>GLPI vient par défaut avec une règle appelée <b>Root</b>. Celle-ci indique que toute machine provenant d&apos;OCSNG est affectée à l&apos;entité racine. Elle est utilisée en environnement mono-entité afin de garder un fonctionnement de l&apos;import le plus simple et transparent possible.</note>
+    <note type="important">le moteur s&apos;arrête à la première règle vérifiée. Il est donc nécessaire de bien ordonner la liste de règles. De plus, il est préférable de mettre en premier les règles qui ont le plus de chance d&apos;être vérifiées (par exemple pour les entités comprenant beaucoup de matériels).</note>
+    <note type="important">les règles d&apos;affectation à une entité ne sont jouées que lors de l&apos;import initial de la machine dans GLPI : c&apos;est à dire qu&apos;à partir du moment où une machine est importée, il n&apos;existe aucun processus automatisé pour la changer d&apos;entité (il faut utiliser l&apos;option de <b>transfert</b> manuel).</note>
+  </body>
+</topic>

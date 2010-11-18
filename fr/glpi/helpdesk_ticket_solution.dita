@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_solution" xml:lang="fr-fr">
+  <title>La solution</title>
+  <shortdesc>La solution d&apos;un ticket, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p>L&apos;onglet solution d&apos;un ticket permet la résolution du ticket par un technicien et l&apos;approbation de la solution par le demandeur ou le rédacteur.</p>
+    <p><ul>
+        <li>
+          <b>Résolution du ticket :</b>
+          <p>Le technicien doit choisir le <b>Type de solution</b>, intitulé paramétrable par exemple <b>Fermé (Résolu)</b> ainsi qu&apos;une description de la solution si besoin puis cliquer sur <b>Actualiser</b>.<note>Il n&apos;est pas possible de saisir une solution si aucun <b>Type de solution</b> n&apos;a été créé.</note></p>
+          <p>Une fois la solution saisie, le ticket prend le statut <b>Résolu</b>, jusqu&apos;à approbation de la solution.</p>
+        </li>
+        <li>
+          <b>Approbation de la solution :</b>
+          <p>La solution d&apos;un ticket doit être approuvée pour que le statut du ticket soit clos.</p>
+          <p>Elle peut être approuvée par le demandeur ou le rédacteur du ticket (personne qui a saisi le ticket, par exemple un technicien de hot-line).</p>
+          <p>Si le suivi par courriel été activé, le demandeur peut recevoir un courriel contenant le lien vers le ticket afin de l&apos;approuver.</p>
+          <p>Sinon il faut utiliser l&apos;interface :</p>
+          <ul>
+            <li><b>Interface simplifiée</b> :<p>Pour approuver une solution, aller dans le menu <b>Tickets</b>, cliquer sur le ticket à approuver, puis approuver ou rejeter la solution. Il est possible de saisir une description si besoin, celle ci est obligatoire en cas de rejet.</p></li>
+            <li><b>Interface standard</b> :<p>Les tickets à approuver apparaissent sur la page d&apos;accueil de GLPI dans <b>Vue personnelle</b>, <b>Vos tickets à clore</b>. </p>Cliquer sur le ticket à approuver, puis approuver ou rejeter la solution. Il est possible de saisir une description si besoin, celle ci est obligatoire en cas de rejet.</li>
+          </ul>
+          <p>Une fois la solution approuvée, le ticket prend le statut <b>Clos</b>.</p>
+        </li>
+      </ul></p>
+  </body>
+</topic>

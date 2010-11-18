@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-external_link">
+  <glossterm>Lien externe</glossterm>
+  <glossdef>Lien affiché sur la fiche d&apos;un matériel dans GLPI qui est construit dynamiquement avec des données de celui-ci.</glossdef>
+</glossentry>

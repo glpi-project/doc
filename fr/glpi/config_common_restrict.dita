@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_restrict" xml:lang="fr-fr">
+  <title>Onglet Inventaire</title>
+  <shortdesc>L&apos;onglet inventaire permet de régler les paramètres généraux concernant la partie inventaire de l&apos;application. </shortdesc>
+  <body>
+    <p>L&apos;interfaçage avec OCSNG rend possible l&apos;inventaire automatisé des matériels. Une fois l&apos;option <b>Mode OCSNG</b> activée, deux  nouveaux menus apparaissent dans l&apos;interface. Le premier, dans la partie <b>Configuration</b> permettant de configurer la connexion avec des serveurs OCSNG. Le second, dans la partie <b>Outils</b>, permet la gestion quotidienne des relations avec les serveurs définis.</p>
+    <p>Lors de la création d&apos;un gabarit, il est possible d&apos;ajouter des champs générés automatiquement à partir d&apos;un modèle (par exemple : le nom du matériel, le numéro d&apos;inventaire). L&apos;incrémentation des valeurs de ces champs se fait soit par entité soit de manière globale.</p>
+    <p>Il est possible  de modifier automatiquement la catégorie des logiciels supprimés par le dictionnaire. Par défaut ceux-ci sont déplacés automatiquement dans la catégorie <b>FUSION</b>.  </p>
+    <p>La date de début de l&apos;exercice fiscal utilisée dans la partie Gestion se configure ici.</p>
+    <p>Lors de la création manuelle d&apos;un matériel, il est demandé à l&apos;utilisateur de choisir le type de gestion (unitaire ou globale) de ce dernier. Par la suite, un matériel géré de manière unitaire peut passer sous le mode de la gestion globale.  Il est possible de restreindre le type de gestion selon les matériels.</p>
+    <p>Lors de la connexion directe à un ordinateur d&apos;un élément  géré de manière unitaire, il est possible de lui attribuer des informations récupérées depuis l&apos;ordinateur. Lors de la déconnexion, il est possible d&apos;effacer ces informations. Ces fonctionnalités ne sont pas activées par défaut.</p>
+  </body>
+</topic>

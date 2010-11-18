@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_monitor" xml:lang="fr-fr">
+  <title>Gérer les moniteurs</title>
+  <shortdesc>Les moniteurs se gèrent depuis le menu <menucascade>
+      <uicontrol>Inventaire</uicontrol>
+      <uicontrol>Moniteurs</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Dans la fiche des moniteurs, plusieurs informations sont disponibles :<ul>
+        <li>Sur la gestion du moniteur (le résponsable technique, son statut, le lieu où il se trouve...)</li>
+        <li>Sur les caractéristiques générales du poste (le fabricant, le modèle, le type, le numéro de série...)</li>
+        <li>Sur les usagers du poste (connus ou non dans GLPI, groupe d&apos;utilisateurs...)</li>
+        <li>Sur ses spécifications (sa taille, ses types de port...)</li>
+      </ul></p>
+    <section>
+      <title>
+        <b>Description du type de gestion :</b>
+      </title>
+      <p>Il est possible de gérer les moniteurs  de manière unitaire ou globale. </p>
+      <p>La gestion unitaire correspond à une gestion classique (un moniteur pour un ordinateur) alors que dans la gestion globale le moniteur, devient un élément virtuel global qui sera connecté à plusieurs ordinateurs. </p>
+      <p>La gestion globale permet de limiter le nombre d&apos;éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.</p>
+    </section>
+  </body>
+</topic>

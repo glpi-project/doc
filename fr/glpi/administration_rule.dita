@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule" xml:lang="fr-fr">
+  <title>Gérer les règles métiers</title>
+  <shortdesc>Les règles métiers se gèrent depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Règles</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI dispose d&apos;un moteur de règles qui permet d&apos;effectuer un certain nombre d&apos;actions et d&apos;associations de manière automatique. Le moteur sert à la fois pour des règles de gestion (affectation d&apos;une machine à une entité, d&apos;habilitations à un utilisateur,  de catégories à un logiciel ; routage de tickets dans des entités ;  actions automatiques à la création des tickets) et les dictionnaires de données (fabricants, logiciels, types et modèles de matériels).</p>
+    <p>Les dictionnaires permettent de modifier des données entrées dans GLPI afin de regrouper des données redondantes. Ils peuvent être appliqués rétroactivement sur une base existante.</p>
+    <p>Le moteur se comporte de manière différente en fonction des types de règles : arrêt après la première règle vérifiée, déroulement de toutes les règles, déroulement des règles avec passage du résultat aux suivantes. Elles peuvent être désactivées : par exemple lorsqu&apos;elles sont en cours d&apos;écriture et de test.</p>
+    <p><note type="tip">De manière générale, il est conseillé de bien tester les règles avant de les utiliser, et de faire une sauvegarde avant la mise en place de chaque nouvelle règle. Sur le formulaire principal d&apos;une règle, un bouton <b>Tester</b> ouvre une fenêtre supplémentaire qui permet de voir l&apos;ensemble des critères et des résultats de celle-ci.</note></p>
+    <section>
+      <title>Créer une règle</title>
+    </section>
+    <p>Une règle est composée d&apos;une suite de critères. Selon l&apos;option choisie (OU/ET) un ou tous les critères doivent être vérifiés pour déclencher une liste d&apos;actions.  </p>
+    <p>Un mécanisme de prévisualisation permet de tester les règles en cours d&apos;écriture avant de les passer en production.</p>
+    <p>Il existe plusieurs conditions : simples (est, n&apos;est pas, contient, ne contient pas, commence par, finit par) ou complexes (expression rationnelle vérifie, expression rationnelle ne vérifie pas).</p>
+    <p>Les expressions rationnelles (autrement appelées regexp) renvoient un ou plusieurs résultats qui peuvent être ensuite utilisés par les actions grâce à la directive <codeph>#x</codeph> (ou <codeph>x</codeph> est le numéro du résultat de l&apos;expression rationnelle).</p>
+    <example>Critère : Nom expression rationnelle vérifie <codeph>/DESKTOP_(.*)/</codeph> . Si l&apos;objet a pour nom <codeph>DESKTOP_0001</codeph>, alors il sera possible d&apos;utiliser <codeph>0001</codeph> dans les actions de la règle en utilisant le paramètre <codeph>#0</codeph>.</example>
+  </body>
+</topic>

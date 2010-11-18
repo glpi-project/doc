@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_printer" xml:lang="fr-fr">
+  <title>Gérer les imprimantes</title>
+  <shortdesc>Les imprimantes se gèrent depuis le menu <menucascade>
+      <uicontrol>Inventaire</uicontrol>
+      <uicontrol>Imprimantes</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Dans la fiche d&apos;une imprimante, plusieurs informations sont disponibles:<ul>
+        <li>Sur les caractéristiques générales de l&apos;imprimante (le fabricant, le modèle, le type, le numéro de série...)</li>
+        <li>Sur la gestion de l&apos;imprimante (le responsable technique, son statut, le lieu où elle se trouve...)</li>
+        <li>Sur les usagers de l&apos;imprimante (connus ou non dans GLPI, groupe d&apos;utilisateurs...)</li>
+        <li>Sur ses spécifications (le compteur de page initial, les types de ports...)</li>
+      </ul></p>
+    <p><b>Description du type de gestion :</b></p>
+    <p>Il est possible de gérer les imprimates  de manière unitaire ou globale.</p>
+    <p>La gestion unitaire correspond à une gestion classique (une imprimantes pour un ordinateur) alors que dans la gestion globale, l&apos;imprimante devient un élément virtuel global qui sera connecté à plusieurs ordinateurs.</p>
+    <p>La gestion globale permet de limiter le nombre d&apos;élément à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.</p>
+  </body>
+</topic>

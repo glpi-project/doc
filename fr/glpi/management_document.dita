@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_document" xml:lang="fr-fr">
+  <title>Gérer les documents</title>
+  <shortdesc>Les documents sont gérés depuis le menu <menucascade>
+      <uicontrol>Gestion</uicontrol>
+      <uicontrol>Documents</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>
+  Cette section  permet d&apos;enregistrer des documents électroniques ou liens webs classables selon diverses rubriques. 
+ </p>
+    <p>
+  Ce document est associable à quasiment tous les types d&apos;objets présent dans GLPI. En voici la liste : 
+  <ul>
+        <li><b>Budget</b>.</li>
+        <li><b>Contrat</b>.</li>
+        <li><b>Entité</b>.</li>
+        <li><b>Fournisseur</b>.</li>
+        <li>Tous types de matériel (<i>Imprimante, Ordinateur, Moniteur...</i>).</li>
+        <li><b>Licence</b>.</li>
+        <li><b>Logiciel</b>.</li>
+        <li><b>Ticket</b>.</li>
+        <li><b>Consommable</b>.</li>
+      </ul>
+ </p>
+    <section>
+      <title>Créer un document</title>
+      <p>
+   Pour créer un document, il  sera demandé : 
+   <ul>
+          <li>Un <b>nom</b>.</li>
+          <li>Une <b>rubrique</b>.</li>
+          <li>Un <b>commentaire</b>.</li>
+          <li>Un document à renseigner au choix selon trois sources : <ul>
+              <li>En parcourant un document enregistré sur l&apos;ordinateur.</li>
+              <li>En renseignant un lien web pointant vers un document (<i>une image, une page web, un PDF...</i>).</li>
+              <li>En précisant un fichier préalablement chargé par FTP (<i>dans le dossier /mon_glpi/files/_uploads/</i>).</li>
+            </ul></li>
+          <li>Un type MIME (<i>liste disponible à l&apos;adresse suivante : http://fr.wikipedia.org/wiki/Type_mime#Liste_de_media_type_usuels </i>).</li>
+        </ul><note type="tip">À noter qu&apos;il n&apos;est pas nécéssaire d&apos;enregistrer le type MIME. De plus, le type MIME sera renseigné automatiquement depuis le bouton <b>Parcourir</b>.</note><note type="important">Il est déconseillé de renseigner les trois sources de document pour un seul et même objet. Toutefois, cette action est réalisable, mais la comprehension de ce dernier en sera dégradé.</note></p>
+    </section>
+    <note> Les types de documents autorisé dans GLPI (selon leur extension) sont définis dans <menucascade>
+        <uicontrol>Configuration</uicontrol>
+        <uicontrol>Intitulés</uicontrol>
+        <uicontrol>Gestion</uicontrol>
+        <uicontrol>Type de document</uicontrol>
+      </menucascade></note>
+    <section>
+      <p>Une fois le document créé, 4 onglets seront disponibles : 
+   <ul>
+          <li><b>Element(s) Rattaché(s)</b> : Permet d&apos;associer un objet au document ; </li>
+          <li><b>Document(s) Associé(s)</b> : Permet d&apos;associer un document à un autre document ; Exemple : Un premier document nommé &quot;Abonnement&quot; qui contiendrait un exemplaire du contrat ainsi qu&apos;en documents associés toutes les factures ;</li>
+          <li><b>Notes</b> : Permet de préciser toute information utile au document ;</li>
+          <li><b>Historique</b> : Permet comme pour tout objet de GLPI, de consulter les actions réalisés sur le document.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

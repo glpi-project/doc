@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_display" xml:lang="fr-fr">
+  <title>Onglet Configuration Affichage</title>
+  <shortdesc>Cet onglet permet de personaliser l&apos;apparence générale de l&apos;application.</shortdesc>
+  <body>
+    <p>L&apos;apparence générale de l&apos;application est paramétrable : types de graphiques par défaut, nombre de décimales pour les montants, nombre maximum de caractères affichés dans les listes, nombre maximum de résultats de recherche à afficher par page...</p>
+    <p>Dans l&apos;interface publique il est possible d&apos;ajouter un message personnalisé et d&apos;autoriser la consultation de la FAQ. </p>
+    <p>Le lien Aide qui se trouve en haut à droite de l&apos;interface peut pointer vers différentes adresses en fonction de l&apos;interface de l&apos;utilisateur. Par défaut ce lien renvoie vers la documentation en ligne officielle de GLPI.</p>
+    <p>L&apos;affichage dynamique, désactivé par défaut, permet une meilleure interaction avec l&apos;application et notamment de proposer la complétion automatique sur les champs. Le joker de l&apos;affichage dynamique permet de restreindre les résultats proposés. Par défaut, la recherche porte sur tous les résultats possibles (*).</p>
+  </body>
+</topic>

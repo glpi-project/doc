@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-default_profile">
+  <glossterm>Profil par défaut</glossterm>
+  <glossdef>Profil attribué par l&apos;application en l&apos;absence de définition particulière (règle, affectation manuelle...).</glossdef>
+</glossentry>

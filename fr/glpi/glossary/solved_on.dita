@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-solved_on">
+  <glossterm>Résolu le (ticket)</glossterm>
+  <glossdef>Etat indiquant qu&apos;une solution technique a été apportée à un incident.</glossdef>
+</glossentry>

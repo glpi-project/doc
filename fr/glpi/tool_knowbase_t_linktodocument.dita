@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un article de la base de connaissances à un document</title>
+  <taskbody>
+    <context>Associer un article de la base de connaissances à un document</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur <menucascade>
+            <uicontrol>Outils</uicontrol>
+            <uicontrol>Base de connaissances</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;article ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;article ;</cmd>
+      </step>
+      <step>
+        <cmd>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur ajouter.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec l&apos;article associé au document.</result>
+  </taskbody>
+</task>

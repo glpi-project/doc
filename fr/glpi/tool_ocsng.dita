@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_ocsng" xml:lang="fr-fr">
+  <title>Gérer les liaisons OCSNG</title>
+  <shortdesc>La gestion quotidienne de la liaison avec OCS Inventory NG se fait depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>OCSNG</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette section du menu Outils ne s&apos;affiche que si le mode OCSNG est activé dans la configuration générale de GLPI. Voir <xref href="config_ocsng.dita"/>.</p>
+    <p>La liaison avec OCSNG permet d&apos;importer, de synchroniser des ordinateurs présents dans OCSNG. Il est aussi possible de lier un ordinateur présent dans OCSNG avec un de GLPI. Ces actions peuvent être automatisées. Voir <xref href="config_crontask.dita">Configurer les actions automatiques</xref>.</p>
+    <section>
+      <title>Synchroniser des ordinateurs déjà importés </title>
+      <p>Met à jour dans GLPI un ordinateur qui a été modifié dans OCSNG. </p>
+      <p>Seuls les ordinateurs modifiés dans OCSNG apparaissent dans cette liste. Sélectionner ceux à synchroniser et de valider.</p>
+    </section>
+    <section>
+      <title>Importer de nouveaux ordinateurs</title>
+      <p>Seuls les ordinateurs qui existent dans OCSNG mais pas dans GLPI apparaissent. Sélectionner ceux à importer et de valider.</p>
+      <p audience="advanced">Une fonction de prévisualisation, disponible uniquement en mode multi-entités permet de voir dans quelle entité l&apos;ordinateur sera importé.</p>
+    </section>
+    <section>
+      <title>Lier de nouveaux ordinateurs à des ordinateurs existants</title>
+      <p>Permet de lier des ordinateurs créés manuellement dans GLPI à des ordinateurs inventoriés dans OCSNG.</p>
+    </section>
+    <section>
+      <title>Nettoyer les liens GLPI / OCS</title>
+      <p>Deux actions sont effectuées :</p>
+      <ol>
+        <li>Suppression dans les liens GLPI / OCS, des enregistrements qui concernent des ordinateurs purgés dans GLPI ;</li>
+        <li>Suppression dans GLPI, des ordinateurs qui ne sont plus reliés à des ordinateurs inventoriés dans OCSNG.</li>
+      </ol>
+    </section>
+  </body>
+</topic>

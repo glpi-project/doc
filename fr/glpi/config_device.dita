@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_device" xml:lang="fr-fr">
+  <title>Configurer les composants</title>
+  <shortdesc>Les composants se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Composants</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Les composants ajoutés aux ordinateurs sont paramétrables.</p>
+    <p>Un composant matériel est défini par un type, un nom, un fabricant (à sélectionner dans une liste déroulante renseignée depuis la configuration des intitulés ou directement depuis l&apos;icone d&apos;ajout apposée à la liste déroulante), un commentaire, ainsi que plusieurs champs spécifiques au type de composant. Par exemple, pour une carte mère, on pourra y renseigner le chipset.</p>
+    <p>La liste des différents types de composant est fixe :
+      <ul>
+        <li><b>Carte mère</b>.</li>
+        <li><b>Processeur</b>.</li>
+        <li><b>Carte réseau</b>.</li>
+        <li><b>Mémoire</b>.</li>
+        <li><b>Disque dur</b>.</li>
+        <li><b>Lecteurs</b>.</li>
+        <li><b>Contrôleurs</b>.</li>
+        <li><b>Carte graphique</b>.</li>
+        <li><b>Carte son</b>.</li>
+        <li><b>Boîtier</b>.</li>
+        <li><b>Alimentation</b>.</li>
+        <li><b>Autres composants</b>.</li>
+      </ul>
+    </p>
+    <note type="tip">Il est possible de renseigner d&apos;autres types de composants à l&apos;intérieur du type <tt>Autres composants</tt>. Il n&apos;est cependant pas possible d&apos;ajouter d&apos;autres types que ceux listés ici.</note>
+    <p>Une fois un type de composant selectionné (<tt>Carte mère, Processeur...</tt>), On accéde automatiquement à la liste des composants déjà enregistrés. On peut donc :
+      <ul>
+        <li>Rechercher un composant depuis le moteur de recherche standard de GLPI.</li>
+        <li>Modifier un composant déjà enregistré et listé en cliquant sur le nom de ce dernier.</li>
+        <li>Ajouter un nouveau composant via l&apos;icone représentant un <tt>+</tt>.</li>
+      </ul>
+    </p>
+    <section>
+      <title>Rechercher un composant</title>
+      <p>Depuis le moteur de recherche, on peut rechercher un composant sur tout ou partie des champs qui le définissent, à savoir le nom, le fabricant, le commentaire et tous les champs spécifiques au composant.</p>
+    </section>
+    <section>
+      <title>Ajouter/Modifier un composant</title>
+      <p>En ajoutant un composant, ou en le modifiant, on accède au formulaire d&apos;édition de composant.</p>
+    </section>
+  </body>
+</topic>

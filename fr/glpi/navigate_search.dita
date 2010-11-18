@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="navigate_search" xml:lang="fr-fr">
+  <title>Rechercher</title>
+  <shortdesc>Rechercher des informations dans GLPI</shortdesc>
+  <body>
+    <section>
+      <p>L&apos;ensemble des recherches de GLPI fonctionne selon le même procédé. On peut choisir les éléments que l&apos;on souhaite afficher et effectuer des recherches simples ou complexes. Un moteur de recherche global  est également disponible.</p>
+      <p>Ces listes d&apos;élements proposent deux fonctionnalités annexes : l&apos;export et la modification massive.</p>
+      <p>Enfin, un système complet de marque-pages  permet de sauvegarder les recherches favorites.</p>
+    </section>
+    <section>
+      <title>Effectuer une recherche basique</title>
+      <p>La recherche basique permet d&apos;effectuer des recherches multiples paramétrées et triées, sur un des types de l&apos;inventaire.
+
+ </p>
+    </section>
+    <example>
+      <p>Chercher les <uicontrol>ordinateurs</uicontrol> possédant plus de 1024 Mio de mémoire et  plus de 80% d&apos;espace disque libre : </p>
+      <p><uicontrol>Mémoire (Mio)</uicontrol> contient <userinput>&gt;1024</userinput>  <uicontrol>ET (recherche simple)</uicontrol> <menucascade>
+          <uicontrol>Volumes</uicontrol>
+          <uicontrol>Pourcentage libre</uicontrol>
+        </menucascade> contient  <userinput>&gt;80</userinput>  .</p>
+    </example>
+    <section>
+      <title>Effectuer une recherche multi-critères</title>
+      <p>La recherche multi-critères permet d&apos;affiner la recherche en l&apos;étendant à d&apos;autres types d&apos;objets  grâce à l&apos;ajout de critères globaux de recherche. Ce type de recherche s&apos;obtient en ajoutant des critères avec le &quot;<uicontrol>+</uicontrol>&quot; avec un triangle rouge en arrière plan.
+</p>
+    </section>
+    <example>Chercher les <uicontrol>ordinateurs</uicontrol> possédant plus de 1024 Mio de mémoire et plus de 80% d&apos;espace disque libre, attachés à un moniteur de 17 pouces et ayant le logiciel LibreOffice installé : <uicontrol>Mémoire (Mio)</uicontrol> contient <userinput>&gt;1024</userinput><uicontrol>ET (recherche simple)</uicontrol><menucascade>
+        <uicontrol>Volumes</uicontrol>
+        <uicontrol>Pourcentage libre</uicontrol>
+      </menucascade> contient <userinput>&gt;80</userinput><uicontrol>ET (multi-critère)</uicontrol> pour lesquels <menucascade>
+        <uicontrol>Moniteur</uicontrol>
+        <uicontrol>Taille</uicontrol>
+      </menucascade> contient <userinput>17</userinput><uicontrol>ET (multi-critère)</uicontrol> pour lesquels <menucascade>
+        <uicontrol>Logiciels</uicontrol>
+        <uicontrol>Nom </uicontrol>
+      </menucascade> contient <userinput>LibreOffice</userinput>.</example>
+    <section>
+      <title>Eléments supprimés</title>
+      <p>Les éléments supprimés de GLPI sont stockés dans une corbeille. Pour les visualiser afin de les restaurer ou de les purger, cliquer sur l&apos;icône représentant une corbeille. Pour retourner à la visualisation des éléments actifs, cliquer à nouveau sur cette icône.</p>
+    </section>
+    <section>
+      <title>Effetuer une recherche avancée</title>
+      <p>Voici quelques exemples d&apos;opérateurs de recherche :
+
+    </p>
+      <parml>
+        <plentry>
+          <pt>NULL</pt>
+          <pd>rechercher les enregistrements ayant tel champ vide</pd>
+        </plentry>
+        <plentry>
+          <pt>avec un champ date : <userinput>&lt;nombre_de_mois</userinput> ou <userinput>&gt;nombre_de_mois</userinput></pt>
+          <pd>rechercher les matériels avec un délai correspondant au nombre de mois </pd>
+          <pd>rechercher les ordinateurs vieux de 5 ans : <uicontrol>Date d&apos;achat</uicontrol> contient <userinput>&gt;60</userinput>.</pd>
+        </plentry>
+        <plentry>
+          <pt>
+            <userinput>^123</userinput>
+          </pt>
+          <pd>rechercher les enregistrements contenant <userinput>123</userinput> en début de champ. </pd>
+          <pd/>
+          <pd>Attention, il faut taper <userinput>^</userinput> puis la barre d&apos;espace puis le premier caractère.</pd>
+        </plentry>
+        <plentry>
+          <pt>
+            <userinput>^Windows</userinput>
+          </pt>
+          <pd>rechercher les enregistrements contenant <userinput>Windows 2000</userinput>, <userinput>Windows XP</userinput> mais pas <userinput>avec Windows</userinput>. </pd>
+        </plentry>
+        <plentry>
+          <pt>
+            <userinput>123$</userinput>
+          </pt>
+          <pd>rechercher les enregistrements contenant <userinput>123</userinput> en fin de champ</pd>
+        </plentry>
+        <plentry>
+          <pt>
+            <userinput>^123$</userinput>
+          </pt>
+          <pd>rechercher les enregistrements contenant uniquement le texte <userinput>123</userinput>.</pd>
+        </plentry>
+        <plentry>
+          <pt>deux critères de recherche liés par l&apos;opérateur <uicontrol>AND NOT</uicontrol></pt>
+          <pd>rechercher les enregistrements ne correspondant pas à un critère (différent de). </pd>
+        </plentry>
+        <plentry>
+          <pt><uicontrol>Type</uicontrol> = vide (pour tout sélectionner) <uicontrol>AND NOT </uicontrol><uicontrol>Type</uicontrol> = <userinput>Laptop</userinput></pt>
+          <pd>rechercher tous les ordinateurs qui ne sont pas des laptop, c&apos;est à dire <uicontrol>Type</uicontrol> différent de <userinput>Laptop</userinput>.<fig>
+              <title>Exemple de recherche &quot;différent de&quot;</title>
+              <image href="../image/searchexample.png"/>
+            </fig></pd>
+        </plentry>
+        <plentry>
+          <pt><userinput>[Année]-[Mois]-[Jour]</userinput> (<userinput>AAAA-MM-JJ</userinput>)</pt>
+          <pd>rechercher par date</pd>
+        </plentry>
+        <plentry>
+          <pt>
+            <userinput>\</userinput>
+          </pt>
+          <pd>Pour des questions de sécurité, l&apos;opérateur <userinput>\</userinput> n&apos;est pas utilisable.</pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>Exporter le résultat d&apos;une recherche</title>
+      <p>L&apos;export du résultat de la recherche aux formats pour tableur SLK ou  CSV, ou au format PDF   peut être réalisé sous deux formes différentes : la <uicontrol>page courante</uicontrol> exporte uniquement les données affichées à l&apos;écran (par exemple les 10 premiers résultats sur 200) alors que <uicontrol>toutes les pages</uicontrol> exporte l&apos;ensemble des résultats de la recherche.</p>
+      <p>Le format SLK est exploitable par de nombreux tableurs. Les champs trop longs seront tronqués en cas d&apos;utilisation d&apos;un logiciel qui ne respecte pas totalement les standards. Il est préférable dans ce cas d&apos;utiliser les exports au format CSV.</p>
+      <p>Si les données exportées en format CVS sont importées dans le logiciel Microsoft Excel, les caractères accentués peuvent ne pas s&apos;afficher correctement. La faute en incombe à Excel qui ne comprend pas les données dans l&apos;encodage de caractères UTF-8.</p>
+      <p>L&apos;export en format PDF ne supporte pas actuellement le format UTF-8. L&apos;affichage des caractères non latins (par exemple du chinois ou du cyrillique) n&apos;est pas pris en charge.</p>
+    </section>
+    <section>
+      <title>Effectuer des modifications massives</title>
+      <p>Un système de modification massive est intégré au moteur de recherche. Il  permet d&apos;effectuer des modifications sur tous les éléments  sélectionnés (<b>Supprimer</b>, <b>Purger</b>, <b>Restaurer</b>, <b>Connecter</b> / <b>Déconnecter</b>, <b>Installer</b>, <b>Mettre à jour des champs</b>, <b>Ajouter un document ou un contrat</b>, <b>Transférer</b> ou <b>Synchroniser</b>). Une fois le type de modification sélectionné, des options sont éventuellement présentées, ainsi qu&apos;un bouton de validation.</p>
+    </section>
+    <section>
+      <title>Recherche rapide</title>
+      <p><fig>
+          <title>Le champ de recherche rapide</title>
+          <image href="../image/quicksearch.png"/>
+        </fig>Cet outil se trouvant en haut à droite de l&apos;écran GLPI permet la recherche d&apos;une chaîne de caractères simultanément  sur les éléments  suivants : Ordinateur, Moniteur, Logiciel, Matériel Réseau, Périphérique, Imprimantes, Téléphones, Contacts, Fournisseurs et Documents. </p>
+    </section>
+    <section>
+      <title>Les marques-pages</title>
+      <p>GLPI permet d&apos;enregistrer de manière personnelle ou publique des recherches que l&apos;utilisateur souhaite conserver et rééxécuter si besoin.</p>
+      <p>Une fois une recherche effectuée, cliquer sur le bouton <image href="../image/bookmark_record.png" width="8mm"/>. Une boite de dialogue s&apos;ouvre, permettant de sauver le marque-page grâce à un <b>nom</b>. Le <b>type de marque-page</b> est soit public (visibilté par toutes les personnes de l&apos;entité qui ont le droit sur le type d&apos;objet sur lequel porte la recherche), soit privé (visible par l&apos;auteur seulement, quelque soit l&apos;entité courante).  </p>
+      <p>Un marque-page public ne peut-être modifié que sur l&apos;entité dans laquelle il a été créé. Seules les personnes possèdant le droit d&apos;écriture sur les marques-pages public sont habilités à créer les créer et à modifier ceux qui existent.</p>
+      <p>De plus un marque-page peut-être défini comme marque-page par défaut, et sera donc chargé à chaque démarrage de GLPI. Rééditer le marque-page et le  positionner à oui sur <b>Vue par défaut</b>. </p>
+      <p>Pour recharger un marque-page, choisir le marque-page désiré en cliquant sur l&apos;icône <b>Charger marque-page </b> <image href="../image/bookmark.png" width="8mm"/>depuis le deuxième fil d&apos;ariane.</p>
+    </section>
+    <example>Si les gestionnaires de parc ont besoin de connaître régulièrement l&apos;ensemble des machines tournant sous GNU/Linux avec plus de 512 Mio de mémoire, alors créer un marque-mage public.</example>
+    <example audience="advanced">Dans le cas d&apos;une utilisation de GLPI en multi-entités, pour mettre à disposition des utilisateurs des requêtes pré-définies, qui ne sont pas modifiables, il est possible de créer des marques-pages public visibles dans des sous-entités.</example>
+  </body>
+</topic>

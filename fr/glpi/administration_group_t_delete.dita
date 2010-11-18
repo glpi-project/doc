@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Supprimer un groupe</title>
+  <taskbody>
+    <context>Supprimer un groupe</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Groupes</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du groupe ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du groupe</li>
+              <li>Supprimer</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le groupe</li>
+              <li>Modification massive : Supprimer</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>

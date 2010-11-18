@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-plugin">
+  <glossterm>Plugin</glossterm>
+  <glossdef>Extension de GLPI permettant l&apos;ajout d'une ou plusieurs fonctionnalités et/ou la modification de certains comportements de l&apos;application.</glossdef>
+</glossentry>

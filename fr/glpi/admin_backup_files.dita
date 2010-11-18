@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin_backup_files" xml:lang="fr-fr">
+  <title>Sauvegarder les fichiers</title>
+  <shortdesc>Pour réaliser une sauvegarde complète de GLPI, il est indispensable de sauvegarder l&apos;intégralité des fichiers de GLPI.</shortdesc>
+  <body>
+    <p>Les  fichiers de GLPI  se situent dans le répertoire d&apos;installation sur le serveur web. Ils contiennent les fichiers de sauvegarde de la base de données créés depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Maintenance</uicontrol>
+      </menucascade>, ainsi que tous les documents ajoutés dans GLPI (associés aux tickets,  aux matériels, aux contrats...)</p>
+    <p><note type="tip">Si GLPI est installé dans un repertoire <codeph>glpi</codeph>, c&apos;est ce répertoire qu&apos;il convient de sauvegarder complétement.</note></p>
+  </body>
+</topic>

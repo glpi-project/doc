@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_software_installation" xml:lang="fr-fr">
+  <title>Gérer les installations</title>
+  <shortdesc>Principes et gestion des installations logiciels dans GLPI<menucascade>
+    <uicontrol>Inventaire</uicontrol>
+      <uicontrol>Logiciel</uicontrol>  
+  </menucascade></shortdesc>
+ <body>
+    <p>L&apos;installation d&apos;un logiciel sur un poste est visualisée au travers d&apos;une version (voir <xref href="inventory_software_version.dita"/>) et consultable sur  la fiche d&apos;un logiciel (liste des ordinateurs ayant au moins une version installée), sur celle d&apos;une version (ordinateurs ayant cette version installée) ou enfin sur la fiche de l&apos;ordinateur (liste des versions de logiciels installées, triées par catérogies).</p>
+    <note>La colonne licence est remplit uniquement lorsque la licence est affectée à l&apos;ordinateur concerné.</note>
+    <note>L&apos;affichage initial des différents catégorie dépend des préférences utilisateur. Voir <xref href="config_common_personalize.dita"/>.</note>
+    <p>2 options sont disponibles sur la liste des installations de logiciels d&apos;un ordinateur. Au dessus de la liste,  <b>Installer</b> manuellement une version d&apos;un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si un licence est associée à celui-ci la &quot;version d&apos;utilisation&quot; de la licence est automatiquement renseignée.  Pour chaque version <b>Désinstaller</b> une version d&apos;un logiciel  : si une licence est affectée à l&apos;ordinateur elle le reste, mais sa &quot;version d&apos;utilisation&quot; est effacée. </p>
+    <p>Enfin dans la catégorie &quot;licences affectées mais non installée, <b>Installer</b> permet de déclarer la version d&apos;achat d&apos;une licence installée.</p>
+  </body>
+</topic>

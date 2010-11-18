@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-urgency">
+  <glossterm>Urgence</glossterm>
+  <glossdef>Critère défini par le demandeur indiquant la rapidité de résolution souhaitée pour le ticket.</glossdef>
+</glossentry>

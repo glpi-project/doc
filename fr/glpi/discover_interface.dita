@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
+<topic id="topic-1">
+  <title>Découvrir l&apos;interface de GLPI</title>
+  <shortdesc>En fonction du profil de l&apos;utilisateur, les menus peuvent différer mais la logique de l&apos;interface reste la même.</shortdesc>
+  <body>
+    <p>L&apos;interface de GLPI est composée de cinq zones regroupant les fonctionnalités de l&apos;application en fontion de leur nature.</p>
+    <fig>
+      <title>L&apos;interface de GLPI</title>
+      <image href="../image/interface.png" width="15cm"/>
+      <ol>
+        <li>Le menu utilisateur permet de gérer ses préférences, d&apos;accéder à l&apos;aide et de se déconnecter ;</li>
+        <li>Le menu principal permet de naviguer dans les différents modules ;</li>
+        <li>Le fil d&apos;ariane permet de situer le contexte d&apos;utilisation de la zone de travail principale ;</li>
+        <li>Le menu contextuel et le sélecteur d&apos;entité permettent d&apos;agir sur le contexte ;</li>
+        <li>La zone de travail principale est l&apos;espace privilégié d&apos;interaction avec l&apos;application.</li>
+      </ol>
+    </fig>
+  </body>
+</topic>

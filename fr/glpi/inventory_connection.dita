@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_connection" xml:lang="fr-fr">
+  <title>Onglet &quot;Connexions&quot;</title>
+  <shortdesc>Gestion des connexions</shortdesc>
+  <body>
+    <p>Dans cet onglet,  il est possible  de gérer les connexions sur l&apos;élément.</p>
+  </body>
+</topic>

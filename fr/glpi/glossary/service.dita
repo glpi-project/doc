@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-service">
+  <glossterm>Service</glossterm>
+  <glossdef>Action générale de GLPI listée dans les événements.</glossdef>
+</glossentry>

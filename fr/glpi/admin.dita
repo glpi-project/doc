@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin" xml:lang="fr-fr">
+  <title>Réaliser les opérations de maintenance</title>
+  <shortdesc>Opérations de maintenance de GLPI</shortdesc>
+  <body>
+    <p>Ce chapitre explique comment réaliser les opérations de maintenance applicative telles que la sauvegarde complète de GLPI, l&apos;installation des plugins et la mise à jour de GLPI. </p>
+  </body>
+</topic>

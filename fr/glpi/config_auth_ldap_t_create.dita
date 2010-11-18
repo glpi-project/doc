@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Ajouter un nouvel annuaire LDAP</title>
+  <taskbody>
+    <context>Ajouter un annuaire comme nouvelle source d&apos;authentification</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Authentification</uicontrol>
+            <uicontrol>Annuaire LDAP</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+      </step>
+      <step>
+        <cmd>Si vous possèdez un annuaire Microsoft Active Directory, vous pouvez utiliser le modèle de pré-configuration disponible sur le formulaire de création ;</cmd>
+      </step>
+      <step>
+        <cmd>Valider.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche créée.</result>
+  </taskbody>
+</task>

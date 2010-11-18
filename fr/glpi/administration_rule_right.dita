@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_right" xml:lang="fr-fr">
+  <title>Attribuer des habilitations à un utilisateur</title>
+  <shortdesc>GLPI dispose d&apos;un moteur d&apos;habilitations dynamiques qui se base sur des sources externes d&apos;authentification. Il est accessible depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Règles</uicontrol>
+      <uicontrol>Règles d&apos;affectation d&apos;entité et de droits</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <p>Une habilitation dans GLPI est une autorisation résultante de l&apos;attribution de droits sur un périmètre d&apos;action (une ou plusieurs entités). En d&apos;autres termes c&apos;est l&apos;appartenance conjointe à un profil et à une entité.
+</p>
+    <p>Les habilitations peuvent être attribuées statiquement, en affectant un utilisateur à un profil dans une entité, mais ce n&apos;est pas la méthode conseillée.
+</p>
+    <p>Il est conseillé d&apos;utiliser le moteur de règles d&apos;affectation d&apos;entité et de droits pour attribuer automatiquement les habilitations. Pour cela il est nécessaire d&apos;utiliser une authentification externe.
+Ce type de règle est accessible depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+        <uicontrol>Règles d&apos;affectation d&apos;entités et de droits</uicontrol>
+      </menucascade>.</p>
+    <note>Si aucun annuaire LDAP, serveur POP ou IMAP ne sont configurés, alors le menu n&apos;apparaît pas dans <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+      </menucascade>.</note>
+    <p>Le moteur exécute toutes les règles. Il ne s&apos;arrête pas après la première règle qui s&apos;applique à l&apos;utilisateur. Plusieurs règles permettent ainsi d&apos;attribuer différentes habilitations à un même utilisateur. Un utilisateur possédant plusieurs habilitations peut, au cours de sa session et selon ses activités, changer de profil et de contexte d&apos;entité.</p>
+    <section>
+      <title>Le profil par défaut</title>
+      <p>Si un profil par défaut est défini dans la configuration des profils de GLPI, et si une règle d&apos;affectation d&apos;habilitation ne comporte pas d&apos;affectation de profil, alors le profil par défaut est utilisé lors de l&apos;affectation d&apos;un utilisateur à l&apos;entité.
+
+</p>
+      <p>Si aucun profil par défaut n&apos;est défini, l&apos;utilisateur est importé sans habilitation : il n&apos;est ni affecté à une entité, ni affecté à un profil. Seul le profil super-admin peut le voir dans l&apos;entité racine.
+
+</p>
+    </section>
+    <section>
+      <title>Habilitations basées sur les serveurs de messagerie</title>
+      <p>Les informations de messagerie IMAP/POP peuvent être utilisées pour affecter automatiquement les habilitations.
+
+L&apos;identifiant IMAP/POP (le login de l&apos;utilisateur) et l&apos;URL du serveur de messagerie peuvent servir de critère.
+
+Les utilisateurs peuvent être créés au fil de l&apos;eau lorsqu&apos;ils se connectent. Par contre, il n&apos;est pas possible d&apos;importer en masse ceux-ci depuis le serveur de messagerie.
+</p>
+    </section>
+    <section>
+      <title>Habilitations basées sur l&apos;URL du serveur de messagerie</title>
+      <p>Lorsque plusieurs serveurs de messagerie sont définis comme source d&apos;authentification et que l&apos;URL du serveur du messagerie est un critère pertinent, cette information peut servir à définir les habilitations.</p>
+    </section>
+    <example>
+      <p>L&apos;authentification utilise les serveurs IMAP/POP suivants : <tt>imap.exemple.fr</tt> et <tt>imap.exemple.be</tt>. Chacun de ces serveur est défini comme une source d&apos;authentification.
+Cette information permet d&apos;attribuer l&apos;utilisateur à l&apos;entité <tt>france</tt> ou <tt>belgique</tt>.
+À cette fin deux règles statiques seront nécessaires :</p>
+      <codeblock>Règle pour la Belgique :
+Critères : IMAP/POP est par exemple.be
+Actions : assigner l&apos;entité belgique
+Règle pour la France :
+Critères : IMAP/POP est par exemple.fr
+Actions : assigner l&apos;entité france</codeblock>
+    </example>
+    <section>
+      <title>Habilitations basées sur l&apos;identifiant de messagerie :</title>
+      <p>Lorsque les adresses de messagerie des utilisateurs comportent plusieurs noms de domaines, ou une information pertinente pour définir les habilitations, cette information peut servir à définir les habilitations.</p>
+    </section>
+    <example>
+      <p>Les utilisateurs s&apos;authentifient à partir des adresses de messagerie de la forme suivantes : <tt>utilisateur@example.fr</tt> et <tt>utilisateur@exemple.be</tt>.
+Peu importe si un ou plusieurs serveurs de messagerie sont utilisés pour l&apos;authentification. Cette information permet d&apos;attribuer l&apos;utilisateur à l&apos;entité <tt>france</tt> ou <tt>belgique</tt>. À cette fin deux règles statiques seront nécessaires :</p>
+      <codeblock>Règle pour la Belgique :
+Critères : Identifant IMAP/POP finit par exemple.be
+Actions : assigner l&apos;entité belgique
+Règle pour la France :
+Critères : Identifiant IMAP/POP finit par exemple.fr
+Actions : assigner l&apos;entité france</codeblock>
+    </example>
+    <section>
+      <title>Habilitations basées sur les annuaires LDAP</title>
+      <p>Les attributs LDAP d&apos;un utilisateur peuvent servir de source pour affecter dynamiquement à cet utilisateur  des habilitations à l&apos;aide des règles d&apos;affectation d&apos;habilitations.
+Les manières d&apos;utiliser un arbre LDAP pour créer des règles d&apos;habilitation pour les utilisateurs sont multiples et dépendent du contexte de l&apos;implémentation de l&apos;annuaire.</p>
+    </section>
+    <section>
+      <title>Habilitations basées sur les unités organisationnelles d&apos;un annuaire LDAP </title>
+      <p>Soit un annuaire LDAP où l&apos;organisation des branches (unités organisationnelles) correspond à l&apos;organisation des entités GLPI. Chaque unité organisationnelle (OU)  contient les utilisateurs, directement ou dans une sous-branche.
+Chacune des branches peut servir à établir une règle d&apos;affectation d&apos;un utilisateur à une entité.
+Le cas des utilisateurs appartenant à plusieurs entité doit être traité par ailleurs.
+Ce modèle est pertinent lorsqu&apos;un profil par défaut peut être attribué à la majorité des utilisateurs.
+L&apos;attribution des profils non standard doit être traitée par ailleurs.
+Les informations sur l&apos;utilisateur remontées depuis l&apos;annuaire sont suffisantes pour créer les règles d&apos;affectation dans GLPI.
+</p>
+    </section>
+    <example>
+      <p>Soit un arbre LDAP de la forme suivante :
+</p>
+      <codeblock>org
++- exemple
+ +- france
+  +- paris
+  +- lyon
+  +- bordeaux
+ +- belgique
+  +- bruxelles
+</codeblock>
+      <p>Chacune des branches est formalisée telle que l&apos;exemple suivant :
+</p>
+      <codeblock>ou=lyon,ou=france,dc=exemple,dc=org
+</codeblock>
+      <p>Dans la configuration de chaque entité, dans l&apos;onglet informations avancée, indiquer l&apos;information LDAP représentant l&apos;entité (dans le cas présent le &quot;distinguished name&quot; de l&apos;entité).
+
+</p>
+      <p>Par exemple, pour l&apos;entité Lyon : </p>
+      <codeblock>Information LDAP représentant l&apos;entité :<tt>ou=lyon,ou=france,dc=exemple,dc=org</tt></codeblock>
+      <p>Ensuite, définir la ou les règles dans <menucascade>
+          <uicontrol>Administration </uicontrol>
+          <uicontrol>Règles</uicontrol>
+          <uicontrol>Règles d&apos;affectation d&apos;entité et de droits</uicontrol>
+        </menucascade>
+
+</p>
+      <p>Deux possibilités s&apos;offrent à l&apos;utilisateur : un ensemble de règles statiques ou une règle adaptative.
+</p>
+      <p>Règle statique :
+
+pour chaque entité, définir une règle d&apos;affectation
+
+de la forme suivante :</p>
+      <codeblock>Critères (LDAP)DistinguishedName finit par :  <tt>ou=lyon,ou=france,dc=exemple,dc=org</tt>
+Actions : assigner l&apos;entité <tt>lyon</tt></codeblock>
+      <p>Règle adaptative :
+
+une règle unique basée sur des expressions rationnelles suffit à définir l&apos;affectation à toutes les entités  :</p>
+      <codeblock>Critères : (LDAP)DistinghuishedName vérifie l&apos;expression rationnelle suivante : /(ou=.*)/ 
+Actions : assigner l&apos;entité  depuis LDAP, valeur depuis expression rationnelle : #0</codeblock>
+      <p>L&apos;exécution de la règle récupère dans le &quot;distinguished name&quot; de l&apos;utilisateur son unité organisationnelle (OU) d&apos;appartenance. Elle va ensuite la comparer aux valeurs de l&apos;attribut Information LDAP représentant l&apos;entité dans la base. Si une entité à l&apos;attribut dont la valeur correspond, alors cette dernière est utilisée comme résultat de la règle. <note>la valeur de l&apos;action #0 indiquer que l&apos;on doit utiliser le premier résultat de l&apos;expression rationnelle. #1 indique le deuxième et ainsi de suite. Le bouton <b>Tester</b> du formulaire permet d&apos;essayer des valeurs et de voir le résultat obtenu. </note></p>
+    </example>
+    <section>
+      <title>Habilitations basées sur les groupes ou les attributs d&apos;un utilisateur dans un annuaire LDAP</title>
+      <p>Dans l&apos;annuaire, chacun des utilisateurs fait partie d&apos;un groupe correspondant à un profil GLPI et d&apos;un groupe correspondant à une entité.
+Un utilisateur peut faire partie de plusieurs profils et de plusieurs entités.
+
+Selon la configuration de l&apos;annuaire, l&apos;information de l&apos;appartenance de l&apos;utilisateur à un groupe se trouve dans l&apos;objet utilisateur ou  dans l&apos;objet groupe.
+
+Dans le premier cas, les informations contenues dans l&apos;objet utilisateur sont suffisantes pour créer des règles d&apos;habilitation : il n&apos;est pas nécessaire d&apos;importer les groupes de l&apos;annuaire dans GLPI.
+
+Dans le deuxième cas, les informations contenues dans l&apos;objet utilisateur ne suffisent pas et il est nécessaire de récupérer les informations sur les groupes. Il faut alors d&apos;abord configurer les groupes LDAP et la liaison automatique des utilisateurs aux groupes.
+</p>
+      <note>Tout ceci n&apos;est pas limité aux attributs de type groupe, mais est valable pour les autres types d&apos;attributs stockés dans l&apos;annuaire. </note>
+    </section>
+    <example>
+      <p>Soit un arbre LDAP de la forme suivante :
+</p>
+      <codeblock>org
++- exemple
+ +- profil
+  += post-only
+  += tech
+  += admin
+  += super-admin
+ +- entité
+  +- france
+   += paris
+   += lyon
+ +- people
+  +-
+</codeblock>
+      <p>Dans cet exemple, les profils et les entités sont définis comme des groupes. Par exemple :
+</p>
+      <codeblock>cn=post-only,ou=profil,dc=exemple,dc=org
+cn=paris,ou=entité,dc=exemple,dc=org
+</codeblock>
+      <p>Aucune configuration particulière spécifique à l&apos;entité n&apos;est requise. 
+
+</p>
+      <p>Dans <menucascade>
+          <uicontrol>Administration </uicontrol>
+          <uicontrol>Règles</uicontrol>
+          <uicontrol>Règles d&apos;affectation d&apos;entité et de droits</uicontrol>
+        </menucascade>, définir des règles suivantes : </p>
+      <p>Pour l&apos;affectation d&apos;un profil à un utilisateur est de la forme : </p>
+      <codeblock>Critères :Groupe annuaire LDAP est post=only
+Actions : Profil assigner post-only</codeblock>
+      <p>Pour l&apos;affectation à  une entité :</p>
+      <p><codeblock>Critères : Groupe annuaire LDAP est paris
+Actions : Entité assigner Exemple &gt; France &gt; Paris</codeblock></p>
+      <p><note type="important">le calcul des habilitations se fait une fois toutes les règles exécutées. Dans l&apos;exemple précédent, une règle attribut une entité seulement et l&apos;autre un profil seulement. Le produit des 2 permet de définir l&apos;habilitation de l&apos;utilisateur. De la même manière, si l&apos;utilisateur se voit affecté 2 entités par 2 règles différentes et un seul profil, alors il aura 2 habilitations : une sur chaque entité avec le même profil.</note><note type="important"/>
+
+</p>
+    </example>
+    <section>
+      <title>Usage de différentes sources d&apos;habilitations</title>
+      <p>Des cas mixtes peuvent être rencontrés : les règles peuvent utiliser à la fois l&apos;appartenance à des unités organisationelles pour l&apos;affectation à une entité, et l&apos;appartenance à un groupe pour l&apos;affectation à un profil.
+
+</p>
+      <note>il est possible de rajouter des critères LDAP supplémentaires, en cliquant sur l&apos;icône &apos;<b>+</b>&apos; à côté de la liste déroulante. Un critère est composé d&apos;un nom (utilisé dans la liste déroulante), d&apos;un critère (correspondant à l&apos;attribut dans l&apos;annuaire LDAP) et d&apos;un commentaire. </note>
+    </section>
+  </body>
+</topic>

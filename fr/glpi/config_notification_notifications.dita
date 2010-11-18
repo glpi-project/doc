@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification_notifications" xml:lang="fr-fr">
+  <title>Gérer les notifications par entité</title>
+  <shortdesc>Une notification est l&apos;association d&apos;un événement pour un type donné avec un modèle. Une liste destinataire est créée à cet effet.</shortdesc>
+  <body>
+    <p>Une notification étant liée à une entité, il est possible de déléguer sa gestion (contrairement aux modèles qui sont, eux, globaux) .</p>
+    <section>
+      <title>Création d&apos;une notification</title>
+      <p>Une notification est composé d&apos;un certain nombre de champs spécifiques à renseigner :</p>
+      <p><ul>
+          <li><b>Type</b> : type d&apos;objet de GLPI sur lequel la notification se rapporte ;</li>
+          <li><b>Mode de notification</b> : actuellement seul &quot;courriel&quot; est disponible ;</li>
+          <li><b>Evènement</b> : indique sur quel évènement du type d&apos;objet la notification se rapporte ;</li>
+          <li><b>Modèles de notifications</b> : associe un modèle de notification à la notification courante ;</li>
+        </ul> </p>
+    </section>
+    <section>
+      <title>Destinataires des notifications</title>
+    </section>
+    <p>Une fois le formulaire validé, la liste des destinataires potentiels apparaît. </p>
+    <p>Un certain nombre d&apos;acteurs de l&apos;application sont proposés :</p>
+    <p><ul>
+        <li><b>Administrateur</b> : personne dont l&apos;adresse de messagerie a été définie dans le menu <i>Configuration &gt; Notifications &gt; Configuration des suivis par courriels et des alertes</i> ;</li>
+        <li><b>Administrateur Entité</b> : personne, pour chaque entité, dont l&apos;adresse de messagerie est définie dans l&apos;onglet <i>Notifications</i> d&apos;une entité ;</li>
+        <li><b>Profil XXX</b> : toutes les personnes ayant une habilitation sur l&apos;entité et qui possèdent ce profil ;</li>
+        <li><b>Groupe XXX</b> : toutes les personnes ayant une habilitation sur l&apos;entité et qui font partie du groupe ;</li>
+        <li><b>Superviseur groupe XXX</b> : personne déclarée comme superviseur du groupe dans la fiche de celui-ci ;</li>
+        <li><b>Technicien chargé du ticket</b> : technicien auqel le ticket est attribué ;</li>
+        <li><b>Demandeur</b> : personne à l&apos;origine du ticket ;</li>
+        <li><b>Ancien technicien chargé du ticket </b>: technicien qui était en charge du ticket avant réattribution de celui-ci;</li>
+        <li><b>Responsable technique</b> : personne désignée comme responsable technique du matériel lié au ticket;</li>
+        <li><b>Utilisateur du matériel</b> : personne désignée comme utilisateur dans le matériel associé ;</li>
+        <li><b>Rédacteur</b> : personne qui saisit l&apos;information ;</li>
+        <li><b>Fournisseur</b> : fournisseur auquel le ticket est attribué ;</li>
+        <li><b>Groupe chargé du ticket</b> : groupe auquel le ticket est attribué ;</li>
+      </ul> </p>
+    <section>
+      <title>Fonctionnement des notifications</title>
+      <p>Le mécanisme de traitement des notifications est puissant mais peut être complexe si vous utilisez des entités. Il est basé sur l&apos;algorithme suivant :</p>
+      <p><ol>
+          <li> Une action a déclenché un évènement qui nécessite une notification ;</li>
+          <li>GLPI recherche les notifications qui correspondent à l&apos;évènement dans l&apos;entité de l&apos;objet qui à l&apos;origine de la notification et dans les entités parentes ;</li>
+          <li>Pour chaque notification GLPI récupère la liste des destinataires :<ul>
+              <li>une traduction du modèle existe pour la langue de l&apos;utilisateur : GLPI l&apos;utilise pour envoyer la notification ;</li>
+              <li>aucune traduction n&apos;existe : GLPI utilise la traduction par défaut ;</li>
+              <li>GLPI garde en mémoire que cet utilisateur a déjà été notifié pour ne plus les traiter par la suite.</li>
+            </ul></li>
+        </ol></p>
+      <p>Les envois de notifications s&apos;effectuent de manière synchrone, c&apos;est à dire qu&apos;ils sont déclenchés par GLPI au moment du déclenchement d&apos;un évènement.</p>
+    </section>
+    <note type="important">si une notification est définie comme visible dans les sous-entités, elle sera alors exécutée même si l&apos;administrateur d&apos;une entité fille ne la redéclare pas.</note>
+  </body>
+</topic>

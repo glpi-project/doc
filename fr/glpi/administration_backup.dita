@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_backup" xml:lang="fr-fr">
+  <title>Sauvegarder ou restaurer la base de données</title>
+  <shortdesc>Les opérations de maintenance de la base de données de GLPI se font depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Maintenance</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Il est possible de réaliser une sauvegarde SQL ou XML directement dans GLPI, et de restaurer cette sauvegarde par la suite.</p>
+    <p><note type="tip">Il est préférable d&apos;utiliser le format SQL.</note></p>
+    <p>La liste des sauvegardes apparait à partir du moment ou au moins une sauvegarde a été réalisée. Il est ensuite possible de supprimer une sauvegarde précédemment réalisée, de restaurer la base de données à partir de la sauvegarde ou de télécharger la sauvegarde pour l&apos;externaliser.<note type="attention">la restauration écrase toutes les modifications faites entre la date de sauvegarde et la date de restauration.</note></p>
+    <p>Il est toutefois préférable d&apos;utiliser un outil externe, tel que <codeph>mysqldump</codeph>, pour faire des sauvegardes externes planifiées, et de stocker ces sauvegardes sur un support externe.</p>
+  </body>
+</topic>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-central">
+  <glossterm>Central</glossterm>
+  <glossdef>Interface de GLPI donnant accès à toutes les fonctionnalités (en opposition avec l&apos;interface Helpdesk). Désigne aussi l&apos;écran d&apos;accueil de GLPI lorsque l&apos;utilisateur est connecté.</glossdef>
+</glossentry>

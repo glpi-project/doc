@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Supprimer un budget</title>
+  <taskbody>
+    <context>Supprimer un budget dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Budgets</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du budget ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du budget</li>
+              <li>Supprimer</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le budget</li>
+              <li>Modification massive : Supprimer</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Le budget est placé dans la corbeille.</result>
+  </taskbody>
+</task>

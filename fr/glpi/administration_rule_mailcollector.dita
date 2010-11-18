@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_mailcollector" xml:lang="fr-fr">
+  <title>Affecter un ticket ouvert par courriel à une entité</title>
+  <shortdesc>GLPI implémente un mécanisme de routage des tickets ouverts par courriel, afin de les créer dans la bonne entité. Celui-ci se base sur le moteur de règles.</shortdesc>
+  <body>
+    <p>Ce type de règle est accessible depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+        <uicontrol>Règles d&apos;affectation des tickets ouvert par courriel</uicontrol>
+      </menucascade>.</p>
+    <p><note>si les notifications ne sont pas activées dans la configuration, le menu n&apos;apparaît pas dans <b>Règles</b>.</note></p>
+    <p>Les critères disponibles sont des entêtes du courriel (priorité, from, to, in_reply_to), ainsi que les données du ticket (sujet et corps). </p>
+    <p>Enfin il existe un troisième type de critères qui joue sur des données propres à l&apos;utilisateur ou à la configuration des entités :</p>
+    <p><ul>
+        <li><b>domaine de messagerie connu</b> : permet de vérifier que le domaine de messagerie du courriel envoyé correspond bien à un renseigné dans une entité. Ce critère permet d&apos;éliminer par exemple tous les spams (messages ne provenant pas de domaines autorisés);</li>
+        <li><b> utilisateur : groupe </b> : vérifie que l&apos;utilisateur GLPI associé à l&apos;adresse de messagerie de l&apos;émetteur appartient bien à un groupe donné;</li>
+        <li><b> utilisateur : nom </b> : nom de l&apos;utilisateur GLPI associé à l&apos;adresse de messagerie de l&apos;émetteur du courriel;</li>
+        <li><b> utilisateur possède le profil </b> : l&apos;utilisateur possède un profil donné;</li>
+        <li><b>utilisateur possède une seule fois le profil</b> : l&apos;utilisateur possède une seule fois un profil donné. C&apos;est à dire qu&apos;il ne dispose pas du profil affecté sur plusieurs entités distinctes;</li>
+        <li><b>utilisateur possède un seul profil</b> : l&apos;utilisateur possède et un seul profil dans GLPI. Si le profil est associé à plusieurs entités différentes, alors c&apos;est celle qui est définie comme entité par défaut dans les options de personnalisation de l&apos;utilisateur qui sera l&apos;entité du ticket. Si aucune n&apos;est définie dans les préférences, la règle n&apos;est pas vérifiée.</li>
+      </ul></p>
+    <p>Les actions sont soit le refus du ticket (avec ou sans notification du refus à l&apos;émetteur), soit l&apos;import dans une entité (manuel, depuis TAG, depuis domaine de messagerie, depuis profil de l&apos;utilisateur).</p>
+    <note type="important">le moteur s&apos;arrête à la première règle vérifiée.</note>
+    <example>Un exemple d&apos;utilisation du moteur est le suivant :</example>
+    <example>
+      <ol>
+        <li>règle refusant les courriels dont le domaine de messagerie est inconnu (non prise en compte des spams);</li>
+        <li>règle refusant les messages des listes de diffusions;</li>
+        <li>règles affectant les courriels si l&apos;utilisateur n&apos;a qu&apos;un profil (cas des utilisateurs de l&apos;interface simplifiée);</li>
+        <li>Règle affectant les courriels à une entité si l&apos;utilisateur possède un profil particulier (par exemple pour des super administrateurs, qui ont accès à toutes les entités, mais sont physiquement dans un en particulier).</li>
+      </ol>
+    </example>
+  </body>
+</topic>

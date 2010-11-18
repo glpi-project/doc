@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-dynamic_display">
+  <glossterm>Affichage dynamique</glossterm>
+  <glossdef>Mode qui offre une meilleure ergonomie dans l&apos;utilisation de l&apos;application GLPI en utilisant la technologie ajax.</glossdef>
+</glossentry>

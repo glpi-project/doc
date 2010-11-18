@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification_templates_translations" xml:lang="fr-fr">
+  <title>Gérer les traductions des notifications</title>
+  <shortdesc>Une traduction représente la disponibilité d&apos;un modèle dans une langue donnée. En fonction de celle choisie par le destinataire la notification sera envoyée dans la langue correspondante. Si elle n&apos;est pas disponible, la traduction par défaut sera utilisée.</shortdesc>
+  <body>
+    <p>Une traduction est constituée d&apos;une liste balises qui font références à :</p>
+    <p><ol>
+        <li>des chaines de langue de GLPI ou d&apos;un plugin ;</li>
+        <li>des valeurs de champs d&apos;objets stockés en base de données.</li>
+      </ol></p>
+    <p>Pour ajouter une nouvelle traduction il est nécessaire de remplir les champs suivants :</p>
+    <p><ol>
+        <li><b>Langue</b> : indique la langue à laquelle cette traduction se rapporte. Si aucune langue n&apos;est sélectionnée dans la liste déroulante, cette traduction sera la traduction par défaut pour ce modèle ;</li>
+        <li><b>Sujet</b> : sujet de la notification ;</li>
+        <li><b>Corps du courriel au format texte</b> : texte brut envoyé en cas de notification. Si le champ est vide alors il est généré à partir du corps de texte HTML ;</li>
+        <li><b>Corps du courriel au format HTML</b> : texte formaté en HTML.</li>
+      </ol><note>le sujet est automatiquement préfixé par la chaine non modifiable <i>[GLPI]</i> ou <i>[GLPI XXXXXX]</i> qui est utilisée afin de gérer les réponses aux notifications.</note></p>
+    <p>La liste des balises disponibles est accessible via le lien <b>Liste des balises disponibles</b>.</p>
+  </body>
+</topic>

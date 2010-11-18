@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_personalize" xml:lang="fr-fr">
+  <title>Personnaliser l&apos;interface</title>
+  <shortdesc>Les préférences d&apos;affichage qui peuvent être définies avec des valeurs par défaut et que les utilisateurs peuvent modifier pour leur session sont regroupées dans l&apos;onglet <uicontrol>personnalisation</uicontrol>.</shortdesc>
+  <body>
+    <p>La section <uicontrol>Personnalisation</uicontrol> permet de modifier les préférences générales d&apos;affichage. Le nombre d&apos;éléments à afficher par page de recherche et dans les listes peut être défini. La valeur indiquée ici ne peut dépasser la valeur maximale définie dans les options générales d&apos;affichage.  Les listes déroulantes peuvent être affichées soit sous forme arborescente, soit à plat. Les identifiants GLPI (ID) des objets, masqués par défaut, peuvent être affichés. Les préférences d&apos;affichage liées à la localisation se configurent ici : format des dates et des nombres, langue.</p>
+    <p>La section <uicontrol>Assistance</uicontrol>   permet de modifier le comportement de la partie assistance : valeurs par défaut pour les nouveaux tickets et suivis, choix de l&apos;affichage des nouveaux tickets. On peut même personnaliser les couleurs de priorités utilisées dans l&apos;interface.</p>
+    <p>Les listes de logiciels peuvent être affichées in extenso ou bien repliées sous la forme d&apos;une liste de <uicontrol>Catégories de logiciels</uicontrol>. </p>
+  </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification" xml:lang="fr-fr">
+  <title>Configurer les notifications</title>
+  <shortdesc>Les notifications se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Notifications</uicontrol>
+    </menucascade> ;</shortdesc>
+  <body>
+    <p>LPI dispose d&apos;une fonction de notifications. Celle-ci permet de recevoir des messages pour certaines actions pré-définies. Elle s&apos;appuie sur 2 notions :   </p>
+    <ol>
+      <li>modèle : permet de formater les messages de notifications ;</li>
+      <li>notification : association d&apos;un modèle pour un évènement donné et définition de ses destinataires.</li>
+    </ol>
+  </body>
+</topic>

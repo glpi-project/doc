@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth_ldap" xml:lang="fr-fr">
+  <title>Authentifier des utilisateurs à partir d&apos;annuaires LDAP</title>
+  <shortdesc>L&apos;interface de GLPI avec les annuaire LDAP se configure depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Authentification</uicontrol>
+      <uicontrol>Annuaires LDAP</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <p>GLPI s&apos;interface avec des annuaire LDAP afin d&apos;authentifier les utilisateurs, de contrôler leur accès, de récupérer leurs informations personnelles et d&apos;importer des groupes. Tous les annuaires compatibles LDAP v3 sont supportés par GLPI. C&apos;est donc aussi le cas pour Microsoft Active Directory (AD). Il n&apos;y a pas de limite quant au nombre d&apos;annuaires renseignés : bien entendu plus le nombre est élevé, plus la recherche d&apos;un nouvel utilisateur à authentifier peut être longue.</p>
+    <p>Il est possible d&apos;importer et de synchroniser les utilisateurs de 2 manières : <ul>
+        <li>au fil de l&apos;eau : à la première connexion, l&apos;utilisateur est créé dans GLPI. A chaque login, ses informations personnelles sont synchronisées avec l&apos;annuaire. Dans le cas où les collecteurs sont utilisés, une adresse de messagerie inconnue sera recherchée dans l&apos;annuaire pour créer l&apos;utilisateur associé ;</li>
+        <li>en masse : soit via l&apos;interface web de GLPI, soit en utilisant le script fourni ; voir <xref href="scripts_ldap_mass_sync.dita"/>.</li>
+      </ul>
+
+    </p>
+    <note type="attention">
+      <p>Si aucune configuration LDAP n&apos;est visible (voir un message d&apos;erreur sur cette partie) c&apos;est que  le module LDAP pour PHP n&apos;est pas installé. Sous Linux, installer le paquet ldap pour PHP (par exemple <i>php5-ldap</i> sur Debian), puis redémarrer le serveur web. Sous Windows il faut décommenter dans le fichier <i>php.ini</i> (fichier présent dans le répertoire <i>apache/bin</i>) la ligne <i>extension=php_ldap.dll</i> puis redémarrer le serveur web.</p>
+    </note>
+    <p>Le processus d&apos;authentification des utilisateurs est découpé en 3 parties : l&apos;authentification, le contrôle d&apos;accès et enfin la récupération des données personnelles.</p>
+    <section>
+      <title>Authentification LDAP</title>
+      <p>Lors de la première connexion de l&apos;utilisateur, GLPI va s&apos;adresser à tous les annuaires jusqu&apos;à trouver celui qui contient l&apos;utilisateur. Si l&apos;option permettant d&apos;importer des utilisateurs depuis une source externe est active, alors celui-ci est créé et l&apos;identifiant de la méthode de connexion et le serveur  LDAP sont stockés en base de données. Ensuite, à chaque login l&apos;utilisateur est authentifié sur l&apos;annuaire dont l&apos;identifiant est stocké dans GLPI. Le autres annuaires ne sont pas utilisés : si un utilisateur est désactivé dans l&apos;annuaire qu&apos;il a utilisé jusque là pour se connectr, il ne peut se connecter avec une autre source d&apos;authentification. Deux utilisateurs aya</p>
+    </section>
+    <section>
+      <title>Contrôle d&apos;accès</title>
+      <p>Le contrôle d&apos;accès est l&apos;attribution d&apos;habilitations à un utilisateur. Même si un utilisateur est  authentifié sur un annuaire il n&apos;est pas forcément habilité à se connecter à GLPI.</p>
+      <p>Ce mécanisme repose sur l&apos;utilisation de règles d&apos;affectations d&apos;habilitations.</p>
+    </section>
+    <section>
+      <title>Données personnelles et synchronisation des groupes</title>
+    </section>
+    <section>
+      <title>Ajouter un nouvel annuaire</title>
+      <p>Pour ajouter un nouvel annuaire, cliquer sur le bouton <image href="../image/menu_add.png"/> situé dans la barre de menu haut.
+
+L&apos;écran de configuration d&apos;un nouvel annuaire apparaît. </p>
+      <note type="tip">Il existe un modèle de pré-configuration Active Directory, qui pré-remplit un certain nombre de champs. Celui-ci a été mis en place afin de faciliter la configuration GLPI-AD. Pour le charger, cliquer sur le lien <b>Pré-configuration Active Directory</b>. </note>
+      <p>Les paramètres nécessaires à la connexion sont le <b>nom d&apos;hôte</b> c&apos;est à dire l&apos;adresse de l&apos;annuaire  LDAP, le <b>basedn</b> qui est l&apos;emplacement de l&apos;annuaire à partir duquel les recherches et lectures seront effectuées. Dans le cas d&apos;un accès non anonyme, il faut indiquer l&apos;i<b>dentifiant</b> et le <b>mot de passe</b> du compte à utiliser. </p>
+      <note type="important"> Le rootdn doit-être renseigné sous la forme du DN complet de l&apos;utilisateur. Par exemple <i>CN=glpiadmin,DC=mondomaine</i> si le compte dans l&apos;annuaire pour GLPI est glpiadmin </note>
+      <p>Le<b> filtre de connexion</b> permet de restreindre la recherche d&apos;une personne dans l&apos;annuaire. Par exemple, si seul un ensemble restreint de personnes de l&apos;annuaire ont le droit de se connecter à GLPI, il faut mettre en place une condition pour restreindre la recherche à ces personnes.</p>
+      <p>Dans le cas où l&apos;heure de la machine hébergeant l&apos;annuaire LDAP n&apos;est pas dans le même fuseau horaire que celui de GLPI, il faut modifier la variable <b>Fuseau horaire</b> afin d&apos;ajuster le délai : en effet, cela peut provoquer des résulats érronnés dans la liste des utilisateurs à synchroniser.</p>
+      <p><b>Connexion LDAP sécurisée</b></p>
+      <p>GLPI gère la connexion sécurisée à un annuaire LDAP à travers une connexion SSL (aussi appelé LDAPS). Il suffit de rajouter devant le nom de l&apos;hôte (ou son IP) <i>ldaps://</i>. Ainsi que de changer le port (par défaut 636). Par exemple l&apos;accès en LDAPS en local donnera : <i>Hôte : ldaps://127.0.0.1 Port : 636</i></p>
+      <p><b>Réplicats</b></p>
+      <p>Si un annuaire LDAP n&apos;est pas accessible, les utilisateurs ne pourront plus se connecter à GLPI. Afin d&apos;éviter cette situation, des réplicats peuvent-être déclarés : ils partagent la même configuration que le serveur qu&apos;ils répliquent, mais sont disponibles à une adresse différente. L&apos;utilisation des réplicats se fait uniquement dans le cas d&apos;une perte de connexion à l&apos;annuaire maître. L&apos;ajout de réplicats se fait dans la fiche d&apos;un annuaire, en renseignant un <b>nom</b> qui sera affiché dans GLPI, ainsi qu&apos;un <b>nom d&apos;hôte</b> et un <b>port</b>. Il n&apos;y a pas de limite quant au nombre d&apos;annuaires répliqués.</p>
+      <p><b>Base DN et utilisateur authentifié</b></p>
+      <p>Attention, le <i>rootdn</i> et le <i>basedn</i> doivent être écrits sans espaces après les virgules. De plus, la casse est importante.
+
+</p>
+      <p>Exemple de rootdn :<ul>
+          <li><i>cn=Admin, ou=users, dc=mycompany</i> : incorrect</li>
+          <li><i>cn=Admin,ou=users,dc=mycompany</i> : correct</li>
+        </ul>
+
+
+
+</p>
+      <p>Pour Active Directory, si on utilise le <i>userprincipalname</i> au lieu du <i>samaccountname</i> on peut avoir un <i>rootdn</i> sous la forme :
+<i>prenom.nom@domaine.fr</i></p>
+      <p>Les paramètres à entrer sont très simples, par exemple :<ul>
+          <li>hôte : <i>ldap.mycompany.fr</i></li>
+          <li>basedn : <i>dc=mycompany,dc=fr </i></li>
+        </ul>
+
+    </p>
+      <p>Et cela doit suffire si la recherche anonyme est permise. Dans le cas contraire, et si tous les utilisateurs ne sont pas positionnés au sein du même DN, il vous faut spécifier le DN d&apos;un utilisateur autorisé et son mot de passe : rootdn/Pass. Pour Active Directory, il est obligatoire de renseigner un compte qui a le droit de s&apos;authentifier sur le domaine.</p>
+      <p>En tentant de se connecter à l&apos;annuaire grâce à un browser LDAP, il est possible de tester ces paramètres. Il en existe beaucoup, mais on peut citer :
+      <ul>
+          <li><i>LdapBrowser Editor</i> (logiciel libre écrit en Java, et donc multi-plateforme)</li>
+          <li><i>ADSIedit</i> pour Active Directory. Cet outil se trouve sur trouve avec les supports tools/outils supplémentaires disponibles du CD d&apos;installation de Windows Server. </li>
+        </ul>
+
+    </p>
+      <note>Si certains des utilisateurs ont des restrictions de connexion à certaines machines configurées dans leur profil AD, l&apos;erreur suivante est possible lors d&apos;une tentative de login sur la page d&apos;accueil de GLPI : <b>Utilisateur non trouvé ou plusieurs utilisateurs identiques trouvés</b>. La solution consiste à ajouter le serveur hébergeant l&apos;AD à la liste des PC sur lesquels l&apos;utilisateur peut se connecter. </note>
+      <p><b>Filtre de connexion</b></p>
+      <p>On peut mettre en place une condition pour la recherche. Celle-ci permet de filtrer la recherche des utilisateurs à un nom réduit d&apos;enregistrements. On peut citer les exemples de filtres suivants : <ul>
+          <li>un filtre classique LDAP peut être : <i>(objectclass=inetOrgPerson)</i></li>
+          <li>pour Active Directory utiliser le filtre suivant, qui ne renvoie que les utilisateurs non désactivés (car les machines sont aussi considérées comme des utilisateurs par AD) : <i>(&amp;(objectClass=user)(objectCategory=person)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))</i><p>Il faut noter que ce filtre est automatiquement rempli lorsque le modèle de pré-configuration Active Directory est sélectionné. </p></li>
+        </ul></p>
+      <p>Il existe, souvent, une limite pour le nombre maximum d&apos;enregistrements retournés par une requête (par défaut 1000) :<ul>
+          <li>sur unix, il faut voir la configuration du client LDAP (par exemple sur Debian/Ubuntu dans <i>/etc/ldap/ldap.conf</i>)</li>
+          <li>sur AD, modifier le <i>MaxPageSize</i> de votre annuaire. Pour cela, il faut taper les commandes suivantes :<codeblock>C:&gt; ntdsutil
+ntdsutil: ldap policies
+ldap policy: connections
+  server connections: connect to server 192.168.1.1 ( here a few messages regarding connectivity are displayed)
+server connections : q
+ldap policy : show values ( here we will see all the values including MaxPageSize which is 1000 currently)
+ldap policy : set maxpagesize to 5000
+ldap policy : commit changes
+ldap policy : q
+ntdsutil : q </codeblock><p>Le message <b>Test de connexion réussi</b> indique que GLPI a pu se connecter à l&apos;annuaire LDAP avec les informations renseignées (hôte, port, compte utilisateur). Il reste désormais à importer les utilisateurs. Pour cela, il faut bien vérifier les autres paramètres (filtre de connexion, champs de login, etc).</p></li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

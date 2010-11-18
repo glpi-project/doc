@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_entity" audience="advanced" xml:lang="fr-fr">
+  <title>Déléguer l&apos;administration par entité</title>
+  <shortdesc>Délégation de certain paramètres d&apos;administration par entité</shortdesc>
+  <body>
+    <p>Dans le cadre d&apos;une utilisation de GLPI en multi-entités, la gestion de certains paramètres de configuration peut s&apos;effectuer différemment pour chaque entité.</p>
+    <section><title>Règles par entités</title>L&apos;ensemble des règles dont l&apos;action est <i>associer à une entité</i> sont listées dans l&apos;onglet <i>Règles</i> : ordinateurs, habilitations et tickets ouverts par courriel.<p>Un formulaire d&apos;ajout pour chaque type de règle permet de créer automatiquement celle-ci avec une action d&apos;assignation à l&apos;entité pré-remplie.</p></section>
+    <section>
+      <title>Informations avancées</title>
+      <p>Cet onglet renferme deux types de paramètres. Ceux en rapport avec les règles génériques d&apos;affectation à l&apos;entité et ceux concernant l&apos;interface de recherche des utilisateurs.</p>
+      <p>Afin de donner à un administrateur d&apos;une entité la possibilité d&apos;importer ses utilisateurs d&apos;un annuaire LDAP, il est nécessaire de préciser certains paramètres : l&apos;annuaire associé à l&apos;entitéet le filtre de recherche n&apos;est pas obligatoire. Ce dernier n&apos;est importante que si la définition d&apos;une entité se fait par l&apos;ajout d&apos;un restriction sur le filtre LDAP.</p>
+      <p>Trois options sont disponibles pour l&apos;utilisation des règles d&apos;affectation génériques à l&apos;entité : le TAG provenant de l&apos;outil d&apos;inventaire, l&apos;information LDAP représentant l&apos;entité (par exemple le DN de l&apos;entité, voir <xref href="administration_rule_right.dita"/>), et le domaine de messagerie associée à celle-ci.  </p>
+    </section>
+    <section>
+      <title>Notifications</title>
+      <p>Cet onglet regroupe toutes les options configurables par entité qui concernent les notifications. L&apos;<b>adresse de messagerie de l&apos;administrateur</b>, l&apos;<b>adresse de réponse</b> (voir <xref href="config_notification_configuration.dita"/>) et un <b>commentaire</b>.</p>
+      <p>Les paramètres d&apos;alertes définis dans la configuration générale (voir <xref href="config_notification_configuration.dita"/>), peuvent-être modifiés par l&apos;administrateur de l&apos;entité : lorsque l&apos;option des listes déroulantes valeur de la configuration générale est sélectionnée, cela veut dire que l&apos;entité ne possède pas ses propres règlages, mais suit ceux définis par l&apos;administrateur de GLPI.</p>
+    </section>
+    <section>
+      <title>Assistance</title>
+      <p>Cet onglet ne dispose que de l&apos;option <b>Clôture automatique des tickets résolus après un certain nombre de jours</b> : la tâche automatique de vérification des tickets qui ne sont pas au statut résolus utilisera la valeur spécifiée dans l&apos;entité (ou celle de la configuration globale en fonction du choix effectué).</p>
+    </section>
+  </body>
+</topic>

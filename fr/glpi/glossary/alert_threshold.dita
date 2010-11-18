@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-alert_threshold">
+  <glossterm>Seuil d'alerte</glossterm>
+  <glossdef>Valeur minimale à partir de laquelle une alerte est déclenchée.</glossdef>
+</glossentry>

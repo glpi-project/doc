@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "../dtd/bookmap.dtd" []>
+<!-- (c) Copyright IBM Corp. 2004, 2007 All Rights Reserved. -->
+<bookmap id="GLPI-DOC" xml:lang="fr-fr">
+  <booktitle>
+    <booklibrary>Association Indepnet</booklibrary>
+    <mainbooktitle>Utilisez GLPI 0.78 !</mainbooktitle>
+    <booktitlealt>Gestion Libre de Parc Informatique</booktitlealt>
+  </booktitle>
+  <bookmeta>
+    <author>Indepnet Documentation Team</author>
+    <bookid>
+      <isbn>0000000000</isbn>
+      <booknumber>GLPI-20101115</booknumber>
+      <maintainer>
+        <organization>Indepnet</organization>
+        <person/>
+      </maintainer>
+    </bookid>
+    <bookrights>
+      <copyrfirst>
+        <year>2008</year>
+      </copyrfirst>
+      <copyrlast>
+        <year>2010</year>
+      </copyrlast>
+      <bookowner>
+        <organization>Indepnet Association</organization>
+      </bookowner>
+    </bookrights>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc/>
+    </booklists>
+    <bookabstract href="glpi/abstract.dita"/>
+    <notices href="glpi/notices.dita"/>
+    <preface href="glpi/preface.dita"/>
+  </frontmatter>
+  <part href="glpi/first_steps.dita">
+    <chapter href="glpi/installing.dita">
+      <topicref href="glpi/prerequisite.dita">
+        <topicref href="glpi/prerequisite_webserver.dita"/>
+        <topicref href="glpi/prerequisite_db.dita"/>
+      </topicref>
+      <topicref href="glpi/install.dita">
+        <topicref href="glpi/install_download.dita"/>
+        <topicref href="glpi/install_copyfiles.dita"/>
+        <topicref href="glpi/install_wizard.dita"/>
+      </topicref>
+    </chapter>
+    <chapter href="glpi/use.dita">
+      <topicref href="glpi/start.dita"/>
+      <topicref href="glpi/start_browser.dita"/>
+      <topicref href="glpi/start_login.dita"/>
+      <topicref href="glpi/start_logout.dita"/>
+      <topicref href="glpi/discover_interface.dita"/>
+      <topicref href="glpi/start_password.dita"/>
+      <topicref href="glpi/start_pref.dita">
+        <topicref href="glpi/config_common_personalize.dita"/>
+      </topicref>
+      <topicref href="glpi/navigate.dita"/>
+      <topicref href="glpi/navigate_interface.dita"/>
+      <topicref href="glpi/navigate_manageitem.dita"/>
+      <topicref href="glpi/navigate_search.dita"/>
+    </chapter>
+    <chapter href="glpi/quickstart.dita"/>
+  </part>
+  <part href="glpi/inventory.dita">
+    <topicref href="glpi/template.dita"/>
+    <topicref href="glpi/inventory_computer.dita">
+      <topicref href="glpi/inventory_computer_component.dita"/>
+      <topicref href="glpi/inventory_computer_volume.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_computer_software.dita"/>
+      <topicref href="glpi/inventory_connection.dita">
+        <topicref href="glpi/inventory_computer_connection.dita"/>
+        <topicref href="glpi/inventory_network_connection.dita"/>
+      </topicref>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita"/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_computer_ocsng.dita"/>
+      <topicref href="glpi/inventory_computer_registry.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/inventory_computer_t_create.dita"/>
+      <topicref href="glpi/inventory_computer_t_read.dita"/>
+      <topicref href="glpi/inventory_computer_t_update.dita"/>
+      <topicref href="glpi/inventory_computer_t_delete.dita"/>
+      <topicref href="glpi/inventory_computer_t_linktodocument.dita"/>
+      <topicref href="glpi/inventory_computer_t_linktocontract.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_monitor.dita">
+      <topicref href="glpi/inventory_connection.dita">
+        <topicref href="glpi/inventory_notcomputer_connection.dita"/>
+      </topicref>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/inventory_monitor_t_create.dita"/>
+      <topicref href="glpi/inventory_monitor_t_read.dita"/>
+      <topicref href="glpi/inventory_monitor_t_update.dita"/>
+      <topicref href="glpi/inventory_monitor_t_delete.dita"/>
+      <topicref href="glpi/inventory_monitor_t_connecttocomputer.dita"/>
+      <topicref href="glpi/inventory_monitor_t_linktocontract.dita"/>
+      <topicref href="glpi/inventory_monitor_t_linktodocument.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_software.dita">
+      <topicref href="glpi/inventory_software_version.dita"/>
+      <topicref href="glpi/inventory_software_license.dita"/>
+      <topicref href="glpi/inventory_software_installation.dita"/>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_software_merge.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_networking.dita">
+      <topicref href="glpi/inventory_network_connection.dita"/>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/inventory_networking_t_create.dita"/>
+      <topicref href="glpi/inventory_networking_t_read.dita"/>
+      <topicref href="glpi/inventory_networking_t_update.dita"/>
+      <topicref href="glpi/inventory_networking_t_delete.dita"/>
+      <topicref href="glpi/inventory_networking_t_linktodocument.dita"/>
+      <topicref href="glpi/inventory_networking_t_linktocontract.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_peripheral.dita">
+      <topicref href="glpi/inventory_connection.dita">
+        <topicref href="glpi/inventory_notcomputer_connection.dita"/>
+        <topicref href="glpi/inventory_network_connection.dita"/>
+      </topicref>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/inventory_peripheral_t_create.dita"/>
+      <topicref href="glpi/inventory_peripheral_t_read.dita"/>
+      <topicref href="glpi/inventory_peripheral_t_update.dita"/>
+      <topicref href="glpi/inventory_peripheral_t_delete.dita"/>
+      <topicref href="glpi/inventory_peripheral_t_linktodocument.dita"/>
+      <topicref href="glpi/inventory_peripheral_t_linktocontract.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_printer.dita">
+      <topicref href="glpi/inventory_printer_cartridge.dita"/>
+      <topicref href="glpi/inventory_connection.dita">
+        <topicref href="glpi/inventory_notcomputer_connection.dita"/>
+        <topicref href="glpi/inventory_network_connection.dita"/>
+      </topicref>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/inventory_printer_t_create.dita"/>
+      <topicref href="glpi/inventory_printer_t_read.dita"/>
+      <topicref href="glpi/inventory_printer_t_update.dita"/>
+      <topicref href="glpi/inventory_printer_t_delete.dita"/>
+      <topicref href="glpi/inventory_printer_t_linktodocument.dita"/>
+      <topicref href="glpi/inventory_printer_t_linktocontract.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_cartridge.dita">
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_all.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_consumable.dita">
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_all.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_phone.dita">
+      <topicref href="glpi/inventory_connection.dita">
+        <topicref href="glpi/inventory_notcomputer_connection.dita"/>
+        <topicref href="glpi/inventory_network_connection.dita"/>
+      </topicref>
+      <topicref href="glpi/inventory_management.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita" class="- map/topicref "/>
+      <topicref href="glpi/inventory_reservation.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+    </topicref>
+    <topicref href="glpi/inventory_state.dita"/>
+  </part>
+  <part href="glpi/helpdesk.dita">
+    <topicref href="glpi/helpdesk_ticket.dita">
+      <topicref href="glpi/helpdesk_lifecycle.dita"/>
+      <topicref href="glpi/helpdesk_ticket_t_create.dita"/>
+      <topicref href="glpi/helpdesk_ticket_followup.dita"/>
+      <topicref href="glpi/helpdesk_ticket_validation.dita"/>
+      <topicref href="glpi/helpdesk_ticket_task.dita"/>
+      <topicref href="glpi/helpdesk_ticket_solution.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+    </topicref>
+    <topicref href="glpi/helpdesk_openticket.dita"/>
+    <topicref href="glpi/helpdesk_planning.dita"/>
+    <topicref href="glpi/helpdesk_stat.dita"/>
+  </part>
+  <part href="glpi/management.dita">
+    <topicref href="glpi/management_supplier.dita">
+      <topicref href="glpi/management_supplier_t_create.dita"/>
+      <topicref href="glpi/management_supplier_t_read.dita"/>
+      <topicref href="glpi/management_supplier_t_update.dita"/>
+      <topicref href="glpi/management_supplier_t_delete.dita"/>
+      <topicref href="glpi/management_contact_supplier.dita"/>
+      <topicref href="glpi/management_supplier_t_linktocontact.dita"/>
+      <topicref href="glpi/management_supplier_contract.dita"/>
+      <topicref href="glpi/management_supplier_hardware.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/management_supplier_t_linktodocument.dita"/>
+      <topicref href="glpi/inventory_ticket.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+    </topicref>
+    <topicref href="glpi/management_contact.dita">
+      <topicref href="glpi/management_contact_t_create.dita"/>
+      <topicref href="glpi/management_contact_t_read.dita"/>
+      <topicref href="glpi/management_contact_t_update.dita"/>
+      <topicref href="glpi/management_contact_t_delete.dita"/>
+      <topicref href="glpi/management_contact_supplier.dita"/>
+      <topicref href="glpi/management_contact_t_linktosupplier.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/management_contact_t_linktodocument.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+    </topicref>
+    <topicref href="glpi/management_budget.dita">
+      <topicref href="glpi/management_budget_hardware.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/management_budget_t_create.dita"/>
+      <topicref href="glpi/management_budget_t_read.dita"/>
+      <topicref href="glpi/management_budget_t_update.dita"/>
+      <topicref href="glpi/management_budget_t_delete.dita"/>
+      <topicref href="glpi/management_budget_t_linktodocument.dita"/>
+    </topicref>
+    <topicref href="glpi/management_contract.dita">
+      <topicref href="glpi/management_supplier_contract.dita"/>
+      <topicref href="glpi/management_contract_hardware.dita"/>
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/inventory_link.dita"/>
+      <topicref href="glpi/notes.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/management_contract_t_create.dita"/>
+      <topicref href="glpi/management_contract_t_read.dita"/>
+      <topicref href="glpi/management_contract_t_update.dita"/>
+      <topicref href="glpi/management_contract_t_delete.dita"/>
+      <topicref href="glpi/management_contract_t_linktosupplier.dita"/>
+      <topicref href="glpi/management_contract_t_linktoitem.dita"/>
+      <topicref href="glpi/management_contract_t_linktodocument.dita"/>
+    </topicref>
+    <topicref href="glpi/management_document.dita">
+      <topicref href="glpi/inventory_document.dita"/>
+      <topicref href="glpi/notes.dita"/>
+      <topicref href="glpi/inventory_log.dita"/>
+      <topicref href="glpi/inventory_all.dita"/>
+      <topicref href="glpi/management_document_t_create.dita"/>
+      <topicref href="glpi/management_document_t_read.dita"/>
+      <topicref href="glpi/management_document_t_update.dita"/>
+      <topicref href="glpi/management_document_t_delete.dita"/>
+      <topicref href="glpi/management_document_t_linktoitem.dita"/>
+      <topicref href="glpi/management_document_t_linktodocument.dita"/>
+    </topicref>
+  </part>
+  <part href="glpi/tool.dita">
+    <topicref href="glpi/tool_reminder.dita"/>
+    <topicref href="glpi/tool_knowbase.dita"/>
+    <topicref href="glpi/tool_knowbase_t_create.dita"/>
+    <topicref href="glpi/tool_knowbase_t_read.dita"/>
+    <topicref href="glpi/tool_knowbase_t_update.dita"/>
+    <topicref href="glpi/tool_knowbase_t_delete.dita"/>
+    <topicref href="glpi/tool_knowbase_t_linktodocument.dita"/>
+    <topicref href="glpi/tool_reservation.dita"/>
+    <topicref href="glpi/tool_report.dita"/>
+    <topicref href="glpi/tool_ocsng.dita"/>
+  </part>
+  <part href="glpi/access_control_intro.dita">
+    <topicref href="glpi/config_auth.dita">
+      <topicref href="glpi/config_common_auth.dita"/>
+      <topicref href="glpi/config_auth_ldap.dita"/>
+      <topicref href="glpi/config_auth_ldap_usersgroups.dita"/>
+      <topicref href="glpi/config_auth_ldap_t_create.dita"/>
+      <topicref href="glpi/config_auth_ldap_t_delete.dita"/>
+      <topicref href="glpi/scripts_ldap_mass_sync.dita"/>
+      <topicref href="glpi/config_auth_imap.dita"/>
+      <topicref href="glpi/config_auth_imap_t_create.dita"/>
+      <topicref href="glpi/config_auth_imap_t_delete.dita"/>
+      <topicref href="glpi/config_auth_other.dita"/>
+    </topicref>
+    <topicref href="glpi/administration_user.dita">
+      <topicref href="glpi/administration_user_t_create.dita"/>
+      <topicref href="glpi/administration_user_t_delete.dita"/>
+    </topicref>
+    <topicref href="glpi/administration_group.dita">
+      <topicref href="glpi/administration_group_t_create.dita"/>
+      <topicref href="glpi/administration_group_t_delete.dita"/>
+    </topicref>
+    <topicref href="glpi/administration_entity.dita">
+      <topicref href="glpi/administration_entity_t_create.dita"/>
+      <topicref href="glpi/administration_entity_t_delete.dita"/>
+      <topicref href="glpi/administration_entity_delegation.dita"/>
+    </topicref>
+    <topicref href="glpi/administration_profile.dita"/>
+    <topicref href="glpi/administration_rule_right.dita"/>
+  </part>
+  <part href="glpi/administration.dita">
+    <topicref href="glpi/administration_rule.dita">
+      <topicref href="glpi/administration_rule_softwarecategory.dita"/>
+      <topicref href="glpi/administration_rule_mailcollector.dita"/>
+      <topicref href="glpi/administration_rule_ocs.dita"/>
+      <topicref href="glpi/administration_rule_ticket.dita"/>
+    </topicref>
+    <topicref href="glpi/administration_dictionnary.dita"/>
+    <topicref href="glpi/administration_transfer.dita"/>
+    <topicref href="glpi/administration_history.dita"/>
+  </part>
+  <part href="glpi/config.dita">
+    <topicref href="glpi/config_dropdown.dita"/>
+    <topicref href="glpi/config_device.dita"/>
+    <topicref href="glpi/config_notification.dita">
+      <topicref href="glpi/config_notification_configuration.dita"/>
+      <topicref href="glpi/config_notification_templates.dita"/>
+      <topicref href="glpi/config_notification_templates_t_create.dita"/>
+      <topicref href="glpi/config_notification_templates_t_delete.dita"/>
+      <topicref href="glpi/config_notification_templates_translations.dita"/>
+      <topicref href="glpi/config_notification_templates_tags.dita"/>
+      <topicref href="glpi/config_notification_notifications.dita"/>
+      <topicref href="glpi/config_notification_notifications_t_create.dita"/>
+      <topicref href="glpi/config_notification_notifications_t_delete.dita"/>
+    </topicref>
+    <topicref href="glpi/config_common.dita">
+      <topicref href="glpi/config_common_display.dita"/>
+      <topicref href="glpi/config_common_personalize.dita"/>
+      <topicref href="glpi/config_common_restrict.dita"/>
+      <topicref href="glpi/config_common_assist.dita"/>
+      <topicref href="glpi/config_common_sysinfo.dita"/>
+      <topicref href="glpi/config_common_mysql.dita"/>
+    </topicref>
+    <topicref href="glpi/config_crontask.dita"/>
+    <topicref href="glpi/config_mailcollector.dita"/>
+    <topicref href="glpi/config_mailcollector_t_create.dita"/>
+    <topicref href="glpi/config_mailcollector_t_delete.dita"/>
+    <topicref href="glpi/config_ocsng.dita"/>
+    <topicref href="glpi/config_link.dita"/>
+    <topicref href="glpi/config_link_t_create.dita"/>
+    <topicref href="glpi/config_link_t_delete.dita"/>
+    <topicref href="glpi/config_plugin.dita"/>
+  </part>
+  <part href="glpi/admin.dita">
+    <topicref href="glpi/admin_backup.dita">
+      <topicref href="glpi/administration_backup.dita"/>
+      <topicref href="glpi/admin_backup_files.dita"/>
+    </topicref>
+    <topicref href="glpi/admin_install_plugin.dita"/>
+    <topicref href="glpi/admin_upgrade.dita">
+      <topicref href="glpi/install_download.dita"/>
+      <topicref href="glpi/admin_upgrade_prepare.dita"/>
+      <topicref href="glpi/install_copyfiles.dita"/>
+      <topicref href="glpi/admin_upgrade_wizard.dita"/>
+    </topicref>
+  </part>
+  <part href="glpi/conclusion.dita"/>
+  <appendix href="glpi/glossary.dita">
+    <topicref href="glpi/glossary/accepted.dita"/>
+    <topicref href="glpi/glossary/automatic_action.dita"/>
+    <topicref href="glpi/glossary/mac_address.dita"/>
+    <topicref href="glpi/glossary/dynamic_display.dita"/>
+    <topicref href="glpi/glossary/powersupply.dita"/>
+    <topicref href="glpi/glossary/directory_ad.dita"/>
+    <topicref href="glpi/glossary/directory_ldap.dita"/>
+    <topicref href="glpi/glossary/tree.dita"/>
+    <topicref href="glpi/glossary/knowbase.dita"/>
+    <topicref href="glpi/glossary/case.dita"/>
+    <topicref href="glpi/glossary/budget.dita"/>
+    <topicref href="glpi/glossary/cartridge.dita"/>
+    <topicref href="glpi/glossary/cas.dita"/>
+    <topicref href="glpi/glossary/field.dita"/>
+    <topicref href="glpi/glossary/path.dita"/>
+    <topicref href="glpi/glossary/close.dita"/>
+    <topicref href="glpi/glossary/administrative_closure.dita"/>
+    <topicref href="glpi/glossary/automatic_closure.dita"/>
+    <topicref href="glpi/glossary/receiver.dita"/>
+    <topicref href="glpi/glossary/connection_network.dita"/>
+    <topicref href="glpi/glossary/direct_link.dita"/>
+    <topicref href="glpi/glossary/contact.dita"/>
+    <topicref href="glpi/glossary/contract.dita"/>
+    <topicref href="glpi/glossary/controller.dita"/>
+    <topicref href="glpi/glossary/trash.dita"/>
+    <topicref href="glpi/glossary/criteria.dita"/>
+    <topicref href="glpi/glossary/requester.dita"/>
+    <topicref href="glpi/glossary/dictionnary.dita"/>
+    <topicref href="glpi/glossary/document.dita"/>
+    <topicref href="glpi/glossary/domain.dita"/>
+    <topicref href="glpi/glossary/domain_mail.dita"/>
+    <topicref href="glpi/glossary/rights.dita"/>
+    <topicref href="glpi/glossary/global_right.dita"/>
+    <topicref href="glpi/glossary/entity_right.dita"/>
+    <topicref href="glpi/glossary/waiting.dita"/>
+    <topicref href="glpi/glossary/processing_assigned.dita"/>
+    <topicref href="glpi/glossary/processing_planned.dita"/>
+    <topicref href="glpi/glossary/entity.dita"/>
+    <topicref href="glpi/glossary/root_entity.dita"/>
+    <topicref href="glpi/glossary/regex.dita"/>
+    <topicref href="glpi/glossary/manufacturer.dita"/>
+    <topicref href="glpi/glossary/faq.dita"/>
+    <topicref href="glpi/glossary/supplier.dita"/>
+    <topicref href="glpi/glossary/template.dita"/>
+    <topicref href="glpi/glossary/global_management.dita"/>
+    <topicref href="glpi/glossary/unit_management.dita"/>
+    <topicref href="glpi/glossary/group.dita"/>
+    <topicref href="glpi/glossary/clearance.dita"/>
+    <topicref href="glpi/glossary/ical.dita"/>
+    <topicref href="glpi/glossary/id.dita"/>
+    <topicref href="glpi/glossary/login.dita"/>
+    <topicref href="glpi/glossary/imap_pop.dita"/>
+    <topicref href="glpi/glossary/impact.dita"/>
+    <topicref href="glpi/glossary/incident.dita"/>
+    <topicref href="glpi/glossary/financial_information.dita"/>
+    <topicref href="glpi/glossary/standard_interface.dita"/>
+    <topicref href="glpi/glossary/streamlined_interface.dita"/>
+    <topicref href="glpi/glossary/intervention.dita"/>
+    <topicref href="glpi/glossary/dropdown.dita"/>
+    <topicref href="glpi/glossary/logs.dita"/>
+    <topicref href="glpi/glossary/external_link.dita"/>
+    <topicref href="glpi/glossary/location.dita"/>
+    <topicref href="glpi/glossary/bookmark.dita"/>
+    <topicref href="glpi/glossary/pattern.dita"/>
+    <topicref href="glpi/glossary/global_note.dita"/>
+    <topicref href="glpi/glossary/personnal_note.dita"/>
+    <topicref href="glpi/glossary/public_note.dita"/>
+    <topicref href="glpi/glossary/new_ticket.dita"/>
+    <topicref href="glpi/glossary/inventory_object.dita"/>
+    <topicref href="glpi/glossary/ocsng.dita"/>
+    <topicref href="glpi/glossary/plan.dita"/>
+    <topicref href="glpi/glossary/plugin.dita"/>
+    <topicref href="glpi/glossary/mountpoint.dita"/>
+    <topicref href="glpi/glossary/network_port.dita"/>
+    <topicref href="glpi/glossary/settings.dita"/>
+    <topicref href="glpi/glossary/priority.dita"/>
+    <topicref href="glpi/glossary/private.dita"/>
+    <topicref href="glpi/glossary/profile.dita"/>
+    <topicref href="glpi/glossary/default_profile.dita"/>
+    <topicref href="glpi/glossary/public.dita"/>
+    <topicref href="glpi/glossary/purge.dita"/>
+    <topicref href="glpi/glossary/report.dita"/>
+    <topicref href="glpi/glossary/specific_renewal.dita"/>
+    <topicref href="glpi/glossary/evergreen.dita"/>
+    <topicref href="glpi/glossary/grouping.dita"/>
+    <topicref href="glpi/glossary/recursivity.dita"/>
+    <topicref href="glpi/glossary/editor.dita"/>
+    <topicref href="glpi/glossary/refused.dita"/>
+    <topicref href="glpi/glossary/rule.dita"/>
+    <topicref href="glpi/glossary/adaptative_rule.dita"/>
+    <topicref href="glpi/glossary/replicate.dita"/>
+    <topicref href="glpi/glossary/network.dita"/>
+    <topicref href="glpi/glossary/networks.dita"/>
+    <topicref href="glpi/glossary/reservation.dita"/>
+    <topicref href="glpi/glossary/solved_on.dita"/>
+    <topicref href="glpi/glossary/technician.dita"/>
+    <topicref href="glpi/glossary/restore.dita"/>
+    <topicref href="glpi/glossary/hive.dita"/>
+    <topicref href="glpi/glossary/dump.dita"/>
+    <topicref href="glpi/glossary/service.dita"/>
+    <topicref href="glpi/glossary/alert_threshold.dita"/>
+    <topicref href="glpi/glossary/subentity.dita"/>
+    <topicref href="glpi/glossary/statistics.dita"/>
+    <topicref href="glpi/glossary/status.dita"/>
+    <topicref href="glpi/glossary/follow_up.dita"/>
+    <topicref href="glpi/glossary/subject.dita"/>
+    <topicref href="glpi/glossary/supervisor.dita"/>
+    <topicref href="glpi/glossary/task.dita"/>
+    <topicref href="glpi/glossary/tag.dita"/>
+    <topicref href="glpi/glossary/technician.dita"/>
+    <topicref href="glpi/glossary/ticket.dita"/>
+    <topicref href="glpi/glossary/transfert.dita"/>
+    <topicref href="glpi/glossary/damping_type.dita"/>
+    <topicref href="glpi/glossary/third_type.dita"/>
+    <topicref href="glpi/glossary/urgency.dita"/>
+    <topicref href="glpi/glossary/user.dita"/>
+    <topicref href="glpi/glossary/consumer.dita"/>
+    <topicref href="glpi/glossary/validation.dita"/>
+    <topicref href="glpi/glossary/validator.dita"/>
+    <topicref href="glpi/glossary/vcard.dita"/>
+    <topicref href="glpi/glossary/vlan.dita"/>
+    <topicref href="glpi/glossary/volume.dita"/>
+    <topicref href="glpi/glossary/webcal.dita"/>
+  </appendix>
+  <appendix href="glpi/appendix.dita"/>
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>

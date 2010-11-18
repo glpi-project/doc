@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Connecter un moniteur à un ordinateur</title>
+  <taskbody>
+    <context>Connecter un moniteur à un ordinateur</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Inventaire</uicontrol>
+            <uicontrol>Moniteurs</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du moniteur ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom du moniteur ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans l&apos;onglet <uicontrol>Connexions</uicontrol> ;</cmd>
+      </step>
+      <step>
+        <cmd>Sélectionner un ordinateur ;</cmd>
+      </step>
+      <step>
+        <cmd>Connecter.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec l&apos;ordinateur connecté au moniteur</result>
+  </taskbody>
+</task>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un ordinateur à un contrat</title>
+  <taskbody>
+    <context>Associer un ordinateur à un contrat</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Inventaire</uicontrol>
+            <uicontrol>Ordinateurs</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;ordinateur ;</cmd>
+      </step>
+      <step>
+        <cmd>2 possibilités</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom de l&apos;ordinateur</li>
+              <li>Aller dans l&apos;onglet <b>Gestion</b></li>
+              <li>Sélectionner un contrat.</li>
+              <li>Ajouter</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher l&apos;ordinateur</li>
+              <li>Modification massive : <b>Ajouter un Contrat</b></li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec l&apos;ordinateur associé au contrat</result>
+  </taskbody>
+</task>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_supplier_contract" xml:lang="fr-fr">
+  <title>Lier contrats et fournisseurs</title>
+  <shortdesc>Les contrats associés aux fournisseurs.</shortdesc>
+  <body>
+    <p>Une fois créés, il est possible d&apos;associer à un fournisseur un ou des contrats.</p>
+  </body>
+</topic>

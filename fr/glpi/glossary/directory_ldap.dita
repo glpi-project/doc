@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-directory_ad">
+  <glossterm>Annuaire LDAP</glossterm>
+  <glossdef>!!Acronyme!! Service d'annuaires basé sur le protocole LDAP qui stocke entre autre des comptes utilisateurs. Est aussi appelé annuaire d&apos;entreprise.</glossdef>
+</glossentry>

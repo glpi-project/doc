@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Voir une imprimante</title>
+  <taskbody>
+    <context>Voir une imprimante dans l&apos;inventaire</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Inventaire</uicontrol>
+            <uicontrol>Imprimantes</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;imprimante ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;imprimante ;</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche </result>
+  </taskbody>
+</task>

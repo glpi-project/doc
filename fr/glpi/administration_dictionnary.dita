@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_dictionnary" xml:lang="fr-fr">
+  <title>Configurer les dictionnaires de données</title>
+  <shortdesc>Les dictionnaires se gèrent depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Dictionnaires</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI. Ils se basent sur le moteur de règles et sont disponibles pour certaines données d&apos;inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via OCSNG, ou des plugins (par exemple l&apos;injecteur de fichiers CSV).</p>
+    <p>Le dictionnaire fonctionne de la manière suivante :
+
+    </p>
+    <ol>
+      <li>la donnée à ajouter passe dans le dictionnaire ;</li>
+      <li>le moteur de règle rejoue toutes les règles concernant ce type de données, et s&apos;arrête à la première vérifiée; </li>
+      <li>la donnée modifiée est retournée par le dictionnaire et insérée en base.</li>
+    </ol>
+    <p>Une fonction nommée <b>Rejouer le dictionnaire</b> (disponible à travers un bouton sur la liste des règles) permet de repasser les règles sur des données déjà existantes en base.</p>
+    <note type="important">Si la base est conséquente, il faudra faire bien attention à la valeur du paramètre <i>memory_limit</i> dans le fichier de configuration de PHP : en effet les traitements peuvent être très longs.</note>
+    <section>
+      <title>Dictionnaire des logiciels</title>
+      <p>Il modifie les données du logiciel (nom, version, fabricant) afin de complèter ou fusionner des logiciels entre eux.</p>
+      <p>Il est utilisé pour rendre plus cohérent des logiciels équivalents, dont le nom n&apos;est pas identique (par exemple Mozilla Firefox 3.0 et Mozilla Firefox 3.6) ou pour ajouter un fabricant à s&apos;il n&apos;est pas renseigné. </p>
+      <note>pour une gestion optimale des logiciels et licences en environnement multi-entités, il est possible d&apos;utiliser le dictionnaire des logiciels conjointement avec des logiciels visibles dans les sous-entités (et donc utiliser la fonctionnalité de regroupement). </note>
+      <note type="tip">un script est disponible dans le répertoire scripts de GLPI (<i>compute_dictionnary.php</i>), qui permet de lancer les dictionnaires en ligne de commande. Cela permet de s&apos;affranchir des problèmes de limite d&apos;exécution, et propose un gain de temps apréciable.</note>
+      <note type="tip">comme pour tous les autres dictionnaires, il est très fortement conseillé de jouer les règles sur une base de test, et de sauvegarder la base de données avant la mise en production du dictionnaire ou de nouvelles règles.</note>
+    </section>
+    <section>
+      <title>Dictionnaire des fabricants</title>
+      <p>Ce dictionnaire permet de nettoyer la liste des fabricants. Le seul paramètre sur lequel il peut agir est un fabricant.</p>
+    </section>
+    <section>
+      <title>Dictionnaire des intitulés</title>
+      <p>Il permet de modifier un certain nombre d&apos;intitulés en rapport avec l&apos;inventaire (types et modèles d&apos;objets, système d&apos;exploitation ainsi que version et service pack).</p>
+    </section>
+  </body>
+</topic>

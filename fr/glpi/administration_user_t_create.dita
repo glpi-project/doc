@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Ajouter un utilisateur</title>
+  <taskbody>
+    <context> Ajouter un utilisateur</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Utilisateurs</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur l&apos;icône <uicontrol>+</uicontrol> située dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+      </step>
+      <step>
+        <cmd><uicontrol>Valider</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche créée </result>
+  </taskbody>
+</task>

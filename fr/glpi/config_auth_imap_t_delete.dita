@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Supprimer un serveur de messagerie</title>
+  <taskbody>
+    <context>Supprimer un serveur de messagerie de la liste des source d&apos;authentification</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Authentification</uicontrol>
+            <uicontrol>IMAP/POP</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;annuaire ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du serveur</li>
+              <li>Purger le serveur</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le serveur</li>
+              <li>Modification massive : purger</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Le serveur de messagerie est supprimé de GLPI.</result>
+  </taskbody>
+</task>

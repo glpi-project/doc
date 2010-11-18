@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_task" xml:lang="fr-fr">
+  <title>Les tâches</title>
+  <shortdesc>Les tâches d&apos;un ticket, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p>Une tâche est une action correspondant à une intervention technique liée à un ticket.</p>
+    <p>Une tâche peut avoir une catégorie, définissable dans les intitulés, être privée ou non.</p>
+    <p>Voir  <xref href="config_dropdown.dita"/>.</p>
+    <p>Une tâche privée n&apos;est visible que :<ul>
+        <li>de son rédacteur ;</li>
+        <li>de l&apos;utilisateur à qui elle a été affectée ;</li>
+        <li>des utilisateurs ayant le droit <b>Voir tous les suivis et tâches (publics et privés)</b>.</li>
+      </ul>. </p>
+    <p>La durée permet la saisie par le technicien de la durée réelle de traitement de la tâche, notamment à fin de statistiques ou facturations.</p>
+    <p>Enfin une tâche est planifiable. Une fois la date de début, la durée ou la date de fin saisie, la tâche apparaitra sur le planning du technicien à qui elle a été affectée. Le statut de la planification permet de signaler la réalisation de la tâche (<b>informations, à faire, fait</b>).</p>
+  </body>
+</topic>

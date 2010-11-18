@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Supprimer un ordinateur</title>
+  <taskbody>
+    <context>Supprimer un ordinateur dans l&apos;inventaire</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Inventaire</uicontrol>
+            <uicontrol>Ordinateurs</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;ordinateur ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom de l&apos;ordinateur</li>
+              <li>Supprimer</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher l&apos;ordinateur</li>
+              <li>Modification massive : Supprimer</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>L&apos;ordinateur est placé dans la corbeille.</result>
+  </taskbody>
+</task>

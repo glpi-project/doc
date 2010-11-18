@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="installing" xml:lang="fr-fr">
+  <title>Déployer GLPI </title>
+  <shortdesc>Guide d&apos;installation.</shortdesc>
+  <body>
+    <p>Tout ce qu&apos;il faut savoir pour une installation confortable et sereine de GLPI.</p>
+    <p>Cette partie présente dans un premiers temps les prérequis nécessaires  à l&apos;installation de GLPI puis dans un second temps les différents modes d&apos;installation de GLPI.</p>
+  </body>
+</topic>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_notcomputer_connection" xml:lang="fr-fr">
+  <title>Connexions directes</title>
+  <shortdesc>Gestion des connexions directes pour les éléments d&apos;inventaire autre que les ordinateurs</shortdesc>
+  <body>
+    <p>Les connexions directes représentent la relation entre des matériels différents reliés de manière physique ou virtuelle.</p>
+    <p>Exemple : Connexion d&apos;une imprimante (réseau ou non) sur un ordinateur.
+
+</p>
+    <p>Les connexions ou déconnexions se font depuis la fiche de tous les matériels liés ou depuis le système de modification massive.
+</p>
+    <p>On retrouvera ainsi la liste des matériels liés dans l&apos;onglet <uicontrol>Connexions</uicontrol> du matériel dont on est en train de regarder le détail.</p>
+  </body>
+</topic>

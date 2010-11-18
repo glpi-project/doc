@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-damping_type">
+  <glossterm>Type d'amortissement</glossterm>
+  <glossdef>Caractéristique de l&apos;amortissement pouvant être linéaire ou dégressif.</glossdef>
+</glossentry>

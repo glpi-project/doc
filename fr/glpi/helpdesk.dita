@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk" xml:lang="fr-fr">
+  <title>Module Assistance</title>
+  <shortdesc>Module <menucascade>
+      <uicontrol>Assistance</uicontrol>
+    </menucascade> de GLPI</shortdesc>
+  <body>
+    <p>Le module d&apos;assistance permet aux utilisateurs de saisir, suivre et traiter des tickets. Des statistiques sont aussi disponibles.</p>
+  </body>
+</topic>

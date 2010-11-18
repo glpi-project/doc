@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-cas">
+  <glossterm>CAS (Central Authentication Service)</glossterm>
+  <glossdef>Pour Central Authentication Service. Système d&apos;authentification unique (en anglais SSO ou Single Sign On).</glossdef>
+</glossentry>

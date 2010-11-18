@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="plugin" xml:lang="fr-fr">
+  <title>Plugins</title>
+  <shortdesc>Les plugins se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Plugins</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI est une application modulaire. Ses fonctionnalités peuvent être étendues en ajoutant des plugins. Ces derniers sont recensés dans le catalogue des plugins http://plugins.glpi-project.org. Pour les installer, il  suffit de suivre la procédure suivante.</p>
+    <ol>
+      <li>Sauvegarder la base de données de GLPI ou les tables concernées par le plugin (elles sont listées dans le <codeph>lisezmoi.txt</codeph>) ; </li>
+      <li>Télécharger l&apos;archive du plugin à partir du Catalogue de plugins de GLPI. Vérifier la compatibilité de la version du plugin avec la version de GLPI installée ; sélectionner la version stable du plugin la plus récente satisfaisant à cet impératif ;</li>
+      <li>Décompresser l&apos;archive ; </li>
+      <li>Déplacer l&apos;ancienne version du plugin vers un autre répertoire, nommé par exemple <codeph>old</codeph>. (ne pas se contenter de renommer le dossier; le déplacer en dehors du dossier <codeph>plugins</codeph>) ;</li>
+      <li>Ajouter le répertoire décompressé dans le répertoire plugins de GLPI ;</li>
+      <li>Installer le plugin depuis le menu <menucascade>
+          <uicontrol>Configuration</uicontrol>
+          <uicontrol>Plugins</uicontrol>
+          <uicontrol>Nom du plugin </uicontrol>
+        </menucascade></li>
+      <li>Si la mise à jour du plugin a besoin d&apos;ajouter ou de modifier des tables dans la base de données de GLPI, une mise à jour sera demandée ;</li>
+      <li>Activer du plugin depuis le menu <menucascade>
+          <uicontrol>Configuration</uicontrol>
+          <uicontrol>Plugins</uicontrol>
+          <uicontrol>Nom du plugin </uicontrol>
+        </menucascade> ;</li>
+      <li>Le plugin est alors utilisable.</li>
+    </ol>
+  </body>
+</topic>

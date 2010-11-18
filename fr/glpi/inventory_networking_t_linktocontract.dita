@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un matériel réseau à un contrat</title>
+  <taskbody>
+    <context>Associer un matériel réseau à un contrat</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Inventaire</uicontrol>
+            <uicontrol>Réseaux</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du matériel réseau ;</cmd>
+      </step>
+      <step>
+        <cmd>2 possibilités</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du matériel réseau</li>
+              <li>Aller dans l&apos;onglet <b>Gestion</b></li>
+              <li>Sélectionner un contrat.</li>
+              <li>Ajouter</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le matériel réseau</li>
+              <li>Modification massive : <b>Ajouter un contrat</b></li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec le matériel réseau associé au contrat</result>
+  </taskbody>
+</task>

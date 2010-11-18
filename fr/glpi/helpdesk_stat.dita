@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_stat" xml:lang="fr-fr">
+  <title>Visualiser les statistiques</title>
+  <shortdesc>Les rapports concernant les tickets sont disponibles dans le menu <menucascade>
+      <uicontrol>Assistance</uicontrol>
+      <uicontrol>Statistiques</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Il est possible de visualiser des statistiques selon une période paramétrable :</p>
+    <ul>
+      <li>
+        <b>Globales : </b>
+        <p>Affiche des statistiques générales sur les tickets :</p>
+        <ul>
+          <li><b>Nombre de tickets ouverts</b> ;</li>
+          <li><b>Nombre de tickets fermés</b> ;</li>
+          <li><b>Délai moyen de traitement du ticket</b> ;</li>
+          <li><b>Durée réelle moyenne de traitement du ticket</b> ;</li>
+          <li><b>Délai moyen de prise en compte du ticket</b>.</li>
+        </ul>
+      </li>
+      <li>
+        <b>Par ticket :</b>
+        <p>Affiche des statistiques sur les éléments des tickets, sélectionnés via un menu déroulant. Par exemple : demandeur, technicien assigné, impact, etc...</p>
+        <p>Le tableau obtenu présente les éléments suivants :<ul>
+            <li><b>Nombre de tickets</b> ;</li>
+            <li><b>Nombre de tickets fermés</b> ;</li>
+            <li><b>Durée moyenne de traitement du ticket</b> ;<p>Durée moyenne entre l&apos;ouverture et la fermeture d&apos;un ticket sur tous les tickets fermés: Somme (date de fermeture – date d&apos;ouverture) / nombre de tickets ;</p></li>
+            <li><b>Durée réelle moyenne de traitement du ticket</b> ;<p>Durée moyenne des interventions programmées par les personnes qui prennent en charge les tickets. Intervention programmée signifie le temps alloué par un technicien sur les tâches liées aux tickets: Somme (heures d&apos;interventions jusqu&apos;à la clôture) / nombre de tickets ;</p></li>
+            <li><b>Durée réelle totale de traitement des tickets</b> ;<p>Durée des interventions programmées par les personnes qui prennent en charge les tickets. Intervention programmée signifie le temps alloué par un technicien sur les tâches liées aux tickets: Somme (heures d&apos;interventions jusqu&apos;à la clôture) ;</p></li>
+            <li><b>Délai moyen de prise en compte du ticket</b> :<p>Durée entre l&apos;ouverture du ticket et la premère action sur celui-ci (suivi, tâche ou solution).</p></li>
+          </ul></p>
+      </li>
+      <li>
+        <b>Par intitulé :</b>
+        <p>Affiche des statistiques sur les éléments des ordinateurs. Par exemple : Modèle, Système d&apos;exploitation, modèle de carte-mère, etc...</p>
+        <p>Les éléments statistiques obtenus sont les mêmes que pour les statistiques sur les tickets.</p>
+      </li>
+      <li>
+        <b>Par matériel :</b>
+        <p>Affiche le nombre de tickets affectés à chaque matériel, trié par nombre de tickets.</p>
+      </li>
+    </ul>
+    <p>Pour chaque ligne de résultat, l&apos;icône <image href="../image/stats_item.png"/> permet d&apos;afficher ces statistiques sous forme graphique.</p>
+    <p>L&apos;option <b>Voir les graphiques</b>, lorsqu&apos;elle est présente, permet d&apos;afficher les résultats sous forme de répartitation graphique de type camembert.</p>
+  </body>
+</topic>

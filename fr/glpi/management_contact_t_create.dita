@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Ajouter un contact</title>
+  <taskbody>
+    <context> Ajouter un contact dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Contacts</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+      </step>
+      <step>
+        <cmd>Valider.</cmd>
+      </step>
+    </steps>
+    <result>La fiche du contact est créée et affichée. </result>
+    <postreq>Par la suite, il est possible de lier le contact à un ou plusieurs fournisseurs ou documents. Voir <xref href="management_contact_t_linktosupplier.dita"/> et <xref href="management_contact_t_linktodocument.dita"/>.</postreq>
+  </taskbody>
+</task>

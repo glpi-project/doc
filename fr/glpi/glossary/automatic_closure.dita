@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-automatic_closure">
+  <glossterm>Clôture automatique</glossterm>
+  <glossdef>Processus interne à GLPI permettant de clore les tickets résolus après une période donnée.</glossdef>
+</glossentry>

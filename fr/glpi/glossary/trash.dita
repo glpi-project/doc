@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-trash">
+  <glossterm>Corbeille</glossterm>
+  <glossdef>Conteneur des éléments que l&apos;utilisateur a supprimé. A la manière de la corbeille pour un système d&apos;exploitation, elle constitue une étape intermédiaire avant la purge.</glossdef>
+</glossentry>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un contrat à un matériel</title>
+  <taskbody>
+    <context>Associer un contrat à un matériel</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Contrats</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du contrat ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom du contrat ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans l&apos;onglet <uicontrol>Matériel</uicontrol> ;</cmd>
+      </step>
+      <step>
+        <cmd>Sélectionner un matériel ;</cmd>
+      </step>
+      <step>
+        <cmd>Ajouter ;</cmd>
+      </step>
+      <step>
+        <cmd>Cette association est possible aussi depuis la fiche du matériel, onglet <uicontrol>Gestion</uicontrol> ou par modification massive, depuis la liste des matériels, <uicontrol>Ajouter Contrat...</uicontrol></cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec le contrat associé au matériel</result>
+  </taskbody>
+</task>

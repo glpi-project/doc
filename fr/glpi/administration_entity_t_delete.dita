@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Supprimer une entité</title>
+  <taskbody>
+    <context>Supprimer une entité. </context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Entités</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;entité ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;entité ;</cmd>
+        <info>L&apos;action massive de suppression n&apos;est pas disponible ici.</info>
+      </step>
+      <step>
+        <cmd>Purger.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

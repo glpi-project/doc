@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="glossentry-rule">
+  <glossterm>Règle adaptative</glossterm>
+  <glossdef>Règle dont au moins une action est le résultat d&apos;une expression rationnelle définie dans un critère.</glossdef>
+</glossentry>

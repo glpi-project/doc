@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Voir un article de la base de connaissances</title>
+  <taskbody>
+    <context>Voir un article de la base de connaissances dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur <menucascade>
+            <uicontrol>Outils</uicontrol>
+            <uicontrol>Base de connaissances</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;article ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;article.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche.</result>
+  </taskbody>
+</task>

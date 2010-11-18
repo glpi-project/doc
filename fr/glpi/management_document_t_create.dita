@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Ajouter un document</title>
+  <taskbody>
+    <context> Ajouter un document dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Documents</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Utiliser le bouton parcourir pour ajouter un document depuis un emplacement extérieur. Il est possible que le type de fichier ne soit pas autorisé. Il faut donc ajouter le type désiré depuis le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Intitulés</uicontrol>
+            <uicontrol>Type de document</uicontrol>
+          </menucascade> puis le relier au document créé ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+      </step>
+      <step>
+        <cmd>Valider.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche créée </result>
+  </taskbody>
+</task>
