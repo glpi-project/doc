@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_entity_delegation" audience="advanced" xml:lang="fr-fr">
+  <title>Déléguer l&apos;administration par entité</title>
+  <shortdesc>Délégation de certains paramètres d&apos;administration par entité</shortdesc>
+  <body>
+    <p>Dans le cadre d&apos;une utilisation de GLPI en multi-entités, la gestion de certains paramètres de configuration peut s&apos;effectuer différemment pour chaque entité.</p>
+    <section><title>Règles par entités</title>L&apos;ensemble des règles dont l&apos;action est <i>associée à une entité</i> sont listées dans l&apos;onglet <i>Règles</i> : ordinateurs, habilitations et tickets ouverts par courriel.<p>Un formulaire d&apos;ajout pour chaque type de règle permet de créer automatiquement celle-ci avec une action d&apos;assignation à l&apos;entité pré-remplie.</p></section>
+    <section>
+      <title>Informations avancées</title>
+      <p>Cet onglet renferme deux types de paramètres. Ceux en rapport avec les règles génériques d&apos;affectation à l&apos;entité et ceux concernant l&apos;interface de recherche des utilisateurs.</p>
+      <p>Afin de donner à un administrateur d&apos;une entité la possibilité d&apos;importer ses utilisateurs d&apos;un annuaire LDAP, il est nécessaire de préciser certains paramètres : l&apos;annuaire associé à l&apos;entité et le filtre de recherche n&apos;est pas obligatoire. Ce dernier n&apos;est important que si la définition d&apos;une entité se fait par l&apos;ajout d&apos;une restriction sur le filtre LDAP. Il est également possible de définir le domaine de messagerie spécifique à l&apos;entité qui peut être utilisé pour affecter les utilisateurs à cette entité.</p>
+      <p>Trois options sont disponibles pour l&apos;utilisation des règles d&apos;affectation génériques à l&apos;entité : le TAG provenant de l&apos;outil d&apos;inventaire, l&apos;information LDAP représentant l&apos;entité (par exemple le DN de l&apos;entité, voir <xref href="administration_rule_right.dita"/>), et le domaine de messagerie associé à celle-ci.  </p>
+    </section>
+    <section>
+      <title>Notifications</title>
+      <p>Cet onglet est disponible si l&apos;utilisateur dispose du droit <tt>Notifications</tt>. Il regroupe toutes les options configurables par entité qui concernent les notifications. Le <b>courriel de l&apos;administrateur</b>, le <b>nom de l&apos;administrateur</b>, l&apos;<b>adresse de réponse</b> (voir <xref href="config_notification_configuration.dita"/>) et un <b>commentaire</b>.</p>
+      <p>Les paramètres d&apos;alertes définis dans la configuration générale (voir <xref href="config_notification_configuration.dita"/>), peuvent être modifiés par l&apos;administrateur de l&apos;entité : lorsque l&apos;option des listes déroulantes valeur de la configuration générale est sélectionnée, cela veut dire que l&apos;entité ne possède pas ses propres réglages, mais suit ceux définis par l&apos;administrateur de GLPI.</p>
+    </section>
+    <section>
+      <title>Assistance</title>
+      <p>Cet onglet est disponible si l&apos;utilisateur dispose du droit <tt>Assistance</tt>. Il propose les options suivantes :</p>
+      <ul>
+        <li><b>Clôture automatique des tickets résolus après un certain nombre de jours</b> : une action automatique permet de clore automatiquement les tickets résolus pour lesquels le demandeur n&apos;a pas validé la solution au bout d&apos;un certain temps. Ce délai est celui défini dans ce paramètre (ou celle de la configuration globale en fonction du choix effectué). Une valeur nulle permettra la clôture automatique du ticket dès sa résolution.</li>
+        <li><b>Affectation automatique des tickets</b> : permet de définir le comportement utilisé pour l&apos;affectation automatique des tickets. Il est possible de désactiver cette option ou d&apos;utiliser les données de responsable technique du matériel et de la catégorie du ticket dans l&apos;ordre souhaité.</li>
+        <li><b>Type par défaut pour les tickets</b> : permet de définir le type de ticket par défaut dans le cas où celui-ci n&apos;est pas défini (cas de collecteurs mail par exemple)</li>
+        <li><b>Calendrier</b> : permet le calcul des temps d&apos;attente des tickets et le décalage des dates d&apos;échéance en fonction d&apos;un calendrier spécifique à chaque entité. </li>
+        <li><b>Configuration de l&apos;enquête de satisfaction</b> : permet de d&apos;activer pour l&apos;entité l&apos;enquête de satisfaction. L&apos;enquête peut être gérée en interne dans GLPI ou déléguée à un système tiers. 2 autres paramètres sont disponibles :<ul>
+            <li>Le délai entre la clôture du ticket et le lancement de l&apos;enquête</li>
+            <li>le pourcentage de tickets pour lequel il faut réaliser une enquête</li>
+          </ul><p>Pour les enquêtes externes, vous pouvez générer automatiquement à partir de balises l&apos;adresse web pour accéder à l&apos;enquête. Les balises disponibles sont :<ul>
+              <li>[TICKET_ID] : id du ticket</li>
+              <li>[TICKET_NAME] : nom du ticket</li>
+              <li>[TICKET_CREATEDATE] : date de création du ticket </li>
+              <li>[TICKET_SOLVEDATE] : date de résolution du ticket </li>
+              <li>[REQUESTTYPE_ID] : id de la source de la demande </li>
+              <li>[REQUESTTYPE_NAME] : nom de la source de la demande (téléphone, helpdesk,...) </li>
+              <li>[ITEMTYPE] : type du matériel associé au ticket (ordinateur, imprimante,...) </li>
+              <li>[ITEM_ID] : id du matériel associé au ticket </li>
+              <li>[ITEM_NAME] : nom du matériel associé au ticket </li>
+              <li>[TICKET_PRIORITY] : priorité du ticket </li>
+              <li>[TICKETCATEGORY_ID] : id de la catégorie du ticket </li>
+              <li>[TICKETCATEGORY_NAME] : nom de la catégorie du ticket </li>
+              <li>[TICKETTYPE_ID] =&gt; type du ticket </li>
+              <li>[TICKETTYPE_NAME] =&gt; nom du type de ticket (gestion des incidents ou demandes de services) </li>
+              <li>[SOLUTIONTYPE_ID] =&gt; id du type de solution </li>
+              <li>[SOLUTIONTYPE_NAME] =&gt; nom de la solution </li>
+              <li>[SLA_ID] =&gt; id du sla associé au ticket </li>
+              <li>[SLA_NAME] =&gt; nom du sla associé au ticket </li>
+              <li>[SLALEVEL_ID] =&gt; id du niveau de sla </li>
+              <li>[SLALEVEL_NAME] = nom du niveau de sla</li>
+            </ul></p></li>
+      </ul>
+    </section>
+    <section>
+      <title>Inventaire</title>
+      <p>Cet onglet propose la configuration de la gestion des différentes dates présentes dans les informations administratives et financières. Les actions automatiques possibles sont :<ul>
+          <li>le remplissage au passage du matériel dans un statut particulier ;</li>
+          <li>le remplissage par copie d&apos;une autre date ;</li>
+          <li>aucune gestion automatique.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

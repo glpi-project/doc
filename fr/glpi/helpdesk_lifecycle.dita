@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_lifecycle" xml:lang="fr-fr">
+  <title>Comprendre le cycle de vie des tickets</title>
+  <shortdesc>La consultation et modification des options du cycle de vie des tickets se fait dans le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Assistance</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <section>
+      <p>Les différents statuts possibles pour un ticket sont nouveaux, en cours (attribué), en cours (planifié), en attente, résolu et clos. Ceux-ci ne sont ni paramétrables ni modifiables.</p>
+    </section>
+    <section>
+      <title>Règles de gestion</title>
+      <p>A sa création, un ticket prend le statut <b>Nouveau</b>. Lorsqu&apos;un technicien le qualifie en lui attribuant un groupe, un technicien ou un fournisseur chargé de le traiter, il passe alors à l&apos;état  <b>En cours (attribué)</b>. De même, s&apos;il rajoute une nouvelle tâche alors il devient <b>En cours (planifié)</b>. Quand une solution est apportée au ticket, alors il prend le statut <b>Résolu</b>. Enfin, quand le demandeur ou le rédacteur valide la solution proposée, alors il est <b>Clos</b>.</p>
+      <note>Le technicien peut changer le statut à tout moment, notamment pour mettre le ticket <b>En attente</b>.</note>
+    </section>
+    <section>
+      <title>Matrice de calcul de la priorité</title>
+      <p audience="advanced">Les bonnes pratiques ITIL séparent l&apos;urgence (définie par l&apos;utilisateur), de l&apos;impact de l&apos;incident (renseigné par le technicien). Une matrice est alors utilisée pour calculer la priorité associée au ticket en fonction de ces deux critères. GLPI fournit une matrice standard prédéfinie qui permet de retrouver un fonctionnement identique au helpdesk dans les versions précédentes de l&apos;application (où ces deux notions d&apos;urgence et impact n&apos;existaient pas). </p>
+      <p>La matrice prédéfinie de calcul de la priorité d&apos;un ticket en fonction de son urgence et de son impact est modifiable et se trouve  dans l&apos;onglet <menucascade>
+          <uicontrol>Configuration</uicontrol>
+          <uicontrol>Assistance</uicontrol>
+        </menucascade> (Voir <xref href="config_common.dita"/>).</p>
+      <p>Il est possible de sélectionner les différents niveaux d&apos;urgence ou de priorités qui seront utilisés dans le helpdesk, et d&apos;en désactiver certains : pour cela il suffit de définir le niveau choisi à Non. Il faut noter que  le niveau moyen n&apos;est pas désactivable.</p>
+    </section>
+  </body>
+</topic>

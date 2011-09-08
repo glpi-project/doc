@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_crontask" xml:lang="fr-fr">
+  <title>Configurer les actions automatiques</title>
+  <shortdesc>Les actions automatiques se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Actions automatiques</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Pour chaque action, il est possible de configurer :
+<ul>
+        <li><b> La fréquence d&apos;exécution</b> ;</li>
+        <li><b> Le statut</b> : Permet de désactiver si besoin l&apos;action ;</li>
+        <li><b> Le mode d&apos;exécution</b> : Interne (déclenché par la navigation des utilisateurs, par défaut lors de l&apos;installation standard) ou Externe (plus robuste mais nécessitant une configuration système) ;</li>
+        <li><b> La plage horaires d&apos;exécution</b> : Permet de désactiver certains traitements la nuit par exemple ;</li>
+        <li><b> Le temps en jours de conservation des journaux</b> : qui sont stockés dans la base de données.</li>
+      </ul>
+L&apos;interface permet aussi de réinitialiser la date d&apos;exécution, de forcer l&apos;exécution, de consulter les statistiques et les journaux d&apos;exécution depuis l&apos;onglet <b>Journaux</b>.
+
+</p>
+    <p>L&apos;action automatique <b>watcher</b> est une action qui surveille l&apos;exécution correcte des autres actions automatiques. Si une d&apos;entre elles se retrouve en erreur, une notification sera envoyée. Il faut donc que le suivi par courriel soit activé (voir <xref href="config_notification.dita"/>) ; les destinataires sont paramétrables dans la notification <b>Crontask Watcher</b> (voir <xref href="config_notification_notifications.dita"/>).</p>
+  </body>
+</topic>

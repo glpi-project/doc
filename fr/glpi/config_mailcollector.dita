@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_mailcollector" xml:lang="fr-fr">
+  <title>Configurer les collecteurs</title>
+  <shortdesc>La configuration des collecteurs s&apos;effectue depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Collecteurs</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Un collecteur permet d&apos;importer un courriel depuis une boîte, et de le transformer en ticket dans GLPI. Un mécanisme de routage permet d&apos;affecter celui-ci à une entité de destination.</p>
+    <p>Un collecteur est associé à une adresse de messagerie. Il est possible d&apos;ajouter autant de collecteurs que l&apos;on désire. Bien entendu, plus leur nombre est élevé, plus le processus d&apos;import des courriels est long.</p>
+    <p>La déclaration d&apos;un nouveau collecteur consiste à donner un nom de serveur (Email), ainsi que des options de connexion (IMAP ou POP, SSL, TLS, validation de certificat). Il est possible de limiter la taille maximale des pièces jointes (pas d&apos;import, ou de 1 à 100 Mio). La valeur par défaut de cette option est héritée de la configuration générale (menu <menucascade>
+        <uicontrol>Configuration</uicontrol>
+        <uicontrol>Générale</uicontrol>
+        <uicontrol>Assistance</uicontrol>
+      </menucascade>). </p>
+    <note type="important">Le nom du collecteur doit être le courriel utilisé. Cela permet de déterminer l&apos;adresse associée au compte de messagerie. Celle-ci est utilisée pour déterminer l&apos;adresse à ne pas ajouter automatiquement comme observateur des tickets.</note>
+    <p>Une fois le formulaire validé, un bouton permet de tester la connexion au compte de messagerie et la récupération des messages.</p>
+    <p>Une action automatique nommée <uicontrol>Récupération des messages (Collecteurs)</uicontrol> réalise l&apos;import effectif des courriels sur les collecteurs précédemment configurés : le temps entre 2 collectes se paramètre dans le formulaire de cette tâche.</p>
+  </body>
+</topic>

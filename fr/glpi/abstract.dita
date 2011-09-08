@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+  Sourceforge.net. See the accompanying license.txt file for 
+  applicable licenses.--><!-- (c) Copyright IBM Corp. 2007 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="concept-1" xml:lang="fr-fr">
+  <title>Résumé</title>
+  <conbody>
+    <p>Installer et utiliser efficacement GLPI (Gestion Libre de Parc Informatique).</p>
+    <p>Solution libre et open-source de gestion de parc informatique et de helpdesk, GLPI est une application accessible via  un navigateur web conçue pour gérer l&apos;ensemble de vos problématiques de gestion de parc informatique : de la gestion de l&apos;inventaire des composantes matérielles ou logicielles d&apos;un parc informatique à la gestion de l&apos;assistance aux utilisateurs.</p>
+  </conbody>
+</concept>

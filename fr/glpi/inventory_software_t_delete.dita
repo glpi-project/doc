@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Supprimer un logiciel</title>
+  <taskbody>
+    <context>Supprimer un logiciel dans l&apos;inventaire</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Inventaire</uicontrol>
+            <uicontrol>Logiciel</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du logiciel ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du logiciel</li>
+              <li>Supprimer</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le logiciel</li>
+              <li>Modification massive : Supprimer</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Le logiciel est placé dans la corbeille.</result>
+  </taskbody>
+</task>

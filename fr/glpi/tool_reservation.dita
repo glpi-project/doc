@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_reservation" xml:lang="fr-fr">
+  <title>Gérer les réservations</title>
+  <shortdesc>Les réservations se gèrent dans le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>Réservations</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette section affiche le matériel réservable et permet d&apos;effectuer des réservations.</p>
+    <p>Différentes icônes permettent de :</p>
+    <ul>
+      <li>Désactiver momentanément les réservations sur un matériel : <image href="../image/moins.png"/></li>
+      <li>Supprimer un item de la liste des matériels réservables : <image href="../image/delete.png"/></li>
+      <li>Voir le planning d&apos;un matériel réservable : <image href="../image/reservation-3.png"/></li>
+    </ul>
+    <p>Pour ajouter une réservation, cliquer sur une date du calendrier.</p>
+    <p>Pour rendre un matériel réservable, choisir l&apos;option adéquate dans l&apos;onglet réservation de la fiche de celui-ci.</p>
+  </body>
+</topic>

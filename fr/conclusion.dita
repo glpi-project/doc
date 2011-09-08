@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
+<topic id="topic-1">
+  <title>Conclusion</title>
+  <body>
+    <p>Pour aller plus loin : Vous n&apos;êtes pas seul  !</p>
+    <p>GLPI est un projet communautaire. Sa force est donc sa puissante communauté sur laquelle vous pouvez vous appuyer pour mener à bien votre projet.</p>
+    <p>Vous trouverez ci-après la liste des ressources et espaces de discussion que vous pouvez utiliser pour aller plus loin.</p>
+    <section>
+      <title>Catalogue des plugins (greffons) pour GLPI</title>
+      <p>Le catalogue des plugins (greffons) permettant d&apos;ajouter des fonctionnalités facilement à GLPI est disponible à cette adresse   <xref href="http://plugins.glpi-project.org" format="html"/>. Vous y trouverez l&apos;ensemble des plugins disponibles pour GLPI classées par thèmes et évalués par les utilisateurs de GLPI.</p>
+    </section>
+    <section>
+      <title>Documentation et wiki</title>
+      <p>En plus de cette documentation,  un wiki proposant des informations complémentaires est visibles à cette adresse : <xref href="http://glpi-project.org/wiki" format="html"/> . N&apos;hésitez pas à y ajouter vos trucs et astuces.</p>
+    </section>
+    <section>
+      <title>Forum </title>
+      <p>Le forum est un espace d&apos;entre aide communautaire. Posez vos questions sur cet espace en prenant soin de respecter les règles de fonctionnement qui lui sont propre.  Vous pourrez bénéficier alors des conseils, avis, aides des autres utilisateurs. N&apos;oubliez pas de faire de même ensuite avec de nouveaux débutants afin de partager votre expérience.</p>
+      <p>Le forum est accessible à cette adresse : <xref href="http://glpi-project.org/forum" format="html"/></p>
+    </section>
+    <section>
+      <title>Listes de discussions</title>
+      <p>L&apos;ensembles des listes de discussions sont visibles à cette adresse : <xref href="http://glpi-project.org/spip.php?article4" format="html"/></p>
+      <p>La liste des utilisateurs :  Cette liste est destinée aux questions portant sur l&apos;utilisation ou l&apos;installation de GLPI. C&apos;est la liste sur laquelle vous aurez le plus de chances d&apos;obtenir de l&apos;aide.</p>
+      <p>La liste des developpeurs :  Cette liste de travail est destinée aux discussions portant sur la programmation et le développement de GLPI.
+
+ Si vous voulez rapporter un bug, il est préférable d&apos;utiliser le forum ou cette liste de développement. Ainsi votre retour sera étudié par l&apos;équipe de développement.</p>
+    </section>
+    <section>
+      <title>Partenaires du projet GLPI</title>
+      <p>La demande croissante de prestations autour du projet GLPI a donné naissance a un réseau de partenaires. Ces partenaires sont à même de vous apporter les services à forte valeur ajoutée et l&apos;assistance au déploiement de GLPI dont vous avez besoin.
+
+En tant qu&apos;utilisateur final, vous êtes assuré de l&apos;étroite collaboration entre le projet GLPI et ses partenaires et vous apportez votre soutien au projet puisque chaque partenaire s&apos;engage à contribuer activement au projet GLPI.</p>
+      <p>Vous trouverez la liste des entreprises partenaires du projet GLPI sur le site du projet : <xref href="http://glpi-project.org" format="html"/></p>
+    </section>
+  </body>
+</topic>

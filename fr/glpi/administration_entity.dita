@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_entity" xml:lang="fr-fr">
+  <title>Administrer les entités</title>
+  <shortdesc>Dans GLPI, administrer les entités peut se faire à partir du menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Entités</uicontrol>
+    </menucascade>. </shortdesc>
+  <body>
+    <p>La notion d&apos;entité est une notion clé dans GLPI. Elle peut s&apos;apparenter à la notion de hiérarchie, de service au sein d&apos;une entreprise, d&apos;un système d&apos;information. Elle permet d&apos;isoler des ensembles organisés de manière hiérarchique dans une instance unique de GLPI. Le terme choisi est volontairement neutre, afin de pouvoir s&apos;adapter aux différentes formes d&apos;isolation propres à chaque système d&apos;information. L&apos;unicité de l&apos;instance de GLPI permet la consolidation des données et des règles communes. L&apos;utilisation des entités permet un cloisonnement relativement étanche entre les unités organisationnelles. Dans les cas où ce cloisonnement étanche n&apos;est pas souhaité, il est préférable d&apos;utiliser les fonctionnalités offertes par les groupes. La segmentation en entités peut avoir plusieurs finalités : isoler le parc informatique de chaque service afin de limiter la vision du parc à certains groupes ou utilisateurs ; reconstruire la possible hiérarchie déjà créée au sein de votre Annuaire informatique (LDAP, Active Directory) ... Cette notion est très intéressante pour une entreprise dont la gestion est hiérarchique et où les personnes doivent avoir une vision du parc dépendant de leur appartenance à un service.</p>
+    <p>Une fois plusieurs entités créées dans GLPI, l&apos;inventaire de votre parc, les utilisateurs, les profils ou encore le service d&apos;assistance devient fonction des entités. Autrement dit, on peut affecter un ordinateur à une entité,
+  déclarer un ticket sur une entité, créer des profils, gérer des habilitations spécifiques à chaque entité.
+ L&apos;affectation automatique des utilisateurs et des matériels est possible grâce au paramétrage de règles.</p>
+    <example>
+      <p>On considère la hiérarchie suivante :
+
+          </p>
+      <codeblock>          EM
+    |------|------|
+   EA            EB
+  |   |        |    |
+EA1   EA2     EB1   EB2</codeblock>
+      <p>L&apos;entité mère (<userinput>EM</userinput>, ou nativement appelée <userinput>Entité Racine</userinput> dans GLPI) possède deux filiales (<userinput>EA</userinput> et <userinput>EB</userinput>) qui possèdent à leur tour deux départements chacune (<userinput>EA1</userinput>, <userinput>EA2</userinput>, <userinput>EB1</userinput> et <userinput>EB2</userinput>). Chaque entité possède une vision de son parc et des entités qui lui sont affiliées.
+ </p>
+      <ul>
+        <li><userinput>EM</userinput> a une vision de son parc et de toutes les entités. </li>
+        <li><userinput>EA</userinput> a une vision de son parc et de <userinput>EA1</userinput> et <userinput>EA2</userinput>.</li>
+        <li><userinput>EA1</userinput> ne voit que son parc.</li>
+      </ul>
+    </example>
+    <p>Un utilisateur peut être rattaché à plusieurs entités avec des droits différents. Ces droits peuvent être conservés sur les entités filles ou non.
+  Pour reprendre l&apos;exemple précédent, un utilisateur ne pourra ne déclarer un ticket qu&apos;au sein de son service, se rapportant uniquement au matériel qui lui est rattaché ou à un matériel de son service (une imprimante, un écran...).
+ </p>
+    <p>Inversement, un utilisateur disposant d&apos;habilitations plus étendues pourra consulter l&apos;ensemble des matériels, tickets ou autres objets. Et ce, sur toutes les entités sur lesquels ses droits sont applicables. 
+ </p>
+    <p>Par défaut, GLPI s&apos;installe avec une entité générique, appelée <userinput>Entité Racine</userinput>. Il est donc mono-entité.
+ </p>
+  </body>
+</topic>

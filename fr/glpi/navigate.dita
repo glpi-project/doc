@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="navigate" xml:lang="fr-fr">
+  <title>Naviguer dans les modules de GLPI</title>
+  <shortdesc>La navigation dans les modules se fait via la barre supérieure de l&apos;interface.</shortdesc>
+  <body>
+    <p>Les différentes fonctions de GLPI ont été regroupées en six modules. Ces modules ont été construits autour de contextes d&apos;utilisation similaires.  La barre supérieure de l&apos;interface permet de naviguer entre ces modules  :<ul>
+        <li>Le module <uicontrol>Inventaire</uicontrol> permet d&apos;accéder aux différents matériels inventoriés. Voir <xref href="inventory.dita"/>.</li>
+        <li>Le module <uicontrol>Assistance </uicontrol> permet de créer, suivre les tickets, et voir les statistiques. Voir <xref href="helpdesk.dita"/>.</li>
+        <li>Le module <uicontrol>Gestion</uicontrol> permet de gérer les contacts, fournisseurs, budgets, contrats et documents. Voir <xref href="management.dita"/>.</li>
+        <li>Le module <uicontrol>Outils</uicontrol> permet de gérer des notes, la base de connaissance, les réservations, la synchronisation de l&apos;inventaire avec OCS Inventory NG et visualiser les rapports ; Voir <xref href="tool.dita"/>.</li>
+        <li>Le module <uicontrol>Administration </uicontrol>permet d&apos;administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires. Il permet aussi la maintenance de l&apos;application (sauvegarde et restauration de base, vérifier si une nouvelle version est disponible). Voir <xref href="administration.dita"/>.</li>
+        <li> Le module <uicontrol>Configuration</uicontrol> permet d&apos;accéder aux options de configuration générale de GLPI : notifications, collecteurs, tâches automatiques, authentification, plugins, liens externes, mode OCSNG. Voir <xref href="config.dita"/>.</li>
+      </ul></p>
+    <p>Les menus présentés à l&apos;utilisateur varient en fonction des habilitations de l&apos;utilisateur connecté. Voir <xref href="administration_profile.dita"/>.</p>
+    <p>Le contexte de navigation est présenté à l&apos;utilisateur dans le fil d&apos;ariane.</p>
+  </body>
+</topic>

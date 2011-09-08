@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification_configuration" xml:lang="fr-fr">
+  <title>Configurer les suivis par courriels et les alertes</title>
+  <shortdesc>La configuration générale des notifications se fait depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Notifications</uicontrol>
+      <uicontrol>Configurer les suivis par courriels et les alertes</uicontrol>
+    </menucascade>;</shortdesc>
+  <body>
+    <section>
+      <p>Les notifications de GLPI sont envoyées par courriel. Il est donc nécessaire de configurer la connexion à un serveur de messagerie.</p>
+      <note type="important">Cette page de configuration est accessible aux utilisateurs possédant la permission <i>Configuration - écriture.</i> Par défaut le suivi par courriel n&apos;est pas activé : un bouton permet rendre utilisable cette fonctionnalité. </note>
+      <title>Onglet &quot;Configuration&quot;</title>
+      <p>
+  <ul>
+          <li>
+            <b>Serveur de messagerie</b>
+            <note>Ce menu permet de renseigner les paramètres nécessaires au bon fonctionnement des notifications. Une fois la configuration générale validée, il est possible de tester celle-ci en cliquant sur le bouton : <b>Tester l&apos;envoi de courriel vers l&apos;administrateur</b>.</note>
+            <ul>
+              <li><b>Utiliser le suivi par courriel</b> : active ou non la gestion des notifications dans GLPI. Cette configuration est globale à toute l&apos;application ;</li>
+              <li><b>Courriel de l&apos;administrateur</b> : l&apos;adresse de messagerie de l&apos;administrateur général de GLPI. Cette adresse est utilisée lorsque l&apos;<b>Administrateur</b> est sélectionné en tant que destinataire d&apos;une notification ;</li>
+              <li><b>Nom de l&apos;administrateur</b> : le nom de l&apos;administrateur utilisé indique le nom associé au courriel de l&apos;administrateur ;</li>
+              <li><b>Courriel de réponse (si nécessaire)</b> : adresse de messagerie utilisée lorsque l&apos;utilisateur répond à une notification envoyée par l&apos;administrateur ;</li>
+              <li><b>Signature des messages</b> : texte ajouté à la fin de chaque notification. Cette valeur est globale, mais peut être adaptée pour chaque entité (voir configuration d&apos;une entité) ;</li>
+              <li><b>Adresse web de l&apos;application</b> : indique le chemin d&apos;accès web vers l&apos;application GLPI. Ce paramètre est utilisé, entre autres, pour construire des liens vers des objets dans un courriel ;</li>
+              <li><b>Mode d&apos;envoi des courriels</b> : <ol>
+                  <li>PHP : l&apos;envoi est géré par la fonction mail() de PHP. Celle-ci est très souvent bloquée chez les hébergeurs ;</li>
+                  <li>SMTP : envoi en utilisant le protocole SMTP ;</li>
+                  <li>SMTP + SSL : envoi en utilisant le protocole SMTP, encapsulé dans un tunnel SSL ;</li>
+                  <li>SMTP + TLS : envoi de courriels plus sécurisé que SMTP + SSL ;</li>
+                </ol></li>
+              <li><b>Hôte(s) SMTP</b>[:Port] (séparateur ;) : nom ou adresse IP du serveur de messagerie. Il est possible de spécifier le port en ajoutant le caractère &quot;deux points&quot; puis le numéro. Plusieurs serveurs peuvent être précisés en les séparant par un point virgule ;</li>
+              <li><b>Identifiant (login) SMTP</b> (optionnel) : l&apos;utilisateur autorisé à se connecter au SMTP (laisser vide pour les connexions anonymes) ;</li>
+              <li><b>Mot de passe SMTP</b> (optionnel) : le mot de passe de l&apos;utilisateur.</li>
+            </ul>
+          </li>
+        </ul></p>
+    </section>
+    <section>
+      <title>Onglet option des alertes</title>
+      <note>Cet onglet permet de définir de manière globale les options de notifications utilisées par les actions automatiques (alertes sur les cartouches, les consommables, les licences, les contrats, les informations financières, les réservations et les tickets non fermés). Ces valeurs peuvent être modifiées pour chaque entité dans l&apos;onglet <b>Notifications</b> de celle-ci.</note>
+    </section>
+    <note type="important">Chaque option est associée à une action automatique. Si l&apos;action est désactivée par l&apos;administrateur de GLPI, aucune notification ne sera envoyée.</note>
+  </body>
+</topic>

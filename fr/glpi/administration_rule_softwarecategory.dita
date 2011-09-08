@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_softwarecategory" xml:lang="fr-fr">
+  <title>Affecter une catégorie à un logiciel</title>
+  <shortdesc>Une classification par catégorie permet de faciliter l&apos;affichage et la recherche des logiciels. Celle-ci peut se faire de manière automatique pour tout nouveau logiciel, ou rétroactivement.</shortdesc>
+  <body>
+    <p>Ce type de règle est accessible depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+        <uicontrol>Règle d&apos;affectation d&apos;une catégorie aux logiciels</uicontrol>
+      </menucascade>.</p>
+    <p>Les critères disponibles sont le fabricant, le nom et le commentaire du logiciel. </p>
+    <p>La seule action possible est l&apos;affectation d&apos;un logiciel à une catégorie.</p>
+    <p>Il est possible de rejouer le moteur depuis la liste des logiciels, grâce à l&apos;action massive <b>Recalculer la catégorie</b>.</p>
+    <note type="important">le moteur s&apos;arrête à la première règle vérifiée.</note>
+    <note>il n&apos;est pas possible de modifier la catégorie d&apos;un logiciel automatiquement s&apos;il en possède déjà une : il faut préalablement la désaffecter du logiciel, puis ensuite rejouer les règles.</note>
+  </body>
+</topic>

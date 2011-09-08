@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_user" xml:lang="fr-fr">
+  <title>Administrer les utilisateurs</title>
+  <shortdesc>Dans GLPI, administrer les utilisateurs peut se faire à partir du menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Utilisateurs</uicontrol>
+    </menucascade>. </shortdesc>
+  <body>
+    <p>Il est possible d&apos;ajouter, modifier, supprimer des utilisateurs ou rechercher et exporter la liste des utilisateurs. La liste des utilisateurs enregistrés fonctionne de la même façon que la liste des éléments de l&apos;inventaire. </p>
+    <p>En plus des informations de l&apos;utilisateur, il est  possible de le désactiver  si besoin (champ <uicontrol>Actif</uicontrol>).
+
+Dans ce cas, l&apos;utilisateur n&apos;est plus sélectionnable dans les menus déroulants des tickets ou de l&apos;inventaire, mais il conserve ses matériels et tickets associés. </p>
+    <p>Les fonctionnalités supplémentaires liées aux utilisateurs sont utilisables avec les différents onglets :<ul>
+        <li><uicontrol>Profils</uicontrol> permet d&apos;administrer les habilitations dont dispose l&apos;utilisateur ;<p>Pour cela, sélectionner l&apos;entité sur laquelle les droits doivent être donnés, puis les droits (profil) à donner. L&apos;option <b>Récursif</b> permet d&apos;associer également le profil à toutes les sous-entités de l&apos;entité sélectionnée ;</p></li>
+        <li>
+          <uicontrol>Groupes</uicontrol>
+          <p>Permet d&apos;associer et supprimer des groupes à l&apos;utilisateur ;</p>
+        </li>
+        <li>
+          <uicontrol>Préférences </uicontrol>
+          <p>Permet l&apos;édition des préférences de l&apos;utilisateur. Voir <xref href="start_pref.dita"/>.</p>
+        </li>
+        <li>
+          <uicontrol>Matériels </uicontrol>
+          <p>Liste les objets d&apos;inventaire affectés à l&apos;utilisateur ou à un groupe dont il est membre ;</p>
+        </li>
+        <li>
+          <uicontrol>Tickets </uicontrol>
+          <p>Liste les tickets dont l&apos;utilisateur a été le demandeur ;</p>
+        </li>
+        <li>
+          <uicontrol>Réservations</uicontrol>
+          <p>Liste les réservations passées, en cours et à venir de l&apos;utilisateur ;</p>
+        </li>
+        <li>
+          <uicontrol>Synchronisation </uicontrol>
+          <p>Permet de changer la méthode d&apos;authentification d&apos;un utilisateur ;</p>
+        </li>
+        <li>
+          <b>
+            <uicontrol>Historique </uicontrol>
+          </b>
+          <p>Voir <xref href="inventory_log.dita"/> ;</p>
+        </li>
+        <li>
+          <uicontrol>Tous</uicontrol>
+          <p>Voir <xref href="inventory_all.dita"/>.</p>
+        </li>
+      </ul></p>
+    <p>Lorsqu&apos;une authentification externe est définie (annuaire LDAP, IMAP/POP, CAS) de nouveaux boutons apparaissent permettant d&apos;importer des utilisateurs ou de synchroniser des utilisateurs existants (annuaire LDAP seulement).</p>
+  </body>
+</topic>

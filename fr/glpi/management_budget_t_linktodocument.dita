@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="task-1">
+  <title>Associer un budget à un document</title>
+  <taskbody>
+    <context>Associer un budget à un document</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Budgets</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du budget</cmd>
+      </step>
+      <step>
+        <cmd>2 possibilités</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du budget</li>
+              <li>Aller dans l&apos;onglet <b>Documents</b></li>
+              <li>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un.</li>
+              <li>Ajouter</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le budget</li>
+              <li>Modification massive : <b>Ajouter un Document</b></li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec le budget associé au document</result>
+  </taskbody>
+</task>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="install_download" xml:lang="fr-fr">
+  <title>Télécharger l&apos;archive</title>
+  <shortdesc>Télécharger GLPI</shortdesc>
+  <body>
+    <p>Télécharger l&apos;archive d&apos;installation de GLPI  sur le site web du projet GLPI : <xref href="http://www.glpi-project.org" format="html">http://www.glpi-project.org</xref> dans la rubrique <b>Télécharger</b>.</p>
+    <note type="tip">
+      <p>Télécharger la dernière version stable pour une utilisation en production.</p>
+    </note>
+    <note type="note">Numérotation des versions : l&apos;archive est nommée <i>GLPI Version X.YY.ZZ</i> où <i>X.YY</i> est le numéro de version majeure et <i>ZZ</i> indique le numéro de version corrective. Exemple : GLPI 0.72.4 correspond à la 4ème version corrective de la version majeure 0.72.</note>
+  </body>
+</topic>

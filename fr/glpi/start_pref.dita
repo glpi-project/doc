@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="start_pref" xml:lang="fr-fr">
+  <title>Gérer ses préférences</title>
+  <shortdesc>Les préférences utilisateur se modifient depuis le menu <menucascade>
+      <uicontrol>Préférences</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Chaque utilisateur authentifié a la possibilité de modifier ses préférences.</p>
+    <p>Ce menu <menucascade>
+        <uicontrol>Préférences</uicontrol>
+      </menucascade> se situe tout en haut et à droite de l&apos;interface, à partir de n&apos;importe quelle page. </p>
+    <section>
+      <title>Onglet Principal</title>
+      <p>L&apos;utilisateur peut ici modifier les informations personnelles usuelles : nom de famille, prénom, adresse de messagerie, numéros de téléphone, langue. </p>
+      <p>Il peut aussi spécifier certains comportements par défaut de l&apos;application, comme le profil et l&apos;entité sélectionnés par défaut lors de la connexion à l&apos;interface. Voir  <xref href="administration_profile.dita"/>  et <xref href="administration_entity.dita"/>. </p>
+      <p>L&apos;utilisateur  expérimenté peut aussi choisir de sortir du mode d&apos;utilisation <userinput>normal</userinput>  de l&apos;application en sélectionnant un des mode suivants :</p>
+      <p><ul>
+          <li>Dans le mode <userinput>traduction</userinput>, les chaînes de texte dépendant de l&apos;environnement linguistique sont identifiées ; ce mode permet au traducteur de repérer et de traduire plus facilement les chaînes de texte. </li>
+        </ul><ul>
+          <li>Dans le mode <userinput>debug</userinput>, GLPI affiche les erreurs, toutes les valeurs des variables, les requêtes SQL... Il est utile d&apos;activer ce mode en cas de dysfonctionnement de GLPI. Un maximum d&apos;informations peuvent ainsi être communiquées aux développeurs du projet GLPI. Ce mode permet également d&apos;avoir des informations supplémentaires sur différents objets dans un onglet spécifique (notifications...).</li>
+        </ul></p>
+    </section>
+    <section>
+      <title>Onglet Vue Personnelle</title>
+      <p>Cet onglet permet de réinitialiser votre personnalisation d&apos;affichage des différentes listes. Vous pouvez pour chaque type d&apos;objets revenir à l&apos;affichage par défaut en supprimant votre personnalisation (voir <xref href="navigate_manageitem.dita"/>).</p>
+    </section>
+  </body>
+</topic>

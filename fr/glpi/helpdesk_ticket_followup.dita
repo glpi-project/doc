@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_followup" xml:lang="fr-fr">
+  <title>Les suivis</title>
+  <shortdesc>Les suivis d&apos;un ticket, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p><b>Suivi</b> est l&apos;onglet par défaut lors de la consultation d&apos;un ticket,  sauf si celui-ci est en attente d&apos;approbation de solution. Il permet l&apos;ajout d&apos;information à un ticket existant, par exemple signaler que le demandeur a rappelé, que le ticket est en attente de la disponibilité du demandeur... C&apos;est l&apos;élément permettant les échanges entre le demandeur et les personnes en charge de son ticket.</p>
+    <p>Pour ajouter un suivi, cliquer sur <b>Ajouter un nouveau suivi</b> et saisir une description.</p>
+    <p>Il est également possible de choisir la source du suivi, et si il est privé ou non.</p>
+    <p>Voir <xref href="config_dropdown.dita"/>.</p>
+    <p>Un suivi privé n&apos;est visible que des utilisateurs  ayant le droit <b>Voir tous les suivis et tâches</b> (publics et privés). Cela permet par exemple un échange entre techniciens sans que le demandeur ne puisse le voir.</p>
+    <p>L&apos;utilisateur peut modifier ses suivis s&apos;il a le droit <tt>Modifier mes suivis</tt>. Les administrateurs peuvent supprimer des suivis s&apos;ils ont le droit <tt>Supprimer tous les suivis</tt>. Voir <xref href="administration_profile.dita"/>.</p>
+  </body>
+</topic>

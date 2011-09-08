@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="notices" xml:lang="en-us">
+  <title>Notice</title>
+  <shortdesc>Cette documentation concerne exclusivement l&apos;application GLPI (Gestion Libre de Parc Informatique) disponible sur le site http://glpi-project.org.</shortdesc>
+  <conbody>
+    <p>Toute garantie est rejetée. Toutes les marques déposées sont la propriété de leurs détenteurs respectifs.</p>
+    <p>L&apos;application GLPI est en constante évolution. Ceci rend difficile le maintien à jour et l&apos;exactitude de sa documentation.</p>
+    <p> Les auteurs et contributeurs ne pourront être tenus pour responsables des conséquences des erreurs, omissions ou ambiguïtés que comporte ce document.</p>
+    <section>
+      <title> COPYRIGHT LICENCE:</title>
+      <p>Cette documentation est publiée par l&apos;Association Indepnet sous licence Creative Commons</p>
+      <p>Vous êtes libres : de reproduire, distribuer et communiquer cette création au public</p>
+      <p>selon les conditions suivantes :
+<ul>
+          <li>Paternité. Vous devez citer le nom de l&apos;auteur original de la manière indiquée par l&apos;auteur de l&apos;œuvre ou le titulaire des droits qui vous confère cette autorisation (mais pas d&apos;une manière qui suggérerait qu&apos;ils vous soutiennent ou approuvent votre utilisation de l&apos;œuvre).</li>
+          <li>Pas d&apos;Utilisation Commerciale. Vous n&apos;avez pas le droit d&apos;utiliser cette création à des fins commerciales.</li>
+          <li>Pas de Modification. Vous n&apos;avez pas le droit de modifier, de transformer ou d&apos;adapter cette création.</li>
+        </ul></p>
+      <p>A chaque réutilisation ou distribution de cette création, vous devez faire apparaître clairement au public les conditions contractuelles de sa mise à disposition. La meilleure manière de les indiquer est un lien vers http://creativecommons.org/licenses/by-nc-nd/2.0/fr/.</p>
+      <p>Chacune de ces conditions peut être levée si vous obtenez l&apos;autorisation du titulaire des droits sur cette œuvre.</p>
+      <p>Rien dans ce contrat ne diminue ou ne restreint le droit moral de l&apos;auteur ou des auteurs.</p>
+    </section>
+  </conbody>
+</concept>

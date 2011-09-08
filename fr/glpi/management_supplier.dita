@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_supplier" xml:lang="fr-fr">
+  <title>Gérer les fournisseurs</title>
+  <shortdesc>Les fournisseurs sont gérés depuis le menu <menucascade>
+      <uicontrol>Gestion</uicontrol>
+      <uicontrol>Fournisseurs</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI intègre une gestion des fournisseurs, qui est différent de celle des fabricants (voir <xref href="config_dropdown.dita"/>). Celui-ci sert à la fois à identifier qui a vendu un matériel (dans la gestion de parc) mais aussi à attribuer des tickets à cette personne ou société.</p>
+    <example>
+      <p>Lors de l&apos;achat d&apos;un matériel de marque XX à un fournisseur YY, il faut traiter deux informations distinctes à savoir le fabricant (XX) et le fournisseur (YY). </p>
+    </example>
+    <p>Un fournisseur se caractérise par un nom, un type de tiers (intitulé) , des informations de localisation (adresse, code postal, ville, pays)  et de contact (site web, téléphone et fax).</p>
+    <p>Sa gestion peut être globale à toutes les entités (champs Sous-entités à oui) ou locale.</p>
+    <example>Un fournisseur est commun à toute les entités quand il s&apos;agit d&apos;un fournisseur global à l&apos;entreprise ; il sera déclaré sur l&apos;entité la plus haute, et visible dans les sous-entités. Par contre, un fournisseur local à une entité sera créé par le gestionnaire de parc de celle-ci, et sera seulement visible dans ce périmètre. Bien entendu, une personne ayant une visibilité récursive sur toutes les entités verra à la fois les fournisseur globaux et locaux.</example>
+    <note type="caution">Si un site web pour l&apos;entreprise est défini, ne pas oublier le <tt>http://</tt> au début de l&apos;adresse internet.</note>
+  </body>
+</topic>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_software" xml:lang="fr-fr">
+  <title>Gérer les logiciels</title>
+  <shortdesc>Les logiciels se gèrent depuis le menu <menucascade>
+      <uicontrol>Inventaire</uicontrol>
+      <uicontrol>Logiciel</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI permet la gestion des logiciels et de leurs  versions ainsi que des licences (pouvant être associées ou non à des versions). </p>
+    <p audience="advanced">Un logiciel est par défaut associé à une entité : c&apos;est à dire qu&apos;il y a aura autant de logiciels  dans la base qu&apos;il y a d&apos;entités. Rendre  un logiciel visible dans les sous-entités permet de faire une gestion plus fine. </p>
+    <p>La gestion financière est effectuée au niveau des licences, alors que celle présente dans les logiciels sert uniquement de modèle pour les licences associées à celui-ci.</p>
+    <p>Les logiciels peuvent être importés automatiquement depuis OCSNG (voir <xref href="config_ocsng.dita"/>) et dans ce cas un dictionnaire peut être utilisé pour filtrer ou nettoyer les données (voir <xref href="administration_dictionnary.dita"/>).</p>
+    <p>Certains champs sont spécifiques dans la fiche du logiciel : <b>Mise à jour</b> est une donnée informative, à partir de laquelle aucun traitement n&apos;est effectué, et qui  indique que le logiciel est une mise à jour d&apos;un autre. La <b>catégorie</b> permet des regroupements par nature sur la liste des logiciels d&apos;un ordinateur. Enfin <b>associable à un ticket</b> définit la visibilité du logiciel dans la liste déroulante &quot;Matériel&quot; d&apos;un ticket.</p>
+    <p><b>Bonnes pratiques : </b></p>
+    <ol>
+      <li>Créer le logiciel (sans version dans le nom)</li>
+      <li>Créer les versions</li>
+      <li>Créer les licences</li>
+    </ol>
+    <note type="tip" audience="advanced">en mode multi-entité, la liste des logiciels peut devenir longue, en partie dû aux doublons (1 logiciel par entité). Une gestion fine des logiciels, licences et versions peut consister à regrouper les logiciels identiques dans une même entité (voir <xref href="inventory_software_merge.dita"/>), puis à rendre récursif les éléments qui peuvent l&apos;être.</note>
+  </body>
+</topic>

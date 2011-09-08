@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="prerequisite_webserver" xml:lang="fr-fr">
+  <title>Prérequis du serveur web</title>
+  <shortdesc>Caractéristiques du serveur web nécessaires pour faire fonctionner GLPI.</shortdesc>
+  <body>
+    <section>
+      <title>Serveur web</title>
+    </section>
+    <p>GLPI nécessite un serveur web supportant PHP tels que  : </p>
+    <ul>
+      <li>Apache 2 ou supérieur (<xref href="http://httpd.apache.org" format="html">http://httpd.apache.org</xref>) ;</li>
+      <li>Microsoft IIS (<xref href="http://www.iis.net" format="html">http://www.iis.net</xref>).</li>
+    </ul>
+    <section>
+      <title>PHP</title>
+    </section>
+    <p>GLPI nécessite PHP version 5 ou supérieure (<xref href="http://www.php.net" format="html">http://www.php.net</xref>).</p>
+    <section>
+      <title>Extensions PHP obligatoires</title>
+      <p>Les extensions PHP suivantes sont nécessaires au bon fonctionnement de l&apos;application :</p>
+      <ul>
+        <li>JSON : support du format de données structuré JSON ;</li>
+        <li>Mbstring : gestion des chaînes de caractères multi-octets ;</li>
+        <li>MySQL : liaison avec la base de données ;</li>
+        <li>Session : support des sessions des utilisateurs.</li>
+      </ul>
+    </section>
+    <section>
+      <title>Extensions PHP facultatives mais recommandées</title>
+      <p>Les extensions suivantes sont requises pour des fonctionnalités optionnelles de l&apos;application :</p>
+      <ul>
+        <li>CLI : utilisation de PHP en ligne de commande pour les actions automatiques ;</li>
+        <li>CURL : pour l&apos;authentification CAS ;</li>
+        <li>DOMXML : pour l&apos;authentification CAS ;</li>
+        <li>GD : génération d&apos;images ;</li>
+        <li>IMAP : utilisation de serveurs de messagerie pour la collecte des tickets ou l&apos;authentification des utilisateurs ;</li>
+        <li>LDAP : utilisation d&apos;un annuaire externe pour l&apos;authentification ;</li>
+        <li>OpenSSL : communication chiffrée.</li>
+      </ul>
+    </section>
+    <section>
+      <title>Configuration PHP</title>
+      <p>Le fichier de configuration de php (<i>php.ini</i>) doit être modifié afin de contenir les variables suivantes :</p>
+      <codeblock>memory_limit = 64M ; // Valeur minimale
+file_uploads = on ;
+max_execution_time = 600 ; // Préconisé mais non obligatoire
+register_globals = off ;  // Préconisé mais non obligatoire
+magic_quotes_sybase = off ;
+session.auto_start = off ;
+session.use_trans_sid = 0 ; // Préconisé mais non obligatoire</codeblock>
+    </section>
+  </body>
+</topic>
