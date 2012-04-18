@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_openticket" xml:lang="fr-fr">
+  <title>Ouvrir un ticket</title>
+  <shortdesc>Ouvrir un ticket via GLPI</shortdesc>
+  <body>
+    <p>L&apos;utilisateur peut ouvrir un ticket :</p>
+    <ul>
+      <li>dans GLPI <ul>
+          <li>via l&apos;interface d&apos;ouverture de tickets anonymes accessible par les utilisateurs non authentifiés ;</li>
+          <li>via l&apos;interface simplifiée (formulaire de saisie allégé destiné à un utilisateur final authentifié) ;</li>
+          <li>via l&apos;interface standard (formulaire de saisie complet).</li>
+        </ul></li>
+      <li>par courriel : L&apos;utilisateur envoie un courriel à une adresse de messagerie définie. Dès la réception du courriel, un ticket est ouvert automatiquement. Voir <xref href="config_mailcollector.dita"/>.</li>
+    </ul>
+    <p>Quel que soit le mode de création d&apos;un ticket, si aucun titre (ou objet pour un courriel) n&apos;est indiqué, le ticket aura comme nom les 70 premiers caractères de la zone de description (ou du corps du courriel).</p>
+    <p>Suivant la configuration certains champs peuvent être obligatoires à l&apos;ouverture d&apos;un ticket (contenu, titre et/ou catégorie). Si l&apos;un d&apos;eux est manquant le ticket ne sera pas créé.</p>
+    <note>Les différents champs sont décrits dans la partie <xref href="helpdesk_ticket.dita"/>.</note>
+    <note>La délégation donne la possibilité à un utilisateur de déclarer un incident pour une autre personne. La configuration de cette fonctionnalité est décrite dans le chapitre <xref href="administration_group.dita"/>. Dans l&apos;interface simpifiée, un option permet d&apos;indiquer si l&apos;incident concerne l&apos;utilisateur lui même ou un autre. Dans l&apos;interface standard ce mécanisme est actif à partir du moment où le droit <b>Voir tous les tickets</b> est à non dans le profil. Il se traduit par l&apos;ajout comme demandeur de tous les utilisateurs pour lesquels la délégation s&apos;opère.</note>
+    <section>
+      <title>Interface d&apos;ouverture de tickets anonymes (pour utilisateurs non authentifiés)</title>
+      <p>Accessible à l&apos;adresse  <uicontrol>http://&lt;ADRESSE_GLPI&gt;/front/helpdesk.html</uicontrol>, elle permet aux utilisateurs 
+    n&apos;ayant aucun compte dans GLPI d&apos;envoyer un formulaire de signalement au centre de support.</p>
+      <p>Pour cela, remplir le formulaire de saisie proposé et valider (un message confirme la bonne création du ticket.</p>
+      <p>Ce formulaire peut être personnalisé en modifiant directement le fichier helpdesk.html. Par défaut le ticket est créé dans l&apos;entité racine.</p>
+    </section>
+    <section>
+      <title>Interface simplifiée</title>
+      <p>Elle permet à un utilisateur authentifié de créer rapidement un ticket pour lui même ou pour une autre personne (délégation).</p>
+      <p>Pour cela, remplir le formulaire de saisie proposé à l&apos;ouverture de GLPI et valider.</p>
+      <p><b>Champs spécifiques :</b></p>
+      <ul>
+        <li>
+          <b>Informez-moi des suites données </b>
+          <p>Apparaît si les suivis par courriel ont été configurés.</p>
+          <p>Voir <xref href="config_notification.dita"/>.</p>
+          <p>La sélection à &quot;oui&quot; permet au demandeur d&apos;être tenu informé par courriel des différents traitements concernant son ticket ;</p>
+        </li>
+        <li><b>Mon adresse de messagerie</b> : Adresse où seront envoyés les notifications, si plusieurs sont définies, il va prendre l&apos;adresse par défaut mais il est possible d&apos;en sélectionner une autre ; </li>
+        <li><b>Le ticket porte sur</b> : permet d&apos;associer un objet d&apos;inventaire à un ticket. <p>Le contenu de la ou des listes dépend des paramètres définis dans le profil.</p><p>Voir <xref href="administration_profile.dita"/>.</p></li>
+      </ul>
+      <p>Il est possible d&apos;ajouter au ticket un ou plusieurs documents en une seule opération.</p>
+      <p>Un message confirme la bonne création du ticket accessible en cliquant sur le numéro du ticket apparaissant en vert.</p>
+    </section>
+    <section>
+      <title>Interface standard</title>
+      <p>Pour créer un nouveau ticket aller dans le menu <menucascade>
+          <uicontrol>Assistance</uicontrol>
+          <uicontrol>Tickets</uicontrol>
+          <uicontrol>
+            <image href="../image/menu_add.png" align="center"/>
+          </uicontrol>
+        </menucascade>.</p>
+      <p>Il est possible d&apos;ajouter au ticket un ou plusieurs documents en une seule opération.</p>
+      <p>Un message confirme la bonne création du ticket accessible en cliquant sur le nom du ticket apparaissant en vert.</p>
+      <p>Une demande de validation peut être effectuée à l&apos;ouverture du ticket  en indiquant simplement le valideur souhaité.</p>
+    </section>
+    <note>A la saisie du demandeur ou du technicien assigné, une information est affichée permettant de déterminer combien de tickets cette personne a déjà ouvert ou a déjà en charge. De la même manière, à la sélection d&apos;un matériel, une vision simplifiée des tickets en cours sur celui-ci est proposé.</note>
+    <section>
+      <title>Canal courriel</title>
+      <p>Il suffit d&apos;envoyer un courriel à l&apos;adresse définie dans le collecteur.</p>
+      <p>Voir <xref href="config_mailcollector.dita"/>.</p>
+      <p>L&apos;objet du message deviendra le titre du ticket.</p>
+      <p>Le corps du message deviendra la description du ticket.</p>
+      <p>Les documents joints au courriel seront ajoutés au ticket.</p>
+    </section>
+  </body>
+</topic>

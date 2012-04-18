@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="start_login" xml:lang="fr-fr">
+  <title>Se connecter à GLPI</title>
+  <shortdesc>Comment se connecter à GLPI ?</shortdesc>
+  <body>
+    <p>Démarrer le navigateur sur la page d&apos;accueil de  GLPI <xref href="http://&lt;ADRESSE_GLPI>" format="html">http://&lt;ADRESSE_GLPI&gt;</xref>. L&apos;accès aux fonctionnalités complètes de l&apos;application nécessite une authentification. Selon le profil de l&apos;utilisateur authentifié, l&apos;interface proposée est soit l&apos;<uicontrol>interface standard</uicontrol>, soit l&apos;<uicontrol>interface simplifiée</uicontrol>. Voir <xref href="navigate_interface.dita"/>.</p>
+    <p>Un utilisateur non authentifié peut accéder à certaines fonctionnalités si GLPI a été configuré pour l&apos;autoriser  : visualiser la Foire aux questions (FAQ), ouvrir un ticket...Voir <xref href="config_common_assist.dita"/>.</p>
+  </body>
+</topic>

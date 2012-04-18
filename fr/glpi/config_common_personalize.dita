@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_personalize" xml:lang="fr-fr">
+  <title>Personnaliser l&apos;interface</title>
+  <shortdesc>Les préférences d&apos;affichage qui peuvent être définies avec des valeurs par défaut et que les utilisateurs peuvent modifier pour leur session sont regroupées dans l&apos;onglet <uicontrol>personnalisation</uicontrol>.</shortdesc>
+  <body>
+    <p>La section <uicontrol>Personnalisation</uicontrol> permet de modifier les préférences générales d&apos;affichage : </p>
+    <p><ul>
+        <li>Le nombre d&apos;éléments à afficher par page de recherche et dans les listes peut être défini. La valeur indiquée ici ne peut dépasser la valeur maximale définie dans les options générales d&apos;affichage. </li>
+        <li>Les listes déroulantes peuvent être affichées soit sous forme arborescente, soit à plat. </li>
+        <li>Les identifiants GLPI (ID) des objets, masqués par défaut, peuvent être affichés. </li>
+        <li>Le nombre d&apos;éléments visibles à la sélection d&apos;un onglet peut être activé. Cela permet de déterminer rapidement l&apos;existence ou non d&apos;une information liée à l&apos;objet courant.</li>
+        <li>Les préférences d&apos;affichage liées à la localisation se configurent ici : format des dates, format des nombres et ordre d&apos;affichage des noms et prénoms, langue ainsi que le délimiteur CSV utilisé au moment des exports.</li>
+      </ul></p>
+    <p>La section <uicontrol>Assistance</uicontrol>   permet de modifier le comportement de la partie assistance : <ul>
+        <li>valeurs par défaut pour les nouveaux tickets (par exemple pré-sélection de l&apos;utilisateur comme technicien lors de la création d&apos;un ticket) et suivis,</li>
+        <li>choix de l&apos;affichage des nouveaux tickets</li>
+        <li>rafraichissement automatique de la liste des tickets.</li>
+        <li>couleurs de priorités utilisées dans l&apos;interface</li>
+      </ul></p>
+    <p>La section <b>Logiciels</b> permet de gérer l&apos;affichage des listes de logiciels. Celles-ci  peuvent être affichées in extenso ou bien repliées sous la forme d&apos;une liste de <uicontrol>Catégories de logiciels</uicontrol>. </p>
+    <p>La section <b>Clé d&apos;accès distant</b>  permet de régénerer la clé de sécurité  utilisée pour accéder aux  flux privés offerts par GLPI. Actuellement  les flux ICAL et WEBCAL du planning sont protégés par cette clé de sécurité qui est intégrée à l&apos;url.</p>
+  </body>
+</topic>

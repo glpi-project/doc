@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_ocsng" xml:lang="fr-fr">
+  <title>Onglet &quot;OCSNG&quot;</title>
+  <shortdesc>Gestion du lien OCSNG pour un ordinateur</shortdesc>
+  <body>
+    <p>L&apos;onglet <b>OCSNG</b> ne s&apos;affiche que si le mode OCSNG est activé dans la configuration générale de GLPI. Voir <xref href="config_ocsng.dita"/>.</p>
+    <p>Il permet de visualiser les champs qui ont été modifiés manuellement après l&apos;import de l&apos;ordinateur depuis OCSNG, par exemple la modification  du lieu suite au déplacement d&apos;un ordinateur.</p>
+    <p><note type="caution">chaque donnée provenant automatiquement d&apos;OCSNG et modifiée manuellement par un utilisateur passe à l&apos;état <i>verrouillé</i>, c&apos;est à dire que quelque soit la valeur transmise par OCSNG, elle ne sera pas mise à jour. </note></p>
+    <p>Depuis cet onglet il est également possible de déverrouiller un champ afin qu&apos;il se synchronise à nouveau avec les valeurs remontées par OCSNG.</p>
+    <p>Enfin un bouton <b>Forcer la synchronisation</b> permet d&apos;actualiser de façon complète les données en provenance d&apos;OCSNG. Tous les champs sont synchronisés, et pas seulement ceux modifiés depuis la dernière synchronisation. <note>Même en utilisant <b>Forcer la synchronisation</b>, les champs verrouillés ne sont pas synchronisés avec OCSNG.</note></p>
+    <note type="note">l&apos;onglet est vide si l&apos;ordinateur dans GLPI n&apos;a pas été importé à partir d&apos;OCSNG ou lié avec un ordinateur OCSNG.</note>
+  </body>
+</topic>

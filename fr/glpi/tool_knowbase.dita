@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_knowbase" xml:lang="fr-fr">
+  <title>Gérer la base de connaissances</title>
+  <shortdesc>La base de connaissances est accessible depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>Base de connaissances</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>La base de connaissances répond à deux objectifs principaux : <ul>
+        <li>Le premier est de centraliser des connaissances internes aux différents techniciens.</li>
+        <li>Le second est de mettre à disposition des utilisateurs des informations (FAQ publique) leur permettant de résoudre seuls des problèmes simples.</li>
+      </ul></p>
+    <p>Seuls les éléments de la FAQ publique sont visibles par les utilisateurs. Les éléments qui ne sont pas définis comme faisant partie de la FAQ publique sont visibles uniquement au sein de la console centrale par des techniciens par exemple.
+
+</p>
+    <p>Il est possible de créer des catégories et sous-catégories afin d&apos;organiser la navigation (voir <xref href="config_dropdown.dita"/>). L&apos;utilisateur est guidé par les catégories et sous-catégories qui lui sont présentées pour retrouver de l&apos;information nécessaire à la satisfaction de sa demande.
+
+</p>
+
+ <p>Il est nécessaire de sélectionner pour chaque article de la base de connaissances ou de la FAQ une ou plusieurs cibles. La ou les cibles correspondent aux entités, aux profils, groupes ou utilisateurs qui pourront consulter l'article. Tant qu'aucune cible n'a été sélectionnée pour un article, ce dernier est visible uniquement par son rédacteur. L'article est considéré comme "non publié" et apparait dans le tableau "Articles non publiés" de la page d'accueil de la base de connaissances.
+</p>
+
+    <p>Il est possible d&apos;associer un ou plusieurs documents aux articles de la base de connaissances. </p>
+    <note>Le moteur de recherche de la base de connaissances permet d&apos;utiliser un certain nombre d&apos;opérateurs pour effectuer des recherches complexes : + - ~ &lt; &gt; * ” ” ()<ul>
+        <li> + Le mot doit être présent</li>
+        <li> - Le mot ne doit pas être présent</li>
+        <li> * Opérateur de troncature à positionner en suffixe </li>
+        <li>&quot; &quot; Une phrase entre guillemets double (&quot;) est recherchée littéralement, telle qu&apos;elle a été saisie. </li>
+        <li>&lt;&gt; permet de définir une préférence sur l&apos;ordre des éléments recherchés</li>
+        <li>() agrégateur utile pour l&apos;utilisation de &lt; et &gt;</li>
+      </ul><p><b>Exemples</b> :</p><p>
+      <ul>
+          <li> &apos;panne imprimante&apos; : Recherche les lignes qui contiennent au moins un de ces mots. </li>
+          <li> &apos;+panne +imprimante&apos; Recherche les lignes qui contiennent ces deux mots. </li>
+          <li> &apos;+courriel thunderbird&apos; Recherche les lignes qui contiennent le mot <i>courriel</i>, mais classe plus haut les lignes qui contiennent aussi <i>thunderbird</i>. </li>
+          <li> &apos;+courriel -outlook&apos; Recherche les lignes qui contiennent <i>courriel</i> mais pas <i>outlook</i>. </li>
+          <li> * &apos;+courriel +(&gt;thunderbird &lt;outlook)&apos; Recherche les lignes qui contiennent les mots <i>courriel</i> et <i>thunderbird</i>, ou <i>courriel</i> et <i>outlook</i> (dans n&apos;importe quel ordre), mais classe <i>courriel</i><i> thunderbird</i> plus haut que <i>courriel</i><i> outlook</i>. </li>
+          <li> &apos;open*&apos; Trouve les lignes qui contiennent des mots tels que <i>openoffice</i>, <i>openwriter</i>, <i>openbar</i> ou <i>openphp</i>. </li>
+          <li> &apos;&quot;suite openoffice&quot;&apos; Recherche les lignes qui contiennent exactement la phrase <i>suite openoffice</i></li>
+        </ul>
+      </p></note>
+  </body>
+</topic>

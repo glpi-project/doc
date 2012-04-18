@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_ordering" xml:lang="fr-fr">
+  <title>Modifier les règles d&apos;ordonnancement </title>
+  <shortdesc>Configurer la matrice d&apos;attribution des priorités en fonction de l&apos;urgence et de l&apos;impact : limiter les niveaux d&apos;urgences et d&apos;impact disponibles. </shortdesc>
+  <body>
+    <p>L&apos;ordre de traitement des tickets par les technciens est basé sur la priorité des tickets. Celle-ci est calculée en fonction de l&apos;urgence définie par l&apos;utilisateur et l&apos;impact sur le service informatique. </p>
+    <p>GLPI dispose d&apos;une matrice, globale à toute l&apos;application, qui peut être visualisée et modifée dans le menu <menucascade>
+        <uicontrol>Configuration</uicontrol>
+        <uicontrol>Générale</uicontrol>
+        <uicontrol>Assistance.</uicontrol>
+      </menucascade></p>
+    <p>Il est aussi possible de restreindre les niveaux d&apos;urgence et priorité utilisés dans l&apos;application, par exemple pour facilier la déclaration et la qualification des tickets.</p>
+    <p><note>la priorité <b>majeure</b> ne fait pas partie de la matrice. Celle-ci est supérieure aux autres, et nécessite le droit de modifier la priorité pour pouvoir l&apos;assigner. Un incident majeur représente un ticket dont le traitement est tellement important qu&apos;il prend le pas sur tous les autres.</note></p>
+  </body>
+</topic>

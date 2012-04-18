@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_ocsng" xml:lang="fr-fr">
+  <title>Gérer les liaisons OCSNG</title>
+  <shortdesc>La gestion quotidienne de la liaison avec OCS Inventory NG se fait depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>OCSNG</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette section du menu Outils ne s&apos;affiche que si le mode OCSNG est activé dans la configuration générale de GLPI. Voir <xref href="config_ocsng.dita"/>.</p>
+    <p>La liaison avec OCSNG permet d&apos;importer, de synchroniser des ordinateurs présents dans OCSNG. Il est aussi possible de lier un ordinateur présent dans OCSNG avec un de GLPI. Ces actions peuvent être automatisées. Voir <xref href="config_crontask.dita">Configurer les actions automatiques</xref>.</p>
+    <section>
+      <title>Synchroniser des ordinateurs déjà importés </title>
+      <p>Met à jour dans GLPI un ordinateur qui a été modifié dans OCSNG. </p>
+      <p>Seuls les ordinateurs modifiés dans OCSNG apparaissent dans cette liste. Sélectionner ceux à synchroniser et valider.</p>
+    </section>
+    <section>
+      <title>Importer de nouveaux ordinateurs</title>
+      <p>Seuls les ordinateurs qui existent dans OCSNG mais pas dans GLPI apparaissent. Sélectionner ceux à importer et valider.</p>
+      <p audience="advanced">Une fonction de prévisualisation, disponible uniquement en mode multi-entités permet de voir dans quelle entité l&apos;ordinateur sera importé.</p>
+    </section>
+    <section>
+      <title>Lier de nouveaux ordinateurs à des ordinateurs existants</title>
+      <p>Permet de lier des ordinateurs créés manuellement dans GLPI à des ordinateurs inventoriés dans OCSNG.</p>
+    </section>
+    <section>
+      <title>Nettoyer les liens GLPI / OCSNG</title>
+      <p>Cette fonctionnalité permet de purger les liens morts dans la table qui gère la liaison des ordinateurs entre GLPI et OCSNG.</p>
+      <p>Un lien stocké dans cette table est dit "mort" si : </p>
+      <ol>
+         <li>L'ordinateur qu'il relie est présent dans celle-ci mais non présent ni dans GLPI, ni dans OCSNG;</li>
+         <li>L'ordinateur qu'il relie est présent dans celle-ci et dans OCSNG, mais non présent dans GLPI;</li>
+         <li>L'ordinateur qu'il relie est présent dans celle-ci et dans GLPI, mais non présent dans OCSNG.</li>
+      </ol>
+      <p>La liste affichée permet de choisir quelles entrées sont à nettoyer.</p>
+      <p audience="advanced">Une fonction d'affichage par entité, disponible uniquement en mode multi-entités, permet de voir la dernière entité à laquelle l'ordinateur a appartenu avant de devenir un lien mort.</p>
+    </section>
+  </body>
+</topic>

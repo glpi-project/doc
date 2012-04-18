@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_software_merge" xml:lang="fr-fr">
+  <title>Regrouper les logiciels (multi-entités).</title>
+  <shortdesc>Comment regrouper des logiciels homonymes dans des sous-entités.</shortdesc>
+  <body>
+    <note>Cette option n&apos;est disponible que pour les plateformes multi-entités.</note>
+    <p>Elle permet de regrouper les logiciels des entités filles sur l&apos;entité mère.</p>
+    <section>
+      <title>Comment réaliser un regroupement ?</title>
+      <ol>
+        <li>Si le logiciel n&apos;existe pas dans l&apos;entité mère : <p>Créer un logiciel dont le nom est strictement identique au nom du logiciel dans les entités filles.</p></li>
+        <li>Ouvrir la fiche du logiciel de l&apos;entité mère ;</li>
+        <li>Activer la récursivité (sous-entités à Oui en haut à droite) ; <p>Un nouvel onglet &quot;Regroupement&quot; apparaît après l&apos;onglet &quot;Historique&quot;.</p></li>
+        <li>Ouvrir cet onglet ; <p>Une liste indique les logiciels des entités filles ayant le même nom.</p></li>
+        <li>Sélectionner les lignes souhaitées et valider le regroupement.</li>
+      </ol>
+      <note type="caution">Cette opération est irréversible.</note>
+    </section>
+    <section>
+      <title>Effets du regroupement</title>
+      <ul>
+        <li>Les licences sont attachées au logiciel de l&apos;entité mère, mais restent dans les sous-entités d&apos;origine ;</li>
+        <li>Les versions sont fusionnées (plus de doublon dans l&apos;entité mère);</li>
+        <li>Les anciens logiciels sont déplacés dans la corbeille ;</li>
+      </ul>
+      <note>Lors de l&apos;utilisation du mode OCSNG, ne pas oublier : <ul>
+          <li>de vider la corbeille à la fin du regroupement ; <p>(sinon la synchronisation restaurera le logiciel en cas de nouvelle version).</p></li>
+          <li>d&apos;affecter le même fabricant au nouveau logiciel. <p>(la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).</p></li>
+        </ul><p>Voir <xref href="config_ocsng.dita"/>.</p></note>
+    </section>
+  </body>
+</topic>

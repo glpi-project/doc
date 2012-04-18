@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_problems" xml:lang="fr-fr">
+  <title>La gestion des problèmes </title>
+  <shortdesc>La gestion des problèmes </shortdesc>
+  <body>
+    <p>Un problème est la cause d&apos;un ou plusieurs incidents potentiels et peut généralement être identifié car un ou plusieurs incidents possèdent les mêmes symptomes.</p>
+    <p>La création d&apos;un problème peut se faire soit depuis la fiche d&apos;un incident, dans l&apos;onglet <i>Problèmes</i>, soit directement depuis le menu <menucascade>
+        <uicontrol>Assistance</uicontrol>
+        <uicontrol>Problèmes</uicontrol>
+      </menucascade></p>
+    <p>Le formulaire de déclaration d&apos;un problème ressemble à celui des incidents, dont il partage les concepts (<i>demandeurs</i>, <i>observateurs</i>, <i>assignation</i>, <i>statut</i>, <i>urgence</i>, <i>impact</i>, <i>priorité</i>, <i>catégorie</i>, pour plus d&apos;informations voir <xref href="helpdesk_ticket.dita"/>). </p>
+    <p>Une fois le problème créé, il est possible de lui rattacher des incidents (onglet <i>Tickets</i>) mais aussi des matériels impactés (onglet <i>Matériels</i>). Une phase d&apos;analyse (onglet <i>Analyse</i>) consiste à décrire les impacts, causes et symptômes de celui-ci afin d&apos;arriver à lui apporter une solution.</p>
+    <p>Tout comme les tickets, la gestion de tâches et l&apos;ajout d&apos;une solution permettent de suivre et de résoudre le problème.</p>
+    <p>Les problèmes utilisent leurs propres notifications.</p>
+    <p>Des statisques similaires aux tickets sont disponibles pour les problèmes (voir <xref href="helpdesk_stat.dita"/> )</p>
+  </body>
+</topic>

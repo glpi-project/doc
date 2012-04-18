@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_crontaskcli" xml:lang="fr-fr">
+  <title>Lancer les actions automatiques en ligne de commande</title>
+  <shortdesc>L&apos;ordonnanceur des tâches de GLPI peut-être appelé de manière externe, depuis la ligne de commande, en exécutant le fichier <codeph>front/cron.php</codeph>.</shortdesc>
+  <body>
+    <p>Dans les examples ci dessous <codeph>PHP</codeph>doit être remplacé par le chemin vers l&apos;exécutable php (version 5) et <codeph>GLPI</codeph> par le chemin d&apos;installation de GLPI.</p>
+    <p><b>Sélection des actions</b></p>
+    <p>Les actions sélectionnées pour exécution seront celles vérifiant les critères suivants :</p>
+    <p><ul>
+        <li>Statut : Programmé</li>
+        <li>Mode d&apos;exécution : CLI</li>
+        <li>Heure courante dans la plage horaire d&apos;exécution</li>
+        <li>Date de prochaine exécution atteinte</li>
+        <li>Pas de verrou</li>
+      </ul></p>
+    <p>Les actions de GLPI sont prioritaires sur les actions des plugins. Les actions seront sélectionnées dans l&apos;ordre de date de prochaine exécution.</p>
+    <p><b>Gestion des verrous</b></p>
+    <p>La présence du fichier <codeph>GLPI/files/_cron/all.lock</codeph> verrouille toutes les actions.</p>
+    <p>La présence d&apos;un fichier <codeph>GLPI/files/_cron/<i>nom</i>.lock</codeph> verrouille l&apos;action <i>nom</i>.</p>
+    <p><b>Appel simple :</b></p>
+    <p>Ex : <codeph>PHP GLPI/front/cron.php</codeph></p>
+    <p>Le nombre configuré d&apos;actions, parmi la sélection, sera exécuté successivement. (Voir <xref href="config_common_sysinfo.dita">Configuration / Informations systèmes</xref>).</p>
+    <p><b>Appel avec surcharge de la configuration</b></p>
+    <p>Ex: <codeph>PHP GLPI/front/cron.php 5</codeph></p>
+    <p>Le nombre choisi d&apos;actions, parmi la sélection, sera exécuté successivement.</p>
+    <p><b>Lancement d&apos;une action spécifique</b></p>
+    <p>Ex : <codeph>PHP GLPI/front/cron.php mailgate </codeph></p>
+    <p>L&apos;action choisie, si elle fait partie de la sélection, sera exécutée.</p>
+    <p>Il est aussi possible d&apos;indiquer le nom de plusieurs actions.</p>
+    <p><b>Exécution forcée d&apos;une action spécifque</b></p>
+    <p>Ex : PHP GLPI/front/cron.php --force mailgate</p>
+    <p>L&apos;action choisie, sans tenir compte des critères de sélection, si elle n&apos;est pas déjà en cours d&apos;exécution, sera lancée.</p>
+    <p><b>Automatisation sous Linux</b></p>
+    <p>Le lancement régulier peut-être programmé soit dans une crontab système (ex, fichier <codeph>/etc/cron.d/glpi</codeph>), en remplaçant <i>apache</i> par le nom de  l&apos;utilisateur adapté (<i>www-data </i>sous debian et dérivé)</p>
+    <p><codeph>*/2 * * * * apache PHP GLPI/front/cron.php </codeph></p>
+    <p>soit dans la crontab de l&apos;utilisateur apache</p>
+    <p><codeph>*/2 * * * * PHP GLPI/front/cron.php </codeph></p>
+    <p>Voir la page de manuel de crontab pour une description détaillée du contenu de ce fichier</p>
+  </body>
+</topic>

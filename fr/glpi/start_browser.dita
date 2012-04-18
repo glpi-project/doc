@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="start_browser" xml:lang="fr-fr">
+  <title>Choisir un navigateur web</title>
+  <shortdesc>GLPI nécessite l&apos;utilisation d&apos;un navigateur web. </shortdesc>
+  <body>
+    <p>Un fonctionnement optimal de l&apos;application est obtenu en utilisant un navigateur moderne et conforme aux standards du web. Les navigateurs suivants peuvent convenir  : Firefox version 3 et supérieure, Seamonkey version 2 et supérieure, Opera, Safari ou Chrome. GLPI fonctionne également sur Internet Explorer version 7 et supérieure. La compatibilité avec Internet Explorer 6 ou inférieure n&apos;est pas assurée. </p>
+  </body>
+</topic>

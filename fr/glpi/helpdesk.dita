@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk" xml:lang="fr-fr">
+  <title>Le service d&apos;assistance aux utilisateurs</title>
+  <shortdesc>Le service d&apos;<menucascade>
+      <uicontrol>Assistance aux utilisateurs</uicontrol>
+    </menucascade> de GLPI</shortdesc>
+  <body>
+    <p>Le module d&apos;assistance permet aux utilisateurs de saisir, suivre et traiter des tickets. Des statistiques sont également disponibles.</p>
+    <p>Afin de mettre en route un service d&apos;assistance, plusieurs étapes sont nécessaires. Pour commencer, analyser les besoins de base des utilisateurs et répondre au minimum vital. </p>
+    <p>Une fois que les besoins de base sont satisfaits, il est possible de définir les besoins secondaires et se lancer dans la configuration avancée.</p>
+    <p>Le module d&apos;assistance de GLPI est conforme au guide de bonnes pratiques ITIL et intègre donc des notions et normalisation de champs. Bien que l&apos;outil soit conforme ITIL, il n&apos;y  aucune obligation pour suivre ces bonnes pratiques : chacun est libre d&apos;implémenter le service d&apos;assistance qui correspond le mieux à ses besoins.</p>
+  </body>
+</topic>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_assist" xml:lang="fr-fr">
+  <title>Onglet Assistance</title>
+  <shortdesc>Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI.</shortdesc>
+  <body>
+    <section>
+      <title>Assistance</title>
+      <p>Les ouvertures de tickets anonymes sont désactivées par défaut. L&apos;activation de l&apos;option est nécessaire lors de l&apos;utilisation d&apos;un collecteur ou du formulaire de saisie de tickets anonymes afin de permettre la création de ticket par des utilisateurs non reconnus par GLPI. Pour autoriser en plus la création de suivis par l&apos;auteur de ce genre de tickets il faut également activer l&apos;option concernant les suivis anonymes.</p>
+      <p>Les logiciels sont des objets sur lesquels il est possible de déclarer un ticket. Il est possible de désactiver la disponibilité automatique des nouveaux logiciels.</p>
+      <p>Le cycle de vie du ticket est influencé par  des événements qui peuvent déclencher des traitements automatiques  :  suppression des tickets liés à un élément lors de sa purge, assignation d&apos;une rubrique par défaut aux documents liés aux tickets.</p>
+    </section>
+    <section>
+      <title>Matrice de définition de la priorité</title>
+      <p>La matrice de définition de la priorité permet de définir la priorité des tickets en fonction du niveau d&apos;impact et d&apos;urgence. La disponibilité de ces niveaux dans l&apos;application peut aussi être définie.</p>
+    </section>
+  </body>
+</topic>

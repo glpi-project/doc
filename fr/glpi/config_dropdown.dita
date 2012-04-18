@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_dropdown" xml:lang="fr-fr">
+  <title>Configurer les intitulés</title>
+  <shortdesc>Les intitulés se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Intitulés</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Certaines listes de sélections déroulantes sont paramétrables dans GLPI. La définition des lieux, des statuts de matériels, des catégories de tickets, des noms des logiciels et des constructeurs : en somme, tout ce qui dépend d&apos;une nomenclature propre à un contexte particulier doit être paramétré. Si certains de ces intitulés sont fournis avec une liste par défaut, la plupart des intitulés doivent être déclarés dans l&apos;application.</p>
+    <p>Les intitulés sont soit une liste de valeurs à plat, soit une liste arborescente.</p>
+    <example>Les statuts d&apos;un ticket sont une liste simple de valeurs (nouveau, attribué, etc.) tandis que pour les lieux chaque élément peut avoir des sous-éléments (Lieu 1 &gt; Sous-lieu 1 &gt; Sous-sous-lieu 1). </example>
+    <p>La première étape est de sélectionner la liste à modifier. Ensuite on peut ajouter des éléments à la liste, les modifier et les supprimer.</p>
+    <note type="important">Si des éléments utilisés sont supprimés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.</note>
+    <p>Il est possible de visualiser tous les types d&apos;intitulés existants en utilisant <b>voir tous</b>.</p>
+    <p>À chaque intitulé est associé un commentaire. Celui-ci est visible depuis les formulaires de GLPI. Il apparaît au survol de l&apos;icône <b>Aide</b> <image href="../image/aide.png"/> associée à la liste déroulante.</p>
+    <p>Certains intitulés sont en arborescence. Il est possible de créer des intitulés enfants d&apos;un intitulé existant.</p>
+    <p>Les intitulés lieu, catégories des tickets et des tâches peuvent être définis comme utilisables dans les sous-entités.</p>
+    <p>Certains intitulés ont des informations supplémentaires.</p>
+    <p>Certains intitulés, correspondant à des items créés en série, peuvent être créés en masse en suivant une nomenclature de type préfixe, numérotation incrémentale, suffixe.</p>
+    <section>
+      <title>Base de connaissances</title>
+      <p>Les catégories de la base de connaissance peuvent être organisées en arborescence, afin de faciliter la navigation et la recherche.</p>
+    </section>
+    <section>
+      <title>Lieu</title>
+      <p>Les lieux peuvent être définis sous forme d&apos;arborescence. Par exemple: <tt>Bâtiment 1 &gt; Etage 0</tt> ; <tt>Bâtiment 1</tt> a été créé dans un premier temps, puis <tt>Etage 0</tt> a été créé <b>comme enfant de</b> Bâtiment 1;</p>
+      <p>Des informations supplémentaires telles que le code du bâtiment et de la pièce peuvent être ajoutées.</p>
+    </section>
+    <section>
+      <title>Prises réseau</title>
+      <p>Une prise réseau peut être liée à un lieu. Dans ce cas, lors de la sélection d&apos;une prise sur un port réseau d&apos;un matériel, seules les prises réseau du lieu du matériel (et des lieux enfants) apparaissent. Lors de la création de prises réseau, une fois le lieu choisi, il est proposé à l&apos;utilisateur de suivre la nomenclature suivante : préfixe + numérotation incrémentale dont il faut définir le premier et le dernier terme  + suffixe. Par exemple, soient le préfixe &quot;bru&quot;, 9 et 11 les bornes de la numérotation, et &quot;srv&quot; le suffixe : les prises réseau créées seront nommées : bru09srv, bru10srv, bru11srv.</p>
+    </section>
+    <section>
+      <title>Source de la demande</title>
+      <p>Une et une seule source de demande peut être définie comme la source de la demande par défaut que ce soit pour les tickets créés par l&apos;interface ou ceux créés par les collecteurs.</p>
+    </section>
+    <section>
+      <title>Catégorie des tickets</title>
+      <p>Un responsable technique et un groupe peuvent être affectés à une catégorie. Si le paramètre <b>Assigner automatiquement les tickets au responsable technique</b> est activé dans la configuration générale, et que le ticket n&apos;a pas de technicien ou de groupe associé, ces valeurs sont positionnées sur celles de la catégorie. Voir <xref href="config_common.dita"/>.</p>
+      <note type="caution">le responsable technique du matériel associé au ticket est prioritaire sur le responsable technique de la catégorie.</note>
+      <p>Un lien avec les catégories de la base de connaissances est possible. Si une catégorie est choisie, le clic sur l&apos;aide <image href="../image/aide.png"/> de la catégorie du ticket dans un ticket amène directement à tous les articles de la base de connaissance de cette catégorie.</p>
+      <p><b>Visible dans l&apos;interface simplifiée</b> : si activé, cette catégorie de ticket s&apos;affiche dans la vue simplifié de saisie de ticket. </p>
+    </section>
+    <section><title>Catégorie des tâches</title>Intitulé permettant de caractériser les différentes tâches. Cette liste ne contient par défaut aucune valeur.</section>
+    <section>
+      <title>Les types de documents</title>
+      <p>Les types de documents autorisés dans GLPI sont paramétrables. L&apos;application propose un certain nombre de types par défaut, mais pour ajouter ou modifier ceux-ci les informations à fournir sont:
+        <ul>
+          <li>le nom du type de document ;</li>
+          <li>l&apos;extension, par exemple: <tt>.txt</tt> ou <tt>.pdf</tt> ; la détection des documents qu&apos;il est permis d&apos;ajouter se base sur cette information ;</li>
+          <li>le nom du fichier pour l&apos;icône du document désiré. Placez les fichiers d&apos;icônes dans le répertoire pics/icones sous l&apos;arborescence des fichiers d&apos;installation de GLPI ;</li>
+          <li>le type MIME si nécessaire ;</li>
+          <li>l&apos;autorisation de téléchargement de ce type de fichier (oui ou non). </li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <title>Calendrier et Périodes de fermeture</title>
+      <p>Les calendriers utilisés au sein de GLPI sont paramétrables. Ils sont caractérisés par  des périodes d&apos;ouverture (autant que nécessaire par jour) ainsi que des périodes de fermeture (vacances, jours fériés...). Ces périodes de fermeture peuvent être récurrentes, c&apos;est à dire quelles apparaissent tous les ans aux même dates. Ces calendriers sont utilisés dans les SLAs (voir <xref href="config_sla.dita"/>) et la configuration des entités (voir <xref href="administration_entity_delegation.dita"/>).</p>
+    </section>
+    <note>certains plugins apportent certains intitulés supplémentaires, qui sont paramétrables dans le même menu.</note>
+  </body>
+</topic>

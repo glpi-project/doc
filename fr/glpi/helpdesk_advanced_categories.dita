@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_categories" xml:lang="fr-fr">
+  <title>Les catégories de tickets</title>
+  <shortdesc>Les catégories de tickets</shortdesc>
+  <body>
+    <p>Un ticket peut être catégorisé, afin de faciliter son traitement. En fonction de la configuration souhaitée, le demandeur peut indiquer une catégorie, et le technicien la modifier.</p>
+    <p>Il est important, lors de la mise en place du Helpdesk, de bien réfléchir à la liste des catégories disponibles : en effet, un trop grand nombre visible par les utilisateurs peut perturber la saisie, alors qu&apos;un nombre trop faible ne permettra pas de qualifier correctement le besoin.</p>
+    <p>La gestion des catégories est accessible depuis le menu des intitulés : <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Intitulés</uicontrol>
+        <uicontrol>Catégories des tickets</uicontrol>
+      </menucascade></p>
+    <p>Une catégorie peut être invisible dans l&apos;interface simpliée (pour réduire la liste des catégories présentées aux utilisateurs finaux). Elle peut aussi être visible ou pas pour les incidents, les demandes ou les problèmes. </p>
+    <p>Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d&apos;un ticket (voir <xref href="administration_rule_ticket.dita"/>).</p>
+  </body>
+</topic>

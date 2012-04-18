@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_stat" xml:lang="fr-fr">
+  <title>Visualiser les statistiques</title>
+  <shortdesc>Les rapports concernant les tickets sont disponibles dans le menu <menucascade>
+      <uicontrol>Assistance</uicontrol>
+      <uicontrol>Statistiques</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Il est possible de visualiser des statistiques selon une période paramétrable :</p>
+    <ul>
+      <li>
+        <b>Globales : </b>
+        <p>Affiche des statistiques générales sur les tickets :</p>
+        <ul>
+          <li>Nombre de tickets ouverts, résolus, clos et résolus en retard ;</li>
+          <li>Nombre d&apos;enquêtes de satisfaction ouvertes ou avec une réponse ainsi que le degré de satisfaction moyen ;</li>
+          <li>Les délais moyens de prise en compte, résolution et clôture du ticket ;</li>
+          <li>La durée réelle moyenne de traitement du ticket.</li>
+        </ul>
+      </li>
+      <li>
+        <b>Par ticket :</b>
+        <p>Affiche des statistiques sur les éléments des tickets, sélectionnés via un menu déroulant. Par exemple : demandeur, technicien assigné, impact, etc...</p>
+        <p>Le tableau obtenu présente les éléments suivants :<ul>
+            <li>Nombre de tickets ouverts, résolus, clos et résolus en retard ;</li>
+            <li>Nombre d&apos;enquêtes de satisfaction ouvertes, nombre de réponses aux enquêtes et degré de satisfaction moyen.</li>
+            <li>Délai moyen de prise en compte du ticket :<p>Durée entre l&apos;ouverture du ticket et la première action sur celui-ci (suivi, tâche ou solution).</p></li>
+            <li>Délai moyen de résolution et de clôture du ticket ;</li>
+            <li>Durée réelle moyenne et totale de traitement du ticket ;<p>Durée réelle  des interventions programmées par les personnes qui prennent en charge les tickets. Intervention programmée signifie le temps alloué par un technicien sur les tâches liées aux tickets;</p></li>
+          </ul></p>
+      </li>
+      <li>
+        <b>Par intitulé :</b>
+        <p>Affiche des statistiques sur les éléments des ordinateurs. Par exemple : Modèle, Système d&apos;exploitation, modèle de carte-mère, etc...</p>
+        <p>Les éléments statistiques obtenus sont les mêmes que pour les statistiques sur les tickets.</p>
+      </li>
+      <li>
+        <b>Par matériel :</b>
+        <p>Affiche le nombre de tickets affectés à chaque matériel, trié par nombre de tickets.</p>
+      </li>
+    </ul>
+    <p>Pour chaque ligne de résultat, l&apos;icône <image href="../image/stats_item.png"/> permet d&apos;afficher ces statistiques sous forme graphique.</p>
+    <p>L&apos;option <b>Voir les graphiques</b>, lorsqu&apos;elle est présente, permet d&apos;afficher les résultats sous forme de répartition graphique de type camembert.</p>
+    <note>Lorsque les statistiques sont réalisées sur un élément arborescent (les groupes ou les catégories, par exemple), deux présentations sont disponibles. Normale : toutes les valeurs sont affichées. Arborescence : seules les valeurs de même niveau sont affichées et prennent en compte les tickets rattachés aux valeurs filles ; il est possible de naviguer dans l'arbre des valeurs.</note>
+  </body>
+</topic>

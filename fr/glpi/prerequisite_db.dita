@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="prerequisite_db" xml:lang="fr-fr">
+  <title>Prérequis serveur de base de données</title>
+  <shortdesc>Caractéristiques du serveur de base de données nécessaires pour faire fonctionner GLPI.</shortdesc>
+  <body>
+    <p>Pour fonctionner, GLPI nécessite un serveur de base de données MySQL de version supérieure ou égale à   4.23 (<xref href="http://www.mysql.fr" format="html">http://www.mysql.fr</xref>).</p>
+    <note type="important">Actuellement seul le serveur de base de données MySQL est supporté par GLPI.</note>
+  </body>
+</topic>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_document_t_linktotiem">
+  <title>Associer un document à un matériel</title>
+  <taskbody>
+    <context>Associer un document à un matériel</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Documents</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du document ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom du document ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans l&apos;onglet <uicontrol>Élément(s) rattaché(s)s</uicontrol> ;</cmd>
+      </step>
+      <step>
+        <cmd>Sélectionner un matériel ;</cmd>
+      </step>
+      <step>
+        <cmd>Ajouter ;</cmd>
+      </step>
+      <step>
+        <cmd>Cette association est possible aussi depuis la fiche du matériel, onglet <uicontrol>Documents</uicontrol> ou par modification massive, depuis la liste des matériels, <uicontrol>Ajouter un Document</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec le document associé au matériel</result>
+  </taskbody>
+</task>

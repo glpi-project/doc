@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_templates" xml:lang="fr-fr">
+  <title>Les gabarits de tickets</title>
+  <shortdesc>Les gabarits de tickets</shortdesc>
+  <body>
+    <p>Tout comme les objets d&apos;inventaire, une notion de gabarit existe pour les tickets. Un gabarit permet de personnaliser l&apos;interface de déclaration d&apos;un ticket en fonction du type de ticket et de la catégorie.</p>
+    <p>La gestion des gabarits se réalise via l&apos;icône  : <image href="../image/menu_addtemplate.png"/> située dans la barre de menu. </p>
+    <p>Les comportements pouvant être modifiés sont :<ul>
+        <li>la liste de champs devant être obligatoires pour l&apos;ouverture d&apos;un ticket ;</li>
+        <li>la liste des champs dont la valeur sera prédéfinie lors de l&apos;affichage du formulaire ;</li>
+        <li>la liste des champs qui doivent être masqués.</li>
+      </ul> </p>
+    <p>Un gabarit est lié à l&apos;entité dans laquelle il a été défini, et peut être visible dans les sous-entités.</p>
+    <p>L&apos;affectation d&apos;un gabarit lors de l&apos;ouverture d&apos;un ticket est définie pour chaque catégorie (voir <xref href="helpdesk_advanced_categories.dita"/>).</p>
+    <note audience="">A la création du ticket, on applique d&apos;abord le gabarit par défaut de l&apos;entité sur laquelle le ticket est ouvert. Si l&apos;utilisateur définit un type et une catégorie et qu&apos;un gabarit spécifique est définit pour ce couple alors c&apos;est ce dernier qui est utilisé.</note>
+    <note audience="">A la mise à jour du ticket, le même ordre (entité puis couple type/catégorie) est utilisé pour déterminer les champs obligatoires.</note>
+  </body>
+</topic>

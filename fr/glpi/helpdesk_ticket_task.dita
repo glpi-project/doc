@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_task" xml:lang="fr-fr">
+  <title>Les tâches</title>
+  <shortdesc>Les tâches d&apos;un ticket, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p>Une tâche est une action correspondant à une intervention technique liée à un ticket.</p>
+    <p>Une tâche peut avoir une catégorie (Voir  <xref href="config_dropdown.dita"/>).</p>
+    <p>Une tâche peut être privée ou publique.</p>
+    <p>Une tâche privée n&apos;est visible que :<ul>
+        <li>de son rédacteur ;</li>
+        <li>de l&apos;utilisateur à qui elle a été affectée ;</li>
+        <li>des utilisateurs ayant le droit <tt>Voir tous les suivis et tâches (publics et privés)</tt>.</li>
+      </ul></p>
+    <p>La durée permet la saisie par le technicien de la durée réelle de traitement de la tâche, notamment à fin de statistiques ou facturations.</p>
+    <p>Enfin une tâche est planifiable. Une fois la date de début, la durée ou la date de fin saisie, la tâche apparaîtra sur le planning du technicien à qui elle a été affectée. Le statut de la planification permet de signaler la réalisation de la tâche (<b>informations, à faire, fait</b>).</p>
+    <note>Lors de la planification d&apos;une tâche, il est possible de vérifier la disponibilité du technicien. L&apos;icône <image href="../image/reservation-3.png"/> ouvre une nouvelle fenêtre proposant un résumé rapide des périodes libres.</note>
+  </body>
+</topic>

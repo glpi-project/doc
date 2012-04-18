@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_collectors" xml:lang="fr-fr">
+  <title>Les collecteurs</title>
+  <shortdesc>Les collecteurs</shortdesc>
+  <body>
+    <p>Les outils externes permettent d&apos;agir sur la partie assistance via les collecteurs de mail.
+
+
+
+</p>
+    <p>Le principe est simple : utiliser la messagerie électronique pour créer des tickets et ajouter des
+suivis aux tickets déjà existants. Un tâche interne de GLPI va se connecter à une boîte mail  et ainsi récupérer les messages.</p>
+    <note>La résolution ou la clôture d&apos;un ticket ne sont pas possibles par ce biais. </note>
+    <p>Voici le parcours du courriel jusqu&apos;à la création du ticket : <ul>
+        <li>Boite mail</li>
+        <li>Collecteur (pour la configuration, voir <xref href="config_mailcollector.dita"/></li>
+        <li>Règles <xref href="administration_rule_mailcollector.dita"/></li>
+        <li>Règles <xref href="administration_rule_ticket.dita"/></li>
+        <li>Ticket créé</li>
+      </ul></p>
+  </body>
+</topic>

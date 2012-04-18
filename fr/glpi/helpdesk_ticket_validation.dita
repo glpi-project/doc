@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_validation" xml:lang="fr-fr">
+  <title>La validation</title>
+  <shortdesc>La validation d&apos;un ticket, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p>Un ticket peut nécessiter une validation, par exemple pour une demande d&apos;évolution matériel, comme un changement d&apos;ordinateur ou de moniteur. </p>
+    <p>Après avoir cliqué sur <b>Envoyer une demande de validation</b>, il faut saisir l&apos;utilisateur qui doit valider, ainsi qu&apos;un commentaire si besoin.  Le ticket prend alors le statut <b>En attente de validation</b> dans son champ <b>Validation</b>.</p>
+    <p>La demande de validation peut également être créé directement à l&apos;<xref href="helpdesk_openticket.dita">ouverture du ticket</xref> via l&apos;interface standard ou via une <xref href="administration_rule_ticket.dita">règle métier</xref>.</p>
+    <p><note>La validation n&apos;est pas un processus bloquant, mais seulement informatif. Un technicien pourra traiter un ticket qui est en attente de validation.</note></p>
+    <p>Pour valider la demande, le valideur peut cliquer sur le ticket dans l&apos;accueil de GLPI (onglet <b>Vue personnelle</b>, partie <b>Vos tickets à valider</b>), ou aller dans le menu <b>Assistance &gt; Ticket</b> et cliquer sur l&apos;icône <image href="../image/menu_showall.png"/> qui apparaît dans le fil d&apos;ariane.</p>
+    <p>Une fois sur le ticket, aller dans l&apos;onglet <b>Validation</b>, puis cliquer sur la ligne correspondante à la demande de validation. Choisir si le ticket est <b>Accepté</b> ou <b>Refusé</b>. </p>
+    <p>En cas de refus il est obligatoire de saisir un commentaire.</p>
+  </body>
+</topic>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_transfer" xml:lang="fr-fr">
+  <title>Gérer des profils de transfert inter-entités</title>
+  <shortdesc>Les transferts dans GLPI, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p>Avec la notion d&apos;entités vient la possibilité de définir des profils de transfert pour les mutations d&apos;éléments entre entités.
+
+</p>
+    <p>Cette fonctionnalité permet notamment de passer d&apos;un GLPI mono entité à un GLPI multi-entités en utilisant les transferts.
+
+</p>
+    <p>Comment faire un transfert :
+
+   <ol>
+        <li>Utiliser un profil qui a le droit de faire des transferts (<menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Profils</uicontrol>
+            <uicontrol>Administration</uicontrol>
+          </menucascade>) ;</li>
+        <li>Configurer les actions faites par le transfert (<menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Règles</uicontrol>
+          </menucascade> --&gt; <b>Transfert</b>) ;</li>
+        <li>S&apos;assurer que le profil qui va effectuer le transfert a une visibilité sur l&apos;entité cédante et sur l&apos;entité prenante (le plus simple est d&apos;utiliser un profil récursif depuis l&apos;entité racine) ;</li>
+        <li>Se positionner sur l&apos;<uicontrol>Entité racine (Voir Tous)</uicontrol> ;</li>
+        <li>Depuis la liste des machines, sélectionner l&apos;entité à transférer ;</li>
+        <li>Choisir <b>Transférer</b> et <b>Valider</b> ;</li>
+        <li>Dans <b>Mode de transfert</b>, la liste des configurations de transfert créée en point 2 est utilisable ;</li>
+        <li>Sélectionner l&apos;entité dans laquelle sera transféré le matériel ;</li>
+        <li>Cliquer sur <b>Transférer</b> ;</li>
+        <li>Vérifier dans la nouvelle entité que le matériel s&apos;y trouve bien.</li>
+      </ol></p>
+    <note type="attention">Le lieu et le groupe seront à adapter pour la nouvelle entité.</note>
+  </body>
+</topic>

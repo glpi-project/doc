@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticketordering" xml:lang="fr-fr">
+  <title>L&apos;ordonnancement des tickets</title>
+  <shortdesc>L&apos;ordonnancement des tickets</shortdesc>
+  <body>
+    <p>L&apos;ordonnancement des tickets se fait en fonction de renseignements fournis par le demandeur et le technicien : <ul>
+        <li>Le demandeur définit l&apos;urgence</li>
+        <li>Le technicien apprécie l&apos;impact</li>
+        <li>La priorité est la résultante de ces deux informations. Elle est calculée automatiquement via une matrice et indique l&apos;importance réelle du ticket </li>
+      </ul></p>
+    <note>Pour aller plus loin dans la configuration de cette matrice, voir <xref href="helpdesk_advanced_ordering.dita"/>.</note>
+  </body>
+</topic>

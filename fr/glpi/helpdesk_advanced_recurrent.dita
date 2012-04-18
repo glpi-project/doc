@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_recurrent" xml:lang="fr-fr">
+  <title>Les tickets récurrents</title>
+  <shortdesc>Les tickets récurrents</shortdesc>
+  <body>
+    <p>Grâce aux gabarits, il est possible de programmer l&apos;ouverture de 
+
+
+
+tickets de manière récurrente.</p>
+    <example>Ouvrir un ticket tous les vendredis matin afin de réaliser une sauvegarde sur bande le soir même.</example>
+    <p>Cette fonctionnalité est accessible depuis le menu <menucascade>
+        <uicontrol>Assistance</uicontrol>
+        <uicontrol>Tickets récurrents.</uicontrol>
+      </menucascade></p>
+    <p>Un ticket récurrrent comprend un <i>gabarit</i>, qui va être utilisé comme modèle pour les tickets, ainsi qu&apos;une <i>date de début</i> et une <i>fréquence d&apos;ouverture</i>. Le processus peut être déclenché   de <i>manière anticipée</i>. Enfin, il est possible de <i>désactiver</i> le ticket récurrent grâce au paramètre <i>actif</i>.</p>
+    <p>L&apos;ouverture de tickets récurrents est effectué à travers une action automatique nommée <i>ticketrecurrent</i> (voir <xref href="config_crontask.dita"/>).</p>
+  </body>
+</topic>
