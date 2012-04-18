@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="access_control_intro" xml:lang="de-de">
+  <title>Verwaltung der Zugriffsberechtigungen</title>
+  <shortdesc>Dieser Teil beschreibt, wie die Zugriffsberechtigungen verwaltet werden. Diese ermöglichen jedem Benutzer den Zugriff auf einen spezifischen Benutzungskontext.</shortdesc>
+  <body>
+    <p>Nicht jeder Benutzer von GLPI hat Zugriff auf dieselbe Ansicht oder auf dieselben Funktionalitäten. Für jeden Benutzer wird ein spezifischer Benutzungskontext ermittelt wodurch er Zugriff auf die für ihn freigegebenen Funktionalitäten und Informationselemente erlangt. Die Freigaben für einen Benutzer werden durch den Zugriff auf dessen Identitätsinformation  ermittelt.</p>
+    <p>Zunächst muss GLPI mit einem Identitätsmanagement-System verknüpft werden. Zwar kann GLPI die Authentifikation sowie die persönlichen Informationen der Benutzer lokal führen, in der Regel existiert  aber bereits ein Identitätsmanagement-System im Informationssystem und es bietet sich an, diese Aufgabe letzterem zu delegieren. Das Kapitel  <xref href="config_auth.dita"/> befasst sich mit diesem Punkt.</p>
+    <p>Der tägliche Einsatz der Verknüpfung mit einem oder mehreren Identitätsmanagement-Systemen führt zu neuen, gelöschten, aktivierten und desaktivierten Benutzerkontos und deren persönlichen Daten. Dieser Punkt wird im Kapitel <xref href="administration_user.dita"/> behandelt.</p>
+    <p>Die persönlichen Benutzerdaten sind die Grundlage um einen Benutzer mit Gruppen, Einheiten und Profile zu verknüpfen, womit die Benutzungskontexte ermittelt werden. </p>
+    <p>Die Gruppen dienen dazu, Benutzer mit ähnlichen Kompetenzen oder organisatorische Einheiten zu gruppieren. Dieser Punkt wird im Kapitel   <xref href="administration_group.dita"/> behandelt.</p>
+    <p>Die Einheiten sind vorgesehen, um den Gerätebestand aufzuteilen und die Benutzer in voneinandern unabhängigen Gefässen zu vereinen. Dieser Punkt wird im Kapitel  <xref href="administration_entity.dita"/> behandelt.</p>
+    <p>Die Profile beschreiben die Zugriffsberechtigungen dessen Mitglieder. Dieser Punkt wird im Kapitel   <xref href="administration_profile.dita"/> behandelt.</p>
+    <p>Zu guter Letzt müssen die Freigaben verwaltet werden und zwar: es müssen die Benutzungskontexte  ermittelt und den Benutzern zugewiesen werden. Mittels Zuweisungsregeln für Einheit und Berechtigungen können die Freigaben für jeden Benutzer dynamisch ermittelt werden. Das Kapitel  <xref href="administration_rule_right.dita"/> befasst sich mit diesem Punkt.</p>
+  </body>
+</topic>

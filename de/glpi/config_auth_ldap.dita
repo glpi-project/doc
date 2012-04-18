@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth_ldap" xml:lang="de-de">
+  <title>Benutzer über ein LDAP-Verzeichnis authentifizieren</title>
+  <shortdesc>Die Schnittstelle zwischen GLPI und LDAP wird über das Menü <menucascade>
+      <uicontrol>Konfiguration</uicontrol>
+      <uicontrol>Authentifizierung</uicontrol>
+      <uicontrol>LDAP-Verzeichnis</uicontrol>
+    </menucascade> aufgerufen.</shortdesc>
+  <body>
+    <p>Das Zusammenspiel zwischen GLPI und LDAP-Verzeichnissen ermöglicht es, Benutzer zu authentifizieren, ihren Zugang zu kontrollieren, persönliche Informationen abzuholen und Gruppen zu importieren. Alle LDAP-Verzeichnisse in der Version 3 werden unterstützt. Dies gilt also ebenfalls für Microsoft Active Directory (AD). Die Anzahl der hinterlegbaren Verzeichnissen ist unbegrenzt. Selbstverständlich verlängert sich die Suche eines neuen zu authentifizierenden Benutzers mit einer steigenden Anzahl an Verzeichnissen.</p>
+    <p>Die Benutzer können auf 2 Arten importiert und synchronisiert werden: <ul>
+        <li>fortlaufend: bei der ersten Verbindung wird der Benutzer in GLPI erstellt. Bei jeder weiteren Anmeldung werden seine persönlichen Informationen mit denen aus dem Verzeichnis synchronisiert. Wenn die Mail-Gateways benutzt werden und eine unbekannte E-Mail Adresse verarbeitet werden muss, wird erst der dazu gehörende Benutzer im Verzeichnis gesucht und im GLPI angelegt.</li>
+        <li>per Massenimport: erfolgt entweder über die Anwendung oder mit dem mitgelieferten Script. Siehe dazu <xref href="scripts_ldap_mass_sync.dita"/>.</li>
+      </ul>
+
+    </p>
+    <note type="attention">
+      <p>Wenn statt der LDAP-Konfiguration an dieser Stelle eine Fehlermeldung angezeigt wird, deutet das darauf hin, dass das LDAP-Modul für PHP nicht installiert wurde. Unter Linux muss das ldap-Paket für PHP (zum Beispiel  <i>php5-ldap</i> unter Debian) nachinstalliert werden. Unter Windows muss in der <i>php.ini</i>-Datei (diese befindet sich im Verzeichnis<i>apache/bin</i>) die Zeile <i>extension=php_ldap.dll</i> auskommentiert werden. In beiden Fällen muss anschliessend der Webdienst neu gestartet werden.</p>
+    </note>
+    <p>Die Authentifizierung der Benutzer erfolgt in 3 Schritten: die Authentifizierung, die Zugangskontrolle und das Abholen der persönlichen Daten.</p>
+    <section>
+      <title>LDAP-Authentifizierung</title>
+      <p>Bei der ersten Verbindung eines Benutzers fragt GLPI ein Verzeichnis nach dem anderen ab, bis es das mit dem gesuchten Benutzer findet. Wenn die Option für den automatischen Import von Benutzern einer externen Authentifizierungsquelle aktiv ist, wird der Benutzer zusammen mit der Authentifizierungsmethode und dem LDAP-Verzeichnis in der Datenbank angelegt. Bei jeder weiteren Verbindung wird der Benutzer über das gespeicherte LDAP-Verzeichnis authentifiziert. Die anderen Verzeichnisse werden nicht berücksichtigt. Wenn also ein Benutzer in seinem ursprünglichen Verzeichnis deaktiviert wurde, kann er sich mit keiner anderen Authentifizierungsquelle anmelden.</p>
+    </section>
+    <section>
+      <title>Zugangskontrolle</title>
+      <p>Die Zugangskontrolle entspricht dem Zuweisen von Freigaben. Auch wenn ein Benutzer authentifiziert ist, ohne Freigaben kann er sich nicht an GLPI anmelden.</p>
+      <p>Dieser Mechanismus beruht auf die Verwendung von Regeln für Einheiten und Berechtigungen.</p>
+    </section>
+    <section>
+      <title>Persönliche Daten und Gruppensynchronisation</title>
+    </section>
+    <section>
+      <title>Neues Verzeichnis hinzufügen</title>
+      <p>Ein neues Verzeichnis wird über die Schaltfläche <image href="../image/menu_add.png"/> erstellt. Diese befindet sich im Menübalken im oberen Bereich der Seite. Die Konfigurationsmaske für ein neues Verzeichnis erscheint im Anschluss. </p>
+      <note type="tip">Die Vorlage für die Vorkonfiguration eines Active Directory erleichtert das Einrichten der GLPI-AD-Schnittstelle indem einige Felder vorbelegt werden. Um diese Vorlage zu laden muss lediglich der Link <b>Vorkonfiguration : Active Directory</b> angeklickt werden. </note>
+      <p>Für eine erfolgreiche Verbindung sind folgende Parameter Pflicht:  <b>Server</b> (also die Adresse des LDAP-Verzeichnisses) und die <b>basedn</b>, die angibt an welcher Stelle im Verzeichnis die Abfrage angesetzt werden soll. Wenn der Zugriff nicht-anonym ist braucht man zusätzlich die <b>RootDN</b> (den Benutzernamen) sowie das  <b>Passwort</b> des zu verwendenden Kontos. </p>
+      <note type="important"> Die RootDN muss in der Form einer kompletten DN eingetragen werden. Folglich wird der Eintrag für das Konto glpiadmin zum Beispiel <i>CN=glpiadmin,DC=domain</i> sein </note>
+      <p>Der<b> Verbindungsfilter</b> schränkt die Suche einer Person im Verzeichnis ein. Zum Beispiel wenn sich nur eine beschränkte Menge von Personen in GLPI anmelden dürfen, muss dort eine entsprechende Bedingung   definiert werden.</p>
+      <p>Wenn die Zeit des LDAP-Servers mit der vom GLPI-Server nicht identisch ist, muss das Feld <b>Zeitzone</b> entsprechend angepasst werden. Wird die Zeit nicht abgeglichen kann dies dazu führen, dass die Liste der zu synchronisierenden Benutzern fehlerhaft sein kann.</p>
+      <p><b>Sichere LDAP-Verbindung</b></p>
+      <p>GLPI unterstützt eine sichere LDAP-Verbindung über SSL (auch LDAPS genannt). Dafür muss lediglich vor dem Servernamen (oder seiner IP-Adresse) <i>ldaps://</i> vorangestellt werden. Zusätzlich muss der Port geändert werden (standardmäßig 636). Eine lokale LDAPS-Verbindung wird folglich so definiert: <i>Server: ldaps://127.0.0.1 Port: 636</i></p>
+      <p><b>Replikate</b></p>
+      <p>Ist ein LDAP-Verzeichnis nicht erreichbar, werden sich die Benutzer nicht mehr an GLPI anmelden können. Um diese Situation zu verhindern können Replikate angegeben werden. Diese teilen die Einstellungen mit ihrem Master, sind aber über eine andere Adresse erreichbar. Sie werden nur dann benutzt, wenn der Master nicht erreichbar ist. Replikate werden hinzugefügt indem ein  <b>Name</b> unter welchem er in GLPI geführt wird, ein <b>Servername</b> und ein <b>Port</b> hinterlegt werden. Es können beliebig viele Replikate definiert werden.</p>
+      <p><b>BaseDN und nicht-anonyme Verbindungen</b></p>
+      <note type="attention">
+        <p>Die <i>rootdn</i> und die <i>basedn</i> müssen ohne Leerschlägen nach den Kommas und mit Berücksichtigung der Groß- und Kleinschreibung geschrieben werden.
+
+</p>
+        <p>Beispiel eines rootdn:<ul>
+            <li><i>cn=Admin, ou=users, dc=mycompany</i>: falsch</li>
+            <li><i>cn=Admin,ou=users,dc=mycompany</i>: richtig</li>
+          </ul></p>
+      </note>
+      <p>Wenn man im Falle des Active Directory den <i>userprincipalname</i> an Stelle von<i>samaccountname</i> verwendet, kann die <i>rootdn</i> in der Form
+<i>vorname.nachname@domain.de</i> stehen.</p>
+      <p>Die zu erfassenden Parameter können zum Beispiel wie folgt aussehen:<ul>
+          <li>Server : <i>ldap.mycompany.de</i></li>
+          <li>basedn : <i>dc=mycompany,dc=de </i></li>
+        </ul>
+
+    </p>
+      <p>Dies reicht wenn anonyme Verbindungen erlaubt sind. Wenn dies nicht der Fall ist und wenn sich nicht alle Benutzer in derselben DN befinden, muss die DN eines autorisierten Benutzers und sein Passwort in den Feldern RootDN und Passwort hinterlegt werden. Bei Active Directory muss ein Konto angegeben werden, das sich an der Domäne anmelden darf.</p>
+      <p>Die Verbindungsparameter können mit einem LDAP-Browser getestet werden, wie zum Beispiel:
+      <ul>
+          <li><i>LdapBrowser Editor</i> (Freies Programm in Java und somit plattformübergreifend)</li>
+          <li><i>ADSIedit</i> für Active Directory. Dieses Tool gehört zu den Tools/zusätzlichen Werkzeugen, die sich auf dem Windows-Server Installationsmedium befinden. </li>
+        </ul>
+
+    </p>
+      <note>Wenn einige Benutzer Verbindungsrestriktionen auf bestimmte, in ihrem AD-Profil konfigurierten Computern haben, kann beim Anmelden an GLPI folgende Fehlermeldung angezeigt werden: <b>Benutzer nicht gefunden oder mehr als ein Benutzer gefunden</b>. Abhilfe schafft, den AD-Server dieser Liste von erlaubten Computern hinzuzufügen. </note>
+      <p><b>Verbindungsfilter</b></p>
+      <p>Die Anzahl der gefundenen Elemente kann mit einem Filter reduziert werden, darunter zum Beispiel: <ul>
+          <li>ein klassischer LDAP-Filter in der Art: <i>(objectclass=inetOrgPerson)</i></li>
+          <li>für Active Directory wird folgender Filter benutzt: <i>(&amp;(objectClass=user)(objectCategory=person)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))</i><p>Dieser gibt nur aktive Personen zurück (unter AD gelten Computer nämlich auch als Benutzer). Er wird automatisch eingefüllt wenn die Active Directory-Vorkonfiguration gewählt wird. </p></li>
+        </ul></p>
+      <p>Oft gibt es eine maximale Anzahl von Ergebnisszeilen auf eine LDAP-Abfrage (standardmässig 1000). Diese kann wie folgt geändert werden:<ul>
+          <li>unter Unix muss die Konfiguration des LDAP-Clients überprüft werden (bei Debian/Ubuntu in <i>/etc/ldap/ldap.conf</i>)</li>
+          <li>beim AD muss der <i>MaxPageSize</i>-Wert des Verzeichnisses geändert werden. Dafür müssen auf dem Terminal folgende Befehle abgesetzt werden:<codeblock>C:&gt; ntdsutil
+ntdsutil: ldap policies
+ldap policy: connections
+  server connections: connect to server 192.168.1.1 (hier werden einige Meldungen über Verbindungen angezeigt)
+server connections : q
+ldap policy : show values (hier werden alle Werte angezeigt, darunter  MaxPageSize die zur Zeit 1000 ist)
+ldap policy : set maxpagesize to 5000
+ldap policy : commit changes
+ldap policy : q
+ntdsutil : q </codeblock></li>
+        </ul></p>
+      <p>Die meldung <b>Test erfolgreich</b> informiert darüber, dass GLPI sich mit den hinterlegten Informationen (Server, Port, RootDN) am LDAP-Verzeichnis anmelden konnte. Nun können die Benutzer importiert werden. Dazu müssen die restlichen Parameter überprüft werden (Verbindungsfilter, Login-Feld, usw.).</p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth" xml:lang="de-de">
+  <title>Konfiguration des Idenditätmanagements</title>
+  <shortdesc>Die Art und Weise wie GLPI die Authentifizierung sowie die persönlichen Benutzerdaten verwaltet wird über das Menü <menucascade>
+      <uicontrol>Konfiguration</uicontrol>
+      <uicontrol>Authentifizierung</uicontrol>
+    </menucascade> eingestellt.</shortdesc>
+  <body>
+    <p>Einem Benutzer wird der Zugriff zu GLPI gewährt, wenn folgende Voraussetzungen gegeben sind:</p>
+    <ol>
+      <li>der Benutzer hat seine Authentifizierungsinformationen abgeschickt</li>
+      <li>der Benutzername existiert</li>
+      <li>der Benutzer wird authentifiziert</li>
+      <li>dem Benutzer werden Bereiche freigegeben</li>
+    </ol>
+    <p>GLPI benutzt seine eigene interne Benutzerdatenbank. Sie wird entweder über die Anwendung gefüttert oder von einer oder mehreren externen Quellen importiert. Je nach Art der Quelle wird entweder ein Massenimport gemacht oder es werden die noch nicht in GLPI bekannten Benutzer fortlaufend, bei jedem Verbindungsversuch, importiert.  </p>
+    <p>Um die Authentifizierung durchzuführen greift GLPI auf einen internen Passwörterbestand zurück, der durch eine oder mehrere Authentifizierungsquellen ergänzt werden kann. Auf diese Weise kann die Authentifizierung an für diese Aufgabe vorgesehene Drittsysteme delegiert werden. Siehe <xref href="config_common_auth.dita"/>.</p>
+    <p>Die Zuweisung von Freigaben wird im Abschnitt <xref href="administration_rule_right.dita"/> beschrieben.</p>
+    <note>Eine authentifizierung läuft wie folgt ab:<ol>
+        <li>der Benutzer gibt seinen Benutzernamen und Passwort ein</li>
+        <li>GLPI überprüft ob der Benutzer bereits in der Datenbank vorhanden ist. Falls nicht:<ol>
+            <li>versucht GLPI eine Authentifizierungsmethode nach der anderen: nach der internen Datenbank werden alle LDAP-Verzeichnisse abgefragt gefolgt von den IMAP/POP Verzeichnissen</li>
+            <li>wenn die Authentifizierung erfolgreich ist wird der Benutzer zusammen mit der benutzten Authentifizierungsmethode in der internen Datenbank erstellt</li>
+            <li>wenn der Benutzer über keine Quelle authentifiziert werden konnte, wird er auf eine Seite weitergeleitet, die ihn darüber informiert, dass sein Benutzername oder Passwort nicht korrekt sind</li>
+          </ol></li>
+        <li>Wenn der Benutzer bereits in der internen Datenbank vorhanden ist, oder nachdem sein Benutzername erstellt wurde<ol>
+            <li>versucht GLPI den Benutzer über die letzte erfolgreiche Authentifizierungsmethode (und nur diese) zu authentifizieren </li>
+            <li>wenn die Authentifizierung fehl schlägt, wird der Benutzer auf eine Seite weitergeleitet, die ihn darüber informiert, dass sein Benutzername oder Passwort nicht korrekt sind</li>
+          </ol></li>
+        <li>Der Freigabemechanismus wird mit den Benutzerinformationen gefüttert:<ol>
+            <li>wenn der Mechanismus eine oder mehrere Freigaben für den Benutzer schaltet, dann hat der Benutzer Zugriff auf GLPI</li>
+            <li>wenn der Benutzer keine Freigabe zugewiesen bekommt, kann er sich nicht anmelden, auch wenn er in der GLPI-Datenbank eingetragen ist.</li>
+          </ol></li>
+      </ol></note>
+  </body>
+</topic>
