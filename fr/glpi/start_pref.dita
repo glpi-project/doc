@@ -29,7 +29,7 @@ _____________________________________________________________
       </menucascade> se situe tout en haut et à droite de l&apos;interface, à partir de n&apos;importe quelle page. </p>
     <section>
       <title>Onglet Principal</title>
-      <p>L&apos;utilisateur peut ici modifier les informations personnelles usuelles : nom de famille, prénom, adresse de messagerie, numéros de téléphone, langue. </p>
+      <p>L&apos;utilisateur peut ici modifier les informations personnelles usuelles : nom de famille, prénom, adresse de messagerie, numéros de téléphone, lieu et langue. </p>
       <note>Certains champs ne sont pas modifiables s&apos;ils proviennent d&apos;un annuaire LDAP.</note>
       <p>Il peut ajouter des adresses de messagerie et sélectionner l&apos;adresse par défaut, qui sera utilisée pour l&apos;envoi des notifications.</p>
       <p>Il peut aussi spécifier certains comportements par défaut de l&apos;application, comme le profil et l&apos;entité sélectionnés par défaut lors de la connexion à l&apos;interface. Voir  <xref href="administration_profile.dita"/>  et <xref href="administration_entity.dita"/>. </p>
