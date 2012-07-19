@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_log" xml:lang="fr-fr">
+  <title>View History</title>
+  <shortdesc>The history is viewed from the tab <uicontrol>Historical</uicontrol></shortdesc>
+  <body>
+    <p>The tab <uicontrol>Historical</uicontrol> displays all the amendments to the description of an item. The
+context of change is clear : </p>
+    <p><ul>
+        <li>the date and time of the modification</li>
+        <li>the user who is the author of the modification</li>
+        <li>the field or the relevant item (document, software, component ...)</li>
+      </ul>The description of this change is the change between the old and the new value, or a description of
+the action that was performed (for example: <codeph>Uninstalling software: &quot;Gimp 2.0&quot;</codeph>).</p>
+    <p><note>For the headings or objects having a parent / child relationship, changing a child appears in the history of the parent element.</note></p>
+  </body>
+</topic>

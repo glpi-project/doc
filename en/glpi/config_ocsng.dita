@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_ocsng" xml:lang="fr-fr">
+  <title>Configurer le Mode OCSNG</title>
+  <shortdesc>Le mode OCSNG se gère depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>OCSNG</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette section permet de configurer le mode OCSNG.
+
+Pour que le menu apparaisse, il faut que le mode OCSNG soit activé dans la configuration. Voir <xref href="config_common_inventory.dita"/>.</p>
+    <p>Il peut y avoir autant de serveurs OCSNG que nécessaire.</p>
+    <p>Chaque serveur dispose d&apos;une fiche contenant ces paramètres. <ul>
+        <li>
+          <b>Général :</b>
+          <p>Configuration de la connexion au serveur OCSNG. Par défaut, le serveur est défini sur localhost.</p>
+          <p>Si les informations de connexion sont valides, les autres onglets de configuration apparaissent.<note>L&apos;utilisateur qui se connecte à la base OCSNG doit avoir le droit d&apos;écriture sur certaines tables : <ul>
+                <li><i>hardware</i> : afin de mettre à jour le checksum d&apos;OCSNG (champ qui indique quelles sont les données modifiées sur l&apos;ordinateur) ;</li>
+                <li><i>deleted_equiv</i> : table qui liste les suppressions ou changement d&apos;identifiants des ordinateurs dans OCSNG.</li>
+              </ul></note></p>
+        </li>
+      </ul><ul>
+        <li>
+          <b>Options d&apos;importation :</b>
+          <p>Configuration de l&apos;import depuis OCSNG.</p>
+          <ul>
+            <li><b>Chemin d&apos;accès web de la console OCSNG</b> : si le chemin d&apos;accès est renseigné, un lien apparaîtra sur les fiches ordinateurs pour accéder directement à la fiche ordinateur dans OCSNG. Nécessite le droit OCSNG en écriture. Voir <xref href="administration_profile.dita"/> ;</li>
+            <li><b>Limiter l&apos;importation aux tags suivants et exclure les tags suivants</b> permettent de filtrer les ordinateurs à importer selon les TAGs définis dans l&apos;agent OCSNG ;</li>
+            <li><b>Statut par défaut</b> : permet de définir le statut que prendra l&apos;ordinateur lors de son import depuis OCSNG. Il faut avoir créé au moins un statut. Voir <xref href="config_dropdown.dita"/> ;</li>
+            <li><b>Comportement lors de la déconnexion</b> : permet de définir ce que GLPI fait d&apos;un élément connecté lorsque celui ci n&apos;est plus remonté par OCSNG. Exemple : un moniteur n&apos;est plus remonté par OCSNG comme connecté à l&apos;ordinateur. Les options sont conserver, corbeille ou suppression ;</li>
+            <li><b>Périphériques - Moniteurs - Imprimantes - Logiciels - Volumes - Base de registre - Machines virtuelles</b> : permet de définir si GLPI doit remonter d&apos;OCSNG ces différentes catégories ou non. Sur certaines catégories il faut configurer si l&apos;import doit être global ou unique :<ul>
+                <li><b>Import global</b> : si un élément d&apos;inventaire remonte avec le même nom depuis x ordinateurs, il ne sera créé qu&apos;une seule fois dans GLPI et apparaîtra connecté sur les x ordinateurs. Exemple : Imprimante1 est installée sur les ordinateurs PC1 et PC2, il n&apos;y aura qu&apos;une seule Imprimante1 dans GLPI, connectée à PC1 et PC2 ;</li>
+                <li><b>Import unique</b> : un élément est créé chaque fois qu&apos;il remonte d&apos;OCSNG. Exemple : Imprimante1 est installée sur les ordinateurs PC1 et PC2, il y aura deux Imprimante1 dans GLPI, une connectée à PC1, l&apos;autre à PC2 ;</li>
+                <li><b>Import unique sur numéro de série</b> : ne s&apos;applique qu&apos;aux moniteurs. N&apos;importe l&apos;écran dans GLPI que si tous les moniteurs ont un numéro de série.</li>
+                <li><b>Import unique numéro de série uniquement</b> : ne s&apos;applique qu&apos;aux moniteurs. N&apos;importe dans GLPI que les moniteurs ayant un numéro de série.</li>
+              </ul></li>
+            <li><b>Utiliser le dictionnaire logiciel d&apos;OCSNG</b> : désactivé par défaut. Tous les logiciels sont importés d&apos;OCSNG. Voir la documentation OCSNG pour l&apos;utilisation du dictionnaire OCSNG <xref href="http://www.ocsinventory-ng.org/" format="html"/><note type="important">En cas d&apos;utilisation du dictionnaire OCSNG, il est préconisé de ne pas utiliser le dictionnaire GLPI.</note><note type="important">si cette option est à <i>oui</i> et que le dictionnaire OCSNG n&apos;est pas utilisé, aucun logiciel ne sera importé. Dans ce cas, il suffit de remettre l&apos;option à <i>non</i> et resynchroniser les postes.</note></li>
+            <li><b>Nombre d&apos;éléments à synchroniser via l&apos;action automatique OCSNG</b> : indique le nombre de machines qui seront synchronisées par le mécanisme d&apos;action automatique de GLPI. Mettre la valeur à 0 en cas de synchronisation manuelle. Voir <xref href="config_crontask.dita"/>.</li>
+            <li><b>Comportement à la suppression d&apos;un ordinateur dans OCSNG</b> : indique l&apos;action à réaliser quand un ordinateur importé dans GLPI disparaît d&apos;OCS. Il est possible de le mettre à la corbeille, de le supprimer de GLPI ou de changer son statut.</li>
+          </ul>
+        </li>
+      </ul><ul>
+        <li>
+          <b>Informations générales : </b>
+          <p>Permet de définir quelles informations d&apos;un ordinateur doivent être importées dans GLPI. Exemple : numéro de série, fabricant, processeur...</p>
+          <p>Pour les informations administratives OCSNG, en cas d&apos;utilisation de <i>HARDWARE_ID</i> les fonctions de verrouillage du champs ne sont pas disponibles.</p>
+        </li>
+      </ul><ul>
+        <li>
+          <b>Liaison :</b>
+          <p>Un moteur est disponible pour  <xref href="administration_rule_importorlink.dita"/>.</p>
+        </li>
+      </ul></p>
+  </body>
+</topic>

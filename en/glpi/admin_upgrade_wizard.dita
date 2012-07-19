@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin_upgrade_wizard" xml:lang="fr-fr">
+  <title>Utiliser l&apos;assistant de mise à jour</title>
+  <shortdesc>Mettre à jour GLPI</shortdesc>
+  <body>
+    <section>
+      <title>Lancement de la mise à jour</title>
+      <p>Pour débuter la mise à jour, faire pointer le navigateur web sur le dossier racine de GLPI : <xref href="http://&lt;ADRESSE_GLPI>" format="html">http://&lt;ADRESSE_GLPI&gt;</xref>.
+
+</p>
+      <p>Une procédure de mise à jour pas-à-pas démarre. </p>
+    </section>
+    <section>
+      <title>Choix de la langue (Select your language) </title>
+      <p>La première étape consiste à choisir la langue dans laquelle se déroulera l&apos;installation. Pour une installation en &quot;Français&quot;  sélectionner 
+          <uicontrol>Français</uicontrol>
+         puis valider.</p>
+    </section>
+    <section>
+      <title>Licence</title>
+      <p>L&apos;utilisation de GLPI est soumise à l&apos;acceptation de la licence d&apos;utilisation GNU General Public Licence. Cette licence est proposée à la lecture. Une fois la licence lue et acceptée, valider le formulaire. Si ce n&apos;est pas le cas, il est impossible d&apos;accéder aux étapes suivantes.</p>
+    </section>
+    <section>
+      <title>Début de l&apos;installation : Installation ou mise à jour de GLPI</title>
+      <p>Cliquer sur  
+          <uicontrol>Mise à jour</uicontrol>.</p>
+    </section>
+    <section>
+      <title>Étape 0 : Vérification de la compatibilité de votre environnement avec l&apos;exécution de GLPI</title>
+      <p>Cette étape va vérifier que le système satisfait les pré-requis à l&apos;installation. Si ce n&apos;est pas le cas, il  est impossible d&apos;accéder aux étapes suivantes et un message d&apos;erreur explicite  indique les actions à réaliser avant d&apos;essayer à nouveau. Si toutes les vérifications ont été réalisées avec succès, valider le formulaire.</p>
+    </section>
+    <section>
+      <title>Etape 1 : Configuration de la connexion à la base de données.</title>
+      <p>Cette étape n&apos;est présenté que si le fichier de configuration (<i>config/config_db.php</i>) n&apos;est plus présent.</p>
+      <p>Les paramètres de connexion à la base de données sont demandés.</p>
+      <ul>
+        <li><uicontrol>Serveur MySQL</uicontrol> : saisir le chemin réseau d&apos;accès au serveur. Par exemple : <userinput>localhost</userinput>, ou <userinput>mysql.domaine.tld</userinput> ;</li>
+        <li><uicontrol>Utilisateur MySQL</uicontrol> : saisir le nom d&apos;utilisateur ayant le droit de se connecter au serveur MySQL. Par exemple <userinput>glpidbuser</userinput> ;</li>
+        <li><uicontrol>Mot de passe MySQL</uicontrol> : saisir le mot de passe associé à l&apos;utilisateur défini précédemment. </li>
+      </ul>
+      <p>Une fois que ces trois champs sont correctement remplis, valider le formulaire.
+
+Si les paramètres sont invalides,  un message d&apos;erreur est affiché,  modifier les paramètres de connexion et essayer à nouveau.</p>
+    </section>
+    <section>
+      <title>Etape 2 : Sélection de la base de données</title>
+      <p>Cette étape n&apos;est présentée que si le fichier de configuration (<filepath>config/config_db.php</filepath>) n&apos;est plus présent.</p>
+      <p>Une fois la connexion au serveur MySQL établie, il faut choisir la base de données destinée à accueillir l&apos;application GLPI, et la mettre à jour.
+
+</p>
+    </section>
+    <section>
+      <title>Etape 3 : Migration de la base de données.</title>
+      <p>Cette étape effectue la mise à jour  de la base de données. En cas d&apos;erreur, lire attentivement les informations. En fonction de la version de GLPI à mettre à jour, un certain nombre d&apos;écrans intermédiaires seront proposés. Répondre aux questions posées en fonction de l&apos;organisation. L&apos;assistant de mise à jour  propose ensuite  de procéder à la mise à jour de l&apos;ancien contenu de la base de données. Après avoir cliqué sur <uicontrol>Continuer</uicontrol>, une barre de progression apparaît sur l&apos;écran.</p>
+      <note type="important">Selon la taille de la base de données cette procédure peut être très longue (plusieurs minutes, voir plusieurs heures pour des bases de plusieurs giga-octets). De même, il est possible que la barre de progression reste un certain temps à 0% sans que cela ne soit le symptôme d&apos;un dysfonctionnement.</note>
+    </section>
+    <section>
+      <title>Etape 4 : La mise à jour de GLPI est maintenant terminée.</title>
+      <p>Cette étape présente le récapitulatif de la procédure de mise à jour. Lire attentivement ces informations et valider pour se connecter à l&apos;application.
+</p>
+    </section>
+  </body>
+</topic>

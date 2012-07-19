@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_dictionnary_software" xml:lang="fr-fr">
+  <title>Dictionnaire des logiciels</title>
+  <body>
+    <p>Il modifie les données du logiciel (nom, version, fabricant) afin de compléter ou fusionner des logiciels entre eux.</p>
+    <p>Il est utilisé pour rendre plus cohérent des logiciels équivalents, dont le nom n&apos;est pas identique (par exemple Mozilla Firefox 3.0 et Mozilla Firefox 3.6) ou pour ajouter un fabricant s&apos;il n&apos;est pas renseigné. </p>
+    <p>Ce dictionnaire permet aussi de rediriger la création d&apos;un logiciel (ou d&apos;un ensemble de logiciels) dans une entité donnée. Pour cela, il suffit de choisir l&apos;action <i>Entité</i> et de sélectionner celle dans lequel il sera créé. Cette fonctionnalité peut être utilisée conjointement avec l&apos;option générale <i>Entité de création des logiciels</i> disponible dans la configuration d&apos;une entité.</p>
+    <note>pour une gestion optimale des logiciels et licences en environnement multi-entités, il est possible d&apos;utiliser le dictionnaire des logiciels conjointement avec des logiciels visibles dans les sous-entités (et donc utiliser la fonctionnalité de regroupement). </note>
+    <note type="tip">comme pour tous les autres dictionnaires, il est très fortement conseillé de jouer les règles sur une base de test, et de sauvegarder la base de données avant la mise en production du dictionnaire ou de nouvelles règles.</note>
+  </body>
+</topic>

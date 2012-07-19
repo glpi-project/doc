@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="administration_entity_t_create">
+  <title>Ajouter une entité</title>
+  <taskbody>
+    <prereq>GLPI disposant déjà d&apos;une entité, l&apos;<userinput>Entité Racine</userinput>, il faut considérer cette dernière comme la plus haute autorité de votre hiérarchie, et ensuite en décliner des entités filles.</prereq>
+    <context> Ajouter une entité</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Entités</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+        <substeps>
+          <substep>
+            <cmd>Un <userinput>nom</userinput> ;</cmd>
+          </substep>
+          <substep>
+            <cmd>Une <userinput>entité mère</userinput> (Par défaut l&apos;<userinput>Entité racine</userinput>) ;</cmd>
+          </substep>
+          <substep>
+            <cmd>Un <userinput>commentaire</userinput> qui sera affiché sur les icônes d&apos;aide chaque fois que l&apos;entité est renseignée.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Valider ;</cmd>
+        <stepresult>Le nom de la nouvelle entité créée est affiché.</stepresult>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;entité créée ;</cmd>
+        <stepresult>La fiche de l&apos;entité est affichée.</stepresult>
+      </step>
+      <step>
+        <cmd>Renseigner des informations complémentaires :</cmd>
+        <substeps>
+          <substep>
+            <cmd>l&apos;onglet <uicontrol>Adresse</uicontrol> permet de renseigner les coordonnées postales et téléphoniques ;</cmd>
+          </substep>
+          <substep>
+            <cmd>l&apos;onglet <uicontrol>Informations avancées</uicontrol> permet de lier l&apos;entité à des informations provenant d&apos;un annuaire LDAP, d&apos;un domaine messagerie ou d&apos;un TAG de l&apos;agent d&apos;inventaire ;</cmd>
+          </substep>
+          <substep>
+            <cmd>les onglets <uicontrol>Utilisateurs</uicontrol>, <uicontrol>Règles</uicontrol>, <uicontrol>Documents</uicontrol>, <uicontrol>Notifications</uicontrol>, <uicontrol>Assistance</uicontrol> permettent de gérer les objets de chacun de ces types liés à l&apos;entité.</cmd>
+          </substep>
+
+
+        </substeps>
+      </step>
+    </steps>
+    <result>La nouvelle entité est créée.</result>
+  </taskbody>
+</task>

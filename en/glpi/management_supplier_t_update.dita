@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_supplier_t_update">
+  <title>Modifier un fournisseur</title>
+  <taskbody>
+    <context>Modifier un fournisseur dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Fournisseurs</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du fournisseur ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom du fournisseur ; </cmd>
+      </step>
+      <step>
+        <cmd>Modifier les champs souhaités ;</cmd>
+      </step>
+      <step>
+        <cmd>Actualiser.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche avec les champs modifiés</result>
+  </taskbody>
+</task>

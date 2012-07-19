@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_mysql" xml:lang="fr-fr">
+  <title>Onglet Réplicat MySQL</title>
+  <shortdesc>GLPI peut être configuré pour utiliser une base MySQL esclave.</shortdesc>
+  <body>
+    <p>Cet onglet n&apos;est visible que si l&apos;option <b>Activer le réplicat</b> a été activée dans l&apos;onglet Informations système.</p>
+    <p>Pour activer la gestion du réplicat, il suffit  de renseigner les paramètres de connexion. Il est conseillé d&apos;utiliser un identifiant de connexion disposant uniquement des privilèges de lecture sur la base.</p>
+    <p>Le réplicat MySQL sera utilisé dans 2 cas :
+     <ul>
+        <li>En cas de panne du serveur principal. Dans cette situation, l&apos;application bascule automatiquement en mode lecture seule (un onglet le signale sur la barre de menu).</li>
+        <li>Lors de l&apos;exécution de rapports coûteux de manière à diminuer la charge sur le serveur principal.</li>
+      </ul></p>
+    <p>Il est aussi possible de demander l&apos;utilisation de l&apos;esclave pour le moteur de recherche, suivant l&apos;option retenue :</p>
+    <p><ul>
+        <li>
+          <b>Jamais</b>
+         </li>
+        <li><b>Si synchronisé (tous les changements)</b> : GLPI vérifiera la synchronisation et utilisera le réplicat si tous les changements ont été répliqués.</li>
+        <li><b>Si synchronisé (changements de l&apos;utilisateur) </b>: GLPI vérifiera la synchronisation et utilisera le réplicat si les changements de l&apos;utilisateurs connectés ont été répliqués, et donc, dans tous les cas pour les comptes de consultation.</li>
+        <li><b>Si synchronisé ou compte en lecture seule</b> : pour les comptes de mise à jour, GLPI vérifiera la synchronisation et utilisera le réplicat si tous les changements ont été répliqués, pour les comptes de consultation il sera toujours utilisé.</li>
+        <li>
+          <b>Toujours</b>
+        </li>
+      </ul></p>
+    <p><b>Attention</b> : lorsque le moteur de recherche utilise le réplicat, les données affichées peuvent être obsolètes,  l&apos;option ci-dessus doit donc être choisie avec précaution.</p>
+    <note type="important">Le réplicat doit être créé et configuré en utilisant les outils MySQL. Voir la Documentation MySQL : http://dev.mysql.com/doc/refman/5.0/en/replication.html</note>
+  </body>
+</topic>

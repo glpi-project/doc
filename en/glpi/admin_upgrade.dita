@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin_upgrade" xml:lang="fr-fr">
+  <title>Mettre à jour GLPI</title>
+  <shortdesc>Il est nécessaire de mettre à jour régulièrement GLPI pour bénéficier des correctifs de sécurité et des nouvelles fonctionnalités. </shortdesc>
+  <body>
+    <p>Pour vérifier si une  nouvelle version de GLPI est disponible, aller dans le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Maintenance</uicontrol>
+        <uicontrol>Vérifier si une nouvelle version est disponible</uicontrol>
+      </menucascade>.  Pour bénéficier des correctifs et des nouvelles fonctionnalités apportés par une nouvelle version, il est nécessaire de  mettre à jour la version installée. La procédure comporte les étapes suivantes : <ol>
+        <li>télécharger l&apos;archive de la nouvelle version de l&apos;application ;</li>
+        <li>préparer le système ;</li>
+        <li>installer les fichiers de la nouvelle version sur le serveur ;</li>
+        <li>lancer l&apos;assistant de migration.</li>
+      </ol></p>
+  </body>
+</topic>

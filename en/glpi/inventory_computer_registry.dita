@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_registry" xml:lang="fr-fr">
+  <title>Onglet &quot;Registre&quot;</title>
+  <shortdesc>Gestion des entrées de bases de registre pour un ordinateur</shortdesc>
+  <body>
+    <p>
+L&apos;import de clés de registre via OCSNG dans GLPI est possible.</p>
+    <p>1. Activer la remontée du registre dans OCSNG et déclarer les clés de registre à inventorier ;</p>
+    <p>2. Dans le Menu <b>Configuration &gt; Mode OCSNG &gt; Onglet Options d&apos;importation</b>, Activer la synchronisation de la Base de registre. Voir <xref href="config_ocsng.dita"/> ;</p>
+    <p>3. Une fois les ordinateurs synchronisés, les  clés de registre sont ainsi visibles dans l&apos;onglet <b>Registre</b>. Il est désormais possible de faire des recherches sur ces clés via le moteur de recherche de GLPI.</p>
+  </body>
+</topic>

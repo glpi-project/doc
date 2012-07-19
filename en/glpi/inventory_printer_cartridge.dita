@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_printer_cartridge" xml:lang="fr-fr">
+  <title>Les cartouches associées</title>
+  <shortdesc>Les cartouches associées à une imprimante</shortdesc>
+  <body>
+    <p>Cet onglet liste les différentes cartouches associées au modèle d&apos;imprimante sélectionnée.</p>
+    <p>Il se décompose en deux parties :<ul>
+        <li>Les cartouches utilisées, avec comme information la date d&apos;achat et d&apos;installation,</li>
+        <li>Les cartouches usagées, avec comme information en plus la date de fin de vie, et un compteur pouvant calculer le nombre de page imprimée depuis le dernier changement de cartouche.</li>
+      </ul><note>Pour la création / suppression de cartouche voir <xref href="inventory_cartridge.dita"/>.</note></p>
+  </body>
+</topic>

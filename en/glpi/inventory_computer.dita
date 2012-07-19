@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
+<topic id="inventory_computer" xml:lang="fr-fr">
+  <title>Gérer les ordinateurs</title>
+  <shortdesc>Les ordinateurs se gèrent depuis le menu <menucascade>
+      <uicontrol>Inventaire</uicontrol>
+      <uicontrol>Ordinateurs</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Dans  la fiche d&apos;un ordinateur, on trouve un certain nombre d&apos;informations concernant le système d&apos;exploitation (nom, version, service pack, numéro de série, product ID), les caractéristiques générales (fabricant, modèle, type, numéro de série), les informations de gestion (responsable technique, statut, localisation) et les usagers du poste (connus ou non dans GLPI).</p>
+    <p>D&apos;autres champs sont informatifs, comme <b>Réseau</b> (type de connexion au poste),  et la <b>source de la mise à jour</b> qui est un intitulé indiquant d&apos;où proviennent les mises à jour d&apos;un poste (oui/non, Windows update, yum, apt, etc). </p>
+    <note>Dans le cas d&apos;une utilisation de GLPI couplé avec OCSNG, différentes informations sur l&apos;importation sont également disponibles.</note>
+    <note>un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d&apos;utiliser le champ type.</note>
+  </body>
+</topic>

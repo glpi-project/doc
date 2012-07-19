@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth_ldap_usergroups" xml:lang="fr-fr">
+  <title>Configurer la liaison LDAP pour les utilisateurs et les groupes</title>
+  <body>
+    <section>
+      <title>Données personnelles et synchronisation des groupes</title>
+    </section>
+    <section>
+      <p><b>Les liaisons LDAP/GLPI</b></p>
+      <p>Par défaut, elles sont initialisées avec quelques valeurs que l&apos;on retrouve dans une configuration LDAP classique. Le tableau ci-dessous montre les correspondances entre  les attributs d&apos;une classe inetOrgPerson et leur équivalent sur Active Directory.</p>
+      <table>
+        <title/>
+        <tgroup cols="4">
+          <thead>
+            <row>
+              <entry>Champ</entry>
+              <entry>Signification</entry>
+              <entry>Valeur LDAP inetOrgPerson</entry>
+              <entry>Valeur Active Directory</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>login name</entry>
+              <entry>nom de l&apos;utilisateur</entry>
+              <entry>uid</entry>
+              <entry>samaccountname</entry>
+            </row>
+            <row>
+              <entry>email</entry>
+              <entry>adresse de messagerie de l&apos;utilisateur</entry>
+              <entry>mail</entry>
+              <entry>mail</entry>
+            </row>
+            <row>
+              <entry>phone</entry>
+              <entry>numéro de téléphone</entry>
+              <entry>telephonenumber</entry>
+              <entry>telephonenumber</entry>
+            </row>
+            <row>
+              <entry>realname</entry>
+              <entry>nom</entry>
+              <entry>sn</entry>
+              <entry>sn</entry>
+            </row>
+            <row>
+              <entry>firstname</entry>
+              <entry>prénom</entry>
+              <entry>givenname</entry>
+              <entry>givenname</entry>
+            </row>
+            <row>
+              <entry>title</entry>
+              <entry>titre de la personne</entry>
+              <entry>title</entry>
+              <entry>title</entry>
+            </row>
+            <row>
+              <entry>type</entry>
+              <entry>type de la personne</entry>
+              <entry>employeetype</entry>
+              <entry>employeetype </entry>
+            </row>
+            <row>
+              <entry>language</entry>
+              <entry>langue courante de l&apos;utilisateur</entry>
+              <entry>preferredlanguage</entry>
+              <entry>preferredlanguage</entry>
+            </row>
+            <row>
+              <entry>matricule</entry>
+              <entry>numéro d&apos;identification de l&apos;utilisateur</entry>
+              <entry>employeenumber</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>Le paramètre <i>language</i> permet de synchroniser la langue de l&apos;utilisateur avec l&apos;annuaire. Cette fonctionnalité peut être intéressante dans une utilisation multilingue. Les formations de langues acceptés sont de la forme: fr_FR, fr ou Français. La liste exhaustive des valeurs acceptées est disponible dans le fichier <i>config/define.php</i>. </note>
+      <note>Il est possible de mapper jusqu&apos;à 4 adresses de messagerie. La première sera l&apos;adresse par défaut pour l&apos;envoi des notifications.</note>
+      <p> </p>
+      <note type="attention">Le nom des attributs LDAP sera stocké dans la base de données en minuscule, même s&apos;il a été entré en tenant compte de la casse. </note>
+      <note type="tip">Dans Active Directory, l&apos;authentification d&apos;un utilisateur peut se faire de deux façons : <ul>
+          <li>soit à l&apos;ancienne mode Windows NT en utilisant le champ <i>samaccountname</i></li>
+          <li>soit à la mode UPN en utilisant le champ <i>userprincipalname</i>.</li>
+        </ul></note>
+      <note type="note">Lorsqu&apos;un utilisateur est supprimé de l&apos;annuaire, il est possible de configurer GLPI pour effectuer une action (désactiver l&apos;utilisateur, le mettre à la poubelle, lui enlever ses habilitations). Cette option de configuration est globale, et définie dans le menu <i>Configuration &gt; Authentification &gt; Configuration authentification &gt; Action lorsqu&apos;un utilisateur est supprimé de l&apos;annuaire LDAP</i>. </note>
+    </section>
+    <section>
+      <title>Appartenance des utilisateurs à des groupes</title>
+      <p>L&apos;appartenance d&apos;un utilisateur à un groupe dans GLPI peut être déduite de  l&apos;annuaire, dont c&apos;est le rôle.
+
+L&apos;appartenance d&apos;utilisateur à un groupe est calculée à l&apos;import de l&apos;utilisateur dans GLPI, à chaque connexion de l&apos;utilisateur ou lorsque l&apos;on force la synchronisation avec l&apos;annuaire.</p>
+      <p>Elle permet, par exemple, de créer dans l&apos;annuaire des groupes de techniciens, qui se traduiront dans GLPI par des profils particulier pour ses membres.
+
+Les groupes peuvent être :
+
+    <ul>
+          <li>importés depuis l'annuaire LDAP dans GLPI (il faut aller dans <b>Administration &gt; Groupes &gt; Liaison LDAP</b>) ;</li>
+          <li>créés manuellement dans GLPI en précisant les paramètres LDAP.</li>
+        </ul></p>
+      <p>En fonction de l&apos;annuaire, l&apos;information de l&apos;appartenance d&apos;un utilisateur à un groupe est accessible de manière différente. GLPI peut déduire celle-ci en en cherchant un attribut de l&apos;objet utilisateur et/ou en en cherchant un attribut d&apos;un groupe.
+
+    
+
+</p>
+    </section>
+    <section>
+      <title>Configuration d&apos;un groupe</title>
+      <p>La correspondance entre un groupe de l&apos;annuaire et son pendant dans GLPI se fait à travers quelques paramètres disponibles dans la fiche d&apos;un groupe. </p>
+      <p>Dans le cas où l&apos;on recherche l&apos;appartenance d&apos;un utilisateur à un groupe dans l&apos;objet utilisateur, les options suivantes sont utilisées. Le type de recherche indique l&apos;endroit dans lequel GLPI va trouver l&apos;appartenance. Le filtre pour la recherche des groupes indique le filtre qui permet de cibler les objets dans lequel l&apos;information sur l&apos;appartenance se trouve. L&apos;utilisation du DN pour la recherche GLPI doit chercher  le DN complet du groupe ou si l&apos;information récupérée n&apos;est que son CN.</p>
+      <p>Dans le cas d&apos;une déduction de l&apos;appartenance à un groupe en recherchant dans l&apos;objet groupe lui-même, il est nécessaire de remplir les informations suivantes : </p>
+      <p><ul>
+          <li><b>Type de recherche</b> : endroit où aller trouver l&apos;appartenance à un groupe ;</li>
+          <li><b>Filtre pour la recherche dans les groupes</b> : filtre de recherche pour les groupes ;</li>
+          <li><b>Utiliser le DN pour la recherche</b> : recherche de l&apos;appartenance à un groupe en utilisant le DN de l&apos;utilisateur ou pas ; </li>
+          <li><b>Attribut utilisateur indiquant ses groupes</b> : dans quel attribut du groupe recherche l&apos;utilisateur ;</li>
+          <li><b>Attribut des groupes contenant les utilisateurs</b> : dans quel attribut de l&apos;utilisateur recherche l&apos;appartenance à un groupe.</li>
+        </ul></p>
+      <p><b>Exemples de groupes</b></p>
+      <p>Dans un annuaire LDAP classique, il faudra choisir laquelle des 2 méthodes est adaptée en fonction des objets utilisés : <ul>
+          <li>recherche dans un groupe (par exemple un <i>groupOfNames</i>) ;</li>
+          <li>recherche dans un utilisateur (si on utilise son propre type d&apos;objet par exemple).</li>
+        </ul></p>
+      <p>Dans un annuaire Active Directory, il est possible de rechercher des 2 manières :
+
+    <ul>
+          <li>Dans un utilisateur on cherche le DN du groupe dans l&apos;attribut <i>memberOf</i> ;</li>
+          <li>Dans un groupe on cherche le DN de l&apos;utilisateur dans l&apos;attribut <i>member</i>.</li>
+        </ul><note>Le paramètre de configuration <b>Utiliser le DN pour la recherche</b> est important. Par défaut il est sur “Oui”, mais il y a des cas où il doit être mis à “non”. Par exemple, lors de l&apos;utilisation d&apos;un objet <i>posixGroup</i>, on ne stocke pas le DN de l&apos;utilisateur mais juste son uid. </note><note>Un objet groupe doit forcément contenir un attribut CN, qui sera utilisé comme nom du groupe dans GLPI. En particulier, une OU n&apos;est pas un groupe ! </note></p>
+      <p>Exemple de configuration avec un annuaire OpenLDAP dans lequel l&apos;association des utilisateurs aux groupes est renseignée dans les groupes avec l&apos;attribut multi-valué memberUid : <ul>
+          <li><b>Type de recherche</b> : Dans les groupes ;</li>
+          <li><b>Filtre pour la recherche dans les groupes</b> : <i>(objectClass=posixGroup)</i> ;</li>
+          <li><b>Attribut des groupes contenant les utilisateurs</b> : <i>memberuid</i> ;</li>
+        </ul></p>
+      <p><b>Cas particulier : faire correspondre un groupe GLPI avec une &quot;OU LDAP&quot; (Organizational Unit)</b></p>
+      <p>Il est possible d&apos;affecter un utilisateur dans un groupe en analysant l&apos;OU du user, présente dans son DN. Pour ce faire il faut indiquer, dans la configuration de l&apos;annuaire :
+
+    <ul>
+          <li><b>Type de recherche</b> : “dans les utilisateurs” ou “Utilisateurs et groupes” ;</li>
+          <li><b>Attribut utilisateur indiquant ses groupes </b>: indiquer “dn”.</li>
+        </ul></p>
+      <p>Dans la définition du groupe :
+
+    <ul>
+          <li><b>Attribut utilisateur indiquant ses groupes</b> : indiquer “ou” ;</li>
+          <li><b>Valeur LDAP</b> : indiquer l&apos;ou que vous désirez (respectez bien la casse !).</li>
+        </ul><note>
+          <p>Outre la bonne configuration de l&apos;authentification externe, il faut s&apos;assurer que l&apos;utilisateur configuré dans GLPI pour lire les informations de l&apos;AD possède des droits en lecture de la propriété memberOf  sur les objets Users de l&apos;AD.
+
+</p>
+          <p>Ajout de cette possibilité :
+
+<ul>
+              <li>Ouvrir les propriétés de la racine (On peut restreindre à une OU) de son annuaire dans ADSI Edit (ici DC=mondomaine,DC=fr) ;</li>
+              <li>Aller dans les propriétés avancées de sécurité. Ajouter l&apos;utilisateur GLPI comme suit : </li>
+            </ul><image href="../image/ad_ldap_group.png"/></p>
+        </note></p>
+    </section>
+    <section>
+      <title>Automatiser l&apos;import via un script</title>
+      <p>Pour importer les nouveaux comptes AD dans GLPI, on peut utiliser le script d&apos;import automatique GLPI ainsi qu&apos;une tâche planifiée du système d&apos;exploitation. Le script d&apos;import est présent dans le dossier script de GLPI (<i>ldap_mass_sync.php</i>). </p>
+      <p><b>Les arguments du script</b></p>
+      <p>Le script a besoin d&apos;arguments pour fonctionner (l&apos;identifiant  du serveur et l&apos;action à effectuer). </p>
+      <p>L&apos;identifiant du serveur se trouve dans l&apos;entête du formulaire du serveur LDAP dans <b>Configuration &gt;Authentification &gt; Annuaire LDAP</b>.</p>
+      <p>Pour l&apos;action, 3 choix sont disponibles : 1 pour synchroniser et 0 pour importer et 2 pour tout resynchroniser, même si aucune modification ne s&apos;est produite.
+</p>
+      <p><b>Tache planifiée Windows</b></p>
+      <ul>
+        <li>Création d&apos;un fichier BAT :<codeblock>REM Placer vous dans le dossier ou se trouve le script
+
+REM Go to the folder where is the script.
+
+cd “C:\Program Files\OCS Inventory NG\xampp\htdocs\glpi\scripts”
+
+REM Exécuter php.exe avec le script
+
+REM Run php.exe and launch script
+
+“C:\Program Files\OCS Inventory NG\xampp\php\php.exe” ldap_mass_sync.php –server_id=2 action=0 </codeblock></li>
+        <li>Ensuite création d&apos;une tache planifiée Windows.</li>
+      </ul>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="config_mailcollector_t_delete">
+  <title>Supprimer un collecteur</title>
+  <taskbody>
+    <context>Supprimer un collecteur</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Collecteurs</uicontrol>
+          </menucascade> ; </cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du collecteur ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom du collecteur</li>
+              <li>Purger</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher le collecteur</li>
+              <li>Modification massive : Purger</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>
