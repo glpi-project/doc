@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket" xml:lang="fr-fr">
+  <title>Manage tickets</title>
+  <shortdesc>Tickets in GLPI, characteristics and use</shortdesc>
+  <body>
+    <section>
+      <title>Managing incidents in accordance with ITIL or not</title>
+      <p audience="advanced">The support module of GLPI is consistent with the best practice guide for the ITIL Incident Management part
+and service management requests: it therefore includes concepts such as the impact, the urgency of a ticket, the matrix
+calculation of priorities and associated normalization of the statutes. Although the tool complies ITIL, there is no
+obligation to follow these practices: everyone is free to implement incident management that is
+best suits their needs.</p>
+      <p>The opening date (<b>Opened on</b>) and maturity allow for time identification of the incident or service request. A <b>SLA</b> can also be associated to a ticket. In this case, the SLA and the next level of escalation
+are displayed (see <xref href="config_sla.dita"/>).</p>
+    </section>
+    <section>
+      <p>Actors are referenced in the ticket, allowing their notification during the life cycle of the ticket:
+ the <b>Requesters</b> are the users or user groups known in GLPI involved in the ticket and the <b>Watchers</b> are users or groups of users that receive notifications. Support (<b>Assigned to</b>) of a ticket is performed either by a <b>technician</b>, or by a   <b>group</b> of technicians or by a <b>supplier</b> referenced in the application. </p>
+      <p>In the case of multiple users or groups, only the first user or group is defined when creating
+the ticket, additional players are added later. A user with no right to change
+but  can see the ticket with their clearances has the possibility of becoming a watcher.</p>
+      <note>In the case of unknown GLPI users, emails can also be associated with a ticket. The default choice (no user selected) at the requester or watcher level can enter an email in the corresponding field. In addition, notifications must be activated (see <xref href="config_notification.dita"/>). </note>
+      <p>A ticket has content (<b>title</b> and <b>description</b>). If no title is defined by the user when creating the
+ticket, the first 70 characters of description are used to define the title of the ticket. The <b>category</b> can
+classify incidents according to their nature. The <b>type</b> used to define if it is a request or incident. The  <b>Associated Element</b> drop-down list allows the  association of one or more inventory items to the ticket: the contents of the list depends
+parameters defined in the profile (see <xref href="administration_profile.dita"/>).</p>
+      <p>Tickets keep reference to the  GLPI user who opened the ticket (<b>By</b>) and the (<b>Request source</b>)   (see <xref href="config_dropdown.dita"/>). </p>
+      <p>A ticket has a  <b>status</b>  (see <xref href="helpdesk_lifecycle.dita"/>), and may require <b>validation</b> : by default there is  <i>not subject to validation</i>.</p>
+      <p><b>Urgency</b> indicates the importance given by the requester of the ticket, while the <b>impact</b> is determined by the
+technician. The <b>priority</b> the ticket is automatically calculated according to a predefined matrix  (see <xref href="config_common_assist.dita"/>).</p>
+      <p>Finally, two pieces of information on notifications appear if followed by emails have been configured (see <xref href="config_notification.dita"/>)  :  <b>Email Follow-ups</b> is activated for the ticket and  <b>Email</b> is used for monitoring. This is pre-filled with default value and set this default in the form of the user (if
+exists) and can be changed in the dropdown if required.</p>
+      <p audience="advanced">For use of GLPI multi-entities with technicians having clearances on several
+entities, it is not necessary to change the current entity to create a new incident in a separate entity.
+The path to open a new ticket is as follows: the technician begins by selecting the
+requester and GLPI will determine the entities to which the user has authorization. If it has only one entity, then the creation form is updated and the ticket will be declared in the corresponding entity, but if
+it has several an additional drop-down list is used to select one on which you want to work.</p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_templates" xml:lang="fr-fr">
+  <title>Ticket Templates</title>
+  <shortdesc>Ticket Templates</shortdesc>
+  <body>
+    <p>Just as inventory objects, a notion of a template exists for the tickets. A template allows you to customize
+interface declaration of a ticket based on ticket type and category.</p>
+    <p>Management templates is done via the icon: <image href="../image/menu_addtemplate.png"/> located in the menu bar. </p>
+    <p>Behavior that can be changed are :<ul>
+        <li>The list of fields to be mandatory for opening a ticket</li>
+        <li>The list of fields whose value will be preset when displaying the form</li>
+        <li>The list of fields that should be hidden</li>
+      </ul> </p>
+    <p>A template is linked to the entity in which it was defined, and may be visible in the sub-entities.</p>
+    <p>The assignment of a template when opening a ticket is set for each category (see <xref href="helpdesk_advanced_categories.dita"/>).</p>
+    <note audience="">Upon ticket creation, first applied is the default template of the entity on which the ticket is open. If the user defines a type and a category, and a template is specifically defined for this couple then the latter template is used.</note>
+    <note audience="">Upon ticket update, the same order (entity then couple type / category) is used to determine the required fields.</note>
+  </body>
+</topic>

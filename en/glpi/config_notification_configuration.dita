@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification_configuration" xml:lang="fr-fr">
+  <title>Configure follow-up emails and alerts</title>
+  <shortdesc>The general configuration of notifications is done from the menu <menucascade>
+      <uicontrol>Setup</uicontrol>
+      <uicontrol>Notifications</uicontrol>
+      <uicontrol>Email followups configuration</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <section>
+      <p>GLPI notifications are sent via email. It is therefore necessary to configure the server notifications connection.</p>
+      <note type="important">Important: This configuration page is available to users with permission <i>Configuration - writing.</i> By default notifications are not enabled: selecting &quot;Enable follow-up via email&quot; enables use of this functionality. </note>
+      <title>&quot;Setup&quot; tab</title>
+      <p>
+  <ul>
+          <li>
+            <b>Notifications and Mail server</b>
+            <note>This menu allows you enter the necessary parameters for the proper notifications. Once the general configuration is validated, it is possible to test it by clicking the button: <b>Test sending email to the administrator</b>.</note>
+            <ul>
+              <li><b>Enable follow-up via email</b> : Enable/Disable the handling of notifications in GLPI. This configuration is overall to the whole application.</li>
+              <li><b>Administrator Email</b> : E-mail address of the GLPI system administrator. This address is used when the <b>Administrator</b> is selected as the recipient of a notification.</li>
+              <li><b>Administrator reply-to Email (if needed)</b> : E-mail address used when the user answers a notification from the Administrator.</li>
+              <li><b>Email Signature</b> : Text added at the end of each notification. This value is global, but can be adapted for each entity (see configuration of an entity).</li>
+              <li><b>URL of the application</b> : Indicates the path to the GLPI web application. This parameter is used, among others, to build links to objects in an email.</li>
+              <li><b>Administrator Name</b> : The name of the administrator used indicates the name associated with email Administrator.</li>
+              <li><b>Response name (if necessary)</b> : Name used when the Administrator answers an email from the user.</li>
+              <li><b>Way of sending emails</b> : <ol>
+                  <li>PHP : is handled by sending the mail () function of PHP. This is often blocked in the hosts.</li>
+                  <li>SMTP : sending using SMTP.</li>
+                  <li>SMTP + SSL : sending using SMTP, encapsulated in an SSL tunnel.</li>
+                  <li>SMTP + TLS : sending emails more secure than SMTP + SSL.</li>
+                </ol></li>
+              <li><b>SMTP Host</b>[:Port] (separator ;) : Name or IP address of the mail server. It is possible to specify port by adding the character &quot;colon&quot; and the number. Multiple servers can be specified in the separated by a semicolon.</li>
+              <li><b>Port</b> : Listening port for the SMTP service of the mail server.</li>
+              <li><b>SMTP Login (optional)</b> : User allowed to connect to SMTP (leave blank for anonymous connections)</li>
+              <li><b>SMTP Password (optional)</b> : The password of the user. It is possible to erase the password by checking the box <b>Clear</b> then update.</li>
+            </ul>
+          </li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

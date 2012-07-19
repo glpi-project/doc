@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_problems" xml:lang="fr-fr">
+  <title>Problem Management</title>
+  <shortdesc>Problem Management </shortdesc>
+  <body>
+    <p>A problem is the cause of one or more  incidents and can usually be identified because one or more
+incidents have the same symptoms.</p>
+    <p>Creating a problem can be done either from the ticket of an incident in the tab <i>Problems</i>, or directly
+from the menu <menucascade>
+        <uicontrol>Assistance</uicontrol>
+        <uicontrol>Problems</uicontrol>
+      </menucascade></p>
+    <p>The creation of a problem similar to the incident, shares the  concepts (<i>Requester</i>, <i>Watcher</i>, <i>Assigned</i>, <i>Status</i>, <i>Urgency</i>, <i>Impact</i>, <i>Priority</i>, <i>Category</i>, for details see <xref href="helpdesk_ticket.dita"/>). </p>
+    <p>Once the problem is created, it is possible to attach incidents (tab <i>Tickets</i>) and  materials
+impacted (tab <i>Items</i>). An analysis phase (tab <i>Analysis</i>) is to describe the impacts, causes and
+symptoms thereof in order to achieve a solution.</p>
+    <p>Like tickets, task management and the addition of a solution can track and resolve the problem.</p>
+    <p>Problems using their own notifications..</p>
+    <p>Similar to  tickets, Stats are available for problems (see <xref href="helpdesk_stat.dita"/> )</p>
+  </body>
+</topic>

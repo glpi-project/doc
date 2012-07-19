@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticketordering" xml:lang="fr-fr">
+  <title>Ticket Priority</title>
+  <shortdesc>Ticket Priority</shortdesc>
+  <body>
+    <p>The ticket priority is based on information provided by the requester and the technician : <ul>
+        <li>The requester defines the urgency</li>
+        <li>The technician evaluates the impact</li>
+        <li>Priority is the result of these two variables. It is calculated automatically via a matrix and indicates the real significance of the ticket.</li>
+      </ul></p>
+    <note>For the configuration of this matrix, see <xref href="helpdesk_advanced_ordering.dita"/>.</note>
+  </body>
+</topic>

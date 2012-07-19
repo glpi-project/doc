@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_inventory" xml:lang="fr-fr">
+  <title>Inventory Tab</title>
+  <shortdesc>The Inventory tab allows you to set general parameters for the inventory part of the application. </shortdesc>
+  <body>
+    <p>Interfacing with OCSNG enables automated inventory of equipment. Once the option <b>Mode OCSNG</b> is enabled, two new menus appear in the interface. The first, in the <b>Setup</b> to configure the connection to servers OCSNG. The second, in the <b>Tools</b>, allows the daily
+relations management with the defined servers.</p>
+    <p>When creating a template, you can add fields automatically generated from a model (i.e. the name of the equipment, inventory number). The increment values of these fields is done either by
+individual entity or  as a whole.</p>
+    <p>It is possible to automatically change the software category deleted by the dictionary. By default they
+are moved automatically in the category <b>FUSION</b>.  </p>
+    <p>An option can also specify the <b>behavior to the removal of a machine in OCSNG</b> : Either
+it is put in the Recycle Bin (default behavior currently used by lower versions of GLPI) or
+it is possible to change its status, or do nothing at all.</p>
+    <p>GLPI can also transfer a computer in another entity if one of the criteria used for the assignment to a
+entity is changed. If the option <b>Rules for assigning a computer to an entity</b> indicates
+an existing model, at each update a computer the OCSNG rules of assignment of entities engine
+will be replayed. If the resulting entity is different from the entity of the computer, it will be transferred.  </p>
+    <p>The start date of the fiscal year used in the management is configured here.</p>
+    <p>When manually creating a computer, it is asked to the user to choose the type of management (unit or global) of the latter. Subsequently, a hardware managed unit can pass under the mode of global management. It is possible to restrict the type of management according to the computer.</p>
+    <p>When connecting directly to a computer  an item managed as a unit, it is possible to assign
+information retrieved from the computer. When disconnecting, you can delete this information.
+These features are not enabled by default.</p>
+  </body>
+</topic>

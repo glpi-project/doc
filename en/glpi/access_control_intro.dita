@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="access_control_intro" xml:lang="fr-fr">
+  <title>Administer access control</title>
+  <shortdesc>This section describes how to administer the system access control which allows each user access to specific use.</shortdesc>
+  <body>
+    <p>Each user in GLPI does not have access to the same interface or to
+same functionality. For each user, a specific user environment
+ is determined, which allows them access to features
+and elements of information to which access is enabled. Access
+information in user profiles is used to determine the
+permissions.</p>
+    <p>At first, you must link GLPI to an identity management system. GLPI can locally manage authentication and user personal information. However, the management of users and authentications often has
+ an similar external identity management system (directory), and it is preferable
+to delegate authentication to it and use the information
+in this external system. This is addressed in Chapter <xref href="config_auth.dita"/>.</p>
+    <p>The daily implementation of or related to the 
+identity management repositories lead to the creation and deletion, synchronization,
+activation and deactivation of user accounts and their
+associated personal data. This is addressed in Chapter <xref href="administration_user.dita"/>.</p>
+    <p>The personal data of users can associate them with
+groups, entities and profiles, which are the means of determining
+contexts of access control. </p>
+    <p>The groups bring together the users based on
+similarity of skills or organizational units. This issue is
+discussed in Chapter  <xref href="administration_group.dita"/>.</p>
+    <p>Entities can  segment the organization and  departmentmental groups that are separate from each other. This is addressed in Chapter  <xref href="administration_entity.dita"/>.</p>
+    <p>The profiles define the access permissions to be granted to
+their members. This is addressed in Chapter  <xref href="administration_profile.dita"/>.</p>
+    <p>Finally, we must administer access control: determine authorizations and assign them to users. These authorizations are used by
+assignment rules to determine the dynamic clearances  of users. This is addressed in Chapter  <xref href="administration_rule_right.dita"/>.</p>
+  </body>
+</topic>

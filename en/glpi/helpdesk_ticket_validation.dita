@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_validation" xml:lang="fr-fr">
+  <title>Validation</title>
+  <shortdesc>Ticket Validation, characteristics and use</shortdesc>
+  <body>
+    <p>A ticket may require validation, for example an application for changing equipment, such as a computer or monitor. </p>
+    <p>After clicking <b>Send a Approval request</b>, you must enter the validating user, and a
+comment if needed. Then the ticket status is updated to <b>Waiting for approval</b> in the field <b>Approval</b>.</p>
+    <p>The validation request may also be created directly in the <xref href="helpdesk_openticket.dita">ouverture du ticket</xref> via the standard interface or a <xref href="administration_rule_ticket.dita">règle métier</xref>.</p>
+    <p><note>The validation process is not a blocker, but only informative. A technician can still process a ticket that is awaiting validation.</note></p>
+    <p>To validate the request, the validator can click on the ticket in the  GLPI  homepage  tab <b>Personal View</b>, and the <b>Your tickets to close</b> section, or go to the menu  <b>Assistance &gt; Ticket</b> and click on the icon <image href="../image/menu_showall.png"/> that appears in
+the horizontal menu.</p>
+    <p>Once in the ticket, go to the tab <b>Validation</b>, then click on the Status of the Approval request. Choose whether the ticket is <b>Granted</b> or <b>Refused</b>. </p>
+    <p>In case of refusal it is mandatory to enter a comment.</p>
+  </body>
+</topic>

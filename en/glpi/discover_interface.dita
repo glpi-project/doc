@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
+<topic id="topic-1">
+  <title>Exploring the GLPI interface</title>
+  <shortdesc>Depending on the user&apos;s profile, menus may be different but the logic of the interface remains the same.</shortdesc>
+  <body>
+    <p>GLPI&apos;s interface consists of five areas involving the application functionality based on their
+nature.</p>
+    <fig>
+      <title>The GLPI Interface</title>
+      <image href="../image/interface.png" width="15cm"/>
+      <ol>
+        <li>The user menu allows you to manage preferences, access help and logout</li>
+        <li>The main menu lets you navigate through the different modules</li>
+        <li>The breadcrumb navigation provides some context for using the main work area</li>
+        <li>The entity selector menu lets you interact with the entity context</li>
+        <li>The main work area is the preferred region for interaction with the application</li>
+      </ol>
+    </fig>
+  </body>
+</topic>

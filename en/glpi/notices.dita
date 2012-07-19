@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="notices" xml:lang="en-us">
+  <title>Notice</title>
+  <shortdesc>This documentation relates exclusively to the GLPI application (Gestion Libre de Parc Informatique) available at http://glpi-project.org.</shortdesc>
+  <conbody>
+    <p>All warranties are disclaimed. All trademarks are the property of
+their respective owners.</p>
+    <p>The application GLPI is constantly changing. This makes it difficult to maintain
+to date and accurate documentation.</p>
+    <p>The authors and contributors can not be held responsible
+consequences of errors, omissions or ambiguity in this
+document.</p>
+    <section>
+      <title> COPYRIGHT LICENCE:</title>
+      <p>This documentation is published by the Association Indepnet licensed
+Creative Commons.</p>
+      <p>You are free: to copy, distribute and transmit the work
+public under the following conditions :
+</p>
+      <ul>
+        <li>Attribution. You must attribute the original author as indicated by the author of the work or the holder of any rights you this gives (but not in a way that suggests that they endorse you or your use of the work).</li>
+        <li>Noncommercial. You do not have the right to use this created for commercial purposes.</li>
+        <li>No Change. You do not have the right to modify, transform or build upon this work.</li>
+      </ul>
+      <p>For any reuse or distribution of this work, you need to do
+clear to others the license terms of making
+disposal. The best way to do this is with a link to http://creativecommons.org/licenses/by-nc-nd/2.0/fr /.</p>
+      <p>Each of these conditions can be waived if you get permission from
+holds the rights to this work.</p>
+      <p>Nothing in this license impairs or restricts the author&apos;s moral rights or
+authors.</p>
+    </section>
+  </conbody>
+</concept>

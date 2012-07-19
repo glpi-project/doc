@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="install_glpi" xml:lang="fr-fr">
+  <title>Install the GLPI application</title>
+  <shortdesc>Installation of GLPI</shortdesc>
+  <body>
+    <p>The procedure is as follows :
+
+<ol>
+        <li>Download the GLPI archive</li>
+        <li>Install the application files on the server to host GLPI </li>
+        <li>Launch the online installation wizard </li>
+      </ol>
+</p>
+    <p>Once these steps are complete the application is ready for use.</p>
+    <note>There are also many packages for distributions (Debian, Ubuntu, Fedora ...).</note>
+  </body>
+</topic>

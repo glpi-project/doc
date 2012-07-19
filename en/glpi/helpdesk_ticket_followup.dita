@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_followup" xml:lang="fr-fr">
+  <title>Follow-ups</title>
+  <shortdesc>Ticket follow-ups, and use characteristics</shortdesc>
+  <body>
+    <p><b>Followups</b> is the default tab when viewing a ticket, unless it is awaiting approval from a solution.
+It allows adding information to an existing ticket, for example, note that the requester is reminded that the ticket
+is awaiting the availability of the requester.  This is the component that facilitates communication between the requester and
+persons in charge of his ticket.</p>
+    <p>To add a followup, click <b>Add a new follow-up</b> and enter a  description.</p>
+    <p>You can choose the source of the follow-up (see <xref href="config_dropdown.dita"/>).</p>
+    <p>Followups may be private or public. Private followups are only visible for users with the right <tt>View all follow-ups and tasks (public and private)</tt> in their profile. This allows, for example,  an exchange between
+technicians without the requester being able to  see it.</p>
+    <p>The user can update followups where they are not the author if  they have the right <tt>Update all followups</tt>. Users  can delete followups if they have the right  <tt>Delete all followups</tt> (see <xref href="administration_profile.dita"/>.</p>
+  </body>
+</topic>

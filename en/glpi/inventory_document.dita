@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_document" xml:lang="fr-fr">
+  <title>Associate documents</title>
+  <shortdesc>Associated documents can be managed from the tab <uicontrol>Documents</uicontrol></shortdesc>
+  <body>
+    <p>The additional information is stored in the form of external documents which are files
+uploaded into GLPI (see <xref href="glossary/document.dita"/>). From the tab <uicontrol>Documents</uicontrol>, it is possible to associate and dissociate
+user selected documents. To manage the documents themselves, see <xref href="management_document.dita"/>.</p>
+    <p>It is also possible to create a document quickly through this tab, specify the desired file, and
+optionally the topic where the new document should be placed. The document name will be created based
+on the file name added.</p>
+  </body>
+</topic>

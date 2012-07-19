@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_document_t_linktotiem">
+  <title>Associate a document with a material</title>
+  <taskbody>
+    <context>Associate a document with a material</context>
+    <steps>
+      <step>
+        <cmd>Log into GLPI</cmd>
+      </step>
+      <step>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Documents</uicontrol>
+          </menucascade></cmd>
+      </step>
+      <step>
+        <cmd>Optional: a search of the document</cmd>
+      </step>
+      <step>
+        <cmd>Click on the document name</cmd>
+      </step>
+      <step>
+        <cmd>Go to the tab <uicontrol>Associated items</uicontrol></cmd>
+      </step>
+      <step>
+        <cmd>Select an element</cmd>
+      </step>
+      <step>
+        <cmd>Add</cmd>
+      </step>
+      <step>
+        <cmd>This association is also possible from the Item view, tab <uicontrol>Documents</uicontrol> or mass update, from the dropdown, <uicontrol>Add a Document</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>Display sheet with the document associated with equipment</result>
+  </taskbody>
+</task>

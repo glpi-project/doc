@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_categories" xml:lang="fr-fr">
+  <title>Ticket Categories</title>
+  <shortdesc>Ticket Categories</shortdesc>
+  <body>
+    <p>A ticket can be categorized to facilitate processing. Depending on the desired configuration, the
+Requester may include a category, and the technician could change it.</p>
+    <p>It is important when setting up the Helpdesk to think through the list of available categories. Too many visible to users can disrupt the incident information, whereas too few does not correctly characterize the request.</p>
+    <p>Category management is accessible from the menu headings: <menucascade>
+        <uicontrol>Setup</uicontrol>
+        <uicontrol>Dropdowns</uicontrol>
+        <uicontrol>Categories of tickets</uicontrol>
+      </menucascade></p>
+    <p>A class may be invisible in the simplied interface (to reduce the list of categories presented to
+end users). It may also be visible or not for incidents, requests or problems. </p>
+    <p>The tickets categories are one of elements for the automatic treatments after  the creation of  a
+ticket (see <xref href="administration_rule_ticket.dita"/>).</p>
+  </body>
+</topic>

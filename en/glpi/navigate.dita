@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="navigate" xml:lang="fr-fr">
+  <title>Navigate GLPI modules</title>
+  <shortdesc>Navigation through the modules is done via the top bar of the interface.</shortdesc>
+  <body>
+    <p>The various functions of GLPI are grouped into six modules. These modules were built around
+similar contexts of use. The top bar of the interface is used to navigate between these modules :<ul>
+        <li>The module <uicontrol>Inventory</uicontrol> provides access to various hardware inventory. See <xref href="inventory.dita"/>.</li>
+        <li>The module <uicontrol>Assistance </uicontrol>allows to create and track tickets, as well as view statistics. See <xref href="helpdesk.dita"/>.</li>
+        <li>The module <uicontrol>Management</uicontrol> allows to manage contacts, vendors, budgets, contracts and documents. See <xref href="management.dita"/>.</li>
+        <li>The module <uicontrol>Tools</uicontrol> allows you to manage notes, knowledge base, reservations, view reports, and the synchronization with OCS Inventory NG. See <xref href="tool.dita"/>.</li>
+        <li>The module <uicontrol>Administration </uicontrol>provides administration of users, groups, entities, profiles, rules and dictionaries. It also allows the application maintenance (backup and restore database, check if a new version is available, etc.). See <xref href="administration.dita"/>.</li>
+        <li>The module <uicontrol>Setup</uicontrol> provides access to general configuration options of GLPI: dropdowns, components, notifications, SLAs, checks, automated tasks, authentication, receivers, OCSNG mode, external links, plugins. See <xref href="config.dita"/>.</li>
+      </ul></p>
+    <p>The menus presented to the user vary depending on the clearances of the logged in user. See <xref href="administration_profile.dita"/>.</p>
+    <p>The browsing context is presented to the user in the breadcrumb.</p>
+    <p>There are keyboard shortcuts used to navigate from one module / sub module to another. Here is the list of these
+shortcuts : </p>
+    <p><ul>
+        <li>1 -&gt; Home</li>
+        <li>
+          <b>Inventory :</b>
+          <ul>
+            <li>o -&gt; Computers</li>
+            <li>s -&gt; Software</li>
+          </ul>
+        </li>
+        <li>
+          <b>Assistance</b>
+          <ul>
+            <li>t -&gt; Tickets</li>
+            <li>a-&gt; Statistics</li>
+            <li>p -&gt; Planning</li>
+          </ul>
+        </li>
+        <li>
+          <b>Management :</b>
+          <ul>
+            <li>d -&gt; Documents</li>
+          </ul>
+        </li>
+        <li>
+          <b>Tools :</b>
+          <ul>
+            <li>b -&gt; Knowledge Base</li>
+            <li>r -&gt; Résevations</li>
+            <li>e -&gt; Reports</li>
+          </ul>
+        </li>
+        <li>
+          <b>Administration :</b>
+          <ul>
+            <li>u -&gt; Users</li>
+            <li>g -&gt; Groups</li>
+          </ul>
+        </li>
+        <li>
+          <b>Setup :</b>
+          <ul>
+            <li>n -&gt; Dropdowns</li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+
+
+
+</p>
+    <p>The key combination to associate with these shortcuts varies by operating systems and browsers
+used. Examples for the following browsers : </p>
+    <p><ul>
+        <li>Mozilla Firefox<p>Simultaneously press the keys <i>Alt</i>, <i>Shift</i> and <i>the desired shortcut</i>.</p></li>
+        <li>Internet Explorer 7 and above<p>Simultaneously press the keys <i>Alt</i>, <i>Shift</i> and <i>the desired shortcut</i>, then tap <i>Enter</i> to validate the destination.</p></li>
+        <li>Opera<p>Simultaneously press the keys <i>Esc</i>, <i>Shift</i> and <i>the desired shortcut</i>.</p></li>
+      </ul></p>
+  </body>
+</topic>
