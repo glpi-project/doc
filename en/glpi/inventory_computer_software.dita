@@ -14,24 +14,22 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_computer_software" xml:lang="fr-fr">
-  <title>Onglet &quot;Logiciels&quot;</title>
-  <shortdesc>Gestion des logiciels installés sur les ordinateurs</shortdesc>
+  <title>Tab &quot;Software&quot;</title>
+  <shortdesc>Computer software management</shortdesc>
   <body>
-    <p>Dans cet onglet, il est possible de gérer les logiciels installés sur l&apos;ordinateur.</p>
-    <p>Ils sont triés par catégories et sont caractérisés par leur nom et leur version, le statut de cette dernière.</p>
-    <p>Les différentes catégories peuvent être présentées &quot;<b>dépliées</b>&quot; ou &quot;<b>repliées</b>&quot; par défaut suivant les préférences de l&apos;utilisateur.</p>
-    <p>Voir <xref href="start_pref.dita">Gérer ses préférences</xref>.</p>
-    <p>Si une licence est associée à l&apos;utilisation de ce logiciel sur cet ordinateur, l&apos;information sera également présentée.</p>
-    <p>Pour installer un logiciel, sélectionner son nom dans la liste déroulante, puis sa version.</p>
-    <note>La liste déroulante énumère les logiciels disponibles dans l&apos;entité.</note>
-    <note>La liste des logiciels disponibles se paramètre dans la gestion des logiciels. Voir <xref href="inventory_software.dita">
+    <p>In this tab, you can manage the software installed on the computer.</p>
+    <p>They are sorted by categories and are characterized by their name and version, the status of the latter.</p>
+    <p>The different categories can be presented &quot;<b>unfolded</b>&quot; or &quot;<b>folded</b>&quot; following the default user preferences (see <xref href="start_pref.dita">Gérer ses préférences</xref>).</p>
+    <p>If a license is associated with the use of this software on that computer, the information will also be presented.</p>
+    <p>To install software, select its name in the list, then its version.</p>
+    <note>The combo box lists the available software in the entity.</note>
+    <note>The list of available software is configured in the software management (see <xref href="inventory_software.dita">
         <i>Gérer les logiciels</i>
       </xref>.</note>
-    <p>Pour associer une licence à cette ordinateur, sélectionner le logiciel puis la licence souhaités dans la liste déroulante.</p>
+    <p>To associate a license for this computer, select the desired software and the license in the dropdown.</p>
   </body>
 </topic>

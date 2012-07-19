@@ -18,32 +18,41 @@ _____________________________________________________________
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="template" xml:lang="fr-fr">
-  <title>Gérer les gabarits</title>
-  <shortdesc>La gestion des gabarits dans GLPI</shortdesc>
+  <title>Manage Templates</title>
+  <shortdesc>Manage templates in GLPI</shortdesc>
   <body>
     <section>
-      <title>Intérêt</title>
+      <title>Interest</title>
     </section>
-    <p>Pour certains éléments de GLPI il est possible de créer les nouveaux éléments (ordinateurs par exemple) via des gabarits. Un  gabarit définit  un élément standard en pré-remplissant certains champs qui seront réutilisés pour la création d&apos;autres éléments. Cela permet de simplifier l&apos;ajout d&apos;un grand nombre d&apos;éléments quasi identiques.</p>
-    <p>La gestion des gabarits se réalise via l&apos;icône  : <image href="../image/menu_addtemplate.png"/> située dans la barre de menu.</p>
-    <example><title>Exemple :</title>Afin de préparer la réception de 20 imprimantes identiques dont seuls les numéros de série et d&apos;inventaire changent, créer un gabarit correspondant à ce modèle d&apos;imprimante et, dans ce gabarit, remplir tous les champs invariables (constructeur, modèle, etc.). Créer ensuite les 20 fiches d&apos;imprimantes d&apos;après ce gabarit. Lors de la saisie de chaque imprimante le numéro de série et le numéro d&apos;inventaire seront les seuls éléments à compléter.</example>
+    <p>For some elements of GLPI it is possible to create new elements (e.g. PC) via
+templates. A template defines a standard pre-fill of some fields that will be reused for
+creation of other elements. This simplifies the addition of a large number of nearly identical elements.</p>
+    <p>Manage templates  is done via the icon : <image href="../image/menu_addtemplate.png"/> located in the menu bar.</p>
+    <example><title>Example :</title>To prepare for the receipt of 20 identical printers where only serial and inventory numbers change, create a template for that printer model and, in this template, fill in all unchanging fields (manufacturer, model, etc.). Then create 20 printer items from this template. When entering each printer, serial and inventory number will be the only information to enter.</example>
     <section>
-      <title>Le système d&apos;incrémentation</title>
-      <p>Un système de remplissage et d&apos;incrémentation automatique de certains champs (marqués par *) est disponible. Ces champs  (nom, numéro d&apos;inventaire...) sont alors remplis automatiquement à la création si le champ correspondant dans le gabarit contient une chaîne de formatage de la forme &lt;XXX####X&gt;: </p>
+      <title>The incremenetation system</title>
+      <p>A filling system and auto increment of certain fields (marked *) is available. These
+fields (name, asset tag ...) are then filled in automatically when creating the corresponding template field
+contains a format string of the form &lt;XXX####X&gt;: </p>
       <ul>
-        <li>&lt; et &gt; en début et fin du format indiquent qu&apos;il s&apos;agit d&apos;un format ;</li>
-        <li>X représente un caractère quelconque ;</li>
-        <li>\g : recherche du numéro parmi tous les champs identiques basés sur le même format ;</li>
-        <li># : emplacement du numéro à incrémenter (nombre de chiffres égal au nombre de #) ;</li>
-        <li>\Y : année sur 4 chiffres ;</li>
-        <li>\y : année sur 2 chiffres ;</li>
-        <li>\m : mois ;</li>
-        <li>\d : jour.</li>
+        <li>&lt; and &gt; at the beginning and end of format indicate that it is a format</li>
+        <li>X represents any character</li>
+        <li>\g : search number among all identical fields based on the same format</li>
+        <li># : location of the number to increment (number of digits equal to the number of #)</li>
+        <li>\Y : 4-digit year</li>
+        <li>\y : 2-digit year</li>
+        <li>\m : month</li>
+        <li>\d : day</li>
       </ul>
     </section>
     <example>
-      <title>Exemple</title>
-      <p>En poursuivant l&apos;exemple cité plus haut, il est possible d&apos;utiliser la fonctionnalité d&apos;incrémentation pour créer automatiquement les numéros d&apos;inventaire. Si ceux-ci sont composés par exemple de la forme ANNEE+MOIS+JOUR+code structure (555) + code opération (1234) + numéro à incrémenter , il suffira de renseigner dans le gabarit pour le champ numéro d&apos;inventaire la chaîne suivante &lt;\Y\m\d-555-1234-##&gt;. Chaque imprimante à sa création verra son numéro d&apos;inventaire généré automatiquement et incrémenté de 1 à 20.</p>
+      <title>Example</title>
+      <p>Continuing the example above, it is possible to use the feature
+increment to automatically create the inventory numbers. For example, if these are
+ compounds of the form YEAR+MONTH+DAY+code structure (555) + code
+operation (1234) + incrementing number, simply fill in the template for
+Asset Tag field the following string &lt;\Y\m\d-555-1234-##&gt;. Each printer
+ created will have its inventory number generated automatically and incremented by 1 to 20.</p>
     </example>
   </body>
 </topic>

@@ -18,34 +18,42 @@ _____________________________________________________________
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="navigate_manageitem" xml:lang="fr-fr">
-  <title>Visualiser les enregistrements</title>
-  <shortdesc>Visualiser et gérer les enregistrements</shortdesc>
+  <title>Viewing Records</title>
+  <shortdesc>Viiew and manage records</shortdesc>
   <body>
-    <p>L&apos;affichage de toutes les listes d&apos;enregistrements et de tous les détails concernant un enregistrement fonctionne toujours de la même manière dans GLPI. Qu&apos;il s&apos;agisse d&apos;une liste d&apos;ordinateurs, de téléphones ou de tickets, la présentation suit le même principe. </p>
-    <p>Une liste d&apos;éléments  peut être obtenue de 2 manières : depuis le moteur de recherche ou depuis une autre liste.</p>
-    <p>Depuis le moteur de recherche, après avoir déterminé des critères et validé la recherche, une liste d&apos;enregistrements est affichée. Par défaut aucun critère de recherche ne limite la liste des enregistrements proposés et l&apos;affichage est limité aux n premiers enregistrements de la liste. </p>
+    <p>The display of  all recordings and all details of a record 
+in always listed the same way in GLPI. Whether it&apos;s a list of computers, telephones or tickets, the
+presentation follows the same principle. </p>
+    <p>A list of items can be obtained in two ways: from the search engine or from another list.</p>
+    <p>From the search engine, after determining the criteria and validated research, a list of records
+is displayed. By default no search criteria does not limit the list of records available and the display is
+first n limited to the list. </p>
     <example>
-      <p>Depuis le menu <menucascade>
-          <uicontrol>Inventaire</uicontrol>
-          <uicontrol>Ordinateurs</uicontrol>
-        </menucascade> : si aucun critère de recherche n&apos;est déterminé, les n premiers ordinateurs du parc seront affichés. </p>
+      <p>From the menu <menucascade>
+          <uicontrol>Inventory</uicontrol>
+          <uicontrol>Computers</uicontrol>
+        </menucascade> : If any search criterion is determined, the first
+n computers of the  list will be posted. </p>
     </example>
-    <p>Depuis une première liste, une nouvelle liste peut être obtenue. </p>
+    <p>From a list, a new list can be obtained.</p>
     <example>
-      <p>Depuis une liste d&apos;ordinateurs : cliquer sur le nom d&apos;un ordinateur ;  naviguer dans l&apos;onglet logiciels. La liste des logiciels installés sur cet ordinateur est affichée.  </p>
+      <p>From a computer list: click on the name of a computer; navigate tab
+software. The list of software installed on this computer is displayed.  </p>
     </example>
-    <p>Les détails concernant un enregistrement sont affichés sous formes d&apos;onglets regroupant les informations de même nature. </p>
+    <p>Record details that are of similar information are grouped by and displayed in tabs.</p>
     <example>
-      <p>Pour un ordinateur, les informations financières et la liste des logiciels sont dans deux onglets distincts.</p>
+      <p>To a computer, financial information and a list of software is in two tabs
+distinct.</p>
     </example>
     <section>
-      <title>Personnaliser l&apos;affichage</title>
-      <p>Les colonnes affichées  depuis la liste complète de l&apos;inventaire sont   paramétrables. Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot;  figurant dans le coin haut-gauche du tableau.
+      <title>Customize the display</title>
+      <p>The columns displayed from the inventory  list are configurable. Click the &quot;<uicontrol>+</uicontrol>&quot; in
+the upper left corner of the table.
 
 </p>
-      <p>Il est possible d&apos;ajouter, supprimer et ordonner les colonnes affichées.
-
- La vue globale s&apos;applique à tous les profils ayant accès à une partie de l&apos;inventaire : la modification de celle-ci sera donc visible par tous les utilisateurs. La vue personnelle ne s&apos;applique qu&apos;à l&apos;utilisateur connecté, et outrepasse les réglages de la vue globale.</p>
+      <p>You can add, delete and sort the columns displayed. The overall view applies to all profiles
+having access to the inventory: modification thereof will be visible to all users. View
+only applies to personal users connected, and can override the settings of the global view.</p>
     </section>
   </body>
 </topic>

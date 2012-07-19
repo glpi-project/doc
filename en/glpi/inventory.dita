@@ -18,9 +18,9 @@ _____________________________________________________________
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory" xml:lang="fr-fr">
-  <title>Module Inventaire</title>
-  <shortdesc>Module Inventaire de GLPI</shortdesc>
+  <title>Inventory Module</title>
+  <shortdesc>Inventory Module in GLPI</shortdesc>
   <body>
-    <p>Présentation du module d&apos;inventaire de GLPI. Ce module est destiné à la gestion des éléments composants le parc informatique.</p>
+    <p>Presentation of the GLPI inventory module. This module is intended for component management of the computing hardware.</p>
   </body>
 </topic>

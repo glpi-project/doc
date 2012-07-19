@@ -18,21 +18,20 @@ _____________________________________________________________
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_network_connection" xml:lang="fr-fr">
-  <title>Onglet &quot;Ports réseaux&quot;</title>
-  <shortdesc>Gestion des ports réseaux pour les éléments d&apos;inventaire</shortdesc>
+  <title>Tab &quot;Network Port&quot;</title>
+  <shortdesc>Computer network port management</shortdesc>
   <body>
-    <p>Un port réseau permet de modéliser la sortie d&apos;une interface réseau sur un matériel donné.
-
-Chaque port est caractérisé par un <b>numéro</b>, un <b>nom</b>, un <b>type d&apos;interface</b> (par exemple 100 full duplex), une <b>adresse IP</b> et <b>une adresse MAC</b> ainsi qu&apos;un <b>masque de sous réseau</b>, une <b>passerelle</b> et un <b>sous réseau</b>. Enfin il est possible d&apos;associer un port à une <b>prise réseau</b>.</p>
-    <p>Sur ce port, il est possible d&apos;ajouter un ou plusieurs <b>VLAN</b>, ces derniers peuvent être définis par un nom, un commentaire et un numéro de VLAN (TAG ID). </p>
-    <note>Pour un port réseau d&apos;un type d&apos;objet ordinateurs, le champ MAC avec la liste déroulante permet de sélectionner l&apos;adresse MAC des composants de type carte réseau ;</note>
-    <p>Les connexions réseaux se font en reliant deux ports entre eux. Pour relier deux matériels ensemble il faut  qu&apos;il y ait un port libre sur chacun de ces matériels.
-
-Dans la plupart des configurations, les connexions se feront entre un port présent sur un ordinateur, un périphérique ou une imprimante et un port présent sur un matériel réseau (hub, switch).
+    <p>A network port is used to model the output of a network interface on a given material. Each port is characterized
+by a <b>number</b>, a  <b>name</b>, a <b>type of interface</b> (for exemple 100 full duplex), an <b>IP address</b> and <b>MAC address</b> as well as a  <b>subnet mask</b>,  <b>bridge</b>, and a <b>gateway</b>. Finally it is possible to associate a port to a <b>network jack</b>.</p>
+    <p>On this port, you can add one or more <b>VLAN</b>, the latter can be defined by a name, a
+comment and a VLAN number (ID TAG).</p>
+    <note>For a network port of an object type computers, select the MAC field from the drop down list to select the MAC address of the component type network card.</note>
+    <p>Network connections are made by connecting two ports between items. To connect two devices together there must be
+a free port on each of these items. In most configurations, connections will be between a port
+ on a computer, device, or a printer and a port on a network device (hub, switch).
 
 </p>
-    <p>Pour chaque matériel, il est possible à tout moment d&apos;ajouter un ou plusieurs ports grâce au système de modification massive.
-
+    <p>For each material, it is possible at any time to add one or more ports through the massive update system.
 </p>
   </body>
 </topic>

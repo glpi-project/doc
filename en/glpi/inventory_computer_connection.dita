@@ -14,19 +14,20 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_computer_connection" xml:lang="fr-fr">
-  <title>Connexions directes</title>
-  <shortdesc>Gestion des connexions directes pour les ordinateurs</shortdesc>
+  <title>Direct Connections</title>
+  <shortdesc>Computer direct connection management</shortdesc>
   <body>
-    <p>Les connexions directes représentent la relation entre des matériels différents reliés de manière physique ou virtuelle. Pour chaque type d&apos;objet connecté, le nom, numéro de série, numéro d&apos;inventaire sont listés. Un lien permet d&apos;indiquer à GLPI que cet objet ne doit plus être marqué comme connecté à l&apos;ordinateur.</p>
-    <p>Exemple : Connexion d&apos; un ordinateur avec une imprimante (réseau ou non), avec un moniteur, un périphérique externe ou un téléphone.
-
+    <p>Direct connections represent the relationship between different hardware connected physically or virtually.
+For each object type connected, the name, serial number, inventory number are listed. 
+A link allows
+to indicate to GLPI that this object should no longer be marked as connected to the computer.</p>
+    <p>Example : Connecting a computer with a printer (network or not), a monitor, a device
+or an external phone.
 </p>
-    <p>Les connexions ou déconnexions se font depuis la fiche de tous les matériels liés ou depuis le système de modification massive.
-</p>
+    <p>Connections or disconnections are made from the details of all related materials or from the massive update system.</p>
   </body>
 </topic>

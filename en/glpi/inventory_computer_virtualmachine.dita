@@ -18,15 +18,21 @@ _____________________________________________________________
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_computer_virtualmachine" xml:lang="fr-fr">
-  <title>Onglet &quot;Machines virtuelles&quot;</title>
-  <shortdesc>Gestion des machines virtuelles associées aux ordinateurs</shortdesc>
+  <title>Tab &quot;Virtual Machines&quot;</title>
+  <shortdesc>Computer virtual machine management</shortdesc>
   <body>
-    <p>Ces informations sont visibles dans l&apos;onglet <b>Machines virtuelles</b> de la fiche d&apos;un ordinateur.</p>
-    <p>Dans cet onglet on retrouve toutes les machines virtuelles associées à un hôte de virtualisation (host) ou l&apos;hôte sur lequel une machine virtuelle est installée. Les informations disponibles pour une machine virtuelle associée sont son nom, son identifiant unique (uuid), son système et type de virtualisation ainsi que le nombre de processeurs logiques et la mémoire allouée.</p>
-    <p>GLPI réalise actuellement la liaison entre un hôte et une machine virtuelle en se basant sur l&apos;identifiant unique (uuid). Dans certains cas, il arrive que l&apos;uuid soit différent au sein   de la machine physique et virtuelle, la liaison est alors impossible.</p>
-    <p>Le seul moyen d&apos;associer manuellement une machine virtuelle à une machine physique est d&apos;attribuer à la machine virtuelle déclarée sur l&apos;hôte et à la machine virtuelle dans GLPI un uuid identique.</p>
-    <note>En cas d&apos;utilisation du mode OCSNG ces informations peuvent être automatiquement importées et mises à jour. Voir <i>
+    <p>This information is visible in the tab <b>Virtual Machines</b> on the computer form.</p>
+    <p>This tab includes all the virtual machines associated with a virtualization server (host) or the host
+a virtual machine which is installed. The information available to a virtual machine are associated
+name, unique identifier (uuid), its virtualization system and model, as well as the number of processors
+ and memory allocation.</p>
+    <p>GLPI is currently the liaison between a host and a virtual machine based on the unique identifier
+(uuid). If in some cases, it happens that the uuid is different in the virtual and physical machine, the connection
+is impossible.</p>
+    <p>The only way to manually associate a virtual machine to a physical machine is to assign to the machine
+virtual declared on the host and the virtual machine in GLPI a same uuid.</p>
+    <note>This information can be automatically imported and updated via OCSNG (see <i>
         <xref href="config_ocsng.dita">Configurer le Mode OCSNG</xref>
-      </i>.</note>
+      </i>).</note>
   </body>
 </topic>

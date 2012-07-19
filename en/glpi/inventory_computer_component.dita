@@ -14,23 +14,24 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_computer_component" xml:lang="fr-fr">
-  <title>Onglet &quot;Composants&quot;</title>
-  <shortdesc>Gestion des composants des ordinateurs</shortdesc>
+  <title>Tab &quot;Components&quot;</title>
+  <shortdesc>Computer component management</shortdesc>
   <body>
-    <p>Ces informations sont visibles dans l&apos;onglet <b>Composants</b> sur la fiche d&apos;un ordinateur.</p>
-    <p>Pour ajouter un composant à un ordinateur, sélectionner dans la liste déroulante présente en bas de page, la famille de celui-ci,  puis son nom. </p>
-    <note>La création de composants se réalise dans le menu <menucascade>
-        <uicontrol>Configuration</uicontrol>
-        <uicontrol>Composants</uicontrol>
+    <p>This information is visible in the tab <b>Components</b> on the computer form.</p>
+    <p>To add a component to a computer, select the drop down list at the bottom of this page, the family
+thereof, and its name. </p>
+    <note>Creating components takes place in the menu <menucascade>
+        <uicontrol>Setup</uicontrol>
+        <uicontrol>Components</uicontrol>
       </menucascade>. </note>
-    <p>Voir <xref href="config_device.dita"/>.</p>
-    <p>Via la liste des composants installés sur un ordinateur, il est possible d&apos;en modifier la quantité, ainsi  que d&apos;ajouter différentes informations telles que la fréquence du processeur, la taille de la mémoire vive...</p>
-    <p>Pour retirer un composant de la liste, mettre la quantité à zéro.</p>
-    <note>Toute suppression ou ajout d&apos;un composant est enregistré dans l&apos;historique. </note>
+    <p>See <xref href="config_device.dita"/>.</p>
+    <p>Through the list of installed components on a computer, you can change the quantity and  add
+various information such as processor speed, the size of the RAM, etc.</p>
+    <p>To remove a component from the list, update  the quantity to zero.</p>
+    <note>Deletion or addition of a component is saved in the history. </note>
   </body>
 </topic>

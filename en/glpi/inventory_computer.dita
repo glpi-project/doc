@@ -16,15 +16,20 @@ _____________________________________________________________
 
 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
 <topic id="inventory_computer" xml:lang="fr-fr">
-  <title>Gérer les ordinateurs</title>
-  <shortdesc>Les ordinateurs se gèrent depuis le menu <menucascade>
-      <uicontrol>Inventaire</uicontrol>
-      <uicontrol>Ordinateurs</uicontrol>
+  <title>Manage Computers</title>
+  <shortdesc>Computers are managed from the menu <menucascade>
+      <uicontrol>Inventory</uicontrol>
+      <uicontrol>Computers</uicontrol>
     </menucascade></shortdesc>
   <body>
-    <p>Dans  la fiche d&apos;un ordinateur, on trouve un certain nombre d&apos;informations concernant le système d&apos;exploitation (nom, version, service pack, numéro de série, product ID), les caractéristiques générales (fabricant, modèle, type, numéro de série), les informations de gestion (responsable technique, statut, localisation) et les usagers du poste (connus ou non dans GLPI).</p>
-    <p>D&apos;autres champs sont informatifs, comme <b>Réseau</b> (type de connexion au poste),  et la <b>source de la mise à jour</b> qui est un intitulé indiquant d&apos;où proviennent les mises à jour d&apos;un poste (oui/non, Windows update, yum, apt, etc). </p>
-    <note>Dans le cas d&apos;une utilisation de GLPI couplé avec OCSNG, différentes informations sur l&apos;importation sont également disponibles.</note>
-    <note>un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d&apos;utiliser le champ type.</note>
+    <p>In the computer form, there are a number of information fields
+such as the operating system (name, version, service pack), product ID, serial number, the general characteristics (type, manufacturer, model,
+serial number), information management (technician in charge, status,
+location) and users of the position (known or not in GLPI).</p>
+    <p>Other fields are informative, as <b>Network</b> (connection type and position), and the  <b>update source</b> which is a title indicating where
+are updates to a post (yes/no, Windows Update, yum, apt,
+etc.). </p>
+    <note>In the case of use of GLPI coupled with OCSNG, information on various imports are also available.</note>
+    <note>A computer can be both a server, a desktop or laptop. To differentiate, it is possible to use the type field.</note>
   </body>
 </topic>
