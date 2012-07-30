@@ -14,13 +14,11 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="management_supplier_hardware" xml:lang="fr-fr">
-  <title>Associer des matériels au fournisseur</title>
-  <shortdesc>Les matériels rattachés aux fournisseurs</shortdesc>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_supplier_hardware" xml:lang="en-US">
+  <title>Associate items to supplier</title>
+  <shortdesc>Associated items to suppliers</shortdesc>
   <body>
-    <p>L&apos;onglet <uicontrol>Matériel rattaché</uicontrol> permet de visualiser tout les matériels   gérés dans GLPI et qui ont été fournis ou vendus par ce fournisseur.</p>
+    <p>The <uicontrol>Items</uicontrol> tab allows to view all equipments managed in GLPI and which were provided or sold by this supplier.</p>
   </body>
 </topic>

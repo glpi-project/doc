@@ -14,35 +14,34 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_supplier_t_update">
-  <title>Modifier un fournisseur</title>
+  <title>Update a supplier</title>
   <taskbody>
-    <context>Modifier un fournisseur dans GLPI</context>
+    <context>Update a supplier in GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
-            <uicontrol>Fournisseurs</uicontrol>
-          </menucascade> ;</cmd>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Suppliers</uicontrol>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du fournisseur ;</cmd>
+        <cmd>Optional: search for a supplier; </cmd>
       </step>
       <step>
-        <cmd>Cliquer sur le nom du fournisseur ; </cmd>
+        <cmd>Click on the name of the supplier</cmd>
       </step>
       <step>
-        <cmd>Modifier les champs souhaités ;</cmd>
+        <cmd>Edit fields you want;</cmd>
       </step>
       <step>
-        <cmd>Actualiser.</cmd>
+        <cmd>Update.</cmd>
       </step>
     </steps>
-    <result>Affichage de la fiche avec les champs modifiés</result>
+    <result>Displaying the form with modified fields</result>
   </taskbody>
 </task>

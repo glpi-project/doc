@@ -14,14 +14,13 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_ticket" xml:lang="fr-fr">
-  <title>Gérer les tickets</title>
-  <shortdesc>Pour les éléments d&apos;inventaire les tickets se gèrent depuis l&apos;onglet <uicontrol>Tickets</uicontrol></shortdesc>
+  <title>Tickets management</title>
+  <shortdesc>For inventory items, tickets can be managed from <uicontrol>Tickets</uicontrol> tab</shortdesc>
   <body>
-    <p>L&apos;onglet <uicontrol>Tickets</uicontrol> permet de créer un ticket directement associé au matériel concerné. Il permet également de visualiser l&apos;historique des derniers tickets créés pour ce matériel.</p>
+    <p><uicontrol>Tickets</uicontrol> tab allows to create tickets directly associated to concerned item. It allows also to view the latest created tickets for this item.</p>
   </body>
 </topic>

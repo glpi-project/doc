@@ -14,15 +14,14 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="management_contact_supplier" xml:lang="fr-fr">
-  <title>Lier contacts et fournisseurs</title>
-  <shortdesc>GLPI permet d&apos;effectuer un lien entre les contacts et les fournisseurs</shortdesc>
+  <title>Link contacts and suppliers</title>
+  <shortdesc>GLPI allows to link contacts and suppliers</shortdesc>
   <body>
-    <p>La distinction est clairement établie entre le fournisseur, qu&apos;il est possible de lier de manière univoque à des éléments d&apos;inventaire, et les contacts, qui composent  la liste des personnes permettant d&apos;entrer en relation avec ce fournisseur. Pour établir cette liste, il faut donc associer les contacts au fournisseur concerné.</p>
-    <example><userinput>Monsieur Dupont</userinput> est conseiller de vente dans l&apos;entreprise <userinput>Acme</userinput> auprès de qui la structure se fournit régulièrement. Créer un fournisseur nommé <userinput>Acme</userinput>. Créer un contact au nom de <userinput>Monsieur Dupont</userinput>. Affecter à ce contact le type <userinput>commercial</userinput>. Puis associer le contact au fournisseur <userinput>Acme</userinput>. </example>
+    <p>The difference is clearly established between a supplier, which is possible to link in a one-to-one relation with inventory elements, and between contacts, which composes person list allowing relationship with this supplier. To feed this list, contacts must be linked to the concerned supplier.</p>
+    <example><userinput>Mister Smith</userinput> is a sales representative at company <userinput>Acme</userinput> from which the structure is getting goods on a regular basis. Create a supplier called <userinput>Acme</userinput>. Create a contact named <userinput>Mister Smith</userinput>. Assign to this contact the <userinput>sales reprsentative</userinput>. And link this contact to supplier <userinput>Acme</userinput>. </example>
   </body>
 </topic>

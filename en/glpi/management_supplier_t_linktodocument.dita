@@ -14,45 +14,44 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_supplier_t_linktodocument">
-  <title>Associer un fournisseur à un document</title>
+  <title>Associate a supplier to a document</title>
   <taskbody>
-    <context>Associer un fournisseur à un document</context>
+    <context>Associate a supplier to a document</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
-            <uicontrol>Fournisseurs</uicontrol>
-          </menucascade> ;</cmd>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Suppliers</uicontrol>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du fournisseur ;</cmd>
+        <cmd>Optional: search for a supplier; </cmd>
       </step>
       <step>
-        <cmd>2 possibilités</cmd>
+        <cmd>Two possibilities:</cmd>
         <choices>
           <choice>
             <ol>
-              <li>Cliquer sur le nom du fournisseur</li>
-              <li>Aller dans l&apos;onglet <b>Documents</b></li>
-              <li>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un.</li>
-              <li>Ajouter</li>
+              <li>Click on the name of the supplier</li>
+              <li>Go to <b>Documents</b> tab.</li>
+              <li>Select a document or click on Browse button to add a new one.</li>
+              <li>Add a new file</li>
             </ol>
           </choice>
           <choice>
             <ol>
-              <li>Cocher le fournisseur</li>
-              <li>Modification massive : <b>Ajouter un Document</b></li>
+              <li>Check the supplier</li>
+              <li>Massive action: <b>Add a document</b></li>
             </ol>
           </choice>
         </choices>
       </step>
     </steps>
-    <result>Affichage de la fiche avec le fournisseur associé au document</result>
+    <result>Displaying the supplier form with associated document</result>
   </taskbody>
 </task>

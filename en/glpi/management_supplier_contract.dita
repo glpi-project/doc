@@ -14,13 +14,11 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="management_supplier_contract" xml:lang="fr-fr">
-  <title>Lier contrats et fournisseurs</title>
-  <shortdesc>Les contrats associés aux fournisseurs.</shortdesc>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_supplier_contract" xml:lang="en-US">
+  <title>Link contracts and suppliers</title>
+  <shortdesc>Linked contracts to suppliers.</shortdesc>
   <body>
-    <p>Une fois créés, il est possible d&apos;associer à un fournisseur un ou des contrats.</p>
+    <p>As soon as created, it is possible to link a supplier to one or several contracts.</p>
   </body>
 </topic>

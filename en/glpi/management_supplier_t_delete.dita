@@ -14,43 +14,42 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_supplier_t_delete">
-  <title>Supprimer un fournisseur</title>
+  <title>Delete a supplier</title>
   <taskbody>
-    <context>Supprimer un fournisseur dans GLPI</context>
+    <context>Delete a supplier from GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
-            <uicontrol>Fournisseurs</uicontrol>
-          </menucascade> ;</cmd>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Suppliers</uicontrol>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du fournisseur ;</cmd>
+        <cmd>Optional: search for a supplier; </cmd>
       </step>
       <step>
-        <cmd>2 choix de suppression :</cmd>
+        <cmd>Two deletion possibilities:</cmd>
         <choices>
           <choice>
             <ol>
-              <li>Cliquer sur le nom du fournisseur</li>
-              <li>Supprimer</li>
+              <li>Click on the name of the supplier</li>
+              <li>To delete</li>
             </ol>
           </choice>
           <choice>
             <ol>
-              <li>Cocher le fournisseur</li>
-              <li>Modification massive : Supprimer</li>
+              <li>Check the supplier</li>
+              <li>Massive action: To delete</li>
             </ol>
           </choice>
         </choices>
       </step>
     </steps>
-    <result>Le fournisseur est placé dans la corbeille.</result>
+    <result>The supplier is sent to the trash.</result>
   </taskbody>
 </task>
