@@ -14,14 +14,13 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="inventory_all" xml:lang="fr-fr">
-  <title>Afficher toutes les informations sur une seule page</title>
-  <shortdesc>Pour un élément d&apos;inventaire toutes les informations sont affichées sur une seule page depuis l&apos;onglet <uicontrol>Tous</uicontrol></shortdesc>
+<topic id="inventory_all" xml:lang="en-US">
+  <title>View all information on only one page</title>
+  <shortdesc>For all inventory items all information are showed on only one page from <uicontrol>All</uicontrol> tab</shortdesc>
   <body>
-    <p>L&apos;onglet <uicontrol>Tous</uicontrol>  présente en une seule vue tous les onglets de la fiche de l&apos;objet les uns en dessous des autres.</p>
+    <p>The <uicontrol>All</uicontrol> tab shows on only one view all tabs from the object form one below another.</p>
   </body>
 </topic>
