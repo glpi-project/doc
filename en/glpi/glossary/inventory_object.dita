@@ -17,5 +17,5 @@ _____________________________________________________________
 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
 <glossentry id="glossentry-inventory_object">
   <glossterm>Inventory item</glossterm>
-  <glossdef>Generic word to designate an element of the inventory managed in GLPI.</glossdef>
+  <glossdef>Generic word to designate an element (or object) of the inventory managed in GLPI.</glossdef>
 </glossentry>
