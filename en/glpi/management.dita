@@ -14,15 +14,14 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="management" xml:lang="fr-fr">
-  <title>Module Gestion</title>
-  <shortdesc>Le module <menucascade>
-      <uicontrol>Gestion</uicontrol>
-    </menucascade> permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents</shortdesc>
+<topic id="management" xml:lang="en-US">
+  <title>Management Module</title>
+  <shortdesc>The <menucascade>
+      <uicontrol>Management</uicontrol>
+    </menucascade> module allows users to manage contacts, suppliers, budgets, and contracts and documents</shortdesc>
   <body>
     <p> </p>
   </body>
