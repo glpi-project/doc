@@ -14,9 +14,8 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
 <glossentry id="glossentry-inventory_object">
-  <glossterm>Objet d&apos;inventaire</glossterm>
-  <glossdef>Terme générique désignant un élément d&apos;inventaire géré dans GLPI.</glossdef>
+  <glossterm>Inventory item</glossterm>
+  <glossdef>Generic word to designate an element of the inventory managed in GLPI.</glossdef>
 </glossentry>
