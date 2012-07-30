@@ -14,29 +14,28 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_supplier_t_read">
-  <title>Voir un fournisseur</title>
+  <title>See a supplier</title>
   <taskbody>
-    <context>Voir un fournisseur dans GLPI</context>
+    <context>See a supplier in GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
-            <uicontrol>Fournisseurs</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Suppliers</uicontrol>
           </menucascade> ;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du fournisseur ; </cmd>
+        <cmd>Optional: search for a supplier; </cmd>
       </step>
       <step>
-        <cmd>Cliquer sur le nom du fournisseur ;</cmd>
+        <cmd>Click on the name of the supplier</cmd>
       </step>
     </steps>
-    <result>Affichage de la fiche </result>
+    <result>Displaying the form </result>
   </taskbody>
 </task>
