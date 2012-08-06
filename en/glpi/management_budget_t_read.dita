@@ -21,21 +21,21 @@ _____________________________________________________________
     <context>Add budget in GLPI</context>
     <steps>
       <step>
-        <cmd>Log into GLPI</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
         <cmd>Go to the menu <menucascade>
             <uicontrol>Management</uicontrol>
             <uicontrol>Budgets</uicontrol>
-          </menucascade></cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optional: search for a budget</cmd>
+        <cmd>Optional: search for a budget;</cmd>
       </step>
       <step>
-        <cmd>Click on the name of the budget</cmd>
+        <cmd>Click on the name of the budget.</cmd>
       </step>
     </steps>
-    <result>Displaying the form </result>
+    <result>Displaying the form</result>
   </taskbody>
 </task>

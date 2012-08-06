@@ -14,13 +14,12 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd">
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="management_budget_hardware" xml:lang="fr-fr">
-  <title>Associer des matériels au budget</title>
-  <shortdesc>Les matériels associés aux budgets</shortdesc>
+  <title>Associate inventory items to a budget</title>
+  <shortdesc>Inventory items associated to budgets</shortdesc>
   <body>
-    <p>L&apos;onglet <uicontrol>Matériel</uicontrol>  permet de visualiser les matériels attachés à ce budget.</p>
-    <p>La liste est triée par type de matériel (avec en dessous le nombre de matériels) et la liste complète. Tout en bas du tableau, est affiché le total de matériels associés à ce budget.</p>
+    <p>The tab <uicontrol>Items</uicontrol> permits to view inventory items linked to a budget.</p>
+    <p>The list is grouped by item type (and with  quantity of items in type) and complete item list per  type. At the very bottom line is shown the total quantity of inventory items associated to this budget.</p>
   </body>
 </topic>

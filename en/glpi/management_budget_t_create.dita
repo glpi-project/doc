@@ -14,36 +14,35 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_budget_t_create">
-  <title>Ajouter un budget</title>
+  <title>Add a budget</title>
   <taskbody>
-    <context> Ajouter un budget dans GLPI</context>
+    <context> Add a budget in GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
             <uicontrol>Budgets</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+        <cmd>Click on the icon <image href="../image/menu_add.png"/> located in the horizontal menu;</cmd>
       </step>
       <step>
-        <cmd>Choisir un gabarit à appliquer ;</cmd>
+        <cmd>Choose which template to apply;</cmd>
       </step>
       <step>
-        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+        <cmd>Complete the various fields of the blank form;</cmd>
       </step>
       <step>
-        <cmd>Valider.</cmd>
+        <cmd>Add.</cmd>
       </step>
     </steps>
-    <result>Affichage de la fiche créée </result>
+    <result>Budget card is created and displayed. </result>
   </taskbody>
   <related-links>
     <link href="template.dita"/>

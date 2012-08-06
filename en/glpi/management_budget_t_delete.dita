@@ -14,43 +14,42 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_budget_t_delete">
-  <title>Supprimer un budget</title>
+  <title>Delete a budget</title>
   <taskbody>
-    <context>Supprimer un budget dans GLPI</context>
+    <context>Delete a budget in GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
             <uicontrol>Budgets</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du budget ;</cmd>
+        <cmd>Optional: search for a budget;</cmd>
       </step>
       <step>
-        <cmd>2 choix de suppression :</cmd>
+        <cmd>Two deletion possibilities:</cmd>
         <choices>
           <choice>
             <ol>
-              <li>Cliquer sur le nom du budget</li>
-              <li>Supprimer</li>
+              <li>Click on the name of the budget</li>
+              <li>Delete</li>
             </ol>
           </choice>
           <choice>
             <ol>
-              <li>Cocher le budget</li>
-              <li>Modification massive : Supprimer</li>
+              <li>Check the budget</li>
+              <li>Massive action: To delete</li>
             </ol>
           </choice>
         </choices>
       </step>
     </steps>
-    <result>Le budget est placé dans la corbeille.</result>
+    <result>The budget is sent to the trash.</result>
   </taskbody>
 </task>

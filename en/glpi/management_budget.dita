@@ -17,19 +17,19 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="management_budget" xml:lang="fr-fr">
-  <title>Gérer les budgets</title>
-  <shortdesc>Les budgets sont gérés depuis le menu <menucascade>
-      <uicontrol>Gestion</uicontrol>
+<topic id="management_budget" xml:lang="en-US">
+  <title>Budget management</title>
+  <shortdesc>Budgets are managed via menu <menucascade>
+      <uicontrol>Management</uicontrol>
       <uicontrol>Budgets</uicontrol>
     </menucascade></shortdesc>
   <body>
-    <p>Un budget est composé d&apos;un certain nombre de champs  : un <b>nom</b>, une <b>valeur</b>, une période pendant laquelle le budget a été alloué, défini par une <b>date de début </b>ainsi qu&apos;une <b>date de fin</b>.  </p>
-    <p>Le budget doit être défini dans les informations financières des matériels.</p>
-    <p>Il peut également être défini sur plusieurs entités (récursivité).</p>
-    <p>Un résumé du budget  par type de matériel est présenté (total dépensé par type, total restant).</p>
-    <note>lors de la visualisation d&apos;un budget dans une sous-entité, le total du budget restant n&apos;est pas accessible. </note>
-    <note type="important">Ce total est négatif si le total de la valeur des matériels est plus élevée que la valeur du budget.</note>
-    <note>Des gabarits peuvent être définis pour les budgets (voir <xref href="template.dita"/>).</note>
+    <p>A budget is made of a certain amount of fields: a  <b>name</b>, a <b>value</b>, a  period of time in which the budget has been allocated, defined by a <b>start date</b> and a <b>end date</b>.  </p>
+    <p>The budget must be defined in the financial and administrative information of inventory items.</p>
+    <p>It can be also defined over several entities (recursivity).</p>
+    <p>A budget summary grouped by inventory item types is shown (total spent per par type, total remaining).</p>
+    <note>when viewing sub-entity budget, total remaining budget is not accessible. </note>
+    <note type="important">this total is be negative when total value of inventory item is greater than budget value.</note>
+    <note>templates can be defined for budgets (see <xref href="template.dita"/>).</note>
   </body>
 </topic>
