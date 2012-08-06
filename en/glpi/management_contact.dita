@@ -14,17 +14,16 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="management_contact" xml:lang="fr-fr">
-  <title>Gérer les contacts</title>
-  <shortdesc>Les contacts sont gérés depuis le menu <menucascade>
-      <uicontrol>Gestion</uicontrol>
+<topic id="management_contact" xml:lang="en-US">
+  <title>Contact management</title>
+  <shortdesc>Contacts are managed via menu <menucascade>
+      <uicontrol>Management</uicontrol>
       <uicontrol>Contacts</uicontrol>
     </menucascade></shortdesc>
   <body>
-    <p>Dans la base des utilisateurs de GLPI, seuls les personnes ayant un accès à l&apos;application sont stockées. Les informations concernant des personnes extérieures sont stockées sous la forme de contacts. Voir <xref href="glossary/contact.dita"/>. Chaque contact est caractérisé par les informations d&apos;identité usuelles ainsi  que ses  coordonnées  téléphoniques et  de messagerie. La définition d&apos;une liste de  types de contacts permet de classer les contacts selon leur type. L&apos;exportation au format vCard est possible dans la fiche de chaque contact.</p>
+    <p>Only GLPI users with an access to GLPI application are stored in the user repository. Information regarding external persons are stored as contacts. See <xref href="glossary/contact.dita"/>. Each contact is characterized by usual identity information and also by phone numbers and email address. Definition of a contact type list permits to order contact by type. Export to vCard format is possible in each contact card.</p>
   </body>
 </topic>

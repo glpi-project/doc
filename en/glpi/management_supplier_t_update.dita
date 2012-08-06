@@ -21,7 +21,7 @@ _____________________________________________________________
     <context>Update a supplier in GLPI</context>
     <steps>
       <step>
-        <cmd>Log into GLPI</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
         <cmd>Go to the menu <menucascade>
@@ -33,7 +33,7 @@ _____________________________________________________________
         <cmd>Optional: search for a supplier; </cmd>
       </step>
       <step>
-        <cmd>Click on the name of the supplier</cmd>
+        <cmd>Click on the name of the supplier;</cmd>
       </step>
       <step>
         <cmd>Edit fields you want;</cmd>

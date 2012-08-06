@@ -14,33 +14,32 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_contact_t_create">
-  <title>Ajouter un contact</title>
+  <title>Add a contact</title>
   <taskbody>
-    <context> Ajouter un contact dans GLPI</context>
+    <context> Add a contact in GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
             <uicontrol>Contacts</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+        <cmd>Click on the icon <image href="../image/menu_add.png"/> located in the horizontal menu;</cmd>
       </step>
       <step>
-        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+        <cmd>Complete the various fields of the blank form;</cmd>
       </step>
       <step>
-        <cmd>Valider.</cmd>
+        <cmd>Add;</cmd>
       </step>
     </steps>
-    <result>La fiche du contact est créée et affichée. </result>
-    <postreq>Par la suite, il est possible de lier le contact à un ou plusieurs fournisseurs ou documents. Voir <xref href="management_contact_t_linktosupplier.dita"/> et <xref href="management_contact_t_linktodocument.dita"/>.</postreq>
+    <result>Contact card is created and displayed. </result>
+    <postreq>Later, it is possible to link this contact to one or several suppliers or documents. See <xref href="management_contact_t_linktosupplier.dita"/> et <xref href="management_contact_t_linktodocument.dita"/>.</postreq>
   </taskbody>
 </task>

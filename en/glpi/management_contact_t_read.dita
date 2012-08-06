@@ -14,29 +14,28 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_contact_t_read">
-  <title>Voir un contact</title>
+  <title>See a contact</title>
   <taskbody>
-    <context>Voir un contact dans GLPI</context>
+    <context>See a contact in GLPI</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
             <uicontrol>Contacts</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du contact ;</cmd>
+        <cmd>Optional: search for a contact; </cmd>
       </step>
       <step>
-        <cmd>Cliquer sur le nom du contact.</cmd>
+        <cmd>Click on the name of the contact;</cmd>
       </step>
     </steps>
-    <result>Affichage de la fiche </result>
+    <result>Displaying the form</result>
   </taskbody>
 </task>

@@ -14,45 +14,44 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_contact_t_linktosupplier">
-  <title>Associer un contact à un fournisseur</title>
+  <title>Associate a contact to a supplier</title>
   <taskbody>
-    <context>Associer un contact à un fournisseur</context>
+    <context>Associate a contact to a supplier</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
             <uicontrol>Contacts</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du contact ;</cmd>
+        <cmd>Optional: search for a contact; </cmd>
       </step>
       <step>
-        <cmd>2 possibilités pour associer un fournisseur</cmd>
+        <cmd>Two possibilities to associate a supplier:</cmd>
         <choices>
           <choice>
             <ol>
-              <li>Cliquer sur le nom du contact</li>
-              <li>Aller dans l&apos;onglet <b>Fournisseurs</b></li>
-              <li>Sélectionner un fournisseur</li>
-              <li>Ajouter</li>
+              <li>Click on the name of the contact</li>
+              <li>Go to tab <b>Suppliers</b></li>
+              <li>Select a supplier</li>
+              <li>Add</li>
             </ol>
           </choice>
           <choice>
             <ol>
-              <li>Cocher le contact</li>
-              <li>Modification massive : <uicontrol>Ajouter Fournisseur...</uicontrol></li>
+              <li>Check the contact</li>
+              <li>Massive action: <uicontrol>Add Supplier...</uicontrol></li>
             </ol>
           </choice>
         </choices>
       </step>
     </steps>
-    <result>Le contact est désormais associé au fournisseur. La fiche du contact est affichée.</result>
+    <result>From now on, this contact is associated with the supplier. Displaying of the form.</result>
   </taskbody>
 </task>

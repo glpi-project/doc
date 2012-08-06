@@ -14,45 +14,44 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
 <task id="management_contact_t_linktodocument">
-  <title>Associer un contact à un document</title>
+  <title>Associate a contact to a document</title>
   <taskbody>
-    <context>Associer un contact à un document</context>
+    <context>Associate a contact to a document</context>
     <steps>
       <step>
-        <cmd>Se connecter à GLPI ;</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
-        <cmd>Aller dans le menu <menucascade>
-            <uicontrol>Gestion</uicontrol>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
             <uicontrol>Contacts</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Optionnel : faire une recherche du contact ;</cmd>
+        <cmd>Optional: search for a contact; </cmd>
       </step>
       <step>
-        <cmd>2 possibilités</cmd>
+        <cmd>Two possibilities:</cmd>
         <choices>
           <choice>
             <ol>
-              <li>Cliquer sur le nom du contact</li>
-              <li>Aller dans l&apos;onglet <b>Documents</b></li>
-              <li>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un.</li>
-              <li>Ajouter</li>
+              <li>Click on the name of the contact</li>
+              <li>Go to tab <b>Documents</b></li>
+              <li>Select a document or click on <b>Browse</b> button to add a new one.</li>
+              <li>Add</li>
             </ol>
           </choice>
           <choice>
             <ol>
-              <li>Cocher le contact</li>
-              <li>Modification massive : <b>Ajouter un Document</b></li>
+              <li>Check the contact</li>
+              <li>Massive action: <b>Add a document</b></li>
             </ol>
           </choice>
         </choices>
       </step>
     </steps>
-    <result>Affichage de la fiche avec le contact associé au document</result>
+    <result>Displaying the contact form with associated document</result>
   </taskbody>
 </task>

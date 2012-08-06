@@ -21,19 +21,19 @@ _____________________________________________________________
     <context>See a supplier in GLPI</context>
     <steps>
       <step>
-        <cmd>Log into GLPI</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
         <cmd>Go to the menu <menucascade>
             <uicontrol>Management</uicontrol>
             <uicontrol>Suppliers</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
         <cmd>Optional: search for a supplier; </cmd>
       </step>
       <step>
-        <cmd>Click on the name of the supplier</cmd>
+        <cmd>Click on the name of the supplier;</cmd>
       </step>
     </steps>
     <result>Displaying the form </result>

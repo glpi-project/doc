@@ -18,7 +18,7 @@ _____________________________________________________________
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_all" xml:lang="en-US">
-  <title>View all information on only one page</title>
+  <title>View all information on one page</title>
   <shortdesc>For all inventory items all information are showed on only one page from tab <uicontrol>All</uicontrol></shortdesc>
   <body>
     <p>The tab <uicontrol>All</uicontrol> shows on only one view all tabs from the object form one below another.</p>
