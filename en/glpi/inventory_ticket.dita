@@ -19,8 +19,8 @@ _____________________________________________________________
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_ticket" xml:lang="fr-fr">
   <title>Tickets management</title>
-  <shortdesc>For inventory items, tickets can be managed from <uicontrol>Tickets</uicontrol> tab</shortdesc>
+  <shortdesc>For inventory items, tickets can be managed from tab <uicontrol>Tickets</uicontrol></shortdesc>
   <body>
-    <p><uicontrol>Tickets</uicontrol> tab allows to create tickets directly associated to concerned item. It allows also to view the latest created tickets for this item.</p>
+    <p>Tab <uicontrol>Tickets</uicontrol> allows to create tickets directly associated to concerned item. It allows also to view the latest created tickets for this item.</p>
   </body>
 </topic>

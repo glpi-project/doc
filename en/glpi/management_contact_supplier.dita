@@ -22,6 +22,6 @@ _____________________________________________________________
   <shortdesc>GLPI allows to link contacts and suppliers</shortdesc>
   <body>
     <p>The difference is clearly established between a supplier, which is possible to link in a one-to-one relation with inventory elements, and between contacts, which composes person list allowing relationship with this supplier. To feed this list, contacts must be linked to the concerned supplier.</p>
-    <example><userinput>Mister Smith</userinput> is a sales representative at company <userinput>Acme</userinput> from which the structure is getting goods on a regular basis. Create a supplier called <userinput>Acme</userinput>. Create a contact named <userinput>Mister Smith</userinput>. Assign to this contact the <userinput>sales reprsentative</userinput>. And link this contact to supplier <userinput>Acme</userinput>. </example>
+    <example><userinput>Mister Smith</userinput> is a sales representative at company <userinput>Acme</userinput> from which the structure is getting goods on a regular basis. Create a supplier called <userinput>Acme</userinput>. Create a contact named <userinput>Mister Smith</userinput>. Assign to this contact the <userinput>sales representative</userinput>. And link this contact to supplier <userinput>Acme</userinput>. </example>
   </body>
 </topic>

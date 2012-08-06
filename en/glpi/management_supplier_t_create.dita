@@ -21,22 +21,22 @@ _____________________________________________________________
     <context>Add a supplier in GLPI</context>
     <steps>
       <step>
-        <cmd>Log into GLPI</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
         <cmd>Go to the menu <menucascade>
             <uicontrol>Management</uicontrol>
             <uicontrol>Suppliers</uicontrol>
-          </menucascade> ;</cmd>
+          </menucascade>;</cmd>
       </step>
       <step>
-        <cmd>Click on the icon <image href="../image/menu_add.png"/> located in the horizontal menu</cmd>
+        <cmd>Click on the icon <image href="../image/menu_add.png"/> located in the horizontal menu;</cmd>
       </step>
       <step>
-        <cmd>Complete the various fields of the blank form</cmd>
+        <cmd>Complete the various fields of the blank form;</cmd>
       </step>
       <step>
-        <cmd>Add</cmd>
+        <cmd>Add;</cmd>
       </step>
     </steps>
     <result>Display the created form.</result>

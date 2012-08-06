@@ -19,6 +19,6 @@ _____________________________________________________________
   <title>Associate items to supplier</title>
   <shortdesc>Associated items to suppliers</shortdesc>
   <body>
-    <p>The <uicontrol>Items</uicontrol> tab allows to view all equipments managed in GLPI and which were provided or sold by this supplier.</p>
+    <p>The tab <uicontrol>Items</uicontrol> allows to view all equipments managed in GLPI and which were provided or sold by this supplier.</p>
   </body>
 </topic>

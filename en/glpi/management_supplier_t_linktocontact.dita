@@ -21,7 +21,7 @@ _____________________________________________________________
     <context>Associate a supplier to a contact</context>
     <steps>
       <step>
-        <cmd>Log into GLPI</cmd>
+        <cmd>Log into GLPI;</cmd>
       </step>
       <step>
         <cmd>Go to the menu <menucascade>
@@ -38,7 +38,7 @@ _____________________________________________________________
           <choice>
             <ol>
               <li>Click on the name of the supplier</li>
-              <li>Go to <b>Contacts</b> tab</li>
+              <li>Go to tab <b>Contacts</b></li>
               <li>Select a contact</li>
               <li>Add</li>
             </ol>
