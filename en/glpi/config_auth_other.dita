@@ -15,7 +15,7 @@ _____________________________________________________________
 _____________________________________________________________
 
 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="config_auth_other" xml:lang="fr-fr">
+<topic id="config_auth_other" xml:lang="en-us">
   <title>Configurer les autres méthodes d&apos;authentification externe</title>
   <shortdesc>L&apos;interfaçage de GLPI à des systèmes permettant de faire de l&apos;authentification unique se configure depuis le menu <menucascade>
       <uicontrol>Configuration</uicontrol>

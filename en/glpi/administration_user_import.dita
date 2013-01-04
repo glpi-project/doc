@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="administration_user_import" xml:lang="fr-fr">
+<topic id="administration_user_import" xml:lang="en-us">
   <title>Importer des utilisateurs depuis une source externe</title>
   <body>
     <p>Si une source externe d&apos;authentification est configurée, il devient possible d&apos;importer et de synchroniser les utilisateurs depuis celle-ci. Pour la maintenance régulière de la base d&apos;utilisateur, il est conseillé d&apos;utiliser les automatismes que permettent le script <filepath>ldap_mass_sync.php</filepath> (voir <xref href="scripts_ldap_mass_sync.dita"/>). Pour la gestion quotidienne, des mécanismes d&apos;import   manuel sont accessibles depuis le menu <menucascade>

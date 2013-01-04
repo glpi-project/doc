@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="config_common_display" xml:lang="fr-fr">
+<topic id="config_common_display" xml:lang="en-us">
   <title>Onglet Configuration Affichage</title>
   <shortdesc>Cet onglet permet de personnaliser l&apos;apparence générale de l&apos;application.</shortdesc>
   <body>

@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="config_notification_notifications" xml:lang="fr-fr">
+<topic id="config_notification_notifications" xml:lang="en-us">
   <title>Gérer les notifications par entité</title>
   <shortdesc>Une notification est l&apos;association d&apos;un événement pour un type donné avec un modèle. Une liste destinataire est créée à cet effet.</shortdesc>
   <body>

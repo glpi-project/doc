@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="config_crontaskcli" xml:lang="fr-fr">
+<topic id="config_crontaskcli" xml:lang="en-us">
   <title>Lancer les actions automatiques en ligne de commande</title>
   <shortdesc>L&apos;ordonnanceur des tâches de GLPI peut-être appelé de manière externe, depuis la ligne de commande, en exécutant le fichier <codeph>front/cron.php</codeph>.</shortdesc>
   <body>

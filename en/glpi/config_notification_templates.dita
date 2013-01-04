@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="config_notification_templates" xml:lang="fr-fr">
+<topic id="config_notification_templates" xml:lang="en-us">
   <title>Configuration des modèles de notifications</title>
   <shortdesc>Un modèle est un objet global de GLPI qui définit toutes les données relatives au format et formatage d&apos;une notification.</shortdesc>
   <body>

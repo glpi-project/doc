@@ -17,7 +17,7 @@ _____________________________________________________________
 -->
 <!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="config_plugin" xml:lang="fr-fr">
+<topic id="config_plugin" xml:lang="en-us">
   <title>Configurer les plugins GLPI</title>
   <shortdesc>Les plugins dans GLPI, installation, configuration, activation</shortdesc>
   <body>

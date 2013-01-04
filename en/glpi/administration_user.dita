@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="administration_user" xml:lang="fr-fr">
+<topic id="administration_user" xml:lang="en-us">
   <title>Administrer les utilisateurs</title>
   <shortdesc>Dans GLPI, administrer les utilisateurs peut se faire à partir du menu <menucascade>
       <uicontrol>Administration</uicontrol>

@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="admin_install_plugin" xml:lang="fr-fr">
+<topic id="admin_install_plugin" xml:lang="en-us">
   <title>Installer et mettre à jour les plugins</title>
   <shortdesc>Ajout et maintenance des extensions (plugins) à GLPI </shortdesc>
   <body>

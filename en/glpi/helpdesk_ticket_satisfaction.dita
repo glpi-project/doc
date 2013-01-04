@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="helpdesk_ticket_satisfaction" xml:lang="fr-fr">
+<topic id="helpdesk_ticket_satisfaction" xml:lang="en-us">
   <title>Satisfaction</title>
   <shortdesc>The result of the satisfaction survey of a ticket, characteristics and use</shortdesc>
   <body>

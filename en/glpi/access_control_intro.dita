@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="access_control_intro" xml:lang="fr-fr">
+<topic id="access_control_intro" xml:lang="en-us">
   <title>Administer access control</title>
   <shortdesc>This section describes how to administer the system access control which allows each user access to specific use.</shortdesc>
   <body>

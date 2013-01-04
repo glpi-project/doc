@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="scripts_ldap_mass_sync" xml:lang="fr-fr">
+<topic id="scripts_ldap_mass_sync" xml:lang="en-us">
   <title>Importer et synchroniser depuis un annuaire par script</title>
   <shortdesc>Un script permet l&apos;import et la synchronisation à partir d&apos;un annuaire.</shortdesc>
   <body>

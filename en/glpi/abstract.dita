@@ -17,7 +17,7 @@ _____________________________________________________________
 --><!-- This file is part of the DITA Open Toolkit project hosted on 
   Sourceforge.net. See the accompanying license.txt file for 
   applicable licenses.--><!-- (c) Copyright IBM Corp. 2007 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
-<concept id="concept-1" xml:lang="fr-fr">
+<concept id="concept-1" xml:lang="en-us">
   <title>Summary</title>
   <conbody>
     <p>Install and use effectively GLPI (Free IT helpdesk and asset management).</p>
