@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_ocs" xml:lang="en-us">
+  <title>Affecter une machine provenant d&apos;un outil d&apos;inventaire à une entité</title>
+  <shortdesc>GLPI dispose d&apos;un type de règles permettant d&apos;affecter automatiquement une machine provenant d&apos;un outil d&apos;inventaire à une entité et un lieu.</shortdesc>
+  <body>
+    <p>Ce type de règle est accessible depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+        <uicontrol>Règles d&apos;affectation d&apos;un élément à une entité</uicontrol>
+      </menucascade>.</p>
+    <p>Un certain nombre de critères sont disponibles : ceux reprenant des champs génériques (nom, description, numéro de série, domaine, adresse IP, sous-réseau) mais aussi des champs venant de l&apos;outil d&apos;inventaire si celui-ci les propose.</p>
+    <p>Les actions disponibles sont d&apos;<b>ignorer l&apos;import de la machine</b>, de l&apos;<b>affecter à une entité</b> (statiquement),  de l&apos;<b>affecter à une entité en utilisant le résultat d&apos;une expression rationnelle</b> ou de l&apos;<b>affecter à un lieu défini</b>.</p>
+    <note type="important">le moteur s&apos;arrête à la première règle vérifiée. Il est donc nécessaire de bien ordonner la liste de règles. De plus, il est préférable de mettre en premier les règles qui ont le plus de chance d&apos;être vérifiées (par exemple pour les entités comprenant beaucoup de matériels).</note>
+    <note type="important">les règles d&apos;affectation à une entité ne sont jouées que lors de l&apos;import initial de la machine dans GLPI : c&apos;est à dire qu&apos;à partir du moment où une machine est importée, il n&apos;existe aucun processus automatisé pour la changer d&apos;entité (il faut utiliser l&apos;option de <b>transfert</b> manuel).</note>
+    <p>Grâce au  mécanisme de liste noire de GLPI il est possible d&apos;exclure certaines valeurs du traitement dans le moteur de règles comme certaines adresses IP ou MAC (par exemple une IP 127.0.0.1). Voir <xref href="config_dropdown.dita"/>.</p>
+  </body>
+</topic>

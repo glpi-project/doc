@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_network_connection_alias" xml:lang="fr-fr">
+  <title>Alias de port</title>
+  <shortdesc>Gestion des alias de port réseau.</shortdesc>
+  <body>
+    <p>Un alias de port réseau est un port virtuel qui peut spécialiser un port physique.</p>
+
+    <example>Sous Linux, chaque VLAN, lorsqu'il est transmis <xref href="glossary/tagged_vlan.dita">"taggé"</xref>, est associé un alias de port (eth2.50 pour représenter le VLAN 50 sur le port eth2).</example>
+
+    <p>Un alias de port comporte son <varname>port d'origine</varname> (ie. celui sur lequel il s'appuie) et une <varname>adresse MAC</varname>.</p>
+    <note type="attention">Lorsque l'on change le port d'origine, l'adresse MAC du nouveau port d'orgine est affecté à l'alias de port.</note>
+  </body>
+</topic>

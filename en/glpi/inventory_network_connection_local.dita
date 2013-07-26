@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_network_connection_local" xml:lang="fr-fr">
+  <title>Boucle locale</title>
+  <shortdesc>Gestion des ports réseau de type boucle locale.</shortdesc>
+  <body>
+    <p>La boucle locale est un port virtuel utilisé par la plupart des équipements afin de communiquer en interne. C'est ce port qui est sollicité lorsque l'on essaie de communiquer avec la machine <tt>localhost</tt> (<tt>127.0.0.1</tt>).</p>
+
+    <p>La boucle locale ne possède aucun attribut spécifique.</p>
+  </body>
+</topic>

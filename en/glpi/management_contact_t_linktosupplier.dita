@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_contact_t_linktosupplier">
+  <title>Associate a contact to a supplier</title>
+  <taskbody>
+    <context>Associate a contact to a supplier</context>
+    <steps>
+      <step>
+        <cmd>Log into GLPI;</cmd>
+      </step>
+      <step>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Contacts</uicontrol>
+          </menucascade>;</cmd>
+      </step>
+      <step>
+        <cmd>Optional: search for a contact; </cmd>
+      </step>
+      <step>
+        <cmd>Two possibilities to associate a supplier:</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Click on the name of the contact</li>
+              <li>Go to tab <b>Suppliers</b></li>
+              <li>Select a supplier</li>
+              <li>Add</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Check the contact</li>
+              <li>Massive action: <uicontrol>Add Supplier...</uicontrol></li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>From now on, this contact is associated with the supplier. Displaying of the form.</result>
+  </taskbody>
+</task>

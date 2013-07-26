@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_contact_t_create">
+  <title>Add a contact</title>
+  <taskbody>
+    <context> Add a contact in GLPI</context>
+    <steps>
+      <step>
+        <cmd>Log into GLPI;</cmd>
+      </step>
+      <step>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Contacts</uicontrol>
+          </menucascade>;</cmd>
+      </step>
+      <step>
+        <cmd>Click on the icon <image href="../image/menu_add.png"/> located in the horizontal menu;</cmd>
+      </step>
+      <step>
+        <cmd>Complete the various fields of the blank form;</cmd>
+      </step>
+      <step>
+        <cmd>Add;</cmd>
+      </step>
+    </steps>
+    <result>Contact card is created and displayed. </result>
+    <postreq>Later, it is possible to link this contact to one or several suppliers or documents. See <xref href="management_contact_t_linktosupplier.dita"/> et <xref href="management_contact_t_linktodocument.dita"/>.</postreq>
+  </taskbody>
+</task>

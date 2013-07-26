@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_task" xml:lang="en-us">
+  <title>Tasks</title>
+  <shortdesc>Ticket tasks, characteristics and use</shortdesc>
+  <body>
+    <p>A task is an action corresponding to a technical intervention related to a ticket.</p>
+    <p>A task can have a category (see  <xref href="config_dropdown.dita"/>).</p>
+    <p>A task can be private or public.</p>
+    <p>A private task is only visible: :<ul>
+        <li>its editor</li>
+        <li>user to whom the task was assigned</li>
+        <li>users with the right <tt>See assigned tickets (personnal + group associated)</tt>.</li>
+      </ul></p>
+    <p>The length allows the documentation by the technician for the actual processing of the task, most notably in statistics
+or billings.</p>
+    <p>Finally, a task is schedulable. Once defined, the start date, duration or end date input, the task will appear on
+planning calendar of the technician to whom the task was assigned. The status  can report the state of
+the task (<b>Information, To do, Done</b>).</p>
+    <note>When planning a task, it is possible to check the availability of the technician. The icon <image href="../image/reservation-3.png"/> opens a new window with a quick summary of open periods.</note>
+    <note>It is possible to set a reminder for the task before it starts by defining a time interval for the reminder. Notifications must be enabled  (see <xref href="config_notification.dita"/>).</note>
+  </body>
+</topic>

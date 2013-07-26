@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_rssflow" xml:lang="en-us">
+  <title>Gérer les flux RSS</title>
+  <shortdesc>Les flux RSS se gèrent depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>Flux RSS</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette section permet de gérer des flux RSS, leur taux de rafraichissement et le nombre d&apos;éléments à afficher.</p>
+    <p>Les flux RSS activés apparaissent ensuite sur la page d&apos;accueil de GLPI.</p>
+    <p>Un flux  RSS est considéré comme personnel par défaut. Elle est, par conséquent, uniquement visible par son rédacteur.</p>
+    <p>Pour qu&apos;un flux RSS devienne visible par d&apos;autres utilisateurs (flux RSS public), il est nécessaire de sélectionner une ou plusieurs cibles. La ou les cibles correspondent aux entités, aux profils, groupes ou utilisateurs qui pourront consulter la note</p>
+    <p>Un flux RSS public est visible pour les utilisateurs associé à un profil ayant le droit de lire les flux RSS  publics.</p>
+  </body>
+</topic>

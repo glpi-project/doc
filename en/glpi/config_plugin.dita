@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_plugin" xml:lang="en-us">
+  <title>Configurer les plugins GLPI</title>
+  <shortdesc>Les plugins dans GLPI, installation, configuration, activation</shortdesc>
+  <body>
+    <p>Les plugins permettent d&apos;ajouter de nouvelles fonctionnalités à GLPI. La totalité des plugins préalablement téléchargés et installés sont listés dans la page <tt>Configuration &gt; Plugins</tt>.</p>
+    <p>Pour l&apos;installation / Mise à jour / Désinstallation d&apos;un plugin, Voir <xref href="admin_install_plugin.dita"/>.</p>
+    <section>
+      <title>Configurer un plugin</title>
+      <p>Si le plugin est configurable, depuis la liste des plugins il est possible de cliquer sur le nom du plugin. Ce lien mène à la page de configuration du plugin.</p>
+    </section>
+    <section>
+      <title>Interaction avec GLPI</title>
+      <p>D&apos;une manière générale, les nouvelles fonctionnalités proposés par ces plugins se constatent par l&apos;ajout d&apos;un ou de plusieurs onglets dans les rubriques auxquels se rattachent le plugin. Dès qu&apos;un premier plugin est activé, et s&apos;il ajoute un menu, un nouveau menu principal apparaît, nommé <menucascade>
+          <uicontrol>Plugins</uicontrol>
+        </menucascade>.
+   
+  </p>
+    </section>
+  </body>
+</topic>

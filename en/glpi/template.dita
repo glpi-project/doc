@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="template" xml:lang="en-us">
+  <title>Manage Templates</title>
+  <shortdesc>Manage templates in GLPI</shortdesc>
+  <body>
+    <section>
+      <title>Interest</title>
+    </section>
+    <p>For some elements of GLPI it is possible to create new elements (e.g. PC) via
+templates. A template defines a standard pre-fill of some fields that will be reused for
+creation of other elements. This simplifies the addition of a large number of nearly identical elements.</p>
+    <p>Manage templates  is done via the icon : <image href="../image/menu_addtemplate.png"/> located in the menu bar.</p>
+    <example><title>Example :</title>To prepare for the receipt of 20 identical printers where only serial and inventory numbers change, create a template for that printer model and, in this template, fill in all unchanging fields (manufacturer, model, etc.). Then create 20 printer items from this template. When entering each printer, serial and inventory number will be the only information to enter.</example>
+    <section>
+      <title>The incremenetation system</title>
+      <p>A filling system and auto increment of certain fields (marked *) is available. These
+fields (name, asset tag ...) are then filled in automatically when creating the corresponding template field
+contains a format string of the form &lt;XXX####X&gt;: </p>
+      <ul>
+        <li>&lt; and &gt; at the beginning and end of format indicate that it is a format</li>
+        <li>X represents any character</li>
+        <li>\g : search number among all identical fields based on the same format</li>
+        <li># : location of the number to increment (number of digits equal to the number of #)</li>
+        <li>\Y : 4-digit year</li>
+        <li>\y : 2-digit year</li>
+        <li>\m : month</li>
+        <li>\d : day</li>
+      </ul>
+    </section>
+    <example>
+      <title>Example</title>
+      <p>Continuing the example above, it is possible to use the feature
+increment to automatically create the inventory numbers. For example, if these are
+ compounds of the form YEAR+MONTH+DAY+code structure (555) + code
+operation (1234) + incrementing number, simply fill in the template for
+Asset Tag field the following string &lt;\Y\m\d-555-1234-##&gt;. Each printer
+ created will have its inventory number generated automatically and incremented by 1 to 20.</p>
+    </example>
+  </body>
+</topic>

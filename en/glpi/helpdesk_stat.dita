@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_stat" xml:lang="en-us">
+  <title>View Statistics</title>
+  <shortdesc>Reports on tickets are available from the menu <menucascade>
+      <uicontrol>Assistance</uicontrol>
+      <uicontrol>Statistics</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>You can view statistics according to a configurable period :</p>
+    <ul>
+      <li>
+        <b>Global : </b>
+        <p>Displays statistics about the tickets :</p>
+        <ul>
+          <li>Number of tickets opened, resolved, closed and resolved late</li>
+          <li>Number of open satisfaction surveys, number of responses to surveys and average level of satisfaction </li>
+          <li>The average time for consideration, resolution and closure of the ticket</li>
+          <li>The average actual duration of treatment of the ticket</li>
+        </ul>
+      </li>
+      <li>
+        <b>Per ticket :</b>
+        <p>Displays statistics about the elements of the tickets, selected via a drop down menu. For example:
+requester, assigned technician, impact, etc. ...</p>
+        <p>The results have the following elements :<ul>
+            <li>Number of tickets opened, resolved, closed and resolved late</li>
+            <li>Number of open satisfaction surveys, number of responses to surveys and average level of satisfaction</li>
+            <li>Average time for assignment of the ticket :<p>(Time between the opening of the ticket and the first action on it (monitoring, task or solution)</p></li>
+            <li>Average time to resolution and closure of the ticket</li>
+            <li>Real average and total duration of treatment of the ticket<p>Actual duration of the interventions scheduled by people who take care of the tickets. &quot;(real) Duration of ticket&quot; means the time spent by a technician on the tasks related to tickets.</p></li>
+          </ul></p>
+      </li>
+      <li>
+        <b>By title :</b>
+        <p>Displays statistics about the components of computers. For example: Model, Operating System, model
+of motherboard, etc. ...</p>
+        <p>The statistical elements obtained are the same as for statistics on the tickets.</p>
+      </li>
+      <li>
+        <b>Per item :</b>
+        <p>Displays the number of tickets allocated to each item, sorted by number of tickets.</p>
+      </li>
+    </ul>
+    <p>For each line of output, the icon <image href="../image/stats_item.png"/> allows a graphical view of these statistics</p>
+    <p>The option <b>See charts</b>, when present, displays the results as a distribution
+pie chart.</p>
+    <note>When statistics are performed on an element tree (or groups categories, for example), two presentations are available. Normal: all values are displayed. Tree: only the values are displayed at the same level and take into account the values attached to tickets children; you can then navigate the tree values.</note>
+  </body>
+</topic>

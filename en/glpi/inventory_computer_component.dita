@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_component" xml:lang="en-us">
+  <title>Tab &quot;Components&quot;</title>
+  <shortdesc>Computer component management</shortdesc>
+  <body>
+    <p>This information is visible in the tab <b>Components</b> on the computer form.</p>
+    <p>To add a component to a computer, select the drop down list at the top of the table, the family
+thereof, and its name. </p>
+    <note>Creating components takes place in the menu <menucascade>
+        <uicontrol>Setup</uicontrol>
+        <uicontrol>Components</uicontrol>
+      </menucascade>(See <xref href="config_device.dita"/>). </note>
+    <p>Through the list of installed components on a computer, you can change add new ones using the <image href="../image/add_dropdown.png"/> button and  add various information such as processor speed, the size of the RAM, etc.</p>
+    <p>If multiple components of the same type are used, they will be grouped.</p>
+<p> To remove a component, select it in the right column and then use the <uicontrol>Delete Permanently </uicontrol> at the top or bottom of the list. Selection in the left column to select all components of the same type at once. </p>
+
+    <note>Deletion or addition of a component is saved in the history. </note>
+  </body>
+</topic>

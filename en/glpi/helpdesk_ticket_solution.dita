@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_solution" xml:lang="en-us">
+  <title>Solution</title>
+  <shortdesc>Solution of a ticket, characteristics and use</shortdesc>
+  <body>
+    <p>The solutions  tab  of a ticket allows the ticket resolution by a technician and approval of the solution by
+requester or the writer.</p>
+    <p><ul>
+        <li>
+          <b>Resolution of the ticket :</b>
+          <p>The technician must choose the <b>Solution Type</b>, which is configurable eg.  <b>Hardware Replacement</b> and if necessary a
+description of the solution  and click <b>Update</b>.</p>
+          <p>After the solution update, the ticket status automatically changes to  <b>Solved</b>, until approval of the solution.</p>
+          <p>The reproduction of a solution can be facilitated by the use of two mechanisms :</p>
+          <ul>
+            <li>The use of a solution template. These are labeled (see <xref href="config_dropdown.dita"/>).</li>
+            <li>The extraction of an element from the knowledge base. To do this, you must click <tt>Search a solution</tt>, locate the knowledge base article and confirm by selecting the corresponding <tt>Use as a solution</tt>.</li>
+          </ul>
+          <note>A recording of the solution, the choice <tt>Save and add to the knowledge base</tt> allows the solution to be added directly to the knowledge base. After creation of the solution, the approval of the solution is presented. Record the approval or refusal of the solution by completing the form.</note>
+        </li>
+        <li>
+          <b>Approval of the solution :</b>
+          <p>The solution of a ticket must be approved before  the status of the ticket is closed.</p>
+          <p>It can be approved by a requester or the writer of the ticket (person who entered the ticket by
+example, a call center technician).</p>
+          <p>If notification by email is enabled, the applicant may receive an email containing the link to the ticket order
+to approve it.</p>
+          <p>Otherwise you must use the interface :</p>
+          <ul>
+            <li><b>Simplified Interface</b> :<p>To approve a solution, go to the menu <b>Tickets</b>, select the ticket to approve.</p></li>
+            <li><b>Standard Interface</b> :<p>Tickets appear on the  GLPI  homepage in the tab <b>Personal View</b>, and the <b>Your tickets to close</b> section. </p>The validator may either approve or reject the solution. A description can be entered if desired, however it is mandatory in case of rejection.</li>
+          </ul>
+          <p>Once the solution is approved, the ticket status is now <b>Closed</b>.</p>
+<note>A closed ticket can not be updated (except for the status). To update it, you must change its status and perform again closure.</note>
+          <p>It is possible to force the closure of the resolved ticket after a configurable delay (see <xref href="config_common_assist.dita"/>). If this
+delay is zero, the ticket is automatically closed.</p>
+        </li>
+      </ul></p>
+  </body>
+</topic>

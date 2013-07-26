@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_virtualmachine" xml:lang="en-us">
+  <title>Tab &quot;Virtual Machines&quot;</title>
+  <shortdesc>Computer virtual machine management</shortdesc>
+  <body>
+    <p>This information is visible in the tab <b>Virtual Machines</b> on the computer form.</p>
+    <p>This tab includes all the virtual machines associated with a virtualization server (host) or the host
+a virtual machine which is installed. The information available to a virtual machine are associated
+name, unique identifier (uuid), its virtualization system and model, as well as the number of processors
+ and memory allocation.</p>
+    <p>GLPI is currently the liaison between a host and a virtual machine based on the unique identifier
+(uuid). If in some cases, it happens that the uuid is different in the virtual and physical machine, the connection
+is impossible.</p>
+    <p>The only way to manually associate a virtual machine to a physical machine is to assign to the machine
+virtual declared on the host and the virtual machine in GLPI a same uuid.</p>
+    <note>When using an inventory tool, this information can be automatically imported and updated.
+      </note>
+  </body>
+</topic>

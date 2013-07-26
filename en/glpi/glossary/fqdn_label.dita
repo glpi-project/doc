@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" []>
+<glossentry id="glossentry-fqdn_label">
+  <glossterm>Label FQDN</glossterm>
+  <glossdef>Un <xref href="fqdn.dita"/> est composé de label séparé par des point ('.'). Par exemple, <tt>www.glpi-project.org</tt> est composé des label <tt>www</tt>, <tt>glpi-project</tt> et <tt>org</tt>. Un nom d'ordinateur est composé d'un label et du nom du domaine auquel il appartient (machine <tt>www</tt> dans le domaine <tt>glpi-project.org</tt>). Dans GLPI, les labels sont conformes à la section 2.1 du RFC 1123.</glossdef>
+</glossentry>

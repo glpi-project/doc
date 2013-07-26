@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_recurrent" xml:lang="en-us">
+  <title>Recurring Tickets</title>
+  <shortdesc>Recurring Tickets</shortdesc>
+  <body>
+    <p>With templates, it is possible to program the opening of tickets on a recurring basis.</p>
+    <example>Open a ticket every Friday morning to make a tape backup at night same. Make an initialization operation all early months.</example>
+    <p>This feature is accessible from the menu <menucascade>
+        <uicontrol>Assistance</uicontrol>
+        <uicontrol>Recurrent Tickets</uicontrol>
+      </menucascade>.</p>
+    <p>A recurrent ticket includes a  <i>gabarit</i>, that will be used as a model for the tickets, and a  <i>beginning date</i> and an <i>opening frequency</i>. The process can be triggered  <i>early</i>. Finally, it is possible to  <i>deactivate</i> the recurring ticket with the parameter  <i>active</i>. A calendar can also be associated in order to limit ticket's creation to working days. If the ticket's creation had planned a weekend for example it will be postponed to Monday.</p>
+<note>tickets will only be created if the recurrent ticket is active during the defined period between the start date and end date. These two dates are optional.</note>
+    <p>The opening of recurring tickets is made through an automatic action named <i>ticketrecurrent</i> (see <xref href="config_crontask.dita"/>).</p>
+  </body>
+</topic>

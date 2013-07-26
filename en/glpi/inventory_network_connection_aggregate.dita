@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_network_connection_aggregate" xml:lang="fr-fr">
+  <title>Aggrégat de ports</title>
+  <shortdesc>Gestion des aggrégats de ports réseau.</shortdesc>
+  <body>
+    <p>Un aggrégat de port réseau est un port virtuel qui permet de regrouper plusieurs ports physiques entre eux.</p>
+
+    <example>Les routeurs de coeurs de réseau sont souvent reliés entre eux par des aggrégats afin de faire de la redondance et/ou de l'augmentation de bande passante.</example>
+
+    <p>On peut considérer qu'un équipement réseau est composé de ports réseau physique qui sont reliés entre eux par des aggrégats de ports. Ces derniers correspondent aux VLANs physiquement définits sur l'équipement. Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats associés au VLAN de gestion du switch ou du routeur.</p>
+
+    <p>Sur les machines Linux, les aggrégats sont représentés par des <xref href="http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge" format="html">bridges</xref> qui relient entre eux différents ports. De la même manière, un firewall Ethernet utilisera un bridge qui reliera les interfaces à filtrer.</p>
+    <p>Un aggrégat de ports comporte les <varname>ports d'origine</varname> (ie. ceux sur lesquels il s'appuie) et une adresse MAC.</p>
+  </body>
+</topic>

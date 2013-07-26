@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="tool_knowbase_t_delete">
+  <title>Supprimer un article de la base de connaissances</title>
+  <taskbody>
+    <context>Supprimer un article de la base de connaissances dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur <menucascade>
+            <uicontrol>Outils</uicontrol>
+            <uicontrol>Base de connaissances</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;article ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;article ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur l&apos;icône de suppression.</cmd>
+      </step>
+    </steps>
+    <result>L&apos;article est supprimé définitivement de GLPI.</result>
+  </taskbody>
+</task>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="inventory_printer_t_delete">
+  <title>Supprimer une imprimante</title>
+  <taskbody>
+    <context>Supprimer une imprimante dans l&apos;inventaire</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Parc</uicontrol>
+            <uicontrol>Imprimantes</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;imprimante ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom de l&apos;imprimante</li>
+              <li>Mettre à la corbeille</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher l&apos;imprimante</li>
+              <li>Modification massive : Mettre à la corbeille</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>L&apos;imprimante est placée dans la corbeille.</result>
+  </taskbody>
+</task>

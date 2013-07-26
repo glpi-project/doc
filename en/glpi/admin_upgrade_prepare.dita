@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin_upgrade_prepare" xml:lang="en-us">
+  <title>Préparer la mise à jour</title>
+  <shortdesc>Avant la mise à jour proprement dite il faut préparer le système et les fichiers.</shortdesc>
+  <body>
+    <section>
+      <title>Préparation du système</title>
+      <p>Le processus de mise à jour nécessite temporairement des ressources système importantes. Si  la base de données GLPI est volumineuse, il est pertinent d&apos;augmenter les valeurs de <option>memory_limit</option> et <option>timeout</option> dans le fichier de configuration <filepath>php.ini</filepath> du serveur web. </p>
+    </section>
+    <section>
+      <title>Préparation des fichiers</title>
+      <p>Sur le serveur, déplacer l&apos;ensemble du répertoire GLPI vers un répertoire temporaire, à l&apos;exception du répertoire <filepath>files</filepath> (répertoire où sont stockés les documents).</p>
+      <p>Si la mise à jour de GLPI est effectuée depuis une version inférieure à 0.68, certains répertoires ont changé de nom. Il  faut donc copier leur contenu :</p>
+      <codeblock>ancien_GLPI/docs/ -&gt; nouveau_glpi/files
+ancien_GLPI/backup/dump -&gt; nouveau_GLPI/files/_dumps</codeblock>
+    </section>
+  </body>
+</topic>

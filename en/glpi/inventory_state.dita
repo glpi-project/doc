@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_state" xml:lang="en-us">
+  <title>Manage status</title>
+  <shortdesc>The status in GLPI, is view-specific</shortdesc>
+  <body>
+    <p>This information is commonly used to distinguish between computers that are disposed, available, assigned, etc. It
+is therefore possible to create your own statuses within the information system.</p>
+    <p>The GLPI administrator defines and configures the status titles (see <xref href="config_dropdown.dita"/>). These
+statuses may also have children to facilitate management.</p>
+    <p>The status of an item can be modified from its  inventory page  or from the mass action system
+on each type of inventory.</p>
+<p>A report (see <xref href="tool_report.dita"/>) offers a summary of association by type of hardware. Global search inventory (see <xref href="inventory_global.dita"/>) allows you to search for status on all the components.</p>
+  </body>
+</topic>

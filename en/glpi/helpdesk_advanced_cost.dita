@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_cost" xml:lang="en-us">
+  <title>Les coûts liés aux tickets </title>
+  <shortdesc>Les coûts liés aux tickets </shortdesc>
+  <body>
+    <p>Des coûts peuvent être rattachés à un ticket que ce soit pour permettre une facturation ou pour permettre le calcul des TCO réel des mantériels de l&apos;inventaire.</p>
+    <p>Un coût peut être lié à un budget (voir <xref href="management_budget.dita"/>) et il est possible de dissocier le coût horaire (lié à une durée d&apos;intervention), le coût matériel et un coût fixe.</p>
+    <note>Pour faciliter la saisie de plusieurs coûts, le formulaire est initialisé en fonction du dernier coût saisi et des caractéristiques du ticket (durée totale d&apos;intervention restante). Il suffit alors de modifier uniquement les informations nécessaires.</note>
+  </body>
+</topic>

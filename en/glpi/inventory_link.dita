@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_link" xml:lang="en-US">
+  <title>Associate external links</title>
+  <shortdesc>For some items, external links are managed from <uicontrol>External links</uicontrol> menu</shortdesc>
+  <body>
+    <p>In this tab, external links can be associated to item. These links can use object fields like IP address, name, and so on. See  <xref href="config_link.dita"/>.</p>
+    <example>
+      <title>Examples</title>
+      <ul>
+        <li>a web link: http://192.168.0.1 (IP got from the hardware network port);</li>
+        <li>a RDP link for a remote access: glpi://MSTSC.EXE,pc001 (name &quot;pc001&quot; got from hardware).</li>
+      </ul>
+    </example>
+  </body>
+</topic>

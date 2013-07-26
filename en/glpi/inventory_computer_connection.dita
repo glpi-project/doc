@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_connection" xml:lang="en-us">
+  <title>Direct Connections</title>
+  <shortdesc>Computer direct connection management</shortdesc>
+  <body>
+    <p>Direct connections represent the relationship between different hardware connected physically or virtually.
+For each object type connected, the name, serial number, inventory number are listed. 
+A link allows
+to indicate to GLPI that this object should no longer be marked as connected to the computer.</p>
+    <p>Example : Connecting a computer with a printer (network or not), a monitor, a device
+or an external phone.
+</p>
+    <p>Connections or disconnections are made from the details of all related materials or from the massive update system.</p>
+  </body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_reminder" xml:lang="en-us">
+  <title>Gérer les notes personnelles ou publiques</title>
+  <shortdesc>Les notes personnelles ou publiques se gèrent depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>Notes</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette section permet de gérer des notes, leur durée de vie et de les faire apparaître dans le planning si besoin. Une note correspond à une information personnelle ou publique.</p>
+    <p>Les notes saisies apparaissent ensuite sur la page d&apos;accueil de GLPI ou dans le planning.</p>
+    <p>Il est possible de déterminer une date de début et de fin de publication pour chaque note. Si la date de début n&apos;est pas mentionnée, la note sera visible immédiatement jusqu&apos;à la date de fin. Si la date de fin n&apos;est pas mentionnée, la note sera visible de façon permanente à partir de la date de début.</p>
+    <p>Une note est considérée comme personnelle par défaut. Elle est, par conséquent, uniquement visible par son rédacteur.</p>
+    <p>Pour qu&apos;une note devienne visible par d&apos;autres utilisateurs (note publique), il est nécessaire de sélectionner une ou plusieurs cibles. La ou les cibles correspondent aux entités, aux profils, groupes ou utilisateurs qui pourront consulter la note</p>
+    <p>Une note publique est visible pour les utilisateurs associé à un profil ayant le droit de lire les notes publiques.</p>
+    <p>L&apos;ajout d&apos;une note au calendrier permet de la faire apparaître sur le planning des utilisateurs concernés par la note : celui de l&apos;utilisateur pour une note personnelle, les plannings de tous les utilisateurs dans le cas d&apos;une note publique. Une note planifiée n&apos;est pas supprimée une fois la date expirée.</p>
+    <note>Il est possible de définir un rappel de la note avant son début en définissant un intervalle de temps pour le rappel. Les notifications doivent être activées pour cela (voir <xref href="config_notification.dita"/>).</note>
+    <p>Il est possible d&apos;associer un ou plusieurs documents à une note.</p>
+  </body>
+</topic>

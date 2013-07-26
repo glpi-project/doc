@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_user_import" xml:lang="en-us">
+  <title>Importer des utilisateurs depuis une source externe</title>
+  <body>
+    <p>Si une source externe d&apos;authentification est configurée, il devient possible d&apos;importer et de synchroniser les utilisateurs depuis celle-ci. Pour la maintenance régulière de la base d&apos;utilisateur, il est conseillé d&apos;utiliser les automatismes que permettent le script <filepath>ldap_mass_sync.php</filepath> (voir <xref href="scripts_ldap_mass_sync.dita"/>). Pour la gestion quotidienne, des mécanismes d&apos;import   manuel sont accessibles depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Utilisateurs</uicontrol>
+      </menucascade>. </p>
+    <section>
+      <title>Ajouter directement un utilisateur d&apos;une source externe</title>
+      <p>L&apos;identifiant d&apos;un utilisateur étant connu, GLPI permet de rechercher l&apos;utilisateur et d&apos;importer ses informations d&apos;authentification depuis une source externe. Cette fonctionnalité  se trouve dans la page <wintitle>Ajouter directement un utilisateur d&apos;une source externe</wintitle>, accessible depuis le menu <menucascade>
+          <uicontrol>Administration</uicontrol>
+          <uicontrol>Utilisateurs</uicontrol>
+          <uicontrol>Depuis une source externe</uicontrol>
+        </menucascade>.  Une fois l&apos;identifiant de connexion de l&apos;utilisateur renseigné, ce dernier est recherché dans les annuaires disponibles (bouton <uicontrol>Ajouter annuaire LDAP</uicontrol>) ou dans les autres sources (bouton <uicontrol>Ajouter autre</uicontrol>).</p>
+      <note type="attention">si plus d&apos;un utilisateur possède l&apos;identifiant à rechercher, alors l&apos;ajout n&apos;est pas effectué.</note>
+      <p>Les informations personnelles des utilisateurs peuvent être importées, sous certaines conditions, depuis un annuaire LDAP ; les utilisateurs importés depuis un serveur de messagerie ne possèdent pas d&apos;informations personnelles.</p>
+      <p>Il est important de noter que dans le cas d&apos;une authentification sur un annuaire de messagerie, aucune liste d&apos;utilisateur à importer n&apos;est disponible.</p>
+    </section>
+    <section>
+      <title>Importer en masse des utilisateurs depuis un annuaire LDAP</title>
+      <p>GLPI offre la possibilité de rechercher des utilisateurs de manière avancée dans un annuaire LDAP. Ceci se fait depuis la page<wintitle> Import en masse d&apos;utilisateurs d&apos;un annuaire LDAP </wintitle>, disponible depuis le menu <menucascade>
+          <uicontrol>Administration</uicontrol>
+          <uicontrol>Utilisateurs</uicontrol>
+          <uicontrol>Liaison annuaire LDAP</uicontrol>
+          <uicontrol>Importation de nouveaux utilisateurs </uicontrol>
+        </menucascade>.  L&apos;interface est accessible aux profils ayant le droit <option>Ajout d&apos;utilisateur depuis une source externe</option> en écriture et restreinte à la liste d&apos;entité provenant des habilitation de la personne connecté sur GLPI. Voir <xref href="administration_profile.dita"/>.</p>
+      <p>Une fois l&apos;entité choisie (si GLPI est en mode multi-entités, ou si la personne se servant de l&apos;interface possède des habilitation sur plusieurs entités), une liste de critères  apparaît, basée sur les informations personnelles récupérées pour cet annuaire.</p>
+      <p>La syntaxe de recherche dans les champs est identique à celle du moteur de recherche. Voir <xref href="navigate_search.dita"/>. </p>
+      <p>Pour limiter la recherche aux  utilisateurs ajoutés ou synchronisés dans l&apos;annuaire depuis plus ou moins d&apos;un certain nombre de jours ou de mois, suivre le lien <uicontrol>Activer le filtrage par date</uicontrol> et sélectionner les dates et heures de début et/ou de fin. </p>
+      <note>Cette option, couplée à des recherches sur certains critères, permet de contourner la limite physique d&apos;enregistrement renvoyés par une requête LDAP par l&apos;annuaire. Voir <xref href="config_auth_ldap.dita"/>.</note>
+      <p>Une interface avancée est disponible aux utilisateurs ayant le droit de configuration ou le droit de gérer les entités dans leurs profils. Contrairement à l&apos;interface simple, aucun filtrage des résultats par entité n&apos;est effectué : les seuls critères disponibles sont l&apos;annuaire, le basedn et le filtre de recherche des utilisateurs. Voir <xref href="administration_profile.dita"/>.</p>
+      <note audience="advanced">l&apos;interface simplifiée ne nécessite pas les droits d&apos;écriture sur les utilisateurs. Un gestionnaire de parc ou technicien peut donc importer des utilisateurs depuis l&apos;annuaire, sans avoir accès à ceux-ci après coup. Cette option est par exemple intéressante dans le cadre d&apos;un centre d&apos;appel, ou d&apos;un annuaire pour lequel on ne souhaite pas importer les utilisateurs en masse.</note>
+      <note audience="advanced">pour être en mesure d&apos;utiliser l&apos;interface simplifiée, il faut configurer les paramètres LDAP concernant l&apos;entité dans <menucascade>
+          <uicontrol>Administration</uicontrol>
+          <uicontrol>Entité</uicontrol>
+        </menucascade> (association d&apos;un annuaire à une entité) ou avoir défini un <option>annuaire par défaut</option>.</note>
+      <note type="attention">l&apos;interface avancée est réservée aux administrateurs ayant des connaissances du fonctionnement d&apos;un annuaire LDAP et de la gestion des utilisateurs GLPI.</note>
+      <p>Une fois importé depuis un annuaire, GLPI stocke l&apos;identifiant unique LDAP de l&apos;utilisateur (son distinguedName ou DN), en plus de son identifiant de connexion. Ceci permet de gérer la mise à jour ce dernier lorsqu&apos;il n&apos;y a pas de modification du DN. Par exemple, si l&apos;idenfiant de connexion est l&apos;email, GLPI sera le mettre à jour sans recréer de nouvel utilisateur lors d&apos;un éventuel changement.</p>
+    </section>
+  </body>
+</topic>

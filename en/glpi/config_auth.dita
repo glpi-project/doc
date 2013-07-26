@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth" xml:lang="en-us">
+  <title>Configurer la gestion d&apos;identité</title>
+  <shortdesc>La manière dont GLPI gère l&apos;authentification et les informations personnelles des utilisateurs se configure depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Authentification</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <p>L&apos;accès d&apos;un utilisateur à  GLPI est possible après que ces conditions aient été vérifiées :</p>
+    <ol>
+      <li>envoi d&apos;informations d&apos;authentification par l&apos;utilisateur ;</li>
+      <li>existence de l&apos;identifiant de l&apos;utilisateur ;</li>
+      <li>authentification de l&apos;utilisateur ;</li>
+      <li>attribution d&apos;habilitations à l&apos;utilisateur.</li>
+    </ol>
+    <p>GLPI utilise sa propre base interne d&apos;utilisateurs. Ceux-ci sont soit créés depuis l&apos;interface de l&apos;application, soit importés depuis une ou plusieurs sources externes. Selon le type de source, l&apos;import des utilisateurs peut se faire soit en masse,  soit au fil de l&apos;eau lors de la tentative de connexion d&apos;un utilisateur pas encore connu de GLPI.  </p>
+    <p>Pour effectuer l&apos;authentification, GLPI fait appel à une base de mots de passes interne, qui peut  être complétée par  une ou plusieurs sources externes d&apos;authentification. L&apos;utilisation de méthodes d&apos;authentification externes permet de déléguer cette fonctionnalité à des systèmes tiers assurant la gestion d&apos;identité. Voir <xref href="config_common_auth.dita"/>.</p>
+    <p>L&apos;attribution des habilitations est décrite dans la section <xref href="administration_rule_right.dita"/>.</p>
+    <note>La cinématique d&apos;authentification est la suivante :<ol>
+        <li>l&apos;utilisateur entre son identifiant et son mot de passe ;</li>
+        <li>GLPI vérifie si l&apos;utilisateur est déjà enregistré dans la base. S&apos;il ne l&apos;est pas :<ol>
+            <li>GLPI essaye les méthodes d&apos;authentification les unes après les autres : la base interne, puis tous les annuaires LDAP et enfin les annuaires de messagerie ;</li>
+            <li>lorsque l&apos;authentification est réussie, l&apos;utilisateur est créé dans la base interne, ainsi que sa méthode d&apos;authentification ;</li>
+            <li>si aucune source n&apos;a pu authentifier l&apos;utilisateur, celui-ci est redirigé vers une page lui indiquant que son identifiant ou mot de passe est incorrect ;</li>
+          </ol></li>
+        <li>Si l&apos;utilisateur est déjà présent dans la base interne, ou une fois son identifiant créé :<ol>
+            <li>GLPI tente d&apos;authentifier l&apos;utilisateur en utilisant la dernière méthode d&apos;authentification réussie (et uniquement celle-ci) ; </li>
+            <li>si l&apos;authentification a échoué, l&apos;utilisateur est redirigé vers une page lui indiquant que son identifiant ou mot de passe est incorrect ;</li>
+          </ol></li>
+        <li>Le moteur d&apos;habilitation est lancé avec les informations de l&apos;utilisateur :<ol>
+            <li>si le moteur a donné à celui-ci une ou plusieurs habilitations, alors l&apos;utilisateur a accès à GLPI ;</li>
+            <li>si l&apos;utilisateur ne se voit attribuer aucune habilitation, alors bien qu&apos;étant inscrit dans la base GLPI, il ne peut se connecter à l&apos;application.</li>
+          </ol></li>
+      </ol></note>
+  </body>
+</topic>

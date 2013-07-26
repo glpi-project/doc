@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_controls_unicity" xml:lang="en-us">
+  <title>Configurer le critères d&apos;unicité des champs</title>
+  <shortdesc>Les critères d&apos;unicité des champs se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>contrôles</uicontrol>
+    </menucascade> ;</shortdesc>
+  <body>
+    <p>Cette fonctionnalité permet de rendre l&apos;ajout ou la mise à jour d&apos;un objet d&apos;inventaire impossible si un autre possède déjà une valeur identique. Ce mécanisme s&apos;applique sur les ajouts manuels, mais aussi sur l&apos;import depuis une source externe comme depuis un outil d&apos;inventaire.</p>
+    <p>L&apos;unicité est définie par un nom, un type d&apos;objet sur lequel elle se rapporte, ainsi qu&apos;une liste de champs. Le champ sous-entité permet d&apos;indiquer si les critères d&apos;unicité s&apos;appliquent à tout GLPI ou seulement à l&apos;entité dans laquelle l&apos;unicité est créée.</p>
+    <p>Il faut noter que la sélection de plusieurs champs  vérifie l&apos;unicité du n-uplet et non chaque champ individuellement.</p>
+    <example>Pour un ordinateur, le critère d&apos;unicité global est le numéro de série. Si l&apos;on tente d&apos;enregistrer, quelque soit l&apos;entité un autre ayant le même numéro de série, l&apos;insertion est refusée et un message d&apos;erreur indique l&apos;élément déjà présent en base. Par contre, si un utilisateur insère un ordinateur sans numéro de série, alors aucune vérification sur l&apos;unicité sera effectuée.</example>
+    <p>Un mécanisme permet d&apos;ignorer certaines valeurs lors du calcul d&apos;unicité. Voir <xref href="config_dropdown.dita"/> .</p>
+    <p>Enfin, un onglet appelé <i>Duplique</i> liste l&apos;ensemble des valeurs correspondant aux critères qui sont actuellement en doublon dans la base GLPI avec pour chacune d&apos;elles un lien vers la fiche de l&apos;objet.</p>
+  </body>
+</topic>

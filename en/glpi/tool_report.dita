@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="tool_report" xml:lang="en-us">
+  <title>Gérer les rapports</title>
+  <shortdesc>Les rapports se gèrent depuis le menu <menucascade>
+      <uicontrol>Outils</uicontrol>
+      <uicontrol>Rapports</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI autorise la génération d&apos;un certain nombre de rapports :</p>
+    <ul>
+      <li><b>Le rapport par défaut</b> : Ce rapport recense les matériels présents dans le parc triés par système d&apos;exploitation pour les ordinateurs et par type pour les autres matériels. </li>
+      <li><b>Matériel sous contrat de maintenance</b> : Matériel sous contrat de maintenance auprès d&apos;un tiers. Il est possible d&apos;obtenir un état détaillé par type de matériel et par date d&apos;achat. La sélection multiple est autorisée.</li>
+      <li><b>Rapport des matériels par année</b> : Informations sur la date d&apos;achat, la garantie ainsi que les contrats associés sur une ou plusieurs années. La sélection multiple est autorisée. </li>
+      <li><b>Rapport Informations financières inventaire matériel</b> : Récapitulatif des informations financières pour les ordinateurs, les imprimantes, les matériels réseaux, les moniteurs et les périphériques ainsi que la valeur totale et valeur nette comptable de vos actifs. </li>
+      <li><b>Rapport Informations Financières autres</b> : Récapitulatif des informations financières pour les cartouches, les licences et les consommables. </li>
+      <li><b>Rapport réseau</b> : Informations sur le réseau selon les lieux, les matériels réseaux ou par prises réseaux.</li>
+      <li><b>Rapport de prêt</b> : Récapitulatif des prêts en cours, à venir ou passées pour un utilisateur donné.</li>
+      <li><b>Rapport sur les statuts</b> : Synthèse par type de matériel des différents statuts.</li>
+    </ul>
+    <p>Un plugin permet d&apos;ajouter de nombreux rapports dans GLPI. Ce plugin : reports est disponible sur la <xref href="https://forge.indepnet.net/projects/show/plugins" format="html">Forge des plugins</xref>.</p>
+  </body>
+</topic>

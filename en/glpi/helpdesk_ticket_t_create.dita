@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="helpdesk_ticket_t_create">
+  <title>Create a ticket</title>
+  <taskbody>
+    <prereq>
+      <p>To begin, the requester must express a need. For that there are several tools to choose from : <ul>
+          <li>The requester fills an online form</li>
+          <li>The requester contacts an operator directly (or by telephone) who then transcribes the statement</li>
+          <li>The requester sends the incident report by email (see <xref href="helpdesk_advanced_collectors.dita"/>).</li>
+        </ul></p>
+    </prereq>
+    <context><note>In advanced use, it is also possible to create recurring tickets (see <xref href="helpdesk_advanced_recurrent.dita"/>). </note> Create a ticket in the standard interface :</context>
+    <steps>
+      <step>
+        <cmd>Log into GLPI</cmd>
+      </step>
+      <step>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Assistance</uicontrol>
+            <uicontrol>Tickets</uicontrol>
+          </menucascade></cmd>
+      </step>
+      <step>
+        <cmd>Click on the icon <image href="../image/menu_add.png"/> located in the horizontal menu</cmd>
+      </step>
+      <step>
+        <cmd>Complete the various fields of the blank form</cmd>
+      </step>
+      <step>
+        <cmd>
+          <uicontrol>Add</uicontrol>
+        </cmd>
+      </step>
+    </steps>
+    <result>Display the created form.</result>
+  </taskbody>
+</task>

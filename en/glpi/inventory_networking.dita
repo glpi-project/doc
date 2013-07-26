@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_networking" xml:lang="en-us">
+  <title>Gérer les matériels réseaux</title>
+  <shortdesc>Les matériels réseaux se gèrent depuis le menu <menucascade>
+      <uicontrol>Parc</uicontrol>
+      <uicontrol>Réseaux</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Le matériel réseau représente le matériel qui gère, transmet et route le réseau entre plusieurs autres matériels (ordinateurs, imprimantes...). </p>
+    <example>Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-feu (firewall) ou encore une borne d&apos;accès sans fil (wifi).</example>
+  </body>
+</topic>

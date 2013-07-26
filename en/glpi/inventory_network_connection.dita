@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_network_connection" xml:lang="en-us">
+  <title>Tab &quot;Network Port&quot;</title>
+  <shortdesc>Computer network port management</shortdesc>
+  <body>
+    <p>A network port is used to model the output of a network interface on a given material. Each port is characterized
+by a <b>number</b> and <b>name</b>.</p>
+    <p>On this port, you can add one or more <b>VLAN</b>, the latter can be defined by a name, a
+comment and a VLAN number (ID TAG).</p>
+    <note>For a network port of an object type computers, select the MAC field from the drop down list to select the MAC address of the component type network card.</note>
+<p>Pour chaque matériel, il est possible à tout moment d&apos;ajouter un ou plusieurs ports grâce au système de modification massive.</p>
+<p>Sur chaque port réseau, on peut associer un ou plusieurs  <xref href="inventory_ip_network_name.dita">nom réseau</xref>. On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".</p>
+<ul>
+<li>Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.</li>
+<li>Lorsqu'il y a plusieurs noms réseau, il n'est plus possible de modifier le nom réseau dans le formulaire du port réseau. On doit systématiquement utiliser l'onglet.</li>
+</ul>  
+
+<p>Les ports réseau peuvent être de différents types. Il y a des ports physiques (Ethernet, Wifi ...), <xref href="glossary/virtual_ports.dita">virtuels</xref> (boucle locale, alias, aggrégats ...), point à point (ligne commutée) ...</p>
+
+<p>L'onglet des ports réseau représente l'ensemble de ports disponibles sur l'équipement dans un tableau.
+
+Dans l'en-tête du tableau, à côté du nombre total de port, il y a un lien permettant de choisir les options d'affichage des ports réseaux. Il est ainsi possible d'afficher ou de masquer des informations telles que les informations réseau (tout ce qui concerne Internet), les caractéristiques intrinsèques du port (ie. dépendant de son type), les adresses MAC, les VLANs ...
+</p>
+<note>GLPI permet de représenter fidèlement des connexions réseau très complexes avec des alias ports Wifi et/ou Ethernet associés à des VLAN regroupés dans aggrégats (cf. <xref href="appendix/image_complexe_networkport.dita" />).</note>
+</body>
+</topic>

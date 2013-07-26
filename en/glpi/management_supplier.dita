@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_supplier" xml:lang="en-US">
+  <title>Supplier Management</title>
+  <shortdesc>Suppliers are managed via menu <menucascade>
+      <uicontrol>Management</uicontrol>
+      <uicontrol>Suppliers</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI supplier management is different than GLPI manufacturer management (see <xref href="config_dropdown.dita"/>). This feature allows hardware seller identification (in asset management) and also ticket assignment to this person or company.</p>
+    <example>
+      <p>When buying hardware from brand XX from a supplier YY, then two distinct information need to be managed: manufacturer (XX) and supplier (YY). </p>
+    </example>
+    <p>A supplier is characterized  by a name, a third party type (dropdown label), and localization information (address, zip code, city, country) and contact (web site, phone and fax).</p>
+    <p>Its management can be global to all entities (field Child entities set to Yes) or local.</p>
+    <example>A supplier is common to all entities when it is a global supplier to the company; it will be declared on the upper entity, and set visible to child entities. On the contrary, a local supplier to an entity will be created by the local entity asset manager, and it will be only visible in this scope. Of course a user with a recursive right on all entities will see at the same time global and local suppliers.</example>
+    <note type="caution">If a web site is defined for the company, don&apos;t forget to use <tt>http://</tt> to start the Internet address.</note>
+  </body>
+</topic>

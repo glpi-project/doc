@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_budget_t_delete">
+  <title>Delete a budget</title>
+  <taskbody>
+    <context>Delete a budget in GLPI</context>
+    <steps>
+      <step>
+        <cmd>Log into GLPI;</cmd>
+      </step>
+      <step>
+        <cmd>Go to the menu <menucascade>
+            <uicontrol>Management</uicontrol>
+            <uicontrol>Budgets</uicontrol>
+          </menucascade>;</cmd>
+      </step>
+      <step>
+        <cmd>Optional: search for a budget;</cmd>
+      </step>
+      <step>
+        <cmd>Two deletion possibilities:</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Click on the name of the budget</li>
+              <li>Put in dustbin</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Check the budget</li>
+              <li>Massive action: Put in dustbin</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <result>The budget is sent to the trash.</result>
+  </taskbody>
+</task>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="administration_entity_t_delete">
+  <title>Supprimer une entité</title>
+  <taskbody>
+    <context>Supprimer une entité. </context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Administration</uicontrol>
+            <uicontrol>Entités</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de l&apos;entité ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom de l&apos;entité ;</cmd>
+        <info>L&apos;action massive de suppression n&apos;est pas disponible ici.</info>
+      </step>
+      <step>
+        <cmd>Supprimer définitivement.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

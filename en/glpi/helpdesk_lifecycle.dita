@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_lifecycle" xml:lang="en-us">
+  <title>Understanding the ticket lifecycle</title>
+  <shortdesc>The viewing and editing options of the life cycle of tickets is managed per profile and can be found in the menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Profiles</uicontrol>
+    </menucascade> under the tab <uicontrol>Life Cycles</uicontrol>.</shortdesc>
+  <body>
+    <section>
+      <p>The different statuses possible for a ticket are New, Processing (assigned), Processing (planned), Pending,
+Solved, and Closed. These are not configurable or changeable.</p>
+    </section>
+    <section>
+      <title>Management rules</title>
+      <p>Upon its creation, ticket status is <b>New</b>. When a technician defines the assigned group and/or technician responsible for the incident, the ticket status will automatically change to  <b>Processing (assigned)</b>. Similarly, if a new task is added  then the status becomes <b>Processing (planned)</b>. When a solution is added to the ticket, then it takes
+status <b>Solved</b>. Finally, when the requester or editor validates the proposed solution, then the ticket status is  <b>Closed</b>.</p>
+      <note>The technician can change the status at any time, particularly to overcome the status <b>Pending</b>.</note>
+      <note>The requester can delete their ticket if it is in status New and no action was conducted for this ticket.</note>
+    </section>
+    <section>
+      <title>Matrix of calculus for priority</title>
+      <p audience="advanced">ITIL best practices separate urgency (user defined), the impact of the incident (a user,
+service, function ...) which is normally filled by the technician. A matrix is then used to calculate
+the priority associated with the ticket based on these two criteria. GLPI provides a  standard predefined matrix which 
+allows compatability identical  to the ticket status function in previous versions of the application (where these
+two notions of urgency and impact does not exist). </p>
+      <p>The matrix of calculus for priority of a ticket according to the urgency and impact can be modified
+and is found in the menu <menucascade>
+          <uicontrol>Setup</uicontrol>
+          <uicontrol>General</uicontrol>
+        </menucascade> under the tab <uicontrol>Assistance</uicontrol>. (see <xref href="config_common.dita"/>).</p>
+      <p>You can select different levels of impact, urgency, or priority to be used in the helpdesk,
+as well as disable some levels: to do this, simply  set the level selected No. Note that the Medium level
+is not deactivated.</p>
+    </section>
+  </body>
+</topic>

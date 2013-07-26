@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="install_wizard" xml:lang="en-us">
+  <title>Use the installation wizard</title>
+  <shortdesc>Use the GLPI online installation wizard</shortdesc>
+  <body>
+    <p>To begin the installation, point the browser on the root folder of GLPI : <xref href="http://&lt;ADRESSE_GLPI>" format="html">http://&lt;GLPI _ADDRESS&gt;</xref>.
+
+</p>
+    <p>When you first connect to this address, a procedure step-by-step starts. </p>
+    <section>
+      <title>Choice of language (Select your language) </title>
+      <p>The first step is to choose the language in which the installation takes place. To install in &quot;English&quot;,
+select <b>English</b> then validate.</p>
+    </section>
+    <section>
+      <title>License</title>
+      <p>The use of GLPI is subject to acceptance of the license GNU General Public License. This
+license is proposed for reading. Once the license is read and accepted, submit the form. If this is not the case,
+is impossible to access the following steps.</p>
+    </section>
+    <section>
+      <title>Start the installation: Installation or update GLPI</title>
+      <p>Clien on <b>Installation</b>.</p>
+    </section>
+    <section>
+      <title>Step 0 : Verify compatibility with your environment running GLPI</title>
+      <p>This step will verify that the system meets the prerequisites for installation. If this is not the case, it is impossible
+access additional steps and an explicit error message indicates the action to be taken before attempting to
+again. If all the checks have been successfully completed, submit the form.</p>
+    </section>
+    <section>
+      <title>Step 1 : Configure the connection to the database</title>
+      <p>Connection settings to the database are required.</p>
+      <ul>
+        <li><b>MySQL Server</b> : Enter the network path to access the server, for example : <i>localhost</i>, or <i>mysql.domain.com</i></li>
+        <li><b>MySQL User</b> : Enter the user name with the right to connect to MySQL server</li>
+        <li><b>MySQL Password</b> : Enter the password associated with the user defined above </li>
+      </ul>
+      <p>Once these three fields are correctly filled out, submit the form. If the parameters are invalid, a
+error message is displayed and you must change the connection settings and try again.</p>
+    </section>
+    <section>
+      <title>Step 2: Create or choose the database and initialize it</title>
+      <p>Once the server connection is established, it must create or select the database designed to accommodate
+the application data and then initialize GLPI.
+
+</p>
+      <p>Two possibilities :
+
+<ul>
+          <li>
+            <p>Base to accommodate the data using existing GLPI instance :</p>
+            <p>Select the database in the list of databases displayed. OK to initialize the database.</p>
+            <note type="caution">The contents of the selected database will be destroyed upon initialization.</note>
+          </li>
+          <li>
+            <p>To create a new database to hold the GLPI data :</p>
+            <p>Select <b>Create a new database</b>. Enter the name of the new database in the text field provided
+for this purpose. Select OK to create the database.</p>
+            <note type="important">This step requires the user to have the necessary rights to create a new database.</note>
+          </li>
+        </ul></p>
+    </section>
+    <section>
+      <title>Step 3 : Initialization of the database</title>
+      <p>This step initializes the database with default values. If an error occurs, read the
+information.</p>
+    </section>
+    <section>
+      <title>Step 4 : The installation of GLPI is now finished</title>
+      <p>This step provides a summary of the installation procedure and lists the user accounts created.
+Read this information carefully and click submit to make the first connection to the application.
+</p>
+      <note type="tip">Default users accounts are :<p><i>glpi/glpi</i> for the administrator account</p><p><i>tech/tech</i> for the technician account</p><p><i>normal/normal</i> for the normal user</p><p><i>post-only/postonly</i> for the post-only user</p></note>
+      <note type="attention">Of course one must then delete or change these default accounts for obvious reasons of security. Be sure <u>before</u> deleting the accounts to create a new glpi user using the super-admin profile. </note>
+    </section>
+  </body>
+</topic>

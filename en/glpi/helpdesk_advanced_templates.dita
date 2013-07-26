@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_advanced_templates" xml:lang="en-us">
+  <title>Ticket Templates</title>
+  <shortdesc>Ticket Templates</shortdesc>
+  <body>
+    <p>Just as inventory objects, a notion of a template exists for the tickets. A template allows you to customize
+interface declaration of a ticket based on ticket type and category.</p>
+    <p>Management templates is done via the icon: <image href="../image/menu_addtemplate.png"/> located in the menu bar. </p>
+    <p>Behavior that can be changed are :<ul>
+        <li>The list of fields to be mandatory for opening a ticket</li>
+        <li>The list of fields whose value will be preset when displaying the form</li>
+        <li>The list of fields that should be hidden</li>
+      </ul> </p>
+<note>Pour le contrôle des champs obligatoire, seuls les champs disponibles dans l&apos;interface de l&apos;utilisateur sont contrôlés. Donc, si un champ est défini comme obligatoire mais qu&apos;il n&apos;est pas proposé dans l&apos;interface il ne générera pas d&apos;erreur. A la saisie des champs obligatoires, sont affichées les interfaces dans lesquelles ils sont utilisés.</note>
+
+    <p>A template is linked to the entity in which it was defined, and may be visible in the sub-entities.</p>
+
+<p>Des gabarits par défaut peuvent être définis pour les entités ou les profiles. Pour les profiles ne sont associables que des gabarits  de l&apos;entité racine visibles de toutes les sous-entités. Des gabarits par défaut peuvent également être défini pour chaque catégorie de ticket (un pour chaque type, voir <xref href="helpdesk_advanced_categories.dita"/>).</p>
+    <p>A la création du ticket, le gabarit utilisé est par ordre de priorité :<ol>
+        <li>Celui défini dans la catégorie définie pour le type défini</li>
+        <li>Celui défini par défaut pour le profil courant de l&apos;utilisateur</li>
+        <li>Celui défini par défaut pour l&apos;entité de création du ticket</li>
+      </ol></p>
+<note type="important">Dans les 2 derniers cas, si le gabarit prédéfinit un nouveau couple type/catégorie, le premier cas est alors testé de nouveau avec ces nouvelles valeurs. </note>
+    <note audience="">A la mise à jour du ticket, le même ordre de priorité est utilisé pour déterminer les champs obligatoires.</note>
+    <note audience="">Si un des paramètre (entité, profil, type ou catégorie) est modifié lors de la saisie du ticket, le gabarit utilisé est alors redéterminé en fonction des nouvelles valeurs.</note>
+  
+</body>
+</topic>

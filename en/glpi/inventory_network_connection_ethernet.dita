@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_network_connection_ethernet" xml:lang="fr-fr">
+  <title>Port Ethernet</title>
+  <shortdesc>Gestion des ports réseau de type Ethernet.</shortdesc>
+  <body>
+    <example>Le protocole Ethernet est celui classiquement utilisé sur les réseaux internes.</example>
+    <p>Un port Ethernet est caractérisé par son <varname>type</varname> (paire torsadée, fibre optique monomode/multimode ...), un <varname>débit</varname> (10Mb, 100Mb, 1Gb, 10Gb ...) et son <varname>adresse MAC</varname>.
+Il est possible de lui associer une <varname>carte réseau</varname> ainsi qu'une <varname>prise réseau</varname>.</p>
+    <p>Les connexions Ethernet se font en reliant deux ports Ethernet entre eux. Pour cela, il faut qu&apos;il y ait un port libre sur chacun de ces matériels.
+
+Généralement, les connexions se feront entre un port présent sur un ordinateur, un périphérique ou une imprimante et un port présent sur un matériel réseau (hub, switch).
+</p>
+  </body>
+</topic>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="prerequisite" xml:lang="en-us">
+  <title>Prerequisites</title>
+  <shortdesc>Prerequisites for installing GLPI.</shortdesc>
+  <body>
+    <p>GLPI uses the following technologies :</p>
+    <p><ul>
+        <li>PHP for language</li>
+        <li>MySQL for the database</li>
+        <li>HTML for web pages</li>
+        <li>CSS style sheets</li>
+        <li>CSV, PDF and SLK for data exports</li>
+        <li>AJAX for dynamic elements of the interface</li>
+        <li>SVG and PNG for images and graphics</li>
+      </ul></p>
+  </body>
+</topic>

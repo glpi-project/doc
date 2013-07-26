@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_notification_templates_tags" xml:lang="en-us">
+  <title>Utiliser les balises pour personnaliser les notifications</title>
+  <shortdesc>GLPI fournit un ensemble de balises pour construire un modèle de notification.</shortdesc>
+  <body>
+    <p>Une balise est de la forme ##balise## :</p>
+    <p><ul>
+        <li>##champ## : affiche la valeur d&apos;un champ provenant de la base de données</li>
+        <li>##lang.champ## : affiche la chaîne provenant du fichier de langue associé à un champ</li>
+      </ul></p>
+    <note>Les balises fournissant des liens sont adaptés à l&apos;utilisateur en fonction de son mode d&apos;authentification à GLPI. En particulier, un utilisateur sans connexion ne se verra pas proposé les liens.</note>
+    <example>Pour un ticket ##lang.title## affiche le libellé &quot;Nom&quot; alors que ##title## affiche le nom du ticket.</example>
+    <p>Il existe 3 types de balises :</p>
+    <p><ol>
+        <li>simple</li>
+        <li>condition IF/ELSE/THEN</li>
+        <li>boucles FOREACH</li>
+      </ol></p>
+    <section>
+      <ul>
+        <li>
+          <b>Balise simple</b>
+        </li>
+      </ul>
+    </section>
+    <p>Elle permet d&apos;afficher une chaîne de langue ou la valeur d&apos;un champ.</p>
+    <section>
+      <ul>
+        <li>
+          <b>Balise de condition</b>
+        </li>
+      </ul>
+    </section>
+    <example>##reservation.end## indique que l&apos;on veut afficher la date de fin d&apos;une réservation.</example>
+    <section>
+      <p>Elle permet de réaliser un branchement conditionnel : test de la présence d&apos;une valeur pour un champ ou test d&apos;une valeur particulière pour celui-ci.</p>
+      <p>La syntaxe de la balise est la suivante :  </p>
+      <p><ul>
+          <li>IF simple : ##IFnomduchamp## action pour le IF ##ENDIFnomduchamp##</li>
+          <li>IF/ELSE : ##IFnomduchamp## action pour le IF ##ENDIFnomduchamp## ##ELSEnomduchamp## action pour le ELSE ##ENDELSEnomduchamp##</li>
+        </ul></p>
+    </section>
+    <example>Pour tester si un ticket est attribué à un utilisateur : ##IFticket.assigntouser## ... ##ENDIFticket.assigntouser##</example>
+    <example>Pour afficher des informations spécifiques si le statut d&apos;une validation est à &quot;en attente&quot; : ##IFvalidation.storestatus=waiting## ... ##ENDIFvalidation.storestatus## </example>
+    <section>
+      <ul>
+        <li>
+          <b>Balise de boucle</b>
+        </li>
+      </ul>
+    </section>
+    <p>Elle permet de réaliser des énumérations sur des listes de valeurs telles qu&apos;une liste de tickets, ou une liste de contrats expirés.</p>
+    <p>La syntaxe est la suivante :</p>
+    <p><ul>
+        <li>Boucle simple listant tous les éléments : ##FOREACHenumeration## ##ENDFOREACHenumeration## ou ##FOREACH enumeration## ##ENDFOREACH enumeration## ;</li>
+        <li>Boucle de lecture du premier élément de la liste : ##FOREACH FIRST enumeration## ##ENDFOREACH enumeration## ;</li>
+        <li>Boucle de lecture du dernier élément de la liste : ##FOREACH LAST enumeration## ##ENDFOREACH enumeration## ;</li>
+        <li>Boucle listant les 10 premiers éléments de l&apos;énumération : ##FOREACH FIRST 10 enumeration## ##ENDFOREACH enumeration##.</li>
+      </ul><note type="important">il n&apos;est pas possible d&apos;imbriquer 2 balises mais il est possible de placer des balises IF dans des FOREACH.</note></p>
+  </body>
+</topic>

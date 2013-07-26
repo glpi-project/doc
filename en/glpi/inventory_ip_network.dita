@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_ip_network" xml:lang="en-us">
+  <title>Réseau IP</title>
+  <shortdesc>Les Réseaux IP permettent de définir la topologie des réseaux.</shortdesc>
+  <body>
+    <note type="remember">Les réseaux sont indifféremment <xref href="inventory_ip_protocol.dita">IPv4 et en IPv6</xref>.</note>
+    <p>Les réseaux IP regroupent un ensemble d&apos;<varname>adresses IP</varname> regroupées selon la topologie définie par le plan d&apos;adressage des administrateurs du réseau.</p>
+    <p>Ils peuvent s&apos;emboîter : la hiérarchie des réseaux IP dépend des adresses et des masques de ces réseaux ainsi que de leurs identités d&apos;appartenance.</p>
+    <note type="attention">La hiérarchie est gérée implicitement : il est impossible de la modifier soi-même.</note>
+    <p>Un réseau est composé, au minimum, d&apos;une adresse et d&apos;un masque. À cela peut s&apos;ajouter une passerelle.</p>
+    <p>Un réseau est dit <varname>adressable</varname> si il est utilisé pour le routage interne des ordinateurs. En d&apos;autres termes, son masque de sous-réseau et sa passerelle sont utilisés par tous<fn>Si un ou plusieurs ordinateurs n&apos;ont pas les mêmes informations, cela peut engendrer des problèmes de routage...</fn> les équipements du réseau. Généralement un réseau ayant une passerelle est <varname>adressable</varname> car la passerelle est connue de tous les équipements et elle ne peut appartenir qu&apos;à un seul sous-réseau. Mais un réseau <varname>adressable</varname> n&apos;a pas nécessairement de passerelle. C&apos;est par exemple le cas des réseaux privées  (<tt>192.168.48.0/255.255.255.0</tt>...) ou de la boucle locale (<tt>127.0.0.0/255.255.255.0</tt> ou <tt>::1/128</tt>).</p>
+    <p>Les réseaux sont modifiables depuis les intitulés (<menucascade>
+        <uicontrol>Configuration</uicontrol>
+        <uicontrol>Intitulés</uicontrol>
+      </menucascade>) : <menucascade>
+        <uicontrol>Internet</uicontrol>
+        <uicontrol>Réseaux IP</uicontrol>
+      </menucascade></p>
+  </body>
+</topic>

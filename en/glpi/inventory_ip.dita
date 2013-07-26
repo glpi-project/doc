@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_ip" xml:lang="en-us">
+  <title>Gestion du protocole Internet (IP)</title>
+  <shortdesc>Le protocole IP est matérialisé sous plusieurs formes : adresses IP, réseaux IP, mais aussi des FQDN</shortdesc>
+  <body>
+    <p>Un équipement se connecte au réseau au travers de <xref href="inventory_network_connection.dita">ports réseau</xref>.</p>
+    <p>À un port réseau, on associe un ou plusieurs <xref href="inventory_ip_network_name.dita">Nom réseau</xref>.</p>
+    <p>Un <varname>Nom réseau</varname> peut appartenir à un <varname>Domaine Internet</varname>. Il peut contenir une ou plusieurs <xref href="inventory_ip_protocol.dita">adresses IP</xref> et il peut avoir plusieurs <varname>alias</varname>.</p>
+    <p>Une <varname>adresse IP</varname> appartient à un <xref href="inventory_ip_network.dita">réseau IP</xref>.</p>
+    <p>Les <varname>réseaux IP</varname> s&apos;emboîtent les uns dans les autres (par exemple, <tt>192.168.1.0/255.255.255.0</tt> est un sous réseau de <tt>192.168.0.0/255.255.254.0</tt>).</p>
+  </body>
+</topic>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_satisfaction" xml:lang="en-us">
+  <title>Satisfaction</title>
+  <shortdesc>The result of the satisfaction survey of a ticket, characteristics and use</shortdesc>
+  <body>
+    <p>At the close of a ticket, a customer satisfaction survey can be sent to applicants. The sending frequency  and
+trigger  after ticket closure is defined per entity (see <xref href="administration_entity_delegation.dita"/>).</p>
+    <p>If email notifications are enabled (see <xref href="config_notification_configuration.dita"/>), a notification
+is sent asking them to respond to the survey. Otherwise, requesters will have access to the surveys after the
+page of the ticket.</p>
+    <p>The requester may then define the degree of satisfaction (0 to 5) on the resolution of his ticket. They can
+also comment if they wish.</p>
+    <p>Statistics on investigations are available in <xref scope="external" href="helpdesk_stat.dita">statistiques</xref>.</p>
+    <note>A requester may amend their answer to the satisfaction survey in a within 12h after the first response.</note>
+  </body>
+</topic>

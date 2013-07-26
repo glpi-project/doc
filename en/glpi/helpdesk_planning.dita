@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_planning" xml:lang="en-us">
+  <title>View and manage schedules</title>
+  <shortdesc>Schedules are managed from the menu <menucascade>
+      <uicontrol>Assistance</uicontrol>
+      <uicontrol>Planning</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Planning allows the user to view scheduled tasks for a ticket or a problem and also scheduled reminders or scheduled items fro plugins.</p>
+    <p>You can choose the date and time for viewing. Filtering the objects included in the schedule is also possible.</p>
+    <p>4 views are availables depending of rights of the user:<ul>
+        <li>Personal view: only the items of the current user</li>
+        <li>View group: only the items of the groups of the current user (requires the right to see the schedule of people in my groups)</li>
+        <li>Users: You can view the schedule for a specific user (requires the right to see all plannings)</li>
+        <li>Groups: You can see the schedule of a specific group (requires the right to see all schedules)</li>
+      </ul></p>
+    <p>This information is exported in two formats: <ul>
+        <li>Ical in order to integrate the calendar with third-party software</li>
+        <li>Webcal &quot;protocol&quot; that allows to subscribe a calendar to a third party software on the GLPI planning</li>
+      </ul></p>
+    <note>Access to the Ical and Webcal protocol is protected by a security key integrated into the URL. It is possible to regenerate this key from the &quot;Preferences&quot; menu. See <xref href="start_pref.dita"/> and more precisely <xref href="config_common_personalize.dita"/>.</note>
+    <note>Notes are also displayed in planning.</note>
+  </body>
+</topic>

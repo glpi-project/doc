@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_budget" xml:lang="en-US">
+  <title>Budget management</title>
+  <shortdesc>Budgets are managed via menu <menucascade>
+      <uicontrol>Management</uicontrol>
+      <uicontrol>Budgets</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>A budget is made of a certain amount of fields: a  <b>name</b>, a <b>value</b>, a  period of time in which the budget has been allocated, defined by a <b>start date</b> and a <b>end date</b>.  </p>
+    <p>The budget must be defined in the financial and administrative information of inventory items.</p>
+    <p>It can be also defined over several entities (recursivity).</p>
+    <p>A budget summary grouped by inventory item types is shown (total spent per par type, total remaining).</p>
+    <note>when viewing sub-entity budget, total remaining budget is not accessible. </note>
+    <note type="important">this total is be negative when total value of inventory item is greater than budget value.</note>
+    <note>templates can be defined for budgets (see <xref href="template.dita"/>).</note>
+  </body>
+</topic>

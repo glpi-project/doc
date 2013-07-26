@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_actors" xml:lang="en-us">
+  <title>Define the actors and their roles</title>
+  <shortdesc>Define the actors and their roles</shortdesc>
+  <body>
+    <p>Here are the different roles that traditionally found in  support services :</p>
+    <ul>
+      <li>Requesters : are the users or user groups known in GLPI to be initiating the ticket.</li>
+      <li>Technicians (&quot;Assigned&quot;): the management of a ticket is made either by a technician or by skill group or by a provider referenced in the application.</li>
+      <li>Watchers : are users or groups of users that receive notifications.</li>
+    </ul>
+    <p>Depending on the user&apos;s role, GLPI changes the information visible and possible actions.
+
+</p>
+    <p>Technicians are the actors with the most complete information, and the wider latitude of action
+on the tickets.
+
+</p>
+    <p>The requester and the watcher roles will see only the information necessary to meet their demand.
+
+</p>
+    <p>In the case of multiple users or groups, only the first user or group is defined when creating
+the ticket, additional players are added later. A user, having no right to change
+but the actors can see the ticket with his clearances, has the opportunity to become an observer.</p>
+<p>
+On adding a new actor, you could also see the number of tickets in progress for this actor in order to facilitate the distribution of tasks between technicians.
+</p>
+    <note>In the case of unknown requestors GLPI, emails can also be associated with a ticket. The default option (no user selected) at the level of requester or watcher can enter an email in the box. In addition, notifications must be activated (see <xref href="config_notification.dita"/>). </note>
+    <note>In GLPI, assigning one of these roles is at the level of management clearances of users (see <xref href="administration_rule_right.dita"/>). </note>
+  </body>
+</topic>

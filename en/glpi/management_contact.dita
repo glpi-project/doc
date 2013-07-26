@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_contact" xml:lang="en-US">
+  <title>Contact management</title>
+  <shortdesc>Contacts are managed via menu <menucascade>
+      <uicontrol>Management</uicontrol>
+      <uicontrol>Contacts</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Les utilisateurs au sens de GLPI sont les personnes disposant d&apos;un accès à l&apos;application. Les  personnes extérieures, généralement associées à des contrats, sont stockées sous la forme de contacts (voir <xref href="glossary/contact.dita"/>). </p>
+    <p>Chaque contact est caractérisé par les informations d&apos;identité usuelles ainsi  qu&apos;un titre et  des  coordonnées  téléphoniques et  de messagerie et postales. La définition d&apos;une liste de  types de contacts permet de classer les contacts selon leur type. L&apos;exportation au format vCard est possible dans la fiche de chaque contact.</p>
+    <note>la liste des titres possibles pour un contact est identique à celle des utilisateurs. </note>
+  </body>
+</topic>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_display" xml:lang="en-us">
+  <title>Onglet Configuration Affichage</title>
+  <shortdesc>Cet onglet permet de personnaliser l&apos;apparence générale de l&apos;application.</shortdesc>
+  <body>
+    <p>L&apos;apparence générale de l&apos;application est paramétrable : types de graphiques par défaut, nombre de décimales pour les montants, nombre maximum de caractères affichés dans les listes, nombre maximum de caractères affichés pour les URL, nombre maximum de résultats de recherche à afficher par page...</p>
+    <p>L&apos;adresse web de l&apos;application est également modifiable. Elle est utilisé dans les différents liens fournit par l&apos;applications ainsi que pour les notifications. Elle est définie à l&apos;installation en fonction de l&apos;adresse utilisée pendant celle-ci.</p>
+    <p>Dans l&apos;interface publique, il est possible d&apos;ajouter un message personnalisé et d&apos;autoriser la consultation de la FAQ. </p>
+    <p>Le lien Aide qui se trouve en haut à droite de l&apos;interface peut pointer vers différentes adresses en fonction de l&apos;interface de l&apos;utilisateur. Par défaut ce lien renvoie vers la documentation en ligne officielle de GLPI.</p>
+    <p>L&apos;affichage dynamique, désactivé par défaut, permet une meilleure interaction avec l&apos;application et notamment de proposer la complétion automatique sur les champs. Le joker de l&apos;affichage dynamique permet de restreindre les résultats proposés. Par défaut, la recherche porte sur tous les résultats possibles (*). L&apos;affichage dynamique est paramétrable et peut être désactivé pour des listes courtes (Ne pas utiliser l&apos;affichage dynamique si le nombre d&apos;éléments est inférieur à). Il est également possible de définir le nombre minimal de caractères à saisir avant d&apos;alimenter les listes déroulantes ainsi que le temps d&apos;attente minimal entre 2 alimentations. La complétion automatique des champs textes permet de se voir proposer pour un champ texte les valeurs déjà en base commençant par la saisie en cours.</p>
+    <p>Les critères <i>Tous et Éléments visualisés</i> utilisés dans le moteur de recherche peuvent être masqués, définis comme critère par défaut ou comme dernier critère affiché. La recherche globale peut également être désactivée.</p>
+  </body>
+</topic>

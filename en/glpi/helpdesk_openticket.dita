@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_openticket" xml:lang="en-us">
+  <title>Open a ticket</title>
+  <shortdesc>Open a ticket in GLPI</shortdesc>
+  <body>
+    <p>The user can open a ticket :</p>
+    <ul>
+      <li>in GLPI <ul>
+          <li>via the interface to anonymously open tickets accessible by unauthenticated users</li>
+          <li>using the simplified (reduced entry form) for an authenticated user</li>
+          <li>via the standard interface (complete entry form)</li>
+        </ul></li>
+      <li>Email: The user sends an email to an defined email address. Upon receipt of the email, a ticket is opened automatically (see <xref href="config_mailcollector.dita"/>).</li>
+    </ul>
+    <p>Whatever the creation method  of a ticket, if no title (or subject to an email) is specified, the ticket will
+name as the first 70 characters of the description field (or the body of the email).</p>
+    <p>Depending on the configuration, some fields may be required to open a ticket (content, title and / or
+category). If one of them is missing the ticket will not be created.</p>
+    <note>The fields are described in the section <xref href="helpdesk_ticket.dita"/>.</note>
+    <note>Delegation allows a user to report an incident for another person. Configuring this feature is described in chapter <xref href="administration_group.dita"/>. In the simplified interface, an option to specify whether the incident involved the user himself or another. In the standard interface, the option is active when the right <b>See all tickets</b> is disabled in the profile. This results in the addition as applicant of all users for whom the delegation takes place.</note>
+    <section>
+      <title>Interface for opening of anonymous tickets (for unauthenticated users)</title>
+      <p>Available at  <uicontrol>http://&lt;GLPI_ADDRESS&gt;/front/helpdesk.html</uicontrol>, it allows users with no
+GLPI account to send a report form to the support center. Once completed and submitted the entry form, a message confirms the good creation of the ticket. This form can be customized by editing the file directly helpdesk.html. By default the ticket is created
+in the root entity.</p>
+    </section>
+    <section>
+      <title>Simplified Interface</title>
+      <p>It allows an authenticated user to quickly create a ticket for himself or for another person
+(Delegation).</p>
+      <p>A message prompting the user to confirm his personal details (location, telephone) can be displayed to facilitate contact by technicians (see Configuration / <xref href="config_common_assist.dita"/>).</p>
+      <p>To do this, complete the entry form displayed upon GLPI login  and validate.</p>
+      <p><b>Specific fields :</b></p>
+      <ul>
+        <li>
+          <b>Email Follow-ups </b>
+          <p>Appears if followed by e-mail have been configured (see <xref href="config_notification.dita"/>).</p>
+          <p>Selection to &quot;Yes&quot; allows the requester to be informed by email of different updates for 
+his ticket.</p>
+        </li>
+        <li><b>Email</b> : Address where notifications will be sent. If several are defined, it will take the default address associated with the authenticated user but it is possible to select another. </li>
+        <li><b>Hardware Type</b> : Allows you to associate an inventory object to a ticket. <p>
+The content of the list depends on the settings in the profile (see <xref href="administration_profile.dita"/>).</p></li>
+      </ul>
+<note type="tip">Each user can add new email addresses to their profile directly from its Preferences (see <xref href="start_pref.dita"/>).</note>
+      <p>It is possible to add one or more documents in a single operation to the ticket.</p>
+      <p>A message confirms the creation of the ticket and can be accessed by clicking the ticket number that appears in green.</p>
+    </section>
+    <section>
+      <title>Standard Interface</title>
+      <p>To create a new ticket go to the menu <menucascade>
+          <uicontrol>Assistance</uicontrol>
+          <uicontrol>Tickets</uicontrol>
+          <uicontrol>
+            <image href="../image/menu_add.png" align="center"/>
+          </uicontrol>
+        </menucascade>.</p>
+      <p>It is possible to add one or more documents in a single operation to the ticket</p>
+      <p>A message confirms the creation of the ticket and can be accessed by clicking the ticket number that appears in green.</p>
+      <p>A request for validation can be performed at the  opening of the ticket by simply indicating the desired validator.</p>
+    </section>
+    <note>At the entry of the requester or assigned technician or group, information is displayed to determine how many tickets the person has already opened or is currently supporting. Similar to the selection of equipment, a simplified view of current tickets is displayed.</note>
+    <section>
+      <title>Email Receiver</title>
+      <p>Just send an email to the address defined in the configuration (see <xref href="config_mailcollector.dita"/>). The subject line becomes the title of the ticket, the body becomes the description and the attached documents will be added to the ticket.</p>
+    </section>
+  </body>
+</topic>
