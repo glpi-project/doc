@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config" xml:lang="fr-fr">
+  <title>Module Configuration</title>
+  <shortdesc>Module <menucascade>
+      <uicontrol>Configuration</uicontrol>
+    </menucascade> de GLPI</shortdesc>
+  <body>
+    <p>Le module <uicontrol>Configuration</uicontrol> permet d&apos;accéder aux options de configuration générale de GLPI : les notifications, les collecteurs, les tâches automatiques, l&apos;authentification, les plugins et les liens externes protocolés.</p>
+  </body>
+</topic>

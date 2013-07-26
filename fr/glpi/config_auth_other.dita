@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth_other" xml:lang="fr-fr">
+  <title>Configurer les autres méthodes d&apos;authentification externe</title>
+  <shortdesc>L&apos;interfaçage de GLPI à des systèmes permettant de faire de l&apos;authentification unique se configure depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Authentification</uicontrol>
+      <uicontrol>Autre méthode d&apos;authentification</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <p>GLPI permet de déléguer l&apos;authentification des utilisateurs à des systèmes externes afin d&apos;obtenir une authentification unique (SSO pour Single Sign On).</p>
+    <p>Dans ce cadre, le moteur de contrôle d&apos;accès sera appliqué afin de savoir s&apos;ils ont au moins une habilitation. Si au moins un annuaire LDAP est configuré, GLPI fera des requêtes sur l&apos;annuaire (comme dans le mécanisme standard d&apos;authentification). Si l&apos;utilisateur se connectant n&apos;est pas encore connu dans l&apos;application, tous les annuaires seront testés afin de réaliser l&apos;import.</p>
+    <section>
+      <title>Serveur central d&apos;authentification (CAS)</title>
+      <p>La configuration du serveur CAS est composée de l&apos;<userinput>adresse du serveur</userinput> d&apos;authentification et de son <userinput>port</userinput> (par défaut 443). Un <userinput>répertoire de base</userinput> peut être spécifié si besoin. L&apos;<userinput>adresse web de retour à la déconnexion</userinput> permet de rediriger l&apos;utilisateur vers une page spécifique lorsque celui-ci se déconnecte de GLPI.</p>
+      <note type="important">une fois activée, chaque authentification est redirigée vers le serveur CAS. Afin de pouvoir se connecter avec un utilisateur local (donc défini et authentifié sur la base GLPI), il faut se connecter en ajoutant <userinput>?noAUTO=1</userinput> à l&apos;URL.</note>
+      <note type="note">L&apos;extension CURL ou DOMXML du parseur PHP est nécessaire pour l&apos;authentification CAS.</note>
+    </section>
+    <section>
+      <title>Authentifier les utilisateurs par certificat x509</title>
+      <p>La variable <userinput>Attribut adresse de messagerie pour x509</userinput>  indique à GLPI de rechercher la valeur de cet attribut dans la variable de requête HTTP nommée <varname>SSL_CLIENT_S_DN</varname>, passée par le système d&apos;authentification.</p>
+      <p>Il est possible de restreindre les valeurs acceptées pour les champs O, OU et CN du certificat client. Afin de spécifier plusieurs valeurs pour chaque champ, il suffit de séparer celles-ci par le symbole <i>$</i>. </p>
+    </section>
+    <section>
+      <title>Autres authentifications automatiques</title>
+      <p>GLPI peut se baser sur d&apos;autres systèmes externes pour authentifier les utilisateurs, comme par exemple :<ul>
+          <li>une authentification basique Apache</li>
+          <li>une authentification sur domaine Windows</li>
+          <li>une authentification provenant d&apos;un serveur d&apos;authentification comme LemonLDAP::NG, Shibboleth...</li>
+        </ul></p>
+      <p>Le fonctionnement est simple : lorsque l&apos;utilisateur désire accéder à GLPI, celui-ci vérifie la présence d&apos;une variable dans les entêtes HTTP. Si celle-ci est présente, l&apos;authentification est supposée effectuée. On peut mapper les <i>données transmises par le système d&apos;authentification</i> avec les <i>champs du compte utilisateur de GLPI</i> (nom, prénom, email, langue...). Pour finir, les contrôles d&apos;habilitations sont réalisés. Une option permet de supprimer le domaine de l&apos;utilisateur de la variable avant contrôle d&apos;accès.
+</p>
+      <note>La liste des valeurs possibles pour les entêtes est configurable : les plus communes sont fournies mais il est possible d&apos;en ajouter, voir <xref href="config_dropdown.dita"/>.</note>
+    </section>
+  </body>
+</topic>

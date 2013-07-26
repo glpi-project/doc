@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="management_document_t_create">
+  <title>Ajouter un document</title>
+  <taskbody>
+    <context> Ajouter un document dans GLPI</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Gestion</uicontrol>
+            <uicontrol>Documents</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Utiliser le bouton parcourir pour ajouter un document depuis un emplacement extérieur. Il est possible que le type de fichier ne soit pas autorisé. Il faut donc ajouter le type désiré depuis le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Intitulés</uicontrol>
+            <uicontrol>Type de document</uicontrol>
+          </menucascade> puis le relier au document créé ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+      </step>
+      <step>
+        <cmd>Valider.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche créée </result>
+  </taskbody>
+</task>

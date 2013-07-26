@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticket_satisfaction" xml:lang="fr-fr">
+  <title>La satisfaction</title>
+  <shortdesc>Le résultat de l&apos;enquête de satisfaction d&apos;un ticket, caractéristiques et utilisation</shortdesc>
+  <body>
+    <p>A la clôture d&apos;un ticket, une enquête de satisfaction peut être envoyée aux demandeurs. La fréquence d&apos;envoi et le délai de déclenchement après la clôture se paramètre par entité (voir <xref href="administration_entity_delegation.dita"/>).</p>
+    <p>Si les notifications par courriel sont activées (voir <xref href="config_notification_configuration.dita"/>), une notification est envoyée leur demandant de répondre à l&apos;enquête. Sinon, les demandeurs auront accès à ces enquêtes depuis la page du ticket.</p>
+    <p>Le demandeur peut alors définir son degré de satisfaction (de 0 à 5) concernant la résolution de son ticket. Il peut également ajouter un commentaire s&apos;il le souhaite.</p>
+    <p>Des statistiques concernant les enquêtes sont disponibles dans les <xref href="helpdesk_stat.dita" scope="external">statistiques</xref>.</p>
+    <note>Le demandeur peut modifier sa réponse à l&apos;enquête de satisfaction interne dans un délai de 12h suivant sa première réponse.</note>
+  </body>
+</topic>

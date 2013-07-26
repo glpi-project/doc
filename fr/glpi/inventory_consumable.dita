@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_consumable" xml:lang="fr-fr">
+  <title>Gérer les consommables</title>
+  <shortdesc>Les consommables se gèrent depuis le menu <menucascade>
+      <uicontrol>Parc</uicontrol>
+      <uicontrol>Consommables</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Dans la fiche d&apos;un consommable, plusieurs informations sont disponibles:</p>
+    <ul>
+      <li>Sur les caractéristiques générales du consommable (le fabricant, le type, la référence...)</li>
+      <li>Sur la gestion du consommable (le responsable technique, son lieu de stockage...)</li>
+    </ul>
+    <p>Le seuil d&apos;alerte correspond  à la valeur minimale à partir de laquelle une alerte est déclenchée.</p>
+    <note>Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir <xref href="config_notification.dita"/>).</note>
+    <p>Il est possible d&apos;ajouter autant de consommables que nécessaire.</p>
+    <p>Pour passer un consommable de l&apos;état de neuf à utilisé, il est nécessaire de renseigner l&apos;utilisateur ou le groupe concerné.</p>
+  </body>
+</topic>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_use" xml:lang="fr-fr">
+  <title>Gérer son inventaire</title>
+  <shortdesc>La gestion de l&apos;inventaire dans GLPI</shortdesc>
+  <body>
+    <section>
+      <title>Modes d&apos;utilisation</title>
+    </section>
+    <p>Pour la gestion des matériels et des logiciels du  parc, GLPI permet nativement de lister tous les élements présents au sein de l&apos;organisme que l&apos;on souhaite administrer.</p>
+    <p>Cependant, on peut automatiser la remontée d&apos;informations depuis les équipements grâce à un outils tiers. Ainsi GLPI propose l&apos;utilisation de 2 plugins existants.</p>
+    <p><b>Outils disponibles :</b></p>
+    <p><ul>
+        <li>Le plugin <xref href="https://forge.indepnet.net/projects/ocsinventoryng" format="html">ocsinventoryng</xref> qui permet de synchroniser la base GLPI avec un outil d&apos;inventaire <xref href="http://www.ocsinventory-ng.org" format="html">OCS Inventory NG</xref> (Les agents des ordinateurs du parc discutent avec le serveur OCS Inventory NG).</li>
+        <li>Le plugin <xref href="http://www.fusioninventory.org" format="html">Fusion Inventory</xref> qui transforme GLPI en serveur d&apos;inventaire (les agents discutent directement avec GLPI).</li>
+      </ul></p>
+  </body>
+</topic>

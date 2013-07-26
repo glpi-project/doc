@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_ticketstatus" xml:lang="fr-fr">
+  <title>Les statuts</title>
+  <shortdesc>Les statuts</shortdesc>
+  <body>
+    <p>ITIL définit le cycle de vie des statuts d&apos;un ticket. Ce cycle de vie est implémenté comme suit dans GLPI :<ul>
+        <li>Nouveau</li>
+        <li>En attente</li>
+        <li>En cours (attribué)</li>
+        <li>En cours (planifié)</li>
+        <li>Résolu</li>
+        <li>Clos</li>
+      </ul></p>
+    <p>Ces statuts ne sont ni paramétrables ni modifiables. </p>
+    <note>On peut néanmoins cacher certains statuts dans la configuration générale du helpdesk (voir <xref href="config_common_assist.dita"/> de la partie administration).</note>
+    <note>Pour aller plus loin dans cette gestion des statuts, voir <xref href="helpdesk_advanced_collectors.dita"/>, <xref href="helpdesk_advanced_templates.dita"/> et <xref href="helpdesk_advanced_businessrules.dita"/>.</note>
+  </body>
+</topic>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_sla" xml:lang="fr-fr">
+  <title>Configurer les SLAs</title>
+  <shortdesc>Dans GLPI, administrer les SLAs peut se faire à partir du menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>SLAs</uicontrol>
+    </menucascade>. </shortdesc>
+  <body>
+    <p>Un SLA (Service Level Agreement ou accord de niveau de service) est la formalisation d&apos;un contrat négocié entre le ServiceDesk et le client définissant le niveau de service attendu et donc au délai maximum pour résoudre un incident ou une demande (J+1, H+4...). </p>
+    <p>Des niveaux d&apos;escalades peuvent être définis au sein d&apos;un SLA. Chaque niveau déclenche des actions automatiques permettant la résolution du ticket dans les meilleurs délais. Un niveau se déclenche avant ou après la date d&apos;échéance du SLA en fonction du délai défini. Par exemple, un jour avant l&apos;échéance, le ticket est affecté au support de niveau 2 et sa priorité passée à Haute.</p>
+    <p>Les niveaux d&apos;escalades peuvent être conditionnés par des critères de déclenchement. Sans critère, le niveau sera déclencher mais si des critères sont définis, ils seront contrôlés avant application du niveau d&apos;escalade. Par exemple, si 1 jour avant la date d&apos;échéance vous souhaitez envoyer un rappel à l&apos;administrateur si le ticket est toujours à l&apos;état <i>Nouveau</i>, il faut définir comme critère <codeph>Status n&apos;est pas Nouveau</codeph>.</p>
+    <p>Les SLAs sont associés aux tickets via le moteur de règles des tickets (voir <xref href="administration_rule_ticket.dita"/>). L&apos;association du SLA au ticket permet le calcul automatique de sa date d&apos;échéance. Plusieurs SLAs peuvent ainsi être définis et affectés suivant des critères précis. Par exemple, le SLA 1 sera affecté si le ticket est associé à une catégorie spécifique et le SLA 2 pour les autres catégories.</p>
+    <note type="caution">Une SLA peut être affectée a posteriori. A l&apos;affectation de celui-ci, il sera complètement rejoué et les actions associées aux niveaux d&apos;escalade passés seront exécutées.</note>
+    <p>Un calendrier peut être associé à un SLA (voir <xref href="config_dropdown.dita"/>). Par défaut, aucun calendrier n&apos;est associé et les calculs se font sur une base de travail 7 jours sur 7 et 24 heures sur 24. Il est également possible d&apos;utiliser le calendrier associé au ticket (i.e. celui de l&apos;entité à laquelle est rattaché le ticket).</p>
+    <note type="important">Si le temps maximum de résolution est exprimé en jours, l&apos;ensemble des calculs se feront en jours (J+1, J+4 par exemple) en tenant compte du calendrier pour déterminer les jours ouvrés. Si le temps maximum de résolution est exprimé en heures alors les calculs seront réalisés en tenant compte des horaires d&apos;ouvertures. Par exemple pour un SLA en H+4 avec un calendrier définissant des horaires d&apos;ouverture de 8h à 18h, un ticket ouvert à 16h aura une date d&apos;échéance le lendemain à 10h.</note>
+    <p>Le passage du ticket au statut en attente met le SLA en sommeil. Si le ticket reste en attente 3 heures par exemple, la date d&apos;échéance sera repoussée de 3 heures.</p>
+  </body>
+</topic>

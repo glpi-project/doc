@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule_importorlink" xml:lang="fr-fr">
+  <title>Importer ou lier une machine provenant d&apos;un outil d&apos;inventaire</title>
+  <shortdesc>Un moteur de règles spécifique permet de contrôler le processus d&apos;import et de liaison des machines depuis un outil d&apos;inventaire.</shortdesc>
+  <body>
+    <p>Ce type de règle est accessible depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Règles</uicontrol>
+        <uicontrol>Règles d&apos;import et de liaison des ordinateurs</uicontrol>
+      </menucascade>.</p>
+    <p>Ce moteur a pour vocation de définir des règles qui permettent d&apos;importer, de lier ou de refuser des ordinateurs.</p>
+    <p>Cinématique d&apos;import d&apos;une machine  :</p>
+    <p><ol>
+        <li>la machine à importer passe dans le moteur d&apos;affectation d&apos;entité. S&apos;il n&apos;en renvoie aucune, alors la machine n&apos;est pas importée. Dans le cas contraire, le processus continue</li>
+        <li>la machine passe dans le moteur d&apos;import et de liaison. En fonction des règles, elle est soit importée dans son entité de destination, soit liée avec une autre présente dans GLPI, soit pas importée </li>
+      </ol></p>
+    <p>Un certain nombre de critères sont disponibles : des champs génériques (nom, description, numéro de série, domaine, adresse IP, sous-réseau) mais aussi des champs venant de l&apos;outil d&apos;inventaire si celui-ci les propose, l&apos;entité de destination de la machine ainsi qu&apos;un statut servant à rechercher une machine déjà présente dans GLPI.</p>
+    <p>Les actions possibles sont d&apos;<uicontrol>ignorer l&apos;import de la machine</uicontrol>, de <uicontrol>la lier si possible sinon de l&apos;importer </uicontrol>ou  de la <uicontrol>lier si possible sinon de refuser l&apos;import</uicontrol>.</p>
+    <note type="important">Le moteur s&apos;arrête à la première règle vérifiée.</note>
+    <note type="important">La recherche d&apos;une machine déjà présente dans GLPI se fait uniquement dans l&apos;entité de destination de la machine.</note>
+    <example>Refus des imports de toutes les machines provenant d&apos;un serveur d&apos;inventaire en particulier : si <i>serveur d&apos;inventaire est serveur 1</i>, <i>refuser l&apos;import oui</i>.</example>
+    <example>Liaison de machines : si <i>Machine à importer : Numéro de série</i><i> est déjà présent dans GLPI oui</i> ET <i>Chercher les ordinateurs dans GLPI dont le statut est en stock</i> alors <i>Liaison </i><i>assigner Liaison si possible, sinon pas d&apos;import</i>.</example>
+    <example>Refus d&apos;un ordinateur pour mauvais numéro de série : <i>Machine à importer : Numéro de série est &quot;To be Filled By OEM&quot;</i> alors <i>Liaison refuser l&apos;import oui</i>.</example>
+  </body>
+</topic>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_actors" xml:lang="fr-fr">
+  <title>Définir les acteurs et leurs rôles</title>
+  <shortdesc>Définir les acteurs et leur rôles</shortdesc>
+  <body>
+    <p>Voici les différents rôles que l&apos;on retrouve traditionnellement dans les
+services d&apos;assistance :</p>
+    <ul>
+      <li>Demandeurs : ce sont les utilisateurs ou groupes d&apos;utilisateurs connus dans GLPI concernés par le ticket (la ou les victimes).</li>
+      <li>Exécutants/Techniciens (&quot;attribué à&quot;) : la prise en charge d&apos;un ticket est effectuée soit par un technicien, soit par un groupe de compétences ou encore par un fournisseur référencé dans l&apos;application.</li>
+      <li>Observateurs : ce sont des utilisateurs ou groupes d&apos;utilisateurs qui reçoivent des notifications.</li>
+    </ul>
+    <p>Selon le rôle de l&apos;utilisateur, GLPI modifie les informations visibles ainsi
+que les actions possibles.
+
+</p>
+    <p>Les techniciens sont les acteurs disposant des informations
+les plus complètes, et de la plus large latitude d&apos;action sur les tickets.
+
+</p>
+    <p>Le demandeur et l&apos;observateur ne verront que les informations nécessaires pour
+répondre à leur demande.
+
+</p>
+    <p>Dans le cas d&apos;utilisateurs ou de groupes multiples, seul le premier utilisateur ou groupe est défini lors de la création
+du ticket, les acteurs supplémentaires sont ajoutés ultérieurement. Un utilisateur, n&apos;ayant pas de droit de modifier les
+acteurs mais pouvant voir le ticket grâce à ses habilitations, a la possibilité de devenir observateur.</p>
+    <p>Au moment de l&apos;association d&apos;un nouvel acteur, vous pouvez également voir le nombre de tickets en cours pour cet acteur permettant de faciliter la répartition des tâches entre techniciens par exemple.</p>
+    <note>Dans le cas d&apos;utilisateurs non connus de GLPI, des courriels peuvent également être associés à un ticket. Le choix par défaut (pas d&apos;utilisateur sélectionné) au niveau des demandeurs ou observateurs permet de saisir un courriel dans la zone correspondante. De plus, les notifications doivent être activées (voir <xref href="config_notification.dita"/>). </note>
+    <note>Dans GLPI, l&apos;attribution de l&apos;un de ces rôles se fait au niveau de la gestion des habilitations des utilisateurs (voir <xref href="administration_rule_right.dita"/>). </note>
+  </body>
+</topic>

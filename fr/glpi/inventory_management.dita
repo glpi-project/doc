@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_management" xml:lang="fr-fr">
+  <title>Gérer les informations financières et administratives</title>
+  <shortdesc>Éléments de gestion pour les éléments d&apos;inventaire</shortdesc>
+  <body>
+    <section>
+      <p>Il est possible d&apos;activer les informations financières sur tout type d&apos;objet de l&apos;inventaire. Soit en utilisant le lien dans l&apos;onglet <b>Gestion</b> du détail du matériel, soit grâce au système de modification massive, en modifiant par exemple la date d&apos;achat pour plusieurs éléments.
+
+</p>
+      <p>Les informations financières sont composées des éléments suivants : </p>
+      <ul>
+        <li><b>Fournisseur</b> : tiers qui a vendu le matériel. Voir <xref href="management_supplier.dita"/> ;</li>
+        <li><b>Numéro de facture</b> : numéro de la facture du matériel ;</li>
+        <li><b>Numéro de commande</b> : numéro de la commande du matériel ;</li>
+        <li><b>Bon de livraison</b> : bon de livraison du matériel ;</li>
+        <li><b>Date d&apos;achat</b> : date à laquelle le matériel a été acheté ;</li>
+        <li><b>Date de commande</b> : date à laquelle le matériel a été commandé ;</li>
+        <li><b>Date de mise en livraison</b> : date à laquelle le matériel a été livré ;</li>
+        <li><b>Date de mise en service</b> : date à laquelle le matériel a été mis en service ;</li>
+        <li><b>Date de début de garantie</b> : date à laquelle le garantie du matériel démarre ;</li>
+        <li><b>Date de dernier inventaire physique</b> : date du dernier inventaire physique du matériel ;</li>
+        <li><b>Budget</b> : budget sur lequel ce matériel a été acheté (voir la gestion des budgets) ;</li>
+        <li><b>Valeur</b> : coût du matériel ;</li>
+        <li><b>Valeur nette comptable</b> : c&apos;est le calcul automatique de la valeur brute d&apos;un matériel minorée du montant des amortissements ;</li>
+        <li><b>Durée de garantie</b> : durée de la garantie exprimée en mois ;</li>
+        <li><b>Expire le</b> : date d&apos;expiration calculée avec la date d&apos;achat et la durée de la garantie ;</li>
+        <li><b>Valeur extension garantie</b> : coût de l&apos;extension de garantie, mais de préférence utiliser les contrats ;</li>
+        <li><b>Informations garantie</b> : texte qualifiant la garantie ;</li>
+        <li><b>Numéro d&apos;immobilisation</b> ;</li>
+        <li><b>Type d&apos;amortissement</b> : choix du type d&apos;amortissement entre linéaire et dégressif ;</li>
+        <li><b>Durée d&apos;amortissement</b> : durée d&apos;amortissement exprimée en années ;</li>
+        <li><b>Coefficient d&apos;amortissement</b> : coefficient s&apos;appliquant sur un type d&apos;amortissement linéaire afin d&apos;obtenir les valeurs du type dégressif. Il est donc utilisé uniquement si le type d&apos;amortissement est dégressif ;</li>
+        <li><b>TCO (valeur+montant des interventions)</b> : le coût total de possession qui intègre tous les éléments constitutifs d&apos;un produit facturé ;</li>
+        <li><b>TCO mensuel</b> : TCO divisé par le nombre de mois entre la date d&apos;aujourd&apos;hui et la date d&apos;achat du matériel ;</li>
+      </ul>
+      <p>L&apos;ensemble des dates définies peut être géré automatiquement en fonction des changements de statut des matériels. Certaines dates peuvent également être copiées à partir d&apos;une autre date. L&apos;ensemble de cette configuration s&apos;effectue par <xref href="administration_entity_delegation.dita" scope="external">entité</xref>.</p>
+      <note type="tip">GLPI permet de configurer une notification sur l&apos;expiration de la garantie du matériel. Ceci est configurable par entité dans le menu <b>Configuration &gt; Notifications</b> pour définir les modèles et destinataires utilisés et dans le menu <b>Configuration &gt; Entité</b> pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l&apos;envoi de la notification si besoin.</note>
+      <note type="tip">GLPI peut réaliser un calcul de valeur nette comptable simple sur la base d&apos;un amortissement linéaire ou dégressif. Il convient, pour cela, de renseigner un certain nombre d&apos;informations (valeur, date d&apos;achat ou de mise en service, durée d&apos;amortissement, coefficient d&apos;amortissement) et de renseigner également dans <b>Configuration &gt; Générale</b> la date de l&apos;exercice comptable. Pour plus d&apos;informations sur les notions d&apos;amortissements, vous pouvez vous référer à cet article : <xref href="http://fr.wikipedia.org/wiki/Amortissement_comptable#Modes_d.E2.80.99amortissement_accept.C3.A9s_comptablement" format="html">http://fr.wikipedia.org/wiki/Amortissement_comptable#Modes_d.E2.80.99amortissement_accept.C3.A9s_comptablement</xref>.</note>
+      <note type="tip">L&apos;affichage des informations financières pour chaque type de matériel dépend du profil de l&apos;utilisateur connecté. Il peut donc varier selon le profil.</note>
+    </section>
+  </body>
+</topic>

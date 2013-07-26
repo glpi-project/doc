@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_group" xml:lang="fr-fr">
+  <title>Administrer les groupes</title>
+  <shortdesc>Dans GLPI, administrer les groupes peut se faire à partir du menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Groupes</uicontrol>
+    </menucascade>. </shortdesc>
+  <body>
+    <p>Depuis le menu <menucascade>
+        <uicontrol>Administration</uicontrol>
+        <uicontrol>Groupes</uicontrol>
+      </menucascade>, il est possible d&apos;ajouter, modifier, supprimer des groupes, de faire des recherches et de les exporter.</p>
+    <p>Les groupes peuvent être définis sous forme d&apos;arborescence afin de faciliter la navigation et la recherche. Exemple : <tt>Direction &gt; Département &gt; Service</tt> ou <tt>Support N3 &gt; Réseau &gt; LAN</tt></p>
+    <p>Les groupes peuvent avoir plusieurs fonctions : rassemblement d&apos;utilisateurs par <i>compétences</i> (par exemple les techniciens réseaux, ou les administrateurs de base de données) pour le helpdesk,  <i>regroupements organisationnels</i> (par exemple tous les ordinateurs de la direction, ou du service comptable) mais aussi <i>ensemble de personnes à notifier</i>.</p>
+    <p>Les options disponibles permettant de régler ces comportements sont <b>Visible dans un ticket</b> (groupe du demandeur et/ou attribution à ce groupe), <b>Peut être notifié</b> (destinataire de notifications) et enfin <b>Peut contenir</b> (matériel et/ou utilisateurs).</p>
+    <p>Dans la fiche des matériels, 2 notions de groupes sont disponibles : <i>groupe technique</i>, qui indique quel groupe de personnes a la charge du matériel (équivalent pour un groupe du responsable technique), et groupe qui indique à quel <i>groupe</i> de matériels celui-ci appartient.</p>
+    <note>le groupe technique peut permettre l&apos;auto-attribution d&apos;un ticket à un groupe de techniciens. Voir les catégories de tickets dans le chapitre <xref href="config_dropdown.dita"/>. De la même manière, il peut être utilisé dans les <xref href="administration_rule_ticket.dita"/>.</note>
+    <p><b>Astuce</b> : si toutes les options sont à non, le groupe n&apos;apparaîtra dans aucune liste de sélection. Cela peut être utile pour un groupe supprimé et conservé pour l&apos;historique. C&apos;est aussi utile pour ajouter des groupes vides dans l&apos;arborescence.</p>
+    <p>Un groupe peut avoir ou plusieurs superviseurs, notion utilisable ensuite pour les notifications, par exemple pour envoyer un courriel au(x) superviseur(s) du groupe à l&apos;ouverture d&apos;un ticket.</p>
+    <p>Un mécanisme de <b>délégation</b> permet à un utilisateur de déclarer des  incidents non pas pour lui mais pour un des membres de ce groupe.</p>
+    <example>Une secrétaire qui déclare les incidents pour les personnes de la direction.</example>
+    <p> Voir <xref href="config_notification_notifications.dita">Notifications</xref>.</p>
+    <p>Un groupe est attaché à l&apos;entité dans laquelle il est créé et peut ensuite être visible dans les sous-entités.</p>
+    <p>Différents onglets supplémentaires affichent, en fonction des options choisies : les <b>utilisateurs</b> (liste, ajout et suppression de membres), <b>les matériels gérés</b> (liste des matériels qui ont ce groupe technique), la liste des <b>matériels utilisés</b> (matériels appartenant à ce groupe) et <b>liaison annuaire LDAP</b> (informations permettant à GLPI retrouver le groupe et ses utilisateurs dans l&apos;annuaire).</p>
+    <p>La liaison LDAP rend possible l&apos;import et la synchronisation des groupes depuis un annuaire. Si  l&apos;authentification externe est utilisée, l&apos;import les groupes depuis un annuaire LDAP, et l&apos;affectation des utilisateurs dans les groupes est possible.
+Un <b>bouton Liaison annuaire LDAP</b> est disponible depuis la liste des groupes.
+Si plusieurs annuaires sont configurés, le choix de l&apos;un d&apos;entre eux est proposé, sinon le formulaire de recherche est directement accessible. En fonction des modalités de recherche des groupes (voir <xref href="config_auth_ldap.dita"/>), un <b>filtre de recherche dans les groupes</b> et/ou <b>un filtre de recherche des utilisateurs</b> apparaissent : ceux-ci permettent d&apos;affiner la liste affichée et prête à être importée. Si GLPI est utilisé en multi-entités, il est nécessaire de sélectionner l&apos;entité de destination du groupe, ainsi que sa visibilité dans les sous-entités.</p>
+    <p>L&apos;association d&apos;un utilisateur à un groupe est soit statique, c&apos;est à dire réalisée à l&apos;aide de l&apos;interface de GLPI, soit dynamique quand celle-ci est déduite automatiquement de l&apos;annuaire LPAP.</p>
+    <p><note>l&apos;import des groupes ne peut pas être filtré par entité. De plus, aucune fonction de synchronisation des groupes est disponible. Le seul moyen de rafraîchir la liste des membres d&apos;un groupe depuis un annuaire est de resynchroniser les utilisateurs (voir <xref href="administration_user_import.dita"/>).</note><note type="important" audience="advanced">dans les versions inférieures à GLPI 0.80 il n&apos;existait pas de typage entre utilisateur et groupe. Lors de la migration, les utilisateurs associés à des groupes dont au moins une information LDAP est remplie auront un type de liaison dynamique. En d&apos;autres termes, une liaison manuelle réalisée dans une version inférieure de l&apos;application sur un groupe provenant de l&apos;annuaire LDAP sera perdue.</note></p>
+  </body>
+</topic>

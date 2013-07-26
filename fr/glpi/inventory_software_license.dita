@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_software_license" xml:lang="fr-fr">
+  <title>Gérer les licences</title>
+  <shortdesc>Principes et gestion des licences logiciels dans GLPI</shortdesc>
+  <body>
+    <p>La licence d&apos;un logiciel correspond à un droit d&apos;utilisation de ce logiciel. Elle dispose d&apos;un certain nombre de champs spécifiques. Le <uicontrol>nom</uicontrol> indique la désignation commerciale de la licence. La <uicontrol>version d&apos;achat</uicontrol> est celle achetée alors que la <uicontrol>version d&apos;utilisation</uicontrol> correspond à la version réellement installée du logiciel. Ces deux versions peuvent être totalement différentes mais doivent refléter l&apos;existant.</p>
+    <example>2 versions d&apos;un logiciel ont été achetées mais une seule est effectivement installée.</example>
+    <p>Le<uicontrol> type</uicontrol> est la nature du droit d&apos;utilisation. Le type OEM est le seul type configuré par défaut dans GLPI. Voir <xref href="config_dropdown.dita">Configurer les intitulés</xref> pour définir les types.</p>
+    <p>Le <uicontrol>nombre</uicontrol> indique le volume d&apos;installation qui pourra être fait avec cette licence. Cela peut être un nombre d&apos;utilisateurs (licence flottante), un nombre d&apos;installations (licence multiple), un nombre illimité (licence site), etc. Il est possible d&apos;<uicontrol>affecter la licence à un ou plusieurs ordinateurs</uicontrol> correspondant.  par exemple si la licence est de type OEM.</p>
+    <p>L&apos;<uicontrol>expiration</uicontrol> est la date limite donnant droit d&apos;utilisation de la licence. La dépassement de cette date peut déclencher une notification. Voir <xref href="config_notification.dita">Configuration des notifications</xref>.<note type="tip">Ceci est configurable par entité dans le menu <b>Configuration &gt; Notifications</b> pour définir les modèles et destinataires utilisés et dans le menu <b>Configuration &gt; Entité</b> pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l&apos;envoi de la notification si besoin.</note></p>
+    <note>Les licenses expirées ne comptent plus dans les totaux des licenses disponibles.</note>
+    <p>Il est possible de lier des contrats à des licences (Voir <xref href="management_contract.dita"/>).</p>
+    <note>Lors de l&apos;activation des informations financières d&apos;une licence, les données sont initialisées avec les renseignements saisis dans les informations financières du logiciel (qui n&apos;est qu&apos;un modèle).</note>
+  </body>
+</topic>

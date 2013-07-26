@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_link" xml:lang="fr-fr">
+  <title>Configurer les liens externes protocolés</title>
+  <shortdesc>Les liens externes se configurent depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Liens externes</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Certains éléments de  GLPI peuvent être associés à un ensemble de liens vers des applications externes. Ceux-ci sont visibles depuis l&apos;onglet <tt>Liens</tt> des différentes fiches.</p>
+    <p>Pour paramétrer un lien, il est possible d&apos;utiliser des tags particuliers qui seront remplacés par les valeurs de l&apos;élément. Les Tags valides sont : 
+    <ul>
+        <li>[LOGIN] : identifiant de l&apos;utilisateur ; </li>
+        <li>[ID] : identifiant interne numérique de l&apos;objet ; </li>
+        <li>[NAME] : nom de l&apos;objet ; </li>
+        <li>[LOCATION] : lieu de l&apos;objet ; </li>
+        <li>[LOCATIONID] : identifiant interne du lieu ; </li>
+        <li>[IP] : adresse IP de l&apos;objet ; </li>
+        <li>[MAC] : adresse MAC de l&apos;objet ; </li>
+        <li>[NETWORK] : réseau dans lequel se trouve l&apos;objet ; </li>
+        <li>[DOMAIN] : domaine réseau de l&apos;objet ; </li>
+        <li>[SERIAL] : numéro de série ; </li>
+        <li>[OTHERSERIAL] : numéro d&apos;inventaire ; </li>
+        <li>[USER] : utilisateur associé au matériel ; </li>
+        <li>[GROUP] : groupe associé au matériel.</li>
+      </ul>
+    </p>
+    <p>Chaque lien peut être associé à un ou plusieurs types d&apos;élément.</p>
+    <p>Si le contenu est vide, c&apos;est un simple lien qui sera généré. Si un contenu est présent, c&apos;est un lien vers le téléchargement du contenu qui sera généré.</p>
+    <example>
+      <title>Un Lien type web</title>
+      <p>Créer un lien externe protocolé ayant pour nom : <tt>http://[IP]</tt> ; l&apos;affecter au matériel réseau.</p>
+    </example>
+    <example>
+      <title>Un Lien de type RDP</title>
+      <p>Pour l&apos;accès à distance sur les ordinateurs, créer un lien externe protocolé ayant pour nom <tt>Accès distant.rdp</tt> et paramétrer le <b>Contenu du fichier</b> en y insérant le contenu d&apos;un fichier type RDP et en remplaçant l&apos;ip / le nom / le domaine par des TAGS type [IP], [NAME], [DOMAIN].</p>
+    </example>
+    <note>Dans le cas de l&apos;utilisation de Tags provenant de ports réseaux (IP, MAC), si le matériel en possède plusieurs, alors cela créera autant de liens que de ports. Par exemple pour une machine possédant 2 adresses IP différentes, 2 liens seront affichés.</note>
+    <example>
+      <title>Prise en main à distance à travers l&apos;applet VNC </title>
+      <p>certaines implémentations de VNC fournissent une applet qui permet de prendre la main sur un ordinateur à travers un navigateur. En général, le port utilisé est 5900. Le lien correspondant sera du type http://[IP]:5900 ou http://[NAME].[DOMAIN]:5900. </p>
+    </example>
+  </body>
+</topic>

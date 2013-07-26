@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_auth" xml:lang="fr-fr">
+  <title>Configurer l&apos;intégration avec les sources d&apos;authentification externes</title>
+  <shortdesc>Les paramètres généraux de l&apos;intégration avec des sources externes d&apos;authentification se configurent dans le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Authentification</uicontrol>
+      <uicontrol>Configuration Authentification</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <p>Les sources d&apos;authentification externes prises en charges par GLPI sont les suivantes : </p>
+    <ul>
+      <li>annuaire LDAP ; voir <xref href="config_auth_ldap.dita"/>;</li>
+      <li>serveur de messagerie ; voir <xref href="config_auth_imap.dita"/>;</li>
+      <li>serveur CAS ; voir <xref href="config_auth_other.dita"/>;</li>
+      <li>certificat x509 ; voir <xref href="config_auth_other.dita"/>;</li>
+      <li>authentification déléguée au serveur web; voir <xref href="config_auth_other.dita"/>;</li>
+    </ul>
+    <p>Afin de pouvoir utiliser ces sources externes d&apos;authentification, il faut au préalable activer les extensions correspondantes dans la configuration de PHP. Il n&apos;y a pas de limite quant au nombre de sources externes configurées dans l&apos;application. </p>
+    <p>Pour utiliser la capacité de GLPI  de créer à la volée des utilisateurs présents dans les sources externes d&apos;authentification, il faut l&apos;activer dans le menu <menucascade>
+        <uicontrol>Configuration</uicontrol>
+        <uicontrol>Authentification</uicontrol>
+        <uicontrol>Configuration Authentification</uicontrol>
+      </menucascade>. Les annuaires LDAP permettent en outre de refuser la création des utilisateurs ne possédant pas d&apos;habilitations.    La suppression d&apos;un utilisateur de l&apos;annuaire peut aussi  entraîner  une action telle que la mise à la corbeille de l&apos;utilisateur, la suppression de ses habilitations ou sa désactivation.</p>
+  </body>
+</topic>

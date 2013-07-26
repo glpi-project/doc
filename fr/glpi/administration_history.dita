@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_history" xml:lang="fr-fr">
+  <title>Visualiser les journaux d&apos;activité</title>
+  <shortdesc>Les journaux se gèrent depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Journaux</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Cette zone  permet de visualiser et de trier l&apos;historique des logs. </p>
+    <p>Elle affiche le type d&apos;information modifiée (ordinateur, réservation, ticket...), la date de la modification, le service GLPI concerné (inventaire, configuration, tickets...) et un message détaillant l&apos;événement.</p>
+    <note>Le niveau de journalisation des journaux est paramétrable dans le menu <menucascade>
+        <uicontrol>Configuration</uicontrol>
+        <uicontrol>Générale</uicontrol>
+        <uicontrol>Niveau de journalisation</uicontrol>
+      </menucascade></note>
+    <note>La durée de conservation des journaux est paramétrable dans les actions automatiques. Voir <xref href="config_crontask.dita"/>.</note>
+  </body>
+</topic>

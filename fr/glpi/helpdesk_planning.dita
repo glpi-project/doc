@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="helpdesk_planning" xml:lang="fr-fr">
+  <title>Consulter et gérer les plannings</title>
+  <shortdesc>Les plannings se gèrent depuis le menu <menucascade>
+      <uicontrol>Assistance</uicontrol>
+      <uicontrol>Planning</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>La vue planning permet de visualiser les tâches planifiées pour un ticket, un problème ainsi  que les notes plannifiées ou les éléments plannifiés dans les plugins.</p>
+    <p>Il est possible de choisir la date et la période à visualiser. Un filtrage sur les objets inclus dans le planning est également possible.</p>
+    <p>4 vues  sont proposables suivant les habiliattions de l&apos;utilisateur connecté :<ul>
+        <li>Vue personnelle : inclus uniquement les éléments concernant l&apos;utilisateur connecté</li>
+        <li>Vue groupe : inclus uniquement les éléments concernant les groupes de l&apos;utilisateur connecté (nécessite le droit de voir les planning des groupes)</li>
+        <li>Utilisateurs : permet de voir le planning d&apos;un utilisateur particulier (nécessite le droit de voir tous les plannings)</li>
+        <li>Groupes : permet de voir le planning d&apos;un groupe particulier (nécessite le droit de voir tous les plannings)</li>
+      </ul></p>
+    <p>Ces informations sont exportables sous 2 formats : <ul>
+        <li>Ical afin de les intégrer dans le calendrier d&apos;un logiciel tiers</li>
+        <li>&quot;protocole&quot; Webcal qui permet d&apos;abonner un calendrier d&apos;un logiciel tiers sur le planning de GLPI</li>
+      </ul></p>
+    <note>L&apos;accès aux flux Ical et Webcal est protégé par une clé de sécurité intégrée dans l&apos;URL. Il est possible de régénérer cette clé à partir du menu &quot;Préférences&quot;. Voir <xref href="start_pref.dita"/> et plus précisément <xref href="config_common_personalize.dita"/>.</note>
+    <note>Dans le planning apparaissent également les notes plannifiées.</note>
+  </body>
+</topic>

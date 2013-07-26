@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_ticket" xml:lang="fr-fr">
+  <title>Gérer les tickets</title>
+  <shortdesc>Pour les éléments, les tickets se gèrent depuis l&apos;onglet <uicontrol>Tickets</uicontrol></shortdesc>
+  <body>
+    <p>L&apos;onglet <uicontrol>Tickets</uicontrol> permet de visualiser l&apos;historique des derniers tickets liés à cet élément.</p>
+  </body>
+</topic>

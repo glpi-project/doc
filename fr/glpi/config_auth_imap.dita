@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_auth_imap" xml:lang="fr-fr">
+  <title>Authentifier des utilisateurs à partir de serveurs de messagerie</title>
+  <shortdesc>L&apos;interfaçage de GLPI avec des serveurs de messagerie comme source d&apos;authentification se configure depuis le menu <menucascade>
+      <uicontrol>Configuration</uicontrol>
+      <uicontrol>Authentification</uicontrol>
+      <uicontrol>Serveurs de messagerie</uicontrol>
+    </menucascade>.</shortdesc>
+  <body>
+    <p>GLPI peut utiliser des serveurs de messagerie comme source d&apos;authentification. Cette faculté  peut compenser l&apos;absence d&apos;annuaire ou de serveur CAS. Toutefois, contrairement à ce qui est possible avec d&apos;autres sources d&apos;authentification, aucun import en masse n&apos;est disponible. Un utilisateur est authentifié par GLPI si le serveur de messagerie l&apos;a authentifié au préalable.</p>
+    <p>La connexion au serveur de messagerie utilise les protocoles IMAP ou POP. Les  options de chiffrement SSL et TLS sont disponibles. La distinction est faite entre le <userinput>domaine de messagerie</userinput> qui est la partie de l&apos;adresse de messagerie qui suit le caractère arobase, et le <userinput>nom pleinement qualifié du serveur de messagerie</userinput>, qui peut servir plusieurs domaines de messageries.</p>
+  </body>
+</topic>

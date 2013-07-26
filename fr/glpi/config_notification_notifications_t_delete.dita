@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="config_notification_notifications_t_delete">
+  <title>Supprimer une notification</title>
+  <taskbody>
+    <context>Supprimer une notification</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Notifications</uicontrol>
+            <uicontrol>Notifications</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche de la notification ;</cmd>
+      </step>
+      <step>
+        <cmd>2 choix de suppression :</cmd>
+        <choices>
+          <choice>
+            <ol>
+              <li>Cliquer sur le nom de la notification</li>
+              <li>Supprimer définitivement</li>
+            </ol>
+          </choice>
+          <choice>
+            <ol>
+              <li>Cocher la notification</li>
+              <li>Modification massive : Supprimer définitivement</li>
+            </ol>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>

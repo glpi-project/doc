@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="management_budget_hardware" xml:lang="fr-fr">
+  <title>Associer des éléments au budget</title>
+  <shortdesc>Les éléments associés aux budgets</shortdesc>
+  <body>
+    <p>L&apos;onglet <uicontrol>Elements</uicontrol>  permet de visualiser les éléménts attachés à ce budget.</p>
+    <p>La liste est triée par type d'éléments (avec en dessous le nombre de matériels) et la liste complète. Tout en bas du tableau, est affiché le nombre total d&apos;éléments associés à ce budget.</p>
+  </body>
+</topic>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_computer_virtualmachine" xml:lang="fr-fr">
+  <title>Onglet &quot;Machines virtuelles&quot;</title>
+  <shortdesc>Gestion des machines virtuelles associées aux ordinateurs</shortdesc>
+  <body>
+    <p>Ces informations sont visibles dans l&apos;onglet <b>Machines virtuelles</b> de la fiche d&apos;un ordinateur.</p>
+    <p>Dans cet onglet, on retrouve toutes les machines virtuelles associées à un hôte de virtualisation (host) ou l&apos;hôte sur lequel une machine virtuelle est installée. Les informations disponibles pour une machine virtuelle associée sont son nom, son identifiant unique (uuid), son système et type de virtualisation ainsi que le nombre de processeurs logiques et la mémoire allouée.</p>
+    <p>GLPI réalise actuellement la liaison entre un hôte et une machine virtuelle en se basant sur l&apos;identifiant unique (uuid). Dans certains cas, il arrive que l&apos;uuid soit différent au sein   de la machine physique et virtuelle, la liaison est alors impossible.</p>
+    <p>Le seul moyen d&apos;associer manuellement une machine virtuelle à une machine physique est d&apos;attribuer à la machine virtuelle déclarée sur l&apos;hôte et à la machine virtuelle dans GLPI un uuid identique.</p>
+    <note>En cas d&apos;utilisation d&apos;un outil d&apos;inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.</note>
+  </body>
+</topic>

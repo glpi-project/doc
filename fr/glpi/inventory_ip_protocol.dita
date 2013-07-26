@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_ip_protocol" xml:lang="fr-fr">
+  <title>Protocole IP.</title>
+  <shortdesc>Gestion des deux versions d&apos;IP au sein de GLPI : IPv4 et IPv6.</shortdesc>
+  <body>
+    <note id="version">GLPI gère indifféremment IPv4 et IPv6. La seule distinction provient du format des adresses et des masques.</note>
+    <example><tt>212.85.137.66</tt> est une adresse IPv4, alors que <tt>2a00:1450:4007:803::1012</tt> est en IPv6.</example>
+    <p id="gestion_identique">GLPI considère <xref href="http://fr.wikipedia.org/wiki/Adresse_IPv6_mappant_IPv4" format="html">IPv4 comme un sous-ensemble d&apos;IPv6</xref> : les traitements sont les mêmes.</p>
+    <p id="representation">GLPI, utilise deux représentations pour les adresses IP (IPv6 et IPv4, cf. <xref href="inventory_ip.dita">paragraphe précédent</xref>) :
+    <ul>
+        <li>La représentation binaire lui permet de faire l&apos;analyse des relations entre réseaux, adresses et masques. Elle est inaccessible à l&apos;utilisateur.</li>
+        <li>La représentation textuelle est celle utilisée pour l&apos;affichage et la saisie des données. Les adresses et les masques IPv4 sont représentés par leur forme classique (ie. : <tt>212.85.137.66</tt>, <tt>255.255.255.0</tt>). La <xref href="http://fr.wikipedia.org/wiki/Adresse_IPv6#Notation_d.27une_adresse_IPv6" format="html">représentation des adresses IPv6 est celle canonique</xref> (ie. : <tt>2001:db8:0:85a3::ac1f:8001</tt> plutôt que <tt>2001:0db8:0000:85a3:0000:0000:ac1f:8001</tt>). Les masques IPv6 sont représentés sous la forme du préfixe de sous réseau (ie. : nombre de bits à 1 dans le masque).</li>
+      </ul></p>
+  </body>
+</topic>

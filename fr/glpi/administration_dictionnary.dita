@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_dictionnary" xml:lang="fr-fr">
+  <title>Configurer les dictionnaires de données</title>
+  <shortdesc>Les dictionnaires se gèrent depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Dictionnaires</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI. Ils se basent sur le moteur de règles et sont disponibles pour certaines données d&apos;inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via un outil d&apos;inventaire, ou des plugins (par exemple l&apos;injecteur de fichiers CSV).</p>
+    <p>Le dictionnaire fonctionne de la manière suivante :
+
+    </p>
+    <ol>
+      <li>la donnée à ajouter passe dans le dictionnaire ;</li>
+      <li>le moteur de règle rejoue toutes les règles concernant ce type de données, et s&apos;arrête à la première vérifiée; </li>
+      <li>la donnée modifiée est retournée par le dictionnaire et insérée en base.</li>
+    </ol>
+    <p>Une fonction nommée <b>Rejouer le dictionnaire</b> (disponible à travers un bouton sur la liste des règles) permet de repasser les règles sur des données déjà existantes en base.</p>
+    <note type="important">Si la base est conséquente, il faudra faire bien attention à la valeur du paramètre <i>memory_limit</i> dans le fichier de configuration de PHP : en effet les traitements peuvent être très longs.</note>
+    <note type="tip"> un script est disponible dans le répertoire scripts de GLPI (<i>compute_dictionnary.php</i>), qui permet de lancer les dictionnaires en ligne de commande. Cela permet de s&apos;affranchir des problèmes de limite d&apos;exécution, et propose un gain de temps appréciable.</note>
+  </body>
+</topic>

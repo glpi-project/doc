@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+-->
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_phone" xml:lang="fr-fr">
+  <title>Gérer les téléphones</title>
+  <shortdesc>Les téléphones se gèrent depuis le menu <menucascade>
+      <uicontrol>Parc</uicontrol>
+      <uicontrol>Téléphones</uicontrol>
+    </menucascade> ;</shortdesc>
+  <body>
+    <p>Dans  la fiche d&apos;un téléphone, plusieurs informations sont disponibles :</p>
+    <ul>
+      <li>Sur les caractéristiques générales du téléphone (le fabricant, le modèle, le type, le numéro de série...)</li>
+      <li>Sur la gestion du poste (le responsable technique, son statut, le lieu où il se trouve...).</li>
+      <li>Sur les usagers du poste (connus ou non dans GLPI, groupe d&apos;utilisateurs...).</li>
+      <li>Sur ses spécifications (l&apos;alimentation, le firmware...)</li>
+    </ul>
+    <p><b>Description du type de gestion :</b></p>
+    <p>Il est possible de gérer les téléphones  de manière unitaire ou globale.</p>
+    <p>La gestion unitaire correspond à une gestion classique (un téléphone pour un ordinateur) alors que dans la gestion globale, le téléphone devient un élément virtuel global qui sera connecté à plusieurs ordinateurs.</p>
+    <p>La gestion globale permet de limiter le nombre d&apos;élément à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.</p>
+  </body>
+</topic>

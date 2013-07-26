@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_software_installation" xml:lang="fr-fr">
+  <title>Gérer les installations</title>
+  <shortdesc>Principes et gestion des installations logiciels dans GLPI<menucascade>
+      <uicontrol>Parc</uicontrol>
+      <uicontrol>Logiciel</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>L&apos;installation d&apos;un logiciel sur un poste est visualisée au travers d&apos;une version (voir <xref href="inventory_software_version.dita"/>) et consultable sur  la fiche d&apos;un logiciel (liste des ordinateurs ayant au moins une version installée), sur celle d&apos;une version (ordinateurs ayant cette version installée) ou enfin sur la fiche de l&apos;ordinateur (liste des versions de logiciels installées, triées par catégories).</p>
+    <note>La colonne licence est remplie uniquement lorsque la licence est affectée à l&apos;ordinateur concerné.</note>
+    <note>L&apos;affichage initial des différentes catégories dépend des préférences utilisateur. Voir <xref href="config_common_personalize.dita"/>.</note>
+    <p>2 options sont disponibles sur la liste des installations de logiciels d&apos;un ordinateur. Au dessus de la liste,  <b>Installer</b> manuellement une version d&apos;un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la &quot;version d&apos;utilisation&quot; de la licence est automatiquement renseignée.  </p>
+    <p>Pour  <b>Désinstaller</b> une version d&apos;un logiciel, il faut utiliser le système d&apos;actions massives : sélectionner les  versions à supprimer puis choisir <b>Supprimer définitivement</b>. Si une licence est affectée à l&apos;ordinateur elle le reste, mais sa &quot;version d&apos;utilisation&quot; est effacée. </p>
+    <p>A la suite des versions installées, la liste des licences affectées mais non installées est affichée. Vous pouvez ajouter une nouvelle licence associée à cet ordinateur. Le système d&apos;actions  massives permet, via l&apos;action <b>Installer</b>, d&apos;installer les versions d&apos;utilisation des licences sélectionnées.</p>
+  </body>
+</topic>

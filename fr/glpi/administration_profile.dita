@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_profile" xml:lang="fr-fr">
+  <title>Administrer les profils d&apos;utilisateurs</title>
+  <shortdesc>Dans GLPI, administrer les profils peut se faire à partir du menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Profils</uicontrol>
+    </menucascade>. </shortdesc>
+  <body>
+    <p>La notion de profil est un pilier dans la configuration de GLPI. C&apos;est elle qui accrédite les utilisateurs de certains droits, c&apos;est elle qui permet de sécuriser et d&apos;isoler les données à certains utilisateurs.
+ </p>
+    <p>
+  Un profil est associé à :
+  <ul>
+        <li>Un utilisateur ;</li>
+        <li>Une entité (De manière <b>récursive</b> ou <b>dynamique</b>).</li>
+      </ul>
+ </p>
+    <p>Pour répercuter les droits liés à ce profil, à toutes les entités filles de l&apos;entité enregistré, il faut associer le profil de manière récursive. C&apos;est là tout le principe de récursivité.</p>
+    <p>Il est également possible d&apos;ajouter un profil à un utilisateur sur plusieurs entités sans lien réel entre elles. Pour ce faire, il suffit d&apos;ajouter un profil à un utilisateur x fois, x étant le nombre d&apos;entités à couvrir.</p>
+    <p>Il est donc possible d&apos;associer des profils différents à un même utilisateur !</p>
+    <section>
+      <p>
+  Par défaut, 7 profils sont pré-enregistrés dans GLPI :
+   <ul>
+          <li>Super-Admin</li>
+          <li>Admin</li>
+          <li>Supervisor</li>
+          <li>Technician</li>
+          <li>Hotliner</li>
+          <li>Observer</li>
+          <li>Self-Service</li>
+        </ul>
+  </p>
+      <p><b>Super-Admin</b></p>
+      <p>Ce profil dispose de tous les droits!
+    <note type="important">Si le profil super-admin est supprimé ou si l&apos;<b>interface simplifiée</b> est associée à ce profil, l&apos;accès à la configuration de GLPI peut être définitivement perdue.</note>
+  </p>
+      <p><b>Admin</b></p>
+      <p>Ce profil dispose de droits d&apos;administration sur l&apos;intégralité de GLPI. Certaines restrictions lui sont appliquées au niveau de la configuration des règles, des entités ainsi que d&apos;autres rubriques pouvant altérer le comportement de GLPI.
+  </p>
+      <p><b>Technician</b></p>
+      <p>Ce profil correspond à celui utilisé pour un technicien de maintenance. Il a accès à l&apos;inventaire en lecture et au helpdesk afin de traiter des tickets.</p>
+      <p><b>Supervisor</b></p>
+      <p>Ce profil reprend les élements du profil Technician en y ajoutant des élément permettant la gestion d&apos;une équipe et son organisation (attribution de tickets...)</p>
+      <p><b>Observer</b></p>
+      <p>Ce profil dispose de droits de lecture sur toutes les données d&apos;inventaire et de gestion. Au niveau de l&apos;assistance, il pourra déclarer un ticket ou s&apos;en voir attribuer mais ne pourra administrer cette rubrique (<i>attribuer un ticket, voler un ticket...</i>).
+   Il ne dispose cependant d&apos;aucun droit lié à l&apos;administration ou à la configuration de GLPI.
+  </p>
+      <p><b>Hotliner</b></p>
+      <p>Ce profile correspond à celui que l&apos;on pourrait donner pour un service de Hotline. Il permet de saisir des tickets et de les suivre mais pas d&apos;en être en charge comme peut l&apos;être un technicien.</p>
+      <p><b>Self-Service</b></p>
+      <p>Ce profil est le plus limité. C&apos;est d&apos;ailleurs le seul à disposer d&apos;une interface différente, l&apos;<b>interface simplifiée</b>, en opposition à l&apos;<b>interface standard</b>. Il pourra cependant déclarer un ticket, y ajouter un suivi, consulter la FAQ ou encore réserver un matériel.
+   Ce profil est enregistré comme profil par défaut.
+  </p>
+    </section>
+    <section>
+      <title>Créer un profil</title>
+      <p>Depuis l&apos;interface d&apos;administration des profils, il est possible d&apos;en créer de nouveaux. Il  faut renseigner : 
+  <ul>
+          <li>Un nom.</li>
+          <li>S&apos;il est le <b>profil par défaut</b>.</li>
+          <li>Une <b>interface</b>.</li>
+          <li>La possibilité ou non de <b>modifier son mot de passe</b>.</li>
+        </ul>
+  </p>
+      <p><b>Profil par défaut ?</b></p>
+      <p>Lorsque ce champ est renseigné à Oui, Tout utilisateur créé ou importé se verra associé le profil en question.
+   <note type="important">Si plus d&apos;un profil est enregistré comme profil par défaut, le premier enregistré fera autorité sur tous les autres.</note>
+  </p>
+      <p><b>Interface</b></p>
+      <p>Il est possible de choisir entre deux interfaces, l&apos;<b>interface standard</b> de GLPI et l&apos;<b>interface simplifiée</b>. L&apos;<b>interface simplifiée</b> présente un menu très limité, ne donnant accès par défaut qu&apos;aux tickets, à la réservation de matériel et la consultation de la FAQ.
+   Cette interface est couramment utilisée par les utilisateurs finaux, les employés d&apos;une société n&apos;ayant pas un réel besoin dans le cadre de la gestion de parc.
+  </p>
+      <p><b>Modifier son mot de passe</b></p>
+      <p>Avec cette fonctionnalité, un utilisateur aura la possibilité de modifier son mot de passe depuis le lien <b>Préférences</b>.
+   <note type="important"> Si l&apos;authentification par Annuaire est activée, un utilisateur perdra sa capacité à modifier son mot de passe, de même pour tout autre donnée liée à l&apos;annuaire. </note>
+  </p>
+      <p><b>Aller à la création de tickets au login</b></p>
+      <p>Cette option permet de rediriger les utilisateurs du profil directement sur la page de création des tickets au lieu de la page d&apos;accueil.</p>
+    </section>
+    <section>
+      <title>Contenu des profils</title>
+      <p>Une fois le profil créé, il sera possible d&apos;établir les droits sur les différentes fonctionnalités de GLPI. 3 onglets sont alors disponibles pour gérer cet ensemble de droit :
+ <ul>
+          <li>
+            <b>Parc/Gestion/Outils</b>
+          </li>
+          <li>
+            <b>Assistance</b>
+          </li>
+          <li>
+            <b>Administration/Configuration</b>
+          </li>
+        </ul>
+ </p>
+      <p><b>Parc/Gestion/Outils</b></p>
+      <p>
+  Cet onglet permet de définir les accès liés à l&apos;inventaire, à sa gestion ainsi qu&apos;aux différents outils tels que les flux RSS ou encore la FAQ.
+  <ul>
+          <li><b>Parc</b> : Droits sur tout ou partie des types de matériels ;</li>
+          <li><b>Gestion</b> : Droits sur les Contacts et Fournisseurs ainsi qu&apos;aux Documents, Informations financières, Budget et Contrats ;</li>
+          <li><b>Outils</b> : Droits sur les Notes, la FAQ, la base de connaissances, les rapports, la réservation de matériel et les flux RSS. Le droit d&apos;administration de la base de connaissances permet de voir et éditer tous les éléments sans prise en compte des cibles définies.</li>
+        </ul>
+ </p>
+      <p><b>Assistance</b></p>
+      <p>
+  Cet onglet permet de définir les accès liés à l&apos;assistance et plus particulièrement sur la partie Helpdesk de GLPI.
+  Elle couvre :
+  <ul>
+          <li><b>L&apos;assistance</b> : Droits sur la création, l&apos;édition, la validation, l&apos;attribution, l&apos;association et la vision des tickets ;</li>
+          <li><b>Le cycle de vie des tickets</b> : Droits sur le processus de changement de statut d&apos;un ticket (<i>Exemple : un ticket ne peut être clos qu&apos;après avoir été résolu</i>).</li>
+        </ul>
+ </p>
+      <p><b>Administration/Configuration</b></p>
+      <p>
+  Cet onglet permet de définir les accès liés à l&apos;administration et la configuration de GLPI. 
+  Elle couvre : 
+  <ul>
+          <li><b>L&apos;administration</b> : Droits sur les utilisateurs, groupes, entités et profils mais aussi sur les journaux, transferts, méthodes d&apos;authentification, la maintenance et les ajouts d&apos;utilisateurs ;</li>
+          <li><b>Les règles et dictionnaires</b> : Droits sur les règles d&apos;affectation ainsi que sur les dictionnaires (<i>intitulés, logiciels..</i>) ;</li>
+          <li><b>La configuration</b> : Droits sur la configuration, les composants, les types de documents, les intitulés, l&apos;affichage, les liens externes et les notifications.</li>
+          <li><b>L&apos;administration déléguée des entités</b> : droits sur la partie assistance, les calendriers et les notifications.</li>
+        </ul></p>
+      <note type="tip">Une légende distingue les droits locaux des droits globaux. Un droit global porte sur des objets non liés à une entité, et vice-versa pour un droit local.</note>
+    </section>
+    <note>L&apos;affichage de la gestion des profils est fonction du profil dont l&apos;utilisateur connecté dépend. Il peut donc varier selon le profil. </note>
+  </body>
+</topic>

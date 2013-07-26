@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="config_auth_imap_t_create">
+  <title>Ajouter un serveur de messagerie</title>
+  <taskbody>
+    <context>Ajouter un serveur de messagerie comme nouvelle source d&apos;authentification</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Configuration</uicontrol>
+            <uicontrol>Authentification</uicontrol>
+            <uicontrol>Serveurs de messagerie</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le &quot;<uicontrol>+</uicontrol>&quot; situé dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge :</cmd>
+        <substeps>
+          <substep>
+            <cmd>le <userinput>nom du serveur</userinput> est celui qui sera affiché dans GLPI ;</cmd>
+            <stepxmp>
+              <codeblock>Serveur de messagerie pour Exemple France</codeblock>
+            </stepxmp>
+          </substep>
+          <substep>
+            <cmd>le <userinput>domaine de messagerie</userinput> est ce qui suit l&apos;arobase dans une adresse de messagerie ; </cmd>
+            <stepxmp>pour un courriel de type <userinput>courriel@exemple.fr</userinput> :<codeblock>exemple.fr</codeblock></stepxmp>
+          </substep>
+          <substep>
+            <cmd>le <userinput>nom pleinement qualifié du serveur</userinput> ;</cmd>
+            <stepxmp>
+              <codeblock>imap.exemple.com</codeblock>
+            </stepxmp>
+          </substep>
+          <substep>
+            <cmd>les paramètres optionnels de connexion au serveur : <userinput>port</userinput> et <userinput>options de connexion</userinput> telles que <option>IMAP</option> ou <option>POP</option>, <option>SSL</option>, <option>TLS</option>, <option>VALIDATE-CERT</option> ou <option>NO-VALIDATE-CERT</option> et <userinput>dossier de messagerie</userinput>.</cmd>
+            <stepxmp>
+              <codeblock>993, IMAP, SSL, TLS, NO-VALIDATE-CERT, INBOX</codeblock>
+            </stepxmp>
+          </substep>
+        </substeps>
+        <stepresult>Les champs qui ne sont pas nécessaires à la connexion au serveur de messagerie sont laissés vides.</stepresult>
+      </step>
+      <step>
+        <cmd>Valider.</cmd>
+        <stepresult>Le serveur de messagerie est créé dans GLPI.</stepresult>
+      </step>
+      <step>
+        <cmd>Vérifier la <userinput>chaîne de connexion</userinput> qui apparaît dorénavant. </cmd>
+        <info>Celle-ci est le format interne utilisé par GLPI pour se connecter au serveur de messagerie.</info>
+      </step>
+      <step>
+        <cmd>Tester la connexion à l&apos;aide du formulaire <uicontrol>Test de connexion au serveur de messagerie</uicontrol>. Entrer un <userinput>identifiant</userinput> et <userinput>mot de passe</userinput> de messagerie et valider. </cmd>
+        <stepresult>GLPI indique si les paramètres ont permis la connexion à la boîte de messagerie.</stepresult>
+      </step>
+    </steps>
+    <result>Le serveur de messagerie ainsi créé est désormais utilisable par GLPI pour authentifier des utilisateurs.</result>
+  </taskbody>
+</task>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_ip_network_name" xml:lang="fr-fr">
+  <title>Nom réseau</title>
+  <shortdesc>Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.</shortdesc>
+  <body>
+    <p>Généralement, un équipement est identifié par un ou plusieurs noms particuliers sur le réseau. Le serveur DNS résoudra ce nom en adresse IP. Dans le cas où IPv4 et IPv6 sont utilisés, ce nom renverra deux adresses IP : une en IPv4 et l'autre en IPv6. C'est pourquoi un nom réseau peut avoir plusieurs adresses IP.</p>
+
+    <p>Un nom réseau est composé d'un <varname>nom</varname> qui correspond au label du FQDN (cf. <xref href="glossary/fqdn_label.dita">labels FQDN</xref>), d'un <xref href="glossary/fqdn.dita"><varname>domaine internet</varname></xref> et de une ou plusieurs <varname>adresses IP</varname>.</p>
+    <p>Le champs <varname>réseau IP</varname> apparaît afin de retrouver les informations sur les différents réseaux IP disponibles. Cette information n'est pas conservée dans le nom réseau car il peut avoir plusieurs adresse IP et chacune peut appartenir à plusieurs réseaux IP.</p>
+
+    <note>Lors de la saisie d'un nom réseau, la validité du nom ainsi que celle de chacune des adresses IP est vérifiée. Si un de ces élément n'est pas valide alors il est rejeté.</note>
+
+    <p>Pour ajouter une adresse IP à un nom réseau, il faut cliquer sur le "+" devant les champs de saisie des adresses IP. Pour supprimer une adresse IP, il suffit d'effacer le contenu du champs de l'IP que l'on souhaite retirer.</p>
+
+    <p>Il est possible d'ajouter des <xref href="glossary/fqdn_label.dita">alias</xref> dans l'onglet des alias réseau. Traditionnellement, le nom réseau est celui utilisé par le DNS pour la résolution inverse d'une adresse IP alors que les alias correspondent au <i><tt>CNAME</tt></i> du nomFQDN. De la même manière, le nom de l'alias doit un label FQDN valide.</p>
+
+  </body>
+</topic>

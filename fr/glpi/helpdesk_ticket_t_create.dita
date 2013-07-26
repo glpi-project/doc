@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="helpdesk_ticket_t_create">
+  <title>Créer un ticket</title>
+  <taskbody>
+    <prereq>
+      <p>Pour commencer, le demandeur doit exprimer un besoin. Pour
+cela il peut faire appel à plusieurs outils au choix : <ul>
+          <li>il remplit lui-même un formulaire en ligne ;</li>
+          <li>il contacte un opérateur directement (ou par téléphone) qui exécute la déclaration pour lui ;</li>
+          <li>il envoie sa demande par message électronique (voir <xref href="helpdesk_advanced_collectors.dita"/>).</li>
+        </ul></p>
+    </prereq>
+    <context><note>Dans une utilisation avancée, on peut aussi créer des tickets récurrents (voir <xref href="helpdesk_advanced_recurrent.dita"/>). </note> Créer un ticket :</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Assistance</uicontrol>
+            <uicontrol>Tickets</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur l&apos;icône <uicontrol>+</uicontrol> située dans le menu horizontal ;</cmd>
+      </step>
+      <step>
+        <cmd>Compléter les différents champs de la fiche vierge ;</cmd>
+      </step>
+      <step>
+        <cmd><uicontrol>Valider</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>Affichage de la fiche créée.</result>
+  </taskbody>
+</task>

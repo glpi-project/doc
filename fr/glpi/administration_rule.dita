@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="administration_rule" xml:lang="fr-fr">
+  <title>Gérer les règles métiers</title>
+  <shortdesc>Les règles métiers se gèrent depuis le menu <menucascade>
+      <uicontrol>Administration</uicontrol>
+      <uicontrol>Règles</uicontrol>
+    </menucascade></shortdesc>
+  <body>
+    <p>GLPI dispose d&apos;un moteur de règles qui permet d&apos;effectuer un certain nombre d&apos;actions et d&apos;associations de manière automatique. </p>
+    <p>Le moteur sert à la fois pour : </p>
+    <p><ul>
+        <li>Règles de gestion<ul>
+            <li>affectation d&apos;une machine à une entité</li>
+            <li>habilitations à un utilisateur</li>
+            <li>catégories à un logiciel</li>
+            <li>routage de tickets dans des entités</li>
+            <li>actions automatiques à la création des tickets</li>
+          </ul></li>
+        <li>Dictionnaires de données<ul>
+            <li>fabricants</li>
+            <li>logiciels</li>
+            <li>imprimantes</li>
+            <li>types de matériels,</li>
+            <li>modèles de matériels</li>
+            <li>champs liés au système d&apos;exploitation</li>
+          </ul></li>
+      </ul></p>
+    <p>Les dictionnaires permettent de modifier des données entrées dans GLPI afin de regrouper des données redondantes. Ils peuvent être appliqués rétroactivement sur une base existante.</p>
+    <p>Le moteur se comporte de manière différente en fonction des types de règles : </p>
+    <p><ul>
+        <li>arrêt après la première règle vérifiée</li>
+        <li>déroulement de toutes les règles</li>
+        <li>déroulement des règles avec passage du résultat aux suivantes</li>
+      </ul>Elles peuvent être désactivées : par exemple lorsqu&apos;elles sont en cours d&apos;écriture et de test.</p>
+    <p><note type="tip">De manière générale, il est conseillé de bien tester les règles avant de les utiliser, et de faire une sauvegarde avant la mise en place de chaque nouvelle règle. Sur le formulaire principal d&apos;une règle, un bouton <b>Tester</b> ouvre une fenêtre supplémentaire qui permet de voir l&apos;ensemble des critères et des résultats de celle-ci.</note></p>
+    <section>
+      <title>Créer une règle</title>
+    </section>
+    <p>Une règle est composée d&apos;une suite de critères. Selon l&apos;option choisie (OU/ET) un ou tous les critères doivent être vérifiés pour déclencher une liste d&apos;actions.  </p>
+    <p>Un mécanisme de prévisualisation permet de tester les règles en cours d&apos;écriture avant de les passer en production.</p>
+    <p>Il existe plusieurs conditions : </p>
+    <p><ul>
+        <li>simples<ul>
+            <li>est</li>
+            <li>n&apos;est pas</li>
+            <li>contient</li>
+            <li>ne contient pas</li>
+            <li>commence par </li>
+            <li>finit par</li>
+            <li>sous (pour les intitulés arborescents, indique être cet intitulé ou un des intitulés enfant)</li>
+            <li>pas sous (pour les intitulés arborescents, indique n&apos;être pas cet intitulé ou un des intitulés enfant)</li>
+          </ul></li>
+        <li>complexes<ul>
+            <li>expression rationnelle vérifie</li>
+            <li>expression rationnelle ne vérifie pas</li>
+          </ul></li>
+      </ul></p>
+    <p>Les expressions rationnelles (autrement appelées regexp) renvoient un ou plusieurs résultats qui peuvent être ensuite utilisés par les actions grâce à la directive <codeph>#x</codeph> (ou <codeph>x</codeph> est le numéro du résultat de l&apos;expression rationnelle).</p>
+    <example>Critère : Nom expression rationnelle vérifie <codeph>/DESKTOP_(.*)/</codeph> . Si l&apos;objet a pour nom <codeph>DESKTOP_0001</codeph>, alors il sera possible d&apos;utiliser <codeph>0001</codeph> dans les actions de la règle en utilisant le paramètre <codeph>#0</codeph>.</example>
+  </body>
+</topic>

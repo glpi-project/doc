@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="admin_install_plugin" xml:lang="fr-fr">
+  <title>Installer et mettre à jour les plugins</title>
+  <shortdesc>Ajout et maintenance des extensions (plugins) à GLPI </shortdesc>
+  <body>
+    <p><note type="caution">Avant d&apos;installer un plugin, voir <xref href="admin_backup.dita"/>. </note></p>
+    <section>
+      <title>Télécharger un plugin</title>
+      <p>Les plugins GLPI sont disponibles sur le catalogue GLPI et également depuis la forge des plugins, respectivement accessibles sur les liens suivants :
+   <ul>
+          <li>
+            <xref href="http://plugins.glpi-project.org/" format="html">Catalogue des plugins.</xref>
+          </li>
+          <li>
+            <xref href="https://forge.indepnet.net/projects/show/plugins" format="html">Forge des plugins.</xref>
+          </li>
+        </ul>
+  </p>
+      <p>À noter qu&apos;un plugin peut disposer de plusieurs versions, chaque version est la plupart du temps spécifique à une version précise de GLPI. Veiller donc à sélectionner le bon fichier à télécharger !</p>
+    </section>
+    <section>
+      <title>Installer un plugin</title>
+      <p>Une fois un plugin téléchargé, l&apos;installation de ce dernier se fait selon deux étapes principales : le traitement des fichiers du plugin, et son installation depuis l&apos;interface.</p>
+      <note type="important">Il faut disposer des droits en écriture sur la configuration et les profils (Champs <b>Configuration</b> et <b>Profils</b> depuis l&apos;onglet <b>Administration/Configuration</b> dans la configuration d&apos;un profil).</note>
+      <ul>
+        <li>
+          <b>Traitement des fichiers.</b>
+          <p>Les plugins sont compressés au format GZIP. La première étape consiste donc à dézipper l&apos;archive. Il faut ensuite transférer les fichiers dans le dossier <i>plugins</i> situé à la racine de GLPI (<i>Exemple : /var/www/mon_glpi/plugins/ </i>).
+    </p>
+          <note type="important">Il faut respecter le nom du dossier créé dans le répertoire <i>plugins</i> ! Il doit porter exactement le même nom que celui indiqué dans l&apos;archive.</note>
+        </li>
+        <li>
+          <b>Installation du plugin depuis l&apos;interface.</b>
+          <p>Une fois l&apos;archive traitée, le plugin apparaîtra sur la page de configuration des plugins. On pourra notamment y consulter le numéro de version ainsi que les auteurs du plugin. Il faut donc maintenant l&apos;<b>Installer</b> et l&apos;<b>Activer</b>.
+    <ul>
+              <li>L&apos;installation aura pour effet de créer les possibles tables dans la base de données.</li>
+              <li>L&apos;activation rendra le plugin accessible aux utilisateurs.</li>
+            </ul>
+    </p>
+          <note type="important">Si toutefois un plugin n&apos;apparaissait pas après l&apos;avoir transféré dans le bon dossier, il faut vérifier la version GLPI pour lequel il est supposé fonctionner.</note>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <title>Mise à jour d&apos;un plugin</title>
+      <p>La mise à jour d&apos;un plugin se réalise par la suppression physique (<i>Attention : ne pas confondre avec la <b>Désinstallation d&apos;un plugin</b></i>) de la version précédente et l&apos;installation de la nouvelle version. Il faut donc uniquement supprimer simplement le dossier correspondant au plugin et se référer au paragraphe d&apos;installation du plugin pour la suite de la procédure.
+  </p>
+      <note type="important">Lors de la mise à jour de GLPI, et non d&apos;un plugin, tous les plugins passent à l&apos;état &quot;désactivé&quot;, il faut donc les réactiver!</note>
+    </section>
+    <section>
+      <title>Désinstaller un plugin</title>
+      <p>La désinstallation d&apos;un plugin se réalise depuis l&apos;interface de configuration des plugins. Cliquer simplement sur <b>Désinstaller</b>. 
+  </p>
+      <note type="important">La désinstallation d&apos;un plugin ne supprimera pas le dossier lui étant propre ! Toutefois, si le plugin est désinstallé, on peut librement le supprimer sans qu&apos;aucun dommage ne survienne.</note>
+    </section>
+  </body>
+</topic>

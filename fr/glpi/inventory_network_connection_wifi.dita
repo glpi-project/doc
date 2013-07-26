@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="inventory_network_connection_wifi" xml:lang="fr-fr">
+  <title>Port Wifi</title>
+  <shortdesc>Gestion des ports réseau de type Wifi.</shortdesc>
+  <body>
+    <example>Le protocole Wifi est celui classiquement utilisé pour les réseaux sans fils.</example>
+    <p>Un port Wifi est caractérisé par le <varname>mode</varname> de fonctionnement de la carte (Ad-Hoc, Point d&apos;accès, répeteur ...), la <varname>version</varname> du protocol Wifi (ab, g ...) et son <varname>adresse MAC</varname>.</p>
+    <p>Comme les ports Ethernet, il est possible de lui associer une <varname>carte réseau</varname>.</p>
+    <p>On peut associer un <varname>réseau Wifi</varname> à un port donné. Outre son nom, un réseau Wifi contient un ESSID et est caractérisé par son type :
+    <ul>
+        <li><u>Infrastructure</u> : réseau Wifi avec un ou plusieurs points d&apos;accès et des clients qui se connectent dessus.</li>
+        <li><u>Ad-hoc</u> : réseau Wifi entre systèmes équivalents sans point d&apos;accès.</li>
+      </ul>
+    </p>
+  </body>
+</topic>

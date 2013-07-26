@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="navigate_interface" xml:lang="fr-fr">
+  <title>L&apos;interface standard et l&apos;interface simplifiée</title>
+  <shortdesc>Selon ses habilitations, l&apos;utilisateur utilise l&apos;<b>interface standard</b> ou l&apos;<b>interface simplifiée</b>. </shortdesc>
+  <body>
+    <section>
+      <title>L&apos;interface standard</title>
+      <p>C&apos;est l&apos;interface principale de l&apos;application. L&apos;ensemble des modules est disponible.</p>
+      <fig>
+        <title>Menu de l&apos;interface standard</title>
+        <image href="../image/GLPI-Interface standard.png" width="15cm"/>
+      </fig>
+      <p>La page d&apos;accueil de l&apos;<b>interface standard</b> fournit une vue synthétique pour accéder rapidement aux  éléments  actifs (tickets, notes, planning, contrats...). </p>
+      <p>Elle est découpée en 3 vues  :</p>
+      <ul>
+        <li><b>La vue personnelle</b> présente les tickets ouverts, rejetés, à traiter, à approuver (dont l&apos;utilisateur connecté est le demandeur) ou ceux sur lesquels cet utilisateur a une interaction en tant que valideur ou technicien (en attente de validation, en cours, à clôturer, en attente). Cette vue lui propose également les problèmes en cours, son planning et les notes disponibles.</li>
+        <li><b>La vue groupe</b> propose les mêmes informations à propos des tickets et des problèmes que la vue personnelle mais en prenant comme référence les groupes auxquels il appartient. Suivant son profil, il aura accès ou non aux tickets pour lesquels ses groupes sont demandeurs.</li>
+        <li><b>La vue globale</b> propose des statistiques sur les tickets et les problèmes en fonction de leurs statuts et sur les contrats en fonction de leur date d&apos;expiration. Elle propose également la vue des derniers ajouts d&apos;objets dans GLPI. Suivant la configuration utilisée, les nouveaux tickets peuvent aussi être présentés dans cet onglet.</li>
+        <li><b>Flux RSS</b> propose le contenu des flux RSS définis (voir <xref href="tool_rssflow.dita"/>).</li>
+      </ul>
+      <fig>
+        <title>Accueil</title>
+        <image href="../image/GLPI - accueil.png" width="15cm"/>
+      </fig>
+      <note>Un message de sécurité peut être affiché lors de votre première connexion à l&apos;issue de la procédure d&apos;installation. Ce message vous invite à modifier les mots de passe des comptes créés par défaut dans GLPI. Tant que vous n&apos;aurez pas réalisé cette opération le message subsistera.</note>
+      <title>Personnaliser l&apos;interface standard (exemple)</title>
+      <fig>
+        <title>Menu de l&apos;interface standard personnalisée</title>
+        <image href="../image/GLPI-Interface personnalisee.png" width="15cm"/>
+        <p>Interface présentée à un utilisateur utilisant l&apos;<uicontrol>interface standard</uicontrol>, mais n&apos;ayant aucun droit de configuration et de consultation de l&apos;inventaire. Le nombre de menus présents dans la barre de navigation est ainsi limité.</p>
+      </fig>
+    </section>
+    <section>
+      <title>L&apos;interface simplifiée</title>
+      <p>C&apos;est l&apos;interface la plus restrictive. Elle est destinée aux utilisateurs ayant des habilitations très restreintes sur l&apos;application : helpdesk en libre service.    Le nombre de menus disponibles est réduit au minimum. Dans la configuration par défaut, un utilisateur peut, depuis cette interface, uniquement créer des tickets, suivre le traitement de ses tickets, réaliser des réservations et consulter la foire aux questions.  La page d&apos;accueil propose le nombre de ses tickets suivant leurs statuts ainsi que les sujets de la FAQ les plus populaires et les plus récents.</p>
+      <fig>
+        <title>Menu de l&apos;interface simplifiée</title>
+        <image href="../image/GLPI-interface simplifiee.png" width="15cm"/>
+      </fig>
+    </section>
+    <note>Le choix de l&apos;interface par défaut ainsi que des différents modules à afficher ou non sont paramétrables dans les profils. Voir <xref href="administration_profile.dita"/>. </note>
+  </body>
+</topic>

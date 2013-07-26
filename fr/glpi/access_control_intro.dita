@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="access_control_intro" xml:lang="fr-fr">
+  <title>Administrer les contrôles d&apos;accès</title>
+  <shortdesc>Cette partie décrit comment administrer le système de contrôle d&apos;accès qui permet à chaque utilisateur d&apos;accéder à un contexte d&apos;utilisation spécifique.</shortdesc>
+  <body>
+    <p>Dans GLPI chaque utilisateur n&apos;a pas accès à la même interface ni aux mêmes fonctionnalités. Pour chaque utilisateur, un contexte d&apos;utilisation spécifique est déterminé, qui permet de lui donner accès aux fonctionnalités et aux éléments d&apos;informations auxquels il est habilité à accéder. L&apos;accès aux informations d&apos;identités sur l&apos;utilisateur permet de déterminer ses habilitations.</p>
+    <p>Dans un premier temps, il faut lier GLPI à un système de gestion d&apos;identité. GLPI peut gérer localement l&apos;authentification et les informations personnelles des utilisateurs. Cependant,  le système d&apos;information comporte bien souvent  un système de gestion d&apos;identité (annuaire), et il est préférable de déléguer l&apos;authentification à ce dernier et d&apos;utiliser les informations contenues dans ce système  externe. Cette question est traitée dans le chapitre <xref href="config_auth.dita"/>.</p>
+    <p>La mise en œuvre journalière du lien avec le ou les référentiels de gestion d&apos;identité conduit à la création et la suppression, la synchronisation, l&apos;activation et la désactivation des comptes utilisateurs et de leurs données personnelles associées. Cette question est traitée dans le chapitre <xref href="administration_user.dita"/>.</p>
+    <p>Les données personnelles des utilisateurs permettent de les associer à des groupes, des entités et des profils, qui sont les moyens de déterminer les contextes d&apos;utilisation. </p>
+    <p>Les groupes permettent de rassembler les utilisateurs en fonction de similarités de compétences ou d&apos;unités organisationnelles. Cette question est traitée dans le chapitre  <xref href="administration_group.dita"/>.</p>
+    <p>Les entités permettent de segmenter le parc et de rassembler les utilisateurs en services isolés les uns des autres. Cette question est traitée dans le chapitre  <xref href="administration_entity.dita"/>.</p>
+    <p>Les profils décrivent les autorisations d&apos;accès qui doivent être accordées à leurs membres. Cette question est traitée dans le chapitre  <xref href="administration_profile.dita"/>.</p>
+    <p>En dernier lieu, il faut administrer les habilitations : déterminer les contextes d&apos;utilisation et les attribuer aux utilisateurs. Ces outils sont  utilisés par les règles d&apos;affectations d&apos;habilitations pour déterminer de manière dynamique les habilitations des utilisateurs.      Cette question est traitée dans le chapitre  <xref href="administration_rule_right.dita"/>.</p>
+  </body>
+</topic>

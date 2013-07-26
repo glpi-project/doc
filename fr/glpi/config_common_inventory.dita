@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="config_common_inventory" xml:lang="fr-fr">
+  <title>Onglet Parc</title>
+  <shortdesc>L&apos;onglet parc permet de régler les paramètres généraux concernant la partie inventaire de l&apos;application. </shortdesc>
+  <body>
+    <p>L&apos;interfaçage avec un outil d&apos;inventaire rend possible l&apos;inventaire automatisé des matériels. Cet interfaçage est possible au travers d&apos;un plugin.</p>
+    <p>A  la création d&apos;un gabarit, il est possible d&apos;ajouter des champs générés automatiquement à partir d&apos;un modèle (par exemple : le nom du matériel, le numéro d&apos;inventaire). L&apos;incrémentation des valeurs de ces champs se fait soit par entité soit de manière globale.</p>
+    <p>Il est possible  de modifier automatiquement la catégorie des logiciels supprimés par le dictionnaire. Par défaut ceux-ci sont déplacés automatiquement dans la catégorie <b>FUSION</b>.  </p>
+    <p>GLPI permet  aussi de transférer un ordinateur dans une autre entité si un des critères utilisé pour l&apos;affectation à une entité est modifié. Si l&apos;option <b>Modèle pour le transfert automatique d&apos;ordinateur dans une autre entité</b> indique un modèle existant, à chaque mise à jour d&apos;un ordinateur depuis l&apos;outil d&apos;inventaire, le moteur de règles d&apos;affectation des entités sera rejoué. Si l&apos;entité résultante est différente de l&apos;entité de l&apos;ordinateur, celui-ci sera transféré.  </p>
+    <p>La date de début de l&apos;exercice fiscal utilisée dans la partie Gestion se configure ici.</p>
+    <p>Lors de la création manuelle d&apos;un matériel, il est demandé à l&apos;utilisateur de choisir le type de gestion (unitaire ou globale) de ce dernier. Par la suite, un matériel géré de manière unitaire peut passer sous le mode de la gestion globale.  Il est possible de restreindre le type de gestion selon les matériels.</p>
+    <p>Lors de la connexion directe à un ordinateur d&apos;un élément  géré de manière unitaire, il est possible de lui attribuer des informations récupérées depuis l&apos;ordinateur. Lors de la déconnexion, il est possible d&apos;effacer ces informations. Ces fonctionnalités ne sont pas activées par défaut.</p>
+  </body>
+</topic>
