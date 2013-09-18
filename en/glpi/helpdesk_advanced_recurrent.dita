@@ -27,8 +27,8 @@ _____________________________________________________________
         <uicontrol>Assistance</uicontrol>
         <uicontrol>Recurrent Tickets</uicontrol>
       </menucascade>.</p>
-    <p>A recurrent ticket includes a  <i>gabarit</i>, that will be used as a model for the tickets, and a  <i>beginning date</i> and an <i>opening frequency</i>. The process can be triggered  <i>early</i>. Finally, it is possible to  <i>deactivate</i> the recurring ticket with the parameter  <i>active</i>. A calendar can also be associated in order to limit ticket's creation to working days. If the ticket's creation had planned a weekend for example it will be postponed to Monday.</p>
-<note>tickets will only be created if the recurrent ticket is active during the defined period between the start date and end date. These two dates are optional.</note>
+    <p>A recurrent ticket includes a  <i>gabarit</i>, that will be used as a model for the tickets, and a  <i>beginning date</i> and an <i>opening frequency</i>. The process can be triggered  <i>early</i>. Finally, it is possible to  <i>deactivate</i> the recurring ticket with the parameter  <i>active</i>. A calendar can also be associated in order to limit ticket&apos;s creation to working days. If the ticket&apos;s creation had planned a weekend for example it will be postponed to Monday.</p>
+    <note>tickets will only be created if the recurrent ticket is active during the defined period between the start date and end date. The end date is optionnal but the begin date is mandatory.</note>
     <p>The opening of recurring tickets is made through an automatic action named <i>ticketrecurrent</i> (see <xref href="config_crontask.dita"/>).</p>
   </body>
 </topic>

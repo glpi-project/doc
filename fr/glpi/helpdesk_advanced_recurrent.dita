@@ -32,7 +32,7 @@ tickets de manière récurrente.</p>
         <uicontrol>Tickets récurrents.</uicontrol>
       </menucascade></p>
     <p>Un ticket récurrent comprend un <i>gabarit</i>, qui va être utilisé comme modèle pour les tickets, ainsi qu&apos;une <i>date de début</i> et une <i>fréquence d&apos;ouverture</i>. Le processus peut être déclenché   de <i>manière anticipée</i>. Enfin, il est possible de <i>désactiver</i> le ticket récurrent grâce au paramètre <i>actif</i>. Un calendrier peut également être associé permettant la limitation des jours ouvrés pour lesquels les tickets sont créés. Si la création automatique avait programmé une création de ticket un week-end par exemple celle-ci sera reportée au lundi.</p>
-    <note>Les tickets ne seront créés que si le témoin Actif est à Oui et pendant la période définie entre la date de début et la date de fin. Ces 2 dates sont optionnelles.</note>
+    <note>Les tickets ne seront créés que si le témoin Actif est à Oui et pendant la période définie entre la date de début et la date de fin. La date de fin est facultative mais la date de début obligatoire.</note>
     <p>L&apos;ouverture de tickets récurrents est effectué à travers une action automatique nommée <i>ticketrecurrent</i> (voir <xref href="config_crontask.dita"/>).</p>
   </body>
 </topic>
