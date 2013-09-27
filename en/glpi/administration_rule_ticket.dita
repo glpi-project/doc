@@ -14,8 +14,7 @@ _____________________________________________________________
  This file is part of GLPI Documentation.
 _____________________________________________________________
 
--->
-<!-- This file is part of the DITA Open Toolkit project hosted on 
+--><!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="administration_rule_ticket" xml:lang="en-us">
@@ -27,7 +26,7 @@ _____________________________________________________________
         <uicontrol>Règles</uicontrol>
         <uicontrol>Règles métier pour les tickets</uicontrol>
       </menucascade>.</p>
-    <p>Les critères disponibles sont tous les attributs du ticket (titre, description, statut, catégorie, urgence, impact, priorité, source de la demande, type de matériels, demandeurs groupe/utilisateur/lieu, attribué à fournisseur/groupe/technicien, type de matériels, entité) ainsi que d'autres liés aux collecteurs de courriels (entêtes...).</p>
+    <p>Les critères disponibles sont tous les attributs du ticket (titre, description, statut, catégorie, urgence, impact, priorité, source de la demande, type de matériels, demandeurs groupe/utilisateur/lieu, attribué à fournisseur/groupe/technicien, type de matériels, entité) ainsi que d&apos;autres liés aux collecteurs de courriels (entêtes...).</p>
     <p>Les actions possibles sont de modifier certains attributs du ticket (statut, catégorie, urgence, impact, priorité, demandeurs groupe/utilisateur/lieu, attribué à fournisseur/groupe/technicien). Il est aussi possible d&apos;attribuer un ticket à un matériel en fonction de données présentes dans le ticket (attribution sur l&apos;adresse IP, le nom complet et le domaine, l&apos;adresse MAC). </p>
     <note>les règles métier pour les tickets ne sont jouées qu&apos;à la <b>création du ticket</b>. Lors de la modification de celui-ci, aucun mécanise automatique n&apos;est lancé.</note>
     <note type="important">le moteur joue toutes les règles les unes après les autres. Le résultat des règles précédentes est passé à la règle en cours. Cela veut dire que si une règle précédente modifie un attribut utilisé par la règle courante, c&apos;est la valeur modifiée de celui-ci qui sera traité.</note>
@@ -36,5 +35,7 @@ _____________________________________________________________
       </b> qui sont toutes les règles des entités parentes jouées, <b>
         <i>règles locales</i>
       </b> qui représente la liste des règles définies pour l&apos;entité en cours, <b>règles applicables dans les sous-entités</b>  qui sont toutes les règles appliquées après celles de l&apos;entité courante.</p>
+    <p audience="advanced"><b>Cas particulier pour les champs Urgence et Impact:</b></p>
+    <p audience="advanced">Si vous definissez une urgence et/ou un impact via une règle métier, il faut penser également à ajouter l&apos;action Priorité Recalculer afin que cette dernière soit bien basée sur les champs que vous venez de définir.</p>
   </body>
 </topic>
