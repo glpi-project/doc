@@ -33,7 +33,7 @@ _____________________________________________________________
         <li>Une entité (De manière <b>récursive</b> ou <b>dynamique</b>).</li>
       </ul>
  </p>
-    <p>Pour répercuter les droits liés à ce profil, à toutes les entités filles de l&apos;entité enregistré, il faut associer le profil de manière récursive. C&apos;est là tout le principe de récursivité.</p>
+    <p>Pour répercuter les droits liés à ce profil, à toutes les entités filles de l&apos;entité enregistrée, il faut associer le profil de manière récursive. C&apos;est là tout le principe de la récursivité.</p>
     <p>Il est également possible d&apos;ajouter un profil à un utilisateur sur plusieurs entités sans lien réel entre elles. Pour ce faire, il suffit d&apos;ajouter un profil à un utilisateur x fois, x étant le nombre d&apos;entités à couvrir.</p>
     <p>Il est donc possible d&apos;associer des profils différents à un même utilisateur !</p>
     <section>
@@ -98,7 +98,7 @@ _____________________________________________________________
     </section>
     <section>
       <title>Contenu des profils</title>
-      <p>Une fois le profil créé, il sera possible d&apos;établir les droits sur les différentes fonctionnalités de GLPI. 3 onglets sont alors disponibles pour gérer cet ensemble de droit :
+      <p>Une fois le profil créé, il sera possible d&apos;établir les droits sur les différentes fonctionnalités de GLPI. 5 onglets sont alors disponibles pour gérer cet ensemble de droit :
  <ul>
           <li>
             <b>Parc/Gestion/Outils</b>
@@ -107,7 +107,13 @@ _____________________________________________________________
             <b>Assistance</b>
           </li>
           <li>
-            <b>Administration/Configuration</b>
+            <b>Cycle de vie</b>
+          </li>
+          <li>
+            <b>Administration</b>
+          </li>
+          <li>
+            <b>Configuration</b>
           </li>
         </ul>
  </p>
@@ -116,8 +122,8 @@ _____________________________________________________________
   Cet onglet permet de définir les accès liés à l&apos;inventaire, à sa gestion ainsi qu&apos;aux différents outils tels que les flux RSS ou encore la FAQ.
   <ul>
           <li><b>Parc</b> : Droits sur tout ou partie des types de matériels ;</li>
-          <li><b>Gestion</b> : Droits sur les Contacts et Fournisseurs ainsi qu&apos;aux Documents, Informations financières, Budget et Contrats ;</li>
-          <li><b>Outils</b> : Droits sur les Notes, la FAQ, la base de connaissances, les rapports, la réservation de matériel et les flux RSS. Le droit d&apos;administration de la base de connaissances permet de voir et éditer tous les éléments sans prise en compte des cibles définies.</li>
+          <li><b>Gestion</b> : Droits sur les contacts et fournisseurs ainsi que les documents, informations financières, budget et contrats ;</li>
+          <li><b>Outils</b> : Droits sur les notes, la FAQ, la base de connaissances, les rapports, la réservation de matériel, les flux RSS, l&apos;onglet notes des objectset les marques-pages publics. Le droit d&apos;administration de la base de connaissances permet de voir et éditer tous les éléments sans prise en compte des cibles définies. Le droit d&apos;administration des réservations permet de voir, d&apos;éditer et de supprimer toutes les reservation.</li>
         </ul>
  </p>
       <p><b>Assistance</b></p>
@@ -125,20 +131,24 @@ _____________________________________________________________
   Cet onglet permet de définir les accès liés à l&apos;assistance et plus particulièrement sur la partie Helpdesk de GLPI.
   Elle couvre :
   <ul>
-          <li><b>L&apos;assistance</b> : Droits sur la création, l&apos;édition, la validation, l&apos;attribution, l&apos;association et la vision des tickets ;</li>
-          <li><b>Le cycle de vie des tickets</b> : Droits sur le processus de changement de statut d&apos;un ticket (<i>Exemple : un ticket ne peut être clos qu&apos;après avoir été résolu</i>).</li>
+          <li><b>L&apos;assistance</b> : Droits sur la création, l&apos;édition, la suppression, la validation, l&apos;attribution, l&apos;association et la vision des tickets ainsi que les droits liés aux problèmes ;</li>
         </ul>
- </p>
-      <p><b>Administration/Configuration</b></p>
+</p>
+      <p><b>Cycle de vie</b> </p>
+      <p>  Cet onglet détermine les droits sur le processus de changement de statut d&apos;un ticket ou d&apos;un problème (<i>Exemple : un ticket ne peut être clos qu&apos;après avoir été résolu</i>).</p>
+      <p/>
+      <p><b>Administration</b></p>
       <p>
-  Cet onglet permet de définir les accès liés à l&apos;administration et la configuration de GLPI. 
+  Cet onglet permet de définir les accès liés à l&apos;administration  de GLPI. 
   Elle couvre : 
   <ul>
-          <li><b>L&apos;administration</b> : Droits sur les utilisateurs, groupes, entités et profils mais aussi sur les journaux, transferts, méthodes d&apos;authentification, la maintenance et les ajouts d&apos;utilisateurs ;</li>
-          <li><b>Les règles et dictionnaires</b> : Droits sur les règles d&apos;affectation ainsi que sur les dictionnaires (<i>intitulés, logiciels..</i>) ;</li>
-          <li><b>La configuration</b> : Droits sur la configuration, les composants, les types de documents, les intitulés, l&apos;affichage, les liens externes et les notifications.</li>
-          <li><b>L&apos;administration déléguée des entités</b> : droits sur la partie assistance, les calendriers et les notifications.</li>
+          <li><b>L&apos;administration</b> : Droits sur les utilisateurs, groupes, entités et profils mais aussi sur les journaux, transferts, méthodes d&apos;authentification, la maintenance, les profils et les ajouts d&apos;utilisateurs ;</li>
+          <li><b>Les règles</b> : Droits sur les différents règles d&apos;affectation ;</li>
+          <li><b>Les dictionnaires</b> : Droits sur les dictionnaires (<i>intitulés, logiciels..</i>).<p/></li>
         </ul></p>
+      <p><b>Configuration</b></p>
+      <p> Cet onglet détermine les droits globaux sur la configuration, les composants, les types de documents, les intitulés, l&apos;affichage et les liens externes ainsi que l&apos;administration déléguée des entités (droit local) concernant les notification, les SLA, les calendriers, les intitulés et l&apos;affichage</p>
+      <p/>
       <note type="tip">Une légende distingue les droits locaux des droits globaux. Un droit global porte sur des objets non liés à une entité, et vice-versa pour un droit local.</note>
     </section>
     <note>L&apos;affichage de la gestion des profils est fonction du profil dont l&apos;utilisateur connecté dépend. Il peut donc varier selon le profil. </note>
