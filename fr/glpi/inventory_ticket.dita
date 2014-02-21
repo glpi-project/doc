@@ -21,6 +21,10 @@ _____________________________________________________________
   <title>Gérer les tickets</title>
   <shortdesc>Pour les éléments, les tickets se gèrent depuis l&apos;onglet <uicontrol>Tickets</uicontrol></shortdesc>
   <body>
-    <p>L&apos;onglet <uicontrol>Tickets</uicontrol> permet de visualiser l&apos;historique des derniers tickets liés à cet élément.</p>
+    <p>L&apos;onglet <uicontrol>Tickets</uicontrol> permet de :</p>
+    <p><ul>
+        <li>créer un ticket lié à cet élément (si doit de créer un ticket dans le profil) ;</li>
+        <li>visualiser l&apos;historique des derniers tickets liés à cet élément (si droit de voir tous les tickets dans le profil).</li>
+      </ul></p>
   </body>
 </topic>

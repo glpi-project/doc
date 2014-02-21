@@ -21,6 +21,10 @@ _____________________________________________________________
   <title>Tickets management</title>
   <shortdesc>For items, tickets can be managed from tab <uicontrol>Tickets</uicontrol></shortdesc>
   <body>
-    <p>Tab <uicontrol>Tickets</uicontrol> allows to create tickets directly associated to concerned item. It allows also to view the latest created tickets for this item.</p>
+    <p>Tab <uicontrol>Tickets</uicontrol> allows to:</p>
+    <p><ul>
+        <li>create a ticket directly associated to concerned item (if right to create a ticket in the profile);</li>
+        <li>view the latest created tickets for this item (if right to see all tickets in the profile).</li>
+      </ul></p>
   </body>
 </topic>
