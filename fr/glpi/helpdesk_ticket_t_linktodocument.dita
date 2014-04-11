@@ -32,19 +32,15 @@ _____________________________________________________________
       <step>
         <cmd>Optionnel : faire une recherche du ticket ;</cmd>
       </step>
+      <step><cmd>Cliquer sur le nom du ticket</cmd> ;</step>
+      <step><cmd>Aller dans l&apos;onglet <b>Documents</b></cmd> ;</step>
       <step>
-        <cmd>Cliquer sur le nom du ticket</cmd>
-      </step>
-      <step>
-        <cmd>Aller dans l&apos;onglet <b>Documents</b></cmd>
-      </step>
-      <step>
-        <cmd>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un.</cmd>
+        <cmd>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un document ;</cmd>
       </step>
       <step>
         <cmd>Ajouter</cmd>
       </step>
     </steps>
-    <result>Dans ce cas, l&apos;affichage du tableau listant le document associé comportera le nom du document avec un lien vers celui-ci et proposera également les modifications massives pour supprimer les documents.<note> Si vous avez les droits de Lecture sur les documents dans votre profil, les étapes 4 dernières étapes peuvent être faites par modification massive depuis la liste des tickets. </note></result>
+    <result>Un tableau listant le document associé ainsi que la date d&apos;ajout.<note> Si vous avez les droits de Lecture sur les documents dans votre profil, les 4 dernières étapes peuvent être faites par modification massive depuis la liste des tickets. De même le nom du document dans le tableau apparaitra sous forme de lien et les modifications massives seront proposées pour supprimer les documents. </note></result>
   </taskbody>
 </task>
