@@ -262,6 +262,7 @@ _____________________________________________________________
           <topicref href="glpi/helpdesk_ticket_task.dita"/>
           <topicref href="glpi/helpdesk_ticket_solution.dita"/>
           <topicref href="glpi/helpdesk_ticket_validation.dita"/>
+          <topicref href="glpi/helpdesk_ticket_t_linktodocument.dita"/>
         </topicref>
       </topicref>
     </topicref>

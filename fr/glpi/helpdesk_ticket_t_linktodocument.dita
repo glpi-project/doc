@@ -15,7 +15,7 @@ _____________________________________________________________
 _____________________________________________________________
 
 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
-<task id="inventory_computer_t_linktodocument">
+<task id="helpdesk_ticket_t_linktodocument">
   <title>Associer un ticket à un document</title>
   <taskbody>
     <context>Vous pouvez ajouter un document à un ticket même si vous n&apos;avez aucun droit sur les documents dans votre profil</context>
@@ -45,17 +45,6 @@ _____________________________________________________________
         <cmd>Ajouter</cmd>
       </step>
     </steps>
-  </taskbody>
-  <taskbody>
-    <context>Si vous avez les droits de Lecture sur les documents dans votre profil, les étapes 4 à 7 peuvent être faites via la liste des tickets, </context>
-    <steps>
-      <step>
-        <cmd>Cocher l&apos;ordinateur</cmd>
-      </step>
-      <step>
-        <cmd>Modification massive : <b>Ajouter un Document</b></cmd>
-      </step>
-    </steps>
-    <result>Dans ce cas, l&apos;affichage du tableau listant le document associé comportera le nom du document avec un lien vers celuic-i et proposera également les modifications massives pour supprimer les documents.</result>
+    <result>Dans ce cas, l&apos;affichage du tableau listant le document associé comportera le nom du document avec un lien vers celui-ci et proposera également les modifications massives pour supprimer les documents.<note> Si vous avez les droits de Lecture sur les documents dans votre profil, les étapes 4 dernières étapes peuvent être faites par modification massive depuis la liste des tickets. </note></result>
   </taskbody>
 </task>
