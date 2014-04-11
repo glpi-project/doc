@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+* @version $Id: HEADER 10411 2010-02-09 07:58:26Z moyo $
+____________________________________________________________
+
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2010 by the INDEPNET Documentation Team.
+
+ http://indepnet.net/   http://glpi-project.org
+_____________________________________________________________
+
+ LICENSE
+
+ This file is part of GLPI Documentation.
+_____________________________________________________________
+
+--><!-- This document was created with Syntext Serna Free. --><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="inventory_computer_t_linktodocument">
+  <title>Associer un ticket à un document</title>
+  <taskbody>
+    <context>Vous pouvez ajouter un document à un ticket même si vous n&apos;avez aucun droit sur les documents dans votre profil</context>
+    <steps>
+      <step>
+        <cmd>Se connecter à GLPI ;</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans le menu <menucascade>
+            <uicontrol>Assistance</uicontrol>
+            <uicontrol>Tickets</uicontrol>
+          </menucascade> ;</cmd>
+      </step>
+      <step>
+        <cmd>Optionnel : faire une recherche du ticket ;</cmd>
+      </step>
+      <step>
+        <cmd>Cliquer sur le nom du ticket</cmd>
+      </step>
+      <step>
+        <cmd>Aller dans l&apos;onglet <b>Documents</b></cmd>
+      </step>
+      <step>
+        <cmd>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un.</cmd>
+      </step>
+      <step>
+        <cmd>Ajouter</cmd>
+      </step>
+    </steps>
+  </taskbody>
+  <taskbody>
+    <context>Si vous avez les droits de Lecture sur les documents dans votre profil, les étapes 4 à 7 peuvent être faites via la liste des tickets, </context>
+    <steps>
+      <step>
+        <cmd>Cocher l&apos;ordinateur</cmd>
+      </step>
+      <step>
+        <cmd>Modification massive : <b>Ajouter un Document</b></cmd>
+      </step>
+    </steps>
+    <result>Dans ce cas, l&apos;affichage du tableau listant le document associé comportera le nom du document avec un lien vers celuic-i et proposera également les modifications massives pour supprimer les documents.</result>
+  </taskbody>
+</task>
