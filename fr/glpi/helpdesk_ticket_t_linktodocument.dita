@@ -32,8 +32,8 @@ _____________________________________________________________
       <step>
         <cmd>Optionnel : faire une recherche du ticket ;</cmd>
       </step>
-      <step><cmd>Cliquer sur le nom du ticket</cmd> ;</step>
-      <step><cmd>Aller dans l&apos;onglet <b>Documents</b></cmd> ;</step>
+      <step><cmd>Cliquer sur le nom du ticket ;</cmd></step>
+      <step><cmd>Aller dans l&apos;onglet <b>Documents</b> ;</cmd></step>
       <step>
         <cmd>Sélectionner un document ou cliquer sur le bouton <b>Parcourir</b> pour en ajouter un document ;</cmd>
       </step>
