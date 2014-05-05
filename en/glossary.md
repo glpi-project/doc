@@ -1,0 +1,133 @@
+GLPI Glossary
+=============
+
+-   **[Accepted](../glpi/glossary/accepted.html)**\
+-   **[Automatic action](../glpi/glossary/automatic_action.html)**\
+-   **[Affichage dynamique](../glpi/glossary/dynamic_display.html)**\
+-   **[Alimentation](../glpi/glossary/powersupply.html)**\
+-   **[Annuaire Active Directory](../glpi/glossary/directory_ad.html)**\
+-   **[Annuaire LDAP](../glpi/glossary/directory_ldap.html)**\
+-   **[Arborescence](../glpi/glossary/tree.html)**\
+-   **[Base de connaissances](../glpi/glossary/knowbase.html)**\
+-   **[Boîtier](../glpi/glossary/case.html)**\
+-   **[Budget](../glpi/glossary/budget.html)**\
+-   **[Cartouche](../glpi/glossary/cartridge.html)**\
+-   **[CAS (Central Authentication
+    Service)](../glpi/glossary/cas.html)**\
+-   **[Champ](../glpi/glossary/field.html)**\
+-   **[Chemin](../glpi/glossary/path.html)**\
+-   **[Clos (ticket)](../glpi/glossary/close.html)**\
+-   **[Administrative
+    closure](../glpi/glossary/administrative_closure.html)**\
+-   **[Clôture automatique](../glpi/glossary/automatic_closure.html)**\
+-   **[Collecteur](../glpi/glossary/receiver.html)**\
+-   **[Connexion (réseau)](../glpi/glossary/connection_network.html)**\
+-   **[Connexion directe](../glpi/glossary/direct_link.html)**\
+-   **[Contact](../glpi/glossary/contact.html)**\
+-   **[Contrat](../glpi/glossary/contract.html)**\
+-   **[Contrôleur](../glpi/glossary/controller.html)**\
+-   **[Corbeille](../glpi/glossary/trash.html)**\
+-   **[Critère](../glpi/glossary/criteria.html)**\
+-   **[Demandeur](../glpi/glossary/requester.html)**\
+-   **[Dictionnaire](../glpi/glossary/dictionnary.html)**\
+-   **[Document](../glpi/glossary/document.html)**\
+-   **[Domaine](../glpi/glossary/domain.html)**\
+-   **[Domaine de messagerie](../glpi/glossary/domain_mail.html)**\
+-   **[Droit](../glpi/glossary/rights.html)**\
+-   **[Droit global](../glpi/glossary/global_right.html)**\
+-   **[Droit local](../glpi/glossary/entity_right.html)**\
+-   **[En attente (Ticket)](../glpi/glossary/waiting.html)**\
+-   **[En cours (attribué)
+    (Ticket)](../glpi/glossary/processing_assigned.html)**\
+-   **[En cours (planifié)
+    (Ticket)](../glpi/glossary/processing_planned.html)**\
+-   **[Entité](../glpi/glossary/entity.html)**\
+-   **[Entité racine](../glpi/glossary/root_entity.html)**\
+-   **[Expression rationnelle](../glpi/glossary/regex.html)**\
+-   **[Fabricant](../glpi/glossary/manufacturer.html)**\
+-   **[Foire Aux Questions (FAQ)](../glpi/glossary/faq.html)**\
+-   **[Fournisseur](../glpi/glossary/supplier.html)**\
+-   **[FQDN](../glpi/glossary/fqdn.html)**\
+-   **[Gabarit](../glpi/glossary/template.html)**\
+-   **[Gestion globale](../glpi/glossary/global_management.html)**\
+-   **[Gestion unitaire](../glpi/glossary/unit_management.html)**\
+-   **[Groupe](../glpi/glossary/group.html)**\
+-   **[Habilitation](../glpi/glossary/clearance.html)**\
+-   **[ICAL (ICalendar)](../glpi/glossary/ical.html)**\
+-   **[ID](../glpi/glossary/id.html)**\
+-   **[Identifiant](../glpi/glossary/login.html)**\
+-   **[IMAP/POP](../glpi/glossary/imap_pop.html)**\
+-   **[Impact](../glpi/glossary/impact.html)**\
+-   **[Incident](../glpi/glossary/incident.html)**\
+-   **[Informations
+    financières](../glpi/glossary/financial_information.html)**\
+-   **[Interface standard](../glpi/glossary/standard_interface.html)**\
+-   **[Interface
+    simplifiée](../glpi/glossary/streamlined_interface.html)**\
+-   **[Intervention](../glpi/glossary/intervention.html)**\
+-   **[Intitulé](../glpi/glossary/dropdown.html)**\
+-   **[Journaux](../glpi/glossary/logs.html)**\
+-   **[Label FQDN](../glpi/glossary/fqdn_label.html)**\
+-   **[Lien externe](../glpi/glossary/external_link.html)**\
+-   **[Lieu](../glpi/glossary/location.html)**\
+-   **[Marque-page](../glpi/glossary/bookmark.html)**\
+-   **[Motif](../glpi/glossary/pattern.html)**\
+-   **[Note globale](../glpi/glossary/global_note.html)**\
+-   **[Note personnelle](../glpi/glossary/personnal_note.html)**\
+-   **[Note publique](../glpi/glossary/public_note.html)**\
+-   **[Nouveau (ticket)](../glpi/glossary/new_ticket.html)**\
+-   **[Inventory item](../glpi/glossary/inventory_object.html)**\
+-   **[Planification](../glpi/glossary/plan.html)**\
+-   **[Plugin](../glpi/glossary/plugin.html)**\
+-   **[Point de montage](../glpi/glossary/mountpoint.html)**\
+-   **[Port (réseau)](../glpi/glossary/network_port.html)**\
+-   **[Port réseau virtuel](../glpi/glossary/virtual_ports.html)**\
+-   **[Préférences](../glpi/glossary/settings.html)**\
+-   **[Priorité](../glpi/glossary/priority.html)**\
+-   **[Privé](../glpi/glossary/private.html)**\
+-   **[Profil](../glpi/glossary/profile.html)**\
+-   **[Profil par défaut](../glpi/glossary/default_profile.html)**\
+-   **[Public](../glpi/glossary/public.html)**\
+-   **[Purge](../glpi/glossary/purge.html)**\
+-   **[Rapport](../glpi/glossary/report.html)**\
+-   **[Reconduction expresse](../glpi/glossary/specific_renewal.html)**\
+-   **[Reconduction tacite](../glpi/glossary/evergreen.html)**\
+-   **[Regroupement](../glpi/glossary/grouping.html)**\
+-   **[Récursivité](../glpi/glossary/recursivity.html)**\
+-   **[Rédacteur](../glpi/glossary/editor.html)**\
+-   **[Refusé](../glpi/glossary/refused.html)**\
+-   **[Règle](../glpi/glossary/rule.html)**\
+-   **[Adaptative Rule](../glpi/glossary/adaptative_rule.html)**\
+-   **[Replicat (MySQL)](../glpi/glossary/replicate.html)**\
+-   **[Réseau](../glpi/glossary/network.html)**\
+-   **[Réseaux](../glpi/glossary/networks.html)**\
+-   **[Réservation](../glpi/glossary/reservation.html)**\
+-   **[Résolu le (ticket)](../glpi/glossary/solved_on.html)**\
+-   **[Technicien](../glpi/glossary/technician.html)**\
+-   **[Restauration](../glpi/glossary/restore.html)**\
+-   **[Ruche](../glpi/glossary/hive.html)**\
+-   **[Sauvegarde](../glpi/glossary/dump.html)**\
+-   **[Service](../glpi/glossary/service.html)**\
+-   **[Alert threshold](../glpi/glossary/alert_threshold.html)**\
+-   **[Sous-entité](../glpi/glossary/subentity.html)**\
+-   **[Statistiques](../glpi/glossary/statistics.html)**\
+-   **[Statut](../glpi/glossary/status.html)**\
+-   **[Suivi](../glpi/glossary/follow_up.html)**\
+-   **[Sujet](../glpi/glossary/subject.html)**\
+-   **[Superviseur](../glpi/glossary/supervisor.html)**\
+-   **[Tâche](../glpi/glossary/task.html)**\
+-   **[Ticket](../glpi/glossary/ticket.html)**\
+-   **[Transfert](../glpi/glossary/transfert.html)**\
+-   **[Type d'amortissement](../glpi/glossary/damping_type.html)**\
+-   **[Type de tiers](../glpi/glossary/third_type.html)**\
+-   **[Urgence](../glpi/glossary/urgency.html)**\
+-   **[Usager](../glpi/glossary/user.html)**\
+-   **[Utilisateur](../glpi/glossary/consumer.html)**\
+-   **[Validation](../glpi/glossary/validation.html)**\
+-   **[Valideur](../glpi/glossary/validator.html)**\
+-   **[vCard](../glpi/glossary/vcard.html)**\
+-   **[VLAN](../glpi/glossary/vlan.html)**\
+-   **[VLAN "Taggé"](../glpi/glossary/tagged_vlan.html)**\
+-   **[Volume](../glpi/glossary/volume.html)**\
+-   **[Webcal](../glpi/glossary/webcal.html)**\
+

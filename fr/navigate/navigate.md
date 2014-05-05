@@ -1,0 +1,93 @@
+Naviguer dans les modules de GLPI
+=================================
+
+La navigation dans les modules se fait via la barre supérieure de
+l'interface.
+
+Les différentes fonctions de GLPI ont été regroupées en six modules. Ces
+modules ont été construits autour de contextes d'utilisation similaires.
+La barre supérieure de l'interface permet de naviguer entre ces modules
+:
+
+-   Le module Parc permet d'accéder aux différents matériels
+    inventoriés. Voir [Module
+    Inventaire](inventory.html "Module Inventaire de GLPI").
+-   Le module Assistance permet de créer, suivre les tickets, et voir
+    les statistiques. Voir [Le service d'assistance aux
+    utilisateurs](helpdesk.html "Le service d'Assistance aux utilisateurs de GLPI").
+-   Le module Gestion permet de gérer les contacts, fournisseurs,
+    budgets, contrats et documents. Voir [Module
+    Gestion](management.html "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents").
+-   Le module Outils permet de gérer des notes, la base de connaissance,
+    les réservations, les flux RSS et visualiser les rapports. Voir
+    [Module
+    Outils](tool.html "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports").
+-   Le module Administration permet d'administrer les utilisateurs,
+    groupes, entités, profils, règles et dictionnaires. Il permet aussi
+    la maintenance de l'application (sauvegarde et restauration de base,
+    vérifier si une nouvelle version est disponible). Voir [Module
+    Administration](administration.html "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application (sauvegarde et restauration de base, vérification de nouvelle version disponible).").
+-   Le module Configuration permet d'accéder aux options de
+    configuration générale de GLPI : notifications, collecteurs, tâches
+    automatiques, authentification, plugins, liens externes. Voir
+    [Module Configuration](config.html "Module Configuration de GLPI").
+
+Les menus présentés à l'utilisateur varient en fonction des
+habilitations de l'utilisateur connecté. Voir [Administrer les profils
+d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
+
+Le contexte de navigation est présenté à l'utilisateur dans le fil
+d'ariane.
+
+Conseil : Vous trouverez en bas à droite un bouton Top vous permettant
+de revenir rapidement en haut de la page si besoin.
+
+Il existe des raccourcis clavier qui permettent de naviguer d'un
+module/sous module à autre. Voici la liste de ces raccourcis :
+
+-   1 -\> Accueil
+-   **Parc :**
+    -   o -\> Ordinateurs
+    -   s -\> Logiciels
+
+-   **Assistance**
+    -   t -\> Tickets
+    -   a-\> Statistiques
+    -   p -\> Planning
+
+-   **Gestion :**
+    -   d -\> Documents
+
+-   **Outils :**
+    -   b -\> Base de connaissances
+    -   r -\> Réservations
+    -   e -\> Rapports
+
+-   **Administration :**
+    -   u -\> Utilisateurs
+    -   g -\> Groupes
+
+-   **Configuration :**
+    -   n -\> Intitulés
+
+La combinaison de touches à associer à ces raccourcis est variable selon
+les systèmes d'exploitation et les navigateurs utilisés. Voici quelques
+exemples suivant les navigateurs :
+
+-   Mozilla Firefox
+
+    Appuyer simultanément sur les touches *Alt*, *Maj* et *sur le
+    raccourci voulu*.
+
+-   Internet Explorer 7 et supérieur
+
+    Appuyer simultanément sur les touches *Alt*, *Maj* et *sur le
+    raccourci voulu*, puis taper sur *Entrée* pour valider la
+    destination.
+
+-   Opera
+
+    Appuyer simultanément sur les touches *Echap*, *Maj* et *sur le
+    raccourci voulu*.
+
+**Sujet parent :** [Utiliser GLPI](../glpi/use.html "Utiliser GLPI")
