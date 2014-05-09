@@ -1,7 +1,5 @@
-Prérequis
-=========
-
-Prérequis nécessaires à l'installation de GLPI.
+Prérequis nécessaires à l'installation de GLPI
+==============================================
 
 GLPI utilise les technologies suivantes :
 
@@ -11,15 +9,9 @@ GLPI utilise les technologies suivantes :
 -   CSS pour les feuilles de style ;
 -   CSV, PDF et SLK pour les exports de données ;
 -   AJAX pour les éléments dynamiques de l’interface ;
--   SVG et PNG pour les images et les graphiques.
-
--   **[Prérequis du serveur web](index.php?fr/prerequisite_webserver.md)**
-     Caractéristiques du serveur web nécessaires pour faire fonctionner
-    GLPI.
--   **[Prérequis serveur de base de
-    données](index.php?fr/prerequisite_db.md)**
-     Caractéristiques du serveur de base de données nécessaires pour
-    faire fonctionner GLPI.
-
-**Sujet parent :** [Déployer
-GLPI](index.php?fr/installing.md "Guide d'installation.")
+-   SVG et PNG pour les images et les graphiques ;
+-   **[Caractéristiques du serveur web nécessaires pour faire fonctionner     GLPI](index.php?fr/prerequisite_webserver.md)** ;
+-   **[Caractéristiques du serveur de base de données nécessaires pour faire fonctionner GLPI](index.php?fr/prerequisite_db.md)**.
+     
+---------------
+**Sujet parent :** [Déployer GLPI](index.php?fr/installing.md "Guide d'installation.")

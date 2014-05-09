@@ -2,10 +2,8 @@
 -   [Premiers pas avec GLPI](index.php?fr/first_steps.md)
     -   [Déployer GLPI](index.php?fr/install/installing.md)
         -   [Prérequis](index.php?fr/prerequisite.md)
-            -   [Prérequis du serveur
-                web](index.php?fr/prerequisite_webserver.md)
-            -   [Prérequis serveur de base de
-                données](index.php?fr/prerequisite_db.md)
+            -   [Prérequis du serveur web](index.php?fr/prerequisite_webserver.md)
+            -   [Prérequis serveur de base de données](index.php?fr/prerequisite_db.md)
 
         -   [Installer l'application GLPI](index.php?fr/install/install.md)
             -   [Télécharger l'archive](install_download.html)
