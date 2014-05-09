@@ -1,18 +1,16 @@
 -   [Préface](index.php?fr/preface.md)
--   [Premiers pas avec GLPI](index.php?fr/first_steps.md)
+-   [Premiers pas avec GLPI](index.php?fr/01_premiers_pas_avec_GLPI.md)
     -   [Déployer GLPI](index.php?fr/install/installing.md)
         -   [Prérequis](index.php?fr/prerequisite.md)
             -   [Prérequis du serveur web](index.php?fr/prerequisite_webserver.md)
             -   [Prérequis serveur de base de données](index.php?fr/prerequisite_db.md)
 
         -   [Installer l'application GLPI](index.php?fr/install/install.md)
-            -   [Télécharger l'archive](install_download.html)
-            -   [Installer les fichiers de l'application sur le
-                serveur](install_copyfiles.html)
-            -   [Utiliser l'assistant
-                d'installation](install_wizard.html)
+            -   [Télécharger l'archive](index.php?fr/install/install_download.html)
+            -   [Installer les fichiers de l'application sur le serveur](index.php?fr/install/install_copyfiles.html)
+            -   [Utiliser l'assistant d'installation](index.php?fr/install/install_wizard.html)
 
-    -   [Utiliser GLPI](use.html)
+    -   [Utiliser GLPI](index.php?fr/use.md)
         -   [Démarrer GLPI](start.html)
         -   [Choisir un navigateur web](start_browser.html)
         -   [Se connecter à GLPI](start_login.html)

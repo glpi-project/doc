@@ -11,4 +11,4 @@ Cette partie présente dans un premier temps les prérequis nécessaires à l'in
 -   **[Installer l'application GLPI](index.php?fr/install/install.md)**.
 
 -----------
-**Sujet parent :** [Premiers pas avec GLPI](index.php?fr/first_steps.html "Premiers pas avec GLPI.")
+**Sujet parent :** [Premiers pas avec GLPI](index.php?fr/01_premiers_pas_avec_GLPI.md)
