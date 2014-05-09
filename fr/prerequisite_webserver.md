@@ -62,4 +62,4 @@ session.use_trans_sid = 0 ; // Préconisé mais non obligatoire
 ~~~~
 
 **Sujet parent :**
-[Prérequis](../glpi/prerequisite.html "Prérequis nécessaires à l'installation de GLPI.")
+[Prérequis](index.php?fr/prerequisite.md "Prérequis nécessaires à l'installation de GLPI.")

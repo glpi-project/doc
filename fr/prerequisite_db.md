@@ -15,4 +15,4 @@ Important : Actuellement, seuls les serveurs de base de données MySQL et
 MariaDB sont supportés par GLPI (moteur MyISAM).
 
 **Sujet parent :**
-[Prérequis](../glpi/prerequisite.html "Prérequis nécessaires à l'installation de GLPI.")
+[Prérequis](index.php?fr/prerequisite.md "Prérequis nécessaires à l'installation de GLPI.")

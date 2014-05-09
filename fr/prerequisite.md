@@ -13,13 +13,13 @@ GLPI utilise les technologies suivantes :
 -   AJAX pour les éléments dynamiques de l’interface ;
 -   SVG et PNG pour les images et les graphiques.
 
--   **[Prérequis du serveur web](../glpi/prerequisite_webserver.html)**\
+-   **[Prérequis du serveur web](index.php?fr/prerequisite_webserver.md)**
      Caractéristiques du serveur web nécessaires pour faire fonctionner
     GLPI.
 -   **[Prérequis serveur de base de
-    données](../glpi/prerequisite_db.html)**\
+    données](index.php?fr/prerequisite_db.md)**
      Caractéristiques du serveur de base de données nécessaires pour
     faire fonctionner GLPI.
 
 **Sujet parent :** [Déployer
-GLPI](../glpi/installing.html "Guide d'installation.")
+GLPI](index.php?fr/installing.md "Guide d'installation.")

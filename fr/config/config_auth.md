@@ -34,7 +34,7 @@ utilisateur](administration_rule_right.html "GLPI dispose d'un moteur d'habilita
 Remarque : La cinématique d'authentification est la suivante :
 
 1.  l'utilisateur entre son identifiant et son mot de passe ;
-2.  GLPI vérifie si l'utilisateur est déjà enregistré dans la base. S'il
+2.  GLPI vérifie si si l'utilisateur est déjà enregistré dans la base. S'il
     ne l'est pas :
     1.  GLPI essaye les méthodes d'authentification les unes après les
         autres : la base interne, puis tous les annuaires LDAP et enfin
