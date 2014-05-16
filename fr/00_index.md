@@ -20,9 +20,8 @@
 
         -   [Naviguer dans les modules de GLPI](index.php?fr/05_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)
         -   [L'interface standard et l'interface simplifiée](index.php?fr/05_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)
-        -   [Visualiser les
-            enregistrements](navigate_manageitem.html)
-        -   [Rechercher](navigate_search.html)
+        -   [Visualiser les enregistrements](index.php?fr/05_utiliser_GLPI/07_visualiser_les_enregistrements.md)
+        -   [Rechercher](index.php?fr/05_utiliser_GLPI/08_rechercher.md)
 
     -   [Démarrage rapide](quickstart.html)
 
