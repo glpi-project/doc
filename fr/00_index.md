@@ -5,23 +5,23 @@
             -   [Prérequis du serveur web](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prerequis/02_prerequis_serveur.md)
             -   [Prérequis serveur de base de données](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prerequis/03_prerequis_base_de_donnees.md)
 
-        -   [Installer les pages de l'application GLPI](index.php?fr/2_premiers_pas_avec_GLPI/02_deployer_GLPI/03_installer_l'application.md)
-        -    [Utiliser l'assistant d'installation](index.php?fr/2_premiers_pas_avec_GLPI/02_deployer_GLPI/04_assistant_d'installation.md)
+        -   [Installer les pages de l'application GLPI](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/03_installer_l'application.md)
+        -    [Utiliser l'assistant d'installation](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/04_assistant_d'installation.md)
 
-    -   [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md)
+    -   [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
         -   Choisir un navigateur web
         -   Se connecter à GLPI
         -   Terminer sa session GLPI
-        -   [Découvrir l'interface de GLPI](index.php?fr/05_utiliser_GLPI/02_decouvrir_l'interface_de_GLPI.md)
+        -   [Découvrir l'interface de GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/02_decouvrir_l'interface_de_GLPI.md)
         -   Changer la langue de l'application
-        -   [Gérer son mot de passe](index.php?fr/05_utiliser_GLPI/03_gerer_son_mot_de_passe.md)
-        -   [Gérer ses préférences](index.php?fr/05_utiliser_GLPI/04_gerer_ses_preferences.md)
+        -   [Gérer son mot de passe](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/03_gerer_son_mot_de_passe.md)
+        -   [Gérer ses préférences](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/04_gerer_ses_preferences.md)
             -   [Personnaliser l'interface](config_common_personalize.html)
 
-        -   [Naviguer dans les modules de GLPI](index.php?fr/05_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)
-        -   [L'interface standard et l'interface simplifiée](index.php?fr/05_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)
-        -   [Visualiser les enregistrements](index.php?fr/05_utiliser_GLPI/07_visualiser_les_enregistrements.md)
-        -   [Rechercher](index.php?fr/05_utiliser_GLPI/08_rechercher.md)
+        -   [Naviguer dans les modules de GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)
+        -   [L'interface standard et l'interface simplifiée](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)
+        -   [Visualiser les enregistrements](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/07_visualiser_les_enregistrements.md)
+        -   [Rechercher](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/08_rechercher.md)
 
     -   [Démarrage rapide](quickstart.html)
 
