@@ -90,4 +90,5 @@ exemples suivant les navigateurs :
     Appuyer simultanément sur les touches *Echap*, *Maj* et *sur le
     raccourci voulu*.
 
-**Sujet parent :** [Utiliser GLPI](../glpi/use.html "Utiliser GLPI")
+---------
+**Sujet parent :** [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md)

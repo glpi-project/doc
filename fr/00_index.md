@@ -8,23 +8,18 @@
         -   [Installer les pages de l'application GLPI](index.php?fr/01_installer_l'application/01_installer_l'application.md)
         -    [Utiliser l'assistant d'installation](index.php?fr/04_installer_l'application/02_assistant_d'installation.md)
 
-    -   [Utiliser GLPI](index.php?fr/use.md)
-        -   [Démarrer GLPI](start.html)
-        -   [Choisir un navigateur web](start_browser.html)
-        -   [Se connecter à GLPI](start_login.html)
-        -   [Terminer sa session GLPI](start_logout.html)
-        -   [Découvrir l'interface de
-            GLPI](discover_interface.html)
-        -   [Changer la langue de
-            l'application](start_language.html)
-        -   [Gérer son mot de passe](start_password.html)
-        -   [Gérer ses préférences](start_pref.html)
-            -   [Personnaliser
-                l'interface](config_common_personalize.html)
+    -   [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md)
+        -   Choisir un navigateur web
+        -   Se connecter à GLPI
+        -   Terminer sa session GLPI
+        -   [Découvrir l'interface de GLPI](index.php?fr/05_utiliser_GLPI/02_decouvrir_l'interface_de_GLPI.md)
+        -   Changer la langue de l'application
+        -   [Gérer son mot de passe](index.php?fr/05_utiliser_GLPI/03_gerer_son_mot_de_passe.md)
+        -   [Gérer ses préférences](index.php?fr/05_utiliser_GLPI/04_gerer_ses_preferences.md)
+            -   [Personnaliser l'interface](config_common_personalize.html)
 
-        -   [Naviguer dans les modules de GLPI](navigate.html)
-        -   [L'interface standard et l'interface
-            simplifiée](navigate_interface.html)
+        -   [Naviguer dans les modules de GLPI](index.php?fr/05_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)
+        -   [L'interface standard et l'interface simplifiée](index.php?fr/05_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)
         -   [Visualiser les
             enregistrements](navigate_manageitem.html)
         -   [Rechercher](navigate_search.html)

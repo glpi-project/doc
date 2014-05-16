@@ -28,8 +28,8 @@ Onglet Vue Personnelle
 Cet onglet permet de réinitialiser la personnalisation d'affichage des différentes listes. L'utilisateur peut, pour chaque type d'objets, revenir à l'affichage par défaut en supprimant cette personnalisation
 (voir [Visualiser les enregistrements](navigate_manageitem.html "Visualiser et gérer les enregistrements")).
 
--   **[Personnaliser l'interface](../glpi/config_common_personalize.html)**\
+-   **[Personnaliser l'interface](../glpi/config_common_personalize.html)**
     Les préférences d'affichage qui peuvent être définies avec des valeurs par défaut et que les utilisateurs peuvent modifier pour leur session sont regroupées dans l'onglet personnalisation.
 
 -------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md "Utiliser GLPI")
+**Sujet parent :** [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md)
