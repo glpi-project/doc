@@ -5,10 +5,8 @@
             -   [Prérequis du serveur web](index.php?fr/03_premiers_pas_avec_GLPI/04_prerequis_serveur.md)
             -   [Prérequis serveur de base de données](index.php?fr/03_premiers_pas_avec_GLPI/05_prerequis_base_de_donnees.md)
 
-        -   [Installer l'application GLPI](index.php?fr/04_installer_l'application/01_installer_l'application.md)
-            -   [Télécharger l'archive](index.php?fr/04_installer_l'application/02_telecharger_l'archive.md)
-            -   [Installer les fichiers de l'application sur le serveur](index.php?fr/04_installer_l'application/03_copier_les_fichiers)
-            -   [Utiliser l'assistant d'installation](index.php?fr/04_installer_l'application/04_assistant_d'installation.md)
+        -   [Installer les pages de l'application GLPI](index.php?fr/01_installer_l'application/01_installer_l'application.md)
+        -    [Utiliser l'assistant d'installation](index.php?fr/04_installer_l'application/02_assistant_d'installation.md)
 
     -   [Utiliser GLPI](index.php?fr/use.md)
         -   [Démarrer GLPI](start.html)
