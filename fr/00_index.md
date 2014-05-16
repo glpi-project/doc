@@ -1,12 +1,12 @@
 -   [Préface](index.php?fr/preface.md)
 -   [Premiers pas avec GLPI](index.php?fr/02_premiers_pas_avec_GLPI/01_premiers_pas_avec_GLPI.md)
     -   [Déployer GLPI](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_deployer_GLPI.md)
-        -   [Prérequis](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prequis/01_prerequis_necessaires.md)
-            -   [Prérequis du serveur web](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prequis/02_prerequis_serveur.md)
-            -   [Prérequis serveur de base de données](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prequis/03_prerequis_base_de_donnees.md)
+        -   [Prérequis](index.php?fprerequis_necessaires.md)
+            -   [Prérequis du serveur web](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prerequis/02_prerequis_serveur.md)
+            -   [Prérequis serveur de base de données](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prerequis/03_prerequis_base_de_donnees.md)
 
-        -   [Installer les pages de l'application GLPI](index.php?fr/01_installer_l'application/01_installer_l'application.md)
-        -    [Utiliser l'assistant d'installation](index.php?fr/04_installer_l'application/02_assistant_d'installation.md)
+        -   [Installer les pages de l'application GLPI](index.php?fr/2_premiers_pas_avec_GLPI/02_deployer_GLPI/03_installer_l'application.md)
+        -    [Utiliser l'assistant d'installation](index.php?fr/2_premiers_pas_avec_GLPI/02_deployer_GLPI/04_assistant_d'installation.md)
 
     -   [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md)
         -   Choisir un navigateur web

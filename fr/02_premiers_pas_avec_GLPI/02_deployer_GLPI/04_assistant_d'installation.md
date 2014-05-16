@@ -91,4 +91,4 @@ Avertissement : Il faut bien entendu par la suite supprimer ou modifier ces comp
 
 ----------------------
 
-**Sujet parent :** [Installer l'application GLPI](index.php?fr/04_installer_l'application/01_installer_l'application.md)
+**Sujet parent :** [Installer l'application GLPI](index.php?fr/2_premiers_pas_avec_GLPI/02_deployer_GLPI/03_installer_l'application.md)
