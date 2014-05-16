@@ -18,7 +18,7 @@ Un utilisateur non authentifié peut accéder à certaines fonctionnalités si G
 Une fois la session terminée, l'utilisateur est redirigé vers la page d'authentification.
 
 
--   **[Découvrir l'interface de GLPI](index.php?fr/05_utiliser_GLPI/02_decouvrir_l'interface_de_GLPI.md)**
+-   **[Découvrir l'interface de GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/02_decouvrir_l'interface_de_GLPI.md)**
 
 
 -   **Changer la langue de l'application**
@@ -26,25 +26,24 @@ Une fois la session terminée, l'utilisateur est redirigé vers la page d'authen
     Le lien affiche le nom de la langue actuellement en utilisation dans GLPI.
 
 
--   **[Gérer son mot de passe](index.php?fr/05_utiliser_GLPI/03_gerer_son_mot_de_passe.md)**
+-   **[Gérer son mot de passe](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/03_gerer_son_mot_de_passe.md)**
  
 
--   **[Gérer ses préférences](index.php?fr/05_utiliser_GLPI/04_gerer_ses_preferences)**
+-   **[Gérer ses préférences](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/04_gerer_ses_preferences)**
      Les préférences utilisateur se modifient depuis le menu Préférences
 
 
--   **[Naviguer dans les modules de GLPI](index.php?fr/05_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)**
+-   **[Naviguer dans les modules de GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)**
      La navigation dans les modules se fait via la barre supérieure de l'interface.
 
 
--   **[L'interface standard et l'interface simplifiée](index.php?fr/05_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)**
+-   **[L'interface standard et l'interface simplifiée](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)**
      Selon ses habilitations, l'utilisateur utilise l'**interface standard** ou l'**interface simplifiée**.
 
--   **[Visualiser les
-    enregistrements](../glpi/navigate_manageitem.html)**\
+-   **[Visualiser les enregistrements](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/07_visualiser_les_enregistrements.md)**
      Visualiser et gérer les enregistrements
--   **[Rechercher](../glpi/navigate_search.html)**\
+
+-   **[Rechercher](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/08_rechercher.md)**
      Rechercher des informations dans GLPI
 
-**Sujet parent :** [Premiers pas avec
-GLPI](../glpi/first_steps.html "Premiers pas avec GLPI.")
+**Sujet parent :** [Premiers pas avec GLPI](02_premiers_pas_avec_GLPI/01_premiers_pas_avec_GLPI.md)

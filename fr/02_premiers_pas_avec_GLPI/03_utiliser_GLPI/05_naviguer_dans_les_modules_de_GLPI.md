@@ -1,8 +1,7 @@
 Naviguer dans les modules de GLPI
 =================================
 
-La navigation dans les modules se fait via la barre supérieure de
-l'interface.
+La navigation dans les modules se fait via la barre supérieure de l'interface.
 
 Les différentes fonctions de GLPI ont été regroupées en six modules. Ces modules ont été construits autour de contextes d'utilisation similaires.
 La barre supérieure de l'interface permet de naviguer entre ces modules :
@@ -63,4 +62,4 @@ La combinaison de touches à associer à ces raccourcis est variable selon les s
     Appuyer simultanément sur les touches *Echap*, *Maj* et *sur le raccourci voulu*.
 
 ---------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/05_utiliser_GLPI/01_utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
