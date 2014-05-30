@@ -8,7 +8,7 @@ Une liste d'éléments peut être obtenue de 2 manières : depuis le moteur de r
 Depuis le moteur de recherche, après avoir déterminé des critères et validé la recherche, une liste d'enregistrements est affichée. Par défaut aucun critère de recherche ne limite la liste des enregistrements
 proposés et l'affichage est limité aux n premiers enregistrements de la liste.
 
-Depuis le menu *Parc > Ordinateurs* : si aucun critère de recherche n'est déterminé, les n premiers ordinateurs du parc seront affichés.
+Depuis le menu ***Parc > Ordinateurs*** : si aucun critère de recherche n'est déterminé, les n premiers ordinateurs du parc seront affichés.
 
 Depuis une première liste, une nouvelle liste peut être obtenue.
 

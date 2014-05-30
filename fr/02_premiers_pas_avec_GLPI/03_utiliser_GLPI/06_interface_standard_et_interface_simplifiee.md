@@ -40,7 +40,7 @@ au minimum. Dans la configuration par défaut, un utilisateur peut, depuis cette
 Figure 4. Menu de l'interface simplifiée
 ![image](docs/image/GLPI-interface%20simplifiee.png)
 
-Remarque : Le choix de l'interface par défaut ainsi que des différents modules à afficher ou non sont paramétrables dans les profils. Voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
+***Remarque :*** Le choix de l'interface par défaut ainsi que des différents modules à afficher ou non sont paramétrables dans les profils. Voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
 
 ---------
 **Sujet parent :** [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)

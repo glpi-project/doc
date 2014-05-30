@@ -105,9 +105,9 @@ Un système d'actions massives est intégré au moteur de recherche. Il permet d
 Les résultats des actions ainsi que des messages d'information sont présentés à la fin de l'exécution de l'ensemble des actions.
 
 ***Remarques :*** 
-- Vous trouverez dans les entêtes du tableau (en haut et en bas) une case à cocher vous permettant de sélectionner ou dé sélectionner tous les éléments de la liste.
-- Un système d'actions similaire est disponible dans certaines listes présentes au sein des objets eux même.
-  Le fonctionnement est identique à celui exposé ici.
+*- Vous trouverez dans les entêtes du tableau (en haut et en bas) une case à cocher vous permettant de sélectionner ou dé sélectionner tous les éléments de la liste.*
+*- Un système d'actions similaire est disponible dans certaines listes présentes au sein des objets eux même.
+  Le fonctionnement est identique à celui exposé ici.*
 
 
 > ATTENTION :
@@ -122,7 +122,7 @@ Figure 2. Le champ de recherche rapide
 
 Cet outil se trouvant en haut à droite de l'écran GLPI permet la recherche d'une chaîne de caractères simultanément sur les éléments suivants : Ordinateur, Moniteur, Logiciel, Matériel Réseau, Périphérique, Imprimantes, Téléphones, Contacts, Fournisseurs et Documents.
 
-***Remarque :*** La recherche ne se fera que sur les champs affichés par défaut pour chacun des éléments cités ci-dessus.
+***Remarque :*** *La recherche ne se fera que sur les champs affichés par défaut pour chacun des éléments cités ci-dessus.*
 
 Les marques-pages
 -----------------
@@ -130,8 +130,8 @@ Les marques-pages
 GLPI permet d'enregistrer de manière personnelle ou publique des recherches que l'utilisateur souhaite conserver et exécuter à nouveau si besoin.
 
 ***Remarques :***
--  Les marques pages personnels peuvent être ordonnés en fonction des besoins de l'utilisateurs alors que les marques pages publics utilisent un tri automatique.
-- La recherche doit au préalable être exécutée via le bouton **Rechercher** avant de pouvoir enregistrer le marque-page.
+*-  Les marques pages personnels peuvent être ordonnés en fonction des besoins de l'utilisateurs alors que les marques pages publics utilisent un tri automatique.*
+*- La recherche doit au préalable être exécutée via le bouton **Rechercher** avant de pouvoir enregistrer le marque-page.*
 
 Un marque-page public ne peut être modifié que sur l'entité dans laquelle il a été créé. Seules les personnes possédant le droit d'écriture sur les marques-pages public sont habilités à en créer et à modifier ceux qui existent.
 

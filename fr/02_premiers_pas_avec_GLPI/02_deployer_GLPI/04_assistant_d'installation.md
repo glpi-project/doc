@@ -53,8 +53,7 @@ Deux possibilités :
     Sélectionner cette base dans la liste des bases affichées. 
     Valider pour initialiser la base de données.
 
-    ATTENTION :
-
+    > ATTENTION :
     Le contenu de la base de données sélectionnée sera détruit lors de l'initialisation de celle-ci.
 
 -   Pour créer une nouvelle base de données pour accueillir les données de GLPI :
@@ -63,7 +62,7 @@ Deux possibilités :
     Saisir le nom de la nouvelle base dans le champ texte prévu à cet effet. 
     Valider pour créer la base de données.
 
-    Important : Cette étape nécessite que l'utilisateur ait les droits nécessaires à la création d'une nouvelle base.
+    > Important : Cette étape nécessite que l'utilisateur ait les droits nécessaires à la création d'une nouvelle base.
 
 Etape 3 : Initialisation de la base de données.
 -----------------------------------------------
@@ -77,7 +76,7 @@ Etape 4 : L'installation de GLPI est maintenant terminée.
 Cette étape présente le récapitulatif de la procédure d'installation et donne la liste des comptes utilisateurs créés. Lire attentivement ces informations et valider pour effectuer la première connexion à
 l'application.
 
-Conseil : Les comptes utilisateurs par défaut sont les suivants :
+***Conseil :*** Les comptes utilisateurs par défaut sont les suivants :
 
 *glpi/glpi* pour le compte administrateur
 
@@ -87,7 +86,7 @@ Conseil : Les comptes utilisateurs par défaut sont les suivants :
 
 *post-only/postonly* pour le compte post-only
 
-Avertissement : Il faut bien entendu par la suite supprimer ou modifier ces comptes par défaut pour des raisons évidentes de sécurité. Veiller avant la suppression du compte glpi à créer un nouvel utilisateur avec le profil super-admin.
+> Avertissement : Il faut bien entendu par la suite supprimer ou modifier ces comptes par défaut pour des raisons évidentes de sécurité. Veiller avant la suppression du compte glpi à créer un nouvel utilisateur avec le profil super-admin.
 
 ----------------------
 

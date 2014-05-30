@@ -18,7 +18,7 @@ Donner les droits en écriture au service web sur les dossiers /files et /config
 
 Une fois ces étapes effectuées l'application est prête à être utilisée.
 
-Remarque : Il existe également de nombreux paquets pour les distributions (Debian, Ubuntu, Fedora...).
+***Remarque :*** *Il existe également de nombreux paquets pour les distributions (Debian, Ubuntu, Fedora...).*
 
 ---------------
 **Sujet parent :** [Déployer GLPI](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_deployer_GLPI.md)

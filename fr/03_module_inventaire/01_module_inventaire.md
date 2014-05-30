@@ -7,9 +7,8 @@ Présentation du module d'inventaire de GLPI. Ce module est destiné à la gesti
 -   **[La gestion des gabarits dans GLPI](index.php?fr/03_module_inventaire/03_gerer_les_gabarits.md)**      
 -   **[Gérer les statuts](index.php?fr/03_module_inventaire/04_gerer_les_statuts.md)**
      Les statuts dans GLPI, la vue spécifique
--   **[Recherche globale](../glpi/inventory_global.html)**\
-     Recherche globale sur les éléments d'inventaire
--   **[Gérer les ordinateurs](../glpi/inventory_computer.html)**\
+-   **[Recherche globale sur les éléments d'inventaire](index.php?fr/03_module_inventaire/05_recherche_globale.md)**
+-   **[Gérer les ordinateurs](index.php?fr/03_module_inventaire/06_gerer_les_ordinateurs)**
      Les ordinateurs se gèrent depuis le menu Parc \> Ordinateurs
 -   **[Gérer les moniteurs](../glpi/inventory_monitor.html)**\
      Les moniteurs se gèrent depuis le menu Parc \> Moniteurs
