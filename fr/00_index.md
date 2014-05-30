@@ -23,9 +23,7 @@
         -   [Visualiser les enregistrements](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/07_visualiser_les_enregistrements.md)
         -   [Rechercher](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/08_rechercher.md)
 
-    -   [Démarrage rapide](quickstart.html)
-
--   [Module Inventaire](inventory.html)
+-   [Module Inventaire](index.php?fr/03_module_inventaire/01_module_inventaire.md)
     -   [Gérer son inventaire](inventory_use.html)
     -   [Gérer les gabarits](template.html)
     -   [Gérer les statuts](inventory_state.html)
