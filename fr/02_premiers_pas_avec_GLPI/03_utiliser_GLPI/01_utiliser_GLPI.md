@@ -46,4 +46,4 @@ Une fois la session terminée, l'utilisateur est redirigé vers la page d'authen
 -   **[Rechercher](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/08_rechercher.md)**
      Rechercher des informations dans GLPI
 
-**Sujet parent :** [Premiers pas avec GLPI](02_premiers_pas_avec_GLPI/01_premiers_pas_avec_GLPI.md)
+**Sujet parent :** [Premiers pas avec GLPI](index.php?fr/02_premiers_pas_avec_GLPI/01_premiers_pas_avec_GLPI.md)

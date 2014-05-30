@@ -5,7 +5,7 @@ En fonction du profil de l'utilisateur, les menus peuvent différer mais la logi
 
 L'interface de GLPI est composée de cinq zones regroupant les fonctionnalités de l'application en fonction de leur nature.
 
-Figure 1. L'interface de GLPI ![image](../image/interface.png)
+Figure 1. L'interface de GLPI ![image](docs/image/interface.png)
 
 1.  Le menu utilisateur permet de gérer ses préférences, d'accéder à 'aide et de se déconnecter ;
 2.  Le menu principal permet de naviguer dans les différents modules ;
