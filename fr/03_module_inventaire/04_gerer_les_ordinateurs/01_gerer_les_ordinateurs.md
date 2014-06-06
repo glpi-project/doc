@@ -11,10 +11,12 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 *- Dans le cas d'une utilisation de GLPI couplé avec un outil d'inventaire, différentes informations sur l'importation sont également disponibles.*
 *- Un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d'utiliser le champ type.*
 
--   **[Onglet     "Composants"](../glpi/inventory_computer_component.html)**\
+-   **[Onglet "Composants"](index.php?fr/index.php?fr/03_module_inventaire/04_gerer_les_ordinateurs/02_onglet_composant.md)**
      Gestion des composants des ordinateurs
--   **[Onglet "Volumes"](../glpi/inventory_computer_volume.html)**\
+
+-   **[Onglet "Volumes"](index.php?fr/03_module_inventaire/04_gerer_les_ordinateurs/03_onglet_volume.md)**
      Gestion des volumes des ordinateurs
+
 -   **[Onglet "Logiciels"](../glpi/inventory_computer_software.html)**\
      Gestion des logiciels installés sur les ordinateurs
 -   **[Onglet "Machines     virtuelles"](../glpi/inventory_computer_virtualmachine.html)**\
