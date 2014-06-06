@@ -3,7 +3,7 @@ Prérequis serveur de base de données
 
 Caractéristiques du serveur de base de données nécessaires pour faire fonctionner GLPI.
 
-Pour fonctionner, GLPI nécessite un serveur de base de données MySQL de version supérieure ou égale à 4.23
+Pour fonctionner, GLPI nécessite un serveur de base de données MySQL de version supérieure ou égale à 4.1.2
 ([http://www.mysql.fr](http://www.mysql.fr)).
 
 ***Remarque :*** *Nous recommandons d'utiliser la version 5.5.x (meilleures performances).*
