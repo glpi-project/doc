@@ -12,6 +12,6 @@
 	"clean_urls": false,
 	"languages": { "en": "English", "fr": "Français" },
         "ignore": {
-           "folders": ["image"]
+           "folders": ["image",".svn"]
         }
 }
