@@ -11,4 +11,5 @@ Il est également possible de définir la taille restant libre sur le volume.
 
 ***Remarque :*** *En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
 
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_module_inventaire/04_gere_les_ordinateurs/01_gerer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+--------
+**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")

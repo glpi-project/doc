@@ -11,20 +11,23 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 *- Dans le cas d'une utilisation de GLPI couplé avec un outil d'inventaire, différentes informations sur l'importation sont également disponibles.*
 *- Un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d'utiliser le champ type.*
 
--   **[Onglet "Composants"](index.php?fr/index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglet_Composants.md)**
+-   **[Onglet "Composants"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglet_Composants.md)**
      Gestion des composants des ordinateurs
 
 -   **[Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)**
      Gestion des volumes des ordinateurs
 
--   **[Onglet "Logiciels"](../glpi/inventory_computer_software.html)**\
+-   **[Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/04_Onglet_Logiciels.md)**
      Gestion des logiciels installés sur les ordinateurs
+
+-   **[Onglet "Connexions"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/05_Onglet_Connexions.md)**
+     Gestion des connexions
+
+-   **[Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/06_Onglet_Ports_réseau.md)**
+     Gestion des ports réseaux pour les éléments d'inventaire
+
 -   **[Onglet "Machines     virtuelles"](../glpi/inventory_computer_virtualmachine.html)**\
      Gestion des machines virtuelles associées aux ordinateurs
--   **[Onglet "Connexions"](../glpi/inventory_connection.html)**\
-     Gestion des connexions
--   **[Onglet "Ports     réseaux"](../glpi/inventory_network_connection.html)**\
-     Gestion des ports réseaux pour les éléments d'inventaire
 -   **[Gérer les informations financières et     administratives](../glpi/inventory_management.html)**\
      Éléments de gestion pour les éléments d'inventaire
 -   **[Gérer les contrats associés](../glpi/inventory_contract.html)**\
@@ -50,4 +53,5 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 -   **[Associer un ordinateur à un document](../glpi/inventory_computer_t_linktodocument.html)**\
 -   **[Associer un ordinateur à un contrat](../glpi/inventory_computer_t_linktocontract.html)**\
 
+------------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

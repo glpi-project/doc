@@ -18,4 +18,5 @@ Pour agir sur un composant (suppression définitive, modification...), sélectio
 
 ***Remarque :*** *Toute suppression ou ajout d'un composant est enregistré dans l'historique.*
 
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_module_inventaire/04_gere_les_ordinateurs/01_gerer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+-----------
+**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
