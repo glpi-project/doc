@@ -43,4 +43,5 @@ Un système de remplissage et d'incrémentation automatique de certains champs (
     - il suffira de renseigner dans le gabarit pour le champ numéro d'inventaire la chaîne suivante <\\Y\\m\\d-555-1234-\#\#\>.
     Chaque imprimante à sa création verra son numéro d'inventaire généré automatiquement et incrémenté de 1 à 20.
 
+----------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

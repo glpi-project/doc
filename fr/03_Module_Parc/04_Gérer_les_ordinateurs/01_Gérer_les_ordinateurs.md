@@ -26,10 +26,14 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 -   **[Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/06_Onglet_Ports_réseau.md)**
      Gestion des ports réseaux pour les éléments d'inventaire
 
+-   **[Onglet "Gestion"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/07_Onglet_Gestion.md)**
+    Gérer les informations financières et administratives
+
+-   **[Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)**
+    Gérer les contrats associés
+
 -   **[Onglet "Machines     virtuelles"](../glpi/inventory_computer_virtualmachine.html)**\
      Gestion des machines virtuelles associées aux ordinateurs
--   **[Gérer les informations financières et     administratives](../glpi/inventory_management.html)**\
-     Éléments de gestion pour les éléments d'inventaire
 -   **[Gérer les contrats associés](../glpi/inventory_contract.html)**\
      Affiche les contrats associés.
 -   **[Associer des documents](../glpi/inventory_document.html)**\

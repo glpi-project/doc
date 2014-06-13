@@ -11,7 +11,7 @@ Figure 1. Connexion depuis un ordinateur
 ![image](docs/image/connexion_computer.png)
 
 La connexion peut se faire vers un ou plusieurs élément du type moniteur, imprimante, périphérique ou téléphone.
-Pour chaque type d'objet connecté, le nom, numéro de série, numéro d'inventaire sont listés. 
+Pour chaque type d'objet connecté, les nom, numéro de série et numéro d'inventaire sont listés. 
 
 
 Connexion depuis un élément autre qu'un ordinateur

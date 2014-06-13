@@ -15,4 +15,5 @@ Cependant, on peut automatiser la remontée d'informations depuis les équipemen
 -   Le plugin [Fusion Inventory](http://www.fusioninventory.org) 
 qui transforme GLPI en serveur d'inventaire (les agents discutent directement avec GLPI).
 
+----------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

@@ -30,15 +30,16 @@
     -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md)
         -   [Onglet "Composants"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglets_Composants.md)
         -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)
-        -   [Onglet "Logiciels"](inventory_computer_software.html)
-        -   [Onglet "Machines
-            virtuelles"](inventory_computer_virtualmachine.html)
-        -   [Onglet "Connexions"](inventory_connection.html)
-            -   [Connexions
-                directes](inventory_computer_connection.html)
+        -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/04_Onglet_Logiciels.md)
+        -   [Onglet "Connexions"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/05_Onglet_Connexions.md)
+            Gestion des connexions directes entre un ordinateur et ses éléments liés.
+        -   [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/06_Onglet_Ports_réseau.md)
+        -   [Onglet "Gestion"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/07_Onglet_Gestion.md)
+            Gérer les informations financières et administratives]
+        -   [Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)
+            Gérer les contrats associés
+        -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Machines_virtuelles.md)
 
-        -   [Onglet "Ports
-            réseaux"](inventory_network_connection.html)
         -   [Gérer les informations financières et
             administratives](inventory_management.html)
         -   [Gérer les contrats associés](inventory_contract.html)
