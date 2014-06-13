@@ -6,7 +6,7 @@ La navigation dans les modules se fait via la barre supérieure de l'interface.
 Les différentes fonctions de GLPI ont été regroupées en six modules. Ces modules ont été construits autour de contextes d'utilisation similaires.
 La barre supérieure de l'interface permet de naviguer entre ces modules :
 
--   Le module ***Parc*** permet d'accéder aux différents matériels inventoriés. Voir [Module Inventaire](inventory.html "Module Inventaire de GLPI").
+-   Le module ***Parc*** permet d'accéder aux différents matériels inventoriés. Voir [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI").
 -   Le module ***Assistance*** permet de créer, suivre les tickets, les problèmes et les changements ainsi que voir les statistiques. Voir [Le service d'assistance aux     utilisateurs](helpdesk.html "Le service d'Assistance aux utilisateurs de GLPI").
 -   Le module ***Gestion*** permet de gérer les contacts, fournisseurs, budgets, contrats et documents. Voir [Module Gestion](management.html "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents").
 -   Le module ***Outils*** permet de gérer les projets, des notes, la base de connaissance, les réservations, les flux RSS et visualiser les rapports. Voir [Module Outils](tool.html "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports").
@@ -62,4 +62,4 @@ La combinaison de touches à associer à ces raccourcis est variable selon les s
     Appuyer simultanément sur les touches *Echap*, *Maj* et *sur le raccourci voulu*.
 
 ---------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

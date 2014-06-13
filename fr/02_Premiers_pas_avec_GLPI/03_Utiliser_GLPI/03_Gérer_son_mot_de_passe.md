@@ -12,4 +12,4 @@ Seuls les utilisateurs disposant d'une adresse de messagerie définie dans GLPI 
 Les mots de passe doivent suivre la politique de sécurité définie (voir [Onglet Système] (config_common_sysinfo.html "Cet onglet permet de visualiser un résumé des informations sur les capacités du serveur web et de définir les informations de journalisation et d'erreurs à enregistrer ainsi que la politique des mots de passe à appliquer.")).
 Un contrôle en temps réel du mot de passe saisi est alors effectué.
 
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

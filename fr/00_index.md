@@ -1,37 +1,35 @@
 -   [Préface](index.php?fr/preface.md)
--   [Premiers pas avec GLPI](index.php?fr/02_premiers_pas_avec_GLPI/01_premiers_pas_avec_GLPI.md)
-    -   [Déployer GLPI](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_deployer_GLPI.md)
-        -   [Prérequis](index.php?fprerequis_necessaires.md)
-            -   [Prérequis du serveur web](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prerequis/02_prerequis_serveur.md)
-            -   [Prérequis serveur de base de données](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/02_prerequis/03_prerequis_base_de_donnees.md)
+-   [Premiers pas avec GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/01_Premiers_pas_avec_GLPI.md)
+    -   [Déployer GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Déployer_GLPI.md)
+        -   [Prérequis](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/01_Prérequis_nécessaires.md)
+            -   [Prérequis du serveur web](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/02_Prérequis_serveur.md)
+            -   [Prérequis serveur de base de données](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/03_Prérequis_base_de_données.md)
 
-        -   [Installer les pages de l'application GLPI](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/03_installer_l'application.md)
-        -    [Utiliser l'assistant d'installation](index.php?fr/02_premiers_pas_avec_GLPI/02_deployer_GLPI/04_assistant_d'installation.md)
+        -   [Installer les pages de l'application GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/03_Installer_l'application.md)
+        -    [Utiliser l'assistant d'installation](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/04_Assistant_d'installation.md)
 
-    -   [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
+    -   [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
         -   Choisir un navigateur web
         -   Se connecter à GLPI
         -   Terminer sa session GLPI
-        -   [Découvrir l'interface de GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/02_decouvrir_l'interface_de_GLPI.md)
+        -   [Découvrir l'interface de GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/02_Découvrir_l'interface_de_GLPI.md)
         -   Changer la langue de l'application
-        -   [Gérer son mot de passe](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/03_gerer_son_mot_de_passe.md)
-        -   [Gérer ses préférences](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/04_gerer_ses_preferences.md)
+        -   [Gérer son mot de passe](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/03_Gérer_son_mot_de_passe.md)
+        -   [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_preferences.md)
             -   [Personnaliser l'interface](config_common_personalize.html)
 
-        -   [Naviguer dans les modules de GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/05_naviguer_dans_les_modules_de_GLPI.md)
-        -   [L'interface standard et l'interface simplifiée](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/06_interface_standard_et_interface_simplifiee.md)
-        -   [Visualiser les enregistrements](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/07_visualiser_les_enregistrements.md)
-        -   [Rechercher](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/08_rechercher.md)
+        -   [Naviguer dans les modules de GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/05_Naviguer_dans_les_modules_de_GLPI.md)
+        -   [L'interface standard et l'interface simplifiée](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
+        -   [Visualiser les enregistrements](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/07_Visualiser_les_enregistrements.md)
+        -   [Rechercher](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/08_Rechercher.md)
 
--   [Module Inventaire](index.php?fr/03_module_inventaire/01_module_inventaire.md)
-    -   [Gérer son inventaire](inventory_use.html)
-    -   [Gérer les gabarits](template.html)
-    -   [Gérer les statuts](inventory_state.html)
-    -   [Recherche globale](inventory_global.html)
-    -   [Gérer les ordinateurs](inventory_computer.html)
-        -   [Onglet
-            "Composants"](inventory_computer_component.html)
-        -   [Onglet "Volumes"](inventory_computer_volume.html)
+-   [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md)
+    -   [Gérer son parc](index.php?fr/03_Module_Parc/02_Gérer_son_parc.md)
+        Gestion du parc, des status, recherche globale
+    -   [Gérer les gabarits](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)
+    -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md)
+        -   [Onglet "Composants"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglets_Composants.md)
+        -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)
         -   [Onglet "Logiciels"](inventory_computer_software.html)
         -   [Onglet "Machines
             virtuelles"](inventory_computer_virtualmachine.html)

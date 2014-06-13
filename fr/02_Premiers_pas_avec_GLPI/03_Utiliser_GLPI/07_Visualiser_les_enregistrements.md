@@ -28,4 +28,4 @@ La vue globale s'applique à tous les profils ayant accès à une partie de l'in
 La vue personnelle ne s'applique qu'à l'utilisateur connecté, et outrepasse les réglages de la vue globale.
 
 --------------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

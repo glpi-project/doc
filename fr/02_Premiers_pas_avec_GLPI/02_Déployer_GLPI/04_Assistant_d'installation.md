@@ -90,4 +90,4 @@ l'application.
 
 ----------------------
 
-**Sujet parent :** [Installer l'application GLPI](index.php?fr/2_premiers_pas_avec_GLPI/02_deployer_GLPI/03_installer_l'application.md)
+**Sujet parent :** [Installer l'application GLPI](index.php?fr/2_Premiers_pas_avec_GLPI/02_Déployer_GLPI/03_Installer_l'application.md)

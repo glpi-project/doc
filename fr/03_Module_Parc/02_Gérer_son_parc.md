@@ -11,9 +11,8 @@ Cependant, on peut automatiser la remontée d'informations depuis les équipemen
 **Outils disponibles :**
 
 -   Le plugin [ocsinventoryng](https://forge.indepnet.net/projects/ocsinventoryng)
-    qui permet de synchroniser la base GLPI avec un outil d'inventaire [OCS Inventory NG](http://www.ocsinventory-ng.org) (Les agents des
-    ordinateurs du parc discutent avec le serveur OCS Inventory NG).
+    qui permet de synchroniser la base GLPI avec un outil d'inventaire [OCS Inventory NG](http://www.ocsinventory-ng.org) (les agents des ordinateurs du parc discutent avec le serveur OCS Inventory NG).
 -   Le plugin [Fusion Inventory](http://www.fusioninventory.org) 
 qui transforme GLPI en serveur d'inventaire (les agents discutent directement avec GLPI).
 
-**Sujet parent :** [Module Inventaire](index.php?fr/03_module_inventaire/01_module_inventaire.md "Module Inventaire de GLPI")
+**Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

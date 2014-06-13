@@ -1,11 +1,11 @@
-Module Inventaire
-=================
+Module Parc
+===========
 
 Présentation du module d'inventaire de GLPI. Ce module est destiné à la gestion des éléments composants le parc informatique.
 
--   **[La gestion de l'inventaire dans GLPI](index.php?fr/03_module_inventaire/02_gerer_son_inventaire.md)**     
+-   **[La gestion de l'inventaire dans GLPI](index.php?fr/03_Module_Parc/02_Gérer_son_parc.md)**     
 
--   **[La gestion des gabarits dans GLPI](index.php?fr/03_module_inventaire/03_gerer_les_gabarits.md)**   
+-   **[La gestion des gabarits dans GLPI](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)**   
    
 -   **Les statuts dans GLPI, la vue spécifique**
     Cette information est couramment utilisée pour distinguer les ordinateurs mis au rebut, disponibles, affectés etc... Il est donc possible de créer ses propres statuts en rapport avec le système d'information.
@@ -22,7 +22,7 @@ Cette recherche est limitée aux ordinateurs, moniteurs, imprimantes, équipemen
 
     Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
 
--   **[Gérer les ordinateurs](index.php?fr/03_module_inventaire/04_gerer_les_ordinateurs/01_gerer_les_ordinateurs.md)**
+-   **[Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md)**
      Les ordinateurs se gèrent depuis le menu ***Parc \> Ordinateurs***
 
 -   **[Gérer les moniteurs](index.php?fr/03_module_inventaire/05_gerer_les_moniteurs)**

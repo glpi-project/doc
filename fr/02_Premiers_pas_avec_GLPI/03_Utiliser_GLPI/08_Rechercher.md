@@ -145,4 +145,4 @@ Si les gestionnaires de parc ont besoin de connaître régulièrement l'ensemble
 Dans le cas d'une utilisation de GLPI en multi-entités, pour mettre à disposition des utilisateurs des requêtes pré-définies, qui ne sont pas modifiables, il est possible de créer des marques-pages public visibles
 dans des sous-entités.
 
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_premiers_pas_avec_GLPI/03_utiliser_GLPI/01_utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

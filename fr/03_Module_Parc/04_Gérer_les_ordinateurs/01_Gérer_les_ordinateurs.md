@@ -11,10 +11,10 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 *- Dans le cas d'une utilisation de GLPI couplé avec un outil d'inventaire, différentes informations sur l'importation sont également disponibles.*
 *- Un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d'utiliser le champ type.*
 
--   **[Onglet "Composants"](index.php?fr/index.php?fr/03_module_inventaire/04_gerer_les_ordinateurs/02_onglet_composant.md)**
+-   **[Onglet "Composants"](index.php?fr/index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglet_Composants.md)**
      Gestion des composants des ordinateurs
 
--   **[Onglet "Volumes"](index.php?fr/03_module_inventaire/04_gerer_les_ordinateurs/03_onglet_volume.md)**
+-   **[Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)**
      Gestion des volumes des ordinateurs
 
 -   **[Onglet "Logiciels"](../glpi/inventory_computer_software.html)**\
@@ -50,4 +50,4 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 -   **[Associer un ordinateur à un document](../glpi/inventory_computer_t_linktodocument.html)**\
 -   **[Associer un ordinateur à un contrat](../glpi/inventory_computer_t_linktocontract.html)**\
 
-**Sujet parent :** [Module Inventaire](index.php?fr/03_module_inventaire/01_module_inventaire.md "Module Inventaire de GLPI")
+**Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
