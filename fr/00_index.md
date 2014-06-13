@@ -38,12 +38,13 @@
             Gérer les informations financières et administratives]
         -   [Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)
             Gérer les contrats associés
-        -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Machines_virtuelles.md)
+        -   [Onglet "Documents"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Documents.md)
+            Associer des documents à l'objet
+        -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Machines_virtuelles.md)
             Gestion des machines virtuelles associées aux ordinateurs
-        -   [Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Tickets.md)            
-        -   [Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Problèmes.md)
+        -   [Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Tickets.md)            
+        -   [Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/12_Onglet_Problèmes.md)
 
-        -   [Associer des documents](inventory_document.html)
         -   [Associer des liens externes](inventory_link.html)
         -   [Gérer les notes](notes.html)
         -   [Onglet "Réservations"](inventory_reservation.html)

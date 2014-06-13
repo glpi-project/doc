@@ -32,17 +32,18 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 -   **[Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)**
     Gérer les contrats associés
 
--   **[Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Machines_virtuelles.md)**
+-   **[Onglet "Documents"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Documents.md)**
+    Les documents associés se gèrent depuis l'onglet Documents
+
+-   **[Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Machines_virtuelles.md)**
      Gestion des machines virtuelles associées aux ordinateurs
 
--   **[Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Tickets.md)**
+-   **[Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Tickets.md)**
     Pour les éléments, les tickets se gèrent depuis l'onglet Tickets
 
--   **[Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Problèmes.md)**
+-   **[Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/12_Onglet_Problèmes.md)**
     Pour les éléments, les problèmes se gèrent depuis l'onglet Problèmes
 
--   **[Associer des documents](../glpi/inventory_document.html)**\
-     Les documents associés se gèrent depuis l'onglet Documents
 
 -   **[Associer des liens externes](../glpi/inventory_link.html)**\
      Pour certains éléments, les liens externes se gèrent depuis le menu *Liens externes*

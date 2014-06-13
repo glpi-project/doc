@@ -31,7 +31,7 @@ Les informations financières sont composées des éléments suivants :
 -   **Commentaires** ;
 -   **TCO mensuel** : TCO divisé par le nombre de mois entre la date d'aujourd'hui et la date d'achat du matériel ;
 
-***Informations sur la garantie : ***
+***Informations sur la garantie :***
 
 -   **Date de début de garantie** : date à laquelle le garantie du matériel démarre ;
 -   **Informations sur la garantie** : texte qualifiant la garantie ;
