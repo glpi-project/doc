@@ -32,14 +32,18 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 -   **[Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)**
     Gérer les contrats associés
 
--   **[Onglet "Machines     virtuelles"](../glpi/inventory_computer_virtualmachine.html)**\
+-   **[Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Machines_virtuelles.md)**
      Gestion des machines virtuelles associées aux ordinateurs
--   **[Gérer les contrats associés](../glpi/inventory_contract.html)**\
-     Affiche les contrats associés.
+
+-   **[Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Tickets.md)**
+    Pour les éléments, les tickets se gèrent depuis l'onglet Tickets
+
+-   **[Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Problèmes.md)**
+    Pour les éléments, les problèmes se gèrent depuis l'onglet Problèmes
+
 -   **[Associer des documents](../glpi/inventory_document.html)**\
      Les documents associés se gèrent depuis l'onglet Documents
--   **[Gérer les tickets](../glpi/inventory_ticket.html)**\
-     Pour les éléments, les tickets se gèrent depuis l'onglet Tickets
+
 -   **[Associer des liens externes](../glpi/inventory_link.html)**\
      Pour certains éléments, les liens externes se gèrent depuis le menu *Liens externes*
 -   **[Gérer les notes](../glpi/notes.html)**\
