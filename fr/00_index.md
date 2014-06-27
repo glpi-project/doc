@@ -231,14 +231,20 @@
             - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
               Afficher toutes les informations sur une seule page
  
-    -   [Gérer les consommables](inventory_consumable.html)
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
+    -   [Gérer les consommables](index.php?fr/03_Module_Parc/111_Gérer_les_consommables.md)
+        -   Les différents onglets :
+            - [Onglet "Consommables"](index.php?fr/03_Module_Parc/11_Gérer_les_consommables.md)
+            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+              Gérer les informations financières et administratives
+            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+              Associer des documents à l'objet
+            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+              Associer des liens externes
+            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+              Uniquement si vous êtes connecté en mode Debug.
+            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+              Afficher toutes les informations sur une seule page
 
     -   [Gérer les téléphones](inventory_phone.html)
         -   [Onglet "Connexions"](inventory_connection.html)

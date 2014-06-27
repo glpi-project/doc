@@ -30,8 +30,7 @@ Figure 1. Onglet Documents d'un ordinateur
 
 **Sujet parent :** [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
 
-**Sujet parent :** [Gérer les
-consommables](../glpi/inventory_consumable.html "Les consommables se gèrent depuis le menu Parc > Consommables")
+**Sujet parent :** [Gérer les consommables](index.php?fr/03_Module_Parc/11_Gérer_les_consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
 
 **Sujet parent :** [Gérer les
 téléphones](../glpi/inventory_phone.html "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
