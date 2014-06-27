@@ -185,7 +185,7 @@
         -   Les différents onglets :
             - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md)
             - [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
-            - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)**
+            - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
               Gestion des connexions directes entre un périphérique et un ordinateur
             - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
             - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
@@ -213,15 +213,24 @@
           - [Associer une imprimante à un document](index.php?fr/commontabs/item_liendocument.md)
           - [Associer une imprimante à un contrat](index.php?fr/commontabs/item_liencontrat.md)
 
-    -   [Gérer les cartouches](inventory_cartridge.html)
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-
+    -   [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md)
+        -   Les différents onglets :
+            - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md)
+            - [Onglet "Modèles d'imprimantes"](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md)
+            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+              Gérer les informations financières et administratives
+            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+              Associer des documents à l'objet
+            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+              Associer des liens externes
+            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+            - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
+            - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+              Uniquement si vous êtes connecté en mode Debug.
+            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+              Afficher toutes les informations sur une seule page
+ 
     -   [Gérer les consommables](inventory_consumable.html)
         -   [Gérer les informations financières et
             administratives](inventory_management.html)

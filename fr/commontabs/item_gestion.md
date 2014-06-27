@@ -65,8 +65,7 @@ d'achat ou de mise en service, durée d'amortissement, coefficient d'amortisseme
 
 **Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les
-cartouches](../glpi/inventory_cartridge.html "Les cartouches dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
 
 **Sujet parent :** [Gérer les
 consommables](../glpi/inventory_consumable.html "Les consommables se gèrent depuis le menu Parc > Consommables")

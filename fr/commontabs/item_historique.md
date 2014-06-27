@@ -26,6 +26,8 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
+**Sujet parent :** [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
+
 **Sujet parent :** [Gérer les
 téléphones](../glpi/inventory_phone.html "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
