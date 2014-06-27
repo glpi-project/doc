@@ -25,8 +25,7 @@ Figure 1. Onglet Debug d'un ticket
 
 **Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les
-imprimantes](../glpi/inventory_printer.html "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
 **Sujet parent :** [Gérer les
 cartouches](../glpi/inventory_cartridge.html "Les cartouches dans GLPI, caractéristiques et utilisation")

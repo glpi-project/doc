@@ -130,6 +130,7 @@
           - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
             Associer des documents à l'objet
           - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
+          - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
           - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
             Associer des liens externes
           - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
@@ -161,6 +162,7 @@
             - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
               Associer des documents à l'objet
             - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
+            - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
             - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
               Associer des liens externes
             - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
@@ -179,37 +181,37 @@
           - [Associer un périphérique à un contrat](index.php?fr/commontabs/item_liencontrat.md)
 
 
-    -   [Gérer les imprimantes](inventory_printer.html)
-        -   [Les cartouches
-            associées](inventory_printer_cartridge.html)
-        -   [Onglet "Connexions"](inventory_connection.html)
-            -   [Connexions
-                directes](inventory_notcomputer_connection.html)
-            -   [Onglet "Ports
-                réseaux"](inventory_network_connection.html)
-
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Gérer les contrats associés](inventory_contract.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Gérer les tickets](inventory_ticket.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Onglet "Réservations"](inventory_reservation.html)
-        -   [Visualiser l'historique](inventory_log.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-        -   [Ajouter une
-            imprimante](inventory_printer_t_create.html)
-        -   [Voir une imprimante](inventory_printer_t_read.html)
-        -   [Modifier une
-            imprimante](inventory_printer_t_update.html)
-        -   [Supprimer une
-            imprimante](inventory_printer_t_delete.html)
-        -   [Associer une imprimante à un
-            document](inventory_printer_t_linktodocument.html)
-        -   [Associer une imprimante à un
-            contrat](inventory_printer_t_linktocontract.html)
+    -   [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md)
+        -   Les différents onglets :
+            - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md)
+            - [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
+            - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)**
+              Gestion des connexions directes entre un périphérique et un ordinateur
+            - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
+            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+              Gérer les informations financières et administratives
+            - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+              Gérer les contrats associés
+            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+              Associer des documents à l'objet
+            - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
+            - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
+            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+              Associer des liens externes
+            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+            - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
+            - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+              Uniquement si vous êtes connecté en mode Debug.
+            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+              Afficher toutes les informations sur une seule page
+        - Les différentes actions
+          - [Ajouter une imprimante](index.php?fr/commontabs/item_create.md)
+          - [Voir une imprimante](index.php?fr/commontabs/item_read.md)
+          - [Modifier une imprimante](index.php?fr/commontabs/item_update.md)
+          - [Supprimer une imprimante](index.php?fr/commontabs/item_delete.md)
+          - [Associer une imprimante à un document](index.php?fr/commontabs/item_liendocument.md)
+          - [Associer une imprimante à un contrat](index.php?fr/commontabs/item_liencontrat.md)
 
     -   [Gérer les cartouches](inventory_cartridge.html)
         -   [Gérer les informations financières et

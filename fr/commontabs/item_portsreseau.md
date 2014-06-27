@@ -83,4 +83,6 @@ Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats a
 
 **Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
+**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+
 **Sujet parent :** [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md "Gestion des connexions")
