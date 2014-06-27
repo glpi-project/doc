@@ -27,74 +27,68 @@
     -   [Gérer son parc](index.php?fr/03_Module_Parc/02_Gérer_son_parc.md)
         Gestion du parc, des status, recherche globale
     -   [Gérer les gabarits](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)
-    -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md)
+    -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
         -   Les différents onglets :
-            -   [Onglet "Composants"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglets_Composants.md)
-            -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)
-            -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/04_Onglet_Logiciels.md)
-            -   [Onglet "Connexions"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/05_Onglet_Connexions.md)
+            -   [Onglet "Composants"](index.php?fr/commontabs/item_)
+            -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
+            -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
+            -   [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
                 Gestion des connexions directes entre un ordinateur et ses éléments liés.
-            -   [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/06_Onglet_Ports_réseau.md)
-            -   [Onglet "Gestion"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/07_Onglet_Gestion.md)
+            -   [Onglet "Ports réseaux"](index.php?fr/commontabs/item_portsreseau.md)
+            -   [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
                 Gérer les informations financières et administratives]
-            -   [Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)
+            -   [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
                 Gérer les contrats associés
-            -   [Onglet "Documents"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Documents.md)
+            -   [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
                 Associer des documents à l'objet
             -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Machines_virtuelles.md)
                 Gestion des machines virtuelles associées aux ordinateurs
-            -   [Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Tickets.md)            
-            -   [Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/12_Onglet_Problèmes.md)
-            -   [Onglet "Liens"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/13_Onglet_Liens.md)
+            -   [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)            
+            -   [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
+            -   [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
                 Associer des liens externes
-            -   [Onglet "Notes"s](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/14_Onglet_Notes.md)
-            -   [Onglet "Réservations"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/15_Onglet_Réservations.md)
-            -   [Onglet "Historique"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/16_Onglet_Historique.md)
-            -   [Onglet "Tous"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/17_Onglet_Tous.md)
-            Afficher toutes les informations sur une seule
-            page
+            -   [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+            -   [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
+            -   [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+            -   [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+            Afficher toutes les informations sur une seule page
         - Les différents actions :
-            -   [Ajouter un
-            ordinateur](inventory_computer_t_create.html)
-            -   [Voir un ordinateur](inventory_computer_t_read.html)
-            -   [Modifier un
-            ordinateur](inventory_computer_t_update.html)
-            -   [Supprimer un
-            ordinateur](inventory_computer_t_delete.html)
-            -   [Associer un ordinateur à un
-            document](inventory_computer_t_linktodocument.html)
-            -   [Associer un ordinateur à un
-            contrat](inventory_computer_t_linktocontract.html)
+            -   [Ajouter un ordinateur](index.php?fr/commontabs/item_create.md)
+            -   [Voir un ordinateur](index.php?fr/commontabs/item_read.md)
+            -   [Modifier un ordinateur](index.php?fr/commontabs/item_update.md)
+            -   [Supprimer un ordinateur](index.php?fr/commontabs/item_delete.md)
+            -   [Associer un ordinateur à un document](index.php?fr/commontabs/item_liendocument.md)
+            -   [Associer un ordinateur à un contrat](index.php?fr/commontabs/item_liencontrat.md)
 
-    -   [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs/05_Gérer_les_moniteurs.md)
-        -   [Onglet "Connexions"](inventory_connection.html)
-            -   [Connexions
-                directes](inventory_notcomputer_connection.html)
+    -   [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md)
+        - Les différents onglets :
+          - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
+            Gestion des connexions directes entre un moniteur et un ordinateur.
+          - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            Gérer les informations financières et administratives
+          - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+            Gérer les contrats associés
+          - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            Associer des documents à l'objet
+          - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
+          - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
+          - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            Associer des liens externes
+          - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+          - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
+          - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+          - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+            Afficher toutes les informations sur une seule page
+        - Les différentes actions
+          - [Ajouter un  moniteur](index.php?fr/commontabs/item_create.md)
+          - [Voir un moniteur](index.php?fr/commontabs/item_read.md)
+          - [Modifier un moniteur](index.php?fr/commontabs/item_update.md)
+          - [Supprimer un moniteur](index.php?fr/commontabs/item_delete.md)
+          - [Connecter un moniteur à un ordinateur](index.php?fr/commontabs/item_connexions.md)
+          - [Associer un moniteur à un document](index.php?fr/commontabs/item_liendocument.md)
+          - [Associer un moniteur à un contrat](index.php?fr/commontabs/item_liencontrat.md)
 
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Gérer les contrats associés](inventory_contract.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Gérer les tickets](inventory_ticket.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Onglet "Réservations"](inventory_reservation.html)
-        -   [Visualiser l'historique](inventory_log.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-        -   [Ajouter un moniteur](inventory_monitor_t_create.html)
-        -   [Voir un moniteur](inventory_monitor_t_read.html)
-        -   [Modifier un moniteur](inventory_monitor_t_update.html)
-        -   [Supprimer un
-            moniteur](inventory_monitor_t_delete.html)
-        -   [Connecter un moniteur à un
-            ordinateur](inventory_monitor_t_connecttocomputer.html)
-        -   [Associer un moniteur à un
-            contrat](inventory_monitor_t_linktocontract.html)
-        -   [Associer un moniteur à un
-            document](inventory_monitor_t_linktodocument.html)
-
-    -   [Gérer les logiciels](inventory_software.html)
+    -   [Gérer les logiciels](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
         -   [Gérer les versions](inventory_software_version.html)
         -   [Gérer les licences](inventory_software_license.html)
         -   [Gérer les

@@ -27,10 +27,9 @@ Le tableau listera le nom de cet ordinateur ainsi que ses numéros de série et 
 Les connexions ou déconnexions se font depuis la fiche de chaque matériel lié (onglet Connexions) ou depuis le système de modification massive.
 
 --------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les
-moniteurs](../glpi/inventory_monitor.html "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
 **Sujet parent :** [Gérer les
 périphériques](../glpi/inventory_peripheral.html "Les périphériques se gèrent depuis le menu Parc > Périphériques")

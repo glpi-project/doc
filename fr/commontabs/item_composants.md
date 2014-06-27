@@ -33,4 +33,4 @@ La sélection à droite de la colonne du type (ligne grisée) permet de sélecti
 ***Remarque :**Toute suppression ou ajout d'un composant est enregistré dans l'historique de l'ordinateur.*
 
 -----------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")

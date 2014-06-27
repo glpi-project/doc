@@ -12,9 +12,9 @@ Pour chaque contrat associé, les nom, numéro, type de contrat, fournisseur, da
 Voir [Gérer les contrats](management_contract.html "Les contrats sont gérés depuis le menu Gestion > Contrats").
 
 -------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](../glpi/inventory_monitor.html "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
 **Sujet parent :** [Gérer les
 logiciels](../glpi/inventory_software.html "Les logiciels se gèrent depuis le menu Parc > Logiciel")

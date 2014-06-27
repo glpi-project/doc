@@ -10,11 +10,10 @@ Dans cet onglet, des liens externes peuvent être associés. Ces liens peuvent u
     un lien web : http://192.168.0.1 (IP récupérée du port réseau du matériel) ;
     un lien RDP pour un accès distant : glpi://MSTSC.EXE,pc001 (nom "pc001" récupéré du matériel).
 
+-------
 **Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
------
-**Sujet parent :** [Gérer les
-moniteurs](../glpi/inventory_monitor.html "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
 **Sujet parent :** [Gérer les
 logiciels](../glpi/inventory_software.html "Les logiciels se gèrent depuis le menu Parc > Logiciel")
