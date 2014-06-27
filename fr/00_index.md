@@ -29,7 +29,7 @@
     -   [Gérer les gabarits](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)
     -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
         -   Les différents onglets :
-            -   [Onglet "Composants"](index.php?fr/commontabs/item_)
+            -   [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
             -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
             -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
             -   [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
@@ -118,32 +118,35 @@
             Afficher toutes les informations sur une seule page
         
  
-    -   [Gérer les matériels réseaux](inventory_networking.html)
-        -   [Onglet "Ports
-            réseaux"](inventory_network_connection.html)
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Gérer les contrats associés](inventory_contract.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Gérer les tickets](inventory_ticket.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Onglet "Réservations"](inventory_reservation.html)
-        -   [Visualiser l'historique](inventory_log.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-        -   [Ajouter un matériel
-            réseau](inventory_networking_t_create.html)
-        -   [Voir un matériel
-            réseau](inventory_networking_t_read.html)
-        -   [Modifier un matériel
-            réseau](inventory_networking_t_update.html)
-        -   [Supprimer un matériel
-            réseau](inventory_networking_t_delete.html)
-        -   [Associer un matériel réseau à un
-            document](inventory_networking_t_linktodocument.html)
-        -   [Associer un matériel réseau à un
-            contrat](inventory_networking_t_linktocontract.html)
+    -   [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
+        - Les différents onglets :
+          - [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
+          - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
+          - [Onglet "Noms réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
+          - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            Gérer les informations financières et administratives
+          - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+            Gérer les contrats associés
+          - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            Associer des documents à l'objet
+          - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
+          - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            Associer des liens externes
+          - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+          - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
+          - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+          - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            Uniquement si vous êtes connecté en mode Debug.
+          - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+            Afficher toutes les informations sur une seule page
+        - Les différentes actions
+          - [Ajouter un  matériel réseau](index.php?fr/commontabs/item_create.md)
+          - [Voir un matériel réseau](index.php?fr/commontabs/item_read.md)
+          - [Modifier un matériel réseau](index.php?fr/commontabs/item_update.md)
+          - [Supprimer un matériel réseau](index.php?fr/commontabs/item_delete.md)
+          - [Associer un matériel réseau à un document](index.php?fr/commontabs/item_liendocument.md)
+          - [Associer un matériel réseau à un contrat](index.php?fr/commontabs/item_liencontrat.md)
+
 
     -   [Gérer les périphériques](inventory_peripheral.html)
         -   [Onglet "Connexions"](inventory_connection.html)
