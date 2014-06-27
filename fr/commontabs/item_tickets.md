@@ -1,19 +1,16 @@
-Gérer les problèmes
-===================
+Gérer les tickets
+=================
 
-Pour les éléments, les problèmes se gèrent depuis l'onglet **Problèmes**
+Pour les éléments, les tickets se gèrent depuis l'onglet **Tickets**
 
-L'onglet Problèmes permet de :
+L'onglet Tickets permet de :
 
--   visualiser l'historique des derniers problèmes liés **directement** cet élément (si droit de voir tous les problèmes dans le profil) ;
--   visualiser les problèmes concernant **directement** les éléments liés à cet élément.
+-   créer un ticket lié à cet élément (si doit de créer un ticket dans le profil) ;
+-   visualiser l'historique des derniers tickets liés à cet élément (si droit de voir tous les tickets dans le profil) ;
+-   visualiser les tickets concernant les éléments liés à cet élément.
 
-***Remarques :***
-*- vous ne pouvez pas créer de problème depuis cet onglet, il faut passer via le menu ***Problèmes*** 
- - vous ne visualisez pas les problèmes concernant les tickets associés à l'élément*
-
-Figure 1. Onglet Problèmes d'un ordinateur
-![image](docs/image/probleme_computer.png)
+Figure 1. Onglet Tickets d'un ordinateur
+![image](docs/image/ticket_computer.png)
 
 -------
 **Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")

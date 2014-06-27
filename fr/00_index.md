@@ -28,42 +28,45 @@
         Gestion du parc, des status, recherche globale
     -   [Gérer les gabarits](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)
     -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md)
-        -   [Onglet "Composants"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglets_Composants.md)
-        -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)
-        -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/04_Onglet_Logiciels.md)
-        -   [Onglet "Connexions"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/05_Onglet_Connexions.md)
-            Gestion des connexions directes entre un ordinateur et ses éléments liés.
-        -   [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/06_Onglet_Ports_réseau.md)
-        -   [Onglet "Gestion"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/07_Onglet_Gestion.md)
-            Gérer les informations financières et administratives]
-        -   [Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)
-            Gérer les contrats associés
-        -   [Onglet "Documents"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Documents.md)
-            Associer des documents à l'objet
-        -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Machines_virtuelles.md)
-            Gestion des machines virtuelles associées aux ordinateurs
-        -   [Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Tickets.md)            
-        -   [Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/12_Onglet_Problèmes.md)
-
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Onglet "Réservations"](inventory_reservation.html)
-        -   [Visualiser l'historique](inventory_log.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-        -   [Ajouter un
+        -   Les différents onglets :
+            -   [Onglet "Composants"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/02_Onglets_Composants.md)
+            -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/03_Onglet_Volumes.md)
+            -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/04_Onglet_Logiciels.md)
+            -   [Onglet "Connexions"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/05_Onglet_Connexions.md)
+                Gestion des connexions directes entre un ordinateur et ses éléments liés.
+            -   [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/06_Onglet_Ports_réseau.md)
+            -   [Onglet "Gestion"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/07_Onglet_Gestion.md)
+                Gérer les informations financières et administratives]
+            -   [Onglet "Contrats"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/08_Onglet_Contrats.md)
+                Gérer les contrats associés
+            -   [Onglet "Documents"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/09_Onglet_Documents.md)
+                Associer des documents à l'objet
+            -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Machines_virtuelles.md)
+                Gestion des machines virtuelles associées aux ordinateurs
+            -   [Onglet "Tickets"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/11_Onglet_Tickets.md)            
+            -   [Onglet "Problèmes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/12_Onglet_Problèmes.md)
+            -   [Onglet "Liens"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/13_Onglet_Liens.md)
+                Associer des liens externes
+            -   [Onglet "Notes"s](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/14_Onglet_Notes.md)
+            -   [Onglet "Réservations"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/15_Onglet_Réservations.md)
+            -   [Onglet "Historique"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/16_Onglet_Historique.md)
+            -   [Onglet "Tous"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/17_Onglet_Tous.md)
+            Afficher toutes les informations sur une seule
+            page
+        - Les différents actions :
+            -   [Ajouter un
             ordinateur](inventory_computer_t_create.html)
-        -   [Voir un ordinateur](inventory_computer_t_read.html)
-        -   [Modifier un
+            -   [Voir un ordinateur](inventory_computer_t_read.html)
+            -   [Modifier un
             ordinateur](inventory_computer_t_update.html)
-        -   [Supprimer un
+            -   [Supprimer un
             ordinateur](inventory_computer_t_delete.html)
-        -   [Associer un ordinateur à un
+            -   [Associer un ordinateur à un
             document](inventory_computer_t_linktodocument.html)
-        -   [Associer un ordinateur à un
+            -   [Associer un ordinateur à un
             contrat](inventory_computer_t_linktocontract.html)
 
-    -   [Gérer les moniteurs](inventory_monitor.html)
+    -   [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs/05_Gérer_les_moniteurs.md)
         -   [Onglet "Connexions"](inventory_connection.html)
             -   [Connexions
                 directes](inventory_notcomputer_connection.html)
