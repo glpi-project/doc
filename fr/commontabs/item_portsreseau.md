@@ -79,8 +79,8 @@ Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats a
 
 **Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les matériels
-réseaux](../glpi/inventory_networking.html "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
+**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
-**Sujet parent :** [Onglet
-"Connexions"](../glpi/inventory_connection.html "Gestion des connexions")
+**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+
+**Sujet parent :** [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md "Gestion des connexions")

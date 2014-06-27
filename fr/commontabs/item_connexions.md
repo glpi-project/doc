@@ -31,8 +31,7 @@ Les connexions ou déconnexions se font depuis la fiche de chaque matériel lié
 
 **Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les
-périphériques](../glpi/inventory_peripheral.html "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
 **Sujet parent :** [Gérer les
 imprimantes](../glpi/inventory_printer.html "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")

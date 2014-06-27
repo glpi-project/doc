@@ -140,6 +140,9 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
     *-   de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;*
     *-   d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).*
 
+-   **[Onglet "Debug"](index.php?fr/commontabs/item_debug.md)**
+    Uniquement si vous êtes connecté en mode Debug.
+
 -   **[Onglet "Tous"](index.php?fr/commontabs/item_tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page depuis l'onglet *Tous*
 

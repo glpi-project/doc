@@ -42,8 +42,7 @@ comprenant chaque la date de début, la date de fin, l'utilisateur qui a réserv
 
 **Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
-**Sujet parent :** [Gérer les
-périphériques](../glpi/inventory_peripheral.html "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
 **Sujet parent :** [Gérer les
 imprimantes](../glpi/inventory_printer.html "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")

@@ -50,6 +50,9 @@ Les différents onglets
 -   **[Onglet "Historique"](index.php?fr/commontabs/item_historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
+-   **[Onglet "Debug"](index.php?fr/commontabs/item_debug.md)**
+    Uniquement si vous êtes connecté en mode Debug.
+
 -   **[Onglet "Tous"](index.php?fr/commontabs/item_tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page depuis l'onglet *Tous*
 
