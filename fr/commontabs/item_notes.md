@@ -26,8 +26,7 @@ Pour modifier une note, il suffit de cliquer sur sa description.
 
 **Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les
-logiciels](../glpi/inventory_software.html "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
 
 **Sujet parent :** [Gérer les matériels
 réseaux](../glpi/inventory_networking.html "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")

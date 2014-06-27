@@ -50,6 +50,8 @@
             -   [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
             -   [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
             -   [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+            -   [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+                Uniquement si vous êtes connecté en mode Debug.
             -   [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
             Afficher toutes les informations sur une seule page
         - Les différents actions :
@@ -77,6 +79,8 @@
           - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
           - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
           - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+          - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            Uniquement si vous êtes connecté en mode Debug.
           - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
             Afficher toutes les informations sur une seule page
         - Les différentes actions
@@ -89,24 +93,31 @@
           - [Associer un moniteur à un contrat](index.php?fr/commontabs/item_liencontrat.md)
 
     -   [Gérer les logiciels](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
-        -   [Gérer les versions](inventory_software_version.html)
-        -   [Gérer les licences](inventory_software_license.html)
-        -   [Gérer les
-            installations](inventory_software_installation.html)
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Gérer les contrats associés](inventory_contract.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Gérer les tickets](inventory_ticket.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Onglet "Réservations"](inventory_reservation.html)
-        -   [Visualiser l'historique](inventory_log.html)
-        -   [Regrouper les logiciels
-            (multi-entités).](inventory_software_merge.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-
+        - Les différents onglets
+          - [Onglet "Versions"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
+          - [Onglet "Licences"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
+          - [Onglet "Installations"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
+          - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            Gérer les informations financières et administratives
+          - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+            Gérer les contrats associés
+          - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            Associer des documents à l'objet
+          - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
+          - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
+          - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            Associer des liens externes
+          - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
+          - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
+          - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
+          - [Onglet "Regroupement"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
+            Comment regrouper des logiciels homonymes dans des sous-entités.
+          - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            Uniquement si vous êtes connecté en mode Debug.
+          - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
+            Afficher toutes les informations sur une seule page
+        
+ 
     -   [Gérer les matériels réseaux](inventory_networking.html)
         -   [Onglet "Ports
             réseaux"](inventory_network_connection.html)
