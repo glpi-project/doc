@@ -44,4 +44,16 @@ Un système de remplissage et d'incrémentation automatique de certains champs (
     Chaque imprimante à sa création verra son numéro d'inventaire généré automatiquement et incrémenté de 1 à 20.
 
 ----------
-**Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
+**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+
+**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+
+**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciels")
+
+**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
+
+**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+
+**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/007_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+
+**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")

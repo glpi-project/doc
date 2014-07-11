@@ -28,7 +28,7 @@ Les différents onglets
     -   Les cartouches utilisées, avec comme information les dates d'ajout et d'utilisation,
     -   Les cartouches usagées, avec comme information le modèle de cartouche, les dates d'ajout, d'utilisation et de fin de vie, le compteur de l'imprimante ainsi que le nombre de pages imprimées depuis le dernier changement de cartouche.
 
-    ***Remarque :** Pour la création / suppression de cartouche voir [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches "Les cartouches dans GLPI, caractéristiques et utilisation").*
+    ***Remarque :** Pour la création / suppression de cartouche voir [Gérer les cartouches](index.php?fr/03_Module_Parc/08_Cartouches "Les cartouches dans GLPI, caractéristiques et utilisation").*
 
 -   **[Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)**
 
