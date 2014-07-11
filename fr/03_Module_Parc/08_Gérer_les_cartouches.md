@@ -27,29 +27,27 @@ Figure 1. Onglet Cartouches
 ![image](docs/image/cartridge.png)
 
 
-- **Onglet "Modèles d'imprimantes"**
-  Cet onglet permet de déterminer les modèles d'imprimantes compatibles avec la cartouche.
+-   **Onglet "Modèles d'imprimantes"**
+    Cet onglet permet de déterminer les modèles d'imprimantes compatibles avec la cartouche.
 
--   **[Onglet "Gestion"](index.php?fr/commontabs/item_gestion)**
+-   **[Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)**
     Gérer les informations financières et administratives
 
--   **[Onglet "Documents"](index.php?fr/commontabs/item_documents.md)**
-    Les documents associés se gèrent depuis l'onglet *Documents*
+-   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 
--  **[Onglet "Liens"](index.php?fr/commontabs/item_liens.md)**
+-  **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
--   **[Onglet "Notes"](index.php?fr/commontabs/item_notes.md)**
-     Pour un élément, les notes se gèrent depuis l'onglet *Notes*
+-   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](index.php?fr/commontabs/item_historique.md)**
+-   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Debug"](index.php?fr/commontabs/item_debug.md)**
+-   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
     Uniquement si vous êtes connecté en mode Debug.
 
--   **[Onglet "Tous"](index.php?fr/commontabs/item_tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page depuis l'onglet *Tous*
+-   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+     Pour un élément, toutes les informations sont affichées sur une seule page.
 
 ---------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

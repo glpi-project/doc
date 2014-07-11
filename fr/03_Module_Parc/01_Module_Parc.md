@@ -3,9 +3,21 @@ Module Parc
 
 Présentation du module d'inventaire de GLPI. Ce module est destiné à la gestion des éléments composants le parc informatique.
 
--   **[La gestion de l'inventaire dans GLPI](index.php?fr/03_Module_Parc/02_Gérer_son_parc.md)**     
+-   **La gestion de l'inventaire dans GLPI**     
 
--   **[La gestion des gabarits dans GLPI](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)**   
+    Pour la gestion des matériels et des logiciels du parc, GLPI permet nativement de lister tous les éléments présents au sein de l'organisme que l'on souhaite administrer.
+
+    Cependant, on peut automatiser la remontée d'informations depuis les équipements grâce à un outils tiers. Ainsi GLPI propose l'utilisation de 2 plugins existants.
+
+    ***Outils disponibles :***
+
+    -   Le plugin [ocsinventoryng](https://forge.indepnet.net/projects/ocsinventoryng)
+        qui permet de synchroniser la base GLPI avec un outil d'inventaire [OCS Inventory NG](http://www.ocsinventory-ng.org) (les agents des ordinateurs du parc discutent avec le serveur OCS Inventory NG).
+    -   Le plugin [Fusion Inventory](http://www.fusioninventory.org) 
+        qui transforme GLPI en serveur d'inventaire (les agents discutent directement avec GLPI).
+   
+
+-   **[La gestion des gabarits dans GLPI](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**   
    
 -   **Les statuts dans GLPI, la vue spécifique**
     Cette information est couramment utilisée pour distinguer les ordinateurs mis au rebut, disponibles, affectés etc... Il est donc possible de créer ses propres statuts en rapport avec le système d'information.
@@ -22,27 +34,26 @@ Cette recherche est limitée aux ordinateurs, moniteurs, imprimantes, équipemen
 
     Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
 
--   **[Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md)**
-     Les ordinateurs se gèrent depuis le menu ***Parc \> Ordinateurs***
+-   **[Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Gérer_les_ordinateurs.md)**
 
--   **[Gérer les moniteurs](index.php?fr/03_module_inventaire/05_gerer_les_moniteurs)**
-     Les moniteurs se gèrent depuis le menu ***Parc \> Moniteurs***
+-   **[Gérer les moniteurs](index.php?fr/03_module_inventaire/03_Gérer_les_moniteurs.md)**
 
--   **[Gérer les logiciels](../glpi/inventory_software.html)**\
-     Les logiciels se gèrent depuis le menu Parc \> Logiciel
--   **[Gérer les matériels
-    réseaux](../glpi/inventory_networking.html)**\
-     Les matériels réseaux se gèrent depuis le menu Parc \> Réseaux
--   **[Gérer les périphériques](../glpi/inventory_peripheral.html)**\
-     Les périphériques se gèrent depuis le menu Parc \> Périphériques
--   **[Gérer les imprimantes](../glpi/inventory_printer.html)**\
-     Les imprimantes se gèrent depuis le menu Parc \> Imprimantes
--   **[Gérer les cartouches](../glpi/inventory_cartridge.html)**\
+-   **[Gérer les logiciels](index.php?fr/03_module_inventaire/04_Gérer_les_logiciels.md)**
+
+-   **[Gérer les matériels réseaux](index.php?fr/03_module_inventaire/05_Gérer_les_matériels_réseaux.md)**
+
+-   **[Gérer les périphériques](index.php?fr/03_module_inventaire/06_Gérer_les_périphériques.md)**
+
+-   **[Gérer les imprimantes](index.php?fr/03_module_inventaire/07_Gérer_les_imprimantes.md)**
+
+-   **[Gérer les cartouches](index.php?fr/03_module_inventaire/08_Gérer_les_cartouches.md)**
      Les cartouches dans GLPI, caractéristiques et utilisation
--   **[Gérer les consommables](../glpi/inventory_consumable.html)**\
-     Les consommables se gèrent depuis le menu Parc \> Consommables
--   **[Gérer les téléphones](../glpi/inventory_phone.html)**\
-     Les téléphones se gèrent depuis le menu Parc \> Téléphones ;
+
+-   **[Gérer les consommables](index.php?fr/03_module_inventaire/09_Gérer_les_consommables.md)**
+
+
+-   **[Gérer les téléphones](index.php?fr/03_module_inventaire/10_Gérer_les_téléphones.md)**
+     
 -   **[Gestion du protocole Internet (IP)](../glpi/inventory_ip.html)**\
      Le protocole IP est matérialisé sous plusieurs formes : adresses
     IP, réseaux IP, mais aussi des FQDN

@@ -1,8 +1,6 @@
 Gérer les logiciels
 ===================
 
-Les logiciels se gèrent depuis le menu ***Parc \> Logiciel.***
-
 GLPI permet la gestion des logiciels et de leurs versions ainsi que des licences (pouvant être associées ou non à des versions).
 
 Un logiciel est par défaut associé à une entité : c'est-à-dire qu'il y aura autant de logiciels dans la base qu'il y a d'entités. Rendre un logiciel visible dans les sous-entités permet de faire une gestion plus fine.
@@ -83,31 +81,27 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
 
    A la suite des versions installées, la liste des licences affectées mais non installées est affichée. Vous pouvez ajouter une nouvelle licence associée à cet ordinateur. Le système d'actions massives permet, via l'action **Installer**, d'installer les versions d'utilisation des licences sélectionnées.
 
--   **[Onglet "Gestion"](index.php?fr/commontabs/item_gestion)**
+-   **[Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)**
     Gérer les informations financières et administratives
 
--   **[Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)**
+-   **[Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)**
     Gérer les contrats associés
 
--   **[Onglet "Documents"](index.php?fr/commontabs/item_documents.md)**
-    Les documents associés se gèrent depuis l'onglet *Documents*
+-   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 
--   **[Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)**
-    Pour les éléments, les tickets se gèrent depuis l'onglet *Tickets*
+-   **[Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)**
 
--   **[Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)**
-    Pour les éléments, les problèmes se gèrent depuis l'onglet *Problèmes*
+-   **[Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)**
 
--  **[Onglet "Liens"](index.php?fr/commontabs/item_liens.md)**
+-  **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
--   **[Onglet "Notes"](index.php?fr/commontabs/item_notes.md)**
-     Pour un élément, les notes se gèrent depuis l'onglet *Notes*
+-   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)**
+-   **[Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
      Gestion des réservations pour un objet d'inventaire
 
--   **[Onglet "Historique"](index.php?fr/commontabs/item_historique.md)**
+-   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
 -   **Onglet "Regroupement"**
@@ -140,11 +134,11 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
     *-   de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;*
     *-   d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).*
 
--   **[Onglet "Debug"](index.php?fr/commontabs/item_debug.md)**
+-   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
     Uniquement si vous êtes connecté en mode Debug.
 
--   **[Onglet "Tous"](index.php?fr/commontabs/item_tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page depuis l'onglet *Tous*
+-   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+     Pour un élément, toutes les informations sont affichées sur une seule page.
 
 -------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
