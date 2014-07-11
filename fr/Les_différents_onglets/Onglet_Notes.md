@@ -3,7 +3,7 @@ Gérer les notes
 
 L'onglet *Notes* fournit un champ de texte libre pour stocker des informations complémentaires.
 
-Dans la version 0.85, il est possible d'ajouter plusieurs notes pour un élément.
+Il est possible d'ajouter plusieurs notes pour un élément.
 
 Pour ajouter une note, saisir une  description et cliquer sur **Ajouter**.
 
