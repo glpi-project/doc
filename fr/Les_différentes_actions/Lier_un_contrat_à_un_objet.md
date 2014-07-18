@@ -5,7 +5,7 @@ Quel que soit l'objet de l'inventaire, si celui-ci peut être lié à un contrat
 
 1.  Se connecter à GLPI ;
 
-2.  Aller dans le menu de l'objet (exemple : Parc > Ordinateurs pour ajouter un ordinateur) ;
+2.  Aller dans le menu de l'objet (exemple : Parc > Ordinateurs pour ajouter un contrat à un ordinateur) ;
 
 3.  Optionnel : faire une recherche de  l'objet depuis le moteur de recherche situé au-dessus de la liste des objets ;
 
