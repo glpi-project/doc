@@ -34,26 +34,27 @@ Cette recherche est limitée aux ordinateurs, moniteurs, imprimantes, équipemen
 
     Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
 
--   **[Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Gérer_les_ordinateurs.md)**
+-   **[Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md)**
 
--   **[Gérer les moniteurs](index.php?fr/03_module_inventaire/03_Gérer_les_moniteurs.md)**
+-   **[Gérer les moniteurs](index.php?fr/03_module_inventaire/03_Moniteurs.md)**
 
--   **[Gérer les logiciels](index.php?fr/03_module_inventaire/04_Gérer_les_logiciels.md)**
+-   **[Gérer les logiciels](index.php?fr/03_module_inventaire/04_Logiciels.md)**
 
--   **[Gérer les matériels réseaux](index.php?fr/03_module_inventaire/05_Gérer_les_matériels_réseaux.md)**
+-   **[Gérer les matériels réseaux](index.php?fr/03_module_inventaire/05_Matériels_réseaux.md)**
 
--   **[Gérer les périphériques](index.php?fr/03_module_inventaire/06_Gérer_les_périphériques.md)**
+-   **[Gérer les périphériques](index.php?fr/03_module_inventaire/06_Périphériques.md)**
 
--   **[Gérer les imprimantes](index.php?fr/03_module_inventaire/07_Gérer_les_imprimantes.md)**
+-   **[Gérer les imprimantes](index.php?fr/03_module_inventaire/07_Imprimantes.md)**
 
--   **[Gérer les cartouches](index.php?fr/03_module_inventaire/08_Gérer_les_cartouches.md)**
+-   **[Gérer les cartouches](index.php?fr/03_module_inventaire/08_Cartouches.md)**
      Les cartouches dans GLPI, caractéristiques et utilisation
 
--   **[Gérer les consommables](index.php?fr/03_module_inventaire/09_Gérer_les_consommables.md)**
+-   **[Gérer les consommables](index.php?fr/03_module_inventaire/09_Consommables.md)**
 
-
--   **[Gérer les téléphones](index.php?fr/03_module_inventaire/10_Gérer_les_téléphones.md)**
-     
+-   **[Gérer les téléphones](index.php?fr/03_module_inventaire/10_Téléphones.md)**
+ 
+-   **[Global](index.php?fr/03_module_inventaire/11_Global.md)**
+    
 -   **[Gestion du protocole Internet (IP)](../glpi/inventory_ip.html)**\
      Le protocole IP est matérialisé sous plusieurs formes : adresses
     IP, réseaux IP, mais aussi des FQDN

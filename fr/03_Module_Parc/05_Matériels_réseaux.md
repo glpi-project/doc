@@ -10,6 +10,7 @@ Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-
 -   **[Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_réseaux.md)**
      Gestion des ports réseaux pour les éléments d'inventaire
 
+**[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
 
 Les différents onglet :
 ---------------------

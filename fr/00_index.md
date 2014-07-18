@@ -24,234 +24,250 @@
         -   [Rechercher](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/08_Rechercher.md)
 
 -   [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md)
-    -   [Gérer son parc](index.php?fr/03_Module_Parc/02_Gérer_son_parc.md)
-        Gestion du parc, des status, recherche globale
-    -   [Gérer les gabarits](index.php?fr/03_Module_Parc/03_Gérer_les_gabarits.md)
-    -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
+    Gestion du parc, des status, recherche globale
+    -   [Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)
+    -   [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md)
         -   Les différents onglets :
-            -   [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
-            -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
-            -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md)
-            -   [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
+            -   [Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)
+            -   [Onglet "Volumes"](index.php?fr/03_Module_Parc/02_Ordinateurs.md)
+            -   [Onglet "Logiciels"](index.php?fr/03_Module_Parc/02_Ordinateurs.md)
+            -   [Onglet "Connexions"](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)
                 Gestion des connexions directes entre un ordinateur et ses éléments liés.
-            -   [Onglet "Ports réseaux"](index.php?fr/commontabs/item_portsreseau.md)
-            -   [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
-                Gérer les informations financières et administratives]
-            -   [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+            -   [Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_réseaux.md)
+            -   [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)**
+                Gérer les informations financières et administratives
+            -   [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
                 Gérer les contrats associés
-            -   [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            -   [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
                 Associer des documents à l'objet
-            -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/10_Onglet_Machines_virtuelles.md)
+            -   [Onglet "Machines virtuelles"](index.php?fr/03_Module_Parc/02_Ordinateurs.md)
                 Gestion des machines virtuelles associées aux ordinateurs
-            -   [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)            
-            -   [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
-            -   [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            -   [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)            
+            -   [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+            -   [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
                 Associer des liens externes
-            -   [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-            -   [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-            -   [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-            -   [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            -   [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+            -   [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+            -   [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+            -   [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
                 Uniquement si vous êtes connecté en mode Debug.
-            -   [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-            Afficher toutes les informations sur une seule page
+            -   [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+                Afficher toutes les informations sur une seule page
         - Les différents actions :
-            -   [Ajouter un ordinateur](index.php?fr/commontabs/item_create.md)
-            -   [Voir un ordinateur](index.php?fr/commontabs/item_read.md)
-            -   [Modifier un ordinateur](index.php?fr/commontabs/item_update.md)
-            -   [Supprimer un ordinateur](index.php?fr/commontabs/item_delete.md)
-            -   [Associer un ordinateur à un document](index.php?fr/commontabs/item_liendocument.md)
-            -   [Associer un ordinateur à un contrat](index.php?fr/commontabs/item_liencontrat.md)
+            -   [Ajouter un ordinateur](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)
+            -   [Voir un ordinateur](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)
+            -   [Modifier un ordinateur](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)
+            -   [Supprimer un ordinateur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)
+            -   [Associer un ordinateur à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)
+            -   [Associer un ordinateur à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)
 
-    -   [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md)
+    -   [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md)
         - Les différents onglets :
-          - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
+          - [Onglet "Connexions"](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)
             Gestion des connexions directes entre un moniteur et un ordinateur.
-          - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+          - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion)
             Gérer les informations financières et administratives
-          - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+          - [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
             Gérer les contrats associés
-          - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+          - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
             Associer des documents à l'objet
-          - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
-          - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
-          - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+          - [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)
+          - [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+          - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
             Associer des liens externes
-          - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-          - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-          - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-          - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+          - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+          - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+          - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+          - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
             Uniquement si vous êtes connecté en mode Debug.
-          - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-            Afficher toutes les informations sur une seule page
+          - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+            Afficher toutes les informations sur une seule page.
         - Les différentes actions
-          - [Ajouter un  moniteur](index.php?fr/commontabs/item_create.md)
-          - [Voir un moniteur](index.php?fr/commontabs/item_read.md)
-          - [Modifier un moniteur](index.php?fr/commontabs/item_update.md)
-          - [Supprimer un moniteur](index.php?fr/commontabs/item_delete.md)
-          - [Connecter un moniteur à un ordinateur](index.php?fr/commontabs/item_connexions.md)
-          - [Associer un moniteur à un document](index.php?fr/commontabs/item_liendocument.md)
-          - [Associer un moniteur à un contrat](index.php?fr/commontabs/item_liencontrat.md)
+          - [Ajouter un  moniteur](Les_différentes_actions/Créer_un_nouvel_objet.md)
+          - [Voir un moniteur](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)
+          - [Modifier un moniteur](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)
+          - [Supprimer un moniteur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)
+          - [Connecter un moniteur à un ordinateur](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)
+          - [Associer un moniteur à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)
+          - [Associer un moniteur à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md))
 
-    -   [Gérer les logiciels](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
+    -   [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md)
         - Les différents onglets
-          - [Onglet "Versions"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
-          - [Onglet "Licences"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
-          - [Onglet "Installations"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
-          - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+          - [Onglet "Versions"](index.php?fr/03_Module_Parc/04_Logiciels.md)
+          - [Onglet "Licences"](index.php?fr/03_Module_Parc/04_Logiciels.md)
+          - [Onglet "Installations"](index.php?fr/03_Module_Parc/04_Logiciels.md)
+          - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)
             Gérer les informations financières et administratives
-          - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+          - [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
             Gérer les contrats associés
-          - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+          - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
             Associer des documents à l'objet
-          - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
-          - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
-          - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+          - [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)
+          - [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+          - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
             Associer des liens externes
-          - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-          - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-          - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-          - [Onglet "Regroupement"](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md)
+          - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+          - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+          - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+          - [Onglet "Regroupement"](index.php?fr/03_Module_Parc/04_Logiciels.md)
             Comment regrouper des logiciels homonymes dans des sous-entités.
-          - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+          - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
             Uniquement si vous êtes connecté en mode Debug.
-          - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-            Afficher toutes les informations sur une seule page
+          - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+            Afficher toutes les informations sur une seule page.
         
- 
-    -   [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
-        - Les différents onglets :
-          - [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
-          - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
-          - [Onglet "Noms réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
-          - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+     -   [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md)
+        - Les différents onglets
+          - [Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)
+          - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md)
+          - [Onglet "Noms réseaux"](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md)
+          - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion)
             Gérer les informations financières et administratives
-          - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+          - [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
             Gérer les contrats associés
-          - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+          - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
             Associer des documents à l'objet
-          - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
-          - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
-          - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+          - [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)
+          - [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+          - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
             Associer des liens externes
-          - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-          - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-          - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-          - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+          - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+          - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+          - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+          - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
             Uniquement si vous êtes connecté en mode Debug.
-          - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-            Afficher toutes les informations sur une seule page
+          - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+            Afficher toutes les informations sur une seule page.
         - Les différentes actions
-          - [Ajouter un  matériel réseau](index.php?fr/commontabs/item_create.md)
-          - [Voir un matériel réseau](index.php?fr/commontabs/item_read.md)
-          - [Modifier un matériel réseau](index.php?fr/commontabs/item_update.md)
-          - [Supprimer un matériel réseau](index.php?fr/commontabs/item_delete.md)
-          - [Associer un matériel réseau à un document](index.php?fr/commontabs/item_liendocument.md)
-          - [Associer un matériel réseau à un contrat](index.php?fr/commontabs/item_liencontrat.md)
+          - [Ajouter un  matériel réseau](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)
+          - [Voir un matériel réseau](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)
+          - [Modifier un matériel réseau](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)
+          - [Supprimer un matériel réseau](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)
+          - [Associer un matériel réseau à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)
+          - [Associer un matériel réseau à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)
 
 
-    -   [Gérer les périphériques](inventory_peripheral.html)
-        -   Les différents onglets :
-            - [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
-            - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)**
+    -   [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md)
+        - Les différents onglets
+            - [Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)
+            - [Onglet "Connexions"](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)**
               Gestion des connexions directes entre un périphérique et un ordinateur
-            - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
-            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            - [Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_réseaux.md)
+            - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion)
               Gérer les informations financières et administratives
-            - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+            - [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
               Gérer les contrats associés
-            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
               Associer des documents à l'objet
-            - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
-            - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
-            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            - [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)
+            - [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+            - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
               Associer des liens externes
-            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-            - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-            - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+            - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+            - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+            - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
               Uniquement si vous êtes connecté en mode Debug.
-            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-              Afficher toutes les informations sur une seule page
+            - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+              Afficher toutes les informations sur une seule page.
         - Les différentes actions
-          - [Ajouter un  périphérique](index.php?fr/commontabs/item_create.md)
-          - [Voir un périphérique](index.php?fr/commontabs/item_read.md)
-          - [Modifier un périphérique](index.php?fr/commontabs/item_update.md)
-          - [Supprimer un périphérique](index.php?fr/commontabs/item_delete.md)
-          - [Associer un périphérique à un document](index.php?fr/commontabs/item_liendocument.md)
-          - [Associer un périphérique à un contrat](index.php?fr/commontabs/item_liencontrat.md)
+          - [Ajouter un  périphérique](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)
+          - [Voir un périphérique](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)
+          - [Modifier un périphérique](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)
+          - [Supprimer un périphérique](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)
+          - [Associer un périphérique à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)
+          - [Associer un périphérique à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)
 
 
-    -   [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md)
-        -   Les différents onglets :
-            - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md)
-            - [Onglet "Composants"](index.php?fr/commontabs/item_composants.md)
-            - [Onglet "Connexions"](index.php?fr/commontabs/item_connexions.md)
+    -   [Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md)
+        - Les différents onglets
+            - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/07_Imprimantes.md)
+            - [Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)
+            - [Onglet "Connexions"](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)
               Gestion des connexions directes entre un périphérique et un ordinateur
-            - [Onglet "Ports réseaux"](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md)
-            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            - [Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_réseaux.md)
+            - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion)
               Gérer les informations financières et administratives
-            - [Onglet "Contrats"](index.php?fr/commontabs/item_contrats.md)
+            - [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
               Gérer les contrats associés
-            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
               Associer des documents à l'objet
-            - [Onglet "Tickets"](index.php?fr/commontabs/item_tickets.md)
-            - [Onglet "Problèmes"](index.php?fr/commontabs/item_problemes.md)
-            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            - [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)
+            - [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+            - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
               Associer des liens externes
-            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-            - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-            - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+            - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+            - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+            - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
               Uniquement si vous êtes connecté en mode Debug.
-            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-              Afficher toutes les informations sur une seule page
+            - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+              Afficher toutes les informations sur une seule page.
         - Les différentes actions
-          - [Ajouter une imprimante](index.php?fr/commontabs/item_create.md)
-          - [Voir une imprimante](index.php?fr/commontabs/item_read.md)
-          - [Modifier une imprimante](index.php?fr/commontabs/item_update.md)
-          - [Supprimer une imprimante](index.php?fr/commontabs/item_delete.md)
-          - [Associer une imprimante à un document](index.php?fr/commontabs/item_liendocument.md)
-          - [Associer une imprimante à un contrat](index.php?fr/commontabs/item_liencontrat.md)
+          - [Ajouter une imprimante](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)
+          - [Voir une imprimante](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)
+          - [Modifier une imprimante](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)
+          - [Supprimer une imprimante](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)
+          - [Associer une imprimante à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)
+          - [Associer une imprimante à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)
 
-    -   [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md)
+    -   [Gérer les cartouches](index.php?fr/03_Module_Parc/08_Cartouches.md)
         -   Les différents onglets :
-            - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md)
-            - [Onglet "Modèles d'imprimantes"](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md)
-            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            - [Onglet "Cartouches"](index.php?fr/03_Module_Parc/08_Cartouches.md)
+            - [Onglet "Modèles d'imprimantes"](index.php?fr/03_Module_Parc/08_Cartouches.md)
+            - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)
               Gérer les informations financières et administratives
-            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
               Associer des documents à l'objet
-            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
               Associer des liens externes
-            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-            - [Onglet "Réservations"](index.php?fr/commontabs/item_reservations.md)
-            - [Onglet "Historique"](index.php?fr/commontabs/item_historique.md)
-            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+            - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+            - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+            - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
               Uniquement si vous êtes connecté en mode Debug.
-            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-              Afficher toutes les informations sur une seule page
+            - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+              Afficher toutes les informations sur une seule page.
  
-    -   [Gérer les consommables](index.php?fr/03_Module_Parc/111_Gérer_les_consommables.md)
+    -   [Gérer les consommables](index.php?fr/03_Module_Parc/09_Consommables.md)
         -   Les différents onglets :
-            - [Onglet "Consommables"](index.php?fr/03_Module_Parc/11_Gérer_les_consommables.md)
-            - [Onglet "Gestion"](index.php?fr/commontabs/item_gestion)
+            - [Onglet "Consommables"](index.php?fr/03_Module_Parc/09_Consommables.md)
+            - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)
               Gérer les informations financières et administratives
-            - [Onglet "Documents"](index.php?fr/commontabs/item_documents.md)
+            - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
               Associer des documents à l'objet
-            - [Onglet "Liens"](index.php?fr/commontabs/item_liens.md)
+            - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
               Associer des liens externes
-            - [Onglet "Notes"](index.php?fr/commontabs/item_notes.md)
-            - [Onglet "Debug"](index.php?fr/commontabs/item_debug.md)
+            - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+            - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
               Uniquement si vous êtes connecté en mode Debug.
-            - [Onglet "Tous"](index.php?fr/commontabs/item_tous.md)
-              Afficher toutes les informations sur une seule page
+            - [Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)
+              Afficher toutes les informations sur une seule page.
 
-    -   [Gérer les téléphones](inventory_phone.html)
-        -   [Onglet "Connexions"](inventory_connection.html)
-            -   [Connexions
-                directes](inventory_notcomputer_connection.html)
-            -   [Onglet "Ports
-                réseaux"](inventory_network_connection.html)
+    -   [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md)
+        - Les différents onglets :
+            - [Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)
+            - [Onglet "Connexions"](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)
+              Gestion des connexions directes entre un périphérique et un ordinateur
+            - [Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_réseaux.md)
+            - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion)
+              Gérer les informations financières et administratives
+            - [Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)
+              Gérer les contrats associés
+            - [Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)
+              Associer des documents à l'objet
+            - [Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)
+            - [Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)
+            - [Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)
+              Associer des liens externes
+            - [Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)
+            - [Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)
+            - [Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)
+            - [Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)
+
+    -   [Global](index.php?fr/03_Module_Parc/11_Global.md)
+        Recherche globale sur les éléments d'inventaire.
+
 
         -   [Gérer les informations financières et
             administratives](inventory_management.html)

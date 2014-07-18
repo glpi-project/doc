@@ -14,6 +14,11 @@ Pour passer un consommable de l'état de neuf à utilisé, il est nécessaire de
 
 La gestion des stocks partagés est possible en définissant l'élément comme récursif sur une entité. Les éléments seront alors disponibles pour toutes les sous-entités.
 
+Figure 1. Résumé consommables prêtés
+![image](docs/image/resumeConsumable.png)
+L'icone de droite permet d'avoir un résumé des consommables prêtés
+![image](docs/image/resumeConsumableExample.png)
+
 Les différents onglets
 ----------------------
 - **Onglet "Consommables"**

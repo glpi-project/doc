@@ -15,6 +15,9 @@ La gestion unitaire correspond à une gestion classique (un périphérique pour 
 
 La gestion globale permet de limiter le nombre d'élément à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
 
+
+**[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
+
 Les différents onglets
 ----------------------
 -   **[Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)**

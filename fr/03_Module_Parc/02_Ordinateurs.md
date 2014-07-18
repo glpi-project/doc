@@ -9,6 +9,8 @@ D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste)
 *- Dans le cas d'une utilisation de GLPI couplé avec un outil d'inventaire, différentes informations sur l'importation sont également disponibles.*
 *- Un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d'utiliser le champ type.*
 
+**[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
+
 Les différents onglets
 ----------------------
 -   **[Onglet "Composants"](index.php?fr/Les_différents_onglets/Onglet_Composants.md)**

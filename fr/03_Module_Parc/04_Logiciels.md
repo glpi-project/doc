@@ -24,6 +24,8 @@ Certains champs sont spécifiques dans la fiche du logiciel :
 ***Conseil :*** en mode multi-entité, la liste des logiciels peut devenir longue, en partie dû aux doublons (1 logiciel par entité). Une gestion fine des logiciels, licences et versions peut consister à regrouper les
 logiciels identiques dans une même entité (voir [Regrouper les logiciels (multi-entités).](inventory_software_merge.html "Comment regrouper des logiciels homonymes dans des sous-entités.")), puis à rendre récursif les éléments qui peuvent l'être.
 
+**[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
+
 Les différents onglets
 ----------------------
 -   **Onglet "Versions"**
