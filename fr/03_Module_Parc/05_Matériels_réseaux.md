@@ -52,8 +52,8 @@ Les différentes actions
 -   **[Voir un matériel réseau](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
 -   **[Modifier un matériel réseau](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un matériel réseau](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un matériel réseau à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un matériel réseau à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Associer un document à un matériel réseau](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un contrat à un matériel réseau](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 
 
 -----------

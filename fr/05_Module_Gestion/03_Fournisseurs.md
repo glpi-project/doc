@@ -19,20 +19,9 @@ Bien entendu, une personne ayant une visibilité récursive sur toutes les entit
 
 Les différents onglets
 ----------------------
--   **Onglet "Contacts"**
-    GLPI permet d'effectuer un lien entre les contacts et les fournisseurs.
-    La distinction est clairement établie entre le fournisseur, qu'il est possible de lier de manière univoque à des éléments d'inventaire et les contacts, qui composent la liste des personnes permettant d'entrer en relation avec ce fournisseur. Pour établir cette liste, il faut donc associer les contacts au fournisseur concerné.
-
-    Cet onglet propose la possibilité d'ajouter un contact ainsi que le tableau récapitulant les contacts associés au fournisseur.
-
-Exemple :
-
-    Monsieur Dupont est conseiller de vente dans l'entreprise Acme auprès de qui la structure se fournit régulièrement. 
-    Créer un fournisseur nommé Acme. 
-    Créer un contact au nom de Monsieur Dupont. 
-    Affecter à ce contact le type commercial. 
-    Puis associer le contact au fournisseur Acme.
-
+-   **[Onglet "Contacts"](index.php?fr/Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
+    Cet onglet permet d'ajouter un ou plusieurs contacts à ce fournisseur.
+    Il liste également les différents contacts associés au fournisseur.
 
 -   **[Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)**
     Gérer les contrats associés
@@ -62,12 +51,11 @@ Les différentes actions
 -   **[Voir un fournisseur](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
 -   **[Modifier un fournisseur](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un fournisseur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un fournisseur à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un document à un fournisseur](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un fournisseur](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 -   **Associer un élément à un fournisseur**
     Il suffit de choisir ce fournisseur dans l'onglet *Gestion* de l'objet.
--   **Associer un contact à un fournisseur**
-    Voir onglet *Contact* ci-dessus.
+-   **[Associer un contact à un fournisseur](index.php?fr/Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
 
 -------
 **Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

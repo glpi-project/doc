@@ -43,7 +43,7 @@ Les différentes actions
 -   **[Voir un budget](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
 -   **[Modifier un budget](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un budget](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un budget à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un document à un budget](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **Associer un élément à un budget**
     Il suffit de choisir ce budget dans l'onglet *Gestion* de l'objet.
 

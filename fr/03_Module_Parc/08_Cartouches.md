@@ -1,7 +1,7 @@
 Gérer les cartouches
 ====================
 
-Les cartouches dans GLPI, caractéristiques et utilisation
+Ce module permet de créer des modèles de cartouches ainsi que les cartouches correspondantes.
 
 Dans la fiche d'une cartouche, plusieurs informations sont disponibles:
 
@@ -19,7 +19,7 @@ La gestion des stocks partagés est possible en définissant l'élément comme r
 Les différents onglets
 ----------------------
 - **Onglet "Cartouches"**
-  C'est depuis cet onglet que vous pouvez ajouter autant de cartouches que nécessaire. Vous pouvez d'ailleurs ajouter plusieurs cartouches en une seule fois.
+  C'est depuis cet onglet que vous pouvez ajouter autant de cartouches que nécessaire pour ce modèle. Vous pouvez d'ailleurs ajouter plusieurs cartouches en une seule fois.
 
  Un premier tableau liste les cartouches neuves ou utilisées, le second tableau liste les cartouches usagées.
 
@@ -49,5 +49,16 @@ Figure 1. Onglet Cartouches
 -   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
+Les différentes actions
+-----------------------
+-   **[Ajouter un modèle de cartouche](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un modèle de cartouche](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un modèle de cartouche](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un modèle de cartouche](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **Ajouter de nouvelles cartouches à un modèle**
+    Voir onglet *Cartouches* ci-dessus
+-   **Ajouter un modèle d'imprimante pour le modèle de cartouche**
+    Voir onglet *Modèle d'imprimante* ci-dessus
+-   **[Associer un document à un modèle de cartouche](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 ---------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
