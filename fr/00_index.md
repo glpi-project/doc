@@ -91,10 +91,10 @@
           - [Associer un moniteur à un document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)
           - [Associer un moniteur à un contrat](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md))
 
-    -   [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md)
+    -   [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md)
         - Les différents onglets
           - [Onglet "Versions"](index.php?fr/03_Module_Parc/04_Logiciels.md)
-          - [Onglet "Licences"](index.php?fr/03_Module_Parc/04_Logiciels.md)
+          - [Onglet "Licences"](index.php?fr/03_Module_Parc/04_Logiciels/02_Onglet_Licences.md)
           - [Onglet "Installations"](index.php?fr/03_Module_Parc/04_Logiciels.md)
           - [Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)
             Gérer les informations financières et administratives

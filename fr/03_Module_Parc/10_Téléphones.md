@@ -57,5 +57,15 @@ Les différents onglets
 -   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
+
+Les différentes actions
+-----------------------
+-   **[Ajouter un téléphone](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un téléphone](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un téléphone](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un téléphone](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à un téléphone](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un contrat à un téléphone](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+
 --------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

@@ -14,10 +14,6 @@ Pour passer un consommable de l'état de neuf à utilisé, il est nécessaire de
 
 La gestion des stocks partagés est possible en définissant l'élément comme récursif sur une entité. Les éléments seront alors disponibles pour toutes les sous-entités.
 
-Figure 1. Résumé consommables prêtés
-![image](docs/image/resumeConsumable.png)
-L'icone de droite permet d'avoir un résumé des consommables prêtés
-![image](docs/image/resumeConsumableExample.png)
 
 Les différents onglets
 ----------------------
@@ -28,7 +24,7 @@ Les différents onglets
 
 C'est depuis les actions de masse de cet onglet que sont attribuer les consommables (Actions **Donner**).
 
-Figure 1. Onglet Cartouches
+Figure 1. Onglet Consommables
 ![image](docs/image/consumable.png)
 
 
@@ -47,6 +43,20 @@ Figure 1. Onglet Cartouches
 
 -   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
+
+Les différentes actions
+-----------------------
+-   **[Ajouter un modèle de consommable](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un modèle de consommable](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un modèle de consommable](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un modèle de consommable](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **Ajouter de nouveaux consommables à un modèle**
+    Voir onglet *Consommables* ci-dessus
+-   **[Associer un document à un modèle de consommable](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **Avoir la liste des consommables attribués**
+![image](docs/image/resumeConsumable.png)
+L'icone de droite permet d'avoir un résumé des consommables prêtés
+![image](docs/image/resumeConsumableExample.png)
 
 --------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

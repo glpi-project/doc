@@ -26,7 +26,7 @@ Les différents onglets
     ***Remarque :*** *En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
 
 -   **Onglet "Logiciels"**
-     Gestion des logiciels installés sur les ordinateurs
+     Gestion des logiciels installés sur les ordinateurs.
 
     Ceux-ci sont triés par catégories et sont caractérisés par leur nom et leur version ainsi que le statut de cette dernière.
 
@@ -94,6 +94,9 @@ Les différentes actions
 -   **[Supprimer un ordinateur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un ordinateur](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un ordinateur](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **Installer une licence sur un ordinateur**
+    Depuis l'onglet *Logiciels*, ajouter une licence en choissant le nom du logiciel suivi du nom de la licence.
+    Depuis les actions de masse du tableau récapitulatif, choisissez **Installer**.
 
 ------------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
