@@ -20,7 +20,7 @@ Les différents onglets
 -   **Onglet "Principal"**
     Fournit un tableau récapitulant le montant dépensé sur la budget ainsi que le total restant.
 
--   **Onglet "Elements"**
+-   **Onglet "Eléments"**
     Cet onglet permet de visualiser les éléments attachés à ce budget.
     La liste est triée par type d'éléments (avec en dessous le nombre de matériels) et la liste complète. Tout en bas du tableau, est affiché le nombre total d'éléments associés à ce budget.
 

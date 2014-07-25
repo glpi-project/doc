@@ -1,111 +1,77 @@
 Gérer les contrats
 ==================
 
-Les contrats sont gérés depuis le menu Gestion \> Contrats
-
-Les contrats concernent les accords établis entre des tiers. Des objets
-d'inventaire sont associables à un contrat. Cette fonctionnalité permet
-de couvrir tout type de contrat réalisé tel que les prêts, contrats de
+Les contrats concernent les accords établis entre des tiers. Des objets d'inventaire sont associables à un contrat. Cette fonctionnalité permet de couvrir tout type de contrat réalisé tel que les prêts, contrats de
 maintenance...
 
-Créer un contrat
-----------------
-
-Pour créer un contrat, il sera demandé de renseigner :
+Un contrat regroupe différents types d'informations :
 
 -   des informations générales (nom, type, numéro) ;
--   des informations temporelles (date de début, durée, périodicité,
-    plages horaires d'intervention). Les plages horaires sont
-    intéressantes dans le cadre d'un contrat de maintenance ou
-    d'infogérance par exemple ;
--   des informations comptables (reconduction, durée de préavis,
-    périodicité de facturation)
+-   des informations temporelles (date de début, durée, périodicité, heures d'intervention). Les plages horaires sont intéressantes dans le cadre d'un contrat de maintenance ou d'infogérance par exemple ;
+-   des informations comptables (reconduction, durée de préavis, périodicité de facturation).
 
-Il est possible d'être alerté par courriel sur la fin ou le préavis du
-contrat.
+Il est possible d'être alerté par courriel sur différents éléments du contrat (fin, préavis, fin de période...).
 
-Remarque : Des gabarits peuvent être définis pour les contrats (voir
-[Gérer les
-gabarits](template.html "La gestion des gabarits dans GLPI")).
+**[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
 
 Description des champs
 ----------------------
+-   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. Voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés") ;
+-   **Numéro**: cette information n'est pertinente que si le numéro de contrat est identique à celui utilisé au sein des autres services de la société ;
+-   **Date de début** : à ne pas confondre avec la date d'enregistrement du contrat dans GLPI. Tous les calculs de périodicité sur le contrat sont donc fonction de cette date ;
+-   **Durée initiale du contrat** : si ce champ et la date de début sont renseignés, la date de fin de contrat apparaitra (en rouge si la date a expirée) ;
+-   **Préavis** : ce champ peut servir également au déclenchement des notifications d'alerte ;
+-   **Numéro comptable** : pour permettre un rapprochement avec le logiciel comptable de la société ;
+-   **Périodicité du contrat** : c'est la durée à laquelle la reconduction du contrat est possible (*Exemple : Un contrat d'abonnement téléphonique d'une durée de 24 mois renouvelable au bout de 12 mois*) ;
+-   **Périodicité de facturation** :
+-   **Type de reconduction** : [Tacite](glossary/evergreen.dita) ou [Expresse] glossary/specific_renewal.dita) ;
+-   **Nombre max d'éléments** : la valeur choisie dans ce champ bloquera ou non l'ajout de nouvel éléments attachés à ce contrat ;
+-   **Heures d'intervention** : Les plages horaires d'intervention correspondent aux horaires d'intervention couvert par le contrat. Il est possible d'y distinguer les samedis et les jours chômés.
 
--   **Type de contrat** : par défaut, aucun type de contrat n'est
-    renseigné. Il faut au préalable les renseigner dans la configuration
-    des intitulés. Voir [Configurer les
-    intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")
-    ;
--   **Numéro de contrat**: Cette information n'est pertinente que si le
-    numéro de contrat est identique à celui utilisé au sein des autres
-    services de la société ;
--   **Date de début** : À ne pas confondre avec la date d'enregistrement
-    du contrat dans GLPI. Tous les calculs de périodicité sur le contrat
-    sont donc fonction de cette date ;
--   **Périodicité du contrat** : C'est la durée à laquelle la
-    reconduction du contrat est possible (*Exemple : Un contrat
-    d'abonnement téléphonique d'une durée de 24mois renouvelable au bout
-    de 12mois*) ;
--   **Plages horaires d'intervention** : Les plages horaires
-    d'intervention correspondent aux horaires d'intervention couvert par
-    le contrat. Il est possible d'y distinguer les jours chômés ;
--   **Type de reconduction** : [Tacite](glossary/evergreen.dita) ou
-    [Expresse](glossary/specific_renewal.dita) ;
--   **Alerte par courriel** : Il est possible de recevoir des
-    notifications pour prévenir d'événements tels que la fin du contrat.
-    Dans le cas ou la reconduction du contrat serait expresse, il peut
-    être intéressant d'être alerté à la date du préavis. Pour les
-    contrats périodiques il est également possible d'être alerté à la
+Les différents onglets
+----------------------
+-   **Onglet "Coûts"**
+    Les éléments de coûts peuvent être saisi indépendamment (coût initial, coût avenant...).
+    Chaque élément peut être lié à un budget différent (voir [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")).
+    Sous la possibilité d'ajout de nouveaux coûts, un tableau récapitule les coûts déja enregistrés ainsi que le coût total pour ce contrat.
+
+-   **[Onglet "Fournisseurs"](index.php?fr/Les_différents_onglets/Onglet_Fournisseurs.md)**
+    Gérer les informations financières et administratives
+
+-   **Onglet "Eléments"**
+    Cet onglet permet d'ajouter et de visualiser les éléments attachés à ce contrat.
+    Outre les éléments de l'inventaire (ordinateurs, imprimantes, téléphones...) vous pouvez ajouter un contrat à une licence, un logiciel ou un projet.
+    Le tableau listant les éléments du contrat est trié par type d'éléments (avec le nombre de matériels) avec pour chaque type la liste des éléments. Si cette liste est trop importante, un lien *Liste des matériels* est substituée au détail.
+
+-   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+
+-   **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
+     Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
+
+-   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
+
+-   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+     L'historique est visualisé depuis l'onglet *Historique*
+
+-   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
+    Uniquement si vous êtes connecté en mode Debug.
+
+-   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+     Pour un élément, toutes les informations sont affichées sur une seule page.
+
+
+Les différentes actions
+-----------------------
+-   **[Ajouter un contrat](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un contrat](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un contrat](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un contrat](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à un contrat](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **Paramétrer les alertes sur les contrats**
+    Il est possible de recevoir des notifications pour prévenir d'événements tels que la fin du contrat.
+    Dans le cas ou la reconduction du contrat serait expresse, il peut être intéressant d'être alerté à la date du préavis. Pour les contrats périodiques il est également possible d'être alerté à la
     fin de chaque période ou préavis de période.
-    Conseil : Ceci est configurable par entité dans le menu
-    **Configuration \> Notifications** pour définir les modèles et
-    destinataires utilisés et dans le menu **Configuration \> Entité**
-    pour activer ou non cette fonctionnalité, définir les valeurs par
-    défaut et une anticipation de l'envoi de la notification si besoin.
+    Ceci est configurable par entité dans le menu **Configuration > Notifications** pour définir les modèles et destinataires utilisés et dans le menu **Configuration > Entité** pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l'envoi de la notification si besoin.
 
-Coûts
------
-
-Des coûts peuvent être associés à un contrat. Les éléments de coûts
-peuvent être saisi indépendamment (coût initial, coût avenant...).
-Chaque élément peut être lié à un budget différent (voir [Gérer les
-budgets](management_budget.html "Les budgets sont gérés depuis le menu Gestion > Budgets")).
-
-Remarque : Pour faciliter la saisie de plusieurs coûts, le formulaire
-est initialisé en fonction du dernier coût saisi. Il suffit alors de
-modifier uniquement les informations nécessaires.
-
--   **[Lier contrats et
-    fournisseurs](../glpi/management_supplier_contract.html)**\
-     Les contrats associés aux fournisseurs.
--   **[Les matériels
-    associés](../glpi/management_contract_hardware.html)**\
-     Les matériels associés aux contrats
--   **[Associer des documents](../glpi/inventory_document.html)**\
-     Les documents associés se gèrent depuis l'onglet Documents
--   **[Associer des liens externes](../glpi/inventory_link.html)**\
-     Pour certains éléments, les liens externes se gèrent depuis le menu
-    Liens externes
--   **[Gérer les notes](../glpi/notes.html)**\
-     Pour un élément, les notes se gèrent depuis l'onglet Notes
--   **[Visualiser l'historique](../glpi/inventory_log.html)**\
-     L'historique est visualisé depuis l'onglet Historique
--   **[Afficher toutes les informations sur une seule
-    page](../glpi/inventory_all.html)**\
-     Pour un élément, toutes les informations sont affichées sur une
-    seule page depuis l'onglet Tous
--   **[Ajouter un contrat](../glpi/management_contract_t_create.html)**\
--   **[Voir un contrat](../glpi/management_contract_t_read.html)**\
--   **[Modifier un
-    contrat](../glpi/management_contract_t_update.html)**\
--   **[Supprimer un
-    contrat](../glpi/management_contract_t_delete.html)**\
--   **[Associer un contrat à un
-    fournisseur](../glpi/management_contract_t_linktosupplier.html)**\
--   **[Associer un contrat à un
-    matériel](../glpi/management_contract_t_linktoitem.html)**\
--   **[Associer un contrat à un
-    document](../glpi/management_contract_t_linktodocument.html)**\
-
-**Sujet parent :** [Module
-Gestion](../glpi/management.html "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")
+--------
+**Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

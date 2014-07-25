@@ -38,7 +38,7 @@ comprenant chaque la date de début, la date de fin, l'utilisateur qui a réserv
 
 **Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
 
 **Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 

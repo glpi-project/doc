@@ -9,9 +9,7 @@ Chaque contact est caractérisé par les informations d'identité usuelles ainsi
 
 Les différents onglets
 ----------------------
--   **[Onglet "Fournisseurs"](index.php?fr/Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
-    Cet onglet permet d'ajouter un ou plusieurs fournisseurs à ce contact.
-    Il liste également les différents fournisseurs associés au contact.
+-   **[Onglet "Fournisseurs"](index.php?fr/Les_différents_onglets/Onglet_Fournisseurs.md)**
 
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 

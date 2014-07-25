@@ -19,7 +19,9 @@ Figure 1. Onglet Debug d'un ticket
 
 **Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+
+**Sujet parent :** [Gérer les licences](index.php?fr/03_Module_Parc/04_Logiciels/02_Onglet_Licences.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
 
 **Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
@@ -33,17 +35,4 @@ Figure 1. Onglet Debug d'un ticket
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
-**Sujet parent :** [Gérer les
-fournisseurs](../glpi/management_supplier.html "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
-
-**Sujet parent :** [Gérer les
-contacts](../glpi/management_contact.html "Les contacts sont gérés depuis le menu Gestion > Contacts")
-
-**Sujet parent :** [Gérer les
-budgets](../glpi/management_budget.html "Les budgets sont gérés depuis le menu Gestion > Budgets")
-
-**Sujet parent :** [Gérer les
-contrats](../glpi/management_contract.html "Les contrats sont gérés depuis le menu Gestion > Contrats")
-
-**Sujet parent :** [Gérer les
-documents](../glpi/management_document.html "Les documents sont gérés depuis le menu Gestion > Documents")
+**Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")
