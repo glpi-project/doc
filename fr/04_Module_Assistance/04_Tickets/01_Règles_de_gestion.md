@@ -45,7 +45,7 @@ Règles de gestion
 -----------------
 A sa création, un ticket prend le statut **Nouveau**. 
 Lorsqu'un technicien le qualifie en lui attribuant un groupe, un technicien ou un fournisseur chargé de le traiter, il passe alors à l'état **En cours (attribué)**. 
-S'il ajoute une nouvelle tâche alors il devient alors **En cours (planifié)**. 
+S'il ajoute une nouvelle tâche qui est plannifiée alors il devient alors **En cours (planifié)**. 
 Quand une solution est apportée au ticket, alors il prend le statut **Résolu**. 
 Enfin, quand le demandeur ou le rédacteur valide la solution proposée, alors il est **Clos**.
 
