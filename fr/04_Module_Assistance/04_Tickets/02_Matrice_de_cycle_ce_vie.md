@@ -6,7 +6,7 @@ Matrice de cycle de vie des tickets
 
 Chaque profil possédant sa propre matrice de cycle de vie, vous pouvez affiner quel profil pourra faire quelle action dans le ticket.
 
-Cette matrice vous permet d'empêcher le ticket de passer de tel à tel statut.
+Cette matrice vous permet d'empêcher le ticket de passer de tel à tel statut, ce qui fait qu'elle peut bloquer certaines actions de GLPI (voir [Les règles de gestion](index.php?fr/04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md).
 Si un statut est désactivé, il ne sera pas présent dans la liste des statuts de GLPI
 
 Figure 1. Matrice de cycle de vie d'un ticket
