@@ -15,10 +15,13 @@ Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL et
      -   **[Définir les acteurs et leurs rôles](index.php?fr/04_Module_Assistance/02_Définir_les_acteurs.md)**
      -   **[Définir la matrice de calcul de la priorité](index.php?fr/04_Module_Assistance/02_Définir_la_matrice_de_calcul_de_la_priorité.md)**
 
-     -   **Comprendre et paramétrer les cycles de vie :**
-         -   [d'un ticket](index.php?fr/04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md)
-         -   **[d'un problème](../glpi/helpdesk_lifecycleticket.html)**\
-         -   **[d'un changement](../glpi/helpdesk_lifecycleticket.html)**\
+-   **Gérer les tickets**
+    -   [Règles de gestion](index.php?fr/04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md)
+    -   [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md)
+    -   [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md)
+
+-   **[Créer un ticket](index.php?fr/04_Module_Assistance/05_Créer_un_ticket.md)**
+
 
 -   **[Pour aller plus loin](../glpi/helpdesk_advanced.html)**\
      Pour aller plus loin

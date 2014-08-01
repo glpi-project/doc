@@ -55,5 +55,4 @@ Enfin, quand le demandeur ou le rédacteur valide la solution proposée, alors i
 
 
 --------
-**Sujet parent :** [Gérer les
-tickets](../glpi/helpdesk_ticket.html "Les tickets dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")

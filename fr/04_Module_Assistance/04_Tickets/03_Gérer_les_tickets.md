@@ -188,8 +188,7 @@ notifications](config_notification.html "Les notifications se configurent depuis
 
 Les différentes actions
 -----------------------
--   **[Ajouter un ticket](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un ticket](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Ajouter un ticket](index.php?fr/04_Module_Assistance/05_Créer_un_ticket.md)**
 -   **[Modifier un ticket](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un ticket](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un ticket](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
