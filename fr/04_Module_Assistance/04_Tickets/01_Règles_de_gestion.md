@@ -23,13 +23,13 @@ ITIL définit le cycle de vie des statuts d'un ticket. Ce cycle de vie est impl�
 
 Ces statuts ne sont ni paramétrables ni modifiables.
 
-***Remarques :*** 
-*- On peut néanmoins cacher certains statuts suivant le profil (voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md).
+***Remarques :** *
+*- On peut néanmoins cacher certains statuts suivant le profil (voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md).*
 
 *- Pour aller plus loin dans cette gestion des statuts, voir [Les collecteurs](helpdesk_advanced_collectors.html "Les collecteurs"),
 [Les gabarits de tickets](helpdesk_advanced_templates.html "Les gabarits de tickets") et
 [Les règles métier de modification et affectation des
-tickets](helpdesk_advanced_businessrules.html "Les règles métier de modification et affectation des tickets").
+tickets](helpdesk_advanced_businessrules.html "Les règles métier de modification et affectation des tickets").*
 
 L'ordonnancement
 ----------------
