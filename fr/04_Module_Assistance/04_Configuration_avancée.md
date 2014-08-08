@@ -4,16 +4,17 @@ Pour aller plus loin
 Les catégories
 --------------
 
+Une catégorie peut être hiérarchisée :
+- en sélectionnant une catégorie mère depuis le premier onglet via le champ "Comme enfant de" ;
+- en ajoutant une catégorie fille depuis le second onglet (Catégories de ticket ou de tâches).
+
+
 - **Les catégories de tickets**
 
   Contrairement à son nom, les catégories de tickets sont également utilisées par les problèmes et les changements.
   La gestion des catégories est accessible depuis le menu des intitulés : ***Configuration > Intitulés > Catégories des tickets***.
 
   ![image](docs/image/categorieTicket.png)
-
-  Une catégorie peut être hiérarchisée :
-  - en ajoutant une catégorie mère depuis le premier onglet via le champ "Comme enfant de" ;
-  - en ajoutant une catégorie fille depuis le second onglet (Catégories de ticket).
 
   Un responsable et/ou un groupe technique peuvent être ajoutés à cette catégorie et serviront pour les notifications.
 
@@ -37,48 +38,27 @@ Les catégories
     Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d'un ticket (voir [Règles métier pour les tickets](administration_rule_ticket.html "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
 
 
--   **[Les gabarits de
-    tickets](../glpi/helpdesk_advanced_templates.html)**\
-     Les gabarits de tickets
--   **[Les collecteurs](../glpi/helpdesk_advanced_collectors.html)**\
-     Les collecteurs
--   **[Les tickets
-    récurrents](../glpi/helpdesk_advanced_recurrent.html)**\
-     Les tickets récurrents
--   **[Les coûts liés](../glpi/helpdesk_advanced_cost.html)**\
-     Les coûts liés
--   **[Liens entre tickets](../glpi/helpdesk_ticket_link.html)**\
-     Les relations entre les tickets : liaison et duplication
--   **[Modifier les règles
-    d'ordonnancement](../glpi/helpdesk_advanced_ordering.html)**\
-     Configurer la matrice d'attribution des priorités en fonction de
-    l'urgence et de l'impact : limiter les niveaux d'urgence et d'impact
-    disponibles.
--   **[Consulter et gérer les
-    plannings](../glpi/helpdesk_planning.html)**\
-     Les plannings se gèrent depuis le menu Assistance \> Planning
--   **[Les délais de résolutions d'incidents ou
-    SLA](../glpi/helpdesk_advanced_sla.html)**\
-     Les délais de résolutions d'incidents ou SLA
--   **[Les règles métier de modification et affectation des
-    tickets](../glpi/helpdesk_advanced_businessrules.html)**\
-     Les règles métier de modification et affectation des tickets
--   **[Gérer les problèmes](../glpi/helpdesk_advanced_problems.html)**\
-     La gestion des problèmes
--   **[Gérer les changements](../glpi/helpdesk_advanced_changes.html)**\
-     La gestion des changements
--   **[La notification par courrier
-    électronique](../glpi/helpdesk_advanced_notifications.html)**\
-     La notification par courrier électronique
--   **[Clôture
-    administrative](../glpi/helpdesk_advanced_administrativeclose.html)**\
-     Passe d'un ticket du *statut* résolu à *clos*
--   **[La satisfaction](../glpi/helpdesk_ticket_satisfaction.html)**\
-     Le résultat de l'enquête de satisfaction d'un ticket,
-    caractéristiques et utilisation
--   **[Visualiser les statistiques](../glpi/helpdesk_stat.html)**\
-     Les rapports concernant les tickets sont disponibles dans le menu
-    Assistance \> Statistiques
+- **Les catégories de tâches**
+  
+  Elles servent à catégoriser les tâches pour faciliter leur traitement ou à des fins statistiques.
 
-**Sujet parent :** [Le service d'assistance aux
-utilisateurs](../glpi/helpdesk.html "Le service d'Assistance aux utilisateurs de GLPI")
+[Les règles d'ordonnancement](index.php?fr/04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.md)
+------------------------
+
+Configurer la matrice d'attribution des priorités en fonction de l'urgence et de l'impact : limiter les niveaux d'urgence et d'impact disponibles.
+
+[Consulter et gérer les plannings](index.php?fr/04_Module_Assistance/09_Planning.md)
+------------------------
+Suivez les tâches planifiées.
+
+La notification par courrier électronique
+-----------------------------------------
+Les actions sur les tickets peuvent entrainer l'envoi de notification suivant un évènement déclencheur (création d'un ticket, réponse à enquête de satisfaction...).
+Voir **configurer les notifications**.
+
+[Les statistiques](index.php?fr/04_Module_Assistance/10_Statistiques.md)
+------------------
+Les rapports concernant les tickets, les problèmes ou les changements sont disponibles dans le menu *** Assistance > Statistiques***.
+
+-------------
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md** "Le service d'Assistance aux utilisateurs de GLPI")

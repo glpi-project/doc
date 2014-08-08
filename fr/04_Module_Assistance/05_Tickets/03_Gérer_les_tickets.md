@@ -154,8 +154,7 @@ notifications](config_notification.html "Les notifications se configurent depuis
 
         ***Remarque :** Un ticket clos n'est plus modifiable (à part le status). Pour le modifier a posteriori, il faut donc changer son status et réaliser de nouveau sa clôture.*
 
-        Il est possible de forcer la clôture des tickets résolus après un délai paramétrable (voir [Onglet
-    Assistance](config_common_assist.html "Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI.")). Si ce délai est nul, le ticket est automatiquement clos.
+        Il est possible de forcer la clôture des tickets résolus après un délai paramétrable (voir [Onglet Assistance](config_common_assist.html "Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI.")). Si ce délai est nul, le ticket est automatiquement clos.
 
         De même, vous pouvez supprimer cette opération d(approbation via la [matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md).
 
