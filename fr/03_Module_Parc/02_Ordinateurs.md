@@ -94,9 +94,10 @@ Les différentes actions
 -   **[Supprimer un ordinateur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un ordinateur](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un ordinateur](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
--   **Installer une licence sur un ordinateur**
-    Depuis l'onglet *Logiciels*, ajouter une licence en choissant le nom du logiciel suivi du nom de la licence.
+-   **Installer un logiciel avec licence sur un ordinateur**
+    Depuis l'onglet *Logiciels*, ajouter une licence en choisissant le nom du logiciel suivi du nom de la licence.
     Depuis les actions de masse du tableau récapitulatif, choisissez **Installer**.
+    ***Attention*** : un logiciel ne peut être installé que si sa licence possède une version d'achat et/ou d'utilisation.
 
 ------------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
