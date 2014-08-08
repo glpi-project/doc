@@ -3,9 +3,11 @@ Gérer les problèmes
 
 Pour les éléments, les problèmes se gèrent depuis l'onglet **Problèmes**
 
-L'onglet Problèmes permet de :
+Eléments du parc
+----------------
+L'onglet *Problèmes* permet de :
 
--   visualiser l'historique des derniers problèmes liés **directement** cet élément (si droit de voir tous les problèmes dans le profil) ;
+-   visualiser l'historique des derniers problèmes liés **directement** à cet élément (si droit de voir tous les problèmes dans le profil) ;
 -   visualiser les problèmes concernant **directement** les éléments liés à cet élément.
 
 ***Remarques :***
@@ -14,6 +16,18 @@ L'onglet Problèmes permet de :
 
 Figure 1. Onglet Problèmes d'un ordinateur
 ![image](docs/image/probleme_computer.png)
+
+
+Tickets
+-------
+
+Outre le fait de voir les problèmes associés à ce ticket, cet onglet permet d'ajouter un problème ou d'en créer un à partir de ce ticket.
+
+Figure 2. Onglet Problèmes d'un ticket
+![image](docs/image/problemeTicket.png)
+
+
+***Remarque :** Les cases à cocher des actions de masse n'apparaissent que si vous avez les droits de modification sur les problèmes.
 
 -------
 **Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
@@ -30,5 +44,4 @@ Figure 1. Onglet Problèmes d'un ordinateur
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
-**Sujet parent :** [Gérer les
-fournisseurs](../glpi/management_supplier.html "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets sont gérés depuis le menu Assistance > Tickets")
