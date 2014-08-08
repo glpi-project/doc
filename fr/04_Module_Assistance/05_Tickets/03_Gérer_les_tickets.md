@@ -100,71 +100,20 @@ sur l'icône ![image](docs/image/menu_showall.png) qui apparaît dans le fil d'a
 - 100% : Tous les valideurs doivent valider ou refuser le ticket afin que le statut global de validation soit modifié.
 
 
--   **Onglet "Tâches"**
+-   **[Onglet "Tâches"](index.php?fr/Les_différents_onglets/Onglet_Tâches.md)**
     Une tâche est une action correspondant à une intervention technique liée à un ticket.
 
-    Une tâche peut :
-    - avoir une *catégorie* (Voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")), 
-    - avoir un *statut* (Information, A faire ou Fait), le statut par défaut étant `A faire`, 
-    - être *privée* ou non
-      Une tâche privée n'est visible que : 
-      -   de son rédacteur ;
-      -   du technicien à qui elle a été affectée ;
-      -   des utilisateurs ayant le droit adéquat dans leur profil.
-    - avoir une *durée* , ce qui permet au technicien de saisir la durée réelle de traitement de la tâche, notamment à fin de statistiques ou facturations.
-    - et être affecté à un technicien (*par*).
-    - être associé au planning en cliquant sur **Planifier cette tâche**. 
-      Une fois la date de début, la durée ou la date de fin saisie, la tâche apparaîtra sur le planning du technicien à qui elle a été affectée. 
 
-      ***Remarques :*** 
-      *- Pour faciliter la planification d'une tâche, il est possible de vérifier la disponibilité des techniciens. L'icône ![image](docs/image/reservation-3.png) à côté du mot Durée ouvre une nouvelle fenêtre proposant un résumé rapide des périodes libres du technicien séledtionné dans le champ Par.*
-      *- Il est possible de définir un rappel de la tâche avant son début en définissant un intervalle de temps pour le rappel. Les notifications doivent être activées pour cela (voir [Configurer les
-notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications ;"))*.
-
--   **Onglet "Solution"**
+-   **[Onglet "Solution"](index.php?fr/Les_différents_onglets/Onglet_Solution.md)**
     Cet onglet solution permet la résolution du ticket par un technicien et l'approbation de la solution par le demandeur ou le rédacteur.
+**Vos tickets à clore**.
 
-    -   **Résolution du ticket :**
-        Le technicien doit choisir le **Type de solution**, intitulé paramétrable (par exemple **Fermé (Résolu)**, **Solution de controunement**...) ainsi qu'une description de la solution si besoin.
 
-        Une fois la solution saisie, le ticket prend le statut **Résolu** jusqu'à approbation de la solution.
+-   **[Onglet "Statistiques"](index.php?fr/Les_différents_onglets/Onglet_Statistiques.md)**
 
-        La saisie d'une solution peut être facilitée par l'utilisation de 2 mécanismes :
-        -   L'utilisation d'un gabarit de solution. C'est une solution pré-remplie définie dans les intitulés (voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
-        -   L'extraction d'un élément de la base de connaissance. Pour cela, il faut cliquer `Rechercher une solution`, trouver l'élément de base de connaissances correspondant et valider en choisissant `Utiliser comme solution`.
 
-        ***Remarque :** A l'enregistrement de la solution, le choix `Enregistrer et ajouter à la base de connaissances` permet de l'ajouter directement à la base de connaissance. Après validation de la solution, la page de création de l'élément est proposée. Il suffit alors de compléter le formulaire et de valider.*
-
-    -   **Approbation de la solution :**
-        La solution d'un ticket doit être approuvée pour que le statut du ticket soit clos.
-
-        Elle peut être approuvée par un des demandeurs ou le rédacteur du ticket (personne qui a saisi le ticket, par exemple un technicien de hot-line) si la matrice de cycle de vie du ticket l'autorise (Voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md).
-
-        L'approbation peut se faire de 2 manières :     
-        - Si le suivi par courriel été activé, le demandeur peut recevoir un courriel contenant le lien vers le ticket afin de l'approuver
-        - via l'interface :
-          - **Interface simplifiée** :
-            Aller dans le menu **Tickets**.
-          - **Interface standard** :
-            Les tickets à approuver apparaissent sur la page d'accueil de GLPI dans **Vue personnelle**, **Vos tickets à clore**.
-
-          Cliquer sur le ticket à approuver, puis approuver ou rejeter la solution. Il est possible de saisir une description si besoin, celle-ci est obligatoire en cas de rejet.
-
-        Une fois la solution approuvée, le ticket prend le statut **Clos**.
-
-        ***Remarque :** Un ticket clos n'est plus modifiable (à part le status). Pour le modifier a posteriori, il faut donc changer son status et réaliser de nouveau sa clôture.*
-
-        Il est possible de forcer la clôture des tickets résolus après un délai paramétrable (voir [Onglet Assistance](config_common_assist.html "Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI.")). Si ce délai est nul, le ticket est automatiquement clos.
-
-        De même, vous pouvez supprimer cette opération d(approbation via la [matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md).
-
--   **Onglet "Statistiques"**
-    Fourni un tableau statistique de ce ticket avec notamment les date d'ouverture et d'échéance ainsi que le délais de prise en charge (temps passé entre le statut Nouveau et le statut En cours) et de temps durant lequel le ticket a été au statut En attente.
-
--   **Onglet "Coûts"**
-    Il est possible de saisir des coûts différents applicables à ce ticket pour une période déterminée.
-    Chaque élément peut être lié à un budget différent (voir [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")).
-    Sous la possibilité d'ajout de nouveaux coûts, un tableau récapitule les coûts déjà enregistrés ainsi que la durant ce coût a été appliqué ainsi le coût total pour ce ticket.
+-   **[Onglet "Coûts](index.php?fr/Les_différents_onglets/Onglet_Coûts.md)**
+    Définition des coûts applicables à ce ticket.
 
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 
