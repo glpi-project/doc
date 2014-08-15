@@ -28,3 +28,5 @@ Voir [Gérer les contrats](management_contract.html "Les contrats sont gérés d
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
 
 **Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs se gèrent depuis le menu Gestion > Fournisseurs")
+
+**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")

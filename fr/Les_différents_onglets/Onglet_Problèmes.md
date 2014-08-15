@@ -1,10 +1,8 @@
 Onglet "Problèmes"
 =================
 
-Pour les éléments, les problèmes se gèrent depuis l'onglet **Problèmes**
-
-Eléments du parc
-----------------
+Module Parc
+-----------
 L'onglet *Problèmes* permet de :
 
 -   visualiser l'historique des derniers problèmes liés **directement** à cet élément (si droit de voir tous les problèmes dans le profil) ;
@@ -18,8 +16,8 @@ Figure 1. Onglet Problèmes d'un ordinateur
 ![image](docs/image/probleme_computer.png)
 
 
-Tickets
--------
+Module Assistance
+-----------------
 
 Outre le fait de voir les problèmes associés à ce ticket, cet onglet permet d'ajouter un problème ou d'en créer un à partir de ce ticket.
 

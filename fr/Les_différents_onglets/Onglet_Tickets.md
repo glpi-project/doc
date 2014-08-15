@@ -1,8 +1,6 @@
 Onglet "Tickets"
 ===============
 
-Pour les éléments, les tickets se gèrent depuis l'onglet **Tickets**
-
 Cet onglet permet d'ajouter un ticket à cet objet (problème ou changement).
 
 Il liste également les tickets déjà liés à cet objet. Ce tableau récapitulatif comprend notamment, pour chaque objet, son statut, sa date (d'ouverture ou d'échéance, de résolution ou de clôture suivant le statut du ticket), sa priorité, les parties demandeurs et assignation, les éléments associés, sa catégorie, son titre ainsi qu'une colonne indiquant le nombre de tâches planifiées. 

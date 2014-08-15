@@ -1,7 +1,8 @@
-Gérer les tâches
-================
+Onglet "Coûts"
+==============
 
-Pour les éléments, les coûts se gèrent depuis l'onglet *Coûts*
+Module Assistance
+-----------------
 
 Cet onglet permet de :
 
@@ -18,9 +19,24 @@ Chaque élément peut être lié à un budget différent (voir [Gérer les budge
 
 Sous la possibilité d'ajout de nouveaux coûts, un tableau récapitule les coûts déjà enregistrés ainsi que la durée durant laquelle ce coût a été appliqué ainsi le coût total pour ce ticket.
 
+
+Module Outils
+-------------
+
+Pour un projet, l'onglet *Coûts*, en plus de permettre l'ajout d'un nouveau coût à ce projet, fournis 2 tableaux.
+
+Le premier regroupe les coûts du projet avec, par coût, son nom, ses dates de début et de fin, le budget associé ainsi que le montant du coût.
+Un total récapitule le montant global des coûts de ce projet.
+Pour modifier un coût il suffit de cliquer sur la ligne de celui-ci.
+
+Le second tableau liste les coûts des tickets liés à une tâche de ce projet.
+Les colonnes affichées sont les mêmes que pour un objet du module assistance avec uniquement le nom du ticket en plus.
+
 -------
 **Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
 
 **Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")
 
 **Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/08_Changements.md "Les changements se gèrent depuis le menu Assistance > Changements")
+
+**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")

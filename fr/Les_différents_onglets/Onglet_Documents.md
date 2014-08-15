@@ -1,8 +1,6 @@
 Associer des documents
 ======================
 
-Les documents associés se gèrent depuis l'onglet Documents
-
 Les informations supplémentaires sont stockées sous la forme de documents externes qui sont des fichiers téléchargés dans GLPI. 
 Dans l'onglet *Documents*, il est possible d'associer et de dissocier des documents à l'élément choisi.
 Pour gérer les documents eux-mêmes.
@@ -52,3 +50,5 @@ Figure 1. Onglet Documents d'un ordinateur
 **Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
 
 **Sujet parent :** [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md "Les documents sont gérés depuis le menu Gestion > Documents")
+
+**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")

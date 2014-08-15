@@ -1,7 +1,7 @@
 Onglet Statistiques
 ===================
 
-Cet onglet fournit un tableau statistique de cet objet avec notamment les dates d'ouverture, d'échéance, de résolution et de clôture (suivant le statut actuel de l'objet.
+Cet onglet fournit un tableau statistique de cet objet avec notamment les dates d'ouverture, d'échéance, de résolution et de clôture (suivant le statut actuel de l'objet).
 
 Il liste également les délais :
 

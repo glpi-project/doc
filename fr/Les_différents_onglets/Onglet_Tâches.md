@@ -1,8 +1,6 @@
 Gérer les tâches
 ================
 
-Pour les éléments, les tâches se gèrent depuis l'onglet *Tâches*
-
 Cet onglet permet de :
 
 - ajouter une nouvel tâche à cet élément ;

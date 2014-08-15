@@ -36,3 +36,5 @@ Figure 1. Onglet Debug d'un ticket
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
 **Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")
+
+**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")

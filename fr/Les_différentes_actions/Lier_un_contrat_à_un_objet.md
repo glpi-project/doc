@@ -34,3 +34,5 @@ Affichage de la fiche avec l'objet associé au contrat.
 **Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/007_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
+
+**Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")

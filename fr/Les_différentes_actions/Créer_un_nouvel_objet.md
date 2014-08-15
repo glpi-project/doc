@@ -39,4 +39,25 @@ Une option présente dans les préférences utilisateur (*Après la création, a
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
 
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Créer un ticket](index.php?fr/04_Module_Assistance/07_Créer_un_ticket.md "Créer un ticket rapidement")
+Ce menu en lui-même ouvre un ticket vierge pour création.
+
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Tickets récurrents](index.php?fr/04_Module_Assistance/12_Tickets_récurrents.md "Les changements dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
+
+**Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
+
+**Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")
+
+**Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
+
+**Sujet parent :** [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md "Les documents sont gérés depuis le menu Gestion > Documents")
+
 **Information apparentée :** [Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "La gestion des gabarits dans GLPI")

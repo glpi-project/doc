@@ -100,10 +100,8 @@ Les différents onglets
 
 -   **[Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)**
 
--   **Onglet "Changements"**
-    Suivant vos droits dans votre profil, vous pouvez choisir d'ajouter un changement existant à ce ticket ou créer un changement à partir de ce ticket (voir [Gestion des changements](index.php?fr/04_Module_Assistance/xxx.md).
-    Dans ce dernier cas, le changement créé reprendra les concepts du tickets (*demandeurs*, *observateurs*,
-*assignation*, *statut*, *urgence*, *impact*, *priorité*, *catégorie*).
+-   **[Onglet "Changements"](index.php?fr/Les_différents_onglets/Onglet_Changements.md)**
+    Ajouter et visualiser les changements associés à ce ticket.
 
 -   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*

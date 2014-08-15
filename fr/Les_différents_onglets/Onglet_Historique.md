@@ -48,5 +48,7 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md "Les documents sont gérés depuis le menu Gestion > Documents")
 
+**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
+
 **Sujet parent :** [Configurer les
 intitulés](../glpi/config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")

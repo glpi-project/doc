@@ -26,9 +26,8 @@ Les différents onglets
 -   **[Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)**
     Gérer les contrats associés
 
--   **Onglet "Elements"**
+-   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet de visualiser les éléments attachés à ce fournisseur.
-    La liste est triée par type d'éléments (avec en dessous le nombre de matériels) et la liste complète. Tout en bas du tableau, est affiché le nombre total d'éléments associés à ce fournisseur.
 
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 

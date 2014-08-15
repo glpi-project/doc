@@ -38,11 +38,9 @@ Les différents onglets
 -   **[Onglet "Fournisseurs"](index.php?fr/Les_différents_onglets/Onglet_Fournisseurs.md)**
     Gérer les informations financières et administratives
 
--   **Onglet "Eléments"**
+-   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet d'ajouter et de visualiser les éléments attachés à ce contrat.
-    Outre les éléments de l'inventaire (ordinateurs, imprimantes, téléphones...) vous pouvez ajouter un contrat à une licence, un logiciel ou un projet.
-    Le tableau listant les éléments du contrat est trié par type d'éléments (avec le nombre de matériels) avec pour chaque type la liste des éléments. Si cette liste est trop importante, un lien *Liste des matériels* est substituée au détail.
-
+    
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 
 -   **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**

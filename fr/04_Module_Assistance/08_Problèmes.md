@@ -22,9 +22,8 @@ Les différents onglets
     Cet l'onglet permet d'associer un ticket à ce problème. 
 
 
--   **Onglet "Changement"**
-    Cet onglet permet d'associer un changement à ce problème ou de créer un changement à partir de ce problème.
-    Il liste également les changements déjà liée à ce problème (le tableau récapitulatif à la même struture que pour l'onglet *Tickets*).
+-   **[Onglet "Changements"](index.php?fr/Les_différents_onglets/Onglet_Changements.md)**
+    Ajouter et visualiser les changements associés à ce problème.
 
 
 -   **[Onglet "Tâches"](index.php?fr/Les_différents_onglets/Onglet_Tâches.md)**
