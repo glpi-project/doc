@@ -1,30 +1,22 @@
-Gérer les tickets
-=================
+Onglet "Tickets"
+===============
 
 Pour les éléments, les tickets se gèrent depuis l'onglet **Tickets**
 
-L'onglet Tickets permet de :
+Cet onglet permet d'ajouter un ticket à cet objet (problème ou changement).
 
--   créer un ticket lié à cet élément (si doit de créer un ticket dans le profil) ;
--   visualiser l'historique des derniers tickets liés à cet élément (si droit de voir tous les tickets dans le profil) ;
--   visualiser les tickets concernant les éléments liés à cet élément.
+Il liste également les tickets déjà liés à cet objet. Ce tableau récapitulatif comprend notamment, pour chaque objet, son statut, sa date (d'ouverture ou d'échéance, de résolution ou de clôture suivant le statut du ticket), sa priorité, les parties demandeurs et assignation, les éléments associés, sa catégorie, son titre ainsi qu'une colonne indiquant le nombre de tâches planifiées. 
 
-Figure 1. Onglet Tickets d'un ordinateur
-![image](docs/image/ticket_computer.png)
+
+Figure 2. Onglet Tickets
+![image](docs/image/tabTicket.png)
+
+
+***Remarque :** Les cases à cocher des actions de masse n'apparaissent que si vous avez les droits de modification sur les tickets.*
+
 
 -------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
-
-**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
-
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
-
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
-
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
-
-**Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")

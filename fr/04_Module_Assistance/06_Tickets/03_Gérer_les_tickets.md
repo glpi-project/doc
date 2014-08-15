@@ -6,8 +6,10 @@ Les tickets dans GLPI, caractéristiques et utilisation
 Gérer les incidents en conformité avec ITIL ou pas
 --------------------------------------------------
 
-Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL pour la partie Gestion des incidents et gestion des demandes de services : il intègre donc des notions comme l'impact, l'urgence d'un
-ticket, la matrice de calcul des priorités associées et une normalisation des statuts. Bien que l'outil soit conforme ITIL, il n'y aucune obligation pour suivre ces bonnes pratiques : chacun est libre d'implémenter la gestion des incidents qui correspond le mieux à ses besoins.
+Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL pour la partie Gestion des incidents et gestion des demandes de services : il intègre donc des notions comme l'impact, l'urgence d'un ticket, la matrice de calcul des priorités associées et une normalisation des statuts. Bien que l'outil soit conforme ITIL, il n'y aucune obligation pour suivre ces bonnes pratiques : chacun est libre d'implémenter la gestion des incidents qui correspond le mieux à ses besoins.
+
+Des statistiques sont disponibles pour les tickets (voir [Visualiser les statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md "Les rapports concernant les tickets sont disponibles dans le menu Assistance > Statistiques")).
+
 
 Description de différents champs
 --------------------------------
@@ -77,28 +79,7 @@ Les différents onglets
     L'ajout, la modification ou la suppression d'un suivi dépend des droits définis dans le profil (voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
 
 
--   **Onglet "Validation"**
-    Un ticket peut nécessiter une validation, par exemple pour une demande d'évolution matériel, comme un changement d'ordinateur ou de moniteur. Cette demande de validation n'est possible que si vous avez les droits dans votre profil.
-
-    Après avoir cliqué sur **Envoyer une demande de validation**, il faut saisir le type de valideur (utilisateur ou groupe) ainsi que son nom. Pour les groupes il faut également choisi qui dans le groupe va recevoir cette demande de validation (ne sont listés que ceux ayant le droit de valider). 
-    Le ticket prend alors le statut **En attente de validation** dans son champ **Validation**.
-    La demande de validation peut également être créée directement à l'[ouverture du ticket](helpdesk_openticket.dita) via l'interface standard ou via une [règle métier](administration_rule_ticket.dita).
-
-    ***Remarque :** La validation n'est pas un processus bloquant, mais seulement informatif. Un technicien pourra traiter un ticket qui est en attente de validation. Toutefois, si le technicien modifie le statut du ticket vers Résolu ou Clos, ou qu'il ajoute une solution sur un ticket en attente de validation, une alerte sera affichée.*
-
-    Pour valider la demande, le valideur peut cliquer sur le ticket dans l'accueil de GLPI (onglet **Vue personnelle**, partie **Vos tickets à valider**), ou aller dans le menu **Assistance \> Ticket** et cliquer
-sur l'icône ![image](docs/image/menu_showall.png) qui apparaît dans le fil d'ariane.
-
-    Une fois sur le ticket, aller dans l'onglet **Validation**, puis cliquer sur la ligne correspondante à la demande de validation. Choisir si le ticket est **Accepté** ou **Refusé**. En cas de refus, il est obligatoire de saisir un commentaire.
-
-    Dans le cas où une demande de validation multiple a été soumise, un pourcentage de validation est requis. Trois cas sont alors possibles :
-
-- 0% : Le premier utilisateur qui accepte ou refuse la validation valide le ticket (Statut global de la validation).
-
-- 50% : La majorité l'emporte. Exemple : 3 validations demandées, 2 refus entraine le refus du ticket.
-
-- 100% : Tous les valideurs doivent valider ou refuser le ticket afin que le statut global de validation soit modifié.
-
+-   **[Onglet "Validation"](index.php?fr/Les_différents_onglets/Onglet_Validations.md)**
 
 -   **[Onglet "Tâches"](index.php?fr/Les_différents_onglets/Onglet_Tâches.md)**
     Une tâche est une action correspondant à une intervention technique liée à un ticket.

@@ -1,5 +1,5 @@
-Gérer les problèmes
-===================
+Onglet "Problèmes"
+=================
 
 Pour les éléments, les problèmes se gèrent depuis l'onglet **Problèmes**
 
@@ -27,7 +27,14 @@ Figure 2. Onglet Problèmes d'un ticket
 ![image](docs/image/problemeTicket.png)
 
 
-***Remarque :** Les cases à cocher des actions de masse n'apparaissent que si vous avez les droits de modification sur les problèmes.
+***Remarque :** Les cases à cocher des actions de masse n'apparaissent que si vous avez les droits de modification sur les problèmes.*
+
+
+Changements
+-----------
+Cet onglet permet l'association à un problème existant.
+Le tableau récapitulatif est identique à celui fournit pour un ticket.
+
 
 -------
 **Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
@@ -44,4 +51,6 @@ Figure 2. Onglet Problèmes d'un ticket
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets sont gérés depuis le menu Assistance > Tickets")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets sont gérés depuis le menu Assistance > Tickets")
+
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")

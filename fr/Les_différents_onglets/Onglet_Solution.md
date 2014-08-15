@@ -46,6 +46,6 @@ Onglet *Solution* d'un ticket
     De même, vous pouvez supprimer cette opération d(approbation via la [matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md).
 
 -------
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
 
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/07_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")

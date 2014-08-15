@@ -6,7 +6,7 @@ Un problème est la cause d'un ou plusieurs incidents potentiels et peut génér
 La création d'un problème peut se faire soit depuis la fiche d'un incident, dans l'onglet *Problèmes*, soit directement depuis le menu ***Assistance > Problèmes***.
 
 Le formulaire de déclaration d'un problème ressemble à celui des incidents, dont il partage les concepts (*demandeurs*, *observateurs*, *assignation*, *statut*, *urgence*, *impact*, *priorité*, *catégorie*).
-Pour plus d'informations voir [Gérer les tickets](index.php?fr/04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")).
+Pour plus d'informations voir [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")).
 
 ***Remarque :** Depuis la liste des tickets, une solution de contournement peut être associé massivement aux tickets liés sans pour autant résoudre le problème.*
 
@@ -14,13 +14,12 @@ Les problèmes utilisent leurs propres notifications (voir [Configurer les suivi
 alertes](config_notification_configuration.html "La configuration générale des notifications se fait depuis le menu Configuration > Notifications > Configurer les suivis par courriels et les alertes;")).
 
 Des statistiques similaires aux tickets sont disponibles pour les problèmes (voir [Visualiser les
-statistiques](index.php?fr/04_Module_Assistance/10_Statistiques.md "Les rapports concernant les tickets sont disponibles dans le menu Assistance > Statistiques")).
+statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md "Les rapports concernant les problèmes sont disponibles dans le menu Assistance > Statistiques")).
 
 Les différents onglets
 ----------------------
--   **Onglet "Tickets"**
+-   **[Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)**
     Cet l'onglet permet d'associer un ticket à ce problème. 
-    Il liste également les tickets déjà liés à ce problème. Ce tableau récapitulatif comprend notamment, pour chaque ticket, son statut, sa date (d'ouverture ou d'échéance, de résolution ou de clôture suivant le statut du ticket), sa priorité, les parties demandeurs et assignation, les éléments associés, sa catégorie, son titre ainsi qu'une colonne indiquant le nombre de tâches planifiées. 
 
 
 -   **Onglet "Changement"**
@@ -32,16 +31,12 @@ Les différents onglets
     Une tâche est une action correspondant à une intervention technique liée à un problème.
 
 
--   **[Onglet "Coûts"](index.php?fr/Les_différents_onglets/Onglet_Tâches.md)**
+-   **[Onglet "Coûts"](index.php?fr/Les_différents_onglets/Onglet_Coûts.md)**
     Définition des coûts applicables à ce problème.
 
 
--   **Onglet "Eléments"**
-    Cet onglet permet d'associer un élément à ce problème en choissant le type ainsi que l'élément souhaité.
-
-    Un tableau liste les éléments déjà attachés à ce problème.
-    Cette liste est triée par type d'éléments (avec en dessous le nombre de matériels) et la liste complète.
-
+-   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+    Cet onglet permet d'associer un élément à ce problème en choisissant le type ainsi que l'élément souhaité.
 
 -   **Onglet "Analyse"
     Cet onglet permet l'analyse du problème est précisant les impacts, les causes et les symptômes.
@@ -69,10 +64,13 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un problème](index.php?fr/04_Module_Assistance/05_Créer_un_ticket.md)**
+-   **[Ajouter un problème](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
 -   **[Modifier un problème](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un problème](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un problème](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un élément à un problème](index.php?fr/Les_différentes_actions/Onglet_Eléments.md)**
+-   **[Associer un ticket à un problème](index.php?fr/Les_différentes_actions/Onglet_Tickets.md)**
+-   **[Associer un changement à un problème](index.php?fr/Les_différentes_actions/Onglet_Problèmes.md)**
 
 
 --------
