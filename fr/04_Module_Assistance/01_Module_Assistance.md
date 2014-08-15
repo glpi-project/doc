@@ -13,33 +13,28 @@ Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL et
 
 -   **Mise en route du service d'assistance**
      -   **[Définir les acteurs et leurs rôles](index.php?fr/04_Module_Assistance/02_Définir_les_acteurs.md)**
-     -   **[Définir la matrice de calcul de la priorité](index.php?fr/04_Module_Assistance/02_Définir_la_matrice_de_calcul_de_la_priorité.md)**
+     -   **[Définir la matrice de calcul de la priorité](index.php?fr/04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.md)**
+     -   **[Configuration avancée](index.php?fr/04_Module_Assistance/04_Configuration_avancée.md)**
+     -   **[Les matrices de cycle de vie](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)**
 
 -   **Gérer les tickets**
-    -   [Règles de gestion](index.php?fr/04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md)
-    -   [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md)
-    -   [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md)
-    -   [Ouvir un ticket](index.php?fr/04_Module_Assistance/04_Tickets/04_Ouvrir_un_ticket.md)
+    -   [Règles de gestion](index.php?fr/04_Module_Assistance/06_Tickets/01_Règles_de_gestion.md)
+    -   [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md)
+    -   [Ouvrir un ticket](index.php?fr/04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.md)
+    -   [Pour aller plus loin](index.php?fr/04_Module_Assistance/06_Tickets/05_Pour_aller_plus_loin.md)
 
--   **[Créer un ticket](index.php?fr/04_Module_Assistance/05_Créer_un_ticket.md)**
+-   **[Créer un ticket](index.php?fr/04_Module_Assistance/07_Créer_un_ticket.md)**
 
--   **Gérer les problèmes**
+-   **[Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md)**
 
--   **Gérer les changements**
+-   **[Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md)**
 
--   **[Les plannings](index.php?fr/04_Module_Assistance/08_Planning.md)**
+-   **[Les plannings](index.php?fr/04_Module_Assistance/10_Planning.md)**
 
--   **[Les statistiques](index.php?fr/04_Module_Assistance/09_Statistiques.md)**
+-   **[Les statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md)**
 
--   **[Les tickets récurrents](index.php?fr/04_Module_Assistance/10_Tickets_récurrents.md)**
-
-
+-   **[Les tickets récurrents](index.php?fr/04_Module_Assistance/12_Tickets_récurrents.md)**
 
 
--   **[Pour aller plus loin](../glpi/helpdesk_advanced.html)**\
-     Pour aller plus loin
--   **[Gérer les tickets](../glpi/helpdesk_ticket.html)**\
-     Les tickets dans GLPI, caractéristiques et utilisation
--   **[Ouvrir un ticket](../glpi/helpdesk_openticket.html)**\
-     Ouvrir un ticket via GLPI
-
+--------
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

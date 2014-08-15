@@ -64,7 +64,6 @@
     -   [Les matrices de cycle de vie](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)
     -   Gérer les tickets
         -   [Règles de gestion](index.php?fr/04_Module_Assistance/06_Tickets/01_Règles_de_gestion.md)
-        -   [Définir la matrice de cycle de vie](index.php?fr/04_Module_Assistance/06_Tickets/02_Matrice_de_cycle_de_vie.md)
         -   [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md)
         -   [Ouvrir un tickets](index.php?fr/04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.md)
         -   [Pour aller plus loin](index.php?fr/04_Module_Assistance/06_Tickets/05_Pour_aller_plus_loin.md)

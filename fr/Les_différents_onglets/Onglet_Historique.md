@@ -32,8 +32,11 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
-**Sujet parent :** [Gérer les
-tickets](../glpi/helpdesk_ticket.html "Les tickets dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements dans GLPI, caractéristiques et utilisation")
 
 **Sujet parent :** [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
 

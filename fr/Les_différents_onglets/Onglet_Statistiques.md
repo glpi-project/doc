@@ -17,6 +17,8 @@ Figure 1. Onglet Statistiques d'un ticket
 
 
 -------
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
 
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/07_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")
+
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements se gèrent depuis le menu Assistance > Changements")

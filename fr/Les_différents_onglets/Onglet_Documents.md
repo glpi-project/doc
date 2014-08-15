@@ -3,9 +3,10 @@ Associer des documents
 
 Les documents associés se gèrent depuis l'onglet Documents
 
-Les informations supplémentaires sont stockées sous la forme de documents externes qui sont des fichiers téléchargés dans GLPI. Voir [Document](glossary/document.html). Dans l'onglet Documents, il est
-possible d'associer et de dissocier des documents à l'élément choisi.
-Pour gérer les documents eux-mêmes, voir [Gérer les documents](management_document.html "Les documents sont gérés depuis le menu Gestion > Documents").
+Les informations supplémentaires sont stockées sous la forme de documents externes qui sont des fichiers téléchargés dans GLPI. 
+Dans l'onglet *Documents*, il est possible d'associer et de dissocier des documents à l'élément choisi.
+Pour gérer les documents eux-mêmes.
+Voir [Document](index.php?fr/05_Module_Gestion/06_Documents.md).
 
 Il est également possible de créer rapidement un document via cet onglet en spécifiant le fichier désiré et facultativement la rubrique dans laquelle le nouveau document doit être placé. Le nom du document créé
 sera basé sur le nom du fichier ajouté.
@@ -36,8 +37,11 @@ Figure 1. Onglet Documents d'un ordinateur
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
-**Sujet parent :** [Gérer les
-tickets](../glpi/helpdesk_ticket.html "Les tickets dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes dans GLPI, caractéristiques et utilisation")
+
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements dans GLPI, caractéristiques et utilisation")
 
 **Sujet parent :** [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
 

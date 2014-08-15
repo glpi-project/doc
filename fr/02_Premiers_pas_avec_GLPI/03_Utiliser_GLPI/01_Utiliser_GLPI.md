@@ -10,7 +10,7 @@ Cette partie décrit l'utilisation de l'application et présente ses fonctionnal
 
 -   **Comment se connecter à GLPI ?**
     Démarrer le navigateur sur la page d'accueil de GLPI [http://<ADRESSE\_GLPI\>](http://<ADRESSE_GLPI>). L'accès aux fonctionnalités complètes de l'application nécessite une authentification. Selon le profil de l'utilisateur authentifié, l'interface proposée est soit l'interface standard, soit l'interface simplifiée. Voir [L'interface standard et l'interface simplifiée](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md "Selon ses habilitations, l'utilisateur utilise l'interface standard ou l'interface simplifiée.").
-Un utilisateur non authentifié peut accéder à certaines fonctionnalités si GLPI a été configuré pour l'autoriser : visualiser la Foire Aux Questions (FAQ), ouvrir un ticket... Voir [Onglet Assistance](config_common_assist.html "Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI.").
+Un utilisateur non authentifié peut accéder à certaines fonctionnalités si GLPI a été configuré pour l'autoriser : visualiser la Foire Aux Questions (FAQ), ouvrir un ticket... Voir [Onglet Assistance](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI.").
 
 
 -   **Terminer sa session GLPI**

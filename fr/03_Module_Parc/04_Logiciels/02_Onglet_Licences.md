@@ -15,7 +15,7 @@ L'expiration est la date limite donnant droit d'utilisation de la licence. La d�
 
 ***Remarque :** Les licences expirées ne comptent plus dans les totaux des licenses disponibles.*
 
-Il est possible de lier des contrats à des licences (Voir [Gérer les contrats](management_contract.html "Les contrats sont gérés depuis le menu Gestion > Contrats")).
+Il est possible de lier des contrats à des licences (Voir [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")).
 
 ***Remarque :** Lors de l'activation des informations financières d'une licence, les données sont initialisées avec les renseignements saisis dans les informations financières du logiciel (qui n'est qu'un modèle).*
 

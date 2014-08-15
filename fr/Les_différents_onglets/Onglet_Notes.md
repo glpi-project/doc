@@ -40,6 +40,10 @@ Pour modifier une note, il suffit de cliquer sur sa description.
 
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
 
+**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Gestion > Problèmes")
+
+**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Gestion > Changements")
+
 **Sujet parent :** [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
 
 **Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
