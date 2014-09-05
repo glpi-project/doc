@@ -1,8 +1,6 @@
 Gérer les projets
 =================
 
-Les projets se gèrent depuis le menu ***Outils > Projets***.
-
 Les projets vous permettent de suivre complètement l'avancement d'un projet que celui-ci soit lié à un [changement](index.php?fr/04_Module_Assistance/09_Changements.md "La gestion des changements") ou non. 
 Un projet peut inclure plusieurs tâches.
 
@@ -21,7 +19,7 @@ Les différents onglets
 
 -   **Onglet "Tâches de projet"**
     Cet onglet permet d'ajouter une nouvelle tâche à ce projet.
-    Il liste également les tâches déjà définies pour ce projet en indiquant, pour chaque tâche, son nom, son type, son statut, le pourcentage effectuée, les dates de début et de fin planifiées, les durées planifié et effective ainsi que le nom de la tâche parent.
+    Il liste également les tâches déjà définies pour ce projet en indiquant, pour chaque tâche, son nom, son type, son statut, le pourcentage effectuée, les dates de début et de fin planifiées, les durées planifiée et effective ainsi que le nom de la tâche parent.
     Pour modifier un tâche, il suffit de cliquer sur son nom (voir [hiérarchie des tâches](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md)).
 
 

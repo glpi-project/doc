@@ -38,3 +38,5 @@ Figure 1. Onglet Debug d'un ticket
 **Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")
 
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
+
+**Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")

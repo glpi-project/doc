@@ -43,3 +43,9 @@ Celui-ci présente en une seule vue tous les onglets de la fiche de l'objet les 
 **Sujet parent :** [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md "Les documents sont gérés depuis le menu Gestion > Documents")
 
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
+
+**Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
+
+**Sujet parent :** [Gérer les notes](index.php?fr/06_Module_Outils/03_Notes.md "Les notes se gèrent depuis le menu Outils > Notes")
+
+**Sujet parent :** [Gérer les flux RSS](index.php?fr/06_Module_Outils/04_Flux_RSS.md "Les flux RSS se gèrent depuis le menu Outils > Flux RSS")

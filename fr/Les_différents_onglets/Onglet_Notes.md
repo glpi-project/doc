@@ -55,3 +55,5 @@ Pour modifier une note, il suffit de cliquer sur sa description.
 **Sujet parent :** [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md "Les documents sont gérés depuis le menu Gestion > Documents")
 
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
+
+**Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")

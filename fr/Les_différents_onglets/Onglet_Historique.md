@@ -50,5 +50,7 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
 
+**Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
+
 **Sujet parent :** [Configurer les
 intitulés](../glpi/config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")
