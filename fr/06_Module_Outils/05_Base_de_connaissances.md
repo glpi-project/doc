@@ -67,5 +67,46 @@ L'utilisateur peut utiliser plusieurs mode pour recherche et naviguer au sein de
     - "suite openoffice"
        -> Recherche les lignes qui contiennent exactement la phrase *suite openoffice*
 
+Les différents onglets
+----------------------
+
+- **Onglet "Base de connaissances"**
+  Cet onglet affiche un tableau concernant l'article avec en titre, sa catégorie.
+  Son ensuite listés son sujet et son contenu ainsi que le nom du rédacteur, des dates de création et de dernière modification, le nombre de fois où l'article a été lu ainsi que s'il fait partie ou non de la FAQ.
+  Si un article n'est pas publié (cible non définie), cette inforamtion apparaît en rouge au-dessus du nombre de vues.
+
+
+-   **Onglet "Cible"**
+    Un article est considéré comme personnel par défaut. Il est, par conséquent, uniquement visible par son rédacteur.
+
+    Pour qu'un article devienne visible par d'autres utilisateurs, il est nécessaire de sélectionner une ou plusieurs cibles. La ou les cibles correspondent aux entités, profils, groupes ou utilisateurs qui pourront consulter la note.
+
+    Cet onglet permet donc d'ajouter une nouvelle cible tout en listant les cibles déjà définies.
+
+
+- **Onglet "Editer"
+  Cet onglet permet, suivant vos droits, de modifier ou supprimer un article.
+
+
+- **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+    Il est possible d'associer un ou plusieurs documents à une note.
+
+- **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+     Pour un élément, toutes les informations sont affichées sur une seule page.
+
+
+Les différentes actions
+-----------------------
+-   **[Ajouter un article](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **Modifier un article**
+    La modification se fait au niveau de l'onglet *Editer*.
+-   **Supprimer un article**
+    La suppression se fait au niveau de l'onglet *Editer*. Vu que la base de connaissances n'a pas de corbeille, un message vous demandera de confirmer votre suppression définitive.
+-   **[Associer un document à un article](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **Rendre un article public**
+    Il suffit d'ajouter une cible à l'article.
+-   **publier un article pendant une période donnée**
+    Il suffit d'ajouter une date de début et une date de fin au niveau de la visibilité.
+
 ----------------
 **Sujet parent :** [Module Outils](index.php?fr/06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")
