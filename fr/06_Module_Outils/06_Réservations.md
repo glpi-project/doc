@@ -5,12 +5,10 @@ Cette section propose en fonction des habilitations une partie d'administration 
 
 La partie réservation propose la liste des matériels réservables et permet d'effectuer une réservation. 
 
-La partie administration propose la liste des matériels réservables où différentes icônes permettent de :
+La partie administration propose la liste des matériels réservables.
+Vous pouvez, depuis les actions de masse, désactiver momentanément les réservations sur un matériel (Actif = Non).
 
--   Désactiver momentanément les réservations sur un matériel : ![image](docs/image/moins.png)
--   Supprimer un item de la liste des matériels réservables : ![image](docs/image/delete.png). 
-    L'élément réservable passe alors à la corbeille ce qui permet de garder l'historique des réservations. Il est alors purgeable si besoin.
--   Voir le planning d'un matériel réservable : ![image](docs/image/reservation-3.png)
+Vous pouvez également voir le planning d'un matériel réservable en demandant l'affichage de la colonne *Planning* et en cliquant sur l'icone ![image](docs/image/reservation-3.png). Une réservation peut également être faite en cliquant sur cet icone.
 
 Pour rendre un matériel réservable, choisir l'option adéquate dans l'onglet *Réservation* de la fiche de celui-ci.
 
