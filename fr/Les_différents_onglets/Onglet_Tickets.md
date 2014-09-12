@@ -15,7 +15,11 @@ Figure 2. Onglet Tickets
 
 Tâches de projet
 ----------------
-Pour les tâches de projet, en plus d'ajouter un ticket à la tâche, vous pouvez directement créer un ticket à partir de cette tâche.
+Pour les tâches de projet, en plus de lister les tickets associés à la tâche, vous pouvez directement créer un ticket d'incident à partir de cette tâche.
+
+Utilisateurs
+------------
+Pour les utilisateurs, en plus de lister les tickets créés par l'utilisateur, vous pouvez directement créer un ticket d'incident depuis cet onglet. Dans ce cas, l'utilisateur sera défini automatiquement comme Demandeur.
 
 -------
 
@@ -24,3 +28,5 @@ Pour les tâches de projet, en plus d'ajouter un ticket à la tâche, vous pouve
 **Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
 
 **Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
+
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/04_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs sont gérés depuis le menu Administration > Utilisateurs")

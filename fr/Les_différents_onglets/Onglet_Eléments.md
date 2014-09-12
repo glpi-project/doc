@@ -42,6 +42,20 @@ Le tableau listant les éléments du contrat est trié par type d'éléments (av
 ***Remarque :** Si la liste d'un type d'élément est trop importante, un lien **Liste des matériels** est substituée au détail.*
 
 
+Module Administration
+---------------------
+Pour les **utilisateurs** vous avez deux onglet distincts :
+
+- Onglet **"Eléments utilisés"**
+  Cet onglet liste deux tableaux dont le premier regroupe les objets d'inventaire affectés à l'utilisateur et le second ceux affectés à un groupe dont l'utilisateur est membre, et ce quelle que soit l'entité des objets.
+  Figure 1. Eléments utilisés d'un utilisateur
+  ![image](docs/image/ItemUsed.png)
+  Dans la copie d'écran, étant positionné dans Mon entité, je vois également les éléments de l'entité Site d'Armentières mais dans le cas, le nom n'est pas un lien cliquable.
+ 
+- Onglet **"Eléments gérés"**
+  Même affichage que pour l'onglet "Eléments utilisés" mais les tableaux concernent dans ce cas les objets d'inventaire pour lesquels l'utilisateur est responsable technique et ceux affectés à un groupe technique dont l'utilisateur est membre.
+
+
 -------
 **Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
@@ -54,3 +68,5 @@ Le tableau listant les éléments du contrat est trié par type d'éléments (av
 **Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/04_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
 
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
+
+**Sujet parent :** [Gérer les utilisateurss](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
