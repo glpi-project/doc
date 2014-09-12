@@ -27,10 +27,10 @@ Les différents onglets
     Permet l'édition des préférences de l'utilisateur. Voir [Gérer ses préférences](start_pref.html "Les préférences utilisateur se modifient depuis le menu Préférences").
     Pour modifier les données de cet onglet vous devez avoir les droits de modifier la configuration générale.
 
--   **[Onglet "Eléments utilisés"]index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments utilisés"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
     L'utilisateur est défini dans le champ *Utilisateur* de l'objet ou est membre du groupe défini dans le champ *Groupe* de l'objet.
 
--   **[Onglet "Eléments gérés"]index.php?fr/Les_différents_onglets/Onglet_Eléments.md**
+-   **[Onglet "Eléments gérés"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
     L'utilisateur est défini dans le champ *Responsable technique* de l'objet ou est membre du groupe défini dans le champ *Groupe technique* de l'objet.
 
 
