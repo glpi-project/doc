@@ -41,6 +41,7 @@ Les différents onglets
 
 -   **[Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
     Liste les réservations passées, en cours et à venir de l'utilisateur.
+    Vous demander avoir le droit de lecture sur l'administration des réservations pour voir cet onglet.
 
 -   **Onglet "Synchronisation"**
     Cet onglet apparaît si vous avez les droits "Mise à jour auth et sync" dans votre profil.
