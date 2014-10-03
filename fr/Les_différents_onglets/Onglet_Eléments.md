@@ -44,7 +44,9 @@ Le tableau listant les éléments du contrat est trié par type d'éléments (av
 
 Module Administration
 ---------------------
-Pour les **utilisateurs** vous avez deux onglet distincts :
+Vous avez 2 onglets distincts pour lister les éléments :
+
+Pour les **utilisateurs** :
 
 - Onglet **"Eléments utilisés"**
   Cet onglet liste deux tableaux dont le premier regroupe les objets d'inventaire affectés à l'utilisateur et le second ceux affectés à un groupe dont l'utilisateur est membre, et ce quelle que soit l'entité des objets.
@@ -56,7 +58,19 @@ Pour les **utilisateurs** vous avez deux onglet distincts :
   Même affichage que pour l'onglet "Eléments utilisés" mais les tableaux concernent dans ce cas les objets d'inventaire pour lesquels l'utilisateur est responsable technique et ceux affectés à un groupe technique dont l'utilisateur est membre.
 
 
+Pour les **groupes**, 
+
+- Onglet **"Eléments utilisés"**
+  Cet onglet liste un tableau regroupant les objets affectés à ce groupe (champ *groupe* de l'objet).
+Il est possible de faire des recherches par type d'objet, étendre cette recherche également dans les sous-groupes et sur les objets dont le champ *utilisateur* correspond à un membre de ce groupe.
+Figure 1. Eléments utilisés d'un groupe
+  ![image](docs/image/itemGroup.png)
+
+- Onglet **"Eléments gérés"**
+  Même affichage que pour l'onglet "Eléments utilisés" mais le tableau concerne dans ce cas les objets d'inventaire pour lesquels le groupe est *groupe technique* et ceux affectés à un *responsable technique* membre de ce groupe.
+
 -------
+
 **Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
 **Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
@@ -69,4 +83,6 @@ Pour les **utilisateurs** vous avez deux onglet distincts :
 
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
 
-**Sujet parent :** [Gérer les utilisateurss](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+
+**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03-Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
