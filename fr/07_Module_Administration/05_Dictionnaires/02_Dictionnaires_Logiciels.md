@@ -15,24 +15,23 @@ dictionnaire ou de nouvelles règles.
 > Avertissement : il faut être très prudent en utilisant l'action *ajouter le résultat de l'expression régulière* sur une version. En effet, celle-ci n'est prise en compte que lors de  l'import de données venant d'un outil d'inventaire et sera ignorée en cas de ré-application du dictionnaire sur la base existante.
 
 Figure 1. Exemple de regroupement des logiciels Mozilla
+Les critères sont cumulatifs (ET)
 ![image](docs/image/critereMozilla.png)
 ![image](docs/image/actionMozilla.png)
 Cela aura pour effet de regrouper les logiciels Mozilla par type (Mozilla Thunderbird, MozillaFirefox...) et de grouper tous les noms de versions par type.
 ![image](docs/image/resultatMozilla.png)
 
 
+Autre exemple pour regrouper les mises à jour Windows.
+Cette fois le critères sont des OU et non des ET
 
-  ---------------------- ------------------------------ -------------------------------- -------------------------
-  **Nom**                Mise à jour Windows            **Description**                  Fusion des KB Microsoft
-  **Type de matching**   OU                             **Actif**                        Oui
-  **Critères**           
-  Logiciel               regex vérifie                  /Correctif.\*XP.\*KB([0-9]\*)/
-  Logicel                regex vérifie                  /Mise.\*XP.\*KB([0-9]\*)/
-  Logiciel               regex vérifie                  /Update.\*XP.\*KB([0-9]\*)/
-  **Actions**            
-  Logiciel               assigner                       Mise à jour Windows
-  Version                assigner valeur depuis regex   \#0
-  ---------------------- ------------------------------ -------------------------------- -------------------------
+**Critères**           
+  Logiciel             expression rationnelle vérifie                  /Correctif.\*XP.\*KB([0-9]\*)/
+  Logicel              expression rationnelle vérifie                  /Mise.\*XP.\*KB([0-9]\*)/
+  Logiciel             expression rationnelle vérifie                  /Update.\*XP.\*KB([0-9]\*)/
+**Actions**            
+  Logiciel             assigner                       Mise à jour Windows
+  Version              assigner valeur depuis regex   \#0
 
-**Sujet parent :** [Configurer les dictionnaires de
-données](../glpi/administration_dictionnary.html "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
+--------
+**Sujet parent :** [Configurer les dictionnaires de données](index.php?fr/07_Module_Administration/05_Dictionnaires/01_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
