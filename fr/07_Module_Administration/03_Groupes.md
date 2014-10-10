@@ -53,7 +53,7 @@ Les différents onglets
 ----------------------
 
 -   **Onglet "Sous-groupes"**
-    Permet d'ajouter un sous-groupes au groupe sélectionné et liste les sous-groupes existants. 
+    Permet d'ajouter un sous-groupe au groupe sélectionné et liste les sous-groupes existants. 
  
 -   **[Onglet "Eléments utilisés"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
     Liste les éléments pour lesquels le champ *Groupe* correspond à ce groupe. 
