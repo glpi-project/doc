@@ -33,5 +33,7 @@ Les fichiers de GLPI se situent dans le répertoire d'installation sur le serveu
 ***Conseil :*** Si GLPI est installé dans un répertoire glpi, c'est ce répertoire qu'il convient de sauvegarder complètement.
 
 ------------
+**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+
 **Sujet parent :** [Sauvegarder
 GLPI](../glpi/admin_backup.html "Réaliser une sauvegarde complète de GLPI.")
