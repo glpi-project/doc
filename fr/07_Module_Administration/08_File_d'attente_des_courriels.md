@@ -7,7 +7,12 @@ Une action automatique (queuedmail) permet l'expédition des couriels en attente
 Une autre (queuemailclean) permet de nettoyer la file d'attente en ne conservant que les courriels récents.
 
 Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications (voir [l'administration par entité](index.php?fr/07_Module_Administration/04_Entités.md "Délégation de certains paramètres d'administration par entité")).
-Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une notification.
+Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un objet de n'envoyer qu'une notification.
+
+> Attention : l'utilisation de la file d'attente ne fonctionne pas pour un changement, un problème ou un ticket en lui-même mais uniquement pour un sous-objet.
+Exemple : 
+Lors de la modification de l'impact d'un ticket, le courriel sera envoyé immédiatement.
+Par contre, en cas d'ajout ou de modification d'un suivi, d'une tâche, d'une demande de validation... le courriel sera placé dans la file d'attente.
 
 Figure 1. Exemple de file d'attente
 ![image](docs/image/mailqueue.png)
