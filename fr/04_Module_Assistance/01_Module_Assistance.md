@@ -34,7 +34,3 @@ Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL et
 -   **[Les statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md)**
 
 -   **[Les tickets récurrents](index.php?fr/04_Module_Assistance/12_Tickets_récurrents.md)**
-
-
---------
-**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

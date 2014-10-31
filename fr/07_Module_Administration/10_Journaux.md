@@ -1,7 +1,14 @@
-Jounaux de GLPI
-===============
+Visualiser les journaux d'activité
+==================================
 
-Ce menu liste les journaux de GLPI suivant les paramètres définis dans l'onglet *Système* de la configuration générale.
+Cette zone permet de visualiser et de trier l'historique des logs.
+
+Elle affiche le type d'information modifiée (ordinateur, réservation, ticket...), la date de la modification, le service GLPI concerné (inventaire, configuration, tickets...) et un message détaillant l'événement.
+
+***Remarques :***
+*- Le niveau de journalisation des journaux est paramétrable dans l'onglet **Système** de la configuration générale (Niveau de journalisation).*
+
+*- La durée de conservation des journaux est paramétrable dans les actions automatiques. Voir Configurer les actions automatiques.*
 
 ![image](docs/image/journaux.png)
 
