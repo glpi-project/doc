@@ -55,6 +55,7 @@ Les différentes actions
 -   **Associer un élément à un fournisseur**
     Il suffit de choisir ce fournisseur dans l'onglet *Gestion* de l'objet.
 -   **[Associer un contact à un fournisseur](index.php?fr/Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
+-   **[Transférer un fournisseur vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 -------
 **Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

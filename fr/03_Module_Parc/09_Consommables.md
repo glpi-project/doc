@@ -53,6 +53,7 @@ Les différentes actions
 -   **Ajouter de nouveaux consommables à un modèle**
     Voir onglet *Consommables* ci-dessus
 -   **[Associer un document à un modèle de consommable](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Transférer un consommable vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 -   **Avoir la liste des consommables attribués**
 ![image](docs/image/resumeConsumable.png)
 L'icone de droite permet d'avoir un résumé des consommables prêtés

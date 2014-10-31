@@ -9,23 +9,11 @@ Le module Administration permet d'administrer les utilisateurs, groupes, entité
 
 - **[Gérer les entités](index.php?fr/07_Module_Administration/04_Entités.md)**
 
-- **Gérer les règles**
-  - [Règles pour assigner un ticket créé via un collecteur de courriels](index.php?fr/07_Module_Administration/05_Règles/01_Collecteur_de_courriels.md)
-  - [Règles d'affectation d'habilitations à un utilisateur](index.php?fr/07_Module_Administration/05_Règles/02_Habilitations_utilisateur.md)
-  - Règles d'affectation d'une catégorie aux logiciels
-  - Règles métier pour les tickets
-  - Transférer
-  - Listes noires
--   **[Gérer les règles métiers](../glpi/administration_rule.html)**\
-     Les règles métiers se gèrent depuis le menu Administration \>
-    Règles
--   **[Gérer des profils de transfert
-    inter-entités](../glpi/administration_rule_transfer.html)**\
-     Les transferts dans GLPI, caractéristiques et utilisation
+- **[Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)**
 
 - **[Configurer les dictionnaires de données](index.php?fr/07_Module_Administration/06_Dictionnaires.md)**
 
-
+- gérer les profiles => à faire
 
 - **[Gérer la file d'attente d'envoi des courriels](index.php?fr/07_Module_Administration/08_File_d'attente_des_courriels.md)**
 

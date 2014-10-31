@@ -77,6 +77,7 @@ Les différentes actions
 -   **[Supprimer une imprimante](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à une imprimante](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à une imprimante](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Transférer une imprimante vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 -------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

@@ -65,6 +65,7 @@ Les différentes actions
 -   **[Modifier un contrat](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un contrat](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un contrat](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Transférer un contrat vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 -   **Paramétrer les alertes sur les contrats**
     Il est possible de recevoir des notifications pour prévenir d'événements tels que la fin du contrat.
     Dans le cas ou la reconduction du contrat serait expresse, il peut être intéressant d'être alerté à la date du préavis. Pour les contrats périodiques il est également possible d'être alerté à la

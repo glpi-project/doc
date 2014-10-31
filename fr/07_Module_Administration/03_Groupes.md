@@ -96,6 +96,7 @@ Les différentes actions
 -   **[Supprimer un groupe](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un élément à un groupe](index.php?fr/Les_différentes_actions/Onglet_Eléments.md)**
 -   **[Associer un ticket à un groupe](index.php?fr/Les_différentes_actions/Onglet_Tickets.md)**
+-   **[Transférer un groupe vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 --------
 **Sujet parent :** [Administrer les contrôles d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")

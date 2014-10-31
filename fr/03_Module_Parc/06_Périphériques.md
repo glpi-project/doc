@@ -64,6 +64,7 @@ Les différentes actions
 -   **[Supprimer un périphérique](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un périphérique](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un périphérique](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Transférer un périphérique vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 --------
 **Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

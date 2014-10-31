@@ -121,6 +121,7 @@ Les différentes actions
 -   **[Associer un document à un ticket](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **Lier des tickets entre eux**
     Cette action se réalise via le champ *Tickets liés* du formulaire
+-   **[Transférer un ticket vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 
 --------

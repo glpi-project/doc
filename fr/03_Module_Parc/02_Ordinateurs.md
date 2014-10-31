@@ -94,6 +94,7 @@ Les différentes actions
 -   **[Supprimer un ordinateur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un ordinateur](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un ordinateur](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Transférer un ordinateur vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 -   **Installer un logiciel avec licence sur un ordinateur**
     Depuis l'onglet *Logiciels*, ajouter une licence en choisissant le nom du logiciel suivi du nom de la licence.
     Depuis les actions de masse du tableau récapitulatif, choisissez **Installer**.

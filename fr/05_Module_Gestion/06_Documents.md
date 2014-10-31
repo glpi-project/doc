@@ -44,6 +44,7 @@ Les différentes actions
 -   **[Modifier un document](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un document](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un autre document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Transférer un document vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 ------
 **Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

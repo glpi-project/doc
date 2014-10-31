@@ -54,6 +54,7 @@ Les différentes actions
 -   **[Supprimer un matériel réseau](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un matériel réseau](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un matériel réseau](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Transférer un matériel réseau vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 
 -----------

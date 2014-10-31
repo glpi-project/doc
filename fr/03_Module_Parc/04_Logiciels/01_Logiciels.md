@@ -132,6 +132,7 @@ Les différentes actions
 -   **[Supprimer un logiciel](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un logiciel](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un logiciel](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Transférer un logiciel vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 -   **Ajouter une version à un logiciel**
     Voir onglet *Versions* ci-dessus
 -   **[Gérer les licences](index.php?fr/03_Module_Parc/04_Logiciels/Onglet_Licences.md)**

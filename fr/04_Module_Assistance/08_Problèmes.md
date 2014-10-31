@@ -70,6 +70,7 @@ Les différentes actions
 -   **[Associer un élément à un problème](index.php?fr/Les_différentes_actions/Onglet_Eléments.md)**
 -   **[Associer un ticket à un problème](index.php?fr/Les_différentes_actions/Onglet_Tickets.md)**
 -   **[Associer un changement à un problème](index.php?fr/Les_différentes_actions/Onglet_Problèmes.md)**
+-   **[Transférer un problème vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
 
 
 --------

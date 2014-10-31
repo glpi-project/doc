@@ -1,7 +1,15 @@
-Configurer les dictionnaires de données
-=======================================
+Import, export et duplication ![image](docs/image/importrule.png)
+-----------------------------
 
-Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI. Ils se basent sur le moteur de règles et sont disponibles pour certaines données d'inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via un outil d'inventaire ou des plugins (par exemple l'injecteur de fichiers CSV).
+L'exportation, l'importation et la duplication est possible pour l'ensemble des dictionnaires. Ces opérations sont réalisables globalement depuis la page principale des dictionnaires ou bien par lot depuis les moteurs de recherche des différents dictionnaires via les actions massives. Ces fonctionnalités sont intéressantes par exemple dans le cadre de la bascule de règles d'un environnement de pré-production vers un environnement de production.
+
+***Remarque :** l'exportation ou l'importation se font via un fichier XML.*
+
+
+Configurer les dictionnaires de données
+---------------------------------------
+
+Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI afin de regrouper des données redondantes. Ils se basent sur le [moteur de règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md) et sont disponibles pour certaines données d'inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via un outil d'inventaire ou des plugins (par exemple l'injecteur de fichiers CSV).
 
 Le dictionnaire fonctionne de la manière suivante :
 
@@ -9,7 +17,7 @@ Le dictionnaire fonctionne de la manière suivante :
 2.  le moteur de règle rejoue toutes les règles concernant ce type de données et s'arrête à la première vérifiée ;
 3.  la donnée modifiée est retournée par le dictionnaire et insérée en base.
 
-Une fonction nommée **Rejouer le dictionnaire** (disponible à travers un bouton sous la liste des règles d'un dictionnaire) permet de repasser les règles sur des données déjà existantes en base.
+La fonction ![image](docs/image/playrule.png) (sous la liste des règles d'un dictionnaire) permet de repasser les règles sur des données déjà existantes en base.
 
 > Important : Si la base est conséquente, il faudra faire bien attention à la valeur du paramètre *memory_limit* dans le fichier de configuration de PHP : en effet les traitements peuvent être très longs.
 
