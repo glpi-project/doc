@@ -55,12 +55,12 @@ Les différentes règles
 - **[Règles métier pour les tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md)**
     Lors de la création et/ou de la modification d'un ticket, un mécanisme permet de modifier     les attributs du ticket de manière automatique.
 
-- **[règles en liaison avec un agent d'inventaire](index.php?fr/07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.md)**
+- **[Règles en liaison avec un agent d'inventaire](index.php?fr/07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.md)**
     Les deux menus ci-dessous ne sont visibles que si vous utilisez un agent d'inventaire pour une remontée automatique des ordinateurs dans GLPI.
     - affectation d'un élément à une entité
     - règle d'import et de liaison des ordinateurs
 
-- **[Transférer](index.php?fr/07_Module_Administration/05_Règles/06_Transférer.md)**
+- **Transférer**
     Ce menu vous permet de définir les profils de transfert inter-entités.
 
     Plusieurs actions sont possibles :
@@ -69,6 +69,16 @@ Les différentes règles
     - ***supprimer définitivement :*** l'élément sera supprimé de la base de données ;
     - ***garder :*** l'élément restera dans l'entité cédante ;
     - ***déconnecter :*** la connexion entre l'élément et l'objet sera supprimée
+
+- **Listes noires**
+    Grâce au mécanisme de listes noires de GLPI il est possible d'exclure certaines valeurs du traitement dans le moteur de règles. 
+    Les types pouvant être pris en compte sont :
+    - adresse IP ;
+    - adresse MAC ;
+    - numéro de série ;
+    - UUID ;
+    - courriel
+    Cela permet par exemple de ne pas remonter de l'agent d'inventaire certaines adresses IP (par exemple une IP 127.0.0.1 ou 0.0.0.0) ou de ne pas créer un ticket provenant d'une adresse mail particulière (par exemple rapport de sauvegarde quotidien d'un serveur).
 
 
 Créer une règle
