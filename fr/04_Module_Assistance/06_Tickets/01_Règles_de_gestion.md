@@ -5,8 +5,8 @@ Chaque profil possède sont propre cycle de vie défini dans une [matrice](index
 
 Types de tickets
 ----------------
-Les tickets dans GLPI sont soit des incidents, soit des demandes. Ce champ *type* va permettre d'exécuter certaines actions (voir [Les règles métier de modification et affectation des tickets](helpdesk_advanced_businessrules.html "Les règles métier de modification et affectation des tickets"),
-[Les gabarits de tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "Les gabarits de tickets") et [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes "La gestion des problèmes"))
+Les tickets dans GLPI sont soit des incidents, soit des demandes. Ce champ *type* va permettre d'exécuter certaines actions (voir [les règles métier de modification et affectation des tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Les règles métier de modification et affectation des tickets"),
+[les gabarits de tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "Les gabarits de tickets") et [la gestion des problèmes](index.php?fr/04_Module_Assistance/08_Problèmes "La gestion des problèmes"))
 et de personnaliser la liste des catégories disponibles.
 
 
@@ -27,8 +27,7 @@ Ces statuts ne sont ni paramétrables ni modifiables.
 
 *- Pour aller plus loin dans cette gestion des statuts, voir [Les collecteurs](helpdesk_advanced_collectors.html "Les collecteurs"),
 [Les gabarits de tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "Les gabarits de tickets") et
-[Les règles métier de modification et affectation des
-tickets](helpdesk_advanced_businessrules.html "Les règles métier de modification et affectation des tickets").*
+[Les règles métier de modification et affectation des tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Les règles métier de modification et affectation des tickets").*
 
 L'ordonnancement
 ----------------
@@ -36,7 +35,7 @@ L'ordonnancement des tickets se fait en fonction des renseignements fournis par 
 
 -   Le demandeur définit l'urgence
 -   Le technicien apprécie l'impact
--   La priorité est la résultante de ces deux informations. Elle est calculée automatiquement via une matrice et indique l'importance     réelle du ticket
+-   La priorité est la résultante de ces deux informations. Elle est calculée automatiquement via une matrice et indique l'importance réelle du ticket
 
 ***Remarque :** Pour aller plus loin dans la configuration de cette matrice, voir [Définir la matrice de calcul de la priorité](index.php?fr/04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.md "Configurer la matrice d'attribution des priorités en fonction de l'urgence et de l'impact : limiter les niveaux d'urgence et d'impact disponibles.").*
 

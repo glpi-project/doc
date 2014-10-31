@@ -7,8 +7,7 @@ Un logiciel est par défaut associé à une entité : c'est-à-dire qu'il y aura
 
 La gestion financière est effectuée au niveau des licences, alors que celle présente dans les logiciels sert uniquement de modèle pour les licences associées à celui-ci.
 
-Les logiciels peuvent être importés automatiquement depuis un outil d'inventaire tiers et dans ce cas un dictionnaire peut être utilisé pour filtrer ou nettoyer les données (voir [Configurer les dictionnaires de
-données](administration_dictionnary.html "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")).
+Les logiciels peuvent être importés automatiquement depuis un outil d'inventaire tiers et dans ce cas un dictionnaire peut être utilisé pour filtrer ou nettoyer les données (voir [Configurer les dictionnaires de données](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")).
 
 Certains champs sont spécifiques dans la fiche du logiciel : 
 - **Mise à jour** est une donnée informative, à partir de laquelle aucun traitement n'est effectué et qui indique que le logiciel est une mise à jour d'un autre. 
@@ -21,8 +20,7 @@ Certains champs sont spécifiques dans la fiche du logiciel :
 2.  Créer les versions
 3.  Créer les licences
 
-***Conseil :*** en mode multi-entité, la liste des logiciels peut devenir longue, en partie dû aux doublons (1 logiciel par entité). Une gestion fine des logiciels, licences et versions peut consister à regrouper les
-logiciels identiques dans une même entité (voir [Regrouper les logiciels (multi-entités).](inventory_software_merge.html "Comment regrouper des logiciels homonymes dans des sous-entités.")), puis à rendre récursif les éléments qui peuvent l'être.
+***Conseil :*** en mode multi-entité, la liste des logiciels peut devenir longue, en partie dû aux doublons (1 logiciel par entité). Une gestion fine des logiciels, licences et versions peut consister à regrouper les logiciels identiques dans une même entité (voir onglet *Regroupement* ci-dessous), puis à rendre récursif les éléments qui peuvent l'être.
 
 **[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
 

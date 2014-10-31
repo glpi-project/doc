@@ -35,7 +35,7 @@ Une catégorie peut être hiérarchisée :
 
     Il est important, lors de la mise en place du Helpdesk, de bien réfléchir à la liste des catégories disponibles : en effet, un trop grand nombre visible par les utilisateurs peut perturber la saisie, alors qu'un nombre trop faible ne permettra pas de qualifier correctement le besoin.
 
-    Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d'un ticket (voir [Règles métier pour les tickets](administration_rule_ticket.html "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
+    Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d'un ticket (voir [Règles métier pour les tickets](index.php?fr/7_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
 
 
 - **Les catégories de tâches**
@@ -58,7 +58,7 @@ Voir **configurer les notifications**.
 
 [Les statistiques](index.php?fr/04_Module_Assistance/10_Statistiques.md)
 ------------------
-Les rapports concernant les tickets, les problèmes ou les changements sont disponibles dans le menu *** Assistance > Statistiques***.
+Les rapports concernant les tickets, les problèmes ou les changements sont disponibles dans le menu ***Assistance > Statistiques***.
 
 -------------
 **Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md** "Le service d'Assistance aux utilisateurs de GLPI")

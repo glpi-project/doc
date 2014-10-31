@@ -2,7 +2,7 @@ Pour commencer, le demandeur doit exprimer un besoin. Pour cela il peut faire ap
 
 - il remplit lui-même un formulaire en ligne, qu'il soit connu dans GLPI ou non ;
 
-- il demande à un délégataire de son groupe de le faire pour lui (voir [Administrer les groupes](administration_group.html "Dans GLPI, administrer les groupes peut se faire à partir du menu Administration > Groupes.").
+- il demande à un délégataire de son groupe de le faire pour lui (voir [Administrer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md "Dans GLPI, administrer les groupes peut se faire à partir du menu Administration > Groupes")).
    Dans l'interface simplifiée, cela se traduit par l'apparition d'une option permettant d'indiquer si l'incident concerne l'utilisateur lui-même ou un autre.
    Dans l'interface standard ce mécanisme est actif à partir du moment où le droit **Voir tous les tickets** est à *non* dans le profil. Il se traduit par l'ajout comme demandeur de tous les utilisateurs pour lesquels la délégation s'opère ;
 
@@ -30,7 +30,7 @@ soumis, un message confirme la bonne création du ticket. Ce formulaire peut êt
 
 Ouverture d'un ticket dans l'interface graphique
 ------------------------------------------------
-Suivant l'utilisation ou non de gabarits (voir [gabarits des tickets](index.php?fr/04_Module_Assistance/xxx.md), certains champs peuvent être obligatoires, prédéfinis ou masqués à l'ouverture d'un ticket (contenu, titre et/ou catégorie). Si l'un champ obligatoire est manquant, le ticket ne sera pas créé.
+Suivant l'utilisation ou non de gabarits (voir [gabarits des tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md), certains champs peuvent être obligatoires, prédéfinis ou masqués à l'ouverture d'un ticket (contenu, titre et/ou catégorie). Si l'un champ obligatoire est manquant, le ticket ne sera pas créé.
 
 Les différents champs disponibles sont décrits dans la partie [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation").
 
@@ -84,8 +84,7 @@ Une demande de validation peut être effectuée à l'ouverture du ticket en indi
 
 Ouvrir un ticket par courriel
 =============================  
- L'utilisateur envoie un courriel à une adresse de messagerie définie dans le collecteur (Voir [Configurer les
-collecteurs](config_mailcollector.html "La configuration des collecteurs s'effectue depuis le menu Configuration > Collecteurs"). Dès la réception du courriel, un ticket est ouvert automatiquement.
+ L'utilisateur envoie un courriel à une adresse de messagerie définie dans le collecteur (Voir [Configurer les collecteurs](index.php?fr/07_Module_Administration/05_Règles/02_Collecteur_de_courriels.md "La configuration des collecteurs s'effectue depuis le menu Configuration > Collecteurs"). Dès la réception du courriel, un ticket est ouvert automatiquement.
 
 L'objet du message deviendra le titre du ticket, son corps la description, les Cc des observateurs (si l'adresse est connue dans GLPI) et enfin les pièces jointes des documents associés.
 

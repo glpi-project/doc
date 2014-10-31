@@ -9,8 +9,7 @@ Les critères disponibles sont tous les attributs du ticket (titre, description,
 Les actions possibles sont de modifier certains attributs du ticket (statut, catégorie, urgence, impact, priorité, demandeurs groupe/utilisateur/lieu, attribué à fournisseur/groupe/technicien). Il
 est aussi possible d'attribuer un ticket à un matériel en fonction de données présentes dans le ticket (attribution sur l'adresse IP, le nom complet et le domaine, l'adresse MAC) ou même d'envoyer une demande de validation.
 
-***Remarque :** les règles métier pour les tickets peuvent être joués à la création et/ou à la mise à jour des tickets en fonction du paramètre défini dans la règle. Lors de la mise à jour, seuls les champs modifiés (par l'action sur le ticket ou par les règles précédemment exécutées) déclenchent les
-règles. Ainsi une règle possédant des critères correspondant à des champs non modifiés ne sera pas exécutée.
+***Remarque :** les règles métier pour les tickets peuvent être joués à la création et/ou à la mise à jour des tickets en fonction du paramètre défini dans la règle. Lors de la mise à jour, seuls les champs modifiés (par l'action sur le ticket ou par les règles précédemment exécutées) déclenchent les règles. Ainsi une règle possédant des critères correspondant à des champs non modifiés ne sera pas exécutée.*
 
 >Important : le moteur joue toutes les règles les unes après les autres. 
 >Le résultat des règles précédentes est passé à la règle en cours. Cela veut dire que si une règle précédente modifie un attribut utilisé par la règle courante, c'est la valeur modifiée de celui-ci qui sera traité.

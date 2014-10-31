@@ -26,7 +26,7 @@ Présentation du module d'inventaire de GLPI. Ce module est destiné à la gesti
 
     Le statut d'un élément est modifiable depuis sa fiche ou depuis le système d'actions massives.
 
-    Un rapport (voir [Gérer les rapports](tool_report.html "Les rapports se gèrent depuis le menu Outils > Rapports")) vous propose une synthèse des statuts par type de matériel. La recherche globale de l'inventaire (voir Recherche globale ci-dessous) vous permet une recherche par statut sur l'ensemble des éléments.
+    Un rapport (voir [Gérer les rapports](index.php?fr/06_Module_Outils/07_Rapports.md "Les rapports se gèrent depuis le menu Outils > Rapports")) vous propose une synthèse des statuts par type de matériel. La recherche globale de l'inventaire (voir Recherche globale ci-dessous) vous permet une recherche par statut sur l'ensemble des éléments.
 
 -   **Recherche globale sur les éléments d'inventaire**
 Le menu ***Parc > Global*** vous permet d'effectuer une recherche globale sur l'ensemble des éléments auxquels vous avez accès. 

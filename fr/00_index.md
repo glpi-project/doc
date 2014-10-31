@@ -39,18 +39,6 @@
         Recherche globale sur les éléments d'inventaire.
 
 
-        -   [Gérer les informations financières et
-            administratives](inventory_management.html)
-        -   [Gérer les contrats associés](inventory_contract.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Gérer les tickets](inventory_ticket.html)
-        -   [Associer des liens externes](inventory_link.html)
-        -   [Gérer les notes](notes.html)
-        -   [Onglet "Réservations"](inventory_reservation.html)
-        -   [Visualiser l'historique](inventory_log.html)
-        -   [Afficher toutes les informations sur une seule
-            page](inventory_all.html)
-
     -   [Gestion du protocole Internet (IP)](inventory_ip.html)
         -   [Protocole IP.](inventory_ip_protocol.html)
         -   [Réseau IP](inventory_ip_network.html)
@@ -74,55 +62,6 @@
     -   [Les statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md)
     -   [Les tickets récurrents](index.php?fr/04_Module_Assistance/12_Tickets_récurrents.md)
 
-
-
-
-             -   [Les actions](helpdesk_ticketactions.html)
-                -   [Créer un
-                    ticket](helpdesk_ticket_t_create.html)
-                -   [Les suivis](helpdesk_ticket_followup.html)
-                -   [Les tâches](helpdesk_ticket_task.html)
-                -   [La solution](helpdesk_ticket_solution.html)
-                -   [La
-                    validation](helpdesk_ticket_validation.html)
-                -   [Associer un ticket à un
-                    document](helpdesk_ticket_t_linktodocument.html)
-
-    -   [Pour aller plus loin](helpdesk_advanced.html)
-        -   [Les catégories de
-            tickets](helpdesk_advanced_categories.html)
-        -   [Les gabarits de
-            tickets](helpdesk_advanced_templates.html)
-        -   [Les collecteurs](helpdesk_advanced_collectors.html)
-        -   [Les tickets
-            récurrents](helpdesk_advanced_recurrent.html)
-        -   [Les coûts liés](helpdesk_advanced_cost.html)
-        -   [Liens entre tickets](helpdesk_ticket_link.html)
-        -   [Modifier les règles
-            d'ordonnancement](helpdesk_advanced_ordering.html)
-        -   [Consulter et gérer les
-            plannings](helpdesk_planning.html)
-        -   [Les délais de résolutions d'incidents ou
-            SLA](helpdesk_advanced_sla.html)
-        -   [Les règles métier de modification et affectation des
-            tickets](helpdesk_advanced_businessrules.html)
-        -   [Gérer les problèmes](helpdesk_advanced_problems.html)
-        -   [Gérer les changements](helpdesk_advanced_changes.html)
-        -   [La notification par courrier
-            électronique](helpdesk_advanced_notifications.html)
-        -   [Clôture
-            administrative](helpdesk_advanced_administrativeclose.html)
-        -   [La satisfaction](helpdesk_ticket_satisfaction.html)
-        -   [Visualiser les statistiques](helpdesk_stat.html)
-
-    -   [Gérer les tickets](helpdesk_ticket.html)
-        -   [Comprendre le cycle de vie des
-            tickets](helpdesk_lifecycle.html)
-        -   [Associer des documents](inventory_document.html)
-        -   [Visualiser l'historique](inventory_log.html)
-
-    -   [Ouvrir un ticket](helpdesk_openticket.html)
-
 -   [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md)
     -   [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md)
     -   [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md)
@@ -130,26 +69,40 @@
     -   [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md)
     -   [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md)
  
--   [Module Outils](tool.html)
-    -   [Gérer les projets](tool_projects.html)
-    -   [Gérer les notes personnelles ou
-        publiques](tool_reminder.html)
-    -   [Gérer les flux RSS](tool_rssflow.html)
-    -   [Gérer la base de connaissances](tool_knowbase.html)
-    -   [Ajouter un article à la base de
-        connaissances](tool_knowbase_t_create.html)
-    -   [Voir un article de la base de
-        connaissances](tool_knowbase_t_read.html)
-    -   [Modifier un article de la base de
-        connaissances](tool_knowbase_t_update.html)
-    -   [Supprimer un article de la base de
-        connaissances](tool_knowbase_t_delete.html)
-    -   [Ajouter une cible à un article de la base de
-        connaissances](tool_knowbase_t_addtarget.html)
-    -   [Associer un article de la base de connaissances à un
-        document](tool_knowbase_t_linktodocument.html)
-    -   [Gérer les réservations](tool_reservation.html)
-    -   [Gérer les rapports](tool_report.html)
+-   [Module Outils](index.php?fr/06_Module_Outils/01_Module_Outils.md)
+    -   [Gérer les projets](index.php?fr/06_Module_Outils/02/Projets/01_Projets.md)
+        - [les tâches d'un projet](index.php?fr/06_Module_Outils/02/Projets/02_Onglet_Tâches.md)
+    -   [Gérer les notes personnelles ou publiques](index.php?fr/06_Module_Outils/03_Notes.md)
+    -   [Gérer les flux RSS](index.php?fr/06_Module_Outils/04_Flux_RSS.md)
+    -   [Gérer la base de connaissances](index.php?fr/06_Module_Outils/05_Base_de_connaissances.md)
+    -   [Gérer les réservations](index.php?fr/06_Module_Outils/06_Réservations.md)
+    -   [Gérer les rapports](index.php?fr/06_Module_Outils/07_Rapports.md)
+
+-   [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md)
+    -   [Administrer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md)
+        -   [Importer des utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.md)
+    -   [Administrer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md)
+    -   [Administrer les entités](index.php?fr/07_Module_Administration/04_Entités.md)
+    -   [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)
+        -   [Collecteur de courriels](index.php?fr/07_Module_Administration/05_Règles/02_Collecteur_de_courriels.md)
+        -   [Habilitations utilisateur](index.php?fr/07_Module_Administration/05_Règles/03_Habilitations_utilisateur.md)
+        -   [Catégorie de logiciels](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)
+        -   [Règles métier pour les tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md)
+        -   [Importer ou lier une machine provenant d'un outil d'inventaire](index.php?fr/07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.md)
+            Uniquement si vous utiliser un agent d'inventaire (OCSinventoryNG ou Fusioninventory)
+        -   [Transférer](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)
+        -   [Listes noires](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)
+    -   [Configurer les dictionnaires de données](index.php?fr/07_Module_Administration/06_Dictionnaires.md)
+ 
+    -   [Administrer les profils
+        d'utilisateurs](administration_profile.html)
+
+    -   [Gérer la file d'attente d'envoi des courriels](index.php?fr/07_Module_Administration/08_File_d'attente_des_courriels.md)
+    -   [Maintenance de GLPI](index.php?fr/07_Module_Administration/09_Maintenance.md)
+        Sauvegarde ou restaurer la base GLPI, vérifier la présence de mise à jour.
+    -   [Visualiser les journaux d'activité](index.php?fr/07_Module_Administration/10_Journaux.md)
+
+
 
 -   [Administrer les contrôles d'accès](access_control_intro.html)
     -   [Configurer la gestion d'identité](config_auth.html)
@@ -175,58 +128,7 @@
         -   [Configurer les autres méthodes d'authentification
             externe](config_auth_other.html)
 
-    -   [Administrer les utilisateurs](administration_user.html)
-        -   [Ajouter un
-            utilisateur](administration_user_t_create.html)
-        -   [Supprimer un
-            utilisateur](administration_user_t_delete.html)
 
-    -   [Administrer les groupes](administration_group.html)
-        -   [Ajouter un groupe](administration_group_t_create.html)
-        -   [Supprimer un
-            groupe](administration_group_t_delete.html)
-
-    -   [Administrer les entités](administration_entity.html)
-        -   [Ajouter une
-            entité](administration_entity_t_create.html)
-        -   [Supprimer une
-            entité](administration_entity_t_delete.html)
-        -   [Déléguer l'administration par
-            entité](administration_entity_delegation.html)
-
-    -   [Administrer les profils
-        d'utilisateurs](administration_profile.html)
-    -   [Attribuer des habilitations à un
-        utilisateur](administration_rule_right.html)
-
--   [Module Administration](administration.html)
-    -   [Gérer les règles métiers](administration_rule.html)
-        -   [Affecter une catégorie à un
-            logiciel](administration_rule_softwarecategory.html)
-        -   [Affecter un ticket ouvert par courriel à une
-            entité](administration_rule_mailcollector.html)
-        -   [Affecter une machine provenant d'un outil d'inventaire à
-            une entité](administration_rule_ocs.html)
-        -   [Importer ou lier une machine provenant d'un outil
-            d'inventaire](administration_rule_importorlink.html)
-        -   [Règles métier pour les
-            tickets](administration_rule_ticket.html)
-
-    -   [Gérer des profils de transfert
-        inter-entités](administration_rule_transfer.html)
-    -   [Configurer les dictionnaires de
-        données](administration_dictionnary.html)
-        -   [Dictionnaire des
-            intitulés](administration_dictionnary_dropdown.html)
-        -   [Dictionnaire des
-            logiciels](administration_dictionnary_software.html)
-        -   [Dictionnaire des
-            imprimantes](administration_dictionnary_printer.html)
-
-    -   [Gérer la file d'attente d'envoi de
-        courriels](administration_mailqueue.html)
-    -   [Visualiser les journaux
-        d'activité](administration_history.html)
 
 -   [Module Configuration](config.html)
     -   [Configurer les intitulés](config_dropdown.html)

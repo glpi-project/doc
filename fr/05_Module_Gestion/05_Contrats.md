@@ -1,8 +1,7 @@
 Gérer les contrats
 ==================
 
-Les contrats concernent les accords établis entre des tiers. Des objets d'inventaire sont associables à un contrat. Cette fonctionnalité permet de couvrir tout type de contrat réalisé tel que les prêts, contrats de
-maintenance...
+Les contrats concernent les accords établis entre des tiers. Des objets d'inventaire sont associables à un contrat. Cette fonctionnalité permet de couvrir tout type de contrat réalisé tel que les prêts, contrats de maintenance...
 
 Un contrat regroupe différents types d'informations :
 

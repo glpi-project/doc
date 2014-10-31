@@ -20,8 +20,7 @@ la création automatique avait programmé une création de ticket un week-end pa
 
 ***Remarque :** Les tickets ne seront créés que si le témoin Actif est à Oui et pendant la période définie entre la date de début et la date de fin.*
 
-L'ouverture de tickets récurrents est effectuée à travers une action automatique nommée *ticketrecurrent* (voir [Configurer les actions automatiques](config_crontask.html "Les actions automatiques se configurent depuis le menu Configuration > Actions automatiques")).
+L'ouverture de tickets récurrents est effectuée à travers une action automatique nommée *ticket recurrent* (voir [Configurer les actions automatiques](config_crontask.html "Les actions automatiques se configurent depuis le menu Configuration > Actions automatiques")).
 
-------------
-**Sujet parent :** [Pour aller plus
-loin](../glpi/helpdesk_advanced.html "Pour aller plus loin")
+--------
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

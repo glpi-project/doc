@@ -30,6 +30,5 @@ Ces informations sont exportables sous 2 formats :
 
 > Attention : vous ne pouvez pas ajouter un élément à un planning depuis cette interface. Il faut obligatoirement planifier une tâche ou une note pour que le planning se remplisse.
 
----------
-**Sujet parent :** [Pour aller plus
-loin](../glpi/helpdesk_advanced.html "Pour aller plus loin")
+--------
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

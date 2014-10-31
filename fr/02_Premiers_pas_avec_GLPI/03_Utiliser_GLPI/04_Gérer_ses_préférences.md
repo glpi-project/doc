@@ -16,7 +16,7 @@ Remarque : Certains champs ne sont pas modifiables s'ils proviennent d'un annuai
 Il peut ajouter des adresses de messagerie et sélectionner l'adresse par défaut, qui sera utilisée pour  l'envoi des notifications.
 
 Il peut aussi spécifier certains comportements par défaut de l'application, comme le profil et l'entité sélectionnés par défaut lors de la connexion à l'interface. Voir [Administrer les profils
-d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.") et [Administrer les entités](administration_entity.html "Dans GLPI, administrer les entités peut se faire à partir du menu Administration > Entités.").
+d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.") et [Administrer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Dans GLPI, administrer les entités peut se faire à partir du menu Administration > Entités.").
 Il peut également désactiver les notifications pour les actions qu'il réalise.
 
 L'utilisateur expérimenté peut aussi choisir de sortir du mode d'utilisation normal de l'application :

@@ -13,8 +13,7 @@ Pour plus d'informations voir [Gérer les tickets](index.php?fr/04_Module_Assist
 Les problèmes utilisent leurs propres notifications (voir [Configurer les suivis par courriels et les
 alertes](config_notification_configuration.html "La configuration générale des notifications se fait depuis le menu Configuration > Notifications > Configurer les suivis par courriels et les alertes;")).
 
-Des statistiques similaires aux tickets sont disponibles pour les problèmes (voir [Visualiser les
-statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md "Les rapports concernant les problèmes sont disponibles dans le menu Assistance > Statistiques")).
+Des statistiques similaires aux tickets sont disponibles pour les problèmes (voir [Visualiser les statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md "Les rapports concernant les problèmes sont disponibles dans le menu Assistance > Statistiques")).
 
 Les différents onglets
 ----------------------
