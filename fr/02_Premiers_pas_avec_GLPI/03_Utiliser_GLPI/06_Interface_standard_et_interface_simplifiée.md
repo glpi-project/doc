@@ -40,8 +40,7 @@ est ainsi limité.
 L'interface simplifiée
 ----------------------
 
-C'est l'interface la plus restrictive. Elle est destinée aux utilisateurs ayant des habilitations très restreintes sur l'application : helpdesk en libre service. Le nombre de menus disponibles est réduit
-au minimum. Dans la configuration par défaut, un utilisateur peut, depuis cette interface, uniquement créer des tickets, suivre le traitement de ses tickets, réaliser des réservations et consulter la foire aux questions. La page d'accueil propose le nombre de ses tickets suivant leurs statuts ainsi que les sujets de la FAQ les plus populaires et les plus récents.
+C'est l'interface la plus restrictive. Elle est destinée aux utilisateurs ayant des habilitations très restreintes sur l'application : helpdesk en libre service. Le nombre de menus disponibles est réduit au minimum. Dans la configuration par défaut, un utilisateur peut, depuis cette interface, uniquement créer des tickets, suivre le traitement de ses tickets, réaliser des réservations, voir les notes ou les flux RSS publiques (ou créer des notes ou flux privés) et consulter la foire aux questions. La page d'accueil propose le nombre de ses tickets suivant leurs statuts ainsi que les sujets de la FAQ les plus populaires et les plus récents.
 
 Figure 4. Menu de l'interface simplifiée
 ![image](docs/image/interfaceSimplifiee.png)

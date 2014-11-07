@@ -12,7 +12,7 @@ Quel que soit l'objet de l'inventaire, l'ajout s'effectue toujours de la même m
 3.  Cliquer sur le "+" situé dans le menu horizontal ;
 ![image](docs/image/add.png)
 
-4.  Si l'objet de l'inventaire en possède un, choisir un gabarit à appliquer ;
+4.  Si l'objet de l'inventaire en possède une gestion de gabarit, choisir un gabarit à appliquer ;
 
 5.  Compléter les différents champs de la fiche vierge ;
 

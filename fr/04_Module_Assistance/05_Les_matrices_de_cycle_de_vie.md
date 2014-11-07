@@ -11,13 +11,17 @@ Matrice de cycle de vie des tickets
 
 Voir [Les règles de gestion d'un ticket](index.php?fr/04_Module_Assistance/06_Tickets/01_Règles_de_gestion.md).
 
-Figure 1. Matrice de cycle de vie d'un ticket
+Figure 1. Matrice de cycle de vie d'un ticket interface standard
 ![image](docs/image/CycleVieTicket.png)
 
 Dans l'exemple ci-dessus, un ticket Nouveau ne pourra jamais être mis En attente, ce statut n'étant pas proposé dans le ticket.
 
 De plus, un demandeur ou créateur n'aura pas le formulaire de validation de la solution, car un ticket résolu dont la solution est approuvée devient clos, ce que l'exemple n'autorise pas.
 
+Figure 1. Matrice de cycle de vie d'un ticket interface simplifiée
+![image](docs/image/CycleVieTicket-postonly.png)
+
+Pour l'interface simplifiée, le cycle de vie des tickets permet de définir si l'utilisateur a le droit de clore un ticket (approbation de la solution) et s'il a le droit de le ré-ouvrir même s'il est clos.
 
 Matrice de cycle de vie des problèmes
 -------------------------------------
