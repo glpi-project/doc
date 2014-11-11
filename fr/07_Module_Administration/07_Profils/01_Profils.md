@@ -69,7 +69,7 @@ Les différents onglets
     - association ou dissociation d'un nom réseau à un port réseau
     - partie Internet des intitulés (Réseaux IP, domaine internet, réseaux wifi, noms réseaux)
 
--   **[Onglet "Assistance"](index.php?fr/04_Module_Assistance/07_Profils/02Onglet_Assistance.md)**
+-   **[Onglet "Assistance"](index.php?fr/04_Module_Assistance/07_Profils/02_Onglet_Assistance.md)**
     Cet onglet gère les droits sur les tickets, les suivis, les tâches, les validations, les associations, les problèmes et les changements. Il gère également la visibilité des statistiques et des plannings ainsi que l'affectation d'un gabarit au profil.
 
 -   **[Onglet "Cycle de vie"](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)**
@@ -199,6 +199,9 @@ pour vous de les affiner si besoin.
 
 Pour d'autres, les droits sont regroupés par objet (par exemple, les
 droits FAQ sont des droits de l'objet Base de connaissance).
+
+--------
+**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
 
 **Sujet parent :** [Administrer les contrôles
 d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")
