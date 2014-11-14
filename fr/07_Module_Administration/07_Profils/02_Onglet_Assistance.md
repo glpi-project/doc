@@ -1,11 +1,8 @@
 Interface simplifiée
 ====================
 
-Figure 1. Onglet Assistance interface simplifiée
-![image](docs/image/droitHelpdeskPostonly.png)
+![image](docs/image/assistancePO.png)
 
-Partie Assistance
------------------
 - Droits **Tickets** :
 
   - ***Voir mes tickets*** : voir tous les tickets pour lesquels je suis le rédacteur, le demandeur ou l'observateur ainsi que leurs suivis publics.  
@@ -42,8 +39,9 @@ Partie Assistance
 
   L'onglet Validation ne s'affichera dans le ticket que si vous avez un des droits de création de validation. Dans le cas contraire, il ne s'affichera que si vous avez un des droits de validation et uniquement si le type du ticket correspond au droit.
 
-Partie Association
-------------------
+
+![image](docs/image/associationsPO.png)
+
 - ***Liaison avec les matériels pour la création de tickets*** : 
   - ***Mes éléments*** : matériels dont le type est autorisé et pour lesquels je suis l'utilisateur.
   - ***Tous les éléments*** : tous les matériels de mon entité dont le type est autorisé
@@ -64,12 +62,10 @@ Interface standard
 Les champs communs avec l'interface simplifiée ne seront pas détaillés.
 Les 6 droits standard ne seront pas listés (voir [Explication des droits](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)).
 
-Partie Assistance
-------------------
+![image](docs/image/assistance.png)
 - ***Tickets: Gabarit de ticket par défaut*** : Voir interface simplifiée.
 
-Partie Tickets
---------------
+![image](docs/image/tickets.png)
 - Droits **Tickets** :
 
   - ***Voir mes tickets*** : Voir interface simplifiée.
@@ -89,8 +85,7 @@ Partie Tickets
 
   - ***Assigner*** : ajouter un technicien, un groupe de techniciens ou un fournisseur à un ticket.
 
-Partie Suivis/Tâches
---------------------
+![image](docs/image/suivisTaches.png)
 - Droits **Suivis** : 
 
   - ***Voir les publics*** : Voir interface simplifiée.
@@ -117,16 +112,14 @@ Partie Suivis/Tâches
 
   - ***Ajouter à tous les tickets*** : ajouter une tâches à tous les tickets de l'entité.
 
-Partie Validation
------------------
+![image](docs/image/validations.png)
 Voir droits **Validation** de l'interface simplifiée.
 
-Partie Association
-------------------
+![image](docs/image/associations.png)
 Voir interface simplifiée.
 
-Partie Visibilité
------------------
+![image](docs/image/visibilite.png)
+
 - Droits **Planning** : 
 
   - ***Voir mon planning personnel*** : ne voir que les données de mon planning.
@@ -138,8 +131,8 @@ Partie Visibilité
   Suivant les droits du profil, vous pouvez voir les notes publiées dans le planning ainsi que les tâches d'un ticket, d'un problème ou d'un changement.
 
 
-Partie Problèmes
------------------
+![image](docs/image/problemes.png)
+
  - ***Voir (auteur)*** : voir les problèmes pour lesquels je suis demandeur ou membre du groupe demandeur, ou observateur ou membre du groupe observateur, ou le technicien assigné ou membre du groupe assigné.
    Ce droit permet également de :
    - voir l'onglet Coûts,
@@ -150,8 +143,7 @@ Partie Problèmes
  - ***Voir tous*** : voir toutes les données d'un problème.
 
 
-Partie Changements
-------------------
+![image](docs/image/changements.png)
 Droit **Changements** :
 
  - ***Voir (auteur)*** : voir les changements pour lesquels je suis demandeur ou membre du groupe demandeur, ou observateur ou membre du groupe observateur, ou le technicien assigné ou membre du groupe assigné.
