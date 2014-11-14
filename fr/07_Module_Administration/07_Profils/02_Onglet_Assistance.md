@@ -3,7 +3,7 @@ Interface simplifiée
 
 ![image](docs/image/assistancePO.png)
 
-- Droits **Tickets** :
+Droits **Tickets** :
 
   - ***Voir mes tickets*** : voir tous les tickets pour lesquels je suis le rédacteur, le demandeur ou l'observateur ainsi que leurs suivis publics.  
 
@@ -12,7 +12,7 @@ Interface simplifiée
 
   - ***Voir tickets des groupes*** : voir les tickets créés ayant en groupe demandeur ou observateur un de mes groupes. Exemple, je suis membre du groupe Direction ; je verrai tous les tickets ayant en demandeur de groupe Direction.
 
-- Droits **Suivis** :
+Droits **Suivis** :
 
   - ***Voir les publics*** : voir tous les suivis typés en suivi public.
 
@@ -22,12 +22,12 @@ Interface simplifiée
 
   - ***Ajouter suivi (groupes associés)*** : ajouter un suivi à un ticket pour lequel le groupe demandeur est un des groupes dont je suis membre.
 
-- Droits **Tâches** :
+Droits **Tâches** :
 
   - ***Voir les publics*** : voir toutes les tâches typées en tâche publique.
     Ce droit permet également l'affichage de l'onglet *Tâches* d'un ticket.
 
-- Droits **Validations** :
+Droits **Validations** :
 
   - ***Valider un incident*** : répondre à une demande de validation concernant un ticket de type Incident. Le fait d'avoir ce droit vous fait apparaitre dans la liste des personnes pouvant valider.
 
@@ -42,19 +42,19 @@ Interface simplifiée
 
 ![image](docs/image/associationsPO.png)
 
-- ***Liaison avec les matériels pour la création de tickets*** : 
+***Liaison avec les matériels pour la création de tickets*** : 
   - ***Mes éléments*** : matériels dont le type est autorisé et pour lesquels je suis l'utilisateur.
   - ***Tous les éléments*** : tous les matériels de mon entité dont le type est autorisé
 
-- ***Matériels associables à un ticket*** : types de matériels sur lesquels pourront porter un ticket. 
+***Matériels associables à un ticket*** : types de matériels sur lesquels pourront porter un ticket. 
   Pour ajouter un type il suffit de cliquer dans la zone blanche et de choisir le type autorisé ou Tous si vous voulez autoriser tous les types.
   Pour supprimer un type, il suffit de cliquer sur la croix à gauche de son nom ou sur Aucun si vous ne voulez autoriser aucun élément associé
 
-- ***Gabarit de ticket par défaut*** : gabarit qui sera appliqué au profil.
+***Gabarit de ticket par défaut*** : gabarit qui sera appliqué au profil.
 
   >Attention : le gabarit étant appliqué au profil qui est un élément de la configuration générale, la liste ne contient que les gabarits récursifs de l'entité racine.
 
-- ***Voir les matériels de mes groupes*** : matériels dont le type est autorisé et pour lesquels je suis membre du groupe.
+***Voir les matériels de mes groupes*** : matériels dont le type est autorisé et pour lesquels je suis membre du groupe.
 
 Interface standard
 ==================
@@ -63,10 +63,10 @@ Les champs communs avec l'interface simplifiée ne seront pas détaillés.
 Les 6 droits standard ne seront pas listés (voir [Explication des droits](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)).
 
 ![image](docs/image/assistance.png)
-- ***Tickets: Gabarit de ticket par défaut*** : Voir interface simplifiée.
+Voir interface simplifiée.
 
 ![image](docs/image/tickets.png)
-- Droits **Tickets** :
+Droits **Tickets** :
 
   - ***Voir mes tickets*** : Voir interface simplifiée.
 
@@ -86,7 +86,7 @@ Les 6 droits standard ne seront pas listés (voir [Explication des droits](index
   - ***Assigner*** : ajouter un technicien, un groupe de techniciens ou un fournisseur à un ticket.
 
 ![image](docs/image/suivisTaches.png)
-- Droits **Suivis** : 
+Droits **Suivis** : 
 
   - ***Voir les publics*** : Voir interface simplifiée.
   - ***Éditer les suivis (auteur)*** : Voir interface simplifiée.
@@ -101,7 +101,7 @@ Les 6 droits standard ne seront pas listés (voir [Explication des droits](index
 
   - ***Ajouter suivi (groupes associés)*** : Voir interface simplifiée.
 
-- Droits **Tâches** : 
+Droits **Tâches** : 
 
   - ***Voir les publics*** : Voir interface simplifiée.
 
@@ -119,8 +119,7 @@ Voir droits **Validation** de l'interface simplifiée.
 Voir interface simplifiée.
 
 ![image](docs/image/visibilite.png)
-
-- Droits **Planning** : 
+Droits **Planning** : 
 
   - ***Voir mon planning personnel*** : ne voir que les données de mon planning.
 
@@ -133,14 +132,14 @@ Voir interface simplifiée.
 
 ![image](docs/image/problemes.png)
 
- - ***Voir (auteur)*** : voir les problèmes pour lesquels je suis demandeur ou membre du groupe demandeur, ou observateur ou membre du groupe observateur, ou le technicien assigné ou membre du groupe assigné.
-   Ce droit permet également de :
+***Voir (auteur)*** : voir les problèmes pour lesquels je suis demandeur ou membre du groupe demandeur, ou observateur ou membre du groupe observateur, ou le technicien assigné ou membre du groupe assigné.
+Ce droit permet également de :
    - voir l'onglet Coûts,
    - voir l'onglet Tâches,
    - créer une tâche si je suis le technicien assigné ou membre du groupe assigné
    - résoudre le problème si je suis le technicien assigné ou membre du groupe assigné.
 
- - ***Voir tous*** : voir toutes les données d'un problème.
+***Voir tous*** : voir toutes les données d'un problème.
 
 
 ![image](docs/image/changements.png)
