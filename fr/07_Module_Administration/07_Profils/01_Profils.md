@@ -82,11 +82,12 @@ Les différents onglets
     Ce droit sert également pour les objets ayant des informations financières. Par exemple vous ne pourrez pas purger un ordinateur ayant des informations financières si vous n'avez pas le droit Purge sur les informations financières.
 
 
--   **[Onglet "Outils"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)**
+-   **[Onglet "Outils"](index.php?fr/07_Module_Administration/07_Profils/03_Onglet_Outils.md)**
+    Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
 
--   **[Onglet "Administration"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)**
+-   **[Onglet "Administration"](index.php?fr/.md)**
 
--  **[Onglet "Configuration"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
+-  **[Onglet "Configuration"](index.php?fr/.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
 -   **Onglet "Utilisateurs"**
