@@ -60,6 +60,7 @@ Avant de voir, onglet par onglet, les droits spécifiques, il y a certains droit
 
 Les différents onglets
 ----------------------
+Remarque : L'affichage de la gestion des profils est fonction du profil dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
 
 -   **Onglet "Parc"**
     Les éléments du menu ***Parc*** bénéficient des 7 droits standard (voir ci dessus)
@@ -87,9 +88,8 @@ Les différents onglets
 
 -   **[Onglet "Administration"](index.php?fr/07_Module_Administration/07_Profils/04_Onglet_Administration.md)**
 
--  **[Onglet "Configuration"](index.php?fr/.md)**
-     Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
-
+-  **[Onglet "Configuration"](index.php?fr/07_Module_Administration/07_Profils/05_Onglet_Configuration.md)**
+     
 -   **Onglet "Utilisateurs"**
     Liste des entités dans lesquelles ce profil est attribué. Pour voir les utilisateurs correspondant, il suffit de cliquer sur l'entité concernée.
     *"D"* signifie que les droits ont été attribués dynamiquement
@@ -127,79 +127,6 @@ modifier leur mot de passe depuis le lien **Préférences**.
 -   **[Modifier un profil](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
 -   **[Supprimer un profil](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
 
-
-Contenu des profils
--------------------
-
-Une fois le profil créé, il sera possible d'établir les droits sur les
-différentes fonctionnalités de GLPI. 7 onglets sont alors disponibles
-pour gérer cet ensemble de droits :
-
--   **Parc** : Droits sur tout ou partie des types de matériels ;
--   **Gestion** : Droits sur les contacts et fournisseurs ainsi que sur
-    les documents, contrats, informations financières et budget ;
--   **Assistance** : Droits sur les tickets, les suivis, les tâches, les
-    validations, les associations, les problèmes et les changements. Cet
-    onglet gère également la visibilité des statistiques et des
-    plannings ainsi que l'affectation d'un gabarit au profi ;
--   **Cycles de vie** : Droits sur le processus de changement de statut
-    d'un ticket, d'un problème et d'un changement (*Exemple : un ticket
-    ne peut être clos qu'après avoir été résolu*).
-    Remarque : Pour l'interface post-only, le cycle de vie des tickets
-    permet de définir si l'utilisateur a le droit de clore un ticket et
-    s'il a le droit de le réouvrir même s'il est clos.
--   **Administration** : Droits sur les utilisateurs, groupes, entités
-    et profils mais aussi sur les journaux, transferts, méthodes
-    d'authentification, la maintenance, les file d'attente des courriels
-    et les ajouts d'utilisateurs ; Droits sur les règles d'affectation
-    ainsi que sur les dictionnaires (*intitulés, logiciels..*) ;
--   **Configuration** : Droits sur la configuration, les composants,
-    l'affichage et les intiutlés globaux ; droits sur les intitulés de
-    l'entité (domaines, lieux, catégories de ticket, de tâche et de base
-    de connaissance, prises réseau, status gabarits de solution,
-    calendriers, types de documents, les liens externes, notifications
-    et SLA).
--   **Outils** : Droits sur les projets, les notes, la FAQ, la base de
-    connaissances, les rapports, la réservation de matériel et les flux
-    RSS. Le droit d'administration de la base de connaissances permet de
-    voir et éditer tous les éléments sans prise en compte des cibles
-    définies. Le droit d'administration des réservations permet de voir,
-    d'éditer et de supprimer toutes les reservations.
-
-Conseil : Le droit entité permet de définir l'administration déléguée de
-celle-ci (partie assistance) en sélectionnant la partie **Mise à jour
-des paramètres**
-
-Remarque : L'affichage de la gestion des profils est fonction du profil
-dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
-
-**Explication des droits :**
-
-Les différents droits d'un objet sont listés sur la ligne de son nom.
-Pour activer un droit il suffit de cocher la case correspondante (et
-inversement pour supprimer un droit).
-
-**Aucune déduction de droit n'est faite**; par exemple, pour pouvoir
-modifier un objet vous devez également donner le droit de lecture (c'est
-d'ailleurs souvent ce droit qui affiche ou non l'objet dans les
-différents menus.
-
-Si le droit Supprimer apparait, c'est que l'objet possède une corbeille,
-dans le cas contraire, l'option de suppression sera Purge. Mais pour les
-objets avec corbeille, vous pouvez désormais affiner vos droits en
-n'autorisant, par exemple que la suppression à un profil et la purge à
-un autre.
-
-**Droits après migration:** La migration reprend intégralement vos
-anciens droits, quel que soit l'objet et active les valeurs
-correspondantes dans le nouveau système.
-
-Vos anciens droits d'écriture sont transformés en Lecture, Mettre à
-jour, Créer, Supprimer et Purge pour la majorité des objets, à charge
-pour vous de les affiner si besoin.
-
-Pour d'autres, les droits sont regroupés par objet (par exemple, les
-droits FAQ sont des droits de l'objet Base de connaissance).
 
 --------
 **Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
