@@ -45,6 +45,6 @@ Droits **Tâches** :
   - ***Mise à jour (acteur)*** : modifier les tâches que j'ai créées ou pour lesquelles je suis membre de l'équipe.
 
 ---------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
+**Sujet parent :** [La gestion des profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
 
 **Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

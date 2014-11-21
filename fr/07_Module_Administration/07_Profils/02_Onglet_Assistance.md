@@ -169,6 +169,6 @@ Droit **Validation** :
   L'onglet Validation ne s'affichera dans le ticket que si vous avez un des droits Validation.
 
 ---------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
+**Sujet parent :** [Les gestion des profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
 
 **Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

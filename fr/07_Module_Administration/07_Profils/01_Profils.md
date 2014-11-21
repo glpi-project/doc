@@ -63,13 +63,13 @@ Les différents onglets
 
 -   **Onglet "Parc"**
     Les éléments du menu ***Parc*** bénéficient des 7 droits standard (voir ci dessus)
-    
+    ![image](docs/image/parc.png)    
     Droit ***Internet*** :
     - champ IP d'un port réseau
     - association ou dissociation d'un nom réseau à un port réseau
     - partie Internet des intitulés (Réseaux IP, domaine internet, réseaux wifi, noms réseaux)
 
--   **[Onglet "Assistance"](index.php?fr/04_Module_Assistance/07_Profils/02_Onglet_Assistance.md)**
+-   **[Onglet "Assistance"](index.php?fr/07_Module_Administration/07_Profils/02_Onglet_Assistance.md)**
     Cet onglet gère les droits sur les tickets, les suivis, les tâches, les validations, les associations, les problèmes et les changements. Il gère également la visibilité des statistiques et des plannings ainsi que l'affectation d'un gabarit au profil.
 
 -   **[Onglet "Cycle de vie"](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)**
@@ -77,7 +77,7 @@ Les différents onglets
 
 -   **Onglet "Gestion"**
     Les éléments du menu ***Gestion*** bénéficient des 7 droits standard (voir ci dessus).
-
+    ![image](docs/image/gestion.png)
     Petite particularité pour les droits sur les ***informations financières*** :
     Ce droit sert également pour les objets ayant des informations financières. Par exemple vous ne pourrez pas purger un ordinateur ayant des informations financières si vous n'avez pas le droit Purge sur les informations financières.
 
@@ -85,7 +85,7 @@ Les différents onglets
 -   **[Onglet "Outils"](index.php?fr/07_Module_Administration/07_Profils/03_Onglet_Outils.md)**
     Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
 
--   **[Onglet "Administration"](index.php?fr/.md)**
+-   **[Onglet "Administration"](index.php?fr/07_Module_Administration/07_Profils/04_Onglet_Administration.md)**
 
 -  **[Onglet "Configuration"](index.php?fr/.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***

@@ -45,7 +45,7 @@ Les différents onglets
 
 -   **Onglet "Synchronisation"**
     Cet onglet apparaît si vous avez les droits "Mise à jour auth et sync" dans votre profil.
-    Il permet de changer la méthode d'authentification d'un utilisateur ;
+    Il permet de changer la méthode d'authentification d'un utilisateur et de forcer sa synchronisation.
 
 -   **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
     Cet onglet liste les liens externes définis pour les utilisateurs.

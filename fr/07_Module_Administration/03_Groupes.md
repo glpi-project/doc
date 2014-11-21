@@ -41,7 +41,7 @@ L'association d'un utilisateur à un groupe est soit statique, c'est-à-dire ré
 
 Un groupe est attaché à l'entité dans laquelle il est créé et peut ensuite être visible dans les sous-entités.
 
-Depuis la liste des groupes, vous pouvez importer un groupe depuis un annuaire LDAP via ![image](docs/image/addUserLdap.png)] si l'authentification externe est utilisée. L'affectation des utilisateurs dans les groupes sera automatique.
+Depuis la liste des groupes, vous pouvez importer un groupe depuis un annuaire LDAP via ![image](docs/image/addUserLdap.png) si l'authentification externe est utilisée et que vous avez le droit "Mise à jour auth et sync" dans votre profil. L'affectation des utilisateurs dans les groupes sera automatique.
 Si plusieurs annuaires sont configurés, le choix de l'un d'entre eux est proposé, sinon le formulaire de recherche est directement accessible. En fonction des modalités de recherche des groupes (voir [Authentifier des utilisateurs à partir d'annuaires LDAP](config_auth_ldap.html "L'interface de GLPI avec les annuaires LDAP se configure depuis le menu Configuration > Authentification > Annuaire LDAP.")), un **filtre de recherche dans les groupes** et/ou **un filtre de recherche des utilisateurs** apparaissent : ceux-ci permettent d'affiner la liste affichée et prête à être importée. Si GLPI est utilisé en multi-entités, il est nécessaire de sélectionner l'entité de destination du groupe, ainsi que sa visibilité dans les sous-entités.
 
 ***Remarque :** l'import des groupes ne peut pas être filtré par entité. De plus, aucune fonction de synchronisation des groupes est disponible. Le seul moyen de rafraîchir la liste des membres d'un groupe depuis un annuaire est de resynchroniser les utilisateurs (voir [Importer des utilisateurs depuis une source externe](index.php?fr/07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.md).
@@ -65,7 +65,7 @@ Les différents onglets
 
 
 -   **Onglet "Liaison annuaire LDAP**
-    Regroupe les informations permettant à GLPI de retrouver le groupe et ses utilisateurs dans l'annuaire LDAP. 
+    Cet onglet n'apparait que si vous avez le droit "Mise à jour auth et sync" dans votre profil. Il regroupe les informations permettant à GLPI de retrouver le groupe et ses utilisateurs dans l'annuaire LDAP. 
 
 
 -   **Onglet "Utilisateurs**

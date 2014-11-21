@@ -66,7 +66,7 @@ et le domaine de messagerie associé à celle-ci.
     Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
 
 -   **Onglet "Assistance" §**
-    Regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
+    Cet onglet est visible si vous avez les droits de lire ou modifier les paramètres de l'entité dans votre profil. Il regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
     - **Gabarit de ticket :** à chaque création d'un ticket, le gabarit sélectionné sera appliqué ;
     - **Calendrier :** indique le calendrier par défaut utilisable dans l'entité. Ce calendrier sert à calculer les temps d'attente des tickets et le décalage des dates d'échéance. Il sera par exemple pré-sélectionné lors de la création d'un SLA ; 
     - **Type par défaut pour les tickets :** type prédéfini lors de la création d'un ticket (très utile en cas de création de ticket via collecteur de courriels) ;

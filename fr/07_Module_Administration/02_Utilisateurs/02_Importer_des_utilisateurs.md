@@ -7,7 +7,7 @@ Depuis la liste des utilisateurs, 3 options sont proposées pour ajouter un util
   Cet icone apparaît si votre profil possède le droit de créer un utilisateur.
 
 - ![image](docs/image/addUserExt.png) : importer des utilisateurs depuis une source externe.
-  Cet icone apparaît si votre profil possède le droit de créer un utilisateur.
+  Cet icone apparaît si votre profil possède le droit Utilisateur "Ajout externe".
   L'identifiant d'un utilisateur étant connu, GLPI permet de rechercher l'utilisateur et d'importer ses informations d'authentification depuis une source externe. Une fois l'identifiant de connexion de l'utilisateur renseigné, ce dernier est recherché dans les annuaires disponibles (bouton Import depuis les annuaires)ou dans les autres sources (bouton Import depuis les autres sources).
 
    >Avertissement : si plus d'un utilisateur possède l'identifiant à rechercher, alors l'ajout n'est pas effectué.
