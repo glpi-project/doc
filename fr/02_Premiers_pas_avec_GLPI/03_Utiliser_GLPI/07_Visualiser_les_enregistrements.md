@@ -21,11 +21,14 @@ Pour un ordinateur, les informations financières et la liste des logiciels sont
 Personnaliser l'affichage
 -------------------------
 
-Les colonnes affichées depuis la liste complète de l'inventaire sont paramétrables. Cliquer sur le ![image](../image/options_search.png) figurant dans la barre de navigation
+Les colonnes affichées depuis la liste complète de l'inventaire sont paramétrables. Cliquer sur le ![image](docs/image/options_search.png) figurant dans la barre de navigation
 
 Il est possible d'ajouter, supprimer et ordonner les colonnes affichées. 
-La vue globale s'applique à tous les profils ayant accès à une partie de l'inventaire : la modification de celle-ci sera donc visible par tous les utilisateurs. 
-La vue personnelle ne s'applique qu'à l'utilisateur connecté, et outrepasse les réglages de la vue globale.
+
+- La vue globale s'applique à tous les profils ayant accès à une partie de l'inventaire : la modification de celle-ci sera donc visible par tous les utilisateurs. 
+
+- La vue personnelle ne s'applique qu'à l'utilisateur connecté et outrepasse les réglages de la vue globale. Cette vue n'est proposée que si vous avez le droit *Affichage utilisateur* concernant l'*Affichage des résultats de recherche**.
+  Cet onglet permet également de réinitialiser la personnalisation d'affichage des différentes listes. L'utilisateur peut, pour chaque type d'objets, revenir à l'affichage par défaut en supprimant cette personnalisation.
 
 --------------
 **Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

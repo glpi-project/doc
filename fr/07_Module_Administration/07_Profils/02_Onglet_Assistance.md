@@ -60,7 +60,7 @@ Interface standard
 ==================
 
 Les champs communs avec l'interface simplifiée ne seront pas détaillés.
-Les 6 droits standard ne seront pas listés (voir [Explication des droits](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)).
+Les 7 droits standard ne seront pas listés (voir [Explication des droits](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)).
 
 ![image](docs/image/assistance.png)
 Voir interface simplifiée.

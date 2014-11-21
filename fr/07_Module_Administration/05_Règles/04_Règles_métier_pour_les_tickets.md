@@ -18,7 +18,7 @@ Dans le cas d'une utilisation de GLPI en multi-entités, les règles métier pou
 
 3 onglets sont accessibles :
 
-- **règles appliquées (nom entité)** : toutes les règles des entités parentes jouées ;
+- **règles appliquées (nom entité)** : toutes les règles des entités parentes jouées (uniquement si vous avez le droit *Règles métiers (parent)* sur le droit *Règles métier pour les tickets (entité)* ;
 - **règles locales** : la liste des règles définies pour l'entité en cours ;
 - **règles applicables dans les sous-entités** : toutes les règles appliquées après celles de
 l'entité courante.

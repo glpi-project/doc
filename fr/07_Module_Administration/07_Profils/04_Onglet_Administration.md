@@ -1,3 +1,5 @@
+Les 7 droits standard ne seront pas listés (voir [Explication des droits](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)).
+
 Avant de commencer le détail des droits de la partie Administration, il faut bien faire attention à la couleur des zones de droits.
 En effet, comme indiqué dans la légende 
 ![image](docs/image/legendedroits.png)
@@ -36,7 +38,7 @@ Droits **Règles métier pour les tickets (entité)** :
   - ***Règles métiers (parent)*** : affiche un onglet **règles appliquées (nom entité)** dans les règles métier pour les tickets. Cet onglet liste toutes les règles des entités parentes jouées. 
 
 ![image](docs/image/dico.png)
-Les éléments de la partie Dictionnaires bénéficient des 7 droits standard (voir ci dessus).
+Les éléments de la partie Dictionnaires rentrent dans les 7 droits standard.
 
 ---------
 **Sujet parent :** [La gestion des profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
