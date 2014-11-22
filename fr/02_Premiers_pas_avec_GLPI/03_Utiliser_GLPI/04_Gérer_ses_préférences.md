@@ -32,7 +32,7 @@ Cet onglet permet de modifier les préférences générales d'affichage appliqu�
 - **Limite par défaut du nombre de caractères dans les listes déroulantes** : nombre de caractères par liste => A REVOIR NE SEMBLE PLUS FONCTIONNER
 - **Afficher le nom complet pour le choix des intitulés arborescents** : affichage des éléments de la liste sous forme arborescente ou non
 - **Montrer les ID GLPI** : ajoute l'ID de l'élément à la suite de son nom
-- **Notifications pour mes changements** : recevoir les notifications pour les actions que l'utilisateur à réalisées
+- **Notifications pour mes changements** : recevoir les notifications pour les actions que l'utilisateur à réalisées. Ce paramètre ne s'applique pas pour la création d'un ticket pour laquelle la notification est systématiquement envoyée (preuve de création).
 - **Police pour l'export PDF** : police utilisée lors de la génération des fichiers PDF afin de l'adapter au jeu de caractères utilisé 
 - **Après la création, aller à l'élément créé** : après la création d'un élément, permet de paramétrer comment l'utilisateur est redirigé (vers l'élément créé ou vers le formulaire de création). Ce paramètre peut être très utile en cas de nombreuses saisies successives d'un même objet.
 - **Format des dates** : format d'affichage de toutes les dates
