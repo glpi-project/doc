@@ -3,14 +3,14 @@ Intitulés Général
 
 Lieux
 -----
-La liste des lieux est de type arborescente : chaque élément peut avoir des sous-éléments (Lieu 1 > Sous-lieu 1 > Sous-sous-lieu 1). Elle peut être délégué par entité.
+La liste des lieux est de type arborescente : chaque élément peut avoir des sous-éléments (Lieu 1 > Sous-lieu 1 > Sous-sous-lieu 1). Elle peut être déléguée par entité.
 
 Dans la fiche d'un lieu, on trouve un certain nombre d'informations concernant ce lieu (code du bâtiment, de la pièce, longitude, latitude, altitude) ainsi que l'information précisant le lieu père (comme enfant de) et si le lieu peut être visible des sous entités.
 
 ***Les différents onglets***
 
 -   **Onglet "Lieux"**
-    Liste les sous-lieux existants et permet d'en ajouter un nouveau .
+    Liste les sous-lieux existants et permet d'en ajouter un nouveau.
 
 -   **Onglet "Eléments"**
     Liste tous les éléments affectés à ce lieu. Vous pouvez choisir de n'afficher qu'un type d'élément (ordinateur, utilisateur, prise réseau, logiciel...).
@@ -30,7 +30,7 @@ Dans la fiche d'un lieu, on trouve un certain nombre d'informations concernant c
 
 Status
 -----
-La liste des lieux est de type arborescente : chaque élément peut avoir des sous-éléments. Elle peut être délégué par entité.
+La liste des lieux est de type arborescente : chaque élément peut avoir des sous-éléments. Elle peut être déléguée par entité.
 
 Dans la fiche d'un statut, on trouve un certain nombre d'informations concernant la visibilité de ce statut ainsi que l'information précisant le statut père (comme enfant de) et si le statut peut être visible des sous entités.
 
@@ -54,7 +54,7 @@ Listes noires
 ----------
 La liste des Listes noires est une liste de valeurs à plat valable pour toutes les entités.
 Elle comprend la valeur que vous voulez mettre en liste noire ainsi que sur quel type l'appliquer (IP, MAC, numéro de série, UUID ou courriel).
-Les listes noires sont utilisées pour les import automatique via un agent d'inventaire ou pour les tickets ouverts par courriels.
+Les listes noires sont utilisées pour les imports automatique via un agent d'inventaire ou par le collecteur de courriels.
 
 ***Les différents onglets***
 
