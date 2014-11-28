@@ -35,7 +35,8 @@ Voyons maintenant chaque partie en détail :
 
 - **Machines virtuelles**
   Quel que soit le sous-intitulé (modèles ou système de virtualisation, état des machines virtuelles), la liste est une liste de valeurs à plat valable pour toutes les entités.
-  Elle permet de définir le nom du modèle ou du système de virtualisation ou celui de l(état des machines virtuelles. Seul l'état des machines virtuelles peut être traduit.
+  Elle permet de définir le nom du modèle ou du système de virtualisation ou celui de l'état des machines virtuelles. 
+  Seul l'état des machines virtuelles peut être traduit.
 
 - **Gestion**
   ***Rubrique des documents*** :
@@ -64,8 +65,17 @@ possible d'en ajouter en fournissant les informations suivantes :
 
 - **[Calendrier](index.php?fr/08_Module_Configuration/02_Intitulés/05_Intitulés_Calendrier.md "La partie Calendrier des intitulés")**
 
+- **Systèmes d'exploitation**
+  Quel que soit le sous-intitulé, la liste est une liste de valeurs à plat valable pour toutes les entités.
+  Seul les sources de mise à jour peuvent être traduites.
 
-
+- **Réseau**
+- **Internet**
+- **Logiciel**
+- **Utilisateur**
+- **Règles d'affectation d'habilitations à un utilisateur**
+- **Unicité des champs**
+- **Authentifications externes**
 
 
 Prises réseau
