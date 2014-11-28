@@ -1,11 +1,9 @@
 Gérer ses préférences
 =====================
 
-Les préférences utilisateur se modifient depuis le menu Préférences.
+Les préférences utilisateur se modifient depuis le l'onglet *Préférences* de la fiche utilisateur ou via le menu *Mes préférences* situé tout en haut et à droite de l'interface, à partir de n'importe quelle page.
 
 Chaque utilisateur authentifié a la possibilité de modifier ses préférences.
-
-Ce menu ***Préférences*** se situe tout en haut et à droite de l'interface, à partir de n'importe quelle page.
 
 Onglet Principal
 ----------------
@@ -15,7 +13,7 @@ L'utilisateur peut ici modifier les informations personnelles usuelles : nom de 
 
 Il peut ajouter des adresses de messagerie et sélectionner l'adresse par défaut, qui sera utilisée pour  l'envoi des notifications.
 
-Il peut aussi spécifier certains comportements par défaut de l'application, comme le profil et l'entité sélectionnés par défaut lors de la connexion à l'interface. Voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.") et [Administrer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Dans GLPI, administrer les entités peut se faire à partir du menu Administration > Entités.").
+Il peut aussi spécifier certains comportements par défaut de l'application, comme le profil et l'entité sélectionnés par défaut lors de la connexion à l'interface. Voir [Administrer les profils d'utilisateurs](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md) "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.") et [Administrer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Dans GLPI, administrer les entités peut se faire à partir du menu Administration > Entités.").
 Il peut également désactiver les notifications pour les actions qu'il réalise.
 
 L'utilisateur expérimenté peut aussi choisir de sortir du mode d'utilisation normal de l'application :
@@ -47,15 +45,21 @@ Cet onglet permet de modifier les préférences générales d'affichage appliqu�
 - **Suivis privés par défaut** : présélectionne le champ Privé d'un suivi. 
 - **Tâches privées par défaut** : présélectionne le champ Privé d'une tâche
 - **Pré-sélection comme technicien lors de la création de ticket** : la personne connectée sera automatique assigné au ticket. Cette variable n'est paramétrable que si l'utilisateur à le droit d'être en charge d'un ticket.
-- **Montrer les nouveaux tickets sur la page d'accueil** : Si vous avez également le droit de voir tous les tickets, un tableau listant tous les tickets au statut Nouveau s'affichera dans l'onglet *Vue globale* de l'accueil
+- **Montrer les nouveaux tickets sur la page d'accueil** : si vous avez également le droit de voir tous les tickets, un tableau listant tous les tickets au statut Nouveau s'affichera dans l'onglet *Vue globale* de l'accueil
 - **Source par défaut des demandes** : valeur du champ dans un ticket
-- **Rafraichissement automatique de la liste des tickets (minutes)** : je paramètre peut être utilise pour un technicien travaillant continuellement depuis a liste des tickets
+- **Rafraichissement automatique de la liste des tickets (minutes)** : ce paramètre peut être utilise pour un technicien travaillant continuellement depuis a liste des tickets
 
 ![image](docs/image/pref-cle.png)
 La section **Clé d'accès distant** permet de régénérer la clé de sécurité utilisée pour accéder aux flux privés offerts par GLPI.
 Actuellement les flux ICAL et WEBCAL du planning sont protégés par cette clé de sécurité qui est intégrée à l'url.
 
 ![image](docs/image/pref-duedatee.png)
+
+Onglet Vue personnelle
+----------------------
+
+Si vous avez défini des affichages personnalisés dans les objets, cet onglet sera visible.
+Il permet de supprimer les vues personnelles définies pour revenir aux vues galobales.
 
 -------
 **Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

@@ -1,47 +1,31 @@
 Configurer les intitulés
 ========================
 
-Les intitulés se configurent depuis le menu Configuration \> Intitulés
+Certaines listes de sélections déroulantes sont paramétrables dans GLPI. La définition des lieux, des statuts de matériels, des catégories de tickets, des noms des logiciels et des constructeurs : en somme, tout ce qui dépend d'une nomenclature propre à un contexte particulier doit être paramétré. Si certains de ces intitulés sont fournis avec une liste par défaut, la plupart des intitulés doivent être déclarés dans l'application.
 
-Certaines listes de sélections déroulantes sont paramétrables dans GLPI.
-La définition des lieux, des statuts de matériels, des catégories de
-tickets, des noms des logiciels et des constructeurs : en somme, tout ce
-qui dépend d'une nomenclature propre à un contexte particulier doit être
-paramétré. Si certains de ces intitulés sont fournis avec une liste par
-défaut, la plupart des intitulés doivent être déclarés dans
-l'application.
+Par défaut, les intitulés ne peuvent être traduits dans plusieurs langues. Cette fonctionnalité est activable (voir [Onglet Configuration
+Affichage](config_common_display.html "Cet onglet permet de personnaliser l'apparence générale de l'application.")) et permet alors de traduire l'ensemble des champs des intitulés.
 
-Par défaut, les intitulés ne peuvent être traduits dans plusieurs
-langues. Cette fonctionnalité est activable (voir [Onglet Configuration
-Affichage](config_common_display.html "Cet onglet permet de personnaliser l'apparence générale de l'application."))
-et permet alors de traduire l'ensemble des champs des intitulés.
+Les intitulés sont soit une liste de valeurs à plat, soit une liste arborescente.
 
-Les intitulés sont soit une liste de valeurs à plat, soit une liste
-arborescente.
+Les statuts des matériels sont une liste simple de valeurs (En stock, ...) tandis que pour les lieux chaque élément peut avoir des sous-éléments (Lieu 1 \> Sous-lieu 1 \> Sous-sous-lieu 1).
 
-Les statuts des matériels sont une liste simple de valeurs (En stock,
-...) tandis que pour les lieux chaque élément peut avoir des
-sous-éléments (Lieu 1 \> Sous-lieu 1 \> Sous-sous-lieu 1).
+La première étape est de sélectionner la liste à modifier. Ensuite on peut ajouter des éléments à la liste, les modifier et les supprimer.
 
-La première étape est de sélectionner la liste à modifier. Ensuite on
-peut ajouter des éléments à la liste, les modifier et les supprimer.
+> Important : Si des éléments utilisés sont supprimés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.
 
-Important : Si des éléments utilisés sont supprimés, GLPI proposera
-automatiquement de transférer les entrées existantes vers un autre
-élément de la liste, ou bien de les remettre à zéro.
+Il est possible de visualiser tous les types d'intitulés existants en utilisant **voir tous**.
 
-Il est possible de visualiser tous les types d'intitulés existants en
-utilisant **voir tous**.
+Figure 1. Liste de la totalité des intitulés
+![image](docs/image/ListeIntitules.png)
+Cette liste peut varier suivant les droits accordés dans le profil.
+Les intitulés avec fond plus foncé sont des intitulés globaux alors que les autres peuvent être délégués par entité.
 
-À chaque intitulé est associé un commentaire. Celui-ci est visible
-depuis les formulaires de GLPI. Il apparaît au survol de l'icône
-**Aide** ![image](../image/aide.png) associée à la liste déroulante.
+À chaque intitulé est associé un commentaire. Celui-ci est visible depuis les formulaires de GLPI. Il apparaît au survol de l'icône **Aide** ![image](docs/image/aide.png) associée à la liste déroulante.
 
-Certains intitulés sont en arborescence. Il est possible de créer des
-intitulés enfants d'un intitulé existant.
+Certains intitulés sont en arborescence. Il est possible de créer des intitulés enfants d'un intitulé existant.
 
-Les intitulés lieu, catégories des tickets et des tâches peuvent être
-définis comme utilisables dans les sous-entités.
+Les intitulés lieu, catégories des tickets et des tâches peuvent être définis comme utilisables dans les sous-entités.
 
 Certains intitulés ont des informations supplémentaires.
 
