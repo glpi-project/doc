@@ -44,7 +44,7 @@ Les différents onglets
 -   **[Onglet "Connexions"](index.php?fr/Les_différents_onglets/Onglet_Connexions.md)**
      Gestion des connexions
 
--   **[Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_réseaux.md)**
+-   **[Onglet "Ports réseaux"](index.php?fr/Les_différents_onglets/Onglet_Ports_Réseaux.md)**
      Gestion des ports réseaux pour les éléments d'inventaire
 
 -   **[Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)**

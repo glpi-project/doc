@@ -23,7 +23,13 @@ Dans la fiche d'un lieu, on trouve un certain nombre d'informations concernant c
 
 -   **Onglet "Prise réseau"**
     ![image](docs/image/priseReseau.png)
-    Liste les prises réseau affectées à ce lieu et permet d'en ajouter une nouvelle. L'ajout peut être unique via la partie haute ou multiple via la partie basse. Pour l'ajout multiple, vous pouvez préfixer le numéro de la prise comme indiqué dans la copie d'écran.
+    Liste les prises réseau affectées à ce lieu et permet d'en ajouter une nouvelle. Dans ce cas, lors de la sélection d'une prise sur un port réseau d'un matériel, seules les prises réseau disponibles du lieu du matériel (et des lieux enfants) apparaissent.
+    L'ajout peut être unique via la partie haute ou multiple via la partie basse. Pour l'ajout multiple, vous pouvez préfixer le numéro de la prise comme indiqué dans la copie d'écran.
+
+        Autre exemple : 
+        soient le préfixe "bru", 9 et 11 les bornes de la numérotation
+        et "srv" le suffixe
+        les prises réseau créées seront nommées : bru09srv, bru10srv, bru11srv.
 
 -   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.

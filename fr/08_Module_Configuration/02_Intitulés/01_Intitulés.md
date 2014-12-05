@@ -70,6 +70,14 @@ possible d'en ajouter en fournissant les informations suivantes :
   Seul les sources de mise à jour peuvent être traduites.
 
 - **Réseau**
+  Toutes les listes de cette partie sont des listes de valeurs à plat.
+  Les interfaces réseaux, firmwares et réseaux sont valables pour toutes les entités.
+  Prises réseaux, domaines et VLAN peuvent être déléguées par entité avec visibilité ou non des sous-entités.
+  Seules la liste Réseaux peut être traduite.
+  ***Prises réseaux :***
+   Une prise réseau peut être liée à un lieu. Dans ce cas, lors de la sélection d'une prise sur un port réseau d'un matériel, seules les prises réseau disponibles du lieu du matériel (et des lieux enfants) apparaissent.
+   Si vous souhaitez plusieurs prises pour un même lieu, il est préférable d'effectuer la création via le menu lieu de la partie [Général](index.php?fr/08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md)  du menu des intitulés.
+
 - **Internet**
 - **Logiciel**
 - **Utilisateur**
