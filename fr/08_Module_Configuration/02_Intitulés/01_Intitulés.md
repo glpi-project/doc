@@ -78,42 +78,32 @@ possible d'en ajouter en fournissant les informations suivantes :
    Une prise réseau peut être liée à un lieu. Dans ce cas, lors de la sélection d'une prise sur un port réseau d'un matériel, seules les prises réseau disponibles du lieu du matériel (et des lieux enfants) apparaissent.
    Si vous souhaitez plusieurs prises pour un même lieu, il est préférable d'effectuer la création via le menu lieu de la partie [Général](index.php?fr/08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md)  du menu des intitulés.
 
-- **Internet**
-- **Logiciel**
+- **[Internet](index.php?fr/08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md)** 
+  Définition des noms réseau, domaines internet, réseaux IP et WIFI.
+
+- **Logiciel (catégories des logiciels)**
+  Cette liste est de type arborescente : chaque élément peut avoir des sous-éléments. Les valeurs sont définies pour toutes les entités
+  L'onglet *Catégories de logiciels* liste les sous-catégories et permet d'en ajouter une nouvelle.
+  Une catégorie de logiciels peut être traduite.
+
 - **Utilisateur**
-- **Règles d'affectation d'habilitations à un utilisateur**
-- **Unicité des champs**
+  Les listes de cette partie sont des listes de valeurs à plat valables pour toutes les entités.
+  Elles peuvent être traduites.
+
+- **Règles d'affectation d'habilitations à un utilisateur (Critère LDAP)**
+  Cette liste est une liste de valeurs à plat valables pour toutes les entités.
+  Il est également possible d'ajouter un critère LDAP particulier.
+
+- **Unicité des champs (valeurs ignorées pour l'unicité**
+  Cette liste est une liste de valeurs à plat qui peut être déléguée par entité et applicable ou non au sous-entités.
+  Il est possible de renseigner, pour chaque type d'objet des valeurs qui ne doivent pas être prises en compte lors de la vérification de l'unicité d'un objet en base. 
+  Par exemple ne pas utiliser le numéro de série générique "To Be Filled By OEM" pour vérifier si un ordinateur existe déjà dans GLPI.
+
+  ***Remarque :** certains plugins apportent certains intitulés supplémentaires, qui sont paramétrables dans le même menu.*
+
 - **Authentifications externes**
+  La liste est une liste de valeurs à plat valables pour toutes les entités.
 
 
-Prises réseau
--------------
-
-Une prise réseau peut être liée à un lieu. Dans ce cas, lors de la
-sélection d'une prise sur un port réseau d'un matériel, seules les
-prises réseau du lieu du matériel (et des lieux enfants) apparaissent.
-Lors de la création de prises réseau, une fois le lieu choisi, il est
-proposé à l'utilisateur de suivre la nomenclature suivante : préfixe +
-numérotation incrémentale dont il faut définir le premier et le dernier
-terme + suffixe. Par exemple, soient le préfixe "bru", 9 et 11 les
-bornes de la numérotation, et "srv" le suffixe : les prises réseau
-créées seront nommées : bru09srv, bru10srv, bru11srv.
-
-
-Valeurs ignorées pour l'unicité
--------------------------------
-
-Il est possible de renseigner, pour chaque type d'objet des valeurs qui
-ne doivent pas être prises en compte lors de la vérification de
-l'unicité d'un objet en base. Par exemple ne pas utiliser le numéro de
-série générique "To Be Filled By OEM" pour vérifier si un ordinateur
-existe déjà dans GLPI.
-
-Remarque : certains plugins apportent certains intitulés
-supplémentaires, qui sont paramétrables dans le même menu.
-
--   **[Visualiser l'historique](../glpi/inventory_log.html)**\
-     L'historique est visualisé depuis l'onglet Historique
-
-**Sujet parent :** [Module
-Configuration](../glpi/config.html "Module Configuration de GLPI")
+--------
+**Sujet parent :** [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")

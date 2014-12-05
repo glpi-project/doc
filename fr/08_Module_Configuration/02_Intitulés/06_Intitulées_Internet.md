@@ -5,7 +5,7 @@ Le protocole IP est matérialisé sous plusieurs formes : adresses IP, réseaux 
 
 Un équipement se connecte au réseau au travers de [ports réseau](index.php?fr/Les_différents_onglets/Onglet_Ports_Réseaux.md "Gestion des ports réseaux pour les éléments d'inventaire").
 
-À un port réseau, on associe un ou plusieurs Noms réseau](voir ci-dessous).
+À un port réseau, on associe un ou plusieurs Noms réseau(voir ci-dessous).
 
 Un Nom réseau peut appartenir à un Domaine Internet. Il peut contenir une ou plusieurs adresses IP (voir ci-dessous) et il peut avoir plusieurs alias.
 
@@ -60,16 +60,14 @@ Les réseaux sont modifiables depuis les intitulés ( Configuration > Intitulés
 Domaines Internet
 -----------------
 
-
-
 ***Les différents onglets***
 
 -   **Onglet "Noms réseau"**
-    Liste les sous-statuts existants et permet d'en ajouter un nouveau. 
+    Liste les noms réseau du domaine.
 
 -   **Alias réseau**
-    
-
+    Liste les alias réseau du domaine.
+ 
 -   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
@@ -79,6 +77,7 @@ Domaines Internet
 Réseaux Wifi
 ----------
 
+A FAIRE
 
 Noms réseau
 ----------
@@ -99,7 +98,7 @@ IP, il suffit d'effacer le contenu du champs de l'IP que l'on souhaite retirer.
 ***Les différents onglets***
 
 -   **Alias réseau**
-    Cet onglet permet d'ajouter des [alias](glossary/fqdn_label.html). 
+    Cet onglet liste les alias déjà présents pour ce réseau et permet d'en ajouter un nouveau.
     Traditionnellement, le nom réseau est celui utilisé par le DNS pour la résolution inverse d'une adresse IP alors que les alias correspondent au *`CNAME`* du nomFQDN. 
     De la même manière, le nom de l'alias doit un label FQDN valide.
 
