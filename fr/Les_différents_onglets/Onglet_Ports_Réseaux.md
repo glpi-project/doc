@@ -9,31 +9,31 @@ Sur ce port, il est possible d'ajouter un ou plusieurs VLAN, ces derniers peuven
 
 Pour chaque matériel, il est possible à tout moment d'ajouter un ou plusieurs ports grâce au système de modification massive.
 
-Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](inventory_ip_network_name.html "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
+Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](index.php?fr/08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
 On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
 
 -   Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.
 -   Lorsqu'il y a plusieurs noms réseau, il n'est plus possible de modifier le nom réseau dans le formulaire du port réseau. On doit systématiquement utiliser l'onglet.
 
-Les ports réseau peuvent être de différents types. Il y a des ports physiques (Ethernet, Wifi ...), [virtuels](glossary/virtual_ports.html)
-(boucle locale, alias, aggrégats ...), point à point (ligne commutée)
-...
+Les ports réseau peuvent être de différents types. Il y a des ports physiques (Ethernet, Wifi ...), [virtuels](glossary/virtual_ports.html) (boucle locale, alias, aggrégats ...), point à point (ligne commutée) ...
 
 L'onglet des ports réseau représente l'ensemble de ports disponibles sur l'équipement dans un tableau. Dans l'en-tête du tableau, à côté du nombre total de port, il y a un lien permettant de choisir les options
 d'affichage des ports réseaux. Il est ainsi possible d'afficher ou de masquer des informations telles que les informations réseau (tout ce qui concerne Internet), les caractéristiques intrinsèques du port (ie. dépendant de son type), les adresses MAC, les VLANs ...
 
 ***Remarques :**
-- GLPI permet de représenter fidèlement des connexions réseau très complexes avec des alias ports Wifi et/ou Ethernet associés à des VLAN regroupés dans aggrégats (cf. [Connections réseau
-complexe](appendix/image_complexe_networkport.html "Connection complexe avec des alias et des aggrégats.")).
+- GLPI permet de représenter fidèlement des connexions réseau très complexes avec des alias ports Wifi et/ou Ethernet associés à des VLAN regroupés dans aggrégats (voir ci-dessous).
 - Pour un port réseau d'un type d'objet ordinateurs, le champ MAC avec la liste déroulante permet de sélectionner l'adresse MAC des composants de type carte réseau.*
 
 -   **Gestion des ports réseau de type Ethernet**
-
+    
     Le protocole Ethernet est celui classiquement utilisé sur les réseaux internes.
 
     Un port Ethernet est caractérisé par son type (paire torsadée, fibre optique monomode/multimode ...), un débit (10Mb, 100Mb, 1Gb, 10Gb ...) et son adresse MAC. Il est possible de lui associer une carte réseau ainsi qu'une prise réseau.
 
     Les connexions Ethernet se font en reliant deux ports Ethernet entre eux. Pour cela, il faut qu'il y ait un port libre sur chacun de ces matériels. Généralement, les connexions se feront entre un port présent sur un ordinateur, un périphérique ou une imprimante et un port présent sur un matériel réseau (hub, switch).
+
+    Figure 1. Connections réseau complexe Ethernet
+    ![image](docs/image/complexe_networkport.png "Connection complexe avec des alias et des aggrégats.").
 
 
 -   **Gestion des ports réseau de type Wifi**
@@ -49,6 +49,8 @@ complexe](appendix/image_complexe_networkport.html "Connection complexe avec des
     -   *Infrastructure :* réseau Wifi avec un ou plusieurs points d'accès et des clients qui se connectent dessus.
     -   *Ad-hoc :* réseau Wifi entre systèmes équivalents sans point d'accès.
 
+    Figure 1. Connections réseau complexe
+    ![image](docs/image/complexe_networkport_1.png "Connection complexe avec des alias et des aggrégats.").
 
 -   **Gestion des ports réseau de type boucle locale**
 

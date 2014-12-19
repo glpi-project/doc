@@ -61,3 +61,5 @@ Celui-ci présente en une seule vue tous les onglets de la fiche de l'objet les 
 **Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
 
 **Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
+
+**Sujet parent :** [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")

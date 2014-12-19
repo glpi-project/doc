@@ -64,5 +64,4 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
 
-**Sujet parent :** [Configurer les
-intitulés](../glpi/config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")
+**Sujet parent :** [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")
