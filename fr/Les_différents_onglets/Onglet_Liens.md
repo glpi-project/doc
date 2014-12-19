@@ -36,3 +36,5 @@ Dans cet onglet, des liens externes peuvent être associés. Ces liens peuvent u
 **Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")
 
 **Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
+
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")

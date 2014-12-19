@@ -40,3 +40,10 @@ Figure 1. Onglet Debug d'un ticket
 **Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
 
 **Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
+
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+
+**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Les règles se gèrent depuis le menu Administration > Règles")
+
+**Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
+

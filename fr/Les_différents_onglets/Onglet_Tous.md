@@ -49,3 +49,15 @@ Celui-ci présente en une seule vue tous les onglets de la fiche de l'objet les 
 **Sujet parent :** [Gérer les notes](index.php?fr/06_Module_Outils/03_Notes.md "Les notes se gèrent depuis le menu Outils > Notes")
 
 **Sujet parent :** [Gérer les flux RSS](index.php?fr/06_Module_Outils/04_Flux_RSS.md "Les flux RSS se gèrent depuis le menu Outils > Flux RSS")
+
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+
+**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
+
+**Sujet parent :** [Gérer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Les entités se gèrent depuis le menu Administration > Entités")
+
+**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Les règles se gèrent depuis le menu Administration > Règles")
+
+**Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
+
+**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")

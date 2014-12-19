@@ -52,5 +52,17 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
 
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+
+**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
+
+**Sujet parent :** [Gérer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Les entités se gèrent depuis le menu Administration > Entités")
+
+**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Les règles se gèrent depuis le menu Administration > Règles")
+
+**Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
+
+**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
+
 **Sujet parent :** [Configurer les
 intitulés](../glpi/config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")

@@ -71,3 +71,5 @@ Module Réservations
 **Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
 
 **Sujet parent :** [Gérer les réservations](index.php?fr/06_Module_Outils/06_Réservations.md "Les réservations se gèrent depuis le menu Outils > Réservations")
+
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")

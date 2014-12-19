@@ -53,7 +53,7 @@ possible d'en ajouter en fournissant les informations suivantes :
   -   le type MIME si nécessaire ;
   -   l'autorisation de téléchargement de ce type de fichier (oui ou non).
 
-  ***Remarque :** le type de document peut être une expression régulière. Cela permet par exemple d'autoriser de définir un ensemble de documents NOMFICHIER.XXXXYYYY où XXXX est un numéro et YYYY la date de l'année fiscale courante. Dans ce cas précis l'expression régulière pourrait être /[0-9]+/ pour indiquer toute extension composée exclusivement de nombres.
+  ***Remarque :** le type de document peut être une expression régulière. Cela permet par exemple d'autoriser de définir un ensemble de documents NOMFICHIER.XXXXYYYY où XXXX est un numéro et YYYY la date de l'année fiscale courante. Dans ce cas précis l'expression régulière pourrait être /[0-9]+/ pour indiquer toute extension composée exclusivement de nombres.*
 
    Ces 2 variables peuvent être traduites.
 

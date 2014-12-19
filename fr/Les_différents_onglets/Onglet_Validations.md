@@ -19,7 +19,7 @@ Validation pour un ticket
 -------------------------
 Lorsque qu'une demande de validation est créée, le ticket prend alors le statut **En attente de validation** dans son champ **Validation**.
 
-La demande de validation peut également être créée directement à l'[ouverture du ticket] (helpdesk_openticket.dita) via l'interface standard ou via une [règle métier](administration_rule_ticket.dita).
+La demande de validation peut également être créée directement à l'ouverture du ticket via l'interface standard ou via une [règle métier](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_ppur_les_tickets.md).
 
 ***Remarque :** La validation n'est pas un processus bloquant, mais seulement informatif. Un technicien pourra traiter un ticket qui est en attente de validation. Toutefois, si le technicien modifie le statut du ticket vers Résolu ou Clos, ou qu'il ajoute une solution sur un ticket en attente de validation, une alerte sera affichée.*
 

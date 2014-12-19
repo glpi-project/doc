@@ -56,3 +56,7 @@ Figure 1. Onglet Documents d'un ordinateur
 **Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
 
 **Sujet parent :** [Gérer les notes](index.php?fr/06_Module_Outils/03_Notes.md "Les notes se gèrent depuis le menu Outils > Notes")
+
+**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+
+**Sujet parent :** [Gérer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Les entités se gèrent depuis le menu Administration > Entités")
