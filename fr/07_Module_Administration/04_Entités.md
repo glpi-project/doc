@@ -56,7 +56,7 @@ et le domaine de messagerie associé à celle-ci.
     Le paramétrage des notifications se fait par entité.
     Cet onglet regroupe deux tableaux :
     - les options globales pour toutes les notifications issues de GLPI :
-      le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir Configurer les suivis par courriels et les alertes) et la signature.
+      le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir [configuration des suivis par courriels](index.php?fr/08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md)) et la signature.
 
       Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
 

@@ -95,4 +95,6 @@ Le lien ***Vue*** apparaît si vous n'avez pas le droit de modifier les composan
 
 **Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
 
-**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03-Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
+**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
+
+**Sujet parent :** [Gérer les composants](index.php?fr/08_Module_Configuration/03_Composants.md "Les composants se gèrent depuis le menu Configuration > Composants")
