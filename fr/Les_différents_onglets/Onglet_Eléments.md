@@ -69,8 +69,18 @@ Figure 1. Eléments utilisés d'un groupe
 - Onglet **"Eléments gérés"**
   Même affichage que pour l'onglet "Eléments utilisés" mais le tableau concerne dans ce cas les objets d'inventaire pour lesquels le groupe est *groupe technique* et ceux affectés à un *responsable technique* membre de ce groupe.
 
--------
+Module Configuration
+--------------------
+L'onglet Eléments est visible pour les composants, après en avoir choisi un.
+Figure 1. Eléments d'un disque dur
+![image](docs/image/itemComponent.png)
+Les colonnes varient suivant le type de composant et les champs remplis de ce composant.
 
+Le chiffre dans le nom de l'onglet correspond au nombre total d'éléments liés à ce composant, toutes entités confondues.
+La liste ne montre que les éléments de l'entité courante liés à ce composant.
+Le lien ***Vue*** apparaît si vous n'avez pas le droit de modifier les composants. Dans le cas contraire, ce lien sera ***Mettre à jour***.
+
+-------
 **Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
 **Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
