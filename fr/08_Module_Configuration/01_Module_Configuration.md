@@ -3,19 +3,17 @@ Module Configuration
 
 Le module Configuration permet d'accéder aux options de configuration générale de GLPI : la configuration globale de GLPI, les notifications, les collecteurs, les tâches automatiques, l'authentification, les plugins, les critères d'unicité et les liens externes protocolés.
 
--   **[Configurer les intitulés](../glpi/config_dropdown.html)**\
-     Les intitulés se configurent depuis le menu Configuration \>
-    Intitulés
--   **[Configurer les composants](../glpi/config_device.html)**\
-     Les composants se configurent depuis le menu Configuration \>
-    Composants
--   **[Configurer les
-    notifications](../glpi/config_notification.html)**\
-     Les notifications se configurent depuis le menu Configuration \>
-    Notifications ;
--   **[Configurer les SLAs](../glpi/config_sla.html)**\
-     Dans GLPI, administrer les SLAs peut se faire à partir du menu
-    Configuration \> SLAs .
+-   **[Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md)**
+     Configurer les intitulés et les traduire.
+
+-   **[Configurer les composants](index.php?fr/08_Module_Configuration/03_Composants.md)**
+     
+-   **[Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer les notifications.md)**
+     Configurer les suivis par courriels, créer des modèles de notifications, définir l'envoi de notification.
+
+-   **[Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md)**
+     Définir les SLA ainsi que les différents niveaux d'escalade.
+
 -   **[Configurer les paramètres
     centraux](../glpi/config_common.html)**\
      Les paramètres centraux se configurent depuis le menu Configuration
