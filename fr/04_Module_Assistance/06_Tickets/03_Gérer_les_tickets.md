@@ -81,6 +81,7 @@ Les différents onglets
 
 -   **[Onglet "Validation"](index.php?fr/Les_différents_onglets/Onglet_Validations.md)**
 
+
 -   **[Onglet "Tâches"](index.php?fr/Les_différents_onglets/Onglet_Tâches.md)**
     Une tâche est une action correspondant à une intervention technique liée à un ticket.
 
@@ -95,6 +96,12 @@ Les différents onglets
 
 -   **[Onglet "Coûts](index.php?fr/Les_différents_onglets/Onglet_Coûts.md)**
     Définition des coûts applicables à ce ticket.
+
+
+-   **Onglet tâches de projet**
+    Liste les tâches d'un projet liées à ce ticket en indiquant, pour chaque tâche, le nom du projet, son nom, son type, son statut, le pourcentage effectuée, les dates de début et de fin planifiées, les durées planifiée et effective ainsi que le nom de la tâche parent.
+    Vous pouvez modifier un projet ou une tâche de projet en cliquant sur son nom.
+
 
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 

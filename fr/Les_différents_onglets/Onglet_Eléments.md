@@ -3,9 +3,10 @@ Onglet "Eléments"
 
 Module Assistance / Module Outils
 ---------------------------------
-Cet onglet permet d'associer un élément à cet objet (problème, changement ou projet) en choisissant le type ainsi que l'élément souhaité.
+Cet onglet permet d'associer un élément à cet objet (ticket, problème, changement ou projet) en choisissant le type ainsi que l'élément souhaité.
 
 Les types associables sont les éléments du menu Parc à l'exception des cartouches et des consommables.
+Pour un ticket les éléments se limitent à Logiciels, Ordinateurs, Téléphone.
 
 Un tableau liste les éléments déjà attachés à cet objet.
 Cette liste est triée par type d'éléments (avec en dessous le nombre de matériels) et la liste complète.
