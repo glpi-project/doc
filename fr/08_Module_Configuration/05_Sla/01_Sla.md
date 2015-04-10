@@ -3,14 +3,6 @@ Configurer les SLAs
 
 Un SLA (Service Level Agreement ou accord de niveau de service) est la formalisation d'un contrat négocié entre le ServiceDesk et le client définissant le niveau de service attendu et donc au délai maximum pour résoudre un incident ou une demande (J+1, H+4...).
 
-Des niveaux d'escalades peuvent être définis au sein d'un SLA. Chaque niveau déclenche des actions automatiques permettant la résolution du ticket dans les meilleurs délais. Un niveau se déclenche avant ou après la date d'échéance du SLA en fonction du délai défini. 
-
-    Par exemple, un jour avant l'échéance, le ticket est affecté au support de niveau 2 et sa priorité passée à Haute.
-
-Les niveaux d'escalades peuvent être conditionnés par des critères de déclenchement. Sans critère, le niveau sera déclenché mais si des critères sont définis, ils seront contrôlés avant application du niveau d'escalade. 
-
-     Par exemple, si 1 jour avant la date d'échéance vous souhaitez envoyer un rappel à l'administrateur si le ticket est toujours à l'état *Nouveau*, il faut définir comme critère `Status n'est pas Nouveau`.
-
 Les SLAs sont associables aux tickets via le moteur de règles des tickets (voir [Règles métier pour les tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
 L'association du SLA au ticket permet le calcul automatique de sa date d'échéance. Plusieurs SLAs peuvent ainsi être définis et affectés suivant des critères précis. 
 
@@ -32,7 +24,7 @@ Le passage du ticket au statut en attente met le SLA en sommeil. Si le ticket re
 Les différents onglets
 ----------------------
 
--   **Onglet "Niveaux d'escalade"**
+-   **[Onglet "Niveaux d'escalade"](index.php?fr/08_Module_Configuration/05_Sla/02_Niveaux_d'escalade.md)** 
     Permet d'ajouter un nouveau niveau d'escalade à ce SLA et liste des différents niveaux déjà définis avec pour chaucun leurs critères et leurs actions.
     ![image](docs/image/NiveauSla.png)
     Pour modifier un niveau il suffit de cliquer sur son nom.
