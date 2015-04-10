@@ -15,9 +15,10 @@ Une fois un type de composant sélectionné (`Carte mère, Processeur...`), on a
 Les différents onglets
 ----------------------
 
-Outre le premier qui concerne les caractéristiques du composants sélectionné, les autres onglet sont identiques, quel que soit le composant.
+-   **"Niveaux d'escalade"
+    Liste les niveaux descalade de ce SLA avec pour chacun les action et les critères définis.
+    ![image](docs/image/niveauSla.png)
 
--   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
 
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
 

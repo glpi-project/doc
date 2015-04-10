@@ -25,6 +25,9 @@ Groupes
 -------
 Pour les groupes, il est possible de lister également les tickets des sous-groupes.
 
+SLA
+---
+Pour les SLA, il n'est pas possible d'ajouter un ticket. L'onglet liste juste les tickets affectés à ce SLA.
 
 -------
 
