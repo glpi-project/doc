@@ -38,7 +38,7 @@ intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu C
 
 - **Validation** : par défaut il est *non soumis à validation* ;
 
-- **Élément** : cette liste déroulante permet d'associer un ou plusieurs objets d'inventaire de différents types au ticket (ordinateur, moniteur...) : le contenu de la liste dépend des paramètres définis dans le profil (voir [Administrer les profils d'utilisateurs] administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.")) ;
+- **Élément** : liste les éléments associés à ce ticket. L'ajout d'un nouvel élément se fait via l'onglet *Elements*.
 
 - **Lieu** : permet d'indiquer le lieu de l'intervention et n'a aucun lien avec le lieu de l'élément associé où le lieu du demandeur (cas d'un demandeur "nomade" avec un portable) ;
 
@@ -104,6 +104,11 @@ Les différents onglets
 
 
 -   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+
+
+-   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+    Permet d'associer plusieurs éléments au ticket.
+
 
 -   **[Onglet "Problèmes"](index.php?fr/Les_différents_onglets/Onglet_Problèmes.md)**
 
