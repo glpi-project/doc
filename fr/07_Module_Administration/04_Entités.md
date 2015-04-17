@@ -60,6 +60,8 @@ et le domaine de messagerie associé à celle-ci.
 
       Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
 
+      Vous pouvez également définir si le suivi par mail d'un acteur est défini à Oui ou Non.
+
     - les options de déclenchement des alertes pour les cartouches, consommables, contrats, informations financières, licences, réservations et tickets.
       > Important : Chaque option d'alerte est associée à une action automatique. Si l'action est désactivée par l'administrateur de GLPI, aucune notification ne sera envoyée.
 
