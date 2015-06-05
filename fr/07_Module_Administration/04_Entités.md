@@ -80,7 +80,8 @@ et le domaine de messagerie associé à celle-ci.
     - **Clôture automatique des tickets résolus après :** permet de réaliser une clôture dite "administrative". Si cette clôture est paramétrée à *immédiatement*, dès que le ticket sera résolu il sera automatiquement clos, ce qui bloquera l'approbation de la solution par le demandeur.
       Cette clôture est réalisée via une action automatique qui doit être active.
     - **Configuration de l'enquête de satisfaction :** cette enquête peut être interne (formulaire de satisfaction de GLPI) ou gérée par à un système tiers.
-      Pour chaque entité, vous pouvez donc définir quand l'enquête doit être lancée (délais à compter de la clôture d'un ticket) ainsi que le taux d'enquête à générer.  
+      Pour chaque entité, vous pouvez donc définir quand l'enquête doit être lancée (délais à compter de la clôture d'un ticket) ainsi que le taux d'enquête à générer.
+      Afin d'éviter que les anciens tickets ne soit concernés lors de l'activation de l'enquête de satisfaction, un champ *"Pour les tickets clos après"* prend la valeur de la date d'activation pour savoir quels doivent être les tickets concernés. De même, si vous décidez de reprendre les enquêtes après une période de désactivation, il faut penser à modifier ce champ pour exclure les vieux tickets.
       Pour les enquêtes externes, vous pouvez générer automatiquement à partir de balises l'adresse web pour accéder à l'enquête. Les balises disponibles sont :
       - [TICKET_ID] : id du ticket
       - [TICKET_NAME] : nom du ticket
