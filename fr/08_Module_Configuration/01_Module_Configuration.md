@@ -14,10 +14,8 @@ Le module Configuration permet d'accéder aux options de configuration général
 -   **[Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md)**
      Définir les SLA ainsi que les différents niveaux d'escalade.
 
--   **[Configurer les paramètres
-    centraux](../glpi/config_common.html)**\
-     Les paramètres centraux se configurent depuis le menu Configuration
-    \> Générale
+-   **[Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md)**
+
 -   **[Configurer les contrôles](../glpi/config_controls.html)**\
      Les contrôles se configurent depuis le menu Configuration \>
     Contrôles ;

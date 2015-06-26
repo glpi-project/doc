@@ -94,8 +94,7 @@
         -   [Listes noires](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)
     -   [Configurer les dictionnaires de données](index.php?fr/07_Module_Administration/06_Dictionnaires.md)
  
-    -   [Administrer les profils
-        d'utilisateurs](administration_profile.html)
+    -   [Administrer les profils utilisateurs](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)
 
     -   [Gérer la file d'attente d'envoi des courriels](index.php?fr/07_Module_Administration/08_File_d'attente_des_courriels.md)
     -   [Maintenance de GLPI](index.php?fr/07_Module_Administration/09_Maintenance.md)
@@ -130,33 +129,20 @@
 
 
 
--   [Module Configuration](config.html)
-    -   [Configurer les intitulés](config_dropdown.html)
-        -   [Visualiser l'historique](inventory_log.html)
+-   [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md)
+    -   [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md)
+    -   [Configurer les composants](index.php?fr/08_Module_Configuration/03_Composantss.md)
+    -   [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md)
+        -   [Configurer les suivis par courriels](index.php?fr/08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md)
+        -   [Configuration des modèles de notifications](index.php?fr/08_Module_Configuration/04_Notifications/03_Modèles_de_notifications.md)
+         -   [Gérer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/04_Notifications.md)
 
-    -   [Configurer les composants](config_device.html)
-    -   [Configurer les notifications](config_notification.html)
-        -   [Configurer les suivis par courriels et les
-            alertes](config_notification_configuration.html)
-        -   [Configuration des modèles de
-            notifications](config_notification_templates.html)
-        -   [Ajouter un modèle de
-            notification](config_notification_templates_t_create.html)
-        -   [Supprimer un modèle de
-            notification](config_notification_templates_t_delete.html)
-        -   [Gérer les traductions des
-            notifications](config_notification_templates_translations.html)
-        -   [Utiliser les balises pour personnaliser les
-            notifications](config_notification_templates_tags.html)
-        -   [Gérer les notifications par
-            entité](config_notification_notifications.html)
-        -   [Ajouter une
-            notification](config_notification_notifications_t_create.html)
-        -   [Supprimer une
-            notification](config_notification_notifications_t_delete.html)
+    -   [Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md)
+        -   [Gérer les nniveaux d'escalade](index.php?fr/08_Module_Configuration/05_Sla/02_Niveauxd'escalade.md)
 
-    -   [Configurer les SLAs](config_sla.html)
-    -   [Configurer les paramètres centraux](config_common.html)
+    -   [Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md)
+        -   [Configuration générale](index.php?fr/08_Module_Configuration/06_Générale/02_Configuration_Générale.md)
+
         -   [Onglet Configuration
             Affichage](config_common_display.html)
         -   [Personnaliser

@@ -13,7 +13,7 @@ Le module Administration permet d'administrer les utilisateurs, groupes, entité
 
 - **[Configurer les dictionnaires de données](index.php?fr/07_Module_Administration/06_Dictionnaires.md)**
 
-- gérer les profiles => à faire
+-  **[Gérer les profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)**
 
 - **[Gérer la file d'attente d'envoi des courriels](index.php?fr/07_Module_Administration/08_File_d'attente_des_courriels.md)**
 
