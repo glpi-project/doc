@@ -1,7 +1,7 @@
 Gérer les rapports
 ==================
 
-Les rapports se gèrent depuis le menu Outils \> Rapports
+Les rapports se gèrent depuis le menu Outils > Rapports
 
 GLPI autorise la génération d'un certain nombre de rapports :
 
