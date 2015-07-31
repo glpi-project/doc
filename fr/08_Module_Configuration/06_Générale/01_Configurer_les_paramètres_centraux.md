@@ -1,17 +1,17 @@
 Configurer les paramètres centraux
 ==================================
 
-Les paramètres centraux se configurent depuis le menu Configuration \>
-Générale
+Les paramètres centraux permettent de configurer globalement GLPI. Certains de ces paramètres peuvent être modifiés par l'utilisateur dans sa session.
 
--   **[Onglet Configuration Générale](index.php?fr/08_Module_Configuration/06_Générale/02_Configuration_Générale.md)**
+Les différents onglets
+----------------------
+
+-   **[Onglet *Configuration Générale*](index.php?fr/08_Module_Configuration/06_Générale/02_Configuration_Générale.md)**
      Cet onglet permet de personnaliser l'apparence générale de l'application.
 
--   **[Personnaliser
-    l'interface](../glpi/config_common_personalize.html)**\
-     Les préférences d'affichage qui peuvent être définies avec des
-    valeurs par défaut et que les utilisateurs peuvent modifier pour
-    leur session sont regroupées dans l'onglet personnalisation.
+-   **[Onglet *Valeurs par défaut*](index.php?fr/08_Module_Configuration/06_Générale/03_Valeurs_par_défaut.md)**
+     Cet onglet regroupe les préférences d'affichage modifiable par un utilisateur dans sa session.
+
 -   **[Onglet Parc](../glpi/config_common_inventory.html)**\
      L'onglet parc permet de régler les paramètres généraux concernant
     la partie inventaire de l'application.
