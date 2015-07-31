@@ -4,10 +4,9 @@ Configurer les paramètres centraux
 Les paramètres centraux se configurent depuis le menu Configuration \>
 Générale
 
--   **[Onglet Configuration
-    Affichage](../glpi/config_common_display.html)**\
-     Cet onglet permet de personnaliser l'apparence générale de
-    l'application.
+-   **[Onglet Configuration Générale](index.php?fr/08_Module_Configuration/06_Générale/02_Configuration_Générale.md)**
+     Cet onglet permet de personnaliser l'apparence générale de l'application.
+
 -   **[Personnaliser
     l'interface](../glpi/config_common_personalize.html)**\
      Les préférences d'affichage qui peuvent être définies avec des
