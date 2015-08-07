@@ -8,7 +8,7 @@ Affiche les contrats associés au matériel et permet d'en associer de nouveaux.
 Pour chaque contrat associé, les nom, numéro, type de contrat, fournisseur, date de début et durée initiale du contrat sont listés. Dans le dernier champ, la date de fin du contrat est également présente avec un affichage en rouge si la date est antérieure à la date du jour.
 
 
-Voir [Gérer les contrats](management_contract.html "Les contrats sont gérés depuis le menu Gestion > Contrats").
+Voir [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats").
 
 -------
 **Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")

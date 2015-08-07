@@ -7,7 +7,7 @@ Ces informations sont visibles dans l'onglet **Composants** sur la fiche d'un or
 
 Pour ajouter un composant à un ordinateur, sélectionner dans la liste déroulante présente en haut du tableau, la famille de celui-ci, puis son nom et le nombre de composant choisi à ajouter.
 
-***Remarque :*** *La création de composants se réalise dans le menu ***Configuration \> Composants*** (Voir [Configurer les composants](config_device.html "Les composants se configurent depuis le menu Configuration > Composants")).*
+***Remarque :*** *La création de composants se réalise dans le menu ***Configuration \> Composants*** (Voir [Configurer les composants](index.php?fr/08_Module_Configuration/03_Composants.md "Les composants se configurent depuis le menu Configuration > Composants")).*
 
 La liste des composants comprend :
 

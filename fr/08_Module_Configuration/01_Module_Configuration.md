@@ -8,7 +8,7 @@ Le module Configuration permet d'accéder aux options de configuration général
 
 -   **[Configurer les composants](index.php?fr/08_Module_Configuration/03_Composants.md)**
      
--   **[Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer les notifications.md)**
+-   **[Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md)**
      Configurer les suivis par courriels, créer des modèles de notifications, définir l'envoi de notification.
 
 -   **[Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md)**

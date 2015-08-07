@@ -10,7 +10,7 @@ Les informations financières sont composées des éléments suivants :
 
 ***Informations financières et administratives :***
 
--   **Fournisseur** : tiers qui a vendu le matériel. Voir [Gérer les fournisseurs](management_supplier.html "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs") ;
+-   **Fournisseur** : tiers qui a vendu le matériel. Voir [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs") ;
 -   **Numéro de commande** : numéro de la commande du matériel ;
 -   **Numéro d'immobilisation** ;
 -   **Numéro de facture** : numéro de la facture du matériel ;
