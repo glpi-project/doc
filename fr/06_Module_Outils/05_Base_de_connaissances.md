@@ -18,8 +18,7 @@ L'onglet *Gérer*, visible en fonction du profil utilisateur, permet la gestion 
 Il est nécessaire de sélectionner pour chaque article de la base de connaissances ou de la FAQ une ou plusieurs cibles. La ou les cibles correspondent aux entités, profils, groupes ou utilisateurs qui pourront consulter l'article. Tant qu'aucune cible n'a été sélectionnée pour un article, ce dernier est visible uniquement par son rédacteur.
 L'article est considéré comme "non publié" et apparaît dans le tableau "Articles non publiés" de la page d'accueil de la base de connaissances.
 
-Par défaut, les articles ne peuvent pas être traduits dans plusieurs langues. Cette fonctionnalité est activable (voir [Onglet Configuration
-Affichage](config_common_display.html "Cet onglet permet de personnaliser l'apparence générale de l'application.")).
+Par défaut, les articles ne peuvent pas être traduits dans plusieurs langues. Cette fonctionnalité est activable (voir [la configuration générale](index.php?fr/08_Module_Configuration/06_Générale/02_Configuration_Générale.md "Cet onglet permet de personnaliser l'apparence générale de l'application.")).
 
 Il est possible d'associer un ou plusieurs documents aux articles de la base de connaissances.
 
@@ -31,7 +30,7 @@ Il est possible d'associer un ou plusieurs documents aux articles de la base de 
 >Par contre des balises au format HTML (`<BALISE>`) peuvent disparaître au moment de l'édition ; pour avoir une visibilité complète du texte vous pouvez passer en mode HTML où tous les éléments seront visibles. 
 >Votre navigateur peut également modifier dynamiquement le contenu (changement de casse, ajout de balises) lors d'une édition.
 
-Il est possible de créer des catégories et sous-catégories afin d'organiser la navigation (voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
+Il est possible de créer des catégories et sous-catégories afin d'organiser la navigation (voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
 L'utilisateur peut utiliser plusieurs mode pour recherche et naviguer au sein de la base de connaissances via 3 onglets différents :
 
 -   **Rechercher :** c'est l'onglet par défaut. Il présente les articles les plus récents, les plus populaires et les dernières modifications. Il permet également de rechercher au sein de la base de     connaissances.

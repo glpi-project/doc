@@ -12,8 +12,7 @@ Si la date de fin n'est pas mentionnée, la note sera visible de façon permanen
 L'ajout d'une note au calendrier permet de la faire apparaître sur le planning des utilisateurs concernés par la note : celui de l'utilisateur pour une note personnelle, les plannings de tous les utilisateurs dans
 le cas d'une note publique. Une note planifiée n'est pas supprimée une fois la date expirée.
 
-***Remarque :** Il est possible de définir un rappel de la note avant son début en définissant un intervalle de temps pour le rappel. Les notifications doivent être activées pour cela (voir [Configurer les
-notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+***Remarque :** Il est possible de définir un rappel de la note avant son début en définissant un intervalle de temps pour le rappel. Les notifications doivent être activées pour cela (voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
 
 Les différents onglets
