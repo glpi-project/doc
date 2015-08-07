@@ -61,4 +61,4 @@ Voir **configurer les notifications**.
 Les rapports concernant les tickets, les problèmes ou les changements sont disponibles dans le menu ***Assistance > Statistiques***.
 
 -------------
-**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md** "Le service d'Assistance aux utilisateurs de GLPI")
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

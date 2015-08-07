@@ -5,8 +5,7 @@ Chaque profil possède sont propre cycle de vie défini dans une [matrice](index
 
 Types de tickets
 ----------------
-Les tickets dans GLPI sont soit des incidents, soit des demandes. Ce champ *type* va permettre d'exécuter certaines actions (voir [les règles métier de modification et affectation des tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Les règles métier de modification et affectation des tickets"),
-[les gabarits de tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "Les gabarits de tickets") et [la gestion des problèmes](index.php?fr/04_Module_Assistance/08_Problèmes "La gestion des problèmes"))
+Les tickets dans GLPI sont soit des incidents, soit des demandes. Ce champ *type* va permettre d'exécuter certaines actions (voir [les règles métier de modification et affectation des tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Les règles métier de modification et affectation des tickets"), [les gabarits de tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "Les gabarits de tickets") et [la gestion des problèmes](index.php?fr/04_Module_Assistance/08_Problèmes "La gestion des problèmes"))
 et de personnaliser la liste des catégories disponibles.
 
 
@@ -23,7 +22,7 @@ ITIL définit le cycle de vie des statuts d'un ticket. Ce cycle de vie est impl�
 Ces statuts ne sont ni paramétrables ni modifiables.
 
 ***Remarques :***
-*- On peut néanmoins cacher certains statuts suivant le profil (voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md).*
+*- On peut néanmoins cacher certains statuts suivant le profil (voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)).*
 
 *- Pour aller plus loin dans cette gestion des statuts, voir [Les collecteurs](helpdesk_advanced_collectors.html "Les collecteurs"),
 [Les gabarits de tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md "Les gabarits de tickets") et

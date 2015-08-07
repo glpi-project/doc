@@ -10,7 +10,7 @@ Dans la fiche d'une cartouche, plusieurs informations sont disponibles:
 
 Le seuil d'alerte correspond à la valeur minimale à partir de laquelle une alerte est déclenchée.
 
-***Remarque :** Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir [Configurer les notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+***Remarque :** Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
 Pour qu'une cartouche puisse être installable sur une imprimante, celle-ci doit être renseignée comme compatible avec cette imprimante.
 

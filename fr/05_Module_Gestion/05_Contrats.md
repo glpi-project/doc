@@ -15,7 +15,7 @@ Il est possible d'être alerté par courriel sur différents éléments du contr
 
 Description des champs
 ----------------------
--   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. Voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés") ;
+-   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. Voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés") ;
 -   **Numéro**: cette information n'est pertinente que si le numéro de contrat est identique à celui utilisé au sein des autres services de la société ;
 -   **Date de début** : à ne pas confondre avec la date d'enregistrement du contrat dans GLPI. Tous les calculs de périodicité sur le contrat sont donc fonction de cette date ;
 -   **Durée initiale du contrat** : si ce champ et la date de début sont renseignés, la date de fin de contrat apparaitra (en rouge si la date a expirée) ;
@@ -23,7 +23,7 @@ Description des champs
 -   **Numéro comptable** : pour permettre un rapprochement avec le logiciel comptable de la société ;
 -   **Périodicité du contrat** : c'est la durée à laquelle la reconduction du contrat est possible (*Exemple : Un contrat d'abonnement téléphonique d'une durée de 24 mois renouvelable au bout de 12 mois*) ;
 -   **Périodicité de facturation** :
--   **Type de reconduction** : [Tacite](glossary/evergreen.dita) ou [Expresse] glossary/specific_renewal.dita) ;
+-   **Type de reconduction** : *Tacite* (le contrat est reconductible automatiquement d'une période à une autre si aucune des parties ne manifeste sa volonté de le rompre) ou *Expresse* (nécessite l'accord des deux parties pour la reconduction du contrat) ;
 -   **Nombre max d'éléments** : la valeur choisie dans ce champ bloquera ou non l'ajout de nouvel éléments attachés à ce contrat ;
 -   **Heures d'intervention** : Les plages horaires d'intervention correspondent aux horaires d'intervention couvert par le contrat. Il est possible d'y distinguer les samedis et les jours chômés.
 

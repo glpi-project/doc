@@ -35,7 +35,7 @@ Pour aller plus loin
      Les relations entre les tickets : liaison et duplication
 
 -   **Les délais de résolutions d'incidents ou SLA**
-    Voir [Configurer les SLAs](config_sla.html "Dans GLPI, administrer les SLAs peut se faire à partir du menu Configuration > SLAs.").
+    Voir [Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md "Dans GLPI, administrer les SLAs peut se faire à partir du menu Configuration > SLAs.").
 
 -   **Les règles métier de modification et affectation des tickets**
     Voir [Règles métier pour les tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.").
@@ -65,4 +65,4 @@ Pour aller plus loin
 -   Voir également la **[configuration avancée](index.php?fr/04_Module_Assistance/04_Configuration_avancée.md)**
 
 ---------------
-**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance)** "Le service d'Assistance aux utilisateurs de GLPI")
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance "Le service d'Assistance aux utilisateurs de GLPI")

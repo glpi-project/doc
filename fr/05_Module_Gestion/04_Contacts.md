@@ -1,7 +1,7 @@
 Gérer les contacts
 ==================
 
-Les utilisateurs au sens de GLPI sont les personnes disposant d'un accès à l'application. Les personnes extérieures, généralement associées à des contrats, sont stockées sous la forme de contacts (voir [Contact](glossary/contact.html)).
+Les utilisateurs au sens de GLPI sont les personnes disposant d'un accès à l'application. Les personnes extérieures, généralement associées à des contrats, sont stockées sous la forme de contacts.
 
 Chaque contact est caractérisé par les informations d'identité usuelles ainsi qu'un titre et des coordonnées téléphoniques, de messagerie et postales. La définition d'une liste de types de contacts permet de classer les contacts selon leur type. L'exportation au format vCard est possible dans la fiche de chaque contact.
 

@@ -12,7 +12,7 @@ Outre ce menu, le ticket peut être créé de différentes manières dans l'inte
 - Interface standard :
   - en cliquant sur le ![image](docs/image/menu_add.png) situé dans le menu horizontal (voir [ajout standard](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md) comme tout objet de GLPI) ;
 
-Voir également [Ouvrir un ticket](index.php?fr/04_Module_Assistance/04_Tickets/04_Ouvrir_un_tickets.md1 "Toutes les manières de créer un ticket dans GLPI").
+Voir également [Ouvrir un ticket](index.php?fr/04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.md "Toutes les manières de créer un ticket dans GLPI").
 
 -------
 **Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")

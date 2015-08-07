@@ -15,8 +15,7 @@ Description des champs
 - **Date de fin** : associée à la date de début elle définie la périodicité de la création (facultative) ;
 - **Périodicité** : il s'agit de la fréquence de création des tickets ; 
 - **Création anticipée** : le processus peut être déclenché de manière anticipée de 1h à 7 jours ;
-- **Calendrier** : il permet la limitation des jours ouvrés pour lesquels les tickets sont créés. Si
-la création automatique avait programmé une création de ticket un week-end par exemple celle-ci sera reportée au lundi.
+- **Calendrier** : il permet la limitation des jours ouvrés pour lesquels les tickets sont créés. Si la création automatique avait programmé une création de ticket un week-end par exemple celle-ci sera reportée au lundi.
 
 ***Remarque :** Les tickets ne seront créés que si le témoin Actif est à Oui et pendant la période définie entre la date de début et la date de fin.*
 

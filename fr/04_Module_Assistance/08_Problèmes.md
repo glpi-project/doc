@@ -10,8 +10,7 @@ Pour plus d'informations voir [Gérer les tickets](index.php?fr/04_Module_Assist
 
 ***Remarque :** Depuis la liste des tickets, une solution de contournement peut être associé massivement aux tickets liés sans pour autant résoudre le problème.*
 
-Les problèmes utilisent leurs propres notifications (voir [Configurer les suivis par courriels et les
-alertes](config_notification_configuration.html "La configuration générale des notifications se fait depuis le menu Configuration > Notifications > Configurer les suivis par courriels et les alertes;")).
+Les problèmes utilisent leurs propres notifications (voir [Configurer les suivis par courriels](index.php?fr/08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md "La configuration générale des notifications se fait depuis le menu Configuration > Notifications > Configurer les suivis par courriels;")).
 
 Des statistiques similaires aux tickets sont disponibles pour les problèmes (voir [Visualiser les statistiques](index.php?fr/04_Module_Assistance/11_Statistiques.md "Les rapports concernant les problèmes sont disponibles dans le menu Assistance > Statistiques")).
 

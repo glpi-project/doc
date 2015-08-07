@@ -1,7 +1,7 @@
 Gérer les fournisseurs
 ======================
 
-GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
+GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
 Celui-ci sert à la fois à identifier qui a vendu un matériel (dans la gestion de parc) mais aussi à attribuer des tickets à cette personne ou société.
 
 Lors de l'achat d'un matériel de marque XX à un fournisseur YY, il faut traiter deux informations distinctes à savoir le fabricant (XX) et le fournisseur (YY).
@@ -14,8 +14,7 @@ Un fournisseur est commun à toute les entités quand il s'agit d'un fournisseur
 Par contre, un fournisseur local à une entité sera créé par le gestionnaire de parc de celle-ci, et sera seulement visible dans ce périmètre. 
 Bien entendu, une personne ayant une visibilité récursive sur toutes les entités verra à la fois les fournisseur globaux et locaux.
 
-> ATTENTION :
-> Si un site web pour l'entreprise est défini, ne pas oublier le `http://` au début de l'adresse internet.
+***Remarque :** Il n'est pas nécessaire de mettre le `http://` au début de l'adresse internet*.
 
 Les différents onglets
 ----------------------

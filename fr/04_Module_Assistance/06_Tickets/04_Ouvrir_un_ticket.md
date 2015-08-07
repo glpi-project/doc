@@ -50,18 +50,16 @@ Pour cela, remplir le formulaire de saisie proposé à l'ouverture de GLPI et va
 **Champs spécifiques :**
 
 -   **Informez-moi des suites données**
-    Apparaît si les suivis par courriel ont été configurés (voir [Configurer les notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications").
+    Apparaît si les suivis par courriel ont été configurés (voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications").
     La sélection à "oui" permet au demandeur d'être tenu informé par courriel des différents traitements concernant son ticket.
     Le champ Courriel correspond à l'adresse où seront envoyées les notifications. Si plusieurs courriels sont définis, GLPI prendra l'adresse par défaut définie dans les préférences de l'utilisateur. Il est possible d'en sélectionner une autre ou d'entrer une adresse si la fiche de l'utilisateur n'en mentionne pas ;
 
 -   **Le ticket porte sur** : permet d'associer un objet d'inventaire à un ticket.
-    Le contenu de la ou des listes dépend des paramètres définis dans le profil (Voir [Administrer les profils
-    d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
+    Le contenu de la ou des listes dépend des paramètres définis dans le profil (Voir [Administrer les profils d'utilisateurs](index.php?fr/07_Module_Administration/07_Profils/0_Profils.md "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
 
 -   **Observateur** : permet d'ajouter un observateur et de définir ses paramètres de notification. Seul les membres des groupes du demandeur peuvent être associés.
 
-***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir [Gérer ses
-préférences](start_pref.html "Les préférences utilisateur se modifient depuis le menu Préférences")).
+***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences")).
 
 Si vous ajouter une image ou un document au ticket, il est important de la faire après avoir rempli tous les champs marqués obligatoires (astérisque rouge), car le rechargement du formulaire entraine la suppression des images (ou des documents) liés.
 
@@ -93,8 +91,7 @@ En activant l'option "**Utiliser du texte riche pour l'assistance**" dans la con
 
 Ouvrir automatiquement un ticket 
 ================================
-Ce mécanisme s'active via les [tickets récurrents](index.php?fr/04_Module_Assistance/10_Tickets_récurrents.md)
+Ce mécanisme s'active via les [tickets récurrents](index.php?fr/04_Module_Assistance/10_Tickets_récurrents.md).
 
 ------------
-**Sujet parent :** [Le service d'assistance aux
-utilisateurs](../glpi/helpdesk.html "Le service d'Assistance aux utilisateurs de GLPI")
+**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

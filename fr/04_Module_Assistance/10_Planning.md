@@ -24,7 +24,7 @@ Ces informations sont exportables sous 2 formats :
 
 ***Remarques :***
 
-*- L'accès aux flux Ical et Webcal est protégé par une clé de sécurité intégrée dans l'URL. Il est possible de régénérer cette clé à partir du menu "Préférences". Voir [Gérer ses préférences](start_pref.html "Les préférences utilisateur se modifient depuis le menu Préférences") et plus précisément [Personnaliser l'interface](config_common_personalize.html "Les préférences d'affichage qui peuvent être définies avec des valeurs par défaut et que les utilisateurs peuvent modifier pour leur session sont regroupées dans l'onglet personnalisation.").*
+*- L'accès aux flux Ical et Webcal est protégé par une clé de sécurité intégrée dans l'URL. Il est possible de régénérer cette clé à partir du menu "Préférences". Voir [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences").*
 
 *- Votre planning peut être affiché sur la page d'accueil si vous avez le droit *Voir mon planning personnel* dans votre profil.*
 

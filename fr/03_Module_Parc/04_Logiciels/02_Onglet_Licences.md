@@ -9,7 +9,7 @@ Le type est la nature du droit d'utilisation. Le type OEM est le seul type confi
 
 Le nombre indique le volume d'installation qui pourra être fait avec cette licence. Cela peut être un nombre d'utilisateurs (licence flottante), un nombre d'installations (licence multiple), un nombre illimité (licence site), etc. Il est possible d'affecter la licence à un ou plusieurs ordinateurs correspondant. par exemple si la licence est de type OEM.
 
-L'expiration est la date limite donnant droit d'utilisation de la licence. La dépassement de cette date peut déclencher une notification. Voir [Configuration des notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications ;").
+L'expiration est la date limite donnant droit d'utilisation de la licence. La dépassement de cette date peut déclencher une notification. Voir [Configuration des notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;").
 
 ***Conseil :*** Ceci est configurable par entité dans le menu ***Configuration > Notifications*** pour définir les modèles et destinataires utilisés et dans le menu ***Configuration > Entité*** pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l'envoi de la notification si besoin.
 
@@ -54,7 +54,7 @@ Les différentes actions
   Depuis le menu **Parc > Logiciels** cliquer sur le nom de la licence dans l'onglet *Licences*.
 - **Supprimer l'utilisation d'une licence par un ordinateur**
   Voir onglet *Ordinateurs* ci-dessus
-  [Voir onglet *Logiciels* d'un ordinateur](index.php?fr/03_Module-Parc/04_Logiciels/01_Logiciels.md)
+  [Voir onglet *Logiciels* d'un ordinateur](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md)
 - **[Associer un document à une licence](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 - **[Associer un contrat à une licence](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 

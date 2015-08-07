@@ -11,10 +11,9 @@ Le système de validation est également le même que celui des tickets afin de 
 Une fois le changement créé, il est possible de lui rattacher des tickets mais aussi des matériels impactés (onglet *Eléments*). Une phase d'analyse (onglet *Analyse*) consiste à décrire les impacts et la liste
 de contrôles afin d'arriver à mettre en place ce changement via un plan de déploiement accompagné d'un plan de repli et d'une liste de vérifications (onglet *Plans*).
 
-Tout comme les tickets, la gestion de tâches, des coûts et l'ajout d'une solution permettent de suivre et de résoudre le changement. Pour la gestion de changements complexes, un changement peut être lié à un ou plusieurs projets permettant une gestion plus complète ([Gérer les projets](index.php?fr/06_Module_Outils/02_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")).
+Tout comme les tickets, la gestion de tâches, des coûts et l'ajout d'une solution permettent de suivre et de résoudre le changement. Pour la gestion de changements complexes, un changement peut être lié à un ou plusieurs projets permettant une gestion plus complète ([Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")).
 
-Les changements utilisent leurs propres notifications (voir [Configurer les suivis par courriels et les
-alertes](config_notification_configuration.html "La configuration générale des notifications se fait depuis le menu Configuration > Notifications > Configurer les suivis par courriels et les alertes;")).
+Les changements utilisent leurs propres notifications (voir [Configurer les suivis par courriels](index.php?fr/08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md "La configuration générale des notifications se fait depuis le menu Configuration > Notifications > Configurer les suivis par courriels;")).
 
 
 Les différents onglets

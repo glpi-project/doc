@@ -17,7 +17,7 @@ Description de différents champs
 
 - **Date d'échéance** : Date à laquelle le ticket doit être résolu ;
 
-Ces 2 dates permettent de circonscrire l'incident ou la demande de service dans le temps. Un **SLA** peut également être associé à un ticket. Dans ce cas, le SLA ainsi que le prochain niveau d'escalade sont affichés (voir [Configurer les SLAs](config_sla.html "Dans GLPI, administrer les SLAs peut se faire à partir du menu Configuration > SLAs.")).
+Ces 2 dates permettent de circonscrire l'incident ou la demande de service dans le temps. Un **SLA** peut également être associé à un ticket. Dans ce cas, le SLA ainsi que le prochain niveau d'escalade sont affichés (voir [Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md "Dans GLPI, administrer les SLAs peut se faire à partir du menu Configuration > SLAs.")).
 
 - **Par** : référence l'utilisateur GLPI qui a ouvert le ticket ;
 
@@ -25,16 +25,15 @@ Ces 2 dates permettent de circonscrire l'incident ou la demande de service dans 
 
 - **Catégorie** permet de classer les demandes ou incidents suivant leur nature (une catégorie pouvant être associée uniquement à un seul type) ;
 
-- **Statut** statut attribué manuellement par le technicien ou dynamiquement suivant les actions effectuées (voir [Règles de gestion](index.php?fr/04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md) et [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md)) ;
+- **Statut** statut attribué manuellement par le technicien ou dynamiquement suivant les actions effectuées (voir [Règles de gestion](index.php?fr/04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md) et [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)) ;
 
-- **Source de la demande** : canal utilisé pour créer les tickets (voir [Configurer les
-intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")) ;
+- **Source de la demande** : canal utilisé pour créer les tickets (voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")) ;
 
 - **Urgence** : indique l'importance donnée par le demandeur au ticket ;
 
 - **Impact** : est celle jugée par le technicien ;
 
-- **Priorité** : est l'importance du ticket calculée automatiquement suivant une matrice de calcul prédéfinie en tenant compte de l'impact et de l'urgence définis (Voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md) ;
+- **Priorité** : est l'importance du ticket calculée automatiquement suivant une matrice de calcul prédéfinie en tenant compte de l'impact et de l'urgence définis (Voir [Matrice de cycle de vie](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md) ;
 
 - **Validation** : par défaut il est *non soumis à validation* ;
 
@@ -43,9 +42,9 @@ intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu C
 - **Lieu** : permet d'indiquer le lieu de l'intervention et n'a aucun lien avec le lieu de l'élément associé où le lieu du demandeur (cas d'un demandeur "nomade" avec un portable) ;
 
 - **Les acteurs**
-  Les acteurs concernés sont référencés dans le ticket, ce qui permet leur notification durant le cycle de vie du ticket (Voir [Définir les acteurs](index.php?fr/04_Module_Assistance/02_Définir_les_Acteurs.md).
+  Les acteurs concernés sont référencés dans le ticket, ce qui permet leur notification durant le cycle de vie du ticket (Voir [Définir les acteurs](index.php?fr/04_Module_Assistance/02_Définir_les_Acteurs.md)).
 
-  Deux informations concernant les notifications apparaissent pour un utilisateur ou un fournisseur si les suivis par courriels ont été configurés (Voir [Configurer les notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications ;")) : l'activation du **suivi par courriel** pour ce ticket et le **courriel** utilisé. Celui-ci est pré-rempli par défaut avec la valeur présente et définie par défaut dans la fiche de l'utilisateur ou du fournisseur (s'il en a une) et peut être modifié dans la liste déroulante si besoin. Si aucun courriel n'est défini dans la fiche de l'utilisateur ou du fournisseur sélectionnée, elle peut être indiquée, uniquement pour ce ticket, dans la zone de texte.
+  Deux informations concernant les notifications apparaissent pour un utilisateur ou un fournisseur si les suivis par courriels ont été configurés (Voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;")) : l'activation du **suivi par courriel** pour ce ticket et le **courriel** utilisé. Celui-ci est pré-rempli par défaut avec la valeur présente et définie par défaut dans la fiche de l'utilisateur ou du fournisseur (s'il en a une) et peut être modifié dans la liste déroulante si besoin. Si aucun courriel n'est défini dans la fiche de l'utilisateur ou du fournisseur sélectionnée, elle peut être indiquée, uniquement pour ce ticket, dans la zone de texte.
 
   Dans le cadre d'une utilisation de GLPI multi-entités avec des techniciens ayant des habilitations sur plusieurs entités, il n'est pas nécessaire de changer l'entité courante pour déclarer un nouvel incident
 dans une entité. Le cheminement de l'ouverture d'un nouveau ticket est le suivant : le technicien commence par sélectionner le demandeur et GLPI va déterminer les entités sur lesquelles celui-ci a des habilitations. 
@@ -72,11 +71,11 @@ Les différents onglets
 
     Pour ajouter un suivi, cliquer sur **Ajouter un nouveau suivi** et saisir une description.
 
-    Il est possible de choisir la source du suivi (Voir [Configurer les intitulés](config_dropdown.html "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
+    Il est possible de choisir la source du suivi (Voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
 
     Un suivi peut être privé ou public. Un suivi privé n'est visible que des utilisateurs ayant le droit `Voir tous les suivis et tâches` (publics et privés) dans ses habilitations. Cela permet, par exemple, un échange entre techniciens sans que le demandeur ne puisse le voir.
 
-    L'ajout, la modification ou la suppression d'un suivi dépend des droits définis dans le profil (voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
+    L'ajout, la modification ou la suppression d'un suivi dépend des droits définis dans le profil (voir [Administrer les profils d'utilisateurs](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.")).
 
 
 -   **[Onglet "Validation"](index.php?fr/Les_différents_onglets/Onglet_Validations.md)**
