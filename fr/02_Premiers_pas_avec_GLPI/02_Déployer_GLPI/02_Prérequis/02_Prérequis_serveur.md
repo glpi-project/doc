@@ -14,7 +14,7 @@ GLPI nécessite un serveur web supportant PHP tels que :
 PHP
 ---
 
-GLPI nécessite PHP version 5.3 ou supérieure ([http://www.php.net](http://www.php.net)).
+GLPI nécessite PHP version 5.4 ou supérieure ([http://www.php.net](http://www.php.net)).
 
 Extensions PHP obligatoires
 ---------------------------
