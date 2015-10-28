@@ -70,8 +70,8 @@
     -   [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md)
  
 -   [Module Outils](index.php?fr/06_Module_Outils/01_Module_Outils.md)
-    -   [Gérer les projets](index.php?fr/06_Module_Outils/02/Projets/01_Projets.md)
-        - [les tâches d'un projet](index.php?fr/06_Module_Outils/02/Projets/02_Onglet_Tâches.md)
+    -   [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md)
+        - [les tâches d'un projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches.md)
     -   [Gérer les notes personnelles ou publiques](index.php?fr/06_Module_Outils/03_Notes.md)
     -   [Gérer les flux RSS](index.php?fr/06_Module_Outils/04_Flux_RSS.md)
     -   [Gérer la base de connaissances](index.php?fr/06_Module_Outils/05_Base_de_connaissances.md)
