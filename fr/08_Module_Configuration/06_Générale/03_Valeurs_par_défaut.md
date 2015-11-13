@@ -39,7 +39,7 @@ Personnalisation
 
 Assistance
 ----------
-![image](docs/image/pref_assistance.png)
+![image](docs/image/pref-assistance.png)
 
 Les paramètres sont applicables à tous les objets du menu ***Assistance***.
 
