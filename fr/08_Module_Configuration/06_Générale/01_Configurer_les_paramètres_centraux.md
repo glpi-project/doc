@@ -18,13 +18,18 @@ Les différents onglets
 -   **[Onglet Assistance](index.php?fr/08_Module_Configuration/06_Générale/05_Assistance.md)**
      Cet onglet permet de paramétrer le comportement de la partie assistance de GLPI y compris la matrice de calcul de la priorité.
 
--   **[Onglet Système](../glpi/config_common_sysinfo.html)**\
-     Cet onglet permet de visualiser un résumé des informations sur les
-    capacités du serveur web et de définir les informations de
-    journalisation et d'erreurs à enregistrer ainsi que la politique des
+-   **[Onglet Système](index.php?fr/08_Module_Configuration/06_Générale/06_Système.md)**
+     Cet onglet permet de visualiser un résumé des informations sur les capacités du serveur web et de définir les informations de journalisation et d'erreurs à enregistrer ainsi que la politique des
     mots de passe à appliquer.
--   **[Onglet Réplicat MySQL](../glpi/config_common_mysql.html)**\
+
+-   **[Onglet Réplicat MySQL](index.php?fr/08_Module_Configuration/06_Générale/07_Replicats_MySQL.md)**
      GLPI peut être configuré pour utiliser une base MySQL esclave.
 
-**Sujet parent :** [Module
-Configuration](../glpi/config.html "Module Configuration de GLPI")
+-   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
+    Uniquement si vous êtes connecté en mode Debug.
+
+-   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+     Pour un élément, toutes les informations sont affichées sur une seule page.
+
+--------
+**Sujet parent :** [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")
