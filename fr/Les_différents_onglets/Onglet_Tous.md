@@ -60,6 +60,16 @@ Celui-ci présente en une seule vue tous les onglets de la fiche de l'objet les 
 
 **Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
 
-**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
+**Sujet parent :** [Gérer les profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
 
 **Sujet parent :** [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")
+
+**Sujet parent :** [Configurer les composants](index.php?fr/08_Module_Configuration/03_Composants.md "Les composants se configurent depuis le menu Configuration > Composants")
+
+**Sujet parent :** [Configurer les modèles de notification](index.php?fr/08_Module_Configuration/04_Notifications/03_Modèles_de_notifications.md "Les modèles de notification se configurent depuis le menu Configuration > Notification > Modèles de notification")
+
+**Sujet parent :** [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/04_Notifications.md "Les notifications se configurent depuis le menu Configuration > Notification > Notification")
+
+**Sujet parent :** [Configurer les SLA](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md "Les SLA se configurent depuis le menu Configuration > SLA")
+
+**Sujet parent :** [Configuration générale](index.php?fr/08_Module_Configuration/006_Générale/01_Configurer_les_paramètres_centraux.md "Les paramètres centraux se configurent depuis le menu Configuration > Générale")

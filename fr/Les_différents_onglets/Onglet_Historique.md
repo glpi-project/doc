@@ -62,6 +62,10 @@ La description du changement présente soit l'évolution entre l'ancienne et la 
 
 **Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
 
-**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
+**Sujet parent :** [Gérer les profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Les profils se gèrent depuis le menu Administration > Profils")
 
 **Sujet parent :** [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")
+
+**Sujet parent :** [Configurer les modèles de notification](index.php?fr/08_Module_Configuration/04_Notifications/03_Modèles_de_notifications.md "Les modèles de notification se configurent depuis le menu Configuration > Notification > Modèles de notification")
+
+**Sujet parent :** [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/04_Notifications.md "Les notifications se configurent depuis le menu Configuration > Notification > Notification")

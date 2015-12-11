@@ -47,3 +47,5 @@ Figure 1. Onglet Debug d'un ticket
 
 **Sujet parent :** [Gérer les dictionnaires](index.php?fr/07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")
 
+**Sujet parent :** [Configuration générale](index.php?fr/08_Module_Configuration/006_Générale/01_Configurer_les_paramètres_centraux.md "Les paramètres centraux se configurent depuis le menu Configuration > Générale")
+
