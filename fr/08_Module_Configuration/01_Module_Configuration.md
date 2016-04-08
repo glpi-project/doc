@@ -16,13 +16,10 @@ Le module Configuration permet d'accéder aux options de configuration général
 
 -   **[Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md)**
 
--   **[Configurer les contrôles](../glpi/config_controls.html)**\
-     Les contrôles se configurent depuis le menu Configuration \>
-    Contrôles ;
--   **[Configurer les actions
-    automatiques](../glpi/config_crontask.html)**\
-     Les actions automatiques se configurent depuis le menu
-    Configuration \> Actions automatiques
+-   **[Configurer les contrôles](index.php?fr/08_Module_Configuration/07_Controles.md)**
+     
+-   **[Configurer les actions automatiques](index.php?fr/08_Module_Configuration/08_Actions_automatiques.md)**
+     
 -   **[Configurer les collecteurs](../glpi/config_mailcollector.html)**\
      La configuration des collecteurs s'effectue depuis le menu
     Configuration \> Collecteurs
