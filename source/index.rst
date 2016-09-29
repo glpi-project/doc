@@ -9,8 +9,8 @@ GLPi User Documentation
 .. toctree::
    :maxdepth: 3
 
-   01_preface.md
-   02_Premiers_pas_avec_GLPI/01_Premiers_pas_avec_GLPI.md
+   01_preface.rst
+   02_Premiers_pas_avec_GLPI/index.rst
    03_Module_Parc/01_Module_Parc.md
    04_Module_Assistance/01_Module_Assistance.md
    05_Module_Gestion/01_Module_Gestion.md
