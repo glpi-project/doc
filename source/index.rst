@@ -3,20 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GLPi User Documentation's documentation!
-===================================================
-
-Contents:
+GLPi User Documentation
+=======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   01_preface.md
+   02_Premiers_pas_avec_GLPI/01_Premiers_pas_avec_GLPI.md
+   03_Module_Parc/01_Module_Parc.md
+   04_Module_Assistance/01_Module_Assistance.md
+   05_Module_Gestion/01_Module_Gestion.md
+   06_Module_Outils/01_Module_Outils.md
+   07_Module_Administration/01_Module_Administration.md
+   08_Module_Configuration/01_Module_Configuration.md
