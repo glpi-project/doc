@@ -59,8 +59,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'GLPi User Documentation'
-copyright = u'2016, Teclib\''
-author = u'Teclib\''
+copyright = u'2016, GLPI Project, Teclib\''
+author = u'GLPI Project, Teclib\''
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -270,7 +270,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'GLPiUserDocumentation.tex', u'GLPi User Documentation Documentation',
-     u'Teclib\'', 'manual'),
+     u'GLPI Project, Teclib\'', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
