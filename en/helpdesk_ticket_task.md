@@ -38,5 +38,8 @@ defining a time interval for the reminder. Notifications must be enabled
 (see [Configure
 Notifications](config_notification.html "Notifications are configured from the menu Setup > Notifications ;")).
 
+Note: For recurrent task it is possible to add a task template. You can predefine the values contenct, category and duration. 
+Hint: You should always selcect first a template before change something in text field. The selection will override your text.
+
 **Parent topic:**
 [Actions](../glpi/helpdesk_ticketactions.html "Actions")
