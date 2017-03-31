@@ -11,5 +11,5 @@ Cette partie présente dans un premier temps les prérequis nécessaires à l'in
 .. toctree::
    :maxdepth: 2
 
-   02_Prérequis/01_Prérequis_nécessaires.md
-   03_Installer_l'application.md
+   prerequis
+   installation
