@@ -50,4 +50,4 @@ Si vous avez défini des affichages personnalisés dans les objets, cet onglet s
 Il permet de supprimer les vues personnelles définies pour revenir aux vues galobales.
 
 -------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

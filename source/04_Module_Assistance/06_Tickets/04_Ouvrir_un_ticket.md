@@ -59,7 +59,7 @@ Pour cela, remplir le formulaire de saisie proposé à l'ouverture de GLPI et va
 
 -   **Observateur** : permet d'ajouter un observateur et de définir ses paramètres de notification. Seul les membres des groupes du demandeur peuvent être associés.
 
-***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences")).
+***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir [Gérer ses préférences](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences")).
 
 Si vous ajouter une image ou un document au ticket, il est important de la faire après avoir rempli tous les champs marqués obligatoires (astérisque rouge), car le rechargement du formulaire entraine la suppression des images (ou des documents) liés.
 

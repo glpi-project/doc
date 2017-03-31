@@ -12,4 +12,4 @@ Pour fonctionner, GLPI nécessite un serveur de base de données MySQL de versio
 
 --------------
 **Sujet parent :**
-[Prérequis nécessaires à l'installation de GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/01_Prérequis_nécessaires.md)
+[Prérequis nécessaires à l'installation de GLPI](index.php?fr/01-premiers-pas/02_Déployer_GLPI/02_Prérequis/01_Prérequis_nécessaires.md)

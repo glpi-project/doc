@@ -24,7 +24,7 @@ Les différents onglets
     
 
 -   **Onglet "Préférences"**
-    Permet l'édition des préférences de l'utilisateur. Voir [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences").
+    Permet l'édition des préférences de l'utilisateur. Voir [Gérer ses préférences](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences").
     Pour modifier les données de cet onglet vous devez avoir les droits de modifier la configuration générale.
 
 -   **[Onglet "Eléments utilisés"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**

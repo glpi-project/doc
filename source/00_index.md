@@ -1,27 +1,27 @@
 -   [Préface](index.php?fr/preface.md)
--   [Premiers pas avec GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/01_Premiers_pas_avec_GLPI.md)
-    -   [Déployer GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Déployer_GLPI.md)
-        -   [Prérequis](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/01_Prérequis_nécessaires.md)
-            -   [Prérequis du serveur web](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/02_Prérequis_serveur.md)
-            -   [Prérequis serveur de base de données](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/02_Prérequis/03_Prérequis_base_de_données.md)
+-   [Premiers pas avec GLPI](index.php?fr/01-premiers-pas/01_Premiers_pas_avec_GLPI.md)
+    -   [Déployer GLPI](index.php?fr/01-premiers-pas/02_Déployer_GLPI/02_Déployer_GLPI.md)
+        -   [Prérequis](index.php?fr/01-premiers-pas/02_Déployer_GLPI/02_Prérequis/01_Prérequis_nécessaires.md)
+            -   [Prérequis du serveur web](index.php?fr/01-premiers-pas/02_Déployer_GLPI/02_Prérequis/02_Prérequis_serveur.md)
+            -   [Prérequis serveur de base de données](index.php?fr/01-premiers-pas/02_Déployer_GLPI/02_Prérequis/03_Prérequis_base_de_données.md)
 
-        -   [Installer les pages de l'application GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/03_Installer_l'application.md)
-        -    [Utiliser l'assistant d'installation](index.php?fr/02_Premiers_pas_avec_GLPI/02_Déployer_GLPI/04_Assistant_d'installation.md)
+        -   [Installer les pages de l'application GLPI](index.php?fr/01-premiers-pas/02_Déployer_GLPI/03_Installer_l'application.md)
+        -    [Utiliser l'assistant d'installation](index.php?fr/01-premiers-pas/02_Déployer_GLPI/04_Assistant_d'installation.md)
 
-    -   [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+    -   [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
         -   Choisir un navigateur web
         -   Se connecter à GLPI
         -   Terminer sa session GLPI
-        -   [Découvrir l'interface de GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/02_Découvrir_l'interface_de_GLPI.md)
+        -   [Découvrir l'interface de GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/02_Découvrir_l'interface_de_GLPI.md)
         -   Changer la langue de l'application
-        -   [Gérer son mot de passe](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/03_Gérer_son_mot_de_passe.md)
-        -   [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_preferences.md)
+        -   [Gérer son mot de passe](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/03_Gérer_son_mot_de_passe.md)
+        -   [Gérer ses préférences](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_preferences.md)
             -   [Personnaliser l'interface](config_common_personalize.html)
 
-        -   [Naviguer dans les modules de GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/05_Naviguer_dans_les_modules_de_GLPI.md)
-        -   [L'interface standard et l'interface simplifiée](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
-        -   [Visualiser les enregistrements](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/07_Visualiser_les_enregistrements.md)
-        -   [Rechercher](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/08_Rechercher.md)
+        -   [Naviguer dans les modules de GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/05_Naviguer_dans_les_modules_de_GLPI.md)
+        -   [L'interface standard et l'interface simplifiée](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
+        -   [Visualiser les enregistrements](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/07_Visualiser_les_enregistrements.md)
+        -   [Rechercher](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/08_Rechercher.md)
 
 -   [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md)
     Gestion du parc, des status, recherche globale

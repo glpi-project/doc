@@ -48,4 +48,4 @@ Figure 4. Menu de l'interface simplifiée
 ***Remarque :*** *Le choix de l'interface par défaut ainsi que des différents modules à afficher ou non sont paramétrables dans les profils. Voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").*
 
 ---------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

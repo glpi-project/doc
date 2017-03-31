@@ -30,7 +30,7 @@ Par défaut, 7 profils sont pré-enregistrés dans GLPI :
 
 -   **Observer** : Ce profil dispose de droits de lecture sur toutes les données d'inventaire et de gestion. Au niveau de l'assistance, il pourra déclarer un ticket ou s'en voir attribuer mais ne pourra administrer cette rubrique (*attribuer un ticket, voler un ticket...).*
 
--   **Self-Service** : Ce profil est le plus limité. C'est d'ailleurs le seul à disposer d'une interface différente, [l'**interface simplifiée**, en opposition à l'**interface standard**](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md). Il pourra cependant déclarer un ticket, y ajouter un suivi, consulter la FAQ ou encore réserver un matériel. Ce profil est enregistré comme profil par défaut.
+-   **Self-Service** : Ce profil est le plus limité. C'est d'ailleurs le seul à disposer d'une interface différente, [l'**interface simplifiée**, en opposition à l'**interface standard**](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md). Il pourra cependant déclarer un ticket, y ajouter un suivi, consulter la FAQ ou encore réserver un matériel. Ce profil est enregistré comme profil par défaut.
 
 Explication des droits
 ----------------------
@@ -112,7 +112,7 @@ Les différentes actions
 
       >Important : Si plus d'un profil est enregistré comme profil par défaut, le premier enregistré fera autorité sur tous les autres.
 
-    - Choix de l'interface : [standard ou simplifiée](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
+    - Choix de l'interface : [standard ou simplifiée](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
 
     - Modifier son mot de passe
       Lorsque ce champ est coché, les utilisateurs ayant ce profil auront la possibilité de

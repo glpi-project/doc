@@ -53,7 +53,7 @@ Les différents onglets
 
    ***Remarques :***
    - La colonne licence est remplie uniquement lorsque la licence est affectée à l'ordinateur concerné.
-   - L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/04_Gérer_ses_préférences.md").
+   - L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md").
 
    2 options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
 

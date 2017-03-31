@@ -23,7 +23,7 @@ Table des matières
 .. toctree::
    :maxdepth: 3
 
-   02_Premiers_pas_avec_GLPI/index.rst
+   01-premiers-pas/index.rst
    03_Module_Parc/01_Module_Parc.md
    04_Module_Assistance/01_Module_Assistance.md
    05_Module_Gestion/01_Module_Gestion.md

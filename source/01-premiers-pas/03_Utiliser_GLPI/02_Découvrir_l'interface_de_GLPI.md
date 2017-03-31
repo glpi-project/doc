@@ -14,4 +14,4 @@ Figure 1. L'interface de GLPI ![image](docs/image/interface.png)
 5.  La zone de travail principale est l'espace privilégié d'interaction avec l'application.
 
 ------------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

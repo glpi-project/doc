@@ -21,7 +21,7 @@ Depuis la liste des utilisateurs, 3 options sont proposées pour ajouter un util
   Cet icone apparaît si votre profil possède le droit Utilisateur "Ajout externe".
    GLPI offre la possibilité de rechercher des utilisateurs de manière avancée dans un annuaire LDAP. L'interface est restreinte à la liste d'entités provenant des habilitations de la personne connecté sur GLPI. Voir [Administrer les profils d'utilisateurs](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
   Une fois l'entité choisie (si GLPI est en mode multi-entités, ou si la personne se servant de l'interface possède des habilitations sur plusieurs entités), une liste de critères apparaît, basée sur les informations personnelles récupérées pour cet annuaire.
-  La syntaxe de recherche dans les champs est identique à celle du moteur de recherche. Voir [Rechercher](index.php?fr/02_Premiers_pas_avec_GLPI/03_Utiliser_GLPI/08_Rechercher.md "Rechercher des informations dans GLPI").
+  La syntaxe de recherche dans les champs est identique à celle du moteur de recherche. Voir [Rechercher](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/08_Rechercher.md "Rechercher des informations dans GLPI").
   Vous pouvez limiter la recherche aux utilisateurs ajoutés ou modifiés dans l'annuaire durant une période donnée en suivant le lien **Activer le filtrage par date**.
 
   ***Remarques :***
