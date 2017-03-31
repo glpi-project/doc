@@ -9,7 +9,7 @@ Sur ce port, il est possible d'ajouter un ou plusieurs VLAN, ces derniers peuven
 
 Pour chaque matériel, il est possible à tout moment d'ajouter un ou plusieurs ports grâce au système de modification massive.
 
-Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](index.php?fr/08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
+Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
 On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
 
 -   Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.
@@ -83,14 +83,14 @@ Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats a
     Un aggrégat de ports comporte les ports d'origine (ie. ceux sur lesquels il s'appuie) et une adresse MAC.
 
 --------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
+**Sujet parent :** [Gérer les matériels réseaux](03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
+**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
 
-**Sujet parent :** [Onglet "Connexions"](index.php?fr/index.php?fr/Les_différents_onglets/Onglet_Connexions.md "Gestion des connexions")
+**Sujet parent :** [Onglet "Connexions"](Les_différents_onglets/Onglet_Connexions.md "Gestion des connexions")

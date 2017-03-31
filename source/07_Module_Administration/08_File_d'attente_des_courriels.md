@@ -6,7 +6,7 @@ L'ensemble des courriels de notification passent par une file d'attente avant ex
 Une action automatique (queuedmail) permet l'expédition des couriels en attentes (voir [Configurer les actions automatiques](config_crontask.html "Les actions automatiques se configurent depuis le menu Configuration > Actions automatiques")).
 Une autre (queuemailclean) permet de nettoyer la file d'attente en ne conservant que les courriels récents.
 
-Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications (voir [l'administration par entité](index.php?fr/07_Module_Administration/04_Entités.md "Délégation de certains paramètres d'administration par entité")).
+Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications (voir [l'administration par entité](07_Module_Administration/04_Entités.md "Délégation de certains paramètres d'administration par entité")).
 Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un objet de n'envoyer qu'une notification.
 
 > Attention : l'utilisation de la file d'attente ne fonctionne pas pour un changement, un problème ou un ticket en lui-même mais uniquement pour un sous-objet.
@@ -24,4 +24,4 @@ Une fois la notification expédiée, la file d'attente est positionnée dans la 
 ***Remarque :** vous aurez dans la corbeille autant de files d'attente que de destinataires, chacune ayant sa propre date d'envoi*.
 
 -----
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

@@ -21,7 +21,7 @@ Elle est découpée en 4 vues :
 ***Remarque :*** *Pour les vues Personnelle et Groupe, seuls s'affichent les tableaux ayant des informations.*
 
 -   **La vue globale** propose des statistiques sur les tickets et les problèmes en fonction de leurs statuts et sur les contrats en fonction de leur date d'expiration. Elle propose également la vue des derniers ajouts d'objets dans GLPI. Suivant la configuration utilisée, les nouveaux tickets peuvent aussi être présentés dans cet onglet.
--   **Flux RSS** propose le contenu des flux RSS définis (voir [Gérer les flux RSS](index.php?fr/06_Module_Outils/04_Flux_RSS.md "Les flux RSS se gèrent depuis le menu Outils > Flux RSS")).
+-   **Flux RSS** propose le contenu des flux RSS définis (voir [Gérer les flux RSS](06_Module_Outils/04_Flux_RSS.md "Les flux RSS se gèrent depuis le menu Outils > Flux RSS")).
 
 Figure 2. Accueil ![image](docs/image/vuesStandard.png)
 
@@ -48,4 +48,4 @@ Figure 4. Menu de l'interface simplifiée
 ***Remarque :*** *Le choix de l'interface par défaut ainsi que des différents modules à afficher ou non sont paramétrables dans les profils. Voir [Administrer les profils d'utilisateurs](administration_profile.html "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").*
 
 ---------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

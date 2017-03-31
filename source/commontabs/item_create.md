@@ -19,7 +19,7 @@ Quel que soit l'objet de l'inventaire, l'ajout s'effectue toujours de la même m
 Une option présente dans les préférences utilisateur (*Après la création, aller à l'élément créé*) permet de déterminer si l'utilisateur souhaite, après la création, l'affichage de la fiche nouvellement créée ou une autre fiche vierge pour création en série.
 
 -------
-**Parent topic:** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Parent topic:** [Gérer les ordinateurs](03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
 **Related information**\
 

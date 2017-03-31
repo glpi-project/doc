@@ -9,4 +9,4 @@ Figure 2. Onglet Traduction d'un intitulé
 Il liste les traductions déjà réalisées pour l'intitulé et permet d'en ajouter une nouvelle
 
 ---------
-**Sujet parent :** [Les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")
+**Sujet parent :** [Les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")

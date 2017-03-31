@@ -23,19 +23,19 @@ Les différents onglets
     Il liste les différents notifications défnies par langue et permet d'ajouter une nouvelle langue.
     ***Remarque :** une traduction par défaut est applicable à toutes les langues de GLPI n'ayant pas leur propre traduction*.
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un nouveau modèle de notification](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un nouveau modèle de notification](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un nouveau modèle de notification](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un nouveau modèle de notification](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un nouveau modèle de notification](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un nouveau modèle de notification](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un nouveau modèle de notification](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un nouveau modèle de notification](Les_différentes_actions/Supprimer_un_objet.md)**
 -   **Ajouter une nouvelle traduction**
     Une traduction représente la disponibilité d'un modèle dans une langue donnée. En fonction de celle choisie par le destinataire, la notification sera envoyée dans la langue correspondante. Si elle n'est pas disponible, la traduction par défaut sera utilisée.
 
@@ -46,7 +46,7 @@ Les différentes actions
     Pour ajouter une nouvelle traduction, il est nécessaire de remplir les champs suivants :
     - **Langue :** indique la langue à laquelle cette traduction se rapporte. Si aucune langue n'est sélectionnée dans la liste déroulante, cette traduction sera celle par défaut pour ce modèle ;
     - **Sujet :** sujet de la notification ;
-      ***Remarque :** le sujet est automatiquement préfixé par la chaîne [GLPI] ou [GLPI XXXXXX] qui est utilisée afin de gérer les réponses aux notifications. Celle-ci est modifiable pour chaque entité dans la configuration des entités (voir [Déléguer l'administration par entité](index.php?fr/07_Module_Administration/04_Entités.md)).*
+      ***Remarque :** le sujet est automatiquement préfixé par la chaîne [GLPI] ou [GLPI XXXXXX] qui est utilisée afin de gérer les réponses aux notifications. Celle-ci est modifiable pour chaque entité dans la configuration des entités (voir [Déléguer l'administration par entité](07_Module_Administration/04_Entités.md)).*
     - **Corps du courriel au format texte :** texte brut envoyé en cas de notification. Si le champ est vide alors il est généré à partir du corps de texte HTML ;
     - **Corps du courriel au format HTML :** texte formaté en HTML.
 
@@ -102,4 +102,4 @@ est à "en attente" :`
      > Important : il n'est pas possible d'imbriquer 2 balises FOREACH mais il est possible de placer des balises IF dans des FOREACH.
 
 --------------------
-**Sujet parent :**  [Configurer les notifications]((index.php?fr/08_Module_Configuration/04_Notifications/01_Notifications.md) "Les notifications se configurent depuis le menu Configuration > Notifications")
+**Sujet parent :**  [Configurer les notifications]((08_Module_Configuration/04_Notifications/01_Notifications.md) "Les notifications se configurent depuis le menu Configuration > Notifications")

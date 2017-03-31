@@ -14,11 +14,11 @@ Décompacter l'archive téléchargée. Le répertoire obtenu s'appelle glpi.
 Copier ce répertoire dans l'arborescence du serveur web pour le rendre accessible.
 Donner les droits en écriture au service web sur les dossiers /files et /config ainsi que les sous-dossiers qu'ils contiennent.
 
-3.  **[Lancer l'assistant d'installation en ligne](index.php?fr/2_Premiers_pas_avec_GLPI/02_Déployer_GLPI/04_Assistant_d'installation.md)**.
+3.  **[Lancer l'assistant d'installation en ligne](2_Premiers_pas_avec_GLPI/02_Déployer_GLPI/04_Assistant_d'installation.md)**.
 
 Une fois ces étapes effectuées l'application est prête à être utilisée.
 
 ***Remarque :*** *Il existe également de nombreux paquets pour les distributions (Debian, Ubuntu, Fedora...).*
 
 ---------------
-**Sujet parent :** [Déployer GLPI](index.php?fr/01-premiers-pas/02_Déployer_GLPI/02_Déployer_GLPI.md)
+**Sujet parent :** [Déployer GLPI](01-premiers-pas/02_Déployer_GLPI/02_Déployer_GLPI.md)

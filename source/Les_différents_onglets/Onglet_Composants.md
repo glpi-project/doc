@@ -7,7 +7,7 @@ Ces informations sont visibles dans l'onglet **Composants** sur la fiche d'un or
 
 Pour ajouter un composant à un ordinateur, sélectionner dans la liste déroulante présente en haut du tableau, la famille de celui-ci, puis son nom et le nombre de composant choisi à ajouter.
 
-***Remarque :*** *La création de composants se réalise dans le menu ***Configuration \> Composants*** (Voir [Configurer les composants](index.php?fr/08_Module_Configuration/03_Composants.md "Les composants se configurent depuis le menu Configuration > Composants")).*
+***Remarque :*** *La création de composants se réalise dans le menu ***Configuration \> Composants*** (Voir [Configurer les composants](08_Module_Configuration/03_Composants.md "Les composants se configurent depuis le menu Configuration > Composants")).*
 
 La liste des composants comprend :
 
@@ -33,10 +33,10 @@ La sélection à droite de la colonne du type (ligne grisée) permet de sélecti
 ***Remarque :**Toute suppression ou ajout d'un composant est enregistré dans l'historique de l'ordinateur.*
 
 -----------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
+**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")

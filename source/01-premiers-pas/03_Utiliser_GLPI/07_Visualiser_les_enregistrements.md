@@ -31,4 +31,4 @@ Il est possible d'ajouter, supprimer et ordonner les colonnes affichées.
   Cet onglet permet également de réinitialiser la personnalisation d'affichage des différentes listes. L'utilisateur peut, pour chaque type d'objets, revenir à l'affichage par défaut en supprimant cette personnalisation.
 
 --------------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

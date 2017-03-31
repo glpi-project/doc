@@ -28,36 +28,36 @@ Figure 1. Onglet Consommables
 ![image](docs/image/consumable.png)
 
 
--   **[Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)**
+-   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
     Gérer les informations financières et administratives
 
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
--  **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
+-  **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
--   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
+-   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
+-   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
     Uniquement si vous êtes connecté en mode Debug.
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
--   **[Ajouter un modèle de consommable](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un modèle de consommable](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un modèle de consommable](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un modèle de consommable](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un modèle de consommable](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un modèle de consommable](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un modèle de consommable](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un modèle de consommable](Les_différentes_actions/Supprimer_un_objet.md)**
 -   **Ajouter de nouveaux consommables à un modèle**
     Voir onglet *Consommables* ci-dessus
--   **[Associer un document à un modèle de consommable](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Transférer un consommable vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Associer un document à un modèle de consommable](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Transférer un consommable vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
 -   **Avoir la liste des consommables attribués**
 ![image](docs/image/resumeConsumable.png)
 L'icone de droite permet d'avoir un résumé des consommables prêtés
 ![image](docs/image/resumeConsumableExample.png)
 
 --------
-**Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
+**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

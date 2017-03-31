@@ -19,7 +19,7 @@ Le moteur sert à la fois pour :
     - routage de tickets dans des entités
     - actions automatiques à la création des tickets
 
--   [les dictionnaires de données](index.php?fr/07_Module_Administration/06_Dictionnaires.md "voir la gestion des dictionnaires") :
+-   [les dictionnaires de données](07_Module_Administration/06_Dictionnaires.md "voir la gestion des dictionnaires") :
     -   fabricants
     -   logiciels
     -   imprimantes
@@ -40,10 +40,10 @@ Elles peuvent être désactivées : par exemple lorsqu'elles sont en cours d'éc
 Les différentes règles
 ----------------------
 
-- **[Règles pour assigner un ticket créé via un collecteur de courriels](index.php?fr/07_Module_Administration/05_Règles/01_Collecteur_de_courriels.md)**
+- **[Règles pour assigner un ticket créé via un collecteur de courriels](07_Module_Administration/05_Règles/01_Collecteur_de_courriels.md)**
     GLPI implémente un mécanisme de routage des tickets ouverts par courriel, afin de les créer dans la bonne entité.
 
-- **[Règles d'affectation d'habilitations à un utilisateur](index.php?fr/07_Module_Administration/05_Règles/02_Habilitations_utilisateur.md)**
+- **[Règles d'affectation d'habilitations à un utilisateur](07_Module_Administration/05_Règles/02_Habilitations_utilisateur.md)**
 
 - **Règles d'affectation d'une catégorie aux logiciels**
 
@@ -52,10 +52,10 @@ Les différentes règles
     La seule action possible est l'affectation d'un logiciel à une catégorie.
     Il est possible de rejouer le moteur depuis la liste des logiciels, grâce à l'action massive Recalculer la catégorie.
    
-- **[Règles métier pour les tickets](index.php?fr/07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md)**
+- **[Règles métier pour les tickets](07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md)**
     Lors de la création et/ou de la modification d'un ticket, un mécanisme permet de modifier     les attributs du ticket de manière automatique.
 
-- **[Règles en liaison avec un agent d'inventaire](index.php?fr/07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.md)**
+- **[Règles en liaison avec un agent d'inventaire](07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.md)**
     Les deux menus ci-dessous ne sont visibles que si vous utilisez un agent d'inventaire pour une remontée automatique des ordinateurs dans GLPI.
     - affectation d'un élément à une entité
     - règle d'import et de liaison des ordinateurs
@@ -111,4 +111,4 @@ Les expressions rationnelles (autrement appelées regex) renvoient un ou plusieu
     Si l'objet a pour nom DESKTOP_0001, alors il sera possible d'utiliser 0001 dans les actions de la règle en utilisant le paramètre \#0.
 
 ---------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

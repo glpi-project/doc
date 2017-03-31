@@ -19,7 +19,7 @@ Cet onglet permet de personnaliser l'apparence générale de l'application.
 
 - **Nombre de décimales par défaut** : nombre de décimales affichées dans les montants.
 
-- **Traduction des intitulés** : autorise ou non la traduction des intitulés. Une fois ce paramètre actif, l'intitulé aura un onglet supplémentaire pour effectuer la traduction. (voir [la traduction des intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.md).
+- **Traduction des intitulés** : autorise ou non la traduction des intitulés. Une fois ce paramètre actif, l'intitulé aura un onglet supplémentaire pour effectuer la traduction. (voir [la traduction des intitulés](08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.md).
 
 - **Taille de page pour cet intitulé (pagination utilisant scroll)** : nombre d'éléments affichés dans une liste déroulante à chaque scroll.
 
@@ -45,4 +45,4 @@ Cet onglet permet de personnaliser l'apparence générale de l'application.
 - **Recherche globale** : Si la recherche globale est autorisée, le champ de recherche apparaît en haut à droite sous "déconnection".
 
 ------
-**Sujet parent :** [Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md)
+**Sujet parent :** [Configurer les paramètres centraux](08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md)

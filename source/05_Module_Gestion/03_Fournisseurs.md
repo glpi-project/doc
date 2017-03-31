@@ -1,7 +1,7 @@
 Gérer les fournisseurs
 ======================
 
-GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
+GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
 Celui-ci sert à la fois à identifier qui a vendu un matériel (dans la gestion de parc) mais aussi à attribuer des tickets à cette personne ou société.
 
 Lors de l'achat d'un matériel de marque XX à un fournisseur YY, il faut traiter deux informations distinctes à savoir le fabricant (XX) et le fournisseur (YY).
@@ -18,43 +18,43 @@ Bien entendu, une personne ayant une visibilité récursive sur toutes les entit
 
 Les différents onglets
 ----------------------
--   **[Onglet "Contacts"](index.php?fr/Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
+-   **[Onglet "Contacts"](Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
     Cet onglet permet d'ajouter un ou plusieurs contacts à ce fournisseur.
     Il liste également les différents contacts associés au fournisseur.
 
--   **[Onglet "Contrats"](index.php?fr/Les_différents_onglets/Onglet_Contrats.md)**
+-   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
     Gérer les contrats associés
 
--   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet de visualiser les éléments attachés à ce fournisseur.
 
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
--   **[Onglet "Tickets"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)**
+-   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
 
--  **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
+-  **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
--   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
+-   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
     Toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
--   **[Ajouter un fournisseur](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un fournisseur](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un fournisseur](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un fournisseur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un fournisseur](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contrat à un fournisseur](index.php?fr/Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
+-   **[Ajouter un fournisseur](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un fournisseur](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un fournisseur](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un fournisseur](Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à un fournisseur](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un contrat à un fournisseur](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 -   **Associer un élément à un fournisseur**
     Il suffit de choisir ce fournisseur dans l'onglet *Gestion* de l'objet.
--   **[Associer un contact à un fournisseur](index.php?fr/Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
--   **[Transférer un fournisseur vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Associer un contact à un fournisseur](Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
+-   **[Transférer un fournisseur vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
 
 -------
-**Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")
+**Sujet parent :** [Module Gestion](05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

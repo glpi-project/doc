@@ -10,7 +10,7 @@ Les informations financières sont composées des éléments suivants :
 
 ***Informations financières et administratives :***
 
--   **Fournisseur** : tiers qui a vendu le matériel. Voir [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs") ;
+-   **Fournisseur** : tiers qui a vendu le matériel. Voir [Gérer les fournisseurs](05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs") ;
 -   **Numéro de commande** : numéro de la commande du matériel ;
 -   **Numéro d'immobilisation** ;
 -   **Numéro de facture** : numéro de la facture du matériel ;
@@ -53,22 +53,22 @@ d'achat ou de mise en service, durée d'amortissement, coefficient d'amortisseme
 - L'affichage des informations financières pour chaque type de matériel dépend du profil de l'utilisateur connecté. Il peut donc varier selon le profil.
 
 ------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+**Sujet parent :** [Gérer les logiciels](03_Module_Parc/04_Logiciels/01_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
 
-**Sujet parent :** [Gérer les licences](index.php?fr/03_Module_Parc/04_Logiciels/02_Onglet_Licences.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+**Sujet parent :** [Gérer les licences](03_Module_Parc/04_Logiciels/02_Onglet_Licences.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
 
-**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
+**Sujet parent :** [Gérer les matériels réseaux](03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les cartouches](index.php?fr/03_Module_Parc/08_Cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les cartouches](03_Module_Parc/08_Cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
 
-**Sujet parent :** [Gérer les consommables](index.php?fr/03_Module_Parc/09_Consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
+**Sujet parent :** [Gérer les consommables](03_Module_Parc/09_Consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
 
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
+**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")

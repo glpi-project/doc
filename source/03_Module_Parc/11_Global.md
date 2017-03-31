@@ -8,4 +8,4 @@ Le menu ***Inventaire > Global*** vous permet d'effectuer une recherche globale 
 Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
 
 ------
-**Sujet parent :** [Module Parc](index.php?fr/03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
+**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

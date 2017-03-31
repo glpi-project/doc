@@ -33,8 +33,8 @@ La sélection à droite de la colonne du type (ligne grisée) permet de sélecti
 ***Remarque :**Toute suppression ou ajout d'un composant est enregistré dans l'historique de l'ordinateur.*
 
 -----------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/04_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")

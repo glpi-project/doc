@@ -56,7 +56,7 @@ et le domaine de messagerie associé à celle-ci.
     Le paramétrage des notifications se fait par entité.
     Cet onglet regroupe deux tableaux :
     - les options globales pour toutes les notifications issues de GLPI :
-      le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir [configuration des suivis par courriels](index.php?fr/08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md)) et la signature.
+      le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir [configuration des suivis par courriels](08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md)) et la signature.
 
       Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
 
@@ -111,7 +111,7 @@ et le domaine de messagerie associé à celle-ci.
     - le remplissage par copie d'une autre date ;
     - aucune gestion automatique.
 
-    L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le [dictionnaire des logiciels](index.php?fr/07_Module_Administration/05_Dictionnaires.md).
+    L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le [dictionnaire des logiciels](07_Module_Administration/05_Dictionnaires.md).
 
 -   **Onglet "Utilisateurs"**
     Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
@@ -123,25 +123,25 @@ et le domaine de messagerie associé à celle-ci.
     Si vous avez besoin de baser ces règles sur des critères, il faut ouvrir la nouvelle règle créée pour définir ces critères.
     Sont également listés les règles déjà applicables à cette entité.
     
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
--   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
+-   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter une entité](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir une entité](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier une entité](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer une entité](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à une entité](index.php?fr/Les_différentes_actions/Onglet_Eléments.md)**
+-   **[Ajouter une entité](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir une entité](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier une entité](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer une entité](Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à une entité](Les_différentes_actions/Onglet_Eléments.md)**
 
 --------
 **Sujet parent :** [Administrer les contrôles d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")
 
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

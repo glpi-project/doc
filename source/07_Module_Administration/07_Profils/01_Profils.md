@@ -30,7 +30,7 @@ Par défaut, 7 profils sont pré-enregistrés dans GLPI :
 
 -   **Observer** : Ce profil dispose de droits de lecture sur toutes les données d'inventaire et de gestion. Au niveau de l'assistance, il pourra déclarer un ticket ou s'en voir attribuer mais ne pourra administrer cette rubrique (*attribuer un ticket, voler un ticket...).*
 
--   **Self-Service** : Ce profil est le plus limité. C'est d'ailleurs le seul à disposer d'une interface différente, [l'**interface simplifiée**, en opposition à l'**interface standard**](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md). Il pourra cependant déclarer un ticket, y ajouter un suivi, consulter la FAQ ou encore réserver un matériel. Ce profil est enregistré comme profil par défaut.
+-   **Self-Service** : Ce profil est le plus limité. C'est d'ailleurs le seul à disposer d'une interface différente, [l'**interface simplifiée**, en opposition à l'**interface standard**](01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md). Il pourra cependant déclarer un ticket, y ajouter un suivi, consulter la FAQ ou encore réserver un matériel. Ce profil est enregistré comme profil par défaut.
 
 Explication des droits
 ----------------------
@@ -70,10 +70,10 @@ Remarque : L'affichage de la gestion des profils est fonction du profil dont l'u
     - association ou dissociation d'un nom réseau à un port réseau
     - partie Internet des intitulés (Réseaux IP, domaine internet, réseaux wifi, noms réseaux)
 
--   **[Onglet "Assistance"](index.php?fr/07_Module_Administration/07_Profils/02_Onglet_Assistance.md)**
+-   **[Onglet "Assistance"](07_Module_Administration/07_Profils/02_Onglet_Assistance.md)**
     Cet onglet gère les droits sur les tickets, les suivis, les tâches, les validations, les associations, les problèmes et les changements. Il gère également la visibilité des statistiques et des plannings ainsi que l'affectation d'un gabarit au profil.
 
--   **[Onglet "Cycle de vie"](index.php?fr/04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)**
+-   **[Onglet "Cycle de vie"](04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md)**
     Droits sur le processus de changement de statut d'un ticket, d'un problème et d'un changement.
 
 -   **Onglet "Gestion"**
@@ -83,28 +83,28 @@ Remarque : L'affichage de la gestion des profils est fonction du profil dont l'u
     Ce droit sert également pour les objets ayant des informations financières. Par exemple vous ne pourrez pas purger un ordinateur ayant des informations financières si vous n'avez pas le droit Purge sur les informations financières.
 
 
--   **[Onglet "Outils"](index.php?fr/07_Module_Administration/07_Profils/03_Onglet_Outils.md)**
+-   **[Onglet "Outils"](07_Module_Administration/07_Profils/03_Onglet_Outils.md)**
     Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
 
--   **[Onglet "Administration"](index.php?fr/07_Module_Administration/07_Profils/04_Onglet_Administration.md)**
+-   **[Onglet "Administration"](07_Module_Administration/07_Profils/04_Onglet_Administration.md)**
 
--  **[Onglet "Configuration"](index.php?fr/07_Module_Administration/07_Profils/05_Onglet_Configuration.md)**
+-  **[Onglet "Configuration"](07_Module_Administration/07_Profils/05_Onglet_Configuration.md)**
      
 -   **Onglet "Utilisateurs"**
     Liste des entités dans lesquelles ce profil est attribué. Pour voir les utilisateurs correspondant, il suffit de cliquer sur l'entité concernée.
     *"D"* signifie que les droits ont été attribués dynamiquement
     *"R"* signifie que les droits sont récursifs depuis l'entité d'affectation
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un profil](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Ajouter un profil](Les_différentes_actions/Créer_un_nouvel_objet.md)**
     Les champs à renseigner sont :
     - Nom
     - Profil par défaut :
@@ -112,7 +112,7 @@ Les différentes actions
 
       >Important : Si plus d'un profil est enregistré comme profil par défaut, le premier enregistré fera autorité sur tous les autres.
 
-    - Choix de l'interface : [standard ou simplifiée](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
+    - Choix de l'interface : [standard ou simplifiée](01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md)
 
     - Modifier son mot de passe
       Lorsque ce champ est coché, les utilisateurs ayant ce profil auront la possibilité de
@@ -123,13 +123,13 @@ modifier leur mot de passe depuis le lien **Préférences**.
     - Formulaire de création de tickets à la connexion
       Lorsque ce champ est coché, les utilisateurs ayant ce profil seront redirigés sur la page de création des tickets au lieu de la page d'accueil.
 
--   **[Voir un profil](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un profil](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un profil](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Voir un profil](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un profil](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un profil](Les_différentes_actions/Supprimer_un_objet.md)**
 
 
 --------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
 
 **Sujet parent :** [Administrer les contrôles
 d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")

@@ -17,16 +17,16 @@ Présentation du module d'inventaire de GLPI. Ce module est destiné à la gesti
         qui transforme GLPI en serveur d'inventaire (les agents discutent directement avec GLPI).
    
 
--   **[La gestion des gabarits dans GLPI](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**   
+-   **[La gestion des gabarits dans GLPI](Les_différentes_actions/Gérer_les_gabarits.md)**   
    
 -   **Les statuts dans GLPI, la vue spécifique**
     Cette information est couramment utilisée pour distinguer les ordinateurs mis au rebut, disponibles, affectés etc... Il est donc possible de créer ses propres statuts en rapport avec le système d'information.
 
-    C'est à l'administrateur de GLPI, depuis la configuration des intitulés (voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")), de définir les statuts qui seront utilisés et pour quels types d'élements ils le seront. Ces statuts peuvent être arborescents pour faciliter la gestion.
+    C'est à l'administrateur de GLPI, depuis la configuration des intitulés (voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")), de définir les statuts qui seront utilisés et pour quels types d'élements ils le seront. Ces statuts peuvent être arborescents pour faciliter la gestion.
 
     Le statut d'un élément est modifiable depuis sa fiche ou depuis le système d'actions massives.
 
-    Un rapport (voir [Gérer les rapports](index.php?fr/06_Module_Outils/07_Rapports.md "Les rapports se gèrent depuis le menu Outils > Rapports")) vous propose une synthèse des statuts par type de matériel. La recherche globale de l'inventaire (voir Recherche globale ci-dessous) vous permet une recherche par statut sur l'ensemble des éléments.
+    Un rapport (voir [Gérer les rapports](06_Module_Outils/07_Rapports.md "Les rapports se gèrent depuis le menu Outils > Rapports")) vous propose une synthèse des statuts par type de matériel. La recherche globale de l'inventaire (voir Recherche globale ci-dessous) vous permet une recherche par statut sur l'ensemble des éléments.
 
 -   **Recherche globale sur les éléments d'inventaire**
 Le menu ***Parc > Global*** vous permet d'effectuer une recherche globale sur l'ensemble des éléments auxquels vous avez accès. 
@@ -34,27 +34,27 @@ Cette recherche est limitée aux ordinateurs, moniteurs, imprimantes, équipemen
 
     Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
 
--   **[Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md)**
+-   **[Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs.md)**
 
--   **[Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md)**
+-   **[Gérer les moniteurs](03_Module_Parc/03_Moniteurs.md)**
 
--   **[Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels/01_Logiciels.md)**
+-   **[Gérer les logiciels](03_Module_Parc/04_Logiciels/01_Logiciels.md)**
     Gestion des logiciels et des licences.
 
--   **[Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md)**
+-   **[Gérer les matériels réseaux](03_Module_Parc/05_Matériels_réseaux.md)**
 
--   **[Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md)**
+-   **[Gérer les périphériques](03_Module_Parc/06_Périphériques.md)**
 
--   **[Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md)**
+-   **[Gérer les imprimantes](03_Module_Parc/07_Imprimantes.md)**
 
--   **[Gérer les cartouches](index.php?fr/03_Module_Parc/08_Cartouches.md)**
+-   **[Gérer les cartouches](03_Module_Parc/08_Cartouches.md)**
      Les cartouches dans GLPI, caractéristiques et utilisation
 
--   **[Gérer les consommables](index.php?fr/03_Module_Parc/09_Consommables.md)**
+-   **[Gérer les consommables](03_Module_Parc/09_Consommables.md)**
 
--   **[Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md)**
+-   **[Gérer les téléphones](03_Module_Parc/10_Téléphones.md)**
  
--   **[Global](index.php?fr/03_Module_Parc/11_Global.md)**
+-   **[Global](03_Module_Parc/11_Global.md)**
     
 -   **[Gestion du protocole Internet (IP)](../glpi/inventory_ip.html)**\
      Le protocole IP est matérialisé sous plusieurs formes : adresses

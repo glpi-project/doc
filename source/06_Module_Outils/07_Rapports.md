@@ -30,4 +30,4 @@ GLPI autorise la génération d'un certain nombre de rapports :
 Un plugin permet d'ajouter de nombreux rapports dans GLPI. Ce plugin : **Additional Reports** est disponible sur la [forge des plugins](https://forge.indepnet.net/projects/plugins).
 
 --------
-**Sujet parent :** [Module Outils](index.php?fr/06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")
+**Sujet parent :** [Module Outils](06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")

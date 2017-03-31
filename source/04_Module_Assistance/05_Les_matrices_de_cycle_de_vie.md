@@ -9,7 +9,7 @@ Si un statut est désactivé, il ne sera pas présent dans la liste des statuts 
 Matrice de cycle de vie des tickets
 -----------------------------------
 
-Voir [Les règles de gestion d'un ticket](index.php?fr/04_Module_Assistance/06_Tickets/01_Règles_de_gestion.md).
+Voir [Les règles de gestion d'un ticket](04_Module_Assistance/06_Tickets/01_Règles_de_gestion.md).
 
 Figure 1. Matrice de cycle de vie d'un ticket interface standard
 ![image](docs/image/CycleVieTicket.png)
@@ -26,7 +26,7 @@ Pour l'interface simplifiée, le cycle de vie des tickets permet de définir si 
 Matrice de cycle de vie des problèmes
 -------------------------------------
 
-Voir [Les règles de gestion d'un problème](index.php?fr/04_Module_Assistance/08_Problèmes.md).
+Voir [Les règles de gestion d'un problème](04_Module_Assistance/08_Problèmes.md).
 
 Figure 1. Matrice de cycle de vie d'un problème
 ![image](docs/image/CycleVieProbleme.png)
@@ -37,7 +37,7 @@ Dans l'exemple ci-dessus, un problème Nouveau ne pourra jamais être mis direct
 Matrice de cycle de vie des changements
 ---------------------------------------
 
-Voir [Les règles de gestion d'un changement](index.php?fr/04_Module_Assistance/09_Changements.md).
+Voir [Les règles de gestion d'un changement](04_Module_Assistance/09_Changements.md).
 
 Figure 1. Matrice de cycle de vie d'un changement
 ![image](docs/image/CycleVieChange.png)
@@ -46,8 +46,8 @@ Dans l'exemple ci-dessus, un changement Nouveau ne pourra jamais être Accepté 
 
 
 --------
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les tickets](04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
 
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les problèmes](04_Module_Assistance/08_Problèmes.md "Les problèmes dans GLPI, caractéristiques et utilisation")
 
-**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les changements](04_Module_Assistance/09_Changements.md "Les changements dans GLPI, caractéristiques et utilisation")

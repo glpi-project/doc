@@ -9,7 +9,7 @@ L'exportation, l'importation et la duplication est possible pour l'ensemble des 
 Configurer les dictionnaires de données
 ---------------------------------------
 
-Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI afin de regrouper des données redondantes. Ils se basent sur le [moteur de règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md) et sont disponibles pour certaines données d'inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via un outil d'inventaire ou des plugins (par exemple l'injecteur de fichiers CSV).
+Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI afin de regrouper des données redondantes. Ils se basent sur le [moteur de règles](07_Module_Administration/05_Règles/01_Gérer_les_règles.md) et sont disponibles pour certaines données d'inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via un outil d'inventaire ou des plugins (par exemple l'injecteur de fichiers CSV).
 
 Le dictionnaire fonctionne de la manière suivante :
 
@@ -94,4 +94,4 @@ dictionnaire ou de nouvelles règles.
     Suivant le dictionnaire choisi, le critère portera sur le système d'exploitation lui-même ou le service pack du système d'exploitation ou la version du système d'exploitation.
 
 ---------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

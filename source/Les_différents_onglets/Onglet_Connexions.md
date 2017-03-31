@@ -27,12 +27,12 @@ Le tableau listera le nom de cet ordinateur ainsi que ses numéros de série et 
 Les connexions ou déconnexions se font depuis la fiche de chaque matériel lié (onglet Connexions) ou depuis le système de modification massive.
 
 --------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")
+**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")

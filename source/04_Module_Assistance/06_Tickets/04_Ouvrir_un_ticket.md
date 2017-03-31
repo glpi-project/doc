@@ -2,7 +2,7 @@ Pour commencer, le demandeur doit exprimer un besoin. Pour cela il peut faire ap
 
 - il remplit lui-même un formulaire en ligne, qu'il soit connu dans GLPI ou non ;
 
-- il demande à un délégataire de son groupe de le faire pour lui (voir [Administrer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md "Dans GLPI, administrer les groupes peut se faire à partir du menu Administration > Groupes")).
+- il demande à un délégataire de son groupe de le faire pour lui (voir [Administrer les groupes](07_Module_Administration/03_Groupes.md "Dans GLPI, administrer les groupes peut se faire à partir du menu Administration > Groupes")).
    Dans l'interface simplifiée, cela se traduit par l'apparition d'une option permettant d'indiquer si l'incident concerne l'utilisateur lui-même ou un autre.
    Dans l'interface standard ce mécanisme est actif à partir du moment où le droit **Voir tous les tickets** est à *non* dans le profil. Il se traduit par l'ajout comme demandeur de tous les utilisateurs pour lesquels la délégation s'opère ;
 
@@ -30,9 +30,9 @@ soumis, un message confirme la bonne création du ticket. Ce formulaire peut êt
 
 Ouverture d'un ticket dans l'interface graphique
 ------------------------------------------------
-Suivant l'utilisation ou non de gabarits (voir [gabarits des tickets](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md), certains champs peuvent être obligatoires, prédéfinis ou masqués à l'ouverture d'un ticket (contenu, titre et/ou catégorie). Si l'un champ obligatoire est manquant, le ticket ne sera pas créé.
+Suivant l'utilisation ou non de gabarits (voir [gabarits des tickets](Les_différentes_actions/Gérer_les_gabarits.md), certains champs peuvent être obligatoires, prédéfinis ou masqués à l'ouverture d'un ticket (contenu, titre et/ou catégorie). Si l'un champ obligatoire est manquant, le ticket ne sera pas créé.
 
-Les différents champs disponibles sont décrits dans la partie [Gérer les tickets](index.php?fr/04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation").
+Les différents champs disponibles sont décrits dans la partie [Gérer les tickets](04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation").
 
 Il est possible d'ajouter au ticket un ou plusieurs documents en une seule opération.
 
@@ -50,16 +50,16 @@ Pour cela, remplir le formulaire de saisie proposé à l'ouverture de GLPI et va
 **Champs spécifiques :**
 
 -   **Informez-moi des suites données**
-    Apparaît si les suivis par courriel ont été configurés (voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications").
+    Apparaît si les suivis par courriel ont été configurés (voir [Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications").
     La sélection à "oui" permet au demandeur d'être tenu informé par courriel des différents traitements concernant son ticket.
     Le champ Courriel correspond à l'adresse où seront envoyées les notifications. Si plusieurs courriels sont définis, GLPI prendra l'adresse par défaut définie dans les préférences de l'utilisateur. Il est possible d'en sélectionner une autre ou d'entrer une adresse si la fiche de l'utilisateur n'en mentionne pas ;
 
 -   **Le ticket porte sur** : permet d'associer un objet d'inventaire à un ticket.
-    Le contenu de la ou des listes dépend des paramètres définis dans le profil (Voir [Administrer les profils d'utilisateurs](index.php?fr/07_Module_Administration/07_Profils/0_Profils.md "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
+    Le contenu de la ou des listes dépend des paramètres définis dans le profil (Voir [Administrer les profils d'utilisateurs](07_Module_Administration/07_Profils/0_Profils.md "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.").
 
 -   **Observateur** : permet d'ajouter un observateur et de définir ses paramètres de notification. Seul les membres des groupes du demandeur peuvent être associés.
 
-***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir [Gérer ses préférences](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences")).
+***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences")).
 
 Si vous ajouter une image ou un document au ticket, il est important de la faire après avoir rempli tous les champs marqués obligatoires (astérisque rouge), car le rechargement du formulaire entraine la suppression des images (ou des documents) liés.
 
@@ -69,7 +69,7 @@ Un message confirme la bonne création du ticket accessible en cliquant sur le n
 Interface standard
 ------------------
 
-Pour créer un nouveau ticket aller dans le menu ***Assistance > Tickets >*** ![image](docq/image/menu_add.png). Voir également [Créer un ticket](index.php?fr/04_Module_Assistance/05_Créer_un_ticket.md).
+Pour créer un nouveau ticket aller dans le menu ***Assistance > Tickets >*** ![image](docq/image/menu_add.png). Voir également [Créer un ticket](04_Module_Assistance/05_Créer_un_ticket.md).
 
 Lors de l'ajout d'une nouvelle image depuis l'onglet *Documents* du ticket, la balise générée pourra être aussi utilisé pour insérer l'image dans la description du ticket.
 
@@ -82,7 +82,7 @@ Une demande de validation peut être effectuée à l'ouverture du ticket en indi
 
 Ouvrir un ticket par courriel
 =============================  
- L'utilisateur envoie un courriel à une adresse de messagerie définie dans le collecteur (Voir [Configurer les collecteurs](index.php?fr/07_Module_Administration/05_Règles/02_Collecteur_de_courriels.md "La configuration des collecteurs s'effectue depuis le menu Configuration > Collecteurs"). Dès la réception du courriel, un ticket est ouvert automatiquement.
+ L'utilisateur envoie un courriel à une adresse de messagerie définie dans le collecteur (Voir [Configurer les collecteurs](07_Module_Administration/05_Règles/02_Collecteur_de_courriels.md "La configuration des collecteurs s'effectue depuis le menu Configuration > Collecteurs"). Dès la réception du courriel, un ticket est ouvert automatiquement.
 
 L'objet du message deviendra le titre du ticket, son corps la description, les Cc des observateurs (si l'adresse est connue dans GLPI) et enfin les pièces jointes des documents associés.
 
@@ -91,7 +91,7 @@ En activant l'option "**Utiliser du texte riche pour l'assistance**" dans la con
 
 Ouvrir automatiquement un ticket 
 ================================
-Ce mécanisme s'active via les [tickets récurrents](index.php?fr/04_Module_Assistance/10_Tickets_récurrents.md).
+Ce mécanisme s'active via les [tickets récurrents](04_Module_Assistance/10_Tickets_récurrents.md).
 
 ------------
-**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")
+**Sujet parent :** [Le service d'assistance aux utilisateurs](04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

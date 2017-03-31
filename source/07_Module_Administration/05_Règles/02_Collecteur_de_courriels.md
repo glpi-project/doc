@@ -30,6 +30,6 @@ Les actions sont soit le refus du ticket (avec ou sans notification du refus à 
        (par exemple pour des super administrateurs, qui ont accès à toutes les entités, mais sont physiquement dans une entité en particulier).
 
 --------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
 
-**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Gérer les règles").
+**Sujet parent :** [Gérer les règles](07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Gérer les règles").

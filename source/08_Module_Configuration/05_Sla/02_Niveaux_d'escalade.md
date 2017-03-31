@@ -20,13 +20,13 @@ Les différents onglets
     Permet d'ajouter une action qui sera exécutée si le critère défini est rempli.
     Il liste également les actions déjà définies pour ce niveau d'escalade.
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
+-   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
     Uniquement si vous êtes connecté en mode Debug.
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
@@ -36,6 +36,6 @@ Les différentes actions
     Cette action se fait via l'onglet *Niveaux d'escalade* d'un SLA
 
 ------
-**Sujet parent :** [SLA](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md "Gérer les SLA")
+**Sujet parent :** [SLA](08_Module_Configuration/05_Sla/01_Sla.md "Gérer les SLA")
 
-**Sujet parent :** [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")
+**Sujet parent :** [Module Configuration](08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")

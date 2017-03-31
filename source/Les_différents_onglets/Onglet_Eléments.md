@@ -82,20 +82,20 @@ La liste ne montre que les éléments de l'entité courante liés à ce composan
 Le lien ***Vue*** apparaît si vous n'avez pas le droit de modifier les composants. Dans le cas contraire, ce lien sera ***Mettre à jour***.
 
 -------
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
+**Sujet parent :** [Gérer les problèmes](04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
-**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
+**Sujet parent :** [Gérer les changements](04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
 
-**Sujet parent :** [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
+**Sujet parent :** [Gérer les budgets](05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
 
-**Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
+**Sujet parent :** [Gérer les fournisseurs](05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
 
-**Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/04_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
+**Sujet parent :** [Gérer les contrats](05_Module_Gestion/04_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
 
-**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
+**Sujet parent :** [Gérer les projets](06_Module_Outils/02_Projets/01_Projets.md "Les projets se gèrent depuis le menu Outils > Projets")
 
-**Sujet parent :** [Gérer les utilisateurs](index.php?fr/07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
+**Sujet parent :** [Gérer les utilisateurs](07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs se gèrent depuis le menu Administration > Utilisateurs")
 
-**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03_Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
+**Sujet parent :** [Gérer les groupes](07_Module_Administration/03_Groupes.md "Les groupes se gèrent depuis le menu Administration > Groupes")
 
-**Sujet parent :** [Gérer les composants](index.php?fr/08_Module_Configuration/03_Composants.md "Les composants se gèrent depuis le menu Configuration > Composants")
+**Sujet parent :** [Gérer les composants](08_Module_Configuration/03_Composants.md "Les composants se gèrent depuis le menu Configuration > Composants")

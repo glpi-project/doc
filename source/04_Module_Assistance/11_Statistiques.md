@@ -54,4 +54,4 @@ L'option **Voir les graphiques**, lorsqu'elle est présente, permet d'afficher l
 - Arborescence : seules les valeurs de même niveau sont affichées et prennent en compte les tickets rattachés aux valeurs filles. Il est possible de naviguer dans l'arbre des valeurs.*
 
 --------
-**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")
+**Sujet parent :** [Le service d'assistance aux utilisateurs](04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

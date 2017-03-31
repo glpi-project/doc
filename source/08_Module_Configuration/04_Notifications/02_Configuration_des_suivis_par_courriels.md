@@ -22,7 +22,7 @@ Ces 2 valeurs sont globales pour toutes les entités.
 - **Nom de réponse (si nécessaire** : nom associé au courriel de réponse ;
 - **Signature des messages** : texte ajouté à la fin de chaque notification. 
 
-Ces 5 valeurs sont globales, mais peuvent être adaptées pour chaque entité (voir [configuration d'une entité](index.php?fr/07_Module_Administration/04_Entités.md)).
+Ces 5 valeurs sont globales, mais peuvent être adaptées pour chaque entité (voir [configuration d'une entité](07_Module_Administration/04_Entités.md)).
 
 
 Serveur de messagerie
@@ -46,4 +46,4 @@ Serveur de messagerie
  
 
 --------
-**Sujet parent :** [Configurer les notifications]((index.php?fr/08_Module_Configuration/04_Notifications/01_Notifications.md) "Les notifications se configurent depuis le menu Configuration > Notifications")
+**Sujet parent :** [Configurer les notifications]((08_Module_Configuration/04_Notifications/01_Notifications.md) "Les notifications se configurent depuis le menu Configuration > Notifications")

@@ -5,7 +5,7 @@ Cet onglet permet de visualiser un résumé des informations sur les capacités 
 
 ![image](docs/image/sytemConfig.png)
 
-- **Niveau de journalisation** : chaque événement interne à l'application est enregistré dans les journaux qui sont visibles dans la section [Administration > Journaux](index.php?fr/07_Module_Administration/10_Journaux.md). Dans cet onglet, il est possible de réduire le degré de verbosité de ces journaux.
+- **Niveau de journalisation** : chaque événement interne à l'application est enregistré dans les journaux qui sont visibles dans la section [Administration > Journaux](07_Module_Administration/10_Journaux.md). Dans cet onglet, il est possible de réduire le degré de verbosité de ces journaux.
 
 - **Traceurs dans fichiers (SQL, courriel, action automatique...)** : il est possible d'enregistrer dans des fichiers certains événements supplémentaires (SQL, notifications, action automatique). Ces fichiers sont alors disponibles dans files/_log.
 
@@ -30,4 +30,4 @@ Dans le cas d'utilisation d'un proxy, il est nécessaire d'indiquer les informat
 La suite de l'écran liste l'ensemble des informations de GLPI nécessaires pour signaler un dysfonctionnement auprès de l'équipe de développement de GLPI. Il suffit de copier/coller le texte sur le forum : le formatage est déjà géré.
 
 -----
-**Sujet parent :** [Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md)
+**Sujet parent :** [Configurer les paramètres centraux](08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md)

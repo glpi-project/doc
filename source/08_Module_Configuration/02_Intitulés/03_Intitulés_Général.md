@@ -15,10 +15,10 @@ Dans la fiche d'un lieu, on trouve un certain nombre d'informations concernant c
 -   **Onglet "Eléments"**
     Liste tous les éléments affectés à ce lieu. Vous pouvez choisir de n'afficher qu'un type d'élément (ordinateur, utilisateur, prise réseau, logiciel...).
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Traduction"](index.php?fr/08_Module_Configuration/02_Intitulés/Onglet_Traduction.md)**
+-   **[Onglet "Traduction"](08_Module_Configuration/02_Intitulés/Onglet_Traduction.md)**
     Uniquement si vous le droit de traduire les intitulés est autorisé dans la configuration générale.
 
 -   **Onglet "Prise réseau"**
@@ -31,7 +31,7 @@ Dans la fiche d'un lieu, on trouve un certain nombre d'informations concernant c
         et "srv" le suffixe
         les prises réseau créées seront nommées : bru09srv, bru10srv, bru11srv.
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Status
@@ -45,10 +45,10 @@ Dans la fiche d'un statut, on trouve un certain nombre d'informations concernant
 -   **Onglet "Statuts des éléments"**
     Liste les sous-statuts existants et permet d'en ajouter un nouveau. 
 
--   **[Onglet "Traduction"](index.php?fr/08_Module_Configuration/02_Intitulés/Onglet_Traduction.md)**
+-   **[Onglet "Traduction"](08_Module_Configuration/02_Intitulés/Onglet_Traduction.md)**
     Uniquement si vous le droit de traduire les intitulés est autorisé dans la configuration générale.
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Fabricants
@@ -64,10 +64,10 @@ Les listes noires sont utilisées pour les imports automatique via un agent d'in
 
 ***Les différents onglets***
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Contenu de courriel interdit
@@ -80,12 +80,12 @@ Elle permet au collecteur de courriels de ne pas importer un courriel contenu le
 Les différentes actions
 -----------------------
 
--   **[Ajouter un intitulé](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un intitulé](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un intitulé](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un intitulé](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un intitulé](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un intitulé](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un intitulé](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un intitulé](Les_différentes_actions/Supprimer_un_objet.md)**
 
 >Important : Si des éléments que vous voulez supprimer sont utilisés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.
 
 ------
-**Sujet parent :** [Les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")
+**Sujet parent :** [Les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")

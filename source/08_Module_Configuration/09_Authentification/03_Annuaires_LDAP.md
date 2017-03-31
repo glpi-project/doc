@@ -68,16 +68,16 @@ Les différents onglets
 
 -   **Onglet "Réplicats"**
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un annuaire LDAP](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Ajouter un annuaire LDAP](Les_différentes_actions/Créer_un_nouvel_objet.md)**
     ***Conseil :*** Il existe un modèle de pré-configuration Active Directory, qui pré-remplit un certain nombre de champs. Celui-ci a été mis en place afin de faciliter la configuration GLPI-AD. Pour le charger, cliquer sur le lien **Active Directory**. Le lien **Valeur(s) par défaut** réinitialise la saisie.
 
 

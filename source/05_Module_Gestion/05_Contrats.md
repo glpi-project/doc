@@ -11,11 +11,11 @@ Un contrat regroupe différents types d'informations :
 
 Il est possible d'être alerté par courriel sur différents éléments du contrat (fin, préavis, fin de période...).
 
-**[Gérer les gabarits](index.php?fr/Les_différentes_actions/Gérer_les_gabarits.md)**
+**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.md)**
 
 Description des champs
 ----------------------
--   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. Voir [Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés") ;
+-   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. Voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés") ;
 -   **Numéro**: cette information n'est pertinente que si le numéro de contrat est identique à celui utilisé au sein des autres services de la société ;
 -   **Date de début** : à ne pas confondre avec la date d'enregistrement du contrat dans GLPI. Tous les calculs de périodicité sur le contrat sont donc fonction de cette date ;
 -   **Durée initiale du contrat** : si ce champ et la date de début sont renseignés, la date de fin de contrat apparaitra (en rouge si la date a expirée) ;
@@ -31,40 +31,40 @@ Les différents onglets
 ----------------------
 -   **Onglet "Coûts"**
     Les éléments de coûts peuvent être saisi indépendamment (coût initial, coût avenant...).
-    Chaque élément peut être lié à un budget différent (voir [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")).
+    Chaque élément peut être lié à un budget différent (voir [Gérer les budgets](05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")).
     Sous la possibilité d'ajout de nouveaux coûts, un tableau récapitule les coûts déja enregistrés ainsi que le coût total pour ce contrat.
 
--   **[Onglet "Fournisseurs"](index.php?fr/Les_différents_onglets/Onglet_Fournisseurs.md)**
+-   **[Onglet "Fournisseurs"](Les_différents_onglets/Onglet_Fournisseurs.md)**
     Gérer les informations financières et administratives
 
--   **[Onglet "Eléments"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet d'ajouter et de visualiser les éléments attachés à ce contrat.
     
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
--   **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
+-   **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
--   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
+-   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
+-   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
     Uniquement si vous êtes connecté en mode Debug.
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un contrat](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un contrat](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un contrat](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un contrat](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un contrat](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Transférer un contrat vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Ajouter un contrat](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un contrat](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un contrat](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un contrat](Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à un contrat](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Transférer un contrat vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
 -   **Paramétrer les alertes sur les contrats**
     Il est possible de recevoir des notifications pour prévenir d'événements tels que la fin du contrat.
     Dans le cas ou la reconduction du contrat serait expresse, il peut être intéressant d'être alerté à la date du préavis. Pour les contrats périodiques il est également possible d'être alerté à la
@@ -72,4 +72,4 @@ Les différentes actions
     Ceci est configurable par entité dans le menu **Configuration > Notifications** pour définir les modèles et destinataires utilisés et dans le menu **Configuration > Entité** pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l'envoi de la notification si besoin.
 
 --------
-**Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")
+**Sujet parent :** [Module Gestion](05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

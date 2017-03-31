@@ -15,21 +15,21 @@ Figure 1. Onglet Debug d'un ticket
 ![image](docs/image/item_debug.png)
 
 ------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](03_Module_Parc/05_Gérer_les_moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/06_Gérer_les_logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
+**Sujet parent :** [Gérer les logiciels](03_Module_Parc/06_Gérer_les_logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciel")
 
-**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/07_Gérer_les_matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
+**Sujet parent :** [Gérer les matériels réseaux](03_Module_Parc/07_Gérer_les_matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/08_Gérer_les_périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/09_Gérer_les_imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les cartouches](index.php?fr/03_Module_Parc/10_Gérer_les_cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les cartouches](03_Module_Parc/10_Gérer_les_cartouches.md "Les cartouches dans GLPI, caractéristiques et utilisation")
 
-**Sujet parent :** [Gérer les consommables](index.php?fr/03_Module_Parc/11_Gérer_les_consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
+**Sujet parent :** [Gérer les consommables](03_Module_Parc/11_Gérer_les_consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
 
 **Sujet parent :** [Gérer les
 téléphones](../glpi/inventory_phone.html "Les téléphones se gèrent depuis le menu Parc > Téléphones ;")

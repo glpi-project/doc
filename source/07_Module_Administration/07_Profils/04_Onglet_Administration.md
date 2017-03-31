@@ -1,4 +1,4 @@
-Les 7 droits standard ne seront pas listés (voir [Explication des droits](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md)).
+Les 7 droits standard ne seront pas listés (voir [Explication des droits](07_Module_Administration/07_Profils/01_Profils.md)).
 
 Avant de commencer le détail des droits de la partie Administration, il faut bien faire attention à la couleur des zones de droits.
 En effet, comme indiqué dans la légende 
@@ -41,6 +41,6 @@ Droits **Règles métier pour les tickets (entité)** :
 Les éléments de la partie Dictionnaires rentrent dans les 7 droits standard.
 
 ---------
-**Sujet parent :** [La gestion des profils](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
+**Sujet parent :** [La gestion des profils](07_Module_Administration/07_Profils/01_Profils.md "La gestion des profils").
 
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").

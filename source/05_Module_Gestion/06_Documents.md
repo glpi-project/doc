@@ -25,26 +25,26 @@ Les différents onglets
     Quasiment tous les objets de GLPI sont associables à un document.
     Le tableau listant les éléments du contrat est trié par type d'éléments avec pour chaque type le nom de l'élément et si présents, les numéros de série et d'inventaire.
 
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
     Il est en effet possible d'associer un document à un autre document (exemple : un premier document nommé "Abonnement" qui contiendrait un exemplaire du contrat ainsi que toutes les factures) ;
 
--   **[Onglet "Notes"](index.php?fr/Les_différents_onglets/Onglet_Notes.md)**
+-   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un document](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un document](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un document](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un document](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un autre document](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Transférer un document vers une autre entité](index.php?fr/Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Ajouter un document](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un document](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un document](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un document](Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à un autre document](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Transférer un document vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
 
 ------
-**Sujet parent :** [Module Gestion](index.php?fr/05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")
+**Sujet parent :** [Module Gestion](05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

@@ -41,4 +41,4 @@ Ces fonctionnalités ne sont pas activées par défaut et concernent tous les é
    Exemple : lors de la première remontée d'inventaire vous pouvez définir que le moniteur connecté à l'ordinateur prendra le statut Production. En cas de déconnexion il prendra le statut Disponible
 
 -----
-**Sujet parent :** [Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md)
+**Sujet parent :** [Configurer les paramètres centraux](08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md)

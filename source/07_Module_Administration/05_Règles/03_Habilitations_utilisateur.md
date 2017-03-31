@@ -49,7 +49,7 @@ Lorsque plusieurs serveurs de messagerie sont définis comme source d'authentifi
 Habilitations basées sur l'identifiant de messagerie :
 ------------------------------------------------------
 
-Lorsque les adresses de messagerie des utilisateurs comportent plusieurs noms de domaine, ou une information pertinente pour définir les habilitations, cette information peut servir à définir les habilitations. Il est également possible d'affecter une entité à un utilisateur en utilisant le domaine de messagerie si celui-ci est spécifique à une entité. Le domaine de messagerie utilisé par l'entité est défini dans les [informations avancées des entités](index.php?fr/07_Module_Administration/04_Entités.md).
+Lorsque les adresses de messagerie des utilisateurs comportent plusieurs noms de domaine, ou une information pertinente pour définir les habilitations, cette information peut servir à définir les habilitations. Il est également possible d'affecter une entité à un utilisateur en utilisant le domaine de messagerie si celui-ci est spécifique à une entité. Le domaine de messagerie utilisé par l'entité est défini dans les [informations avancées des entités](07_Module_Administration/04_Entités.md).
 
     Exemple :
     Les utilisateurs s'authentifient à partir des adresses de messagerie de la forme suivante : `utilisateur@example.fr` et `utilisateur@exemple.be`. 
@@ -168,9 +168,9 @@ Des cas mixtes peuvent être rencontrés : les règles peuvent utiliser à la fo
 ***Remarque :** il est possible de rajouter des critères LDAP supplémentaires en cliquant sur l'icône ![image](docs/image/addcriteria.png) à côté de la liste déroulante. Un critère est composé d'un nom (utilisé dans la liste déroulante), d'un critère (correspondant à l'attribut dans l'annuaire LDAP) et d'un commentaire.*
 
 -------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
 
-**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Gérer les règles").
+**Sujet parent :** [Gérer les règles](07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Gérer les règles").
 
 **Sujet parent :** [Administrer les contrôles
 d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")

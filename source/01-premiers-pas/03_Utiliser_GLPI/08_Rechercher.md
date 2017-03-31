@@ -146,4 +146,4 @@ Dans le cas d'une utilisation de GLPI en multi-entités, pour mettre à disposit
 dans des sous-entités.
 
 ----------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

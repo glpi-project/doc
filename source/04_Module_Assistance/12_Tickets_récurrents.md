@@ -22,4 +22,4 @@ Description des champs
 L'ouverture de tickets récurrents est effectuée à travers une action automatique nommée *ticket recurrent* (voir [Configurer les actions automatiques](config_crontask.html "Les actions automatiques se configurent depuis le menu Configuration > Actions automatiques")).
 
 --------
-**Sujet parent :** [Le service d'assistance aux utilisateurs](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")
+**Sujet parent :** [Le service d'assistance aux utilisateurs](04_Module_Assistance/01_Module_Assistance.md "Le service d'Assistance aux utilisateurs de GLPI")

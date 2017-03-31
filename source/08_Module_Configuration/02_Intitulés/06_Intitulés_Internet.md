@@ -3,7 +3,7 @@ Intitulés Internet
 
 Le protocole IP est matérialisé sous plusieurs formes : adresses IP, réseaux IP, mais aussi des FQDN.
 
-Un équipement se connecte au réseau au travers de [ports réseau](index.php?fr/Les_différents_onglets/Onglet_Ports_Réseaux.md "Gestion des ports réseaux pour les éléments d'inventaire").
+Un équipement se connecte au réseau au travers de [ports réseau](Les_différents_onglets/Onglet_Ports_Réseaux.md "Gestion des ports réseaux pour les éléments d'inventaire").
 
 À un port réseau, on associe un ou plusieurs Noms réseau(voir ci-dessous).
 
@@ -51,10 +51,10 @@ Les réseaux sont modifiables depuis les intitulés ( Configuration > Intitulés
     Liste les adresses IP de ce réseau.
     Vous pouvez classer cette liste par numéro d'IP en cliant sur le lien Adresses IP ou par type de matériel en cliquant sur le lien Trier par type d'élément. Dans ce cas, vous aurez un tableau par type d'élément.
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Domaines Internet
@@ -68,10 +68,10 @@ Domaines Internet
 -   **Alias réseau**
     Liste les alias réseau du domaine.
  
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Réseaux Wifi
@@ -102,22 +102,22 @@ IP, il suffit d'effacer le contenu du champs de l'IP que l'on souhaite retirer.
     Traditionnellement, le nom réseau est celui utilisé par le DNS pour la résolution inverse d'une adresse IP alors que les alias correspondent au *`CNAME`* du nomFQDN. 
     De la même manière, le nom de l'alias doit un label FQDN valide.
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
 
--   **[Ajouter un intitulé](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un intitulé](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un intitulé](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un intitulé](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un intitulé](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un intitulé](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un intitulé](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un intitulé](Les_différentes_actions/Supprimer_un_objet.md)**
 
 >Important : Si des éléments que vous voulez supprimer sont utilisés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.
 
 ------
-**Sujet parent :** [Les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")
+**Sujet parent :** [Les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")

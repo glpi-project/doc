@@ -20,29 +20,29 @@ Les différents onglets
     ![image](docs/image/niveauSla.png)
 
 
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un composant](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un composant](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un composant](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un composant](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un composant](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un composant](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un composant](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un composant](Les_différentes_actions/Supprimer_un_objet.md)**
 -   **Rechercher un composant**
     Depuis le moteur de recherche, on peut rechercher un composant sur tout ou partie des champs qui le définissent, à savoir le nom, le fabricant, le commentaire et tous les champs spécifiques au composant.
 -   **Modifier les caractéristiques d'un composant uniquement pour l'élément lié**
     Depuis l'onglet *Eléments* du composant, cliquer sur le lien **Mettre à jour**.
     Plusieurs onglet sont alors proposés :
     - **Onglet "Elément - Lien nom du composant"** : liste les caractéristiques de ce composant.
-    - **[Onglet "Gestion"](index.php?fr/Les_différents_onglets/Onglet_Gestion.md)** :     gérer les informations financières et administratives.
-    - **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
-    - **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
-    - **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)** : uniquement si vous êtes connecté en mode Debug.
-    - **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)** : pour un élément, toutes les informations sont affichées sur une seule page.
+    - **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)** :     gérer les informations financières et administratives.
+    - **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+    - **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
+    - **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)** : uniquement si vous êtes connecté en mode Debug.
+    - **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)** : pour un élément, toutes les informations sont affichées sur une seule page.
 
 -------
-**Sujet parent :** [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")
+**Sujet parent :** [Module Configuration](08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")

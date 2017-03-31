@@ -2,7 +2,7 @@ Configurer les actions automatiques
 ===================================
 
 L'action automatique **watcher** est une action qui surveille l'exécution correcte des autres actions automatiques. Si une d'entre elles se retrouve en erreur, une notification sera envoyée. Il faut donc
-que le suivi par courriel soit activé (voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notificationss.md)")) ; les destinataires sont paramétrables dans la notification **Crontask Watcher** (voir [Gérer les notifications par entité](index.php?fr/08_Module_Configuration/04_Notifications/04_Notifications.md)).
+que le suivi par courriel soit activé (voir [Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notificationss.md)")) ; les destinataires sont paramétrables dans la notification **Crontask Watcher** (voir [Gérer les notifications par entité](08_Module_Configuration/04_Notifications/04_Notifications.md)).
 
 
 Les différents onglets
@@ -49,4 +49,4 @@ Les différentes actions
 
 
 --------
-**Sujet parent :** [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")
+**Sujet parent :** [Module Configuration](08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")

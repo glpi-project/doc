@@ -24,4 +24,4 @@ Dans le cas d'un objet ne possédant pas de corbeille, GLPI demandera une confir
 Dans le cas contraire, l'objet sera mis dans la corbeille d'où il pourra être restauré (sorti de la corbeille).
 
 -----------
-**Parent topic:** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Parent topic:** [Gérer les ordinateurs](03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")

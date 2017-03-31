@@ -21,9 +21,9 @@ Les intitulés avec fond plus foncé sont des intitulés globaux alors que les a
 
 Voyons maintenant chaque partie en détail :
 
-- **[Général](index.php?fr/08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md "La partie Général des intitulés")**
+- **[Général](08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md "La partie Général des intitulés")**
 
-- **[Assistance](index.php?fr/08_Module_Configuration/02_Intitulés/04_Intitulés_Assistance.md "La partie Assistance des intitulés")**
+- **[Assistance](08_Module_Configuration/02_Intitulés/04_Intitulés_Assistance.md "La partie Assistance des intitulés")**
 
 - **Types**
   Quel que soit le type, la liste est une liste de valeurs à plat valable pour toutes les entités.
@@ -63,7 +63,7 @@ possible d'en ajouter en fournissant les informations suivantes :
   L'onglet *Catégories de la base de connaissance* liste des sous-catégories déjà créées et permet d'en ajouter une nouvelle.
   Une catégorie de la base de connaissance peut être traduite.
 
-- **[Calendrier](index.php?fr/08_Module_Configuration/02_Intitulés/05_Intitulés_Calendrier.md "La partie Calendrier des intitulés")**
+- **[Calendrier](08_Module_Configuration/02_Intitulés/05_Intitulés_Calendrier.md "La partie Calendrier des intitulés")**
 
 - **Systèmes d'exploitation**
   Quel que soit le sous-intitulé, la liste est une liste de valeurs à plat valable pour toutes les entités.
@@ -76,9 +76,9 @@ possible d'en ajouter en fournissant les informations suivantes :
   Seules la liste Réseaux peut être traduite.
   ***Prises réseaux :***
    Une prise réseau peut être liée à un lieu. Dans ce cas, lors de la sélection d'une prise sur un port réseau d'un matériel, seules les prises réseau disponibles du lieu du matériel (et des lieux enfants) apparaissent.
-   Si vous souhaitez plusieurs prises pour un même lieu, il est préférable d'effectuer la création via le menu lieu de la partie [Général](index.php?fr/08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md)  du menu des intitulés.
+   Si vous souhaitez plusieurs prises pour un même lieu, il est préférable d'effectuer la création via le menu lieu de la partie [Général](08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md)  du menu des intitulés.
 
-- **[Internet](index.php?fr/08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md)** 
+- **[Internet](08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md)** 
   Définition des noms réseau, domaines internet, réseaux IP et WIFI.
 
 - **Logiciel (catégories des logiciels)**
@@ -106,4 +106,4 @@ possible d'en ajouter en fournissant les informations suivantes :
 
 
 --------
-**Sujet parent :** [Module Configuration](index.php?fr/08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")
+**Sujet parent :** [Module Configuration](08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")

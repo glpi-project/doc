@@ -20,4 +20,4 @@ Un flux RSS public est visible pour les utilisateurs associé à un profil
 ayant le droit de lire les flux RSS publics.
 
 --------
-**Sujet parent :** [Module Outils](index.php?fr/06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")
+**Sujet parent :** [Module Outils](06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")

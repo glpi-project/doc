@@ -9,7 +9,7 @@ Comment faire un transfert :
 
 1.  Utiliser un profil qui a le droit de faire des transferts (Administration > Profils > Administration --> Droit le Lecture sur Transférer) ;
 
-2.  Configurer les actions faites par le transfert ([Administration > Règles --> **Transférer](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md)) ;
+2.  Configurer les actions faites par le transfert ([Administration > Règles --> **Transférer](07_Module_Administration/05_Règles/01_Gérer_les_règles.md)) ;
 
 3.  S'assurer que le profil qui va effectuer le transfert a une visibilité sur l'entité cédante et sur l'entité prenante (le plus simple est d'utiliser un profil récursif depuis l'entité racine) ;
 
@@ -35,34 +35,34 @@ Par contre un fournisseur défini dans l'entité racine en récursif ne sera pas
 
 ---------
 ------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciels")
+**Sujet parent :** [Gérer les logiciels](03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciels")
 
-**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Matériels réseaux")
+**Sujet parent :** [Gérer les matériels réseaux](03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Matériels réseaux")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/007_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/007_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les cartouches](index.php?fr/03_Module_Parc/08_Cartouches.md "Les cartouches se gèrent depuis le menu Parc > Cartouches")
+**Sujet parent :** [Gérer les cartouches](03_Module_Parc/08_Cartouches.md "Les cartouches se gèrent depuis le menu Parc > Cartouches")
 
-**Sujet parent :** [Gérer les consommables](index.php?fr/03_Module_Parc/09_Consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
+**Sujet parent :** [Gérer les consommables](03_Module_Parc/09_Consommables.md "Les consommables se gèrent depuis le menu Parc > Consommables")
 
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
+**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
 
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
+**Sujet parent :** [Gérer les tickets](04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets se gèrent depuis le menu Assistance > Tickets")
 
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")
+**Sujet parent :** [Gérer les problèmes](04_Module_Assistance/08_Problèmes.md "Les problèmes se gèrent depuis le menu Assistance > Problèmes")
 
-**Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs se gèrent depuis le menu Gestion > Fournisseurs")
+**Sujet parent :** [Gérer les fournisseurs](05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs se gèrent depuis le menu Gestion > Fournisseurs")
 
-**Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts se gèrent depuis le menu Gestion > Contacts")
+**Sujet parent :** [Gérer les contacts](05_Module_Gestion/04_Contacts.md "Les contacts se gèrent depuis le menu Gestion > Contacts")
 
-**Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats se gèrent depuis le menu Gestion > Contrats")
+**Sujet parent :** [Gérer les contrats](05_Module_Gestion/05_Contrats.md "Les contrats se gèrent depuis le menu Gestion > Contrats")
 
-**Sujet parent :** [Gérer les documents](index.php?fr/05_Module_Gestion/06_Documents.md "Les documents se gèrent depuis le menu Gestion > Documents")
+**Sujet parent :** [Gérer les documents](05_Module_Gestion/06_Documents.md "Les documents se gèrent depuis le menu Gestion > Documents")
 
-**Sujet parent :** [Gérer les groupes](index.php?fr/07_Module_Administration/03_Groupe.md "Les groupes se gèrent depuis le menu Administration > Groupes")
+**Sujet parent :** [Gérer les groupes](07_Module_Administration/03_Groupe.md "Les groupes se gèrent depuis le menu Administration > Groupes")

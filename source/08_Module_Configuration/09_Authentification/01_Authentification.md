@@ -13,9 +13,9 @@ L'accès d'un utilisateur à GLPI est possible après que ces conditions aient �
 GLPI utilise sa propre base interne d'utilisateurs. Ceux-ci sont soit créés depuis l'interface de l'application, soit importés depuis une ou plusieurs sources externes. Selon le type de source, l'import des utilisateurs peut se faire soit en masse, soit au fil de l'eau lors de la tentative de connexion d'un utilisateur non encore connu de GLPI.
 
 Pour effectuer l'authentification, GLPI fait appel à une base de mots de passes interne, qui peut être complétée par une ou plusieurs sources externes d'authentification. L'utilisation de méthodes d'authentification externes permet de déléguer cette fonctionnalité à des systèmes tiers assurant la gestion d'identité. Voir [Configurer l'intégration avec les sources d'authentification
-externes](index.php?fr/08_Module_Configuration/09_Authentification/02_Configuration.md) "Les paramètres généraux de l'intégration avec des sources externes d'authentification se configurent dans le menu Configuration > Authentification > Configuration.").
+externes](08_Module_Configuration/09_Authentification/02_Configuration.md) "Les paramètres généraux de l'intégration avec des sources externes d'authentification se configurent dans le menu Configuration > Authentification > Configuration.").
 
-L'attribution des habilitations est décrite dans la section [Attribuer des habilitations à un utilisateur](index.php?fr/07_Module_Administration/05_Règles/03_Habilitations_utilisateur.md) "GLPI dispose d'un moteur d'habilitations dynamiques qui se base sur des sources externes d'authentification. Il est accessible depuis le menu Administration > Règles > Règles d'affectation d'habilitation à un utilisateur.").
+L'attribution des habilitations est décrite dans la section [Attribuer des habilitations à un utilisateur](07_Module_Administration/05_Règles/03_Habilitations_utilisateur.md) "GLPI dispose d'un moteur d'habilitations dynamiques qui se base sur des sources externes d'authentification. Il est accessible depuis le menu Administration > Règles > Règles d'affectation d'habilitation à un utilisateur.").
 
 ***Remarque** : La cinématique d'authentification est la suivante :*
 

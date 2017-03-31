@@ -10,6 +10,6 @@ Pour chaque fournisseur associé, les nom, type de tiers, téléphone et site we
 Voir [Gérer les contrats](management_contract.html "Les contrats sont gérés depuis le menu Gestion > Contrats").
 
 -------
-**Sujet parent :** [Gérer les Contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts se gèrent depuis le menu Gestion > Contacts")
+**Sujet parent :** [Gérer les Contacts](05_Module_Gestion/04_Contacts.md "Les contacts se gèrent depuis le menu Gestion > Contacts")
 
-**Sujet parent :** [Gérer les Contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats se gèrent depuis le menu Gestion > Contrats")
+**Sujet parent :** [Gérer les Contrats](05_Module_Gestion/05_Contrats.md "Les contrats se gèrent depuis le menu Gestion > Contrats")

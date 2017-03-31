@@ -13,7 +13,7 @@ L'utilisateur peut ici modifier les informations personnelles usuelles : nom de 
 
 Il peut ajouter des adresses de messagerie et sélectionner l'adresse par défaut, qui sera utilisée pour  l'envoi des notifications.
 
-Il peut aussi spécifier certains comportements par défaut de l'application, comme le profil et l'entité sélectionnés par défaut lors de la connexion à l'interface. Voir [Administrer les profils d'utilisateurs](index.php?fr/07_Module_Administration/07_Profils/01_Profils.md) "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.") et [Administrer les entités](index.php?fr/07_Module_Administration/04_Entités.md "Dans GLPI, administrer les entités peut se faire à partir du menu Administration > Entités.").
+Il peut aussi spécifier certains comportements par défaut de l'application, comme le profil et l'entité sélectionnés par défaut lors de la connexion à l'interface. Voir [Administrer les profils d'utilisateurs](07_Module_Administration/07_Profils/01_Profils.md) "Dans GLPI, administrer les profils peut se faire à partir du menu Administration > Profils.") et [Administrer les entités](07_Module_Administration/04_Entités.md "Dans GLPI, administrer les entités peut se faire à partir du menu Administration > Entités.").
 Il peut également désactiver les notifications pour les actions qu'il réalise.
 
 L'utilisateur expérimenté peut aussi choisir de sortir du mode d'utilisation normal de l'application :
@@ -24,7 +24,7 @@ Onglet Personnalisation
 ----------------------
 Cet onglet permet de modifier les préférences générales d'affichage appliqué à un utilisateur donné. Ces paramètres sont prioritaires sur ceux définis dans la configuration générale.
 
-Pour plus d'explications, voir [l'onglet personnalisation de la configuration générale](index.php?fr/08_Module_Configuration/06_Générale/03_Valeurs_par_défaut.md)
+Pour plus d'explications, voir [l'onglet personnalisation de la configuration générale](08_Module_Configuration/06_Générale/03_Valeurs_par_défaut.md)
 
 
 ![image](docs/image/personnalisation.png)
@@ -50,4 +50,4 @@ Si vous avez défini des affichages personnalisés dans les objets, cet onglet s
 Il permet de supprimer les vues personnelles définies pour revenir aux vues galobales.
 
 -------
-**Sujet parent :** [Utiliser GLPI](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)
+**Sujet parent :** [Utiliser GLPI](01-premiers-pas/03_Utiliser_GLPI/01_Utiliser_GLPI.md)

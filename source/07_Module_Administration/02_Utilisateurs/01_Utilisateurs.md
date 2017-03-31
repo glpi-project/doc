@@ -7,7 +7,7 @@ En plus des informations de l'utilisateur, il est possible de le désactiver si 
 
 Une photo peut être associée manuellement ou importée automatiquement depuis un annuaire (voir [Authentifier des utilisateurs à partir d'annuaires LDAP](config_auth_ldap.html "L'interface de GLPI avec les annuaires LDAP se configure depuis le menu Configuration > Authentification > Annuaire LDAP.")).
 
-Depuis la liste des utilisateurs, 3 options sont proposées pour [importer un utilisateur ![image](docs/image/addUserAll.png)](index.php?fr/07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.md).
+Depuis la liste des utilisateurs, 3 options sont proposées pour [importer un utilisateur ![image](docs/image/addUserAll.png)](07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.md).
 
 
 Les différents onglets
@@ -24,22 +24,22 @@ Les différents onglets
     
 
 -   **Onglet "Préférences"**
-    Permet l'édition des préférences de l'utilisateur. Voir [Gérer ses préférences](index.php?fr/01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences").
+    Permet l'édition des préférences de l'utilisateur. Voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md "Les préférences utilisateur se modifient depuis le menu Préférences").
     Pour modifier les données de cet onglet vous devez avoir les droits de modifier la configuration générale.
 
--   **[Onglet "Eléments utilisés"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments utilisés"](Les_différents_onglets/Onglet_Eléments.md)**
     L'utilisateur est défini dans le champ *Utilisateur* de l'objet ou est membre du groupe défini dans le champ *Groupe* de l'objet.
 
--   **[Onglet "Eléments gérés"](index.php?fr/Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments gérés"](Les_différents_onglets/Onglet_Eléments.md)**
     L'utilisateur est défini dans le champ *Responsable technique* de l'objet ou est membre du groupe défini dans le champ *Groupe technique* de l'objet.
 
 
--   **[Onglet "Tickets créés"](index.php?fr/Les_différents_onglets/Onglet_Tickets.md)**
+-   **[Onglet "Tickets créés"](Les_différents_onglets/Onglet_Tickets.md)**
     Liste les tickets dans lesquels l'utilisateur est demandeur.
 
--   **[Onglet "Documents"](index.php?fr/Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
--   **[Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
     Liste les réservations passées, en cours et à venir de l'utilisateur.
     Vous devez avoir le droit de lecture sur l'administration des réservations pour voir cet onglet.
 
@@ -47,31 +47,31 @@ Les différents onglets
     Cet onglet apparaît si vous avez les droits "Mise à jour auth et sync" dans votre profil.
     Il permet de changer la méthode d'authentification d'un utilisateur et de forcer sa synchronisation.
 
--   **[Onglet "Liens"](index.php?fr/Les_différents_onglets/Onglet_Liens.md)**
+-   **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
     Cet onglet liste les liens externes définis pour les utilisateurs.
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
 
--   **[Onglet "Debug"](index.php?fr/Les_différents_onglets/Onglet_Debug.md)**
+-   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
     Uniquement si vous êtes connecté en mode Debug.
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter un utilisateur](index.php?fr/07_Module_Administration/02_Utilisateurs/02_Importer_un_utilisateur.md)**
--   **[Modifier les données d'un utilisateur](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Ajouter un utilisateur](07_Module_Administration/02_Utilisateurs/02_Importer_un_utilisateur.md)**
+-   **[Modifier les données d'un utilisateur](Les_différentes_actions/Modifier_un_objet.md)**
 -   **Modifier la méthode d'authentification d'un utilisateur**
     S'effectue depuis l'onglet "Synchronisation" (voir ci-dessus)
--   **[Supprimer un utilisateur](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un utilisateur](index.php?fr/Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un élément à un utilisateur](index.php?fr/Les_différentes_actions/Onglet_Eléments.md)**
--   **[Associer un ticket à un utilisateur](index.php?fr/Les_différentes_actions/Onglet_Tickets.md)**
+-   **[Supprimer un utilisateur](Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Associer un document à un utilisateur](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
+-   **[Associer un élément à un utilisateur](Les_différentes_actions/Onglet_Eléments.md)**
+-   **[Associer un ticket à un utilisateur](Les_différentes_actions/Onglet_Tickets.md)**
 
 --------
 **Sujet parent :** [Administrer les contrôles
 d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")
 
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application")
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application")

@@ -2,7 +2,7 @@ Intitulés Calendrier
 =================
 
 Les calendriers utilisés au sein de GLPI sont paramétrables par entité. Ils sont caractérisés par des périodes d'ouverture ainsi que des périodes de fermeture.
-Ces calendriers sont utilisés dans les SLAs (voir Configurer les SLAs) et la [configuration des entités](index.php?fr/07_Module_Administration/04_Entités.md).
+Ces calendriers sont utilisés dans les SLAs (voir Configurer les SLAs) et la [configuration des entités](07_Module_Administration/04_Entités.md).
 
 Calendrier
 ---------
@@ -15,7 +15,7 @@ Calendrier
 -   **Onglet "Période de fermeture"**
     Liste les périodes de fermeture affectées à ce calendrier et permet d'en ajouter une nouvelle
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 Périodes de fermeture
@@ -31,12 +31,12 @@ Très utile pour indiquer les jours fériés revenant chaque année (Noël, Vict
 Les différentes actions
 -----------------------
 
--   **[Ajouter un intitulé](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un intitulé](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un intitulé](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un intitulé](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un intitulé](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir un intitulé](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier un intitulé](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer un intitulé](Les_différentes_actions/Supprimer_un_objet.md)**
 
 >Important : Si des éléments que vous voulez supprimer sont utilisés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.
 
 ------
-**Sujet parent :** [Les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")
+**Sujet parent :** [Les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés sont gérés depuis le menu Configuration > Intitulés")

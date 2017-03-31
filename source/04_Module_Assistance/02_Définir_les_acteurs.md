@@ -20,9 +20,9 @@ Au moment de l'association d'un nouvel acteur, vous pouvez également voir le no
 ***Remarques :*** 
 
 *- Dans le cas d'utilisateurs non connus de GLPI, des courriels peuvent également être associés à un ticket. Le choix par défaut (pas d'utilisateur sélectionné) au niveau des demandeurs ou observateurs
-permet de saisir un courriel dans la zone correspondante. Pour ce faire, les notifications doivent être activées (voir [Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+permet de saisir un courriel dans la zone correspondante. Pour ce faire, les notifications doivent être activées (voir [Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
-*- Dans GLPI, l'attribution de l'un de ces rôles se fait au niveau de la gestion des habilitations des utilisateurs (voir [Attribuer des habilitations à un utilisateur](index.php?fr/07_Module_Administration/05_Règles/03_Habilitations_utilisateur.md "GLPI dispose d'un moteur d'habilitations dynamiques qui se base sur des sources externes d'authentification. Il est accessible depuis le menu Administration > Règles > Règles d'affectation d'entité et de droits.")).*
+*- Dans GLPI, l'attribution de l'un de ces rôles se fait au niveau de la gestion des habilitations des utilisateurs (voir [Attribuer des habilitations à un utilisateur](07_Module_Administration/05_Règles/03_Habilitations_utilisateur.md "GLPI dispose d'un moteur d'habilitations dynamiques qui se base sur des sources externes d'authentification. Il est accessible depuis le menu Administration > Règles > Règles d'affectation d'entité et de droits.")).*
 
 --------
-**Sujet parent :** [Mise en route du service d'assistance](index.php?fr/04_Module_Assistance/01_Module_Assistance.md "Mise en route du service d'assistance")
+**Sujet parent :** [Mise en route du service d'assistance](04_Module_Assistance/01_Module_Assistance.md "Mise en route du service d'assistance")

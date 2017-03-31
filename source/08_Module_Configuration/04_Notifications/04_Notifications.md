@@ -65,23 +65,23 @@ Les différents onglets
     - **Technicien chargé du ticket** : technicien auquel le ticket est attribué ;
     - **Utilisateur du matériel** : personne ayant effectuée la réservation du matériel.
 
--   **[Onglet "Historique"](index.php?fr/Les_différents_onglets/Onglet_Historique.md)**
+-   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Tous"](index.php?fr/Les_différents_onglets/Onglet_Tous.md)**
+-   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.
 
 
 Les différentes actions
 -----------------------
--   **[Ajouter une notification](index.php?fr/Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir une notification](index.php?fr/Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier une notification](index.php?fr/Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer une notification](index.php?fr/Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter une notification](Les_différentes_actions/Créer_un_nouvel_objet.md)**
+-   **[Voir une notification](Les_différentes_actions/Visualiser_un_objet.md)**
+-   **[Modifier une notification](Les_différentes_actions/Modifier_un_objet.md)**
+-   **[Supprimer une notification](Les_différentes_actions/Supprimer_un_objet.md)**
 -   **Gérer les destinataires d'une notification**
     Pour ajouter un nouveau destinataire il suffit de cliquer dans le cadre blanc (cela ouvrira la liste des destinataires) et choisir son destinataire.
     Pour supprimer un destinataire il suffit de cliquer sur la croix dans la case le concernant.
     Ne pas oublier de cliquer sur Modifier pour valider vos actions (ajout ou suppression).
 
 --------------
-**Sujet parent :**  [Configurer les notifications]((index.php?fr/08_Module_Configuration/04_Notifications/01_Notifications.md) "Les notifications se configurent depuis le menu Configuration > Notifications")
+**Sujet parent :**  [Configurer les notifications]((08_Module_Configuration/04_Notifications/01_Notifications.md) "Les notifications se configurent depuis le menu Configuration > Notifications")

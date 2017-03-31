@@ -3,7 +3,7 @@ Onglet "Changements"
 
 Module Assistance
 -----------------
-Suivant vos droits dans votre profil, vous pouvez choisir d'ajouter un changement existant à cet objet (ticket ou problème) ou créer un changement à partir de cet objet (voir [Gestion des changements](index.php?fr/04_Module_Assistance/09_Changements.md)).
+Suivant vos droits dans votre profil, vous pouvez choisir d'ajouter un changement existant à cet objet (ticket ou problème) ou créer un changement à partir de cet objet (voir [Gestion des changements](04_Module_Assistance/09_Changements.md)).
 Dans ce dernier cas, le changement créé reprendra les concepts de l'objet (*demandeurs*, *observateurs*,
 *assignation*, *statut*, *urgence*, *impact*, *priorité*, *catégorie*).
 
@@ -24,8 +24,8 @@ Toutefois, contrairement au fonctionnement dans le module Assistance, il ne perm
 
 
 -------
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets sont gérés depuis le menu Assistance > Tickets")
+**Sujet parent :** [Gérer les tickets](04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets sont gérés depuis le menu Assistance > Tickets")
 
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
+**Sujet parent :** [Gérer les problèmes](04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
-**Sujet parent :** [Gérer les projets](index.php?fr/06_Module_Outils/02_Projets/01_Projets.md "Les projets sont gérés depuis le menu Outils > Projets")
+**Sujet parent :** [Gérer les projets](06_Module_Outils/02_Projets/01_Projets.md "Les projets sont gérés depuis le menu Outils > Projets")

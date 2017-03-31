@@ -28,6 +28,6 @@ l'entité courante.
 Si vous définissez une urgence et/ou un impact via une règle métier, il faut penser également à ajouter l'action Priorité Recalculer afin que cette dernière soit bien basée sur les champs que vous venez de définir.
 
 ---------
-**Sujet parent :** [Module Administration](index.php?fr/07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
+**Sujet parent :** [Module Administration](07_Module_Administration/01_Module_Administration.md "Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application").
 
-**Sujet parent :** [Gérer les règles](index.php?fr/07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Gérer les règles").
+**Sujet parent :** [Gérer les règles](07_Module_Administration/05_Règles/01_Gérer_les_règles.md "Gérer les règles").

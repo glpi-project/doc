@@ -62,7 +62,7 @@ Un gabarit est lié à l'entité dans laquelle il a été défini et peut être 
 Des gabarits par défaut peuvent être définis pour les entités ou les profiles. 
 > Pour les profiles ne sont associables que des gabarits de l'entité racine visibles de toutes les sous-entités. 
 
-Des gabarits par défaut peuvent également être défini pour chaque catégorie de ticket (un pour chaque type, voir [Les catégories de tickets](index.php?fr/04_Module_Assistance/04_Configuration_avancée.md "Les catégories de tickets")).
+Des gabarits par défaut peuvent également être défini pour chaque catégorie de ticket (un pour chaque type, voir [Les catégories de tickets](04_Module_Assistance/04_Configuration_avancée.md "Les catégories de tickets")).
 
 A la création du ticket, le gabarit utilisé est par ordre de priorité :
 
@@ -77,25 +77,25 @@ A la création du ticket, le gabarit utilisé est par ordre de priorité :
 
 *- Si un des paramètre (entité, profil, type ou catégorie) est modifié lors de la saisie du ticket, le gabarit utilisé est alors déterminé une nouvelle fois en fonction des nouvelles valeurs.*
 
-*- Le gabarit sert à la création de **[tickets récurrents](index.php?fr/04_Module_Assistance/11_Tickets_récurrents.md "création automatique de tickets").**
+*- Le gabarit sert à la création de **[tickets récurrents](04_Module_Assistance/11_Tickets_récurrents.md "création automatique de tickets").**
 
 ----------
-**Sujet parent :** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
 
-**Sujet parent :** [Gérer les moniteurs](index.php?fr/03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
+**Sujet parent :** [Gérer les moniteurs](03_Module_Parc/03_Moniteurs.md "Les moniteurs se gèrent depuis le menu Parc > Moniteurs")
 
-**Sujet parent :** [Gérer les logiciels](index.php?fr/03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciels")
+**Sujet parent :** [Gérer les logiciels](03_Module_Parc/04_Logiciels.md "Les logiciels se gèrent depuis le menu Parc > Logiciels")
 
-**Sujet parent :** [Gérer les matériels réseaux](index.php?fr/03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
+**Sujet parent :** [Gérer les matériels réseaux](03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
 
-**Sujet parent :** [Gérer les périphériques](index.php?fr/03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
+**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
 
-**Sujet parent :** [Gérer les imprimantes](index.php?fr/03_Module_Parc/007_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
+**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/007_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
 
-**Sujet parent :** [Gérer les téléphones](index.php?fr/03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
+**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
 
-**Sujet parent :** [Gérer les tickets](index.php?fr/04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
+**Sujet parent :** [Gérer les tickets](04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md "Les tickets dans GLPI, caractéristiques et utilisation")
 
-**Sujet parent :** [Gérer les budgets](index.php?fr/05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
+**Sujet parent :** [Gérer les budgets](05_Module_Gestion/02_Budgets.md "Les budgets sont gérés depuis le menu Gestion > Budgets")
 
-**Sujet parent :** [Gérer les contrats](index.php?fr/05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")
+**Sujet parent :** [Gérer les contrats](05_Module_Gestion/05_Contrats.md "Les contrats sont gérés depuis le menu Gestion > Contrats")

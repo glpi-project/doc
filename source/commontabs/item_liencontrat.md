@@ -21,4 +21,4 @@ Quel que soit l'objet de l'inventaire, si celui-ci peut être lié à un contrat
 Affichage de la fiche avec l'objet associé au contrat.
 
 -------
-**Parent topic:** [Gérer les ordinateurs](index.php?fr/03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
+**Parent topic:** [Gérer les ordinateurs](03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")

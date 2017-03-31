@@ -14,6 +14,6 @@ La distinction est clairement établie entre le fournisseur, qu'il est possible 
     Puis associer le contact au fournisseur Acme.
 
 -------
-**Sujet parent :** [Gérer les fournisseurs](index.php?fr/05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
+**Sujet parent :** [Gérer les fournisseurs](05_Module_Gestion/03_Fournisseurs.md "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs")
 
-**Sujet parent :** [Gérer les contacts](index.php?fr/05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")
+**Sujet parent :** [Gérer les contacts](05_Module_Gestion/04_Contacts.md "Les contacts sont gérés depuis le menu Gestion > Contacts")

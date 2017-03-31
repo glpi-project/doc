@@ -3,22 +3,22 @@ Module Configuration
 
 Le module Configuration permet d'accéder aux options de configuration générale de GLPI : la configuration globale de GLPI, les notifications, les collecteurs, les tâches automatiques, l'authentification, les plugins, les critères d'unicité et les liens externes protocolés.
 
--   **[Configurer les intitulés](index.php?fr/08_Module_Configuration/02_Intitulés/01_Intitulés.md)**
+-   **[Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md)**
      Configurer les intitulés et les traduire.
 
--   **[Configurer les composants](index.php?fr/08_Module_Configuration/03_Composants.md)**
+-   **[Configurer les composants](08_Module_Configuration/03_Composants.md)**
      
--   **[Configurer les notifications](index.php?fr/08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md)**
+-   **[Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md)**
      Configurer les suivis par courriels, créer des modèles de notifications, définir l'envoi de notification.
 
--   **[Configurer les SLAs](index.php?fr/08_Module_Configuration/05_Sla/01_Sla.md)**
+-   **[Configurer les SLAs](08_Module_Configuration/05_Sla/01_Sla.md)**
      Définir les SLA ainsi que les différents niveaux d'escalade.
 
--   **[Configurer les paramètres centraux](index.php?fr/08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md)**
+-   **[Configurer les paramètres centraux](08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md)**
 
--   **[Configurer les contrôles](index.php?fr/08_Module_Configuration/07_Controles.md)**
+-   **[Configurer les contrôles](08_Module_Configuration/07_Controles.md)**
      
--   **[Configurer les actions automatiques](index.php?fr/08_Module_Configuration/08_Actions_automatiques.md)**
+-   **[Configurer les actions automatiques](08_Module_Configuration/08_Actions_automatiques.md)**
      
 -   **[Configurer les collecteurs](../glpi/config_mailcollector.html)**\
      La configuration des collecteurs s'effectue depuis le menu

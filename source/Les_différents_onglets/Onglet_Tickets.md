@@ -31,12 +31,12 @@ Pour les SLA, il n'est pas possible d'ajouter un ticket. L'onglet liste juste le
 
 -------
 
-**Sujet parent :** [Gérer les problèmes](index.php?fr/04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
+**Sujet parent :** [Gérer les problèmes](04_Module_Assistance/08_Problèmes.md "Les problèmes sont gérés depuis le menu Assistance > Problèmes")
 
-**Sujet parent :** [Gérer les changements](index.php?fr/04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
+**Sujet parent :** [Gérer les changements](04_Module_Assistance/09_Changements.md "Les changements sont gérés depuis le menu Assistance > Changements")
 
-**Sujet parent :** [Gérer les tâches de projet](index.php?fr/06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
+**Sujet parent :** [Gérer les tâches de projet](06_Module_Outils/02_Projets/02_Onglet_Tâches_de_projet.md "Les tâches de projet se gèrent depuis le menu Outils > Projets onglet Tâches de projet")
 
-**Sujet parent :** [Gérer les utilisateurs](index.php?fr/04_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs sont gérés depuis le menu Administration > Utilisateurs")
+**Sujet parent :** [Gérer les utilisateurs](04_Module_Administration/02_Utilisateurs/01_Utilisateurs.md "Les utilisateurs sont gérés depuis le menu Administration > Utilisateurs")
 
-**Sujet parent :** [Gérer les groupes](index.php?fr/04_Module_Administration/03_Groupes.md "Les groupes sont gérés depuis le menu Administration > Groupes")
+**Sujet parent :** [Gérer les groupes](04_Module_Administration/03_Groupes.md "Les groupes sont gérés depuis le menu Administration > Groupes")

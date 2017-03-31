@@ -14,7 +14,7 @@ Pour rendre un matériel réservable, choisir l'option adéquate dans l'onglet *
 Les différents onglets
 ----------------------
 
-- **[Onglet "Réservations"](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
+- **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
   Trouver un matériel disponible pendant une période donnée.
 
 
@@ -26,15 +26,15 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter une réservation](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Ajouter une réservation](Les_différents_onglets/Onglet_Réservations.md)**
     L'ajout d'une réservation se fait :
     - depuis l'onglet *Réservations* du module Réservations ou de l'objet réservable ;
     - depuis l'onglet *Administration* du module réservation en cliquant sur l'icone ![image](docs/image/menu_showall.png).
--   **[Modifier une réservation](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Modifier une réservation](Les_différents_onglets/Onglet_Réservations.md)**
     La modification d'une réservation se fait :
     - depuis l'onglet *Réservations* de l'objet réservé ;
     - depuis l'onglet *Administration* du module réservation en cliquant sur l'icone ![image](docs/image/menu_showall.png).
--   **[Supprimer une réservation](index.php?fr/Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Supprimer une réservation](Les_différents_onglets/Onglet_Réservations.md)**
     La suppression d'une réservation se fait :
     - depuis l'onglet *Réservations* de l'objet réservé ;
     - depuis l'onglet *Administration* du module réservation en cliquant sur l'icone ![image](docs/image/menu_showall.png).
@@ -46,4 +46,4 @@ Les différentes actions
 
 
 ----------------
-**Sujet parent :** [Module Outils](index.php?fr/06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")
+**Sujet parent :** [Module Outils](06_Module_Outils/01_Module_Outils.md "Le module Outils permet aux utilisateurs de gérer les notes, la base de connaissance, les réservations ainsi que de générer des rapports")
