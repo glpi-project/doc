@@ -1,5 +1,5 @@
-Utiliser l'assistant d'installation en ligne de GLPI
-====================================================
+Utiliser l'assistant d'installation
+===================================
 
 Pour débuter l'installation, faire pointer le navigateur web sur le dossier racine de GLPI :
 `https://{adresse_glpi}/ <https://{adresse_glpi}/>`_
