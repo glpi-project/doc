@@ -13,3 +13,4 @@ Cette partie présente dans un premier temps les prérequis nécessaires à l'in
 
    prerequis
    installation
+   assistant-installation

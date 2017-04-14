@@ -8,5 +8,5 @@ Cette partie présente dans un premier temps l'installation de GLPI, dans un sec
 .. toctree::
    :maxdepth: 2
 
-   02_Déployer_GLPI/index.rst
+   02-deployer/index.rst
    03_Utiliser_GLPI/01_Utiliser_GLPI.md
