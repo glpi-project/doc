@@ -12,5 +12,5 @@ Tout ce qu'il faut savoir pour une installation basique et sereine de GLPI et d√
    preferences
    navigation-modules
    interfaces
-   07_Visualiser_les_enregistrements
-   08_Rechercher
+   visualiser
+   rechercher
