@@ -1,6 +1,12 @@
 # GLPi's user documentation
 
+__Documentation is being rewrited... Some parts may be really out of date, some links can be broken, ...__
+
 Current documentation is built on top of [Sphinx documentation generator](http://sphinx-doc.org/). It is released under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0 International License</a>.
+
+## View it online!
+
+`GLPI users documentation is currently visible <http://glpi-user-documentation.rtfd.io/fr/sphinx/>`_ on ReadTheDocs.
 
 ## Run it!
 
@@ -24,3 +30,7 @@ Results will be avaiable in the `build/html` directory :)
 Note that it actually uses the default theme, which differs locally and on readthedocs system.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+
+## Translations...
+
+As you can read on top page statement; doc is currently being rewritted. It will be redacted in french; then translated to english. Once this has been done, we'll had the project on transifex to get multiple translations :)

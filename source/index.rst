@@ -6,6 +6,10 @@
 GLPi User Documentation
 =======================
 
+.. warning::
+
+   La documentation est en cours de ré-écriture. Il est fort probable que certaines parties ne soient vraiment pas à jour, qu'il y ait des liens morts, ...
+
 Préface
 -------
 
