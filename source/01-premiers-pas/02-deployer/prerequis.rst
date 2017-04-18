@@ -36,10 +36,14 @@ Extensions obligatoires
 
 Les extensions PHP suivantes sont nécessaires au bon fonctionnement de l'application :
 
+* CURL : pour l'authentification CAS ;
+* Fileinfo : pour obtenir des informations sur des fichiers ;
+* GD : génération d'images ;
 * JSON : support du format de données structuré JSON ;
 * Mbstring : gestion des chaînes de caractères multi-octets ;
 * MySQL : liaison avec la base de données ;
-* Session : support des sessions des utilisateurs.
+* Session : support des sessions des utilisateurs ;
+* Zlib : fonctions de sauvegarde et restauration de la base de données.
 
 Extensions facultatives
 +++++++++++++++++++++++
@@ -51,9 +55,7 @@ Extensions facultatives
 Les extensions suivantes sont requises pour des fonctionnalités optionnelles de l'application :
 
 * CLI : utilisation de PHP en ligne de commande pour les actions automatiques ;
-* CURL : pour l'authentification CAS ;
 * DOMXML : pour l'authentification CAS ;
-* GD : génération d'images ;
 * IMAP : utilisation de serveurs de messagerie pour la collecte des tickets ou l'authentification des utilisateurs ;
 * LDAP : utilisation d'un annuaire externe pour l'authentification ;
 * OpenSSL : communication chiffrée.
