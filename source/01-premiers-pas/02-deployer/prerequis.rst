@@ -37,13 +37,13 @@ Extensions obligatoires
 Les extensions PHP suivantes sont nécessaires au bon fonctionnement de l'application :
 
 * CURL : pour l'authentification CAS ;
-* Fileinfo : pour obtenir des informations sur des fichiers
+* Fileinfo : pour obtenir des informations sur des fichiers ;
 * GD : génération d'images ;
 * JSON : support du format de données structuré JSON ;
 * Mbstring : gestion des chaînes de caractères multi-octets ;
 * MySQL : liaison avec la base de données ;
-* Session : support des sessions des utilisateurs.
-* Zlib : fonctions de sauvegarde et restauration de la base de données
+* Session : support des sessions des utilisateurs ;
+* Zlib : fonctions de sauvegarde et restauration de la base de données.
 
 Extensions facultatives
 +++++++++++++++++++++++
