@@ -55,6 +55,7 @@ Extensions facultatives
 Les extensions suivantes sont requises pour des fonctionnalités optionnelles de l'application :
 
 * CLI : utilisation de PHP en ligne de commande pour les actions automatiques ;
+* CURL : pour la vérification des mises à jour, l'authentification CAS, ... ;
 * DOMXML : pour l'authentification CAS ;
 * IMAP : utilisation de serveurs de messagerie pour la collecte des tickets ou l'authentification des utilisateurs ;
 * LDAP : utilisation d'un annuaire externe pour l'authentification ;
