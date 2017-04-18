@@ -6,7 +6,7 @@ Current documentation is built on top of [Sphinx documentation generator](http:/
 
 ## View it online!
 
-[GLPI users documentation is currently visible on ReadTheDocs](http://glpi-user-documentation.rtfd.io/fr/sphinx/).
+[GLPI users documentation is currently visible on ReadTheDocs](http://glpi-user-documentation.rtfd.io/).
 
 ## Run it!
 
