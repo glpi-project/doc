@@ -74,7 +74,7 @@ Voici quelques exemples d'opérateurs de recherche :
 
    .. warning::
 
-      Il faut taper ^ puis la barre d'espace puis le premier caractère.
+      Sur certains systèmes, il faut taper ``^``, la barre d'espace puis le premier caractère.
 
 ``^Windows``
    Rechercher les enregistrements contenant Windows 2000, Windows XP mais pas avec Windows.
