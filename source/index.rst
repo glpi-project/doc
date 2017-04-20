@@ -27,10 +27,5 @@ Table des matières
 .. toctree::
    :maxdepth: 3
 
-   01-premiers-pas/index.rst
-   03_Module_Parc/01_Module_Parc.md
-   04_Module_Assistance/01_Module_Assistance.md
-   05_Module_Gestion/01_Module_Gestion.md
-   06_Module_Outils/01_Module_Outils.md
-   07_Module_Administration/01_Module_Administration.md
-   08_Module_Configuration/01_Module_Configuration.md
+   premiers-pas/index
+   modules/index
