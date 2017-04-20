@@ -1,8 +1,6 @@
 Naviguer dans les modules de GLPI
 =================================
 
-La navigation dans les modules se fait depuis la barre supérieure de l'interface.
-
 Les différentes fonctions de GLPI ont été regroupées en plusieurs modules, construits autour de contextes d'utilisation similaires.
 La barre supérieure de l'interface permet de naviguer entre ces modules :
 
