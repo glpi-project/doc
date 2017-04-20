@@ -1,38 +1,59 @@
 Module Parc
 ===========
 
-Présentation du module d'inventaire de GLPI. Ce module est destiné à la gestion des éléments composants le parc informatique.
+Le module d'inventaire de GLPI est destiné à la gestion des éléments composant le parc informatique.
 
--   **La gestion de l'inventaire dans GLPI**     
+La gestion de l'inventaire dans GLPI
+------------------------------------
 
-    Pour la gestion des matériels et des logiciels du parc, GLPI permet nativement de lister tous les éléments présents au sein de l'organisme que l'on souhaite administrer.
+Pour la gestion des matériels et des logiciels du parc, GLPI permet nativement de lister tous les éléments présents au sein de l'organisme que l'on souhaite administrer.
 
-    Cependant, on peut automatiser la remontée d'informations depuis les équipements grâce à un outils tiers. Ainsi GLPI propose l'utilisation de 2 plugins existants.
+Cependant, on peut automatiser la remontée d'informations depuis les équipements grâce à un outils tiers. Ainsi GLPI propose l'utilisation de 2 plugins existants :
 
-    ***Outils disponibles :***
+* Le plugin `Fusion Inventory <https://github.com/fusioninventory/fusioninventory-for-glpi/>`_
 
-    -   Le plugin [ocsinventoryng](https://forge.indepnet.net/projects/ocsinventoryng)
-        qui permet de synchroniser la base GLPI avec un outil d'inventaire [OCS Inventory NG](http://www.ocsinventory-ng.org) (les agents des ordinateurs du parc discutent avec le serveur OCS Inventory NG).
-    -   Le plugin [Fusion Inventory](http://www.fusioninventory.org) 
-        qui transforme GLPI en serveur d'inventaire (les agents discutent directement avec GLPI).
-   
+   Il transforme GLPI en serveur d'inventaire (les agents discutent directement avec GLPI)
 
--   **[La gestion des gabarits dans GLPI](Les_différentes_actions/Gérer_les_gabarits.md)**   
-   
--   **Les statuts dans GLPI, la vue spécifique**
-    Cette information est couramment utilisée pour distinguer les ordinateurs mis au rebut, disponibles, affectés etc... Il est donc possible de créer ses propres statuts en rapport avec le système d'information.
+   Vous pouvez également consulter le `site officiel de FusionInventory <http://www.fusioninventory.org>`_.
 
-    C'est à l'administrateur de GLPI, depuis la configuration des intitulés (voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")), de définir les statuts qui seront utilisés et pour quels types d'élements ils le seront. Ces statuts peuvent être arborescents pour faciliter la gestion.
+* Le plugin `ocsinventoryng <https://github.com/pluginsGLPI/ocsinventoryng>`_
 
-    Le statut d'un élément est modifiable depuis sa fiche ou depuis le système d'actions massives.
+   Il permet de synchroniser la base GLPI avec un l'outil d'inventaire `OCS Inventory NG <http://www.ocsinventory-ng.org>`_) (les agents des ordinateurs du parc discutent avec le serveur OCS Inventory NG).
 
-    Un rapport (voir [Gérer les rapports](06_Module_Outils/07_Rapports.md "Les rapports se gèrent depuis le menu Outils > Rapports")) vous propose une synthèse des statuts par type de matériel. La recherche globale de l'inventaire (voir Recherche globale ci-dessous) vous permet une recherche par statut sur l'ensemble des éléments.
+.. recherche-globale-inventaire:
 
--   **Recherche globale sur les éléments d'inventaire**
-Le menu ***Parc > Global*** vous permet d'effectuer une recherche globale sur l'ensemble des éléments auxquels vous avez accès. 
-Cette recherche est limitée aux ordinateurs, moniteurs, imprimantes, équipements réseau, périphériques et téléphones.
+Recherche globale sur les éléments d'inventaire
+-----------------------------------------------
 
-    Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
+Le menu ***Parc > Global*** vous permet d'effectuer une recherche globale sur l'ensemble des éléments auxquels vous avez accès. Cette recherche est limitée aux éléments suivants :
+
+* ordinateurs,
+* moniteurs,
+* imprimantes,
+* équipements réseaux,
+* périphériques,
+* téléphones.
+
+Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
+
+Types disponibles
+-----------------
+
+.. toctree::
+   :maxdepth: 3
+
+   ordinateurs
+   moniteurs
+   logiciels-et-licenses
+   materiels-reseaux
+   periperiques
+   imprimantes
+   cartouches
+   consommables
+   telephones
+   protocole-ip
+
+ 
 
 -   **[Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs.md)**
 
