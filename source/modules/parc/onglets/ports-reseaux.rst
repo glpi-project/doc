@@ -18,77 +18,77 @@ Les ports réseau peuvent être de différents types. Il y a des ports physiques
 L'onglet des ports réseau représente l'ensemble de ports disponibles sur l'équipement dans un tableau. Dans l'en-tête du tableau, à côté du nombre total de port, il y a un lien permettant de choisir les options
 d'affichage des ports réseaux. Il est ainsi possible d'afficher ou de masquer des informations telles que les informations réseau (tout ce qui concerne Internet), les caractéristiques intrinsèques du port (ie. dépendant de son type), les adresses MAC, les VLANs ...
 
-***Remarques :**
-- GLPI permet de représenter fidèlement des connexions réseau très complexes avec des alias ports Wifi et/ou Ethernet associés à des VLAN regroupés dans aggrégats (voir ci-dessous).
-- Pour un port réseau d'un type d'objet ordinateurs, le champ MAC avec la liste déroulante permet de sélectionner l'adresse MAC des composants de type carte réseau.*
+.. note::
 
--   **Gestion des ports réseau de type Ethernet**
+   * GLPI permet de représenter fidèlement des connexions réseau très complexes avec des alias ports Wifi et/ou Ethernet associés à des VLAN regroupés dans aggrégats (voir ci-dessous).
+   * Pour un port réseau d'un type d'objet ordinateurs, le champ MAC avec la liste déroulante permet de sélectionner l'adresse MAC des composants de type carte réseau.
+
+Ports réseau de type Ethernet
++++++++++++++++++++++++++++++
+
+Le protocole Ethernet est celui classiquement utilisé sur les réseaux internes.
+
+Un port Ethernet est caractérisé par son type (paire torsadée, fibre optique monomode/multimode ...), un débit (10Mb, 100Mb, 1Gb, 10Gb ...) et son adresse MAC. Il est possible de lui associer une carte réseau ainsi qu'une prise réseau.
+
+Les connexions Ethernet se font en reliant deux ports Ethernet entre eux. Pour cela, il faut qu'il y ait un port libre sur chacun de ces matériels. Généralement, les connexions se feront entre un port présent sur un ordinateur, un périphérique ou une imprimante et un port présent sur un matériel réseau (hub, switch).
+
+.. todo::
+
+   Image manquante
+
+   Figure 1. Connections réseau complexe Ethernet
+   ![image](docs/image/complexe_networkport.png "Connection complexe avec des alias et des aggrégats.").
+
+Ports réseau de type Wifi
++++++++++++++++++++++++++
+
+Le protocole Wifi est celui classiquement utilisé pour les réseaux sans fils.
+
+Un port Wifi est caractérisé par le mode de fonctionnement de la carte (Ad-Hoc, Point d'accès, répéteur...), la version du protocole Wifi (ab, g ...) et son adresse MAC.
+
+Comme les ports Ethernet, il est possible de lui associer une carte réseau.
+
+On peut associer un réseau Wifi à un port donné. Outre son nom, un réseau Wifi contient un ESSID et est caractérisé par son type :
+
+* `Infrastructure` : réseau Wifi avec un ou plusieurs points d'accès et des clients qui se connectent dessus.
+* `Ad-hoc` : réseau Wifi entre systèmes équivalents sans point d'accès.
+
+.. todo::
+
+   Image manquante
+
+   Figure 1. Connections réseau complexe
+   ![image](docs/image/complexe_networkport_1.png "Connection complexe avec des alias et des aggrégats.").
+
+Ports réseau de type boucle locale
+++++++++++++++++++++++++++++++++++
+
+La boucle locale est un port virtuel utilisé par la plupart des équipements afin de communiquer en interne. C'est ce port qui est sollicité lorsque l'on essaie de communiquer avec la machine ``localhost`` (``127.0.0.1``). Elle ne possède aucun attribut spécifique.
     
-    Le protocole Ethernet est celui classiquement utilisé sur les réseaux internes.
 
-    Un port Ethernet est caractérisé par son type (paire torsadée, fibre optique monomode/multimode ...), un débit (10Mb, 100Mb, 1Gb, 10Gb ...) et son adresse MAC. Il est possible de lui associer une carte réseau ainsi qu'une prise réseau.
+Alias de port réseau
+++++++++++++++++++++
 
-    Les connexions Ethernet se font en reliant deux ports Ethernet entre eux. Pour cela, il faut qu'il y ait un port libre sur chacun de ces matériels. Généralement, les connexions se feront entre un port présent sur un ordinateur, un périphérique ou une imprimante et un port présent sur un matériel réseau (hub, switch).
+Un alias de port réseau est un port virtuel qui peut spécialiser un port physique.
 
-    Figure 1. Connections réseau complexe Ethernet
-    ![image](docs/image/complexe_networkport.png "Connection complexe avec des alias et des aggrégats.").
+Sous Linux, chaque :ref:`VLAN <glossary-vlan>`, lorsqu'il est transmis « :ref:`taggé <glossary-tagged-vlan>` », est associé à un alias de port (``eth2.50`` pour représenter le VLAN ``50`` sur le port ``eth2``).
+
+Un alias de port comporte son port d'origine (celui sur lequel il s'appuie) et une adresse MAC.
+
+.. warning::
+
+   Lorsque l'on change le port d'origine, l'adresse MAC du nouveau port d'origine est affecté à l'alias de port.
 
 
--   **Gestion des ports réseau de type Wifi**
+Aggrégats de ports réseau
++++++++++++++++++++++++++
 
-    Le protocole Wifi est celui classiquement utilisé pour les réseaux sans fils.
+Un aggrégat de port réseau est un port virtuel qui permet de regrouper plusieurs ports physiques entre eux.
 
-    Un port Wifi est caractérisé par le mode de fonctionnement de la carte (Ad-Hoc, Point d'accès, répéteur...), la version du protocol Wifi (ab, g ...) et son adresse MAC.
+Les routeurs de coeurs de réseau sont souvent reliés entre eux par des aggrégats afin de faire de la redondance et/ou de l'augmentation de bande passante.
 
-    Comme les ports Ethernet, il est possible de lui associer une carte réseau.
+On peut considérer qu'un équipement réseau est composé de ports réseau physique qui sont reliés entre eux par des aggrégats de ports. Ces derniers correspondent aux VLANs physiquement définits sur l'équipement. Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats associés au VLAN de gestion du switch ou du routeur.
 
-    On peut associer un réseau Wifi à un port donné. Outre son nom, un réseau Wifi contient un ESSID et est caractérisé par son type :
+Sur les machines Linux, les aggrégats sont représentés par des `ponts - bridges en anglais - <http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>`_ qui relient entre eux différents ports. De la même manière, un firewall Ethernet utilisera un bridge qui reliera les interfaces à filtrer.
 
-    -   *Infrastructure :* réseau Wifi avec un ou plusieurs points d'accès et des clients qui se connectent dessus.
-    -   *Ad-hoc :* réseau Wifi entre systèmes équivalents sans point d'accès.
-
-    Figure 1. Connections réseau complexe
-    ![image](docs/image/complexe_networkport_1.png "Connection complexe avec des alias et des aggrégats.").
-
--   **Gestion des ports réseau de type boucle locale**
-
-    La boucle locale est un port virtuel utilisé par la plupart des équipements afin de communiquer en interne. C'est ce port qui est sollicité lorsque l'on essaie de communiquer avec la machine `localhost` (`127.0.0.1`).
-
-    La boucle locale ne possède aucun attribut spécifique.
-    
--   **Gestion des alias de port réseau**
-
-    Un alias de port réseau est un port virtuel qui peut spécialiser un port physique.
-
-    Sous Linux, chaque VLAN, lorsqu'il est transmis « :ref:`taggé <glossary-tagged-vlan>` », est associé un alias de port (eth2.50 pour représenter le VLAN 50 sur le port eth2).
-
-    Un alias de port comporte son port d'origine (ie. celui sur lequel il s'appuie) et une adresse MAC.
-
-> Avertissement : Lorsque l'on change le port d'origine, l'adresse MAC du nouveau port d'origine est affecté à l'alias de port.
-    
-
--   **Gestion des aggrégats de ports réseau**
-
-    Un aggrégat de port réseau est un port virtuel qui permet de regrouper plusieurs ports physiques entre eux.
-
-    Les routeurs de coeurs de réseau sont souvent reliés entre eux par des aggrégats afin de faire de la redondance et/ou de l'augmentation de bande passante.
-
-    On peut considérer qu'un équipement réseau est composé de ports réseau physique qui sont reliés entre eux par des aggrégats de ports. Ces derniers correspondent aux VLANs physiquement définits sur l'équipement.
-Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats associés au VLAN de gestion du switch ou du routeur.
-
-    Sur les machines Linux, les aggrégats sont représentés par des [bridges](http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge) qui relient entre eux différents ports. De la même manière, un firewall Ethernet utilisera un bridge qui reliera les interfaces à filtrer.
-
-    Un aggrégat de ports comporte les ports d'origine (ie. ceux sur lesquels il s'appuie) et une adresse MAC.
-
---------
-**Sujet parent :** [Gérer les ordinateurs](03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md "Les ordinateurs se gèrent depuis le menu Parc > Ordinateurs")
-
-**Sujet parent :** [Gérer les matériels réseaux](03_Module_Parc/05_Matériels_réseaux.md "Les matériels réseaux se gèrent depuis le menu Parc > Réseaux")
-
-**Sujet parent :** [Gérer les périphériques](03_Module_Parc/06_Périphériques.md "Les périphériques se gèrent depuis le menu Parc > Périphériques")
-
-**Sujet parent :** [Gérer les imprimantes](03_Module_Parc/07_Imprimantes.md "Les imprimantes se gèrent depuis le menu Parc > Imprimantes")
-
-**Sujet parent :** [Gérer les téléphones](03_Module_Parc/10_Téléphones.md "Les téléphones se gèrent depuis le menu Parc > Téléphones")
-
-**Sujet parent :** [Onglet "Connexions"](Les_différents_onglets/Onglet_Connexions.md "Gestion des connexions")
+Un aggrégat de ports comporte les ports d'origine (ceux sur lesquels il s'appuie) et une adresse MAC.
