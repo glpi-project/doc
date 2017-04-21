@@ -29,3 +29,4 @@ Table des matières
 
    premiers-pas/index
    modules/index
+   glossaire
