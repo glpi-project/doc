@@ -1,19 +1,17 @@
-Onglet "Ports réseaux"
-======================
+Ports réseaux
+~~~~~~~~~~~~~
 
-Gestion des ports réseaux pour les éléments d'inventaire
+Gestion des ports réseaux pour les éléments d'inventaire. Un port réseau permet de modéliser la sortie d'une interface réseau sur un matériel donné. Chaque port est caractérisé par un numéro et un nom.
 
-Un port réseau permet de modéliser la sortie d'une interface réseau sur un matériel donné. Chaque port est caractérisé par un numéro et un nom.
-
-Sur ce port, il est possible d'ajouter un ou plusieurs VLAN, ces derniers peuvent être définis par un nom, un commentaire et un numéro de VLAN (TAG ID).
+Sur ce port, il est possible d'ajouter un ou plusieurs réseaux virtuels (VLAN), ces derniers peuvent être définis par un nom, un commentaire et un numéro de VLAN (TAG ID).
 
 Pour chaque matériel, il est possible à tout moment d'ajouter un ou plusieurs ports grâce au système de modification massive.
 
 Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
 On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
 
--   Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.
--   Lorsqu'il y a plusieurs noms réseau, il n'est plus possible de modifier le nom réseau dans le formulaire du port réseau. On doit systématiquement utiliser l'onglet.
+* Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.
+* Lorsqu'il y a plusieurs noms réseau, il n'est plus possible de modifier le nom réseau dans le formulaire du port réseau. On doit systématiquement utiliser l'onglet.
 
 Les ports réseau peuvent être de différents types. Il y a des ports physiques (Ethernet, Wifi ...), [virtuels](glossary/virtual_ports.html) (boucle locale, alias, aggrégats ...), point à point (ligne commutée) ...
 

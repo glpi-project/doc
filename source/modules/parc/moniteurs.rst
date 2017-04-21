@@ -20,8 +20,10 @@ La gestion globale permet de limiter le nombre d'éléments à gérer dans le ca
 
 Les différents onglets
 ----------------------
--   **[Onglet "Connexions"](Les_différents_onglets/Onglet_Connexions.md)**
-     Gestion des connexions
+
+.. _connexion_monitor:
+
+.. include:: onglets/connexions.rst
 
 -   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
     Gérer les informations financières et administratives
@@ -54,11 +56,12 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un moniteur](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un moniteur](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un moniteur](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un moniteur](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Connecter un moniteur à un ordinateur](Les_différents_onglets/Onglet_Connexions.md)**
--   **[Associer un document à un moniteur](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contrat à un moniteur](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
--   **[Transférer un moniteur vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
+
+* [Ajouter un moniteur](Les_différentes_actions/Créer_un_nouvel_objet.md)
+* [Voir un moniteur](Les_différentes_actions/Visualiser_un_objet.md)
+* [Modifier un moniteur](Les_différentes_actions/Modifier_un_objet.md)
+* [Supprimer un moniteur](Les_différentes_actions/Supprimer_un_objet.md)
+* :ref:`Connecter un moniteur à un ordinateur <connexion_monitor>`
+* [Associer un document à un moniteur](Les_différentes_actions/Lier_un_document_à_un_objet.md)
+* [Associer un contrat à un moniteur](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)
+* [Transférer un moniteur vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)

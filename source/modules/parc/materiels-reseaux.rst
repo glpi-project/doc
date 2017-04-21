@@ -5,15 +5,14 @@ Le matériel réseau représente le matériel qui gère, transmet et route le r�
 
 Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-feu (firewall) ou encore une borne d'accès sans fil (wifi).
 
--   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_Réseaux.md)**
-     Gestion des ports réseaux pour les éléments d'inventaire
-
-**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.md)**
+Il est possible d'utiliser les :doc:`gabarits avec les matériels réseaux <../generalites/gabarits>`.
 
 Les différents onglet :
 ---------------------
 
 .. include:: onglets/composants.rst
+
+.. include:: onglets/ports-reseaux.rst
 
 -   **Onglet "Noms réseaux"**
      Récapitulatif des adresses IP et réseaux IP pour chaque nom réseau.
