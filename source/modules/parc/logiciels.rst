@@ -134,6 +134,3 @@ Les différentes actions
     Voir onglet *Versions* ci-dessus
 -   **[Gérer les licences](03_Module_Parc/04_Logiciels/Onglet_Licences.md)**
     Depuis le menu ***Parc > Logiciels*** cliquer sur le nom de la licence dans l'onglet *Licences*.
-
--------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

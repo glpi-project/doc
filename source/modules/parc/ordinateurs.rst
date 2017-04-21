@@ -3,46 +3,47 @@ Gérer les ordinateurs
 
 Dans la fiche d'un ordinateur, on trouve un certain nombre d'informations concernant le système d'exploitation (nom, version, service pack, numéro de série, product ID), les caractéristiques générales (fabricant, modèle, type, numéro de série), les informations de gestion (responsable technique, statut, localisation) et les usagers du poste (connus ou non dans GLPI).
 
-D'autres champs sont informatifs, comme **Réseau** (type de connexion au poste), et la **source de la mise à jour** qui est un intitulé indiquant d'où proviennent les mises à jour d'un poste (oui/non, Windows update, yum, apt, etc).
+D'autres champs sont informatifs, comme `Réseau` (type de connexion au poste), et la `source de la mise à jour` qui est un intitulé indiquant d'où proviennent les mises à jour d'un poste (oui/non, Windows update, yum, apt, etc).
 
-***Remarques :***
-*- Dans le cas d'une utilisation de GLPI couplé avec un outil d'inventaire, différentes informations sur l'importation sont également disponibles.*
-*- Un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d'utiliser le champ type.*
+Il est possible d'utiliser les :doc:`gabarits avec les ordinateurs <../generalites/gabarits>`.
 
-**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.md)**
+.. note::
+
+   * Dans le cas d'une utilisation de GLPI couplé avec un outil d'inventaire, différentes informations sur l'importation sont également disponibles.
+   * Un ordinateur peut être à la fois un serveur, un ordinateur de bureau ou un portable. Pour les différencier, il est possible d'utiliser le champ type.
 
 Les différents onglets
 ----------------------
--   **[Onglet "Composants"](Les_différents_onglets/Onglet_Composants.md)**
-     Gestion des composants des ordinateurs
 
--   **Onglet "Volumes"**
-     Gestion des volumes des ordinateurs
+.. include:: onglets/composants.rst
 
-    Un volume lié à un ordinateur est caractérisé par son nom, la partition physique, son point de montage et son système de fichiers ainsi que sa taille.
+Volumes
+~~~~~~~
 
-    Il est également possible de définir la taille restant libre sur le volume.
+Gestion des volumes des ordinateurs. Un volume lié à un ordinateur est caractérisé par son nom, la partition physique, son point de montage, son système de fichiers ainsi que sa taille. Il est également possible de définir la taille restant libre sur le volume.
 
-    ***Remarque :*** *En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+.. note::
 
--   **Onglet "Logiciels"**
-     Gestion des logiciels installés sur les ordinateurs.
-
-    Ceux-ci sont triés par catégories et sont caractérisés par leur nom et leur version ainsi que le statut de cette dernière.
-
-    Si une licence est associée à l'utilisation de ce logiciel sur cet ordinateur, l'information sera également présentée.
-
-    Pour installer un logiciel, sélectionner son nom dans la liste déroulante, puis sa version.
-
-    ***Remarques :***
-    *- La liste déroulante énumère les logiciels disponibles dans l'entité.*
-    *- La liste des logiciels disponibles se paramètre dans la gestion des logiciels. Voir [*Gérer les logiciels*](inventory_software.html "Les logiciels se gèrent depuis le menu Parc > Logiciel").*
-
-    Pour associer une licence à cet ordinateur, sélectionner le logiciel puis la licence souhaitée dans la liste déroulante.
+   En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
 
 
--   **[Onglet "Connexions"](Les_différents_onglets/Onglet_Connexions.md)**
-     Gestion des connexions
+Logiciels
+~~~~~~~~~
+
+Gestion des logiciels installés sur les ordinateurs. Ceux-ci sont triés par catégorie et sont caractérisés par leur nom, leur version ainsi que le statut de cette dernière.
+
+Si une licence est associée à l'utilisation de ce logiciel sur cet ordinateur, l'information sera également présentée.
+
+Pour installer un logiciel, sélectionner son nom dans la liste déroulante, puis sa version.
+
+.. note::
+
+    * La liste déroulante énumère les logiciels disponibles dans l'entité.
+    * La liste des logiciels disponibles se paramètre dans la :ref:`gestion des logiciels <gestion-logiciels>`.
+
+Pour associer une licence à cet ordinateur, sélectionner le logiciel puis la licence souhaitée dans la liste déroulante.
+
+.. include:: onglets/connexions.rst
 
 -   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_Réseaux.md)**
      Gestion des ports réseaux pour les éléments d'inventaire
@@ -99,6 +100,3 @@ Les différentes actions
     Depuis l'onglet *Logiciels*, ajouter une licence en choisissant le nom du logiciel suivi du nom de la licence.
     Depuis les actions de masse du tableau récapitulatif, choisissez **Installer**.
     ***Attention*** : un logiciel ne peut être installé que si sa licence possède une version d'achat et/ou d'utilisation.
-
-------------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

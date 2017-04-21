@@ -20,22 +20,24 @@ La gestion globale permet de limiter le nombre d'éléments à gérer dans le ca
 
 Les différents onglets
 ----------------------
--   **Onglet "Cartouches"**
-     Les cartouches associées à une imprimante
 
-    Cet onglet liste les différentes cartouches associées au modèle d'imprimante sélectionnée.
+.. include:: onglets/composants.rst
 
-    Il se décompose en deux parties :
+Cartouches
+~~~~~~~~~~
 
-    -   Les cartouches utilisées, avec comme information les dates d'ajout et d'utilisation,
-    -   Les cartouches usagées, avec comme information le modèle de cartouche, les dates d'ajout, d'utilisation et de fin de vie, le compteur de l'imprimante ainsi que le nombre de pages imprimées depuis le dernier changement de cartouche.
+Les cartouches associées au modèle d'imprimante sélectionnée.
 
-    ***Remarque :** Pour la création / suppression de cartouche voir [Gérer les cartouches](03_Module_Parc/08_Cartouches "Les cartouches dans GLPI, caractéristiques et utilisation").*
+Il se décompose en deux parties :
 
--   **[Onglet "Composants"](Les_différents_onglets/Onglet_Composants.md)**
+* Les cartouches utilisées, avec comme information les dates d'ajout et d'utilisation,
+* Les cartouches usagées, avec comme information le modèle de cartouche, les dates d'ajout, d'utilisation et de fin de vie, le compteur de l'imprimante ainsi que le nombre de pages imprimées depuis le dernier changement de cartouche.
 
--   **[Onglet "Connexions"](Les_différents_onglets/Onglet_Connexions.md)**
-    Gestion des connexions directes entre un périphérique et un ordinateur
+.. note::
+
+   Pour la création ou la suppression de cartouche reportez-vous à :doc:`la gestion des cartouches <cartouches>`.
+
+.. include:: onglets/connexions.rst
 
 -   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_réseaux.md)**
 
@@ -78,6 +80,3 @@ Les différentes actions
 -   **[Associer un document à une imprimante](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à une imprimante](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 -   **[Transférer une imprimante vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
-
--------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

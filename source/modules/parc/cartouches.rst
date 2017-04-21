@@ -61,6 +61,3 @@ Les différentes actions
     Voir onglet *Modèle d'imprimante* ci-dessus
 -   **[Associer un document à un modèle de cartouche](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Transférer une cartouche vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
-
----------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

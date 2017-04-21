@@ -57,7 +57,3 @@ Les différentes actions
   [Voir onglet *Logiciels* d'un ordinateur](03_Module_Parc/04_Logiciels/01_Logiciels.md)
 - **[Associer un document à une licence](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 - **[Associer un contrat à une licence](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
-
--------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
-**Sujet parent :** [Onglet Logiciels](03_Module_Parc/04_Logiciels/01_Logiciels.md "Gestion des logiciels")

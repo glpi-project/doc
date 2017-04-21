@@ -58,6 +58,3 @@ Les différentes actions
 ![image](docs/image/resumeConsumable.png)
 L'icone de droite permet d'avoir un résumé des consommables prêtés
 ![image](docs/image/resumeConsumableExample.png)
-
---------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

@@ -20,11 +20,10 @@ La gestion globale permet de limiter le nombre d'élément à gérer dans le cas
 
 Les différents onglets
 ----------------------
--   **[Onglet "Composants"](Les_différents_onglets/Onglet_Composants.md)**
-     Gestion de la carte réseau du téléphone.
 
--   **[Onglet "Connexions"](Les_différents_onglets/Onglet_Connexions.md)**
-     Gestion des connexions
+.. include:: onglets/composants.rst
+
+.. include:: onglets/connexions.rst
 
 -   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_réseauxs.md)**
 
@@ -67,6 +66,3 @@ Les différentes actions
 -   **[Associer un document à un téléphone](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un téléphone](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 -   **[Transférer un téléphone vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
-
---------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")

@@ -5,8 +5,6 @@ Le matériel réseau représente le matériel qui gère, transmet et route le r�
 
 Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-feu (firewall) ou encore une borne d'accès sans fil (wifi).
 
--   **[Onglet "Composants"](Les_différents_onglets/Onglet_Composants.md)**
-
 -   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_Réseaux.md)**
      Gestion des ports réseaux pour les éléments d'inventaire
 
@@ -14,6 +12,9 @@ Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-
 
 Les différents onglet :
 ---------------------
+
+.. include:: onglets/composants.rst
+
 -   **Onglet "Noms réseaux"**
      Récapitulatif des adresses IP et réseaux IP pour chaque nom réseau.
 
@@ -55,7 +56,3 @@ Les différentes actions
 -   **[Associer un document à un matériel réseau](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Associer un contrat à un matériel réseau](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
 -   **[Transférer un matériel réseau vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
-
-
------------
-**Sujet parent :** [Module Parc](03_Module_Parc/01_Module_Parc.md "Module Parc de GLPI")
