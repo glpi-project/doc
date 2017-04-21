@@ -52,19 +52,21 @@ Tout comme les objets d'inventaire, une notion de gabarit existe pour les ticket
 
 Les comportements pouvant être modifiés sont :
 
--   la liste de champs devant être obligatoires pour l'ouverture d'un ticket ;
--   la liste des champs dont la valeur sera prédéfinie lors de l'affichage du formulaire ;
--   la liste des champs qui doivent être masqués.
+* la liste de champs devant être obligatoires pour l'ouverture d'un ticket ;
+* la liste des champs dont la valeur sera prédéfinie lors de l'affichage du formulaire ;
+* la liste des champs qui doivent être masqués.
 
-***Remarque :** Pour le contrôle des champs obligatoires, seuls les champs disponibles dans l'interface de l'utilisateur sont contrôlés. Donc, si un champ est défini comme obligatoire mais qu'il n'est pas proposé dans
-l'interface il ne générera pas d'erreur. A la saisie des champs obligatoires, sont affichées les interfaces dans lesquelles ils sont utilisés.*
+.. note::
+
+   Pour le contrôle des champs obligatoires, seuls les champs disponibles dans l'interface de l'utilisateur sont contrôlés.
+
+   Donc, si un champ est défini comme obligatoire mais qu'il n'est pas proposé dans l'interface il ne générera pas d'erreur. A la saisie des champs obligatoires, sont affichées les interfaces dans lesquelles ils sont utilisés.
 
 Un gabarit est lié à l'entité dans laquelle il a été défini et peut être visible dans les sous-entités.
 
-Des gabarits par défaut peuvent être définis pour les entités ou les profiles. 
-> Pour les profiles ne sont associables que des gabarits de l'entité racine visibles de toutes les sous-entités. 
+Des gabarits par défaut peuvent être définis pour les entités ou les profils. Pour les profils ne sont associables que des gabarits de l'entité racine visibles de toutes les sous-entités.
 
-Des gabarits par défaut peuvent également être défini pour chaque catégorie de ticket (un pour chaque type, voir [Les catégories de tickets](04_Module_Assistance/04_Configuration_avancée.md "Les catégories de tickets")).
+Des gabarits par défaut peuvent également être définis pour chaque :ref:`catégorie de ticket (un pour chaque type) <tickets-categories>`.
 
 A la création du ticket, le gabarit utilisé est par ordre de priorité :
 
@@ -72,14 +74,15 @@ A la création du ticket, le gabarit utilisé est par ordre de priorité :
 2.  Celui défini par défaut pour le profil courant de l'utilisateur
 3.  Celui défini par défaut pour l'entité de création du ticket
 
-> Important : Dans les 2 derniers cas, si le gabarit prédéfinit un nouveau couple type/catégorie, le premier cas est alors testé de nouveau avec ces nouvelles valeurs.
+.. warning::
 
-***Remarques :***
-*- A la mise à jour du ticket, le même ordre de priorité est utilisé pour déterminer les champs obligatoires.*
+   Dans les 2 derniers cas, si le gabarit prédéfinit un nouveau couple type/catégorie, le premier cas est alors testé de nouveau avec ces nouvelles valeurs.
 
-*- Si un des paramètre (entité, profil, type ou catégorie) est modifié lors de la saisie du ticket, le gabarit utilisé est alors déterminé une nouvelle fois en fonction des nouvelles valeurs.*
+.. note::
 
-*- Le gabarit sert à la création de **[tickets récurrents](04_Module_Assistance/11_Tickets_récurrents.md "création automatique de tickets").**
+   * A la mise à jour du ticket, le même ordre de priorité est utilisé pour déterminer les champs obligatoires.
+   * Si un des paramètre (entité, profil, type ou catégorie) est modifié lors de la saisie du ticket, le gabarit utilisé est alors déterminé une nouvelle fois en fonction des nouvelles valeurs.
+   * Le gabarit sert à la création de :ref:`tickets récurrents <recurrent-tickets>`.
 
 .. |btn_template| image:: images/templates_button.png
                 :alt: de gestion des gabarits
