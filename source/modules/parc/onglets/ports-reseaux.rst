@@ -24,7 +24,7 @@ d'affichage des ports réseaux. Il est ainsi possible d'afficher ou de masquer d
    * Pour un port réseau d'un type d'objet ordinateurs, le champ MAC avec la liste déroulante permet de sélectionner l'adresse MAC des composants de type carte réseau.
 
 Ports réseau de type Ethernet
-+++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Le protocole Ethernet est celui classiquement utilisé sur les réseaux internes.
 
@@ -40,7 +40,7 @@ Les connexions Ethernet se font en reliant deux ports Ethernet entre eux. Pour c
    ![image](docs/image/complexe_networkport.png "Connection complexe avec des alias et des aggrégats.").
 
 Ports réseau de type Wifi
-+++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Le protocole Wifi est celui classiquement utilisé pour les réseaux sans fils.
 
@@ -61,13 +61,13 @@ On peut associer un réseau Wifi à un port donné. Outre son nom, un réseau Wi
    ![image](docs/image/complexe_networkport_1.png "Connection complexe avec des alias et des aggrégats.").
 
 Ports réseau de type boucle locale
-++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La boucle locale est un port virtuel utilisé par la plupart des équipements afin de communiquer en interne. C'est ce port qui est sollicité lorsque l'on essaie de communiquer avec la machine ``localhost`` (``127.0.0.1``). Elle ne possède aucun attribut spécifique.
     
 
 Alias de port réseau
-++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^
 
 Un alias de port réseau est un port virtuel qui peut spécialiser un port physique.
 
@@ -81,7 +81,7 @@ Un alias de port comporte son port d'origine (celui sur lequel il s'appuie) et u
 
 
 Aggrégats de ports réseau
-+++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Un aggrégat de port réseau est un port virtuel qui permet de regrouper plusieurs ports physiques entre eux.
 
