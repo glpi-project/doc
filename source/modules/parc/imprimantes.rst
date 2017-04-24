@@ -39,7 +39,7 @@ Il se décompose en deux parties :
 
 .. include:: onglets/connexions.rst
 
--   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_réseaux.md)**
+.. include:: onglets/ports-reseaux.rst
 
 -   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
     Gérer les informations financières et administratives

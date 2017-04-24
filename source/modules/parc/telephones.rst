@@ -25,7 +25,7 @@ Les différents onglets
 
 .. include:: onglets/connexions.rst
 
--   **[Onglet "Ports réseaux"](Les_différents_onglets/Onglet_Ports_réseauxs.md)**
+.. include:: onglets/ports-reseaux.rst
 
 -   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
     Gérer les informations financières et administratives

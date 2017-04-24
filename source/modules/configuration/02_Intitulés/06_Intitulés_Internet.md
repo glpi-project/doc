@@ -3,7 +3,7 @@ Intitulés Internet
 
 Le protocole IP est matérialisé sous plusieurs formes : adresses IP, réseaux IP, mais aussi des FQDN.
 
-Un équipement se connecte au réseau au travers de [ports réseau](Les_différents_onglets/Onglet_Ports_Réseaux.md "Gestion des ports réseaux pour les éléments d'inventaire").
+Un équipement se connecte au réseau au travers de :doc:`ports réseaux <../../parc/onglets/ports-reseaux>`.
 
 À un port réseau, on associe un ou plusieurs Noms réseau(voir ci-dessous).
 
