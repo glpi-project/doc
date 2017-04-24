@@ -38,7 +38,7 @@ Les différentes actions
     Depuis l'onglet *Eléments* du composant, cliquer sur le lien **Mettre à jour**.
     Plusieurs onglet sont alors proposés :
     - **Onglet "Elément - Lien nom du composant"** : liste les caractéristiques de ce composant.
-    - **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)** :     gérer les informations financières et administratives.
+    - ** :doc:`Onglet "Gestion" <../parc/onglets/gestion>` ** :     gérer les informations financières et administratives.
     - **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
     - **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
     - **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)** : uniquement si vous êtes connecté en mode Debug.

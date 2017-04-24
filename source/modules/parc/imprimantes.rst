@@ -41,8 +41,7 @@ Il se décompose en deux parties :
 
 .. include:: onglets/ports-reseaux.rst
 
--   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
-    Gérer les informations financières et administratives
+.. include:: onglets/gestion.rst
 
 -   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
     Gérer les contrats associés

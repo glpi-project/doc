@@ -31,8 +31,7 @@ Les différents onglets
     Fournit un tableau listant les ordinateurs utilisant cette licence avec notamment, le nom de l'ordinateur, son numéro de série, son numéro d'inventaire, son lieu d'affectation, son statut, son groupe et son utilisateur.
     Des actions de masse sont proposées à ce niveau (si droit sur les ordinateurs), pour supprimer l'utilisation de cette licence sur l'ordinateur sélectionné ou pour affecter une autre licence du même logiciel à cet ordinateur (action Déplacer).
 
--   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
-    Gérer les informations financières et administratives
+.. include:: onglets/gestion.rst
 
 -   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
     Gérer les contrats associés

@@ -30,8 +30,7 @@ Figure 1. Onglet Cartouches
 -   **Onglet "Modèles d'imprimantes"**
     Cet onglet permet de déterminer les modèles d'imprimantes compatibles avec la cartouche.
 
--   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
-    Gérer les informations financières et administratives
+.. include:: onglets/gestion.rst
 
 -   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 

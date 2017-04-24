@@ -27,9 +27,7 @@ C'est depuis les actions de masse de cet onglet que sont attribuer les consommab
 Figure 1. Onglet Consommables
 ![image](docs/image/consumable.png)
 
-
--   **[Onglet "Gestion"](Les_différents_onglets/Onglet_Gestion.md)**
-    Gérer les informations financières et administratives
+.. include:: onglets/gestion.rst
 
 -   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
 
