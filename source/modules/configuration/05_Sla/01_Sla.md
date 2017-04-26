@@ -33,8 +33,9 @@ Les différents onglets
 -   **Onglet "Règles"**
     Liste les règles métier liées à ce SLA.
 
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
-    Liste les tickets affectés à ce SLA.
+.. include:: ../../onglets/tickets.rst
+
+Pour les SLA, il n'est pas possible d'ajouter un ticket. L'onglet liste juste les tickets affectés à ce SLA.
 
 -   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.

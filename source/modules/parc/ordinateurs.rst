@@ -68,8 +68,7 @@ Le seul moyen d'associer manuellement une machine virtuelle à une machine physi
 
    En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
 
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
-    Pour les éléments, les tickets se gèrent depuis l'onglet *Tickets*
+.. include:: ../onglets/tickets.rst
 
 -   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
 

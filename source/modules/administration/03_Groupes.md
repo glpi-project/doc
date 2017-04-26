@@ -76,10 +76,9 @@ Les différents onglets
     Liste des notifications pour lesquelles ce groupe est destinataire ou le superviseur de ce groupe.
     ![image](docs/image/notifGroupe.png)]
 
+.. include:: ../onglets/tickets.rst
 
--   **[Onglet "Tickets créés"](Les_différents_onglets/Onglet_Tickets.md)**
-    Liste les tickets dans lesquels le groupe est demandeur.
-
+Pour les groupes, il est possible de lister également les tickets des sous-groupes.
 
 -   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
 

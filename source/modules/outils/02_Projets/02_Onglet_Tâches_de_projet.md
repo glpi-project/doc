@@ -18,9 +18,9 @@ Les différents onglets
 
 .. include:: ../../onglets/documents.rst
 
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
-    Cet l'onglet permet d'associer un ticket à cette tâche de projet. 
+.. include:: ../onglets/tickets.rst
 
+Pour les tâches de projet, en plus de lister les tickets associés à la tâche, vous pouvez directement créer un ticket d'incident à partir de cette tâche.
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 

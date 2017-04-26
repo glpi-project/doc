@@ -68,7 +68,7 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
+.. include:: ../onglets/tickets.rst
 
 -   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
 

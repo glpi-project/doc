@@ -53,9 +53,7 @@ Les différents onglets
 
 -   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
 
-
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
-    Cet l'onglet permet d'associer un ticket à ce problème. 
+.. include:: ../onglets/tickets.rst
 
 .. include:: ../onglets/documents.rst
 

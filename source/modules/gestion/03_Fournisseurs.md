@@ -29,7 +29,7 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
+.. include:: ../onglets/tickets.rst
 
 -  **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***

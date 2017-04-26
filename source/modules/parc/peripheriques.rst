@@ -33,8 +33,8 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
-   
+.. include:: ../onglets/tickets.rst
+
 -   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
 
 -  **[Onglet "Liens"](Onglet_Liens.md)**

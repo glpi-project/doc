@@ -16,9 +16,9 @@ Des statistiques similaires aux tickets sont disponibles pour les problèmes (vo
 
 Les différents onglets
 ----------------------
--   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
-    Cet l'onglet permet d'associer un ticket à ce problème. 
 
+
+.. include:: ../onglets/tickets.rst
 
 -   **[Onglet "Changements"](Les_différents_onglets/Onglet_Changements.md)**
     Ajouter et visualiser les changements associés à ce problème.
