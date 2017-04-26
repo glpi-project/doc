@@ -1,5 +1,5 @@
-Gérer les imprimantes
-=====================
+Imprimantes
+===========
 
 Dans la fiche d'une imprimante, plusieurs informations sont disponibles:
 

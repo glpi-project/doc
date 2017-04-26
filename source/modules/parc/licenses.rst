@@ -1,5 +1,5 @@
-Gérer les licences
-===================
+Licences
+========
 
 La licence d'un logiciel correspond à un droit d'utilisation de ce logiciel. Elle dispose d'un certain nombre de champs spécifiques. Le nom indique la désignation commerciale de la licence. La version d'achat est celle achetée alors que la version d'utilisation correspond à la version réellement installée du logiciel. Ces deux versions peuvent être totalement différentes mais doivent refléter l'existant.
 

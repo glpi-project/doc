@@ -24,7 +24,7 @@ Types disponibles
 -----------------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
 
    ordinateurs
    moniteurs

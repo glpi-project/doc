@@ -1,5 +1,5 @@
-Gérer les moniteurs
-===================
+Moniteurs
+=========
 
 Dans la fiche des moniteurs, plusieurs informations sont disponibles :
 

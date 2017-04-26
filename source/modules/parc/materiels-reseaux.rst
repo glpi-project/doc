@@ -1,5 +1,5 @@
-Gérer les matériels réseaux
-===========================
+Matériels réseaux
+=================
 
 Le matériel réseau représente le matériel qui gère, transmet et route le réseau entre plusieurs autres matériels (ordinateurs, imprimantes...).
 

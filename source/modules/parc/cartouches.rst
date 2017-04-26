@@ -1,5 +1,5 @@
-Gérer les cartouches
-====================
+Cartouches
+==========
 
 Ce module permet de créer des modèles de cartouches ainsi que les cartouches correspondantes.
 

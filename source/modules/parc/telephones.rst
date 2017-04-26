@@ -1,5 +1,5 @@
-Gérer les téléphones
-====================
+Téléphones
+==========
 
 Dans la fiche d'un téléphone, plusieurs informations sont disponibles :
 

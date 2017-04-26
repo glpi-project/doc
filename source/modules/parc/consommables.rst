@@ -1,5 +1,5 @@
-Gérer les consommables
-======================
+Consommables
+============
 
 Dans la fiche d'un consommable, plusieurs informations sont disponibles:
 

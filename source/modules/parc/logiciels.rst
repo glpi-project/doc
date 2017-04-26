@@ -1,5 +1,5 @@
-Gérer les logiciels
-===================
+Logiciels
+=========
 
 GLPI permet la gestion des logiciels et de leurs versions ainsi que des licences (pouvant être associées ou non à des versions).
 

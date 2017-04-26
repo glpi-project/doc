@@ -1,5 +1,5 @@
-Gérer les périphériques
-=======================
+Périphériques
+=============
 
 Dans la fiche d'un périphérique, plusieurs informations sont disponibles:
 
