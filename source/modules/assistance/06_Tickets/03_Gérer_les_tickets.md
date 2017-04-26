@@ -101,9 +101,7 @@ Les différents onglets
     Liste les tâches d'un projet liées à ce ticket en indiquant, pour chaque tâche, le nom du projet, son nom, son type, son statut, le pourcentage effectuée, les dates de début et de fin planifiées, les durées planifiée et effective ainsi que le nom de la tâche parent.
     Vous pouvez modifier un projet ou une tâche de projet en cliquant sur son nom.
 
-
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-
+.. include:: ../../onglets/documents.rst
 
 -   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Permet d'associer plusieurs éléments au ticket.

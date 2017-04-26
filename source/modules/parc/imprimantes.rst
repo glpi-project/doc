@@ -43,10 +43,9 @@ Il se décompose en deux parties :
 
 .. include:: onglets/gestion.rst
 
--   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
-    Gérer les contrats associés
+.. include:: ../onglets/contrats.rst
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+.. include:: ../onglets/documents.rst
 
 -   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
 

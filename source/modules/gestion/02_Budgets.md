@@ -22,8 +22,8 @@ Les différents onglets
 
 -   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet de visualiser les éléments attachés à ce budget.
-    
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+
+.. include:: ../onglets/documents.rst
 
 -  **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***

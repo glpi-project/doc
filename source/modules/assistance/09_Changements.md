@@ -57,9 +57,7 @@ Les différents onglets
 -   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
     Cet l'onglet permet d'associer un ticket à ce problème. 
 
-
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-
+.. include:: ../onglets/documents.rst
 
 -   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet d'associer un élément à ce changement en choisissant le type ainsi que l'élément souhaité.

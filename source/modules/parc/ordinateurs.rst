@@ -49,10 +49,9 @@ Pour associer une licence à cet ordinateur, sélectionner le logiciel puis la l
 
 .. include:: onglets/gestion.rst
 
--   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
-    Gérer les contrats associés
+.. include:: ../onglets/contrats.rst
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+.. include:: ../onglets/documents.rst
 
 Virtualisation
 ~~~~~~~~~~~~~~

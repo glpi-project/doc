@@ -25,6 +25,8 @@ Les différents onglets
     Quasiment tous les objets de GLPI sont associables à un document.
     Le tableau listant les éléments du contrat est trié par type d'éléments avec pour chaque type le nom de l'élément et si présents, les numéros de série et d'inventaire.
 
+.. include:: ../onglets/documents.rst
+
 -   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
     Il est en effet possible d'associer un document à un autre document (exemple : un premier document nommé "Abonnement" qui contiendrait un exemplaire du contrat ainsi que toutes les factures) ;
 

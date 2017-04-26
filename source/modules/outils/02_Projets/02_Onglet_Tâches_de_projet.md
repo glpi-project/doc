@@ -16,9 +16,7 @@ Les différents onglets
     Cet onglet permet d'ajouter un membre à l'équipe, que ce soit un contact, un fournisseur, un utilisateur ou un groupe).
     Il liste également chaque membre de l'équipe cd tâche ainsi que son type respectif.
 
-
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-
+.. include:: ../../onglets/documents.rst
 
 -   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
     Cet l'onglet permet d'associer un ticket à cette tâche de projet. 

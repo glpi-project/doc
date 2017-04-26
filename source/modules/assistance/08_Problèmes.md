@@ -44,9 +44,7 @@ Les différents onglets
 
 -   **[Onglet "Statistiques"](Les_différents_onglets/Onglet_Statistiques.md)**
 
-
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-
+.. include:: ../onglets/documents.rst
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 

@@ -22,13 +22,12 @@ Les différents onglets
     Cet onglet permet d'ajouter un ou plusieurs contacts à ce fournisseur.
     Il liste également les différents contacts associés au fournisseur.
 
--   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
-    Gérer les contrats associés
+.. include:: ../onglets/contrats.rst
 
 -   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet de visualiser les éléments attachés à ce fournisseur.
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+.. include:: ../onglets/documents.rst
 
 -   **[Onglet "Tickets"](Les_différents_onglets/Onglet_Tickets.md)**
 

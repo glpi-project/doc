@@ -18,9 +18,7 @@ le cas d'une note publique. Une note planifiée n'est pas supprimée une fois la
 Les différents onglets
 ----------------------
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-    Il est possible d'associer un ou plusieurs documents à une note.
-
+.. include:: ../onglets/documents.rst
 
 -   **Onglet "Cible"**
     Une note est considérée comme personnelle par défaut. Elle est, par conséquent, uniquement visible par son rédacteur.

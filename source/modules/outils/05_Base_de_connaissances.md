@@ -86,9 +86,7 @@ Les différents onglets
 - **Onglet "Editer"
   Cet onglet permet, suivant vos droits, de modifier ou supprimer un article.
 
-
-- **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-    Il est possible d'associer un ou plusieurs documents à une note.
+.. include:: ../onglets/documents.rst
 
 - **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.

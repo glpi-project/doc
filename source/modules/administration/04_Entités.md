@@ -122,8 +122,8 @@ et le domaine de messagerie associé à celle-ci.
     - d'assignation de tickets ouverts par courriel. 
     Si vous avez besoin de baser ces règles sur des critères, il faut ouvrir la nouvelle règle créée pour définir ces critères.
     Sont également listés les règles déjà applicables à cette entité.
-    
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+
+.. include:: ../onglets/documents.rst
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 

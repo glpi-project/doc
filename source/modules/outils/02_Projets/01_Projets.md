@@ -49,13 +49,9 @@ Les différents onglets
 -   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
     Cet onglet permet d'associer un élément à ce changement en choisissant le type ainsi que l'élément souhaité.
 
+.. include:: ../../onglets/documents.rst
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
-
-
--   **[Onglet "Contrats"](Les_différents_onglets/Onglet_Contrats.md)**
-    Gérer les contrats associés
-
+.. include:: ../../onglets/contrats.rst
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 

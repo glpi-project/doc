@@ -20,7 +20,7 @@ Les différents onglets
     ![image](docs/image/niveauSla.png)
 
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+.. include:: ../onglets/documents.rst
 
 -   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
      Pour un élément, toutes les informations sont affichées sur une seule page.

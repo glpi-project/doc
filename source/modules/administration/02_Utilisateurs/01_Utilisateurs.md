@@ -37,7 +37,7 @@ Les différents onglets
 -   **[Onglet "Tickets créés"](Les_différents_onglets/Onglet_Tickets.md)**
     Liste les tickets dans lesquels l'utilisateur est demandeur.
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+.. include:: ../../onglets/documents.rst
 
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
     Liste les réservations passées, en cours et à venir de l'utilisateur.
