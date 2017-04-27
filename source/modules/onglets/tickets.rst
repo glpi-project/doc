@@ -16,7 +16,7 @@ Ce tableau récapitulatif comprend notamment pour chaque objet :
 * son titre,
 * une colonne indiquant le nombre de tâches planifiées.
 
-.. image:: /modules/onglets/tickets.png
+.. image:: /modules/onglets/images/tickets.png
 
 .. note::
 
