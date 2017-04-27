@@ -25,11 +25,9 @@ Les différents onglets
 -   **[Onglet Réplicat MySQL](08_Module_Configuration/06_Générale/07_Replicats_MySQL.md)**
      GLPI peut être configuré pour utiliser une base MySQL esclave.
 
--   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
-    Uniquement si vous êtes connecté en mode Debug.
+.. include:: ../../onglets/debug.rst
 
--   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page.
+.. include:: ../../onglets/all.rst
 
 --------
 **Sujet parent :** [Module Configuration](08_Module_Configuration/01_Module_Configuration.md "Module Configuration de GLPI")

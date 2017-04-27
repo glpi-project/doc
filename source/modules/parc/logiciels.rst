@@ -113,11 +113,9 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
     *-   de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;*
     *-   d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).*
 
--   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
-    Uniquement si vous êtes connecté en mode Debug.
+.. include:: ../onglets/debug.rst
 
--   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page.
+.. include:: ../onglets/all.rst
 
 Les différentes actions
 -----------------------

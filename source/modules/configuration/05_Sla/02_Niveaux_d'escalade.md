@@ -23,12 +23,9 @@ Les différents onglets
 -   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
      L'historique est visualisé depuis l'onglet *Historique*
 
--   **[Onglet "Debug"](Les_différents_onglets/Onglet_Debug.md)**
-    Uniquement si vous êtes connecté en mode Debug.
+.. include:: ../../onglets/debug.rst
 
--   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page.
-
+.. include:: ../../onglets/all.rst
 
 Les différentes actions
 -----------------------
