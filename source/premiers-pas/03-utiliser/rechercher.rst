@@ -9,7 +9,7 @@ Outre la liste des éléments correspondant aux critères énnoncés ; ces liste
 
 * export dans différents formats (CSV, PDF, ...)
 * la modification massive après sélection,
-* un système complet de marque-pages permettant de sauvegarder les recherches favorites.
+* un système complet de :ref:`marque-pages <bookmarks>` permettant de sauvegarder les recherches favorites.
 
 Effectuer une recherche basique
 -------------------------------
@@ -157,31 +157,4 @@ Cet outil se trouve en haut à droite de l'écran GLPI. Il permet la recherche d
 
 .. note::
 
-   La recherche ne se fera que sur les champs affichés par défaut pour chacun des éléments cités ci-dessus.
-
-   .. todo::
-
-         Vérifier ce point.
-
-Les marques-pages
------------------
-
-GLPI permet d'enregistrer de manière personnelle ou publique des recherches que l'utilisateur souhaite conserver et exécuter à nouveau si besoin.
-
-.. image:: images/saved_searches.png
-   :align: center
-   :scale: 50%
-
-.. note::
-
-   Les marques pages personnels peuvent être ordonnés en fonction des besoins de l'utilisateurs alors que les marques pages publics utilisent un tri automatique.
-
-   La recherche doit au préalable être exécutée via le bouton *Rechercher* avant de pouvoir enregistrer le marque-page.
-
-Un marque-page public ne peut être modifié que sur l'entité dans laquelle il a été créé. Seules les personnes possédant le droit d'écriture sur les marques-pages public sont habilités à en créer et à modifier ceux qui existent. De plus un marque-page peut être défini comme marque-page par défaut (en cliquant sur l'étoile précédent le marque page), et sera donc chargé à chaque affichage dans GLPI. Notez qu'il n'est possible de définir qu'un seul marque page par défaut pour un même type d'objets.
-
-Pour recharger un marque-page, il suffit de cliquer sur le lien proposé. Pour réordonner les marques pages personnels ; cliquer/glisser les élements dans la liste.
-
-Si les gestionnaires de parc ont besoin de connaître régulièrement l'ensemble des machines tournant sous GNU/Linux avec plus de 512 Mio de mémoire, alors créer un marque-page public.
-
-Dans le cas d'une utilisation de GLPI en multi-entités, pour mettre à disposition des utilisateurs des requêtes pré-définies, qui ne sont pas modifiables, il est possible de créer des marques-pages public visibles dans des sous-entités.
+   La recherche ne s'effectue que sur les champs affichés par défaut pour chacun des éléments cités ci-dessus.

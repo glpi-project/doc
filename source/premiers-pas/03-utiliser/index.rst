@@ -14,3 +14,4 @@ Tout ce qu'il faut savoir pour une installation basique et sereine de GLPI et d√
    interfaces
    visualiser
    rechercher
+   recherches-sauvegardees
