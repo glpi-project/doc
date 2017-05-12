@@ -6,4 +6,3 @@ Généralités
 
    gabarits
    statuts
-   recherche-globale
