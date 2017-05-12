@@ -6,3 +6,8 @@
 .wy-side-nav-search > div.version {
    color: inherit;
 }
+
+.wy-side-nav-search > div.version > span.rtdversion {
+   color:rgba(255,255,255,0.3);
+   margin-left: .3em;
+}
