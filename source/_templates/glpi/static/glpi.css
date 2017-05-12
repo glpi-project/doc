@@ -1,0 +1,8 @@
+.wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a {
+   padding: 0;
+   margin: 0;
+}
+
+.wy-side-nav-search > div.version {
+   color: inherit;
+}
