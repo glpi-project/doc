@@ -13,6 +13,8 @@
 # serve to show the default.
 
 from recommonmark.parser import CommonMarkParser
+import datetime
+import sphinx_glpi_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -59,7 +61,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'GLPI'
-copyright = u'2016-2017, GLPI Project, Teclib\''
+thisyear = datetime.datetime.now().year
+copyright = u'2016-%s, GLPI Project, Teclib\'' % thisyear
 author = u'GLPI Project, Teclib\''
 
 # The version info for the project you're documenting, acts as replacement for
@@ -139,7 +142,7 @@ html_theme = 'glpi'
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
-html_theme_path = ['_templates']
+html_theme_path = sphinx_glpi_theme.get_html_themes_path()
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
@@ -154,7 +157,7 @@ html_theme_path = ['_templates']
 # of the sidebar.
 #
 # html_logo = None
-html_logo = '_templates/glpi/static/images/glpi.png'
+html_logo = 'static/images/glpi.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
