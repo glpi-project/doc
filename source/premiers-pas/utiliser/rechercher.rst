@@ -142,8 +142,11 @@ Recherche rapide
 
 Cet outil se trouve en haut à droite de l'écran GLPI. Il permet la recherche d'une chaîne de caractères simultanément sur les éléments suivants :
 
-* Ordinateurs,
 * Tickets,
+* Problèmes,
+* Changements,
+* Projets,
+* Ordinateurs,
 * Moniteurs,
 * Logiciels,
 * Matériels Réseau,
@@ -151,9 +154,12 @@ Cet outil se trouve en haut à droite de l'écran GLPI. Il permet la recherche d
 * Imprimantes,
 * Téléphones,
 * Contacts,
+* Contrats,
 * Fournisseurs et Documents,
+* Budgets,
 * Licences,
-* Utilisateurs.
+* Utilisateurs,
+* Groupes.
 
 .. note::
 
