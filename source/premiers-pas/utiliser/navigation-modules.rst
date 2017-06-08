@@ -65,3 +65,10 @@ Il existe des raccourcis clavier qui permettent de naviguer d'un module/sous mod
    * Opera
 
       Appuyer simultanément sur les touches ``Echap``, ``Maj`` et *sur le raccourci voulu*.
+
+De plus, depuis la version 9.2, GLPI propose une navigation "fuzzy" accessible depuis le raccourci clavier ``Ctrl`` + ``Alt`` + ``G``.
+Cela ouvrira une fenêtre modale vous permettant de filtrer, via un champ de recherche, tout les menus de GLPI (tout les niveaux sont présents, vous avez par exemple accès aux 3 ème niveaux tel que les intitulés ou les composants).
+
+.. image:: images/fuzzyglpi.gif
+   :alt: Navigation "Fuzzy"
+   :align: center
