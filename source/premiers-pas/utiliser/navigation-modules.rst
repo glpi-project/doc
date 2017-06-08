@@ -71,7 +71,7 @@ Cela ouvrira une fenêtre modale vous permettant de filtrer, via un champ de rec
 
 Dans cette fenêtre, des raccourcis supplémentaires sont disponibles:
 
-* ``⇩`` et ``⇧`` afin de se déplacer dans les résultats
+* ``🡇`` et ``🡅`` afin de se déplacer dans les résultats
 * ``Enter`` pour changer la page active de glpi sur le résultat sélectionné
 * ``Esc`` (Echap) pour fermer la fenêtre de recherche.
 
