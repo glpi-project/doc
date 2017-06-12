@@ -13,7 +13,7 @@ On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
 * Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.
 * Lorsqu'il y a plusieurs noms réseau, il n'est plus possible de modifier le nom réseau dans le formulaire du port réseau. On doit systématiquement utiliser l'onglet.
 
-Les ports réseau peuvent être de différents types. Il y a des ports physiques (Ethernet, Wifi ...), :ref:`virtuels <glossary-virtual-ports>` (boucle locale, alias, aggrégats ...), point à point (ligne commutée) ...
+Les ports réseau peuvent être de différents types. Il y a des ports physiques (Ethernet, Wifi ...), :ref:`virtuels <Port réseau virtuel>` (boucle locale, alias, aggrégats ...), point à point (ligne commutée) ...
 
 L'onglet des ports réseau représente l'ensemble de ports disponibles sur l'équipement dans un tableau. Dans l'en-tête du tableau, à côté du nombre total de port, il y a un lien permettant de choisir les options
 d'affichage des ports réseaux. Il est ainsi possible d'afficher ou de masquer des informations telles que les informations réseau (tout ce qui concerne Internet), les caractéristiques intrinsèques du port (ie. dépendant de son type), les adresses MAC, les VLANs ...
@@ -71,7 +71,7 @@ Alias de port réseau
 
 Un alias de port réseau est un port virtuel qui peut spécialiser un port physique.
 
-Sous Linux, chaque :ref:`VLAN <glossary-vlan>`, lorsqu'il est transmis « :ref:`taggé <glossary-tagged-vlan>` », est associé à un alias de port (``eth2.50`` pour représenter le VLAN ``50`` sur le port ``eth2``).
+Sous Linux, chaque :term:`VLAN`, lorsqu'il est transmis « :term:`taggé <VLAN Taggé>` », est associé à un alias de port (``eth2.50`` pour représenter le VLAN ``50`` sur le port ``eth2``).
 
 Un alias de port comporte son port d'origine (celui sur lequel il s'appuie) et une adresse MAC.
 
