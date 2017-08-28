@@ -15,8 +15,7 @@ La gestion unitaire correspond à une gestion classique (un périphérique pour 
 
 La gestion globale permet de limiter le nombre d'élément à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
 
-
-**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.md)**
+Il est possible d'utiliser les :doc:`gabarits avec les périphériques <../generalites/gabarits>`.
 
 Les différents onglets
 ----------------------

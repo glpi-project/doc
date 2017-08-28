@@ -22,7 +22,7 @@ Certains champs sont spécifiques dans la fiche du logiciel :
 
 ***Conseil :*** en mode multi-entité, la liste des logiciels peut devenir longue, en partie dû aux doublons (1 logiciel par entité). Une gestion fine des logiciels, licences et versions peut consister à regrouper les logiciels identiques dans une même entité (voir onglet *Regroupement* ci-dessous), puis à rendre récursif les éléments qui peuvent l'être.
 
-**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.md)**
+Il est possible d'utiliser les :doc:`gabarits avec les logiciels <../generalites/gabarits>`.
 
 Les différents onglets
 ----------------------

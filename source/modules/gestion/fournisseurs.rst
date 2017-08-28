@@ -44,16 +44,20 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un fournisseur](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un fournisseur](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un fournisseur](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un fournisseur](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un fournisseur](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contrat à un fournisseur](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
--   **Associer un élément à un fournisseur**
-    Il suffit de choisir ce fournisseur dans l'onglet *Gestion* de l'objet.
--   **[Associer un contact à un fournisseur](Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
--   **[Transférer un fournisseur vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
 
--------
-**Sujet parent :** [Module Gestion](05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")
+Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux fournisseurs :
+
+*  **Associer un élément à un fournisseur**
+    Il suffit de choisir ce fournisseur dans l'onglet *Gestion* de l'objet.
+* Associer un contact à un fournisseur
+
+   La distinction est clairement établie entre le fournisseur, qu'il est possible de lier de manière univoque à des éléments d'inventaire et les contacts, qui composent la liste des personnes permettant d'entrer en relation avec ce fournisseur. Pour établir cette liste, il faut donc associer les contacts au fournisseur concerné.
+
+    Exemple :
+
+    Monsieur Dupont est conseiller de vente dans l'entreprise Acme auprès de qui la structure se fournit régulièrement.
+    Créer un fournisseur nommé Acme.
+    Créer un contact au nom de Monsieur Dupont.
+    Affecter à ce contact le type commercial.
+    Puis associer le contact au fournisseur Acme.
+
