@@ -30,7 +30,7 @@ Les différents onglets
 -   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
     Il est en effet possible d'associer un document à un autre document (exemple : un premier document nommé "Abonnement" qui contiendrait un exemplaire du contrat ainsi que toutes les factures) ;
 
--   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
+.. include:: ../onglets/notes.rst
 
 .. include:: ../onglets/historique.rst
 

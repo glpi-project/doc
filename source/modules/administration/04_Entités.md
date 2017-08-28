@@ -125,13 +125,11 @@ et le domaine de messagerie associé à celle-ci.
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
+.. include:: ../onglets/notes.rst
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
+.. include:: ../onglets/historique.rst
 
--   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page.
-
+.. include:: ../onglets/all.rst
 
 Les différentes actions
 -----------------------

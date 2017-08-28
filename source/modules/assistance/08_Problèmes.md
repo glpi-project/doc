@@ -46,16 +46,11 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
+.. include:: ../onglets/notes.rst
 
+.. include:: ../onglets/historique.rst
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
-
-
--   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page.
-
+.. include:: ../onglets/all.rst
 
 Les différentes actions
 -----------------------

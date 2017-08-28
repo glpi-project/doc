@@ -75,7 +75,7 @@ Le seul moyen d'associer manuellement une machine virtuelle à une machine physi
 -   **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
      Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
 
--   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
+.. include:: ../onglets/notes.rst
 
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
      Gestion des réservations pour un objet d'inventaire
