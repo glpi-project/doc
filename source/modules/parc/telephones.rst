@@ -35,7 +35,7 @@ Les différents onglets
 
 .. include:: ../onglets/tickets.rst
 
--   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
+.. include:: onglets/problemes.rst
 
 .. include:: ../onglets/liens.rst
 

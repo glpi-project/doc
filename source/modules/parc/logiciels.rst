@@ -73,7 +73,7 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
 
 .. include:: ../onglets/tickets.rst
 
--   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
+.. include:: onglets/problemes.rst
 
 .. include:: ../onglets/liens.rst
 

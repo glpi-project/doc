@@ -107,7 +107,7 @@ Les différents onglets
     Permet d'associer plusieurs éléments au ticket.
 
 
--   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
+.. include:: onglets/problemes.rst
 
 -   **[Onglet "Changements"](Les_différents_onglets/Onglet_Changements.md)**
     Ajouter et visualiser les changements associés à ce ticket.

@@ -51,7 +51,7 @@ Les différents onglets
     Il liste également les projets déjà liés à ce changement. Ce tableau récapitulatif comprend notamment, pour chaque projet, son statut, sa date (d'ouverture ou de clôture suivant l'état du projet), sa priorité, les superviseur et groupe superviseur si renseignés ainsi que son nom. 
 
 
--   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
+.. include:: onglets/problemes.rst
 
 .. include:: ../onglets/tickets.rst
 

@@ -70,7 +70,7 @@ Le seul moyen d'associer manuellement une machine virtuelle à une machine physi
 
 .. include:: ../onglets/tickets.rst
 
--   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
+.. include:: onglets/problemes.rst
 
 .. include:: ../onglets/liens.rst
 
