@@ -72,8 +72,7 @@ Le seul moyen d'associer manuellement une machine virtuelle à une machine physi
 
 -   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
 
--   **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
-     Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
+.. include:: ../onglets/liens.rst
 
 .. include:: ../onglets/notes.rst
 

@@ -36,8 +36,7 @@ Les différents onglets
 
 -   **[Onglet "Problèmes"](Les_différents_onglets/Onglet_Problèmes.md)**
 
--  **[Onglet "Liens"](Onglet_Liens.md)**
-     Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
+.. include:: ../onglets/liens.rst
 
 .. include:: ../onglets/notes.rst
 

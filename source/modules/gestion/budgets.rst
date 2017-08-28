@@ -28,8 +28,7 @@ Cet onglet fournit un tableau récapitulant le montant dépensé sur la budget a
 
 .. include:: ../onglets/documents.rst
 
--  **[Onglet "Liens"](Les_différents_onglets/Onglet_Liens.md)**
-     Pour certains éléments, les liens externes se gèrent depuis le menu ***Liens externes***
+.. include:: ../onglets/liens.rst
 
 .. include:: ../onglets/notes.rst
 
