@@ -33,8 +33,7 @@ Cet onglet fournit un tableau récapitulant le montant dépensé sur la budget a
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
+.. include:: ../onglets/historique.rst
 
 .. include:: ../onglets/all.rst
 

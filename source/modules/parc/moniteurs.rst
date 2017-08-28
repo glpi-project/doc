@@ -43,8 +43,7 @@ Les différents onglets
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
      Gestion des réservations pour un objet d'inventaire
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
+.. include:: ../onglets/historique.rst
 
 .. include:: ../onglets/debug.rst
 

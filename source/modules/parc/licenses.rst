@@ -37,8 +37,7 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
+.. include:: ../onglets/historique.rst
 
 .. include:: ../onglets/debug.rst
 

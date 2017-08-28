@@ -83,8 +83,7 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
      Gestion des réservations pour un objet d'inventaire
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
+.. include:: ../onglets/historique.rst
 
 -   **Onglet "Regroupement"**
     Comment regrouper des logiciels homonymes dans des sous-entités.

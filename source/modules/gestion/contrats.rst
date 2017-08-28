@@ -47,8 +47,7 @@ Les différents onglets
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
+.. include:: ../onglets/historique.rst
 
 .. include:: ../onglets/debug.rst
 
@@ -68,6 +67,3 @@ Les différentes actions
     Dans le cas ou la reconduction du contrat serait expresse, il peut être intéressant d'être alerté à la date du préavis. Pour les contrats périodiques il est également possible d'être alerté à la
     fin de chaque période ou préavis de période.
     Ceci est configurable par entité dans le menu **Configuration > Notifications** pour définir les modèles et destinataires utilisés et dans le menu **Configuration > Entité** pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l'envoi de la notification si besoin.
-
---------
-**Sujet parent :** [Module Gestion](05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")

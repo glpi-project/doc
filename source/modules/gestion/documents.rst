@@ -32,11 +32,9 @@ Les différents onglets
 
 -   **[Onglet "Notes"](Les_différents_onglets/Onglet_Notes.md)**
 
--   **[Onglet "Historique"](Les_différents_onglets/Onglet_Historique.md)**
-     L'historique est visualisé depuis l'onglet *Historique*
+.. include:: ../onglets/historique.rst
 
--   **[Onglet "Tous"](Les_différents_onglets/Onglet_Tous.md)**
-     Pour un élément, toutes les informations sont affichées sur une seule page.
+.. include:: ../onglets/all.rst
 
 
 Les différentes actions
@@ -47,6 +45,3 @@ Les différentes actions
 -   **[Supprimer un document](Les_différentes_actions/Supprimer_un_objet.md)**
 -   **[Associer un document à un autre document](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
 -   **[Transférer un document vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
-
-------
-**Sujet parent :** [Module Gestion](05_Module_Gestion/01_Module_Gestion.md "Le module Gestion permet aux utilisateurs de gérer les contacts, les fournisseurs, les budgets, les contrats et les documents")
