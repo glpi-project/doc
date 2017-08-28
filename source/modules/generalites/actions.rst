@@ -90,6 +90,33 @@ Deux possibilités sont offertes :
 
 Affichage de la fiche avec l'objet associé au document
 
+
+Association d'un contrat
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Quel que soit l'objet de l'inventaire, si celui-ci peut être lié à un contrat, l'association s'effectue toujours de la même manière :
+
+#. Se connecter à GLPI ;
+#. Aller dans le menu de l'objet (exemple : Parc > Ordinateurs pour ajouter un contrat à un ordinateur) ;
+#. Optionnel : faire une recherche de  l'objet depuis le moteur de recherche situé au-dessus de la liste des objets ;
+
+Deux possibilités sont offertes :
+
+- Association unitaire :
+
+   #. Cliquer sur le nom de l'objet ;
+   #. Aller dans l'onglet **Contrats** ;
+   #. Sélectionner un contrat ;
+   #. Cliquer sur le bouton **Ajouter**.
+
+- Association en masse :
+
+   #. Cocher la case située à gauche du nom de l'objet ;
+   #. Cliquer sur le bouton **Actions** et choisir ***Ajouter un Contrat**.
+
+Affichage de la fiche avec l'objet associé au contrat.
+
+
 Transfert entre entités
 ^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -53,11 +53,6 @@ Les différents onglets
 Les différentes actions
 -----------------------
 
-* [Ajouter un moniteur](Les_différentes_actions/Créer_un_nouvel_objet.md)
-* [Voir un moniteur](Les_différentes_actions/Visualiser_un_objet.md)
-* [Modifier un moniteur](Les_différentes_actions/Modifier_un_objet.md)
-* [Supprimer un moniteur](Les_différentes_actions/Supprimer_un_objet.md)
+Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux moniteurs :
+
 * :ref:`Connecter un moniteur à un ordinateur <connexion_monitor>`
-* [Associer un document à un moniteur](Les_différentes_actions/Lier_un_document_à_un_objet.md)
-* [Associer un contrat à un moniteur](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)
-* [Transférer un moniteur vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)

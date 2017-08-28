@@ -54,10 +54,5 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un  périphérique](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un périphérique](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un périphérique](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un périphérique](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un périphérique](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contrat à un périphérique](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
--   **[Transférer un périphérique vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
+
+Les périphériques ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.

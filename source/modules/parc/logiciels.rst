@@ -26,6 +26,9 @@ Certains champs sont spécifiques dans la fiche du logiciel :
 
 Les différents onglets
 ----------------------
+
+.. _versions_soft:
+
 -   **Onglet "Versions"**
     Principes et gestion des versions logiciels dans GLPI
 
@@ -119,14 +122,9 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
 
 Les différentes actions
 -----------------------
--   **[Ajouter un logiciel](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un logiciel](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un logiciel](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un logiciel](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un logiciel](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contrat à un logiciel](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
--   **[Transférer un logiciel vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
--   **Ajouter une version à un logiciel**
-    Voir onglet *Versions* ci-dessus
--   **[Gérer les licences](03_Module_Parc/04_Logiciels/Onglet_Licences.md)**
+
+Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux logiciels :
+
+* :ref:`Ajouter une version à un logiciel <versions_soft>`
+* **[Gérer les licences](03_Module_Parc/04_Logiciels/Onglet_Licences.md)**
     Depuis le menu ***Parc > Logiciels*** cliquer sur le nom de la licence dans l'onglet *Licences*.

@@ -89,14 +89,13 @@ Le seul moyen d'associer manuellement une machine virtuelle à une machine physi
 
 Les différentes actions
 -----------------------
--   **[Ajouter un  ordinateur](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un ordinateur](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un ordinateur](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un ordinateur](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un ordinateur](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contrat à un ordinateur](Les_différentes_actions/Lier_un_contrat_à_un_objet.md)**
--   **[Transférer un ordinateur vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
--   **Installer un logiciel avec licence sur un ordinateur**
+
+Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux ordinateurs :
+
+* **Installer un logiciel avec licence sur un ordinateur**
     Depuis l'onglet *Logiciels*, ajouter une licence en choisissant le nom du logiciel suivi du nom de la licence.
     Depuis les actions de masse du tableau récapitulatif, choisissez **Installer**.
-    ***Attention*** : un logiciel ne peut être installé que si sa licence possède une version d'achat et/ou d'utilisation.
+
+    .. warning::
+
+       Un logiciel ne peut être installé que si sa licence possède une version d'achat et/ou d'utilisation.
