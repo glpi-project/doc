@@ -7,8 +7,8 @@ Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-
 
 Il est possible d'utiliser les :doc:`gabarits avec les matériels réseaux <../generalites/gabarits>`.
 
-Les différents onglet :
----------------------
+Les différents onglets
+----------------------
 
 .. include:: onglets/composants.rst
 

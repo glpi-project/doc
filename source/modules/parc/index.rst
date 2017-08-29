@@ -31,7 +31,7 @@ Types disponibles
    logiciels
    licenses
    materiels-reseaux
-   periperiques
+   peripheriques
    imprimantes
    cartouches
    consommables
@@ -42,6 +42,6 @@ Types disponibles
 
    Référencé dans la doc originale, mais non présent :
 
-   -   **[Gestion du protocole Internet (IP)](../glpi/inventory_ip.html)**\
+   * **[Gestion du protocole Internet (IP)](../glpi/inventory_ip.html)**\
       Le protocole IP est matérialisé sous plusieurs formes : adresses
       IP, réseaux IP, mais aussi des FQDN

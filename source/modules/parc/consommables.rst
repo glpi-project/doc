@@ -17,10 +17,15 @@ La gestion des stocks partagés est possible en définissant l'élément comme r
 
 Les différents onglets
 ----------------------
-- **Onglet "Consommables"**
-  C'est depuis cet onglet que vous pouvez ajouter autant de consommables que nécessaire. Vous pouvez d'ailleurs ajouter plusieurs consommables en une seule fois.
 
- Un premier tableau liste les consommables neufs, le second tableau liste les consommables utilisés avec notamment le nom du groupe ou de la personne à qui il a été donné.
+.. _ajout-consommables-modele:
+
+Consommables
+~~~~~~~~~~~~
+
+C'est depuis cet onglet que vous pouvez ajouter autant de consommables que nécessaire. Vous pouvez d'ailleurs ajouter plusieurs consommables en une seule fois.
+
+Un premier tableau liste les consommables neufs, le second tableau liste les consommables utilisés avec notamment le nom du groupe ou de la personne à qui il a été donné.
 
 C'est depuis les actions de masse de cet onglet que sont attribuer les consommables (Actions **Donner**).
 
@@ -41,15 +46,11 @@ Figure 1. Onglet Consommables
 
 Les différentes actions
 -----------------------
--   **[Ajouter un modèle de consommable](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un modèle de consommable](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un modèle de consommable](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un modèle de consommable](Les_différentes_actions/Supprimer_un_objet.md)**
--   **Ajouter de nouveaux consommables à un modèle**
-    Voir onglet *Consommables* ci-dessus
--   **[Associer un document à un modèle de consommable](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Transférer un consommable vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
--   **Avoir la liste des consommables attribués**
-![image](docs/image/resumeConsumable.png)
-L'icone de droite permet d'avoir un résumé des consommables prêtés
-![image](docs/image/resumeConsumableExample.png)
+
+Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux consommables :
+
+* :ref:`Ajouter de nouveaux consommables à un modèle <ajout-consommables-modele>` ;
+* Lister les consommables attribués
+   ![image](docs/image/resumeConsumable.png)
+   L'icone de droite permet d'avoir un résumé des consommables prêtés
+   ![image](docs/image/resumeConsumableExample.png)

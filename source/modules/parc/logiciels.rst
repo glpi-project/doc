@@ -29,41 +29,48 @@ Les différents onglets
 
 .. _versions_soft:
 
--   **Onglet "Versions"**
-    Principes et gestion des versions logiciels dans GLPI
+Versions
+~~~~~~~~
 
-    Une version d'un logiciel est l'élément pouvant être installé sur un ordinateur.
-    Voir également l'onglet *Installations* ci-dessous.
+Principes et gestion des versions logiciels dans GLPI
 
-    La vue principale liste le nombre d'installation de la version.
+Une version d'un logiciel est l'élément pouvant être installé sur un ordinateur. Voir également :ref:`l'onglet *Installations* <onglet-logiciels-installations>`.
 
-    **Champs spécifiques :**
-    - **Nom** : correspond au numéro de version ;
-    - **Statut** : en préconisations ITIL, il permet de suivre la DSL (bibliothèque de stockage des versions autorisées) ;
-    - **Système d'exploitation** : le système d'exploitation sur lequel fonctionne cette version de logiciel ;
-    - **Installations** : nombre d'installations de la version ;
-    - **Commentaires**.
+La vue principale liste le nombre d'installation de la version.
 
+Champs spécifiques :
 
--   **[Onglet "Licences"](03_Module_Parc/04_Logiciels/Onglet_Licences.md)**
-    Principes et gestion des licences logiciels dans GLPI
+* **Nom** : correspond au numéro de version ;
+* **Statut** : en préconisations ITIL, il permet de suivre la DSL (bibliothèque de stockage des versions autorisées) ;
+* **Système d'exploitation** : le système d'exploitation sur lequel fonctionne cette version de logiciel ;
+* **Installations** : nombre d'installations de la version ;
+* **Commentaires**.
 
 
--   **Onglet "Installations**
-   Principes et gestion des installations logiciels dans GLPI.
+Licences
+~~~~~~~~
 
-   L'installation d'un logiciel sur un poste est visualisée au travers d'une version (voir l'onglet *Versions* ci-dessus) et consultable sur la fiche d'un logiciel (liste des ordinateurs ayant au moins une version installée), sur celle d'une version (ordinateurs ayant cette version installée) ou enfin sur la fiche de l'ordinateur (liste des versions de logiciels installées, triées par catégories).
+Principes et gestion des licences logiciels dans GLPI
 
-   ***Remarques :***
-   - La colonne licence est remplie uniquement lorsque la licence est affectée à l'ordinateur concerné.
-   - L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md").
+.. _onglet-logiciels-installations:
 
-   2 options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
+Installations
+~~~~~~~~~~~~~
 
-   Pour **Désinstaller** une version d'un logiciel, il faut utiliser le système d'actions massives : sélectionner les versions à supprimer puis choisir **Supprimer définitivement**. Si une licence est affectée à
-l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
+Principes et gestion des installations logiciels dans GLPI.
 
-   A la suite des versions installées, la liste des licences affectées mais non installées est affichée. Vous pouvez ajouter une nouvelle licence associée à cet ordinateur. Le système d'actions massives permet, via l'action **Installer**, d'installer les versions d'utilisation des licences sélectionnées.
+L'installation d'un logiciel sur un poste est visualisée au travers d'une :ref:`version <versions_soft>` et consultable sur la fiche d'un logiciel (liste des ordinateurs ayant au moins une version installée), sur celle d'une version (ordinateurs ayant cette version installée) ou enfin sur la fiche de l'ordinateur (liste des versions de logiciels installées, triées par catégories).
+
+.. note::
+
+   * La colonne licence est remplie uniquement lorsque la licence est affectée à l'ordinateur concerné.
+   * L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md").
+
+Deux options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
+
+Pour **Désinstaller** une version d'un logiciel, il faut utiliser le système d'actions massives : sélectionner les versions à supprimer puis choisir **Supprimer définitivement**. Si une licence est affectée à l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
+
+A la suite des versions installées, la liste des licences affectées mais non installées est affichée. Vous pouvez ajouter une nouvelle licence associée à cet ordinateur. Le système d'actions massives permet, via l'action **Installer**, d'installer les versions d'utilisation des licences sélectionnées.
 
 .. include:: onglets/gestion.rst
 
@@ -84,35 +91,44 @@ l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
 
 .. include:: ../onglets/historique.rst
 
--   **Onglet "Regroupement"**
-    Comment regrouper des logiciels homonymes dans des sous-entités.
+Regroupement
+~~~~~~~~~~~~
 
-    ***Remarque :** Cette option n'est disponible que pour les plateformes multi-entités.*
+Comment regrouper des logiciels homonymes dans des sous-entités.
 
-    Elle permet de regrouper les logiciels des entités filles sur l'entité mère.
+.. note::
 
-    ***Comment réaliser un regroupement :***
-    
-    1.  Si le logiciel n'existe pas dans l'entité mère :
-        Créer un logiciel dont le nom est strictement identique au nom du logiciel dans les entités filles ;
-    2.  Ouvrir la fiche du logiciel de l'entité mère ;
-    3.  Activer la récursivité (sous-entités à Oui en haut à droite) ;
-    Un nouvel onglet "Regroupement" apparaît après l'onglet "Historique".
-    4.  Ouvrir cet onglet ;
-    Une liste indique les logiciels des entités filles ayant le même nom.
-    5.  Sélectionner les lignes souhaitées et valider le regroupement.
+   Cette option n'est disponible que pour les plateformes multi-entités.
 
-    > ATTENTION : Cette opération est irréversible.
+Elle permet de regrouper les logiciels des entités filles sur l'entité mère.
 
-    ***Effets du regroupement :***
-    
-    -   Les licences sont attachées au logiciel de l'entité mère, mais restent dans les sous-entités d'origine ;
-    -   Les versions sont fusionnées (plus de doublon dans l'entité mère);
-    -   Les anciens logiciels sont déplacés dans la corbeille ;
+Comment réaliser un regroupement :
 
-    ***Remarque :** Lors de l'utilisation d'un outil d'inventaire tiers, ne pas oublier :*
-    *-   de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;*
-    *-   d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).*
+#. Si le logiciel n'existe pas dans l'entité mère :
+   Créer un logiciel dont le nom est strictement identique au nom du logiciel dans les entités filles ;
+#. Ouvrir la fiche du logiciel de l'entité mère ;
+#. Activer la récursivité (sous-entités à Oui en haut à droite) ;
+   Un nouvel onglet "Regroupement" apparaît après l'onglet "Historique".
+#. Ouvrir cet onglet ;
+   Une liste indique les logiciels des entités filles ayant le même nom.
+#. Sélectionner les lignes souhaitées et valider le regroupement.
+
+.. warning::
+
+    Cette opération est irréversible.
+
+Effets du regroupement :
+
+* Les licences sont attachées au logiciel de l'entité mère, mais restent dans les sous-entités d'origine ;
+* Les versions sont fusionnées (plus de doublon dans l'entité mère);
+* Les anciens logiciels sont déplacés dans la corbeille ;
+
+.. note::
+
+    Lors de l'utilisation d'un outil d'inventaire tiers, ne pas oublier :
+
+    * de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;
+    * d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).
 
 .. include:: ../onglets/debug.rst
 

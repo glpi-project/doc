@@ -73,7 +73,7 @@ Glossaire
       Liaison physique entre un ordinateur et un autre objet d'inventaire.
 
    Annuaire Active Directory
-      Annuaire compatible :term:`LDAP`, édité par Microsoft. Est aussi appelé `AD`.
+      Annuaire compatible :term:`Annuaire LDAP`, édité par Microsoft. Est aussi appelé `AD`.
 
    Annuaire LDAP
       Service d'annuaires basé sur le protocole :abbr:`LDAP (Lightweight Directory Access Protocol)` qui stocke entre autres des comptes utilisateurs.
@@ -248,7 +248,7 @@ Glossaire
       Note visible par tous les utilisateur dans l'entité de la note.
 
    Purge
-   Suppression définitive des éléments précédemment placés dans la corbeille.
+      Suppression définitive des éléments précédemment placés dans la corbeille.
 
    Collecteur
       Fonctionnalité de GLPI permettant de créer des tickets ou des suivis en important des messages d'une boîte de messagerie.
