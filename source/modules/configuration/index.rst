@@ -3,8 +3,11 @@ Module Configuration
 
 Le module Configuration permet d'accéder aux options de configuration générale de GLPI : la configuration globale de GLPI, les notifications, les collecteurs, les tâches automatiques, l'authentification, les plugins, les critères d'unicité et les liens externes protocolés.
 
--   **[Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md)**
-     Configurer les intitulés et les traduire.
+Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+
+.. note::
+
+   Si des éléments que vous voulez supprimer sont utilisés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.
 
 -   **[Configurer les composants](08_Module_Configuration/03_Composants.md)**
      
@@ -40,3 +43,4 @@ Le module Configuration permet d'accéder aux options de configuration général
    :maxdepth: 2
 
    authentification/index
+   intitules/index
