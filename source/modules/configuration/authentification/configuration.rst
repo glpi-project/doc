@@ -1,5 +1,5 @@
-Configurer l'intégration avec les sources d'authentification externes
-=====================================================================
+Sources d'authentification externes
+===================================
 
 Ce menu permet de configurer les paramètres généraux de l'intégration avec des sources externes d'authentification.
 
@@ -28,8 +28,3 @@ Les sources d'authentification externes prises en charges par GLPI sont les suiv
 -   authentification déléguée au serveur web; voir [Configurer les
     autres méthodes d'authentification
     externe](config_auth_other.html "L'interfaçage de GLPI à des systèmes permettant de faire de l'authentification unique se configure depuis le menu Configuration > Authentification > Autre méthode d'authentification.");
-
-
-
-**Sujet parent :** [Configurer la gestion
-d'identité](../glpi/config_auth.html "La manière dont GLPI gère l'authentification et les informations personnelles des utilisateurs se configure depuis le menu Configuration > Authentification.")

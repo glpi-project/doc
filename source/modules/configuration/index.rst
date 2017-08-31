@@ -36,3 +36,7 @@ Le module Configuration permet d'accéder aux options de configuration général
 -   **[Configurer les plugins GLPI](../glpi/config_plugin.html)**\
      Les plugins dans GLPI, installation, configuration, activation
 
+.. toctree::
+   :maxdepth: 2
+
+   authentification/index
