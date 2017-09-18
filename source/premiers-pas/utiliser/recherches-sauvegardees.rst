@@ -38,7 +38,7 @@ Le :ref:`paramétrage de GLPI <configuration>` permet de définir si les compteu
 
 En effet, certaines recherches peuvent prendre beaucoup de temps (et de ressources) pour s'exécuter. Afin de limiter l'impact sur les performances, les requêtes les plus lourdes ne sont pas comptées par défaut. Pour que le temps d'exécution d'une requête sauvegardée puisse être calculé ; il faut qu'elle soit executée une fois au moins. Une tâche planifiée est également proposée pour calculer les temps d'exécution régulièrement (et ainsi éviter les requêtes qui seraient devenues lourdes au fil du temps).
 
-Les amdinistrateurs peuvent outrepasser la méthode de compte automatique, et faire en sorte qu'un recherche soit systématiquement comptée ou ne le soit jamais. Cette possibilité est à utiliser avec parcimonie.
+Les administrateurs peuvent outrepasser la méthode de compte automatique, et faire en sorte qu'un recherche soit systématiquement comptée ou ne le soit jamais. Cette possibilité est à utiliser avec parcimonie.
 
 Configuration d'alertes
 -----------------------
