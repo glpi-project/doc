@@ -29,4 +29,5 @@ Table des matières
 
    premiers-pas/index
    modules/index
+   advanced/index
    glossaire
