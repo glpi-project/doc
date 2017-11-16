@@ -30,6 +30,6 @@ Afin de vous permettre d'affiner les réglages, ou d'utiliser un autre système 
 
 .. code-block:: json
 
-   {"adapter":"redis","options":{"server":{"host":"127.0.0.1"}},"plugins":["serializer"]}
+   {"adapter":"redis","options":{"server":{"host":"127.0.0.1"}}}
 
 Se référer à la méthode `Config::getCache() <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ et à la `documentation de ZendCache <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ pour davantage d'informations.
