@@ -32,4 +32,4 @@ Afin de vous permettre d'affiner les réglages, ou d'utiliser un autre système 
 
    {"adapter":"redis","options":{"server":{"host":"127.0.0.1"}}}
 
-Se référer à la méthode `Config::getCache() <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ et à la `documentation de ZendCache <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ pour davantage d'informations.
+Se référer à la méthode `Config::getCache() <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ et à la `documentation de ZendCache <https://zendframework.github.io/zend-cache/storage/adapter/>`_ pour davantage d'informations.
