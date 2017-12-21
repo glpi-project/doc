@@ -1,6 +1,8 @@
 Utilisation du cache
 --------------------
 
+Les informations sur l'utilisation du cache sont disponible dans Configuration / Générale / Système).
+
 .. versionadded:: 9.2
 
 .. versionchanged:: 9.2.1
