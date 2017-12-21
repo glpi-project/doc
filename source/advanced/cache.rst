@@ -33,3 +33,16 @@ Afin de vous permettre d'affiner les réglages, ou d'utiliser un autre système 
    {"adapter":"redis","options":{"server":{"host":"127.0.0.1"}}}
 
 Se référer à la méthode `Config::getCache() <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ et à la `documentation de ZendCache <https://zendframework.github.io/zend-cache/storage/adapter/>`_ pour davantage d'informations.
+
+OPCache
+-------
+
+OPCache stocke des fichiers PHP pré-compilés en mémoire, et permet ainsi d'améliorer les performances. La seule chose à faire, c'est de l'installer sur votre instance de PHP et de le configurer (la configuration par défaut devrait convenir à la grande majorité des cas).
+
+Toutefois, sur des instances qui pourraient être fortement sollicitées, il peut être utile de ne pas inclures les fichiers de polices pour les PDF dans ce cache. En effet, elles y prennent énormément de place, et le gain est relativement minime.
+
+Afin d'exclure les fichiers de police du cache, il suffit de renseigner leur chemin complet dans un fichier de liste noire pour opcache. Le chemin de ce fichier est déterminé par la diective de configuration ``opcache.blacklist_filename`` (``/etc/php.d/opcache-glpi.blacklist`` par exemple sous Fedora). Si votre instance de GLPI se situe dans le dossier ``/var/www/``, le chemin à exclure sera ``/var/www/html/glpi/glpi-9.2.1/vendor/tecnickcom/tcpdf/fonts/``.
+
+Bien entendu, l'emplacement du fichier de configuration et le chemin vers les polices est à adapter en fonction de votre système et de votre type d'installation.
+
+Les RPMS fournis pour Fedora (ou par le dépôt Remi) offrent déjà cette fonctionnalité par défaut, vous n'aurez donc rien à faire :)
