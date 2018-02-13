@@ -21,6 +21,11 @@ Ce guide se propose de donner une vue générale de l'application GLPI comme gui
 
 Chaque partie est consultable de manière indépendante même si pour des raisons de logique nous vous recommandons la lecture exhaustive de cette documentation.
 
+Installation
+------------
+
+La `documentation d'installation de GLPI <https://glpi-install.readthedocs.io>`_ est disponible séparément.
+
 Table des matières
 ------------------
 
