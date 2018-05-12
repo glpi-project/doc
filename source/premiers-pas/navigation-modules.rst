@@ -17,7 +17,7 @@ Les menus présentés varient en fonction des :ref:`habilitations de l'utilisate
 
    Vous trouverez en bas à droite un bouton vous permettant de revenir rapidement en haut de la page si besoin.
 
-Il existe des raccourcis clavier qui permettent de naviguer d'un module/sous module à autre. Voici la liste de ces raccourcis :
+Il existe des raccourcis clavier qui permettent de naviguer d'un module/sous module à un autre. Voici la liste de ces raccourcis :
 
 * ``1`` => Accueil
 * *Parc*
@@ -67,7 +67,7 @@ Il existe des raccourcis clavier qui permettent de naviguer d'un module/sous mod
       Appuyer simultanément sur les touches ``Echap``, ``Maj`` et *sur le raccourci voulu*.
 
 De plus, depuis la version 9.2, GLPI propose une navigation avec recherche approximative (fuzzy) accessible depuis le raccourci clavier ``Ctrl`` + ``Alt`` + ``G``.
-Cela ouvrira une fenêtre modale vous permettant de filtrer, via un champ de recherche, tout les menus de GLPI (tout les niveaux sont présents, vous avez par exemple accès aux 3 ème niveaux tel que les intitulés ou les composants).
+Cela ouvrira une fenêtre modale vous permettant de filtrer, via un champ de recherche, tout les menus de GLPI (tous les niveaux sont présents, vous avez par exemple accès au 3 ème niveau tel que les intitulés ou les composants).
 
 Dans cette fenêtre, des raccourcis supplémentaires sont disponibles:
 
