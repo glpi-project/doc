@@ -36,6 +36,14 @@ Afin de vous permettre d'affiner les réglages, ou d'utiliser un autre système 
 
 Se référer à la méthode `Config::getCache() <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ et à la `documentation de ZendCache <https://zendframework.github.io/zend-cache/storage/adapter/>`_ pour davantage d'informations.
 
+.. warning::
+
+   Si vous installez plusieurs instances de GLPI sur un même serveur, le `namespace` du cache doit être unique par instance, ce qui n'était pas le cas dans GLPI avant la version 9.2.4.
+
+   Si vous avez spécifié votre propre `namespace` dans la configuration, assurez-vous qu'il est bien unique sur chaque instance !
+
+   Si votre version de GLPI est antérieure à la 9.2.4, il faudra ajouter le `namespace` dans la configuration du cache de chacune de vos instances.
+
 OPCache
 -------
 
