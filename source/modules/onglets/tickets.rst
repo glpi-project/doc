@@ -17,6 +17,7 @@ Ce tableau récapitulatif comprend notamment pour chaque objet :
 * une colonne indiquant le nombre de tâches planifiées.
 
 .. image:: /modules/onglets/images/tickets.png
+   :alt: Image de la liste des tickets
 
 .. note::
 

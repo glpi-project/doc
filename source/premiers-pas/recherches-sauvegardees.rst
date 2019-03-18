@@ -60,4 +60,5 @@ Une fois la notification spécifique créée ; il faudra bien entendu la configu
    Tant que la notification spécifique à une recherche publique ne sera pas créée ; il ne sera pas possible d'ajouter d'alertes.
 
    .. image:: images/saved_search_nonotif.png
+      :alt: Sauvegarde des recherches publiques
       :align: center

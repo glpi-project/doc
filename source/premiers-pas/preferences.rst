@@ -9,6 +9,7 @@ Onglet Principal
 ----------------
 
 .. image:: images/userprefs-main.png
+   :alt: Écran pour les préférences utilisateur
    :align: center
    :scale: 50%
 
@@ -36,6 +37,7 @@ Onglet Personnalisation
 -----------------------
 
 .. image:: images/userprefs-custom.png
+   :alt: Écran pour la personnalisation des préférences utilisateur
    :align: center
    :scale: 50%
 
