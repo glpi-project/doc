@@ -88,6 +88,8 @@ Deux critères de recherche liés par l'opérateur ``AND NOT``
    Rechercher tous les ordinateurs de l'entité « Root entity » qui ne sont pas des laptop.
 
    .. image:: images/search_example.png
+      :alt: Interface pour la recherche
+
 ``[Année]-[Mois]-[Jour]`` (AAAA-MM-JJ)
    Rechercher par date.
 ``\\``
@@ -139,6 +141,7 @@ Recherche rapide
 ----------------
 
 .. image:: images/search_quick.png
+   :alt: Champ de recherche rapide
 
 Cet outil se trouve en haut à droite de l'écran GLPI. Il permet la recherche d'une chaîne de caractères simultanément sur les éléments suivants :
 

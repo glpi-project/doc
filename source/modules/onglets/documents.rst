@@ -8,6 +8,7 @@ Les informations supplémentaires sont stockées sous la forme de documents exte
 Il est également possible de créer rapidement un document via cet onglet en spécifiant le fichier désiré et facultativement la rubrique dans laquelle le nouveau document doit être placé. Le nom du document créé sera basé sur le nom du fichier ajouté.
 
 .. image:: /modules/onglets/images/documents.png
+   :alt: Écran de création d'un document
    :align: center
 
 .. note::

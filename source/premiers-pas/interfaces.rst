@@ -48,6 +48,7 @@ Elle est découpée en 4 vues :
    Le premier vous invite à modifier les mots de passe des comptes créés par défaut dans GLPI, le second à supprimer le répertoire ``glpi/install``.
 
    .. image:: images/security-messages.png
+      :alt: Message de sécurité
       :align: center
       :scale: 50%
 
