@@ -17,7 +17,7 @@ Voir `Gérer les contrats <management_contract.html>`__.
 --------------
 
 **Sujet parent :** `Gérer les
-Contacts <05_Module_Gestion/04_Contacts.md>`__
+Contacts <05_Module_Gestion/04_Contacts.rst>`__
 
 **Sujet parent :** `Gérer les
-Contrats <05_Module_Gestion/05_Contrats.md>`__
+Contrats <05_Module_Gestion/05_Contrats.rst>`__

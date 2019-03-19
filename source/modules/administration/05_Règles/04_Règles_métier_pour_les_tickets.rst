@@ -55,7 +55,7 @@ cette dernière soit bien basée sur les champs que vous venez de définir.
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Gérer les
-règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.md>`__.
+règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__.

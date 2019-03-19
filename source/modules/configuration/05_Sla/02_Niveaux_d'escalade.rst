@@ -30,7 +30,7 @@ Les différents onglets
    définies pour ce niveau d'escalade.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
 .. include:: ../../onglets/debug.rst
@@ -45,7 +45,7 @@ Les différentes actions
 
 --------------
 
-**Sujet parent :** `SLA <08_Module_Configuration/05_Sla/01_Sla.md>`__
+**Sujet parent :** `SLA <08_Module_Configuration/05_Sla/01_Sla.rst>`__
 
 **Sujet parent :** `Module
-Configuration <08_Module_Configuration/01_Module_Configuration.md>`__
+Configuration <08_Module_Configuration/01_Module_Configuration.rst>`__

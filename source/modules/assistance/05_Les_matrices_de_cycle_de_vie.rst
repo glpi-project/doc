@@ -13,7 +13,7 @@ Matrice de cycle de vie des tickets
 -----------------------------------
 
 Voir `Les règles de gestion d'un
-ticket <04_Module_Assistance/06_Tickets/01_Règles_de_gestion.md>`__.
+ticket <04_Module_Assistance/06_Tickets/01_Règles_de_gestion.rst>`__.
 
 Figure 1. Matrice de cycle de vie d'un ticket interface standard |image|
 
@@ -35,7 +35,7 @@ Matrice de cycle de vie des problèmes
 -------------------------------------
 
 Voir `Les règles de gestion d'un
-problème <04_Module_Assistance/08_Problèmes.md>`__.
+problème <04_Module_Assistance/08_Problèmes.rst>`__.
 
 Figure 1. Matrice de cycle de vie d'un problème |image|
 
@@ -47,7 +47,7 @@ Matrice de cycle de vie des changements
 ---------------------------------------
 
 Voir `Les règles de gestion d'un
-changement <04_Module_Assistance/09_Changements.md>`__.
+changement <04_Module_Assistance/09_Changements.rst>`__.
 
 Figure 1. Matrice de cycle de vie d'un changement |image|
 
@@ -58,13 +58,13 @@ Validation, ce statut n'étant pas proposé dans le changement.
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.md>`__
+problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.md>`__
+changements <04_Module_Assistance/09_Changements.rst>`__
 
 .. |image| image:: docs/image/CycleVieTicket.png
 .. |image| image:: docs/image/CycleVieTicket-postonly.png

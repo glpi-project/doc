@@ -27,7 +27,7 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.md)**
+-   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.rst)**
     Il est en effet possible d'associer un document à un autre document (exemple : un premier document nommé "Abonnement" qui contiendrait un exemplaire du contrat ainsi que toutes les factures) ;
 
 .. include:: ../onglets/notes.rst
@@ -39,9 +39,9 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un document](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un document](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un document](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un document](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un autre document](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Transférer un document vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Ajouter un document](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
+-   **[Voir un document](Les_différentes_actions/Visualiser_un_objet.rst)**
+-   **[Modifier un document](Les_différentes_actions/Modifier_un_objet.rst)**
+-   **[Supprimer un document](Les_différentes_actions/Supprimer_un_objet.rst)**
+-   **[Associer un document à un autre document](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
+-   **[Transférer un document vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**

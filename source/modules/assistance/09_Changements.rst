@@ -12,7 +12,7 @@ Le formulaire de déclaration d'un changement ressemble à celui des
 tickets, dont il partage les concepts (*demandeurs*, *observateurs*,
 *assignation*, *statut*, *urgence*, *impact*, *priorité*, *catégorie*,
 pour plus d'informations voir `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__).
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__).
 Le système de validation est également le même que celui des tickets
 afin de permettre la validation préalable du changement (onglet
 *Validations*).
@@ -28,11 +28,11 @@ Tout comme les tickets, la gestion de tâches, des coûts et l'ajout d'une
 solution permettent de suivre et de résoudre le changement. Pour la
 gestion de changements complexes, un changement peut être lié à un ou
 plusieurs projets permettant une gestion plus complète (`Gérer les
-projets <06_Module_Outils/02_Projets/01_Projets.md>`__).
+projets <06_Module_Outils/02_Projets/01_Projets.rst>`__).
 
 Les changements utilisent leurs propres notifications (voir `Configurer
 les suivis par
-courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md>`__).
+courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.rst>`__).
 
 Les différents onglets
 ----------------------
@@ -43,22 +43,22 @@ Les différents onglets
 -  \*\*Onglet "Plans" Cet onglet permet de définir les plans de
    déploiement et de repli ainsi que les listes de contrôles.
 
--  **`Onglet "Solution" <Les_différents_onglets/Onglet_Solution.md>`__**
+-  **`Onglet "Solution" <Les_différents_onglets/Onglet_Solution.rst>`__**
    Cet onglet permet d'indiquer la résolution du changement.
 
 -  **`Onglet
-   "Statistiques" <Les_différents_onglets/Onglet_Statistiques.md>`__**
+   "Statistiques" <Les_différents_onglets/Onglet_Statistiques.rst>`__**
    Des statistiques similaires aux tickets sont disponibles pour les
    changements.
 
 -  **`Onglet
-   "Validations" <Les_différents_onglets/Onglet_Validations.md>`__**
+   "Validations" <Les_différents_onglets/Onglet_Validations.rst>`__**
 
--  **`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches.md>`__** Une
+-  **`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches.rst>`__** Une
    tâche est une action correspondant à une intervention technique liée
    à un changement.
 
--  **`Onglet "Coûts" <Les_différents_onglets/Onglet_Coûts.md>`__**
+-  **`Onglet "Coûts" <Les_différents_onglets/Onglet_Coûts.rst>`__**
    Définition des coûts applicables à ce changement.
 
 -  **Onglet "Projets"** Cet l'onglet permet d'associer un projet à ce
@@ -74,7 +74,7 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.md>`__**
+-  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.rst>`__**
    Cet onglet permet d'associer un élément à ce changement en
    choisissant le type ainsi que l'élément souhaité.
 
@@ -88,21 +88,21 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   changement <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   changement <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Modifier un
-   changement <Les_différentes_actions/Modifier_un_objet.md>`__**
+   changement <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un
-   changement <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   changement <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un document à un
-   changement <Les_différentes_actions/Lier_un_document_à_un_objet.md>`__**
+   changement <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
 -  **`Associer un élément à un
-   changement <Les_différentes_actions/Onglet_Eléments.md>`__**
+   changement <Les_différentes_actions/Onglet_Eléments.rst>`__**
 -  **`Associer un ticket à un
-   changement <Les_différentes_actions/Onglet_Tickets.md>`__**
+   changement <Les_différentes_actions/Onglet_Tickets.rst>`__**
 -  **`Associer un problème à un
-   changement <Les_différentes_actions/Onglet_Problèmes.md>`__**
+   changement <Les_différentes_actions/Onglet_Problèmes.rst>`__**
 
 --------------
 
 **Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.md>`__
+utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__

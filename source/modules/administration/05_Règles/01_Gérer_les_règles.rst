@@ -29,7 +29,7 @@ Le moteur sert à la fois pour :
    -  actions automatiques à la création des tickets
 
 -  `les dictionnaires de
-   données <07_Module_Administration/06_Dictionnaires.md>`__ :
+   données <07_Module_Administration/06_Dictionnaires.rst>`__ :
 
    -  fabricants
    -  logiciels
@@ -58,12 +58,12 @@ Les différentes règles
 ----------------------
 
 -  **`Règles pour assigner un ticket créé via un collecteur de
-   courriels <07_Module_Administration/05_Règles/01_Collecteur_de_courriels.md>`__**
+   courriels <07_Module_Administration/05_Règles/01_Collecteur_de_courriels.rst>`__**
    GLPI implémente un mécanisme de routage des tickets ouverts par
    courriel, afin de les créer dans la bonne entité.
 
 -  **`Règles d'affectation d'habilitations à un
-   utilisateur <07_Module_Administration/05_Règles/02_Habilitations_utilisateur.md>`__**
+   utilisateur <07_Module_Administration/05_Règles/02_Habilitations_utilisateur.rst>`__**
 
 -  **Règles d'affectation d'une catégorie aux logiciels**
 
@@ -76,13 +76,13 @@ Les différentes règles
    des logiciels, grâce à l'action massive Recalculer la catégorie.
 
 -  **`Règles métier pour les
-   tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__**
+   tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__**
    Lors de la création et/ou de la modification d'un ticket, un
    mécanisme permet de modifier les attributs du ticket de manière
    automatique.
 
 -  **`Règles en liaison avec un agent
-   d'inventaire <07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.md>`__**
+   d'inventaire <07_Module_Administration/05_Règles/05_Règles_outil_d'inventaire.rst>`__**
    Les deux menus ci-dessous ne sont visibles que si vous utilisez un
    agent d'inventaire pour une remontée automatique des ordinateurs dans
    GLPI.
@@ -162,7 +162,7 @@ rationnelle).
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 .. |image| image:: docs/image/importrule.png
 .. |image| image:: docs/image/testrule.png

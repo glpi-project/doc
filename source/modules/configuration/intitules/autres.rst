@@ -81,7 +81,7 @@ Seules la liste Réseaux peut être traduite.
 
 ***Prises réseaux :***
    Une prise réseau peut être liée à un lieu. Dans ce cas, lors de la sélection d'une prise sur un port réseau d'un matériel, seules les prises réseau disponibles du lieu du matériel (et des lieux enfants) apparaissent.
-   Si vous souhaitez plusieurs prises pour un même lieu, il est préférable d'effectuer la création via le menu lieu de la partie [Général](08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md)  du menu des intitulés.
+   Si vous souhaitez plusieurs prises pour un même lieu, il est préférable d'effectuer la création via le menu lieu de la partie [Général](08_Module_Configuration/02_Intitulés/03_Intitulés_Général.rst)  du menu des intitulés.
 
 Logiciel (catégories des logiciels)
 -----------------------------------

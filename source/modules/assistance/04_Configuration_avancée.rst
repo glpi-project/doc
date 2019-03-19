@@ -51,21 +51,21 @@ indiquer une catégorie, et le technicien la modifier.
 
     Il est important, lors de la mise en place du Helpdesk, de bien réfléchir à la liste des catégories disponibles : en effet, un trop grand nombre visible par les utilisateurs peut perturber la saisie, alors qu'un nombre trop faible ne permettra pas de qualifier correctement le besoin.
 
-    Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d'un ticket (voir [Règles métier pour les tickets](7_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
+    Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d'un ticket (voir [Règles métier pour les tickets](7_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
 
 -  **Les catégories de tâches**
 
 Elles servent à catégoriser les tâches pour faciliter leur traitement ou
 à des fins statistiques.
 
-`Les règles d'ordonnancement <04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.md>`__
+`Les règles d'ordonnancement <04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.rst>`__
 --------------------------------------------------------------------------------------------------------
 
 Configurer la matrice d'attribution des priorités en fonction de
 l'urgence et de l'impact : limiter les niveaux d'urgence et d'impact
 disponibles.
 
-`Consulter et gérer les plannings <04_Module_Assistance/09_Planning.md>`__
+`Consulter et gérer les plannings <04_Module_Assistance/09_Planning.rst>`__
 --------------------------------------------------------------------------
 
 Suivez les tâches planifiées.
@@ -77,7 +77,7 @@ Les actions sur les tickets peuvent entrainer l'envoi de notification
 suivant un évènement déclencheur (création d'un ticket, réponse à
 enquête de satisfaction...). Voir **configurer les notifications**.
 
-`Les statistiques <04_Module_Assistance/10_Statistiques.md>`__
+`Les statistiques <04_Module_Assistance/10_Statistiques.rst>`__
 --------------------------------------------------------------
 
 Les rapports concernant les tickets, les problèmes ou les changements
@@ -86,4 +86,4 @@ sont disponibles dans le menu ***Assistance > Statistiques***.
 --------------
 
 **Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.md>`__
+utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__

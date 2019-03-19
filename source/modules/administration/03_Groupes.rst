@@ -25,7 +25,7 @@ Les options disponibles permettant de régler ces comportements sont : -
 **Visible dans un ticket** (groupe demandeur et/ou attribution à ce
 groupe) ; - **Peut être notifié** (destinataire de notifications) ; -
 **Peut être superviseur** (uniquement pour un
-`projet <06_Module_Outils/02_Projets/01_Projets.md>`__) ; - **Peut
+`projet <06_Module_Outils/02_Projets/01_Projets.rst>`__) ; - **Peut
 contenir** (matériel et/ou utilisateurs).
 
 Dans la fiche des matériels, 2 notions de groupes sont disponibles :
@@ -36,9 +36,9 @@ qui indique à quel *groupe* de matériels celui-ci appartient.
 ***Remarque :** le groupe technique peut permettre l'auto-attribution
 d'un ticket à un groupe de techniciens. Voir les catégories de tickets
 dans le chapitre `Configurer les
-intitulés <08_Module_Configuration/07_Intitulés/01_Intitulés.md>`__. De
+intitulés <08_Module_Configuration/07_Intitulés/01_Intitulés.rst>`__. De
 la même manière, il peut être utilisé dans les `Règles métier pour les
-tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__.*
+tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__.*
 
 ***Astuce*** : si toutes les options sont à *non*, le groupe
 n'apparaîtra dans aucune liste de sélection. Cela peut être utile pour
@@ -48,7 +48,7 @@ ajouter des groupes vides dans l'arborescence.
 Un groupe peut avoir ou plusieurs superviseurs, notion utilisable
 ensuite pour les notifications, par exemple pour envoyer un courriel
 au(x) superviseur(s) du groupe à l'ouverture d'un ticket. Voir
-`Notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md>`__.
+`Notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__.
 
 Un mécanisme de **délégation** permet à un utilisateur de déclarer des
 incidents non pas pour lui mais pour un des membres de ce groupe.
@@ -72,7 +72,7 @@ Depuis la liste des groupes, vous pouvez importer un groupe depuis un
 annuaire LDAP via |image| si l'authentification externe est utilisée et
 que vous avez le droit "Mise à jour auth et sync" dans votre profil.
 L'affectation des utilisateurs dans les groupes sera
-automatique.07\_Module\_Administration/07\_Profils/01\_Profils.md Si
+automatique.07\_Module\_Administration/07\_Profils/01\_Profils.rst Si
 plusieurs annuaires sont configurés, le choix de l'un d'entre eux est
 proposé, sinon le formulaire de recherche est directement accessible. En
 fonction des modalités de recherche des groupes (voir `Authentifier des
@@ -88,7 +88,7 @@ entité. De plus, aucune fonction de synchronisation des groupes est
 disponible. Le seul moyen de rafraîchir la liste des membres d'un groupe
 depuis un annuaire est de resynchroniser les utilisateurs (voir
 `Importer des utilisateurs depuis une source
-externe <07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.md>`__).
+externe <07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.rst>`__).
 
     Important : dans le cas d'une migration depuis une version
     inférieure à GLPI 0.80, toute liaison manuelle réalisée
@@ -102,13 +102,13 @@ Les différents onglets
    sélectionné et liste les sous-groupes existants.
 
 -  **`Onglet "Eléments
-   utilisés" <Les_différents_onglets/Onglet_Eléments.md>`__** Liste les
+   utilisés" <Les_différents_onglets/Onglet_Eléments.rst>`__** Liste les
    éléments pour lesquels le champ *Groupe* correspond à ce groupe. La
    recherche peut être étendue ou sous-groupes ainsi qu'aux membres du
    groupe (champ *Utilisateur* de l'objet).
 
 -  **`Onglet "Eléments
-   gérés" <Les_différents_onglets/Onglet_Eléments.md>`__** Liste les
+   gérés" <Les_différents_onglets/Onglet_Eléments.rst>`__** Liste les
    éléments pour lesquels le champ *Groupe Technique* correspond à ce
    groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux
    membres du groupe (champ *Responsable technique* de l'objet).
@@ -133,28 +133,28 @@ Pour les groupes, il est possible de lister également les tickets des
 sous-groupes.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   groupe <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   groupe <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Voir un
-   groupe <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   groupe <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier un
-   groupe <Les_différentes_actions/Modifier_un_objet.md>`__**
+   groupe <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un
-   groupe <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   groupe <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un élément à un
-   groupe <Les_différentes_actions/Onglet_Eléments.md>`__**
+   groupe <Les_différentes_actions/Onglet_Eléments.rst>`__**
 -  **`Associer un ticket à un
-   groupe <Les_différentes_actions/Onglet_Tickets.md>`__**
+   groupe <Les_différentes_actions/Onglet_Tickets.rst>`__**
 -  **`Transférer un groupe vers une autre
-   entité <Les_différentes_actions/Transférer_un_objet.md>`__**
+   entité <Les_différentes_actions/Transférer_un_objet.rst>`__**
 
 --------------
 
@@ -162,7 +162,7 @@ Les différentes actions
 d'accès <../glpi/access_control_intro.html>`__
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 .. |image| image:: docs/image/addUserLdap.png
 .. |image| image:: docs/image/notifGroupe.png

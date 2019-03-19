@@ -15,7 +15,7 @@ mécanismes :
 
 -  L'utilisation d'un gabarit de solution. C'est une solution
    pré-remplie définie dans les intitulés (voir `Configurer les
-   intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.md>`__)
+   intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.rst>`__)
    ;
 
 -  L'extraction d'un élément de la base de connaissance. Pour cela, il
@@ -39,7 +39,7 @@ Onglet *Solution* d'un ticket
    ticket (personne qui a saisi le ticket, par exemple un technicien de
    hot-line) si la matrice de cycle de vie du ticket l'autorise (Voir
    `Matrice de cycle de
-   vie <04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md>`__).
+   vie <04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.rst>`__).
 
    L'approbation peut se faire de 2 manières :
 
@@ -64,20 +64,20 @@ Onglet *Solution* d'un ticket
 
    Il est possible de forcer la clôture des tickets résolus après un
    délai paramétrable (voir `Onglet
-   Assistance <07_Module_Administration/04_Entités.md>`__). Si ce délai
+   Assistance <07_Module_Administration/04_Entités.rst>`__). Si ce délai
    est nul, le ticket est automatiquement clos.
 
    De même, vous pouvez supprimer cette opération d(approbation via la
    `matrice de cycle de
-   vie <04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.md>`__.
+   vie <04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.rst>`__.
 
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.md>`__
+problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.md>`__
+changements <04_Module_Assistance/09_Changements.rst>`__

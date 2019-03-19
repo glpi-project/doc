@@ -37,7 +37,7 @@ statut **En attente de validation** dans son champ **Validation**.
 
 La demande de validation peut également être créée directement à
 l'ouverture du ticket via l'interface standard ou via une `règle
-métier <07_Module_Administration/05_Règles/04_Règles_métier_ppur_les_tickets.md>`__.
+métier <07_Module_Administration/05_Règles/04_Règles_métier_ppur_les_tickets.rst>`__.
 
 ***Remarque :** La validation n'est pas un processus bloquant, mais
 seulement informatif. Un technicien pourra traiter un ticket qui est en
@@ -62,10 +62,10 @@ sur un changement en attente de validation, une alerte sera affichée.*
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.md>`__
+changements <04_Module_Assistance/09_Changements.rst>`__
 
 .. |image| image:: docs/image/menu_showall.png
 

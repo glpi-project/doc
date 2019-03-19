@@ -18,7 +18,7 @@ Configurer les dictionnaires de données
 Les dictionnaires permettent de modifier les données qui sont entrées ou
 existent déjà dans GLPI afin de regrouper des données redondantes. Ils
 se basent sur le `moteur de
-règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.md>`__ et
+règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__ et
 sont disponibles pour certaines données d'inventaire (logiciels,
 fabricants, intitulés). Ces dictionnaires permettent de disposer de
 règles qui vont modifier des valeurs entrées manuellement, ajoutées
@@ -139,7 +139,7 @@ temps appréciable.
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 .. |image| image:: docs/image/importrule.png
 .. |image| image:: docs/image/playrule.png

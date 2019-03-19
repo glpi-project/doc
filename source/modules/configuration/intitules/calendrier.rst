@@ -3,7 +3,7 @@ Calendrier
 
 Les calendriers utilisés au sein de GLPI sont paramétrables par entité. Ils sont caractérisés par des périodes d'ouverture ainsi que des périodes de fermeture.
 
-Ces calendriers sont utilisés dans les :term:`SLA` (voir Configurer les SLAs) et la [configuration des entités](07_Module_Administration/04_Entités.md).
+Ces calendriers sont utilisés dans les :term:`SLA` (voir Configurer les SLAs) et la [configuration des entités](07_Module_Administration/04_Entités.rst).
 
 Calendrier
 ----------

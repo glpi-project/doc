@@ -36,14 +36,14 @@ personnelles.
    L'interface est restreinte à la liste d'entités provenant des
    habilitations de la personne connecté sur GLPI. Voir `Administrer les
    profils
-   d'utilisateurs <07_Module_Administration/07_Profils/01_Profils.md>`__.
+   d'utilisateurs <07_Module_Administration/07_Profils/01_Profils.rst>`__.
    Une fois l'entité choisie (si GLPI est en mode multi-entités, ou si
    la personne se servant de l'interface possède des habilitations sur
    plusieurs entités), une liste de critères apparaît, basée sur les
    informations personnelles récupérées pour cet annuaire. La syntaxe de
    recherche dans les champs est identique à celle du moteur de
    recherche. Voir
-   `Rechercher <01-premiers-pas/03_Utiliser_GLPI/08_Rechercher.md>`__.
+   `Rechercher <01-premiers-pas/03_Utiliser_GLPI/08_Rechercher.rst>`__.
    Vous pouvez limiter la recherche aux utilisateurs ajoutés ou modifiés
    dans l'annuaire durant une période donnée en suivant le lien
    **Activer le filtrage par date**.
@@ -92,7 +92,7 @@ ci-dessus).
 --------------
 
 **Sujet parent :** `Gérer les
-utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md>`__
+utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.rst>`__
 
 .. |image| image:: docs/image/addUserAll.png
 .. |image| image:: docs/image/addUser.png

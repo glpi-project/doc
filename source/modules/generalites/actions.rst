@@ -127,7 +127,7 @@ Cette fonctionnalité permet notamment de passer d'un GLPI mono entité à un GL
 Comment faire un transfert :
 
 #. Utiliser un profil qui a le droit de faire des transferts (Administration > Profils > Administration --> Droit le Lecture sur Transférer) ;
-#. Configurer les actions faites par le transfert ([Administration > Règles --> Transférer](07_Module_Administration/05_Règles/01_Gérer_les_règles.md)) ;
+#. Configurer les actions faites par le transfert ([Administration > Règles --> Transférer](07_Module_Administration/05_Règles/01_Gérer_les_règles.rst)) ;
 #. S'assurer que le profil qui va effectuer le transfert a une visibilité sur l'entité cédante et sur l'entité prenante (le plus simple est d'utiliser un profil récursif depuis l'entité racine) ;
 #. Se positionner sur l'Entité racine (Voir Tous) ;
 #. Depuis la liste des objets, sélectionner l'élément à transférer ;

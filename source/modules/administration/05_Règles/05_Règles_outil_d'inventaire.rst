@@ -27,7 +27,7 @@ l'\ **affecter à un lieu défini**.
 Grâce au mécanisme de liste noire de GLPI il est possible d'exclure
 certaines valeurs du traitement dans le moteur de règles comme certaines
 adresses IP ou MAC (par exemple une IP 127.0.0.1). Voir `Listes
-noires <07_Module_Administration/05_Règles/01_Gérer_les_règles.md>`__.
+noires <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__.
 
 Règles d'import et de liaison des ordinateurs
 =============================================
@@ -82,7 +82,7 @@ refuser l'import.
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Gérer les
-règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.md>`__.
+règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__.

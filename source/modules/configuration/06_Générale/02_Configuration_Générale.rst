@@ -37,7 +37,7 @@ l'application.
 -  **Traduction des intitulés** : autorise ou non la traduction des
    intitulés. Une fois ce paramètre actif, l'intitulé aura un onglet
    supplémentaire pour effectuer la traduction. (voir `la traduction des
-   intitulés <08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.md>`__.
+   intitulés <08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.rst>`__.
 
 -  **Taille de page pour cet intitulé (pagination utilisant scroll)** :
    nombre d'éléments affichés dans une liste déroulante à chaque scroll.
@@ -84,4 +84,4 @@ l'application.
 --------------
 
 **Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md>`__
+centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__

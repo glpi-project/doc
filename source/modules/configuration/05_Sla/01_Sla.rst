@@ -8,7 +8,7 @@ résoudre un incident ou une demande (J+1, H+4...).
 
 Les SLAs sont associables aux tickets via le moteur de règles des
 tickets (voir `Règles métier pour les
-tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__).
+tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__).
 L'association du SLA au ticket permet le calcul automatique de sa date
 d'échéance. Plusieurs SLAs peuvent ainsi être définis et affectés
 suivant des critères précis.
@@ -25,7 +25,7 @@ suivant des critères précis.
     passés seront exécutées.
 
 Un calendrier peut être associé à un SLA (voir `Configurer les
-intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.md>`__).
+intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.rst>`__).
 Par défaut, aucun calendrier n'est associé et les calculs se font sur
 une base de travail 7 jours sur 7 et 24 heures sur 24. Il est également
 possible d'utiliser le calendrier associé au ticket (i.e. celui de
@@ -52,7 +52,7 @@ Les différents onglets
 ----------------------
 
 -  **`Onglet "Niveaux
-   d'escalade" <08_Module_Configuration/05_Sla/02_Niveaux_d'escalade.md>`__**
+   d'escalade" <08_Module_Configuration/05_Sla/02_Niveaux_d'escalade.rst>`__**
    Permet d'ajouter un nouveau niveau d'escalade à ce SLA et liste des
    différents niveaux déjà définis avec pour chaucun leurs critères et
    leurs actions. |image| Pour modifier un niveau il suffit de cliquer
@@ -65,26 +65,26 @@ Les différents onglets
 Pour les SLA, il n'est pas possible d'ajouter un ticket. L'onglet liste
 juste les tickets affectés à ce SLA.
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   sla <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
--  **`Voir un sla <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   sla <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
+-  **`Voir un sla <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier un
-   sla <Les_différentes_actions/Modifier_un_objet.md>`__**
+   sla <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un
-   sla <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   sla <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **Ajouter un niveau d'escalade** Cette action se fait via l'onglet
    *Niveaux d'escalade*
 
 --------------
 
 **Sujet parent :** `Module
-Configuration <08_Module_Configuration/01_Module_Configuration.md>`__
+Configuration <08_Module_Configuration/01_Module_Configuration.rst>`__
 
 .. |image| image:: docs/image/NiveauSla.png
 

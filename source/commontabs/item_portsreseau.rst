@@ -127,16 +127,16 @@ complexe <appendix/image_complexe_networkport.html>`__).*
    lesquels il s'appuie) et une adresse MAC.
 
 **Sujet parent :** `Gérer les
-ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md>`__
+ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.rst>`__
 
 **Sujet parent :** `Gérer les matériels
-réseaux <03_Module_Parc/07_Gérer_les_matériels_réseaux.md>`__
+réseaux <03_Module_Parc/07_Gérer_les_matériels_réseaux.rst>`__
 
 **Sujet parent :** `Gérer les
-périphériques <03_Module_Parc/08_Gérer_les_périphériques.md>`__
+périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.md>`__
+imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
 
 **Sujet parent :** `Onglet
-"Connexions" <commontabs/item_connexions.md>`__
+"Connexions" <commontabs/item_connexions.rst>`__

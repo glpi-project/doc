@@ -14,7 +14,7 @@ mots de passe à appliquer.
 -  **Niveau de journalisation** : chaque événement interne à
    l'application est enregistré dans les journaux qui sont visibles dans
    la section `Administration >
-   Journaux <07_Module_Administration/10_Journaux.md>`__. Dans cet
+   Journaux <07_Module_Administration/10_Journaux.rst>`__. Dans cet
    onglet, il est possible de réduire le degré de verbosité de ces
    journaux.
 
@@ -76,4 +76,4 @@ développement de GLPI. Il suffit de copier/coller le texte sur le forum
 --------------
 
 **Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md>`__
+centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__

@@ -21,7 +21,7 @@ d'annuaires LDAP <config_auth_ldap.html>`__).
 
 Depuis la liste des utilisateurs, 3 options sont proposées pour
 `importer un utilisateur
-|image| <07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.md>`__.
+|image| <07_Module_Administration/02_Utilisateurs/02_Importer_des_utilisateurs.rst>`__.
 
 Les différents onglets
 ----------------------
@@ -43,17 +43,17 @@ Les différents onglets
 
 -  **Onglet "Préférences"** Permet l'édition des préférences de
    l'utilisateur. Voir `Gérer ses
-   préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md>`__.
+   préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__.
    Pour modifier les données de cet onglet vous devez avoir les droits
    de modifier la configuration générale.
 
 -  **`Onglet "Eléments
-   utilisés" <Les_différents_onglets/Onglet_Eléments.md>`__**
+   utilisés" <Les_différents_onglets/Onglet_Eléments.rst>`__**
    L'utilisateur est défini dans le champ *Utilisateur* de l'objet ou
    est membre du groupe défini dans le champ *Groupe* de l'objet.
 
 -  **`Onglet "Eléments
-   gérés" <Les_différents_onglets/Onglet_Eléments.md>`__** L'utilisateur
+   gérés" <Les_différents_onglets/Onglet_Eléments.rst>`__** L'utilisateur
    est défini dans le champ *Responsable technique* de l'objet ou est
    membre du groupe défini dans le champ *Groupe technique* de l'objet.
 
@@ -67,7 +67,7 @@ Demandeur.
 .. include:: ../../onglets/documents.rst
 
 -  **`Onglet
-   "Réservations" <Les_différents_onglets/Onglet_Réservations.md>`__**
+   "Réservations" <Les_différents_onglets/Onglet_Réservations.rst>`__**
    Liste les réservations passées, en cours et à venir de l'utilisateur.
    Vous devez avoir le droit de lecture sur l'administration des
    réservations pour voir cet onglet.
@@ -77,11 +77,11 @@ Demandeur.
    changer la méthode d'authentification d'un utilisateur et de forcer
    sa synchronisation.
 
--  **`Onglet "Liens" <Les_différents_onglets/Onglet_Liens.md>`__** Cet
+-  **`Onglet "Liens" <Les_différents_onglets/Onglet_Liens.rst>`__** Cet
    onglet liste les liens externes définis pour les utilisateurs.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
 
 .. include:: ../../onglets/debug.rst
 
@@ -91,19 +91,19 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   utilisateur <07_Module_Administration/02_Utilisateurs/02_Importer_un_utilisateur.md>`__**
+   utilisateur <07_Module_Administration/02_Utilisateurs/02_Importer_un_utilisateur.rst>`__**
 -  **`Modifier les données d'un
-   utilisateur <Les_différentes_actions/Modifier_un_objet.md>`__**
+   utilisateur <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **Modifier la méthode d'authentification d'un utilisateur**
    S'effectue depuis l'onglet "Synchronisation" (voir ci-dessus)
 -  **`Supprimer un
-   utilisateur <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   utilisateur <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un document à un
-   utilisateur <Les_différentes_actions/Lier_un_document_à_un_objet.md>`__**
+   utilisateur <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
 -  **`Associer un élément à un
-   utilisateur <Les_différentes_actions/Onglet_Eléments.md>`__**
+   utilisateur <Les_différentes_actions/Onglet_Eléments.rst>`__**
 -  **`Associer un ticket à un
-   utilisateur <Les_différentes_actions/Onglet_Tickets.md>`__**
+   utilisateur <Les_différentes_actions/Onglet_Tickets.rst>`__**
 
 --------------
 
@@ -111,7 +111,7 @@ Les différentes actions
 d'accès <../glpi/access_control_intro.html>`__
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__
+Administration <07_Module_Administration/01_Module_Administration.rst>`__
 
 .. |image| image:: docs/image/addUserAll.png
 

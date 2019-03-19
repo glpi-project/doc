@@ -29,10 +29,10 @@ Pour les tâches de projet, en plus de lister les tickets associés à la
 tâche, vous pouvez directement créer un ticket d'incident à partir de
 cette tâche.
 
--  **`Onglet "Notes" <Les_différents_onglets/Onglet_Notes.md>`__**
+-  **`Onglet "Notes" <Les_différents_onglets/Onglet_Notes.rst>`__**
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
 .. include:: ../../onglets/debug.rst
@@ -43,15 +43,15 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter une tâche de
-   projet <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   projet <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Modifier une tâche de
-   projet <Les_différentes_actions/Modifier_un_objet.md>`__**
+   projet <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer une tâche de
-   projet <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   projet <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un document à une tâche de
-   projet <Les_différentes_actions/Lier_un_document_à_un_objet.md>`__**
+   projet <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
 -  **`Associer un ticket à une tâche de
-   projet <Les_différentes_actions/Onglet_Tickets.md>`__**
+   projet <Les_différentes_actions/Onglet_Tickets.rst>`__**
 -  **Ajouter une sous-tâche à une tâche de projet** Il suffit d'ajouter
    une tâche depuis l'onglet *Tâches de projet* du menu ***Outils >
    Projets*** et de choisir la tâche actuelle dans le champ "comme
@@ -62,7 +62,7 @@ Les différentes actions
 --------------
 
 **Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.md>`__
+Outils <06_Module_Outils/01_Module_Outils.rst>`__
 
 **Sujet parent :** `Gérer les
-projets <06_Module_Outils/02_Projets/01_Projets.md>`__
+projets <06_Module_Outils/02_Projets/01_Projets.rst>`__

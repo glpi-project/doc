@@ -116,7 +116,7 @@ Les différents onglets
       mails issus de GLPI), le nom de l'administrateur, le préfixe pour
       le sujet des notifications (GLPI par défaut si vide), l'adresse de
       réponse (voir `configuration des suivis par
-      courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.md>`__)
+      courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.rst>`__)
       et la signature.
 
    Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi
@@ -227,7 +227,7 @@ Les différents onglets
    sur la totalité des logiciels de l'entité ; si vous désirez choisir
    la redirection uniquement pour certains logiciel, vous pouvez
    utiliser le `dictionnaire des
-   logiciels <07_Module_Administration/05_Dictionnaires.md>`__.
+   logiciels <07_Module_Administration/05_Dictionnaires.rst>`__.
 
 -  **Onglet "Utilisateurs"** Cet onglet permet d'ajouter un utilisateur
    à cette entité tout en lui affectant un profil, récursif ou non. Il
@@ -253,15 +253,15 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter une
-   entité <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   entité <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Voir une
-   entité <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   entité <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier une
-   entité <Les_différentes_actions/Modifier_un_objet.md>`__**
+   entité <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer une
-   entité <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   entité <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un document à une
-   entité <Les_différentes_actions/Onglet_Eléments.md>`__**
+   entité <Les_différentes_actions/Onglet_Eléments.rst>`__**
 
 --------------
 
@@ -269,4 +269,4 @@ Les différentes actions
 d'accès <../glpi/access_control_intro.html>`__
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.

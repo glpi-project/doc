@@ -23,7 +23,7 @@ Principal
 
 Cet onglet fournit un tableau récapitulant le montant dépensé sur la budget ainsi que le total restant.
 
--   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.rst)**
     Cet onglet permet de visualiser les éléments attachés à ce budget.
 
 .. include:: ../onglets/documents.rst

@@ -5,7 +5,7 @@ GLPI peut être configuré pour utiliser une base MySQL esclave.
 
 Cet onglet n'est visible que si l'utilisation du réplicat a été validé
 dans l'\ `onglet
-*Système* <08_Module_Configuration/06_Générale/06_Systèmes.md>`__
+*Système* <08_Module_Configuration/06_Générale/06_Systèmes.rst>`__
 
 .. figure:: docs/image/replicat.png
    :alt: image
@@ -62,4 +62,4 @@ moteur de recherche, suivant l'option retenue :
 --------------
 
 **Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md>`__
+centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__

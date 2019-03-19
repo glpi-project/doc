@@ -18,7 +18,7 @@ impact n'existaient pas).
 Cette matrice pré-définie est modifiable et se trouve dans l'onglet
 *Assistance* du menu **Configuration > Générale** (Voir `Configurer les
 paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md>`__).
+centraux <08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.rst>`__).
 
 Tout en sachant que l'ordre de traitement des éléments par les
 techniciens est basé sur la priorité, il est possible de sélectionner
@@ -43,7 +43,7 @@ important qu'il prend le pas sur tous les autres.*
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 
 .. |image| image:: docs/image/matricepriorite.png
 

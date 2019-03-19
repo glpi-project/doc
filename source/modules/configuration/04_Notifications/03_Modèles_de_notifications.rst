@@ -40,23 +40,23 @@ Les différents onglets
    toutes les langues de GLPI n'ayant pas leur propre traduction*.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter un nouveau modèle de
-   notification <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   notification <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Voir un nouveau modèle de
-   notification <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   notification <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier un nouveau modèle de
-   notification <Les_différentes_actions/Modifier_un_objet.md>`__**
+   notification <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un nouveau modèle de
-   notification <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   notification <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **Ajouter une nouvelle traduction** Une traduction représente la
    disponibilité d'un modèle dans une langue donnée. En fonction de
    celle choisie par le destinataire, la notification sera envoyée dans
@@ -81,7 +81,7 @@ Les différentes actions
       qui est utilisée afin de gérer les réponses aux notifications.
       Celle-ci est modifiable pour chaque entité dans la configuration
       des entités (voir `Déléguer l'administration par
-      entité <07_Module_Administration/04_Entités.md>`__).*
+      entité <07_Module_Administration/04_Entités.rst>`__).*
    -  **Corps du courriel au format texte :** texte brut envoyé en cas
       de notification. Si le champ est vide alors il est généré à partir
       du corps de texte HTML ;
@@ -151,7 +151,7 @@ chaîne de langue ou la valeur d'un champ.
 --------------
 
 **Sujet parent :** `Configurer les
-notifications <(08_Module_Configuration/04_Notifications/01_Notifications.md)>`__
+notifications <(08_Module_Configuration/04_Notifications/01_Notifications.rst)>`__
 
 .. |image| image:: docs/image/listeTags.png
 

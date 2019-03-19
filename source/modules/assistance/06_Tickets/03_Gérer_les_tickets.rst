@@ -16,7 +16,7 @@ d'implémenter la gestion des incidents qui correspond le mieux à ses
 besoins.
 
 Des statistiques sont disponibles pour les tickets (voir `Visualiser les
-statistiques <04_Module_Assistance/11_Statistiques.md>`__).
+statistiques <04_Module_Assistance/11_Statistiques.rst>`__).
 
 Description de différents champs
 --------------------------------
@@ -29,7 +29,7 @@ Ces 2 dates permettent de circonscrire l'incident ou la demande de
 service dans le temps. Un **SLA** peut également être associé à un
 ticket. Dans ce cas, le SLA ainsi que le prochain niveau d'escalade sont
 affichés (voir `Configurer les
-SLAs <08_Module_Configuration/05_Sla/01_Sla.md>`__).
+SLAs <08_Module_Configuration/05_Sla/01_Sla.rst>`__).
 
 -  **Par** : référence l'utilisateur GLPI qui a ouvert le ticket ;
 
@@ -42,13 +42,13 @@ SLAs <08_Module_Configuration/05_Sla/01_Sla.md>`__).
 
 -  **Statut** statut attribué manuellement par le technicien ou
    dynamiquement suivant les actions effectuées (voir `Règles de
-   gestion <04_Module_Assistance/04_Tickets/01_Règles_de_gestion.md>`__
+   gestion <04_Module_Assistance/04_Tickets/01_Règles_de_gestion.rst>`__
    et `Matrice de cycle de
-   vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md>`__) ;
+   vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst>`__) ;
 
 -  **Source de la demande** : canal utilisé pour créer les tickets (voir
    `Configurer les
-   intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.md>`__)
+   intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.rst>`__)
    ;
 
 -  **Urgence** : indique l'importance donnée par le demandeur au ticket
@@ -59,7 +59,7 @@ SLAs <08_Module_Configuration/05_Sla/01_Sla.md>`__).
 -  **Priorité** : est l'importance du ticket calculée automatiquement
    suivant une matrice de calcul prédéfinie en tenant compte de l'impact
    et de l'urgence définis (Voir `Matrice de cycle de
-   vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md>`__ ;
+   vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst>`__ ;
 
 -  **Validation** : par défaut il est *non soumis à validation* ;
 
@@ -73,12 +73,12 @@ SLAs <08_Module_Configuration/05_Sla/01_Sla.md>`__).
 -  **Les acteurs** Les acteurs concernés sont référencés dans le ticket,
    ce qui permet leur notification durant le cycle de vie du ticket
    (Voir `Définir les
-   acteurs <04_Module_Assistance/02_Définir_les_Acteurs.md>`__).
+   acteurs <04_Module_Assistance/02_Définir_les_Acteurs.rst>`__).
 
 Deux informations concernant les notifications apparaissent pour un
 utilisateur ou un fournisseur si les suivis par courriels ont été
 configurés (Voir `Configurer les
-notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md>`__)
+notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__)
 : l'activation du **suivi par courriel** pour ce ticket et le
 **courriel** utilisé. Celui-ci est pré-rempli par défaut avec la valeur
 présente et définie par défaut dans la fiche de l'utilisateur ou du
@@ -128,7 +128,7 @@ Les différents onglets
    saisir une description.
 
    Il est possible de choisir la source du suivi (Voir `Configurer les
-   intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.md>`__).
+   intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.rst>`__).
 
    Un suivi peut être privé ou public. Un suivi privé n'est visible que
    des utilisateurs ayant le droit ``Voir tous les suivis et tâches``
@@ -137,24 +137,24 @@ Les différents onglets
 
    L'ajout, la modification ou la suppression d'un suivi dépend des
    droits définis dans le profil (voir `Administrer les profils
-   d'utilisateurs <07_Module_Administration/07_Profils/01_Profils.md>`__).
+   d'utilisateurs <07_Module_Administration/07_Profils/01_Profils.rst>`__).
 
 -  **`Onglet
-   "Validation" <Les_différents_onglets/Onglet_Validations.md>`__**
+   "Validation" <Les_différents_onglets/Onglet_Validations.rst>`__**
 
--  **`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches.md>`__** Une
+-  **`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches.rst>`__** Une
    tâche est une action correspondant à une intervention technique liée
    à un ticket.
 
--  **`Onglet "Solution" <Les_différents_onglets/Onglet_Solution.md>`__**
+-  **`Onglet "Solution" <Les_différents_onglets/Onglet_Solution.rst>`__**
    Cet onglet solution permet la résolution du ticket par un technicien
    et l'approbation de la solution par le demandeur ou le rédacteur.
    **Vos tickets à clore**.
 
 -  **`Onglet
-   "Statistiques" <Les_différents_onglets/Onglet_Statistiques.md>`__**
+   "Statistiques" <Les_différents_onglets/Onglet_Statistiques.rst>`__**
 
--  **`Onglet "Coûts <Les_différents_onglets/Onglet_Coûts.md>`__**
+-  **`Onglet "Coûts <Les_différents_onglets/Onglet_Coûts.rst>`__**
    Définition des coûts applicables à ce ticket.
 
 -  **Onglet tâches de projet** Liste les tâches d'un projet liées à ce
@@ -166,17 +166,17 @@ Les différents onglets
 
 .. include:: ../../onglets/documents.rst
 
--  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.md>`__**
+-  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.rst>`__**
    Permet d'associer plusieurs éléments au ticket.
 
 .. include:: onglets/problemes.rst
 
 -  **`Onglet
-   "Changements" <Les_différents_onglets/Onglet_Changements.md>`__**
+   "Changements" <Les_différents_onglets/Onglet_Changements.rst>`__**
    Ajouter et visualiser les changements associés à ce ticket.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
 .. include:: ../../onglets/debug.rst
@@ -187,19 +187,19 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   ticket <04_Module_Assistance/05_Créer_un_ticket.md>`__**
+   ticket <04_Module_Assistance/05_Créer_un_ticket.rst>`__**
 -  **`Modifier un
-   ticket <Les_différentes_actions/Modifier_un_objet.md>`__**
+   ticket <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un
-   ticket <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   ticket <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un document à un
-   ticket <Les_différentes_actions/Lier_un_document_à_un_objet.md>`__**
+   ticket <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
 -  **Lier des tickets entre eux** Cette action se réalise via le champ
    *Tickets liés* du formulaire
 -  **`Transférer un ticket vers une autre
-   entité <Les_différentes_actions/Transférer_un_objet.md>`__**
+   entité <Les_différentes_actions/Transférer_un_objet.rst>`__**
 
 --------------
 
 **Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.md>`__
+utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__

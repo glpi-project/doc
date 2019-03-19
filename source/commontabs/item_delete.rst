@@ -40,4 +40,4 @@ il pourra être restauré (sorti de la corbeille).
 --------------
 
 **Parent topic:** `Gérer les
-ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.md>`__
+ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.rst>`__

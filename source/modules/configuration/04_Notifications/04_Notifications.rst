@@ -111,23 +111,23 @@ Les différents onglets
       réservation du matériel.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter une
-   notification <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   notification <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Voir une
-   notification <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   notification <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier une
-   notification <Les_différentes_actions/Modifier_un_objet.md>`__**
+   notification <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer une
-   notification <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   notification <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **Gérer les destinataires d'une notification** Pour ajouter un
    nouveau destinataire il suffit de cliquer dans le cadre blanc (cela
    ouvrira la liste des destinataires) et choisir son destinataire. Pour
@@ -138,4 +138,4 @@ Les différentes actions
 --------------
 
 **Sujet parent :** `Configurer les
-notifications <(08_Module_Configuration/04_Notifications/01_Notifications.md)>`__
+notifications <(08_Module_Configuration/04_Notifications/01_Notifications.rst)>`__

@@ -7,7 +7,7 @@ Un logiciel est par défaut associé à une entité : c'est-à-dire qu'il y aura
 
 La gestion financière est effectuée au niveau des licences, alors que celle présente dans les logiciels sert uniquement de modèle pour les licences associées à celui-ci.
 
-Les logiciels peuvent être importés automatiquement depuis un outil d'inventaire tiers et dans ce cas un dictionnaire peut être utilisé pour filtrer ou nettoyer les données (voir [Configurer les dictionnaires de données](07_Module_Administration/06_Dictionnaires.md "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")).
+Les logiciels peuvent être importés automatiquement depuis un outil d'inventaire tiers et dans ce cas un dictionnaire peut être utilisé pour filtrer ou nettoyer les données (voir [Configurer les dictionnaires de données](07_Module_Administration/06_Dictionnaires.rst "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")).
 
 Certains champs sont spécifiques dans la fiche du logiciel : 
 - **Mise à jour** est une donnée informative, à partir de laquelle aucun traitement n'est effectué et qui indique que le logiciel est une mise à jour d'un autre. 
@@ -64,7 +64,7 @@ L'installation d'un logiciel sur un poste est visualisée au travers d'une :ref:
 .. note::
 
    * La colonne licence est remplie uniquement lorsque la licence est affectée à l'ordinateur concerné.
-   * L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md").
+   * L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
 
 Deux options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
 
@@ -86,7 +86,7 @@ A la suite des versions installées, la liste des licences affectées mais non i
 
 .. include:: ../onglets/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
      Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../onglets/historique.rst
@@ -140,5 +140,5 @@ Les différentes actions
 Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux logiciels :
 
 * :ref:`Ajouter une version à un logiciel <versions_soft>`
-* **[Gérer les licences](03_Module_Parc/04_Logiciels/Onglet_Licences.md)**
+* **[Gérer les licences](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**
     Depuis le menu ***Parc > Logiciels*** cliquer sur le nom de la licence dans l'onglet *Licences*.

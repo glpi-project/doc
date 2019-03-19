@@ -18,7 +18,7 @@ Il est possible de saisir des coûts différents applicables à cet objet
 pour une période déterminée.
 
 Chaque élément peut être lié à un budget différent (voir `Gérer les
-budgets <05_Module_Gestion/02_Budgets.md>`__).
+budgets <05_Module_Gestion/02_Budgets.rst>`__).
 
 Sous la possibilité d'ajout de nouveaux coûts, un tableau récapitule les
 coûts déjà enregistrés ainsi que la durée durant laquelle ce coût a été
@@ -42,16 +42,16 @@ module assistance avec uniquement le nom du ticket en plus.
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.md>`__
+problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/08_Changements.md>`__
+changements <04_Module_Assistance/08_Changements.rst>`__
 
 **Sujet parent :** `Gérer les
-projets <06_Module_Outils/02_Projets/01_Projets.md>`__
+projets <06_Module_Outils/02_Projets/01_Projets.rst>`__
 
 .. |image| image:: docs/image/cout.png
 

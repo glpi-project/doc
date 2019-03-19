@@ -6,7 +6,7 @@ faire appel à plusieurs outils au choix :
 
 -  il demande à un délégataire de son groupe de le faire pour lui (voir
    `Administrer les
-   groupes <07_Module_Administration/03_Groupes.md>`__). Dans
+   groupes <07_Module_Administration/03_Groupes.rst>`__). Dans
    l'interface simplifiée, cela se traduit par l'apparition d'une option
    permettant d'indiquer si l'incident concerne l'utilisateur lui-même
    ou un autre. Dans l'interface standard ce mécanisme est actif à
@@ -48,13 +48,13 @@ Ouverture d'un ticket dans l'interface graphique
 ------------------------------------------------
 
 Suivant l'utilisation ou non de gabarits (voir `gabarits des
-tickets <Les_différentes_actions/Gérer_les_gabarits.md>`__, certains
+tickets <Les_différentes_actions/Gérer_les_gabarits.rst>`__, certains
 champs peuvent être obligatoires, prédéfinis ou masqués à l'ouverture
 d'un ticket (contenu, titre et/ou catégorie). Si l'un champ obligatoire
 est manquant, le ticket ne sera pas créé.
 
 Les différents champs disponibles sont décrits dans la partie `Gérer les
-tickets <04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.md>`__.
+tickets <04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.rst>`__.
 
 Il est possible d'ajouter au ticket un ou plusieurs documents en une
 seule opération.
@@ -83,7 +83,7 @@ valider.
 
 -  **Informez-moi des suites données** Apparaît si les suivis par
    courriel ont été configurés (voir `Configurer les
-   notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md>`__.
+   notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__.
    La sélection à "oui" permet au demandeur d'être tenu informé par
    courriel des différents traitements concernant son ticket. Le champ
    Courriel correspond à l'adresse où seront envoyées les notifications.
@@ -95,7 +95,7 @@ valider.
 -  **Le ticket porte sur** : permet d'associer un objet d'inventaire à
    un ticket. Le contenu de la ou des listes dépend des paramètres
    définis dans le profil (Voir `Administrer les profils
-   d'utilisateurs <07_Module_Administration/07_Profils/0_Profils.md>`__.
+   d'utilisateurs <07_Module_Administration/07_Profils/0_Profils.rst>`__.
 
 -  **Observateur** : permet d'ajouter un observateur et de définir ses
    paramètres de notification. Seul les membres des groupes du demandeur
@@ -104,7 +104,7 @@ valider.
 ***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de
 nouvelles addresses de messagerie à son profil directement depuis ses
 Préférences (voir `Gérer ses
-préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md>`__).
+préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__).
 
 Si vous ajouter une image ou un document au ticket, il est important de
 la faire après avoir rempli tous les champs marqués obligatoires
@@ -119,7 +119,7 @@ Interface standard
 
 Pour créer un nouveau ticket aller dans le menu ***Assistance > Tickets
 >*** |image|. Voir également `Créer un
-ticket <04_Module_Assistance/05_Créer_un_ticket.md>`__.
+ticket <04_Module_Assistance/05_Créer_un_ticket.rst>`__.
 
 Lors de l'ajout d'une nouvelle image depuis l'onglet *Documents* du
 ticket, la balise générée pourra être aussi utilisé pour insérer l'image
@@ -142,7 +142,7 @@ Ouvrir un ticket par courriel
 
 L'utilisateur envoie un courriel à une adresse de messagerie définie
 dans le collecteur (Voir `Configurer les
-collecteurs <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.md>`__.
+collecteurs <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.rst>`__.
 Dès la réception du courriel, un ticket est ouvert automatiquement.
 
 L'objet du message deviendra le titre du ticket, son corps la
@@ -157,12 +157,12 @@ Ouvrir automatiquement un ticket
 ================================
 
 Ce mécanisme s'active via les `tickets
-récurrents <04_Module_Assistance/10_Tickets_récurrents.md>`__.
+récurrents <04_Module_Assistance/10_Tickets_récurrents.rst>`__.
 
 --------------
 
 **Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.md>`__
+utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__
 
 .. |image| image:: docq/image/menu_add.png
 

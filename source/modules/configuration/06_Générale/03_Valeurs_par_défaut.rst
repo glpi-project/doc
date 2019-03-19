@@ -4,7 +4,7 @@ Valeurs par défaut
 Cet onglet permet de définir les préférences d'affichage appliquées par
 défaut à GLPI. Elles peuvent être modifiées par les utilisateurs dans
 leur session (voir `Gérer ses
-préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md>`__).
+préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__).
 
 Personnalisation
 ----------------
@@ -121,7 +121,7 @@ paramétrés en pourcentage, en heures ou en jours.
 --------------
 
 **Sujet parent :** `Gérer ses
-préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.md>`__
+préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__
 
 **Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.md>`__
+centraux <08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.rst>`__

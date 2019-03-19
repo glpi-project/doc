@@ -2,10 +2,10 @@ Pour aller plus loin
 ====================
 
 -  **`Les catégories de
-   tickets <04_Module_Assistance/04_Configuration_avancée.md>`__**
+   tickets <04_Module_Assistance/04_Configuration_avancée.rst>`__**
 
 -  **`Les gabarits de
-   tickets <Les_différentes_actions/Gérer_les_gabarits.md>`__**
+   tickets <Les_différentes_actions/Gérer_les_gabarits.rst>`__**
    Personnaliser le formulaire de création d'un ticket en masquant,
    pré-définissant ou rendant obligatoire certains champs.
 
@@ -26,9 +26,9 @@ Pour aller plus loin
    -  Collecteur (pour la configuration, voir `Configurer les
       collecteurs <config_mailcollector.html>`__ ;
    -  Règles `Affecter un ticket ouvert par courriel à une
-      entité <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.md>`__
+      entité <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.rst>`__
    -  `Règles métier pour les
-      tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__
+      tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__
    -  Ticket créé
 
    La réponse à un courriel provenant de GLPI aura ce parcours :
@@ -38,21 +38,21 @@ Pour aller plus loin
    -  Création d'un suivi dans le ticket concerné.
 
 -  **`Les tickets
-   récurrents <04_Module_Assistance/11_Tickets_récurrents.md>`__**
+   récurrents <04_Module_Assistance/11_Tickets_récurrents.rst>`__**
 
 -  **`Les coûts
-   liés <04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.md>`__**
+   liés <04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.rst>`__**
 
 -  **`Liens entre
-   tickets <04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.md>`__**
+   tickets <04_Module_Assistance/05_Tickets/03_Gérer_les_tickets.rst>`__**
    Les relations entre les tickets : liaison et duplication
 
 -  **Les délais de résolutions d'incidents ou SLA** Voir `Configurer les
-   SLAs <08_Module_Configuration/05_Sla/01_Sla.md>`__.
+   SLAs <08_Module_Configuration/05_Sla/01_Sla.rst>`__.
 
 -  **Les règles métier de modification et affectation des tickets** Voir
    `Règles métier pour les
-   tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__.
+   tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__.
 
 -  **Clôture administrative** Passe le *statut* d'un ticket de *Résolu*
    à *Clos*
@@ -63,7 +63,7 @@ Pour aller plus loin
    demandeur ne remplit pas cette action, il est possible de paramétrer
    une clôture administrative après un délai paramétrable dans la
    configuration de l'entité (voir `Onglet
-   Assistance <07_Module_Administration/04_Entités.md>`__). Si ce délai
+   Assistance <07_Module_Administration/04_Entités.rst>`__). Si ce délai
    est nul, le ticket est automatiquement clos.
 
 -  **La satisfaction** Le résultat de l'enquête de satisfaction d'un
@@ -72,7 +72,7 @@ Pour aller plus loin
    La génération de l'enquête de satisfaction est effectuée lorsque le
    ticket passe au statut clos et le délai de déclenchement après la
    clôture se paramètre par entité (voir `Déléguer l'administration par
-   entité <07_Module_Administration/04_Entités.md>`__). Il faut
+   entité <07_Module_Administration/04_Entités.rst>`__). Il faut
    également que la tâche automatique correspondante soit active.
 
    A la clôture d'un ticket, une notification comportant le lien vers
@@ -85,7 +85,7 @@ Pour aller plus loin
    également ajouter un commentaire s'il le souhaite.
 
    Des statistiques concernant les enquêtes sont disponibles dans les
-   `statistiques <04_Module_Assistance/10_Statistiques.md>`__.
+   `statistiques <04_Module_Assistance/10_Statistiques.rst>`__.
 
    ***Remarques :*** *- Le demandeur peut modifier sa réponse à
    l'enquête de satisfaction interne dans un délai de 12h suivant sa
@@ -94,7 +94,7 @@ Pour aller plus loin
    réponse à celle-ci.
 
 -  Voir également la **`configuration
-   avancée <04_Module_Assistance/04_Configuration_avancée.md>`__**
+   avancée <04_Module_Assistance/04_Configuration_avancée.rst>`__**
 
 --------------
 

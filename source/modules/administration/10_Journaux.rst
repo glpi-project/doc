@@ -23,7 +23,7 @@ actions automatiques. Voir Configurer les actions automatiques.*
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Réaliser les opérations de
 maintenance <../glpi/admin.html>`__
