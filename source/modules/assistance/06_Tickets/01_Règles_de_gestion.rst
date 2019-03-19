@@ -2,7 +2,7 @@ Comprendre le cycle de vie des tickets
 ======================================
 
 Chaque profil possède sont propre cycle de vie défini dans une
-`matrice <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md>`__.
+`matrice <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst>`__.
 Pour le visualiser et le modifier il faut donc ouvrir le profil concerné
 (menu **Administration > Profils**).
 
@@ -12,9 +12,9 @@ Types de tickets
 Les tickets dans GLPI sont soit des incidents, soit des demandes. Ce
 champ *type* va permettre d'exécuter certaines actions (voir `les règles
 métier de modification et affectation des
-tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__,
+tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__,
 `les gabarits de
-tickets <Les_différentes_actions/Gérer_les_gabarits.md>`__ et `la
+tickets <Les_différentes_actions/Gérer_les_gabarits.rst>`__ et `la
 gestion des problèmes <04_Module_Assistance/08_Problèmes>`__) et de
 personnaliser la liste des catégories disponibles.
 
@@ -29,13 +29,13 @@ Ces statuts ne sont ni paramétrables ni modifiables.
 
 ***Remarques :*** *- On peut néanmoins cacher certains statuts suivant
 le profil (voir `Matrice de cycle de
-vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md>`__).*
+vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst>`__).*
 
 *- Pour aller plus loin dans cette gestion des statuts, voir `Les
 collecteurs <helpdesk_advanced_collectors.html>`__, `Les gabarits de
-tickets <Les_différentes_actions/Gérer_les_gabarits.md>`__ et `Les
+tickets <Les_différentes_actions/Gérer_les_gabarits.rst>`__ et `Les
 règles métier de modification et affectation des
-tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.md>`__.*
+tickets <07_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst>`__.*
 
 L'ordonnancement
 ----------------
@@ -51,7 +51,7 @@ fournis par le demandeur et le technicien :
 
 ***Remarque :** Pour aller plus loin dans la configuration de cette
 matrice, voir `Définir la matrice de calcul de la
-priorité <04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.md>`__.*
+priorité <04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.rst>`__.*
 
 Règles de gestion
 -----------------
@@ -76,4 +76,4 @@ n'a été réalisée pour ce ticket.*
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__

@@ -15,7 +15,7 @@ C'est également à ce niveau qu'est paramétré le fuseau horaire de GLPI
 
 Les sources d'authentification externes prises en charges par GLPI sont les suivantes :
 
--   annuaire LDAP ; voir [Authentifier des utilisateurs à partir d'annuaires LDAP](08_Module_Configuration/09_Authentification/03_Annuaires_LDAP.md "L'interface de GLPI avec les annuaires LDAP se configure depuis le menu Configuration > Authentification > Annuaires LDAP.");
+-   annuaire LDAP ; voir [Authentifier des utilisateurs à partir d'annuaires LDAP](08_Module_Configuration/09_Authentification/03_Annuaires_LDAP.rst "L'interface de GLPI avec les annuaires LDAP se configure depuis le menu Configuration > Authentification > Annuaires LDAP.");
 -   serveur de messagerie ; voir [Authentifier des utilisateurs à partir
     de serveurs de
     messagerie](config_auth_imap.html "L'interfaçage de GLPI avec des serveurs de messagerie comme source d'authentification se configure depuis le menu Configuration > Authentification > Serveurs de messagerie.");

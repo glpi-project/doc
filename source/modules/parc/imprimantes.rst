@@ -16,7 +16,7 @@ La gestion unitaire correspond à une gestion classique (une imprimante pour un 
 
 La gestion globale permet de limiter le nombre d'éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
 
-**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.md)**
+**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.rst)**
 
 Les différents onglets
 ----------------------
@@ -55,7 +55,7 @@ Il se décompose en deux parties :
 
 .. include:: ../onglets/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
      Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../onglets/historique.rst

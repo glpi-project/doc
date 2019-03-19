@@ -104,31 +104,31 @@ cas contraire, ce lien sera ***Mettre à jour***.
 --------------
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.md>`__
+problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.md>`__
+changements <04_Module_Assistance/09_Changements.rst>`__
 
 **Sujet parent :** `Gérer les
-budgets <05_Module_Gestion/02_Budgets.md>`__
+budgets <05_Module_Gestion/02_Budgets.rst>`__
 
 **Sujet parent :** `Gérer les
-fournisseurs <05_Module_Gestion/03_Fournisseurs.md>`__
+fournisseurs <05_Module_Gestion/03_Fournisseurs.rst>`__
 
 **Sujet parent :** `Gérer les
-contrats <05_Module_Gestion/04_Contrats.md>`__
+contrats <05_Module_Gestion/04_Contrats.rst>`__
 
 **Sujet parent :** `Gérer les
-projets <06_Module_Outils/02_Projets/01_Projets.md>`__
+projets <06_Module_Outils/02_Projets/01_Projets.rst>`__
 
 **Sujet parent :** `Gérer les
-utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md>`__
+utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.rst>`__
 
 **Sujet parent :** `Gérer les
-groupes <07_Module_Administration/03_Groupes.md>`__
+groupes <07_Module_Administration/03_Groupes.rst>`__
 
 **Sujet parent :** `Gérer les
-composants <08_Module_Configuration/03_Composants.md>`__
+composants <08_Module_Configuration/03_Composants.rst>`__
 
 .. |image| image:: docs/image/tabElements.png
 .. |image| image:: docs/image/tabElementsGestion.png

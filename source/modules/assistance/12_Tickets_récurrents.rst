@@ -40,4 +40,4 @@ automatiques <config_crontask.html>`__).
 --------------
 
 **Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.md>`__
+utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__

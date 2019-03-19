@@ -1,5 +1,5 @@
 Les 7 droits standard ne seront pas listés (voir `Explication des
-droits <07_Module_Administration/07_Profils/01_Profils.md>`__).
+droits <07_Module_Administration/07_Profils/01_Profils.rst>`__).
 
 |image| Droits **Affichage des résultats de recherche** :
 
@@ -21,10 +21,10 @@ chaque entité et donc peut être donner en l'administrateur de l'entité.
 --------------
 
 **Sujet parent :** `La gestion des
-profils <07_Module_Administration/07_Profils/01_Profils.md>`__.
+profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 .. |image| image:: docs/image/config.png
 .. |image| image:: docs/image/options_search.png

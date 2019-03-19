@@ -32,7 +32,7 @@ Les différents onglets
 
    Les critères ajoutés dans les listes noires seront ignorer lors du
    calcul d'unicité. Voir `Configurer les
-   intitulés <08_Module_Configuration/02_Intitulés/03_Intitulés_Général.md>`__
+   intitulés <08_Module_Configuration/02_Intitulés/03_Intitulés_Général.rst>`__
    .
 -  **Onglet "Duplique"** Cet onglet liste l'ensemble des valeurs
    correspondant aux critères qui sont actuellement en doublon dans la
@@ -40,7 +40,7 @@ Les différents onglets
    fiche de l'objet.
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
 .. include:: ../onglets/debug.rst
@@ -50,4 +50,4 @@ Les différents onglets
 --------------
 
 **Sujet parent :** `Module
-Configuration <08_Module_Configuration/01_Module_Configuration.md>`__
+Configuration <08_Module_Configuration/01_Module_Configuration.rst>`__

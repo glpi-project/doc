@@ -41,14 +41,14 @@ faciliter la répartition des tâches entre techniciens par exemple.
 d'utilisateur sélectionné) au niveau des demandeurs ou observateurs
 permet de saisir un courriel dans la zone correspondante. Pour ce faire,
 les notifications doivent être activées (voir `Configurer les
-notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md>`__).*
+notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__).*
 
 *- Dans GLPI, l'attribution de l'un de ces rôles se fait au niveau de la
 gestion des habilitations des utilisateurs (voir `Attribuer des
 habilitations à un
-utilisateur <07_Module_Administration/05_Règles/03_Habilitations_utilisateur.md>`__).*
+utilisateur <07_Module_Administration/05_Règles/03_Habilitations_utilisateur.rst>`__).*
 
 --------------
 
 **Sujet parent :** `Mise en route du service
-d'assistance <04_Module_Assistance/01_Module_Assistance.md>`__
+d'assistance <04_Module_Assistance/01_Module_Assistance.rst>`__

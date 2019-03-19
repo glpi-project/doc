@@ -21,7 +21,7 @@ Les différents onglets
 ----------------------
 
 -  **`Onglet
-   "Réservations" <Les_différents_onglets/Onglet_Réservations.md>`__**
+   "Réservations" <Les_différents_onglets/Onglet_Réservations.rst>`__**
    Trouver un matériel disponible pendant une période donnée.
 
 -  **Onglet "Administration"** Cet onglet liste tous les objets
@@ -34,7 +34,7 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter une
-   réservation <Les_différents_onglets/Onglet_Réservations.md>`__**
+   réservation <Les_différents_onglets/Onglet_Réservations.rst>`__**
    L'ajout d'une réservation se fait :
 
    -  depuis l'onglet *Réservations* du module Réservations ou de
@@ -43,7 +43,7 @@ Les différentes actions
       sur l'icone |image|.
 
 -  **`Modifier une
-   réservation <Les_différents_onglets/Onglet_Réservations.md>`__** La
+   réservation <Les_différents_onglets/Onglet_Réservations.rst>`__** La
    modification d'une réservation se fait :
 
    -  depuis l'onglet *Réservations* de l'objet réservé ;
@@ -51,7 +51,7 @@ Les différentes actions
       sur l'icone |image|.
 
 -  **`Supprimer une
-   réservation <Les_différents_onglets/Onglet_Réservations.md>`__** La
+   réservation <Les_différents_onglets/Onglet_Réservations.rst>`__** La
    suppression d'une réservation se fait :
 
    -  depuis l'onglet *Réservations* de l'objet réservé ;
@@ -67,7 +67,7 @@ Les différentes actions
 --------------
 
 **Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.md>`__
+Outils <06_Module_Outils/01_Module_Outils.rst>`__
 
 .. |image| image:: docs/image/reservation-3.png
 .. |image| image:: docs/image/menu_showall.png

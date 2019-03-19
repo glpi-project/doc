@@ -13,7 +13,7 @@ récents.
 
 Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi
 des notifications (voir `l'administration par
-entité <07_Module_Administration/04_Entités.md>`__). Celui-ci permet par
+entité <07_Module_Administration/04_Entités.rst>`__). Celui-ci permet par
 exemple dans le cas de modifications multiples rapides d'un objet de
 n'envoyer qu'une notification.
 
@@ -39,7 +39,7 @@ que de destinataires, chacune ayant sa propre date d'envoi*.
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 .. |image| image:: docs/image/mailqueue.png
 

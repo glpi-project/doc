@@ -1,5 +1,5 @@
 Les 7 droits standard ne seront pas listés (voir `Explication des
-droits <07_Module_Administration/07_Profils/01_Profils.md>`__).
+droits <07_Module_Administration/07_Profils/01_Profils.rst>`__).
 
 Interface simplifiée
 ====================
@@ -55,10 +55,10 @@ Droits **Tâches** :
 --------------
 
 **Sujet parent :** `La gestion des
-profils <07_Module_Administration/07_Profils/01_Profils.md>`__.
+profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 .. |image| image:: docs/image/outils.png
 

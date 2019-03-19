@@ -7,7 +7,7 @@ Sur ce port, il est possible d'ajouter un ou plusieurs réseaux virtuels (VLAN),
 
 Pour chaque matériel, il est possible à tout moment d'ajouter un ou plusieurs ports grâce au système de modification massive.
 
-Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.md "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
+Sur chaque port réseau, on peut associer un ou plusieurs [nom réseau](08_Module_Configuration/02_Intitulés/06_Intitulés_Internet.rst "Un nom réseau correspond à l'identification unique d'une machine du point de vue d'Internet.").
 On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
 
 * Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le formulaire du port réseau et il sera possible de le modifier directement. On peut également modifier le nom réseau au travers de son formulaire propre (avec ses onglets) en cliquant sur le titre juste au dessus de la partie du formulaire qui le concerne.

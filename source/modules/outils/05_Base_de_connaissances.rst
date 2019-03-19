@@ -33,7 +33,7 @@ non publiés" de la page d'accueil de la base de connaissances.
 
 Par défaut, les articles ne peuvent pas être traduits dans plusieurs
 langues. Cette fonctionnalité est activable (voir `la configuration
-générale <08_Module_Configuration/06_Générale/02_Configuration_Générale.md>`__).
+générale <08_Module_Configuration/06_Générale/02_Configuration_Générale.rst>`__).
 
 Il est possible d'associer un ou plusieurs documents aux articles de la
 base de connaissances.
@@ -54,7 +54,7 @@ visibilité.*
 
 Il est possible de créer des catégories et sous-catégories afin
 d'organiser la navigation (voir `Configurer les
-intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.md>`__).
+intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.rst>`__).
 L'utilisateur peut utiliser plusieurs mode pour recherche et naviguer au
 sein de la base de connaissances via 3 onglets différents :
 
@@ -129,21 +129,21 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   article <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   article <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **Modifier un article** La modification se fait au niveau de l'onglet
    *Editer*.
 -  **Supprimer un article** La suppression se fait au niveau de l'onglet
    *Editer*. Vu que la base de connaissances n'a pas de corbeille, un
    message vous demandera de confirmer votre suppression définitive.
 -  **`Associer un document à un
-   article <Les_différentes_actions/Lier_un_document_à_un_objet.md>`__**
+   article <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
 -  **Rendre un article public** Il suffit d'ajouter une cible à
    l'article.
 -  **publier un article pendant une période donnée** Il suffit d'ajouter
@@ -152,4 +152,4 @@ Les différentes actions
 --------------
 
 **Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.md>`__
+Outils <06_Module_Outils/01_Module_Outils.rst>`__

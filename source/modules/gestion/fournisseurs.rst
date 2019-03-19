@@ -1,7 +1,7 @@
 Gérer les fournisseurs
 ======================
 
-GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.md "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
+GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.rst "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
 Celui-ci sert à la fois à identifier qui a vendu un matériel (dans la gestion de parc) mais aussi à attribuer des tickets à cette personne ou société.
 
 Lors de l'achat d'un matériel de marque XX à un fournisseur YY, il faut traiter deux informations distinctes à savoir le fabricant (XX) et le fournisseur (YY).
@@ -18,13 +18,13 @@ Bien entendu, une personne ayant une visibilité récursive sur toutes les entit
 
 Les différents onglets
 ----------------------
--   **[Onglet "Contacts"](Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
+-   **[Onglet "Contacts"](Les_différentes_actions/Lier_contacts_et_fournisseurs.rst)**
     Cet onglet permet d'ajouter un ou plusieurs contacts à ce fournisseur.
     Il liste également les différents contacts associés au fournisseur.
 
 .. include:: ../onglets/contrats.rst
 
--   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.md)**
+-   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.rst)**
     Cet onglet permet de visualiser les éléments attachés à ce fournisseur.
 
 .. include:: ../onglets/documents.rst

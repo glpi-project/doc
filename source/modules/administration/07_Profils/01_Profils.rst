@@ -55,7 +55,7 @@ Par défaut, 7 profils sont pré-enregistrés dans GLPI :
 -  **Self-Service** : Ce profil est le plus limité. C'est d'ailleurs le
    seul à disposer d'une interface différente, `l'\ **interface
    simplifiée**, en opposition à l'\ **interface
-   standard** <01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md>`__.
+   standard** <01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.rst>`__.
    Il pourra cependant déclarer un ticket, y ajouter un suivi, consulter
    la FAQ ou encore réserver un matériel. Ce profil est enregistré comme
    profil par défaut.
@@ -123,14 +123,14 @@ dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
       réseaux wifi, noms réseaux)
 
 -  **`Onglet
-   "Assistance" <07_Module_Administration/07_Profils/02_Onglet_Assistance.md>`__**
+   "Assistance" <07_Module_Administration/07_Profils/02_Onglet_Assistance.rst>`__**
    Cet onglet gère les droits sur les tickets, les suivis, les tâches,
    les validations, les associations, les problèmes et les changements.
    Il gère également la visibilité des statistiques et des plannings
    ainsi que l'affectation d'un gabarit au profil.
 
 -  **`Onglet "Cycle de
-   vie" <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.md>`__**
+   vie" <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst>`__**
    Droits sur le processus de changement de statut d'un ticket, d'un
    problème et d'un changement.
 
@@ -143,16 +143,16 @@ dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
    informations financières.
 
 -  **`Onglet
-   "Outils" <07_Module_Administration/07_Profils/03_Onglet_Outils.md>`__**
+   "Outils" <07_Module_Administration/07_Profils/03_Onglet_Outils.rst>`__**
    Cet onglet gère les droits sur les notes, les flux RSS, les
    marques-pages publics, les rapports, les réservations, la base de
    connaissance ainsi que les projets et les tâches d'un projet.
 
 -  **`Onglet
-   "Administration" <07_Module_Administration/07_Profils/04_Onglet_Administration.md>`__**
+   "Administration" <07_Module_Administration/07_Profils/04_Onglet_Administration.rst>`__**
 
 -  **`Onglet
-   "Configuration" <07_Module_Administration/07_Profils/05_Onglet_Configuration.md>`__**
+   "Configuration" <07_Module_Administration/07_Profils/05_Onglet_Configuration.rst>`__**
 
 -  **Onglet "Utilisateurs"** Liste des entités dans lesquelles ce profil
    est attribué. Pour voir les utilisateurs correspondant, il suffit de
@@ -161,17 +161,17 @@ dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
    depuis l'entité d'affectation
 
 -  **`Onglet
-   "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
+   "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   profil <Les_différentes_actions/Créer_un_nouvel_objet.md>`__** Les
+   profil <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__** Les
    champs à renseigner sont :
 
    -  Nom
@@ -182,7 +182,7 @@ Les différentes actions
        défaut, le premier enregistré fera autorité sur tous les autres.
 
    -  Choix de l'interface : `standard ou
-      simplifiée <01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.md>`__
+      simplifiée <01-premiers-pas/03_Utiliser_GLPI/06_Interface_standard_et_interface_simplifiée.rst>`__
 
    -  Modifier son mot de passe Lorsque ce champ est coché, les
       utilisateurs ayant ce profil auront la possibilité de modifier
@@ -197,16 +197,16 @@ Les différentes actions
       la page de création des tickets au lieu de la page d'accueil.
 
 -  **`Voir un
-   profil <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   profil <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier un
-   profil <Les_différentes_actions/Modifier_un_objet.md>`__**
+   profil <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un
-   profil <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   profil <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Administrer les contrôles
 d'accès <../glpi/access_control_intro.html>`__

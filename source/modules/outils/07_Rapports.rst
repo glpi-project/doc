@@ -51,7 +51,7 @@ plugins <https://forge.indepnet.net/projects/plugins>`__.
 --------------
 
 **Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.md>`__
+Outils <06_Module_Outils/01_Module_Outils.rst>`__
 
 .. |image| image:: docs/image/Rapport-reseau.png
 

@@ -82,4 +82,4 @@ cas de déconnexion il prendra le statut Disponible
 --------------
 
 **Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.md>`__
+centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__

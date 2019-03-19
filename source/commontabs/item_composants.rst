@@ -53,13 +53,13 @@ enregistré dans l'historique de l'ordinateur.*
 --------------
 
 **Sujet parent :** `Gérer les
-ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs.md>`__
+ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs.rst>`__
 
 **Sujet parent :** `Gérer les
-périphériques <03_Module_Parc/08_Gérer_les_périphériques.md>`__
+périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.md>`__
+imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
 
 .. |image| image:: docs/image/add_dropdown.png
 

@@ -9,7 +9,7 @@ Chaque contact est caractérisé par les informations d'identité usuelles ainsi
 
 Les différents onglets
 ----------------------
--   **[Onglet "Fournisseurs"](Les_différents_onglets/Onglet_Fournisseurs.md)**
+-   **[Onglet "Fournisseurs"](Les_différents_onglets/Onglet_Fournisseurs.rst)**
 
 .. include:: ../onglets/documents.rst
 
@@ -23,10 +23,10 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un contact](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un contact](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un contact](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un contact](Les_différentes_actions/Supprimer_un_objet.md)**
--   **[Associer un document à un contact](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Associer un contact à un fournisseur](Les_différentes_actions/Lier_contacts_et_fournisseurs.md)**
--   **[Transférer un contact vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Ajouter un contact](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
+-   **[Voir un contact](Les_différentes_actions/Visualiser_un_objet.rst)**
+-   **[Modifier un contact](Les_différentes_actions/Modifier_un_objet.rst)**
+-   **[Supprimer un contact](Les_différentes_actions/Supprimer_un_objet.rst)**
+-   **[Associer un document à un contact](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
+-   **[Associer un contact à un fournisseur](Les_différentes_actions/Lier_contacts_et_fournisseurs.rst)**
+-   **[Transférer un contact vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**

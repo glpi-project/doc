@@ -5,10 +5,10 @@ L'action automatique **watcher** est une action qui surveille
 l'exécution correcte des autres actions automatiques. Si une d'entre
 elles se retrouve en erreur, une notification sera envoyée. Il faut donc
 que le suivi par courriel soit activé (voir `Configurer les
-notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notificationss.md>`__"))
+notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notificationss.rst>`__"))
 ; les destinataires sont paramétrables dans la notification **Crontask
 Watcher** (voir `Gérer les notifications par
-entité <08_Module_Configuration/04_Notifications/04_Notifications.md>`__).
+entité <08_Module_Configuration/04_Notifications/04_Notifications.rst>`__).
 
 Les différents onglets
 ----------------------
@@ -70,4 +70,4 @@ Les différentes actions
 --------------
 
 **Sujet parent :** `Module
-Configuration <08_Module_Configuration/01_Module_Configuration.md>`__
+Configuration <08_Module_Configuration/01_Module_Configuration.rst>`__

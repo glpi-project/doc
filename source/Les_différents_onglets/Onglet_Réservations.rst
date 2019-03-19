@@ -74,31 +74,31 @@ la semaine ou mensuelle à une date ou un jour de la semaine fixe.*
 --------------
 
 **Sujet parent :** `Gérer les
-ordinateurs <03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.md>`__
+ordinateurs <03_Module_Parc/02_Ordinateurs/01_Gérer_les_ordinateurs.rst>`__
 
 **Sujet parent :** `Gérer les
-moniteurs <03_Module_Parc/03_Moniteurs.md>`__
+moniteurs <03_Module_Parc/03_Moniteurs.rst>`__
 
 **Sujet parent :** `Gérer les
-logiciels <03_Module_Parc/04_Logiciels/01_Logiciels.md>`__
+logiciels <03_Module_Parc/04_Logiciels/01_Logiciels.rst>`__
 
 **Sujet parent :** `Gérer les matériels
-réseaux <03_Module_Parc/05_Matériels_réseaux.md>`__
+réseaux <03_Module_Parc/05_Matériels_réseaux.rst>`__
 
 **Sujet parent :** `Gérer les
-périphériques <03_Module_Parc/06_Périphériques.md>`__
+périphériques <03_Module_Parc/06_Périphériques.rst>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/07_Imprimantes.md>`__
+imprimantes <03_Module_Parc/07_Imprimantes.rst>`__
 
 **Sujet parent :** `Gérer les
-téléphones <03_Module_Parc/10_Téléphones.md>`__
+téléphones <03_Module_Parc/10_Téléphones.rst>`__
 
 **Sujet parent :** `Gérer les
-réservations <06_Module_Outils/06_Réservations.md>`__
+réservations <06_Module_Outils/06_Réservations.rst>`__
 
 **Sujet parent :** `Gérer les
-utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.md>`__
+utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.rst>`__
 
 .. |image| image:: docs/image/item_reservations.png
 .. |image| image:: docs/image/reservation-search.png

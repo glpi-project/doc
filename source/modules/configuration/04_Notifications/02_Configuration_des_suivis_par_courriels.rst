@@ -46,7 +46,7 @@ Ces 2 valeurs sont globales pour toutes les entités.
 
 Ces 5 valeurs sont globales, mais peuvent être adaptées pour chaque
 entité (voir `configuration d'une
-entité <07_Module_Administration/04_Entités.md>`__).
+entité <07_Module_Administration/04_Entités.rst>`__).
 
 Serveur de messagerie
 ---------------------
@@ -80,4 +80,4 @@ courriel de test à l'administrateur**.*
 --------------
 
 **Sujet parent :** `Configurer les
-notifications <(08_Module_Configuration/04_Notifications/01_Notifications.md)>`__
+notifications <(08_Module_Configuration/04_Notifications/01_Notifications.rst)>`__

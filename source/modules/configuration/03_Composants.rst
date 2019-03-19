@@ -34,13 +34,13 @@ Les différentes actions
 -----------------------
 
 -  **`Ajouter un
-   composant <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   composant <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Voir un
-   composant <Les_différentes_actions/Visualiser_un_objet.md>`__**
+   composant <Les_différentes_actions/Visualiser_un_objet.rst>`__**
 -  **`Modifier un
-   composant <Les_différentes_actions/Modifier_un_objet.md>`__**
+   composant <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer un
-   composant <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   composant <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **Rechercher un composant** Depuis le moteur de recherche, on peut
    rechercher un composant sur tout ou partie des champs qui le
    définissent, à savoir le nom, le fabricant, le commentaire et tous
@@ -54,19 +54,19 @@ Les différentes actions
    -  \*\* :doc:``Onglet "Gestion" <../parc/onglets/gestion>`` \*\* :
       gérer les informations financières et administratives.
    -  **`Onglet
-      "Documents" <Les_différents_onglets/Onglet_Documents.md>`__**
+      "Documents" <Les_différents_onglets/Onglet_Documents.rst>`__**
    -  **`Onglet
-      "Historique" <Les_différents_onglets/Onglet_Historique.md>`__**
-   -  **`Onglet "Debug" <Les_différents_onglets/Onglet_Debug.md>`__** :
+      "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
+   -  **`Onglet "Debug" <Les_différents_onglets/Onglet_Debug.rst>`__** :
       uniquement si vous êtes connecté en mode Debug.
-   -  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** :
+   -  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** :
       pour un élément, toutes les informations sont affichées sur une
       seule page.
 
 --------------
 
 **Sujet parent :** `Module
-Configuration <08_Module_Configuration/01_Module_Configuration.md>`__
+Configuration <08_Module_Configuration/01_Module_Configuration.rst>`__
 
 .. |image| image:: docs/image/listeComposants.png
 .. |image| image:: docs/image/niveauSla.png

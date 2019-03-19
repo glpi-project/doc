@@ -41,7 +41,7 @@ Les différents onglets
 
 .. include:: ../onglets/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.md)**
+-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
      Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../onglets/historique.rst

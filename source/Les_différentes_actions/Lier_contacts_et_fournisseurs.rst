@@ -22,7 +22,7 @@ associer les contacts au fournisseur concerné.
 --------------
 
 **Sujet parent :** `Gérer les
-fournisseurs <05_Module_Gestion/03_Fournisseurs.md>`__
+fournisseurs <05_Module_Gestion/03_Fournisseurs.rst>`__
 
 **Sujet parent :** `Gérer les
-contacts <05_Module_Gestion/04_Contacts.md>`__
+contacts <05_Module_Gestion/04_Contacts.rst>`__

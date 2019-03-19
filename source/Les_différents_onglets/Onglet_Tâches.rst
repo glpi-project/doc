@@ -54,13 +54,13 @@ notifications <config_notification.html>`__)*.
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.md>`__
+tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.md>`__
+problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.md>`__
+changements <04_Module_Assistance/09_Changements.rst>`__
 
 .. |image| image:: docs/image/tache.png
 .. |image| image:: docs/image/reservation-3.png

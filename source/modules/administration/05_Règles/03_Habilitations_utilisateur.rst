@@ -82,7 +82,7 @@ habilitations. Il est également possible d'affecter une entité à un
 utilisateur en utilisant le domaine de messagerie si celui-ci est
 spécifique à une entité. Le domaine de messagerie utilisé par l'entité
 est défini dans les `informations avancées des
-entités <07_Module_Administration/04_Entités.md>`__.
+entités <07_Module_Administration/04_Entités.rst>`__.
 
 ::
 
@@ -255,10 +255,10 @@ LDAP) et d'un commentaire.*
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Gérer les
-règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.md>`__.
+règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__.
 
 **Sujet parent :** `Administrer les contrôles
 d'accès <../glpi/access_control_intro.html>`__

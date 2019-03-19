@@ -35,7 +35,7 @@ Elle est découpée en 4 vues :
 
 * *Flux RSS*
 
-   Propose le contenu des flux RSS définis (voir [Gérer les flux RSS](06_Module_Outils/04_Flux_RSS.md "Les flux RSS se gèrent depuis le menu Outils > Flux RSS")).
+   Propose le contenu des flux RSS définis (voir [Gérer les flux RSS](06_Module_Outils/04_Flux_RSS.rst "Les flux RSS se gèrent depuis le menu Outils > Flux RSS")).
 
 .. note::
 

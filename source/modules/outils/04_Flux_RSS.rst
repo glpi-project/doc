@@ -22,4 +22,4 @@ ayant le droit de lire les flux RSS publics.
 --------------
 
 **Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.md>`__
+Outils <06_Module_Outils/01_Module_Outils.rst>`__

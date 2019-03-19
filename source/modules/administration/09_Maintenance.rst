@@ -48,7 +48,7 @@ répertoire qu'il convient de sauvegarder complètement.
 --------------
 
 **Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.md>`__.
+Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Sauvegarder GLPI <../glpi/admin_backup.html>`__
 

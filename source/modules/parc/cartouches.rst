@@ -10,7 +10,7 @@ Dans la fiche d'une cartouche, plusieurs informations sont disponibles:
 
 Le seuil d'alerte correspond à la valeur minimale à partir de laquelle une alerte est déclenchée.
 
-***Remarque :** Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir [Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+***Remarque :** Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir [Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
 Pour qu'une cartouche puisse être installable sur une imprimante, celle-ci doit être renseignée comme compatible avec cette imprimante.
 
@@ -46,13 +46,13 @@ Figure 1. Onglet Cartouches
 
 Les différentes actions
 -----------------------
--   **[Ajouter un modèle de cartouche](Les_différentes_actions/Créer_un_nouvel_objet.md)**
--   **[Voir un modèle de cartouche](Les_différentes_actions/Visualiser_un_objet.md)**
--   **[Modifier un modèle de cartouche](Les_différentes_actions/Modifier_un_objet.md)**
--   **[Supprimer un modèle de cartouche](Les_différentes_actions/Supprimer_un_objet.md)**
+-   **[Ajouter un modèle de cartouche](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
+-   **[Voir un modèle de cartouche](Les_différentes_actions/Visualiser_un_objet.rst)**
+-   **[Modifier un modèle de cartouche](Les_différentes_actions/Modifier_un_objet.rst)**
+-   **[Supprimer un modèle de cartouche](Les_différentes_actions/Supprimer_un_objet.rst)**
 -   **Ajouter de nouvelles cartouches à un modèle**
     Voir onglet *Cartouches* ci-dessus
 -   **Ajouter un modèle d'imprimante pour le modèle de cartouche**
     Voir onglet *Modèle d'imprimante* ci-dessus
--   **[Associer un document à un modèle de cartouche](Les_différentes_actions/Lier_un_document_à_un_objet.md)**
--   **[Transférer une cartouche vers une autre entité](Les_différentes_actions/Transférer_un_objet.md)**
+-   **[Associer un document à un modèle de cartouche](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
+-   **[Transférer une cartouche vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**

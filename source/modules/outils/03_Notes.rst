@@ -23,7 +23,7 @@ fois la date expirée.
 ***Remarque :** Il est possible de définir un rappel de la note avant
 son début en définissant un intervalle de temps pour le rappel. Les
 notifications doivent être activées pour cela (voir `Configurer les
-notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.md>`__).*
+notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__).*
 
 Les différents onglets
 ----------------------
@@ -42,20 +42,20 @@ Les différents onglets
    Une note publique est visible pour les utilisateurs associés à un
    profil ayant le droit de lire les notes publiques.
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.md>`__** Pour un
+-  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
    élément, toutes les informations sont affichées sur une seule page.
 
 Les différentes actions
 -----------------------
 
 -  **`Ajouter une
-   note <Les_différentes_actions/Créer_un_nouvel_objet.md>`__**
+   note <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
 -  **`Modifier une
-   note <Les_différentes_actions/Modifier_un_objet.md>`__**
+   note <Les_différentes_actions/Modifier_un_objet.rst>`__**
 -  **`Supprimer une
-   note <Les_différentes_actions/Supprimer_un_objet.md>`__**
+   note <Les_différentes_actions/Supprimer_un_objet.rst>`__**
 -  **`Associer un document à une
-   note <Les_différentes_actions/Lier_un_document_à_un_objet.md>`__**
+   note <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
 -  **Rendre une note publique** Il suffit d'ajouter une cible à la note.
 -  **publier une note pendant une période donnée** Il suffit d'ajouter
    une date de début et une date de fin au niveau de la visibilité.
@@ -63,4 +63,4 @@ Les différentes actions
 --------------
 
 **Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.md>`__
+Outils <06_Module_Outils/01_Module_Outils.rst>`__
