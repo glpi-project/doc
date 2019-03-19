@@ -12,25 +12,25 @@ Une fois que les besoins de base sont satisfaits, il est possible de définir le
 Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL et intègre donc des notions et normalisation de champs. Bien que l'outil soit conforme ITIL, il n'y aucune obligation pour suivre ces bonnes pratiques : chacun est libre d'implémenter le service d'assistance qui correspond le mieux à ses besoins.
 
 -   **Mise en route du service d'assistance**
-     -   **[Définir les acteurs et leurs rôles](04_Module_Assistance/02_Définir_les_acteurs.rst)**
-     -   **[Définir la matrice de calcul de la priorité](04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.rst)**
-     -   **[Configuration avancée](04_Module_Assistance/04_Configuration_avancée.rst)**
-     -   **[Les matrices de cycle de vie](04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst)**
+     -   :doc:`Définir les acteurs et leurs rôles <02_Définir_les_acteurs>`
+     -   :doc:`Définir la matrice de calcul de la priorité <03_Définir_la_matrice_de_calcul_de_la_priorité>`
+     -   :doc:`Configuration avancée <04_Configuration_avancée>`
+     -   :doc:`Les matrices de cycle de vie <05_Les_matrices_de_cycle_de_vie>`
 
 -   **Gérer les tickets**
-    -   [Règles de gestion](04_Module_Assistance/06_Tickets/01_Règles_de_gestion.rst)
-    -   [Gérer les tickets](04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst)
-    -   [Ouvrir un ticket](04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.rst)
-    -   [Pour aller plus loin](04_Module_Assistance/06_Tickets/05_Pour_aller_plus_loin.rst)
+     -   :doc:`Règles de gestion <06_Tickets/01_Règles_de_gestion>`
+     -   :doc:`Gérer les tickets <06_Tickets/03_Gérer_les_tickets>`
+     -   :doc:`Ouvrir un ticket <06_Tickets/04_Ouvrir_un_ticket>`
+     -   :doc:`Pour aller plus loin <06_Tickets/05_Pour_aller_plus_loin>`
 
--   **[Créer un ticket](04_Module_Assistance/07_Créer_un_ticket.rst)**
+-   :doc:`Créer un ticket <07_Créer_un_ticket>`
 
--   **[Gérer les problèmes](04_Module_Assistance/08_Problèmes.rst)**
+-   :doc:`Gérer les problèmes <08_Problèmes>`
 
--   **[Gérer les changements](04_Module_Assistance/09_Changements.rst)**
+-   :doc:`Gérer les changements <09_Changements>`
 
--   **[Les plannings](04_Module_Assistance/10_Planning.rst)**
+-   :doc:`Les plannings <10_Planning>`
 
--   **[Les statistiques](04_Module_Assistance/11_Statistiques.rst)**
+-   :doc:`Les statistiques <11_Statistiques>`
 
--   **[Les tickets récurrents](04_Module_Assistance/12_Tickets_récurrents.rst)**
+-   :doc:`Les tickets récurrents <12_Tickets_récurrents>`
