@@ -4,13 +4,11 @@ Onglet Réplicats MySQL
 GLPI peut être configuré pour utiliser une base MySQL esclave.
 
 Cet onglet n'est visible que si l'utilisation du réplicat a été validé
-dans l'\ `onglet
-*Système* <08_Module_Configuration/06_Générale/06_Systèmes.rst>`__
+dans :doc:`l'onglet
+*Système* <./06_Systeme>`
 
-.. figure:: docs/image/replicat.png
-   :alt: image
-
-   image
+.. image:: /image/replicat.png
+   :align: center
 
 Pour activer la gestion du réplicat, il suffit de renseigner les
 paramètres de connexion. Il est conseillé d'utiliser un identifiant de
@@ -19,8 +17,9 @@ connexion disposant uniquement des privilèges de lecture sur la base.
 Vous pouvez utiliser plusieurs réplicats en les séparant via une
 virgule. Un port spécifique peut également être ajouté.
 
-    **Attention** : en cas d'utilisattion de plusieurs réplicats, les
-    paramètres s'appliquent pour tous.
+.. warning::
+
+    En cas d'utilisattion de plusieurs réplicats, les paramètres s'appliquent pour tous.
 
 Le réplicat MySQL sera utilisé dans 2 cas :
 
@@ -58,8 +57,3 @@ moteur de recherche, suivant l'option retenue :
     Important : Le réplicat doit être créé et configuré en utilisant les
     outils MySQL. Voir la documentation MySQL :
     http://dev.mysql.com/doc/refman/5.0/en/replication.html
-
---------------
-
-**Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__

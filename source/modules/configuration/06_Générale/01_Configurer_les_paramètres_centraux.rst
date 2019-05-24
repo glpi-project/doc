@@ -36,7 +36,7 @@ Les différents onglets
    mots de passe à appliquer.
 
 -  **`Onglet Réplicat
-   MySQL <08_Module_Configuration/06_Générale/07_Replicats_MySQL.rst>`__**
+   MySQL </modules/configuration/06_Générale/01_Configurer_les_paramètres_centraux.rst:>`__**
    GLPI peut être configuré pour utiliser une base MySQL esclave.
 
 .. include:: ../../onglets/debug.rst
