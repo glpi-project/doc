@@ -6,6 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
+SPHINXAUTOBUILD = sphinx-autobuild
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -13,6 +14,22 @@ PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
+
+#Watcher
+ALLSPHINXLIVEOPTS   = $(ALLSPHINXOPTS) -q \
+   -B \
+   --delay 1 \
+   --ignore "*.swp" \
+   --ignore "*.pdf" \
+   --ignore "*.log" \
+   --ignore "*.out" \
+   --ignore "*.toc" \
+   --ignore "*.aux" \
+   --ignore "*.idx" \
+   --ignore "*.ind" \
+   --ignore "*.ilg" \
+   --ignore "*.tex" \
+   --watch source
 
 .PHONY: help
 help:
@@ -51,6 +68,12 @@ clean:
 .PHONY: html
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+
+.PHONY: livehtml
+livehtml:
+	$(SPHINXAUTOBUILD) -b html $(ALLSPHINXLIVEOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
