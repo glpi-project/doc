@@ -29,6 +29,20 @@ Results will be avaiable in the `build/html` directory :)
 
 Note that it actually uses the default theme, which differs locally and on readthedocs system.
 
+## Autobuild
+
+Autobuild automatically rebuild and refresh the current page on edit.
+To use it, you need the `sphinx-autobuild` module:
+```
+$ pip install sphinx-autobuild
+```
+
+You can then use the `livehtml` command:
+```
+$ make livehtml
+```
+
+
 ## Translations...
 
 As you can read on top page statement; doc is currently being rewritted. It will be redacted in french; then translated to english. Once this has been done, we'll had the project on transifex to get multiple translations :)
