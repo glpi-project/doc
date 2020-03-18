@@ -1,7 +1,7 @@
 Gérer les budgets
 =================
 
-Un budget est composé d'un certain nombre de champs : un **nom**, une **valeur**, une période pendant laquelle le budget a été alloué, défini par une **date de début**ainsi qu'une **date de fin**.
+Un budget est composé d'un certain nombre de champs : un **nom**, une **valeur**, une période pendant laquelle le budget a été alloué, défini par une **date de début** ainsi qu'une **date de fin**.
 
 Le budget doit être défini dans les informations financières des matériels. Il peut également être défini sur plusieurs entités (récursivité).
 
@@ -23,10 +23,14 @@ Principal
 
 Cet onglet fournit un tableau récapitulant le montant dépensé sur la budget ainsi que le total restant.
 
--   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.rst)**
-    Cet onglet permet de visualiser les éléments attachés à ce budget.
+Eléments
+~~~~~~~~~
+
+Cet onglet permet de visualiser les éléments attachés à ce budget.
 
 .. include:: ../onglets/documents.rst
+
+.. include:: ../onglets/basedeconnaissances.rst
 
 .. include:: ../onglets/liens.rst
 
