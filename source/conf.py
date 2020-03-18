@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# GLPi User Documentation documentation build configuration file, created by
+# GLPI User Documentation documentation build configuration file, created by
 # sphinx-quickstart on Thu Sep 29 14:44:50 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -332,7 +332,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GLPIUserDocumentation', u'GLPi User Documentation',
+    (master_doc, 'GLPIUserDocumentation', u'GLPI User Documentation',
      author, 'GLPIUserDocumentation', 'User documentation for GLPI project.',
      'Miscellaneous'),
 ]

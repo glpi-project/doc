@@ -1,4 +1,4 @@
-# GLPi's user documentation
+# GLPI user documentation
 
 __Documentation is being rewrited... Some parts may be really out of date, some links can be broken, ...__
 
