@@ -42,11 +42,11 @@ Les différents onglets
 
 .. include:: ../onglets/documents.rst
 
-.. include:: ../onglets/liens.rst
+.. include:: ../onglets/external-links.rst
 
 .. include:: ../onglets/notes.rst
 
-.. include:: ../onglets/historique.rst
+.. include:: ../onglets/historical.rst
 
 .. include:: ../onglets/debug.rst
 
