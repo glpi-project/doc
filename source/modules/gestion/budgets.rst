@@ -30,13 +30,13 @@ Cet onglet permet de visualiser les éléments attachés à ce budget.
 
 .. include:: ../onglets/documents.rst
 
-.. include:: ../onglets/basedeconnaissances.rst
+.. include:: ../onglets/knowledgebase.rst
 
-.. include:: ../onglets/liens.rst
+.. include:: ../onglets/external-links.rst
 
 .. include:: ../onglets/notes.rst
 
-.. include:: ../onglets/historique.rst
+.. include:: ../onglets/historical.rst
 
 .. include:: ../onglets/all.rst
 

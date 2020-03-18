@@ -32,7 +32,7 @@ Les différents onglets
 
 .. include:: ../onglets/notes.rst
 
-.. include:: ../onglets/historique.rst
+.. include:: ../onglets/historical.rst
 
 .. include:: ../onglets/all.rst
 
