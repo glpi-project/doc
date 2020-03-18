@@ -13,22 +13,20 @@ Le fichier physique correspondant au document peut être ajouté dans GLPI de pl
 
 Enfin un type MIME peut aussi être indiqué. Pour une liste de valeurs possible, référez-vous à l'adresse suivante :*[http://fr.wikipedia.org/wiki/Type\_mime\#Liste\_de\_media\_type\_usuels](http://fr.wikipedia.org/wiki/Type_mime#Liste_de_media_type_usuels)*.
 
-***Remarques :***
+**Remarques :**
 *- Les types de documents autorisés dans GLPI (selon leur extension) sont définis dans **Configuration > Intitulés > Gestion > Type de document.***
 *- Les rubriques de documents peuvent être hiérarchiques.*
 *- L'option **Interdire à l'importation** permet d'exclure ce document à l'importation via les collecteurs (images de signatures, logos...).*
 
 Les différents onglets
 ----------------------
--   **Onglet "Eléments rattachés"**
-    Cet onglet permet d'ajouter et de visualiser les éléments rattachés à ce document.
-    Quasiment tous les objets de GLPI sont associables à un document.
-    Le tableau listant les éléments du contrat est trié par type d'éléments avec pour chaque type le nom de l'élément et si présents, les numéros de série et d'inventaire.
 
-.. include:: ../onglets/documents.rst
+.. include:: ../onglets/elements.rst
 
--   **[Onglet "Documents"](Les_différents_onglets/Onglet_Documents.rst)**
-    Il est en effet possible d'associer un document à un autre document (exemple : un premier document nommé "Abonnement" qui contiendrait un exemplaire du contrat ainsi que toutes les factures) ;
+Documents
+~~~~~~~~~
+
+Il est possible d'associer d'autres documents à un document de GLPI, c'est pourquoi cet objet bénéficie d'un onglet du même type.
 
 .. include:: ../onglets/notes.rst
 
