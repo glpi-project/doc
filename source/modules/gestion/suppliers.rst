@@ -1,8 +1,7 @@
 Gérer les fournisseurs
 ======================
 
-GLPI intègre une gestion des fournisseurs, qui est différente de celle des fabricants (voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.rst "Les intitulés se configurent depuis le menu Configuration > Intitulés")).
-Celui-ci sert à la fois à identifier qui a vendu un matériel (dans la gestion de parc) mais aussi à attribuer des tickets à cette personne ou société.
+GLPI intègre une gestion des fournisseurs, celle-ci sert à la fois à identifier qui a vendu un matériel (dans la gestion de parc) mais aussi à attribuer des tickets à cette personne ou société.
 
 Lors de l'achat d'un matériel de marque XX à un fournisseur YY, il faut traiter deux informations distinctes à savoir le fabricant (XX) et le fournisseur (YY).
 
@@ -14,22 +13,45 @@ Un fournisseur est commun à toute les entités quand il s'agit d'un fournisseur
 Par contre, un fournisseur local à une entité sera créé par le gestionnaire de parc de celle-ci, et sera seulement visible dans ce périmètre. 
 Bien entendu, une personne ayant une visibilité récursive sur toutes les entités verra à la fois les fournisseur globaux et locaux.
 
-***Remarque :** Il n'est pas nécessaire de mettre le `http://` au début de l'adresse internet*.
 
 Les différents onglets
 ----------------------
--   **[Onglet "Contacts"](Les_différentes_actions/Lier_contacts_et_fournisseurs.rst)**
-    Cet onglet permet d'ajouter un ou plusieurs contacts à ce fournisseur.
-    Il liste également les différents contacts associés au fournisseur.
 
-.. include:: ../onglets/contrats.rst
+.. include:: ../onglets/contacts.rst
 
--   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.rst)**
-    Cet onglet permet de visualiser les éléments attachés à ce fournisseur.
+.. include:: ../onglets/contract.rst
+
+Eléments associés
+~~~~~~~~~~~~~~~~~
+
+L'onglet Eléments pour l'objet fournisseur est spécifique. Il ne permet que la consultation.
+Lier un élément avec un fournissur se fera depuis l'onglet **Gestion** de l'élément (du Parc) concerné.
+
+.. image:: images/elements-suppliers.png
+        :alt: Consultation des éléments liés à un fournisseur
+        :align: center
 
 .. include:: ../onglets/documents.rst
 
 .. include:: ../onglets/tickets.rst
+
+Problèmes
+~~~~~~~~~
+
+Dans cet onglet, il sera possible de consulter les **Problèmes** associés à ce fournisseur. C'est à dire, tous les Problèmes sur lesquels le fournisseur est affecté dans le champ **Attribué à**.
+
+.. image:: images/problems-suppliers.png
+        :alt: Consultation des Problèmes associés à un fournisseur
+        :align: center
+
+Changements
+~~~~~~~~~~~
+
+L'onglet permet la consultation de tous les Changements sur lesquels le fournisseur est affecté dans le champ **Attribué à**.
+
+.. image:: images/changes-suppliers.png
+        :alt: Consultation des Changements associés à un fournisseur
+        :align: center
 
 .. include:: ../onglets/external-links.rst
 
