@@ -16,8 +16,7 @@ If your distribution does not provide this version, you could use a `virtualenv`
 ```
 $ virtualenv /path/to/virtualenv/files
 $ /path/to/virtualenv/bin/activate
-$ pip install sphinx
-$ pip install recommonmark
+$ pip install -r requirements.txt
 ```
 
 Once all has been successfully installed, just run the following to build the documentation:
