@@ -1,11 +1,14 @@
 Gérer les budgets
 =================
 
-Un budget est composé d'un certain nombre de champs : un **nom**, une **valeur**, une période pendant laquelle le budget a été alloué, défini par une **date de début** ainsi qu'une **date de fin**.
+Un budget dans GLPI se définit par un nom, une valeur et une période pendant laquelle le budget a été alloué, elle même définie par une date de début ainsi qu'une date de fin.
 
-Le budget doit être défini dans les informations financières des matériels. Il peut également être défini sur plusieurs entités (récursivité).
+Il peut également être défini sur plusieurs entités (récursivité).
 
-Un résumé du budget par type de matériel est présenté (total dépensé par type, total restant).
+
+.. image:: images/budgets.png
+        :alt: Principaux champs d'un budget
+        :align: center
 
 .. note::
 
@@ -21,12 +24,22 @@ Les différents onglets
 Principal
 ~~~~~~~~~
 
-Cet onglet fournit un tableau récapitulant le montant dépensé sur la budget ainsi que le total restant.
+Cet onglet fournit un tableau récapitulant le montant dépensé sur le budget ainsi que le total restant.
+
+.. image:: images/main-budgets.png
+        :alt: Tableau récapitulatif du budget
+        :align: center
 
 Eléments
 ~~~~~~~~~
 
-Cet onglet permet de visualiser les éléments attachés à ce budget.
+Cet onglet permet de visualiser les éléments attachés à ce budget ainsi que leur valeur.
+
+.. image:: images/elements-budgets.png
+
+.. note::
+
+        Le lien entre le budget et un élément se fait depuis l'onglet Gestion de l'élément !
 
 .. include:: ../onglets/documents.rst
 

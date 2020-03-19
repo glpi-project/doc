@@ -25,15 +25,9 @@ Les différents onglets
 
 .. include:: ../onglets/tickets.rst
 
-Problèmes
-~~~~~~~~~
+.. include:: ../onglets/problems.rst
 
-TODO ( how to create a link between certificate and problem ? )
-
-Changements
-~~~~~~~~~~~
-
-TODO ( how to create a link between certificate and problem ? )
+.. include:: ../onglets/changes.rst
 
 .. include:: ../onglets/external-links.rst
 
