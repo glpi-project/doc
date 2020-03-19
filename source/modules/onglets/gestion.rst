@@ -1,16 +1,42 @@
-.. orphan:
+Gestion
+~~~~~~~
 
-Informations de gestion
-~~~~~~~~~~~~~~~~~~~~~~~
+Gestion des informations financières et administratives, ces informations sont visibles dans l'onglet `Gestion` sur la fiche de l'ordinateur.
 
-Éléments de gestion pour les éléments d'inventaire. Il est possible d'activer les informations financières sur tout type d'objet de l'inventaire. Soit en utilisant le lien dans l'onglet `Gestion` du détail du matériel, soit grâce au système de modification massive, en modifiant par exemple la date d'achat pour plusieurs éléments.
+.. image:: /modules/onglets/images/gestion.png
+   :alt: Écran de gestion
+   :align: center
+
+Par defaut cette gestion est désactivé. Il est possible d'activer les informations financières sur tout type d'objet de l'inventaire en utilisant le lien dans l'onglet `Gestion` du détail du matériel
+
+.. image:: /modules/onglets/images/gestion_enable.png
+   :alt: activer la gestion
+   :align: center
+
+
+.. note::
+   Il est possible d'activer en masse les informations administratives et financières depuis les actions massives sur les éléments (ordinateur, maoniteur etc ...)
+
+.. note::
+   Il est possible d'activer les informations administratives et financières dès la création d'un élément
+   Voir l'option ``Activer les informations administratives et financières par défaut`` Dans Configuration > Générale > onglet Parc.
 
 Les informations financières sont composées des éléments suivants :
+
+Cycle de vie
+^^^^^^^^^^^^
+
+* Date de commande
+* Date d'achat
+* Date de livraison
+* Date de mise en oeuvre
+* Date du dernier inventaire physique
+* Date de réforme
 
 Informations financières et administratives
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Fournisseur : tiers qui a vendu le matériel. Voir [Gérer les fournisseurs](05_Module_Gestion/03_Fournisseurs.rst "Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs") ;
+* Fournisseur : tiers qui a vendu le matériel. Voir :doc:`Gérer les fournisseurs <../gestion/fournisseurs>`. Les fournisseurs sont gérés depuis le menu Gestion > Fournisseurs ;
 * Numéro de commande : numéro de la commande du matériel ;
 * Numéro d'immobilisation ;
 * Numéro de facture : numéro de la facture du matériel ;
@@ -22,7 +48,7 @@ Informations financières et administratives
 * Durée d'amortissement : durée d'amortissement exprimée en années ;
 * Coefficient d'amortissement : coefficient s'appliquant sur un type d'amortissement linéaire afin d'obtenir les valeurs du type dégressif. Il est donc utilisé uniquement si le type d'amortissement est dégressif ;
 * TCO (valeur+montant des interventions) : le coût total de possession qui intègre tous les éléments constitutifs d'un produit facturé ;
-* Budget : budget sur lequel ce matériel a été acheté (voir la gestion des budgets) ;
+* Budget : budget sur lequel ce matériel a été acheté  Voir :doc:`Gérer le budget <../gestion/budgets>`
 * Date de commande : date à laquelle le matériel a été commandé ;
 * Date d'achat : date à laquelle le matériel a été acheté ;
 * Date de mise en livraison : date à laquelle le matériel a été livré ;
@@ -38,7 +64,6 @@ Informations sur la garantie
 * Informations sur la garantie : texte qualifiant la garantie ;
 * Durée de garantie : durée de la garantie exprimée en mois ;
    Si une date de début de garantie ainsi qu'une durée de garantie sont positionnées, une information "Expirant le" apparaitra avec une date en rouge si celle-ci est antérieure à la date du jour ;
-* Alertes sur les informations financières et administratives : pour le déclenchement des notifications.
 
 L'ensemble des dates définies peut être géré automatiquement en fonction des changements de statut des matériels. Certaines dates peuvent également être copiées à partir d'une autre date. L'ensemble de cette configuration s'effectue par [entité](administration_entity_delegation.dita).
 

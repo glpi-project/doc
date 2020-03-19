@@ -15,64 +15,35 @@ Il est possible d'utiliser les :doc:`gabarits avec les ordinateurs <../generalit
 Les différents onglets
 ----------------------
 
+.. include:: onglets/os.rst
+
 .. include:: onglets/composants.rst
 
-Volumes
-~~~~~~~
+.. include:: onglets/volumes.rst
 
-Gestion des volumes des ordinateurs. Un volume lié à un ordinateur est caractérisé par son nom, la partition physique, son point de montage, son système de fichiers ainsi que sa taille. Il est également possible de définir la taille restant libre sur le volume.
-
-.. note::
-
-   En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
-
-
-Logiciels
-~~~~~~~~~
-
-Gestion des logiciels installés sur les ordinateurs. Ceux-ci sont triés par catégorie et sont caractérisés par leur nom, leur version ainsi que le statut de cette dernière.
-
-Si une licence est associée à l'utilisation de ce logiciel sur cet ordinateur, l'information sera également présentée.
-
-Pour installer un logiciel, sélectionner son nom dans la liste déroulante, puis sa version.
-
-.. note::
-
-    * La liste déroulante énumère les logiciels disponibles dans l'entité.
-    * La liste des logiciels disponibles se paramètre dans la :ref:`gestion des logiciels <gestion-logiciels>`.
-
-Pour associer une licence à cet ordinateur, sélectionner le logiciel puis la licence souhaitée dans la liste déroulante.
+.. include:: onglets/logiciels.rst
 
 .. include:: onglets/connexions.rst
 
 .. include:: onglets/ports-reseaux.rst
 
-.. include:: onglets/gestion.rst
+.. include:: ../onglets/gestion.rst
 
 .. include:: ../onglets/contrats.rst
 
 .. include:: ../onglets/documents.rst
 
-Virtualisation
-~~~~~~~~~~~~~~
+.. include:: onglets/virtualisation.rst
 
-Dans cet onglet, on retrouve tous les systèmes de virtualisation (machines virtuelles, containers, jails, ...) associés à un hôte (host) ou l'hôte sur lequel un système de virtualisation est installé. Les informations disponibles varient d'un système à l'autre, en fonction des information qu'il est effectivement possible d'obtenir.
-
-pour une machine virtuelle par exemple, on trouvera son nom, son système de virtualisation, son modèle de virtualisation, l'état de la machine virtuelle, la mémoire allouée ainsi que le nom de la machine physique (hôte) et le nombre de processeurs logiques.
-
-GLPI réalise actuellement la liaison entre un hôte et une machine virtuelle en se basant sur l'identifiant unique (uuid). Dans certains cas, il arrive que l'uuid soit différent au sein de la machine physique et virtuelle, la liaison est alors impossible.
-
-Le seul moyen d'associer manuellement une machine virtuelle à une machine physique est d'attribuer à la machine virtuelle déclarée sur l'hôte et à la machine virtuelle dans GLPI un uuid identique.
-
-.. note::
-
-   En cas d'utilisation d'un outil d'inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+.. include:: onglets/antivirus.rst
 
 .. include:: ../onglets/tickets.rst
 
-.. include:: onglets/problemes.rst
+.. include:: ../onglets/problemes.rst
 
-.. include:: ../onglets/liens.rst
+.. include:: ../onglets/changements.rst
+
+.. include:: onglets/liens.rst
 
 .. include:: ../onglets/notes.rst
 
