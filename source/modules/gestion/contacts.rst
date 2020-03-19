@@ -5,6 +5,10 @@ Les utilisateurs au sens de GLPI sont les personnes disposant d'un accès à l'a
 
 Chaque contact est caractérisé par les informations d'identité usuelles ainsi qu'un titre et des coordonnées téléphoniques, de messagerie et postales. La définition d'une liste de types de contacts permet de classer les contacts selon leur type. L'exportation au format vCard est possible dans la fiche de chaque contact.
 
+.. image:: images/contacts.png
+        :alt: Définition d'un contact dans GLPI
+        :align: center
+
 **Remarque :** la liste des titres possibles pour un contact est identique à celle des utilisateurs.
 
 Les différents onglets

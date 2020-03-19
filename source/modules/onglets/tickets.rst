@@ -5,19 +5,14 @@ Tickets
 
 Cet onglet permet d'ajouter un ticket à cet objet. Il liste également les tickets déjà liés à cet objet.
 
-Ce tableau récapitulatif comprend notamment pour chaque objet :
+.. note::
 
-* son statut,
-* sa date (d'ouverture ou d'échéance, de résolution ou de clôture suivant le statut du ticket),
-* sa priorité,
-* ses parties demandeurs et assignation,
-* ses éléments associés,
-* sa catégorie,
-* son titre,
-* une colonne indiquant le nombre de tâches planifiées.
+        La création d'un lien entre l'objet et un ticket déjà existant devra se faire depuis le ticket et non l'objet !
+
 
 .. image:: /modules/onglets/images/tickets.png
    :alt: Image de la liste des tickets
+   :align: center
 
 .. note::
    Un second tableau liste les tickets attachés aux éléments liés

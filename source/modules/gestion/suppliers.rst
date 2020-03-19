@@ -7,6 +7,10 @@ Lors de l'achat d'un matériel de marque XX à un fournisseur YY, il faut traite
 
 Un fournisseur se caractérise par un nom, un type de tiers (intitulé), des informations de localisation (adresse, code postal, ville, pays) et de contact (site web, téléphone et fax).
 
+.. image:: images/suppliers.png
+        :alt: Caractérisation d'un fournisseur
+        :align: center
+
 Sa gestion peut être globale à toutes les entités (champs Sous-entités à oui) ou locale.
 
 Un fournisseur est commun à toute les entités quand il s'agit d'un fournisseur global à l'entreprise ; il sera déclaré sur l'entité la plus haute et visible dans les sous-entités. 
@@ -56,6 +60,8 @@ L'onglet permet la consultation de tous les Changements sur lesquels le fourniss
 .. include:: ../onglets/external-links.rst
 
 .. include:: ../onglets/notes.rst
+
+.. include:: ../onglets/knowledgebase.rst
 
 .. include:: ../onglets/historical.rst
 
