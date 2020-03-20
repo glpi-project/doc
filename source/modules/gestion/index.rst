@@ -15,3 +15,4 @@ Le module Gestion permet aux utilisateurs de gérer les licences, les budgets, l
    documents
    lines
    data-centers
+   clusters

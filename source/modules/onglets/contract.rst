@@ -1,7 +1,7 @@
 Contrats associés
 ~~~~~~~~~~~~~~~~~
 
-Affiche les contrats associés au matériel et permet d'en associer de nouveaux.
+Cet onglet affiche les contrats associés à l'objet et permet d'en associer de nouveaux.
 
 
 .. image:: /modules/onglets/images/contract.png

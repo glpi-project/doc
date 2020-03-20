@@ -1,8 +1,18 @@
 Gérer les lignes
 ================
 
-Au sein de GLPI, il est possible de renseigner les lignes téléphoniques et de gérer leur affectation auprès des utilisateurs.
-Une ligne peut se définir par son type, son opérateur, son numéro, son lieu, etc.
+Au sein de GLPI, il est possible de renseigner les lignes téléphoniques. 
+
+Cette gestion a pour objectif:
+
+- d'inventorier toutes les lignes de l'organisation;
+- de permettre le suivi d'affectation des lignes;
+- permettre la gestion financière des lignes dans GLPI.
+
+
+.. image:: images/lines.png
+        :alt: Caractérisation d'une ligne téléphonique
+        :align: center
 
 Les différents onglets
 ----------------------
