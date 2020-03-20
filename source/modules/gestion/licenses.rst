@@ -1,4 +1,92 @@
 Gérer les licences
 ==================
 
+Au sein de GLPI, il est possible de matérialiser les licences logiciels.
+
+Cette gestion a pour objectif de fournir:
+
+- un inventaire des licences en lien avec les logiciels directement dans GLPI;
+- un suivi des installations de chaque licence sur les éléments du parc;
+- inclure les licences dans la gestion financière de GLPI;
+- anticiper et suivre le renouvellement des licences.
+
+.. note:: 
+        
+        Une licence ne peut pas exister au sein de GLPI sans un logiciel associé à sa création.
+
+        La gestion de licence reste statique, un suivi humain est nécessaire afin d'assurer l'actualisation des informations.
+
+
+.. image:: images/licenses.png
+        :alt: Caractérisation d'une licence
+        :align: center
+
+
+Les différents onglets
+----------------------
+
+Licences
+~~~~~~~~
+
+Cet onglet liste toutes les licences considérées comme enfant de la licence actuelle.
+
+.. note:: 
+
+        Certaines licences peuvent s'obtenir par pack ou par groupe de licence (pour un lieu spécifique par exemple), il est donc intéressant de les lier.
+
+.. image:: images/child-licenses.png
+        :alt: Liste des licences fille
+        :align: center
+
+
+Résumé
+~~~~~~
+
+Cet onglet liste tous les types et les entités des éléments du parc concernés par cette licence.
+
+.. note::
+
+        Attention au nombre d'installation/licence disponible défini dans le champ Nombre de la licence.
+        
+        La création du lien entre un élément du parc et la licence se fait dans l'onglet Logiciels de l'élément.
+
+.. image:: images/resume-licenses.png
+        :alt: Liste des types d'éléments concernés par la licence.
+        :align: center
+
+Eléments
+~~~~~~~~
+
+Cet onglet liste précisément chaque élément relié à la licence actuelle.
+
+.. image:: images/elements-licenses.png
+        :alt: Liste des éléments concernés par la licence
+        :align: center
+
+
+.. include:: ../onglets/management.rst
+
+.. include:: ../onglets/contract.rst
+
+.. include:: ../onglets/documents.rst
+
+.. include:: ../onglets/knowledgebase.rst
+
+.. include:: ../onglets/tickets.rst
+
+.. include:: ../onglets/problems.rst
+
+.. include:: ../onglets/changes.rst
+
+.. include:: ../onglets/notes.rst
+
+
+Certificats
+~~~~~~~~~~~
+
 TODO
+
+
+.. include:: ../onglets/historical.rst
+
+.. include:: ../onglets/all.rst
