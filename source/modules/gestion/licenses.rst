@@ -21,6 +21,7 @@ Cette gestion a pour objectif de fournir:
         :alt: Caractérisation d'une licence
         :align: center
 
+.. include:: ../onglets/templates.rst
 
 Les différents onglets
 ----------------------
