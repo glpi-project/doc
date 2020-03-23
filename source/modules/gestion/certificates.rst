@@ -9,6 +9,7 @@ Les certificats dans GLPI se définissent par les champs classiques disponibles 
         - Certificat: permet de stocker les "blocs" de données relatifs au certificat
         - Date d'expiration: champ utile quand il est couplé aux alertes et notifications.
 
+.. include:: ../onglets/templates.rst
 
 Les différents onglets
 ----------------------

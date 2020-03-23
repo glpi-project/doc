@@ -16,7 +16,7 @@ Il peut également être défini sur plusieurs entités (récursivité).
 
    Important : Ce total est négatif si le total de la valeur des matériels est plus élevée que la valeur du budget.
 
-Il est possible d'utiliser les :doc:`gabarits avec les budgets <../generalites/gabarits>`.
+.. include:: ../onglets/templates.rst
 
 Les différents onglets
 ----------------------

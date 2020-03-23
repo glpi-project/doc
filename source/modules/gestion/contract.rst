@@ -11,7 +11,7 @@ Un contrat regroupe différents types d'informations :
 
 Il est possible d'être alerté par courriel sur différents éléments du contrat (fin, préavis, fin de période...).
 
-Il est possible d'utiliser les :doc:`gabarits avec les contrats <../generalites/gabarits>`.
+.. include:: ../onglets/templates.rst
 
 Description des champs
 ----------------------
