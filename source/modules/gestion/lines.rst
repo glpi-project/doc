@@ -6,7 +6,7 @@ Au sein de GLPI, il est possible de renseigner les lignes téléphoniques.
 Cette gestion a pour objectif:
 
 - d'inventorier toutes les lignes de l'organisation;
-- de permettre le suivi d'affectation des lignes;
+- de permettre le suivi d'affectation de chaque ligne;
 - permettre la gestion financière des lignes dans GLPI.
 
 
