@@ -1,9 +1,15 @@
 Gérer les budgets
 =================
 
-Un budget dans GLPI se définit par un nom, une valeur et une période pendant laquelle le budget a été alloué, elle même définie par une date de début ainsi qu'une date de fin.
+Un budget dans GLPI, c'est la définition d'un montant sur une période donnée. Les autre éléments de GLPI peuvent être attachés à un budget et ainsi piocher dans ce dernier en indiquant leur valeur.
 
-Il peut également être défini sur plusieurs entités (récursivité).
+Matérialiser un budget au sein de GLPI ouvre la fonctionnalité de gestion administrative et financière pour tous les autres éléments présents dans l'outil.
+
+Il est possible de suivre l'évolution du budget en traçant la valeur de chaque élément rattachés.
+
+.. note::
+
+        Lier un élément de GLPI avec un budget se passe dans l'onglet Gestion de l'élément !
 
 
 .. image:: images/budgets.png
@@ -24,7 +30,7 @@ Les différents onglets
 Principal
 ~~~~~~~~~
 
-Cet onglet fournit un tableau récapitulant le montant dépensé sur le budget ainsi que le total restant.
+Cet onglet fournit un tableau récapitulant le montant dépensé sur le budget par type d'éléments ainsi que le total restant.
 
 .. image:: images/main-budgets.png
         :alt: Tableau récapitulatif du budget
@@ -33,7 +39,7 @@ Cet onglet fournit un tableau récapitulant le montant dépensé sur le budget a
 Eléments
 ~~~~~~~~~
 
-Cet onglet permet de visualiser les éléments attachés à ce budget ainsi que leur valeur.
+Cet onglet permet de visualiser les autres éléments de GLPI attachés à ce budget ainsi que leur valeur.
 
 .. image:: images/elements-budgets.png
 

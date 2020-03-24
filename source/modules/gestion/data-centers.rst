@@ -34,9 +34,9 @@ En liaison avec l'onglet suivant, c'est ici que pourra être également défini 
 Baies
 ~~~~~
 
-Cet onglet permet d'obtenir le plan graphique conçu dans l'onglet précédent. Pourront être ajoutées directement sur le plan, les différentes baies qui composent la salle.
+Cet onglet permet d'obtenir le plan graphique conçu dans l'onglet précédent. Pourront être ajoutées directement sur le plan, les différentes baies informatiques qui composent la salle.
 
-Si beaucoup d'éléments sont présents, il est possible de passer sur une vue en mode liste pour gagner en efficacité.
+Si beaucoup d'éléments sont présents, il est possible de passer sur une vue en mode liste.
 
 .. image:: images/plan-servers-room.png
         :alt: Plan représentatif d'une salle serveur
