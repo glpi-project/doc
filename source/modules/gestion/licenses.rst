@@ -5,7 +5,7 @@ Au sein de GLPI, il est possible de matérialiser les licences logiciels.
 
 Cette gestion a pour objectif de fournir:
 
-- un inventaire des licences en lien avec les logiciels directement dans GLPI;
+- un inventaire des licences en lien avec les logiciels déjà inventoriés dans GLPI;
 - un suivi des installations de chaque licence sur les éléments du parc;
 - inclure les licences dans la gestion financière de GLPI;
 - anticiper et suivre le renouvellement des licences.
