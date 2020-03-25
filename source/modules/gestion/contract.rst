@@ -1,15 +1,14 @@
 Gérer les contrats
 ==================
 
-Les contrats concernent les accords établis entre des tiers. Des objets d'inventaire sont associables à un contrat. Cette fonctionnalité permet de couvrir tout type de contrat réalisé tel que les prêts, contrats de maintenance...
+Glpi intègre la gestion des contrats. Cette fonctionnalité permet de couvrir tout type de contrat réalisé tel que les prêts, contrats de maintenance, contrat de support, etc.
+Cette gestions a pour objectif:
 
-Un contrat regroupe différents types d'informations :
+- de fournir un inventaire de tous les contrats relatifs au parc informatique de l'organisation;
+- d'intégrer les contrats dans la gestion financière de GLPI;
+- d'anticiper et suivre le renouvellement des contrats.
 
--   des informations générales (nom, type, numéro) ;
--   des informations temporelles (date de début, durée, périodicité, heures d'intervention). Les plages horaires sont intéressantes dans le cadre d'un contrat de maintenance ou d'infogérance par exemple ;
--   des informations comptables (reconduction, durée de préavis, périodicité de facturation).
-
-Il est possible d'être alerté par courriel sur différents éléments du contrat (fin, préavis, fin de période...).
+.. image:: images/contract.png
 
 .. include:: ../onglets/templates.rst
 
@@ -29,16 +28,23 @@ Description des champs
 
 Les différents onglets
 ----------------------
--   **Onglet "Coûts"**
-    Les éléments de coûts peuvent être saisi indépendamment (coût initial, coût avenant...).
-    Chaque élément peut être lié à un budget différent (voir [Gérer les budgets](05_Module_Gestion/02_Budgets.rst "Les budgets sont gérés depuis le menu Gestion > Budgets")).
-    Sous la possibilité d'ajout de nouveaux coûts, un tableau récapitule les coûts déja enregistrés ainsi que le coût total pour ce contrat.
 
--   **[Onglet "Fournisseurs"](Les_différents_onglets/Onglet_Fournisseurs.rst)**
-    Gérer les informations financières et administratives
+Coûts
+~~~~~
 
--   **[Onglet "Eléments"](Les_différents_onglets/Onglet_Eléments.rst)**
-    Cet onglet permet d'ajouter et de visualiser les éléments attachés à ce contrat.
+Cet onglet permet de définir un coût relatif au contrat sur un budget présent dans GLPI. C'est à dire imputé une valeur sur le montant total du budget sélectionné qui sera attribué au type d'objet Contrat.
+
+.. image:: images/cost-contract.png
+
+
+Fournisseurs
+~~~~~~~~~~~~
+
+Dans cet onglet, il est possible d'associer un ou plusieurs fournisseurs au contrat actuel.
+
+.. image:: images/suppliers-contract.png
+
+.. include:: ../onglets/elements.rst
 
 .. include:: ../onglets/documents.rst
 

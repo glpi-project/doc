@@ -11,12 +11,6 @@ Un fournisseur se caractérise par un nom, un type de tiers (intitulé), des inf
         :alt: Caractérisation d'un fournisseur
         :align: center
 
-Sa gestion peut être globale à toutes les entités (champs Sous-entités à oui) ou locale.
-
-Un fournisseur est commun à toute les entités quand il s'agit d'un fournisseur global à l'entreprise ; il sera déclaré sur l'entité la plus haute et visible dans les sous-entités. 
-Par contre, un fournisseur local à une entité sera créé par le gestionnaire de parc de celle-ci, et sera seulement visible dans ce périmètre. 
-Bien entendu, une personne ayant une visibilité récursive sur toutes les entités verra à la fois les fournisseur globaux et locaux.
-
 
 Les différents onglets
 ----------------------

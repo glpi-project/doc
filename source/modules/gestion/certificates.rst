@@ -1,15 +1,22 @@
 Gérer les certificats
 =====================
 
-Les certificats dans GLPI se définissent par les champs classiques disponibles dans tous les objets GLPI comme un Nom, un Type, un Lieu ou un Fabricant. Mais aussi par des champs spécifiques permettant de stocker et d'organiser les données rélatives à chaque certificat, comme:
-        
-        - Nom DNS: le nom à protéger par le certificat
-        - Commande utilisée: permet de stocker la commande (CLI)
-        - Requête pour le certificat: permet de stocker le CSR
-        - Certificat: permet de stocker les "blocs" de données relatifs au certificat
-        - Date d'expiration: champ utile quand il est couplé aux alertes et notifications.
+Au sein de GLPI, il est possible de matérialiser les certificats.
+
+Cette gestion a pour objectif de fournir:
+
+- un inventaire de tous les certificats de l'organisation;
+
+- un suivi des installations de chaque certificat sur les éléments du parc;
+
+- inclure les certificats dans la gestion financière de GLPI;
+
+- anticiper et suivre le renouvellement des certificats.
+
+.. image:: images/certificates.png
 
 .. include:: ../onglets/templates.rst
+
 
 Les différents onglets
 ----------------------
