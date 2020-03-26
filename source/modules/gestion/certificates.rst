@@ -17,6 +17,17 @@ Cette gestion a pour objectif de fournir:
 
 .. include:: ../onglets/templates.rst
 
+Description des champs spécifiques
+----------------------------------
+
+- **Fabricant (CA de l'autorité racine)**: Cette liste déroulante permet de sélectionner et ajouter le fabricant du certificat;
+- **Auto-signé**:  Permet d'indiquer si,oui ou non, le certificat actuel est auto-signé;
+- **Nom DNS**: Ici est à saisir le préfixe du nom protégé par le certificat. Exemple: server.mycompany.com -> server;
+- **Suffixe DNS**: Ici est à saisir le suffixe DNS du nom protégé par le certificat. Exemple: server.mycompany.com -> mycompany.com
+- **Date d'expiration**: Permet de définir la fin de validité du certificat. Champ utile pour les alertes GLPI.
+- **Commande utilisée**: Ici peut être copier la commande système (CLI) qui a généré le certificat.
+- **Requête pour le certificat (CSR)**: Ici peut être copier la commande système (CLI) qui a généré le fichier CSR.
+- **Certificat**: Peut être saisi ici, les données contenues dans le fichier CRT (PEM).
 
 Les différents onglets
 ----------------------

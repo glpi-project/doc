@@ -12,16 +12,16 @@ Cette gestions a pour objectif:
 
 .. include:: ../onglets/templates.rst
 
-Description des champs
-----------------------
--   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. Voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.rst "Les intitulés se configurent depuis le menu Configuration > Intitulés") ;
+Description des champs spécifiques
+----------------------------------
+-   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. 
 -   **Numéro**: cette information n'est pertinente que si le numéro de contrat est identique à celui utilisé au sein des autres services de la société ;
 -   **Date de début** : à ne pas confondre avec la date d'enregistrement du contrat dans GLPI. Tous les calculs de périodicité sur le contrat sont donc fonction de cette date ;
 -   **Durée initiale du contrat** : si ce champ et la date de début sont renseignés, la date de fin de contrat apparaitra (en rouge si la date a expirée) ;
--   **Préavis** : ce champ peut servir également au déclenchement des notifications d'alerte ;
+-   **Préavis** : ce champ peut servir au déclenchement des notifications d'alerte ;
 -   **Numéro comptable** : pour permettre un rapprochement avec le logiciel comptable de la société ;
 -   **Périodicité du contrat** : c'est la durée à laquelle la reconduction du contrat est possible (*Exemple : Un contrat d'abonnement téléphonique d'une durée de 24 mois renouvelable au bout de 12 mois*) ;
--   **Périodicité de facturation** :
+-   **Périodicité de facturation** : C'est la durée entre chaque facture.
 -   **Type de reconduction** : *Tacite* (le contrat est reconductible automatiquement d'une période à une autre si aucune des parties ne manifeste sa volonté de le rompre) ou *Expresse* (nécessite l'accord des deux parties pour la reconduction du contrat) ;
 -   **Nombre max d'éléments** : la valeur choisie dans ce champ bloquera ou non l'ajout de nouvel éléments attachés à ce contrat ;
 -   **Heures d'intervention** : Les plages horaires d'intervention correspondent aux horaires d'intervention couvert par le contrat. Il est possible d'y distinguer les samedis et les jours chômés.
