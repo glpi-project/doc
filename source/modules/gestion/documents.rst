@@ -10,13 +10,14 @@ Le fichier physique correspondant au document peut être ajouté dans GLPI de pl
 -   En parcourant le disque dur local ;
 -   En renseignant un lien web pointant vers un document (*une image, une page web, un PDF...*) ;
 -   En précisant un fichier préalablement chargé par FTP (*dans le dossier /mon_glpi/files/_uploads/*)
-
-Enfin un type MIME peut aussi être indiqué. Pour une liste de valeurs possible, référez-vous à l'adresse suivante :*[http://fr.wikipedia.org/wiki/Type\_mime\#Liste\_de\_media\_type\_usuels](http://fr.wikipedia.org/wiki/Type_mime#Liste_de_media_type_usuels)*.
+-   Enfin un type MIME peut aussi être indiqué. 
 
 **Remarques :**
 *- Les types de documents autorisés dans GLPI (selon leur extension) sont définis dans **Configuration > Intitulés > Gestion > Type de document.***
 *- Les rubriques de documents peuvent être hiérarchiques.*
 *- L'option **Interdire à l'importation** permet d'exclure ce document à l'importation via les collecteurs (images de signatures, logos...).*
+
+.. image:: images/documents.png
 
 Les différents onglets
 ----------------------

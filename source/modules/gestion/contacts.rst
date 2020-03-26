@@ -9,7 +9,8 @@ Chaque contact est caractérisé par les informations d'identité usuelles ainsi
         :alt: Définition d'un contact dans GLPI
         :align: center
 
-**Remarque :** la liste des titres possibles pour un contact est identique à celle des utilisateurs.
+.. note::
+        La liste des titres possibles pour un contact est identique à celle des utilisateurs.
 
 Les différents onglets
 ----------------------
