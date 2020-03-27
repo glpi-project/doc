@@ -28,9 +28,9 @@ Description des champs spécifiques
 - **Comme enfant de**: Permet d'indiquer si la licence est dépendante d'une autre;
 - **Version utilisée**: C'est la version du logiciel qui sera associée à la licence;
 - **Version d'achat**: La version d'achat peut différer de la version actuellement utilisée, elle est indiquable ici;
-- **Nombre**: Ce nombre sera le nombre de lien possibles entre la licence et les matériels dans GLPI;
-- **Autoriser la surconsommation (Allow Over-Quota)**: Permet d'autoriser ou non le dépassement du nombre de lien configurés au dessus;
-- **Expiration**: La date de la limite de validité de la licence. Champ utile pour configurer les alertes. 
+- **Nombre**: Ici pourra être indiqué le nombre de lien possibles entre la licence et les matériels dans GLPI;
+- **Autoriser la surconsommation (Allow Over-Quota)**: Permet d'autoriser ou non le dépassement du nombre de lien maximum configurés au dessus;
+- **Expiration**: La date de fin de validité de la licence. Champ utile pour configurer les alertes et anticiper le renouvellement.
 
 Les différents onglets
 ----------------------
