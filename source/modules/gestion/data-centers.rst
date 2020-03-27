@@ -2,12 +2,14 @@ Gérer les centres de données
 ============================
 
 
-GLPI permet la gestion des centres de données et plus précisément la gestion des salles serveurs.
-Renseigner les centres et salles dans GLPI permettra de centraliser les informations sur les matériels rackés.
+GLPI permet la gestion des centres de données et plus précisément la gestion des salles serveurs et des baies informatiques qui les composent.
 
-Chaque salle serveur pourra bénéficier d'un plan afin de représenter graphiquement la salle, les baies ou tout autres matériels.
+Cette gestion a pour objectif de fournir:
 
-Comme tous les objets GLPI, le cycle de vie, les informations administratives ainsi que la liaison avec les autre objets de GLPI est possible.
+- Un inventaire des centres, salles et baies informatiques de l'organisation;
+- tous les autres modules au service des centres, salles et baies (notamment le module Parc qui permet une réprésentation graphique détaillées des baies);
+- la possibilité d'inclure ces objets dans la gestion financière de GLPI.
+
 
 
 Les différents onglets (salle serveur)
@@ -42,12 +44,32 @@ Si beaucoup d'éléments sont présents, il est possible de passer sur une vue e
         :alt: Plan représentatif d'une salle serveur
         :align: center
 
+Analyse d'impact
+~~~~~~~~~~~~~~~~
+
+Cet onglet permet de consulter et de construire le schéma d'impact du point de vue de l'objet.
+
+.. image:: images/impact-datacenters.png
+
+
 .. include:: ../onglets/management.rst
 
 .. include:: ../onglets/contract.rst
 
 .. include:: ../onglets/documents.rst
 
+.. include:: ../onglets/external-links.rst
+
 .. include:: ../onglets/tickets.rst
+
+.. include:: ../onglets/problems.rst
+
+.. include:: ../onglets/changes.rst
+
+.. include:: ../onglets/historical.rst
+
+.. include:: ../onglets/all.rst
+
+
 
 

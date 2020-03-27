@@ -20,10 +20,8 @@ Les différents onglets
 Records
 ~~~~~~~
 
-Dans cet onglet, il est possible d'ajouter ou de créer un enregistrement de domaine à associer au domaine actuel.
+Dans cet onglet, il est possible de sélectionner ou de créer un enregistrement de domaine à associer au domaine actuel.
 
-
-      
 
 .. image:: images/recordslist-domains.png
         :alt: Liste des enregistrements associables

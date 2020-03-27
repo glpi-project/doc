@@ -9,6 +9,14 @@ Un Cluster GLPI est un regroupement de plusieurs éléments du parc. Peut rejoin
 
 .. image:: images/clusters.png
 
+Description des champs spécifiques
+----------------------------------
+
+- **UUID**: TODO
+- **Version**: TODO
+- **Source de mise à jour**: TODO
+
+
 Les différents onglets
 ----------------------
 
