@@ -28,10 +28,15 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   **[Ajouter un contact](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
--   **[Voir un contact](Les_différentes_actions/Visualiser_un_objet.rst)**
--   **[Modifier un contact](Les_différentes_actions/Modifier_un_objet.rst)**
--   **[Supprimer un contact](Les_différentes_actions/Supprimer_un_objet.rst)**
+-   :doc:`Ajouter un contact <../../Les_différentes_actions/creer_un_nouvel_objet>`
+
+-   :doc:`Visualiser un contact <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un contact <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un contact <../../Les_différentes_actions/supprimer_un_objet>`
+
+
 -   **[Associer un document à un contact](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
 -   **[Associer un contact à un fournisseur](Les_différentes_actions/Lier_contacts_et_fournisseurs.rst)**
 -   **[Transférer un contact vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**

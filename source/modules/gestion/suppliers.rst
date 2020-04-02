@@ -7,6 +7,12 @@ Lors de l'achat d'un matériel de marque XX à un fournisseur YY, il faut traite
 
 Un fournisseur se caractérise par un nom, un type de tiers (intitulé), des informations de localisation (adresse, code postal, ville, pays) et de contact (site web, téléphone et fax).
 
+Cette gestion à pour objectif, notamment:
+
+- de référencer tous les fournisseurs relatifs au parc informatique de l'organisation;
+- d'optimiser le contact en cas d'incident;
+- de permettre d'inclure les fournisseurs dans l'Assistance de GLPI.
+
 .. image:: images/suppliers.png
         :alt: Caractérisation d'un fournisseur
         :align: center
