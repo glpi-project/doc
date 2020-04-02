@@ -12,9 +12,9 @@ Un Cluster GLPI est un regroupement de plusieurs éléments du parc. Peut rejoin
 Description des champs spécifiques
 ----------------------------------
 
-- **UUID**: TODO
-- **Version**: TODO
-- **Source de mise à jour**: TODO
+- **UUID**: Identifiant unique du cluster
+- **Version**: Dans le cas d'un cluster logiciel ou autre, la version peut être indiquée
+- **Source de mise à jour**: Ce champ représente la manière dont la fiche de l'objet dans GLPI a été mise à jour
 
 
 Les différents onglets

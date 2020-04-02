@@ -94,7 +94,9 @@ Cet onglet liste précisément chaque élément relié à la licence actuelle.
 Certificats
 ~~~~~~~~~~~
 
-TODO
+Dans cet onglet, il est possible d'associer un certificat, présent dans GLPI, à une licence.
+
+.. image:: images/certificates-licenses.png
 
 
 .. include:: ../onglets/historical.rst
