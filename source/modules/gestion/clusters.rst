@@ -61,3 +61,17 @@ Les interfaces possibles:
 .. include:: ../onglets/historical.rst
 
 .. include:: ../onglets/all.rst
+
+Les différentes actions
+-----------------------
+-   :doc:`Ajouter un cluster <../../Les_différentes_actions/creer_un_nouvel_objet>`
+
+-   :doc:`Visualiser un cluster <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un cluster <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un cluster <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un cluster <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un cluster <../../Les_différentes_actions/transferer_un_objet>`

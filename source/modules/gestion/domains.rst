@@ -54,3 +54,18 @@ Dans cet onglet, il est possible de sélectionner ou de créer un enregistrement
 .. include:: ../onglets/historical.rst
 
 .. include:: ../onglets/all.rst
+
+Les différentes actions
+-----------------------
+
+-   :doc:`Ajouter un domaine <../../Les_différentes_actions/creer_un_nouvel_objet>`
+
+-   :doc:`Visualiser un domaine <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un domaine <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un domaine <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un domaine <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un domaine <../../Les_différentes_actions/transferer_un_objet>`

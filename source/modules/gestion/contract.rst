@@ -58,16 +58,20 @@ Dans cet onglet, il est possible d'associer un ou plusieurs fournisseurs au cont
 
 .. include:: ../onglets/all.rst
 
-
 Les différentes actions
 -----------------------
--   **[Ajouter un contrat](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
--   **[Voir un contrat](Les_différentes_actions/Visualiser_un_objet.rst)**
--   **[Modifier un contrat](Les_différentes_actions/Modifier_un_objet.rst)**
--   **[Supprimer un contrat](Les_différentes_actions/Supprimer_un_objet.rst)**
--   **[Associer un document à un contrat](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
--   **[Transférer un contrat vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**
--   **Paramétrer les alertes sur les contrats**
+-   :doc:`Ajouter un contrat <../../Les_différentes_actions/creer_un_nouvel_objet>`
+
+-   :doc:`Visualiser un contrat <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un contrat <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un contrat <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un contrat <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un contrat <../../Les_différentes_actions/transferer_un_objet>`
+
     Il est possible de recevoir des notifications pour prévenir d'événements tels que la fin du contrat.
     Dans le cas ou la reconduction du contrat serait expresse, il peut être intéressant d'être alerté à la date du préavis. Pour les contrats périodiques il est également possible d'être alerté à la
     fin de chaque période ou préavis de période.

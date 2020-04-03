@@ -70,11 +70,19 @@ L'onglet permet la consultation de tous les Changements sur lesquels le fourniss
 Les différentes actions
 -----------------------
 
-Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux fournisseurs :
+-   :doc:`Ajouter un fournisseur <../../Les_différentes_actions/creer_un_nouvel_objet>`
 
-*  **Associer un élément à un fournisseur**
-    Il suffit de choisir ce fournisseur dans l'onglet *Gestion* de l'objet.
-* Associer un contact à un fournisseur
+-   :doc:`Visualiser un fournisseur <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un fournisseur <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un fournisseur <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un fournisseur <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un fournisseur <../../Les_différentes_actions/transferer_un_objet>`
+
+
 
    La distinction est clairement établie entre le fournisseur, qu'il est possible de lier de manière univoque à des éléments d'inventaire et les contacts, qui composent la liste des personnes permettant d'entrer en relation avec ce fournisseur. Pour établir cette liste, il faut donc associer les contacts au fournisseur concerné.
 

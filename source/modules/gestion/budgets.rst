@@ -62,7 +62,14 @@ Cet onglet permet de visualiser les autres éléments de GLPI attachés à ce bu
 Les différentes actions
 -----------------------
 
-Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux budgets :
+-   :doc:`Ajouter un budget <../../Les_différentes_actions/creer_un_nouvel_objet>`
 
-* **Associer un élément à un budget**
-   Il suffit de choisir ce budget dans l'onglet *Gestion* de l'objet.
+-   :doc:`Visualiser un budget <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un budget <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un budget <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un budget <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un budget <../../Les_différentes_actions/transferer_un_objet>`

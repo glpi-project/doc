@@ -71,5 +71,17 @@ Cet onglet permet de consulter et de construire le schéma d'impact du point de 
 .. include:: ../onglets/all.rst
 
 
+Les différentes actions
+-----------------------
+-   :doc:`Ajouter un centre de données <../../Les_différentes_actions/creer_un_nouvel_objet>`
 
+-   :doc:`Visualiser un centre de données <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un centre de données <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un centre de données <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un centre de données <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un centre de données <../../Les_différentes_actions/transferer_un_objet>`
 
