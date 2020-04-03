@@ -38,9 +38,15 @@ Il est possible d'associer d'autres documents à un document de GLPI, c'est pour
 
 Les différentes actions
 -----------------------
--   **[Ajouter un document](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
--   **[Voir un document](Les_différentes_actions/Visualiser_un_objet.rst)**
--   **[Modifier un document](Les_différentes_actions/Modifier_un_objet.rst)**
--   **[Supprimer un document](Les_différentes_actions/Supprimer_un_objet.rst)**
--   **[Associer un document à un autre document](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
--   **[Transférer un document vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**
+
+-   :doc:`Ajouter un document <../../Les_différentes_actions/creer_un_nouvel_objet>`
+
+-   :doc:`Visualiser un document <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier un document <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer un document <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à un document <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer un document <../../Les_différentes_actions/transferer_un_objet>`

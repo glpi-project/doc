@@ -102,3 +102,19 @@ Dans cet onglet, il est possible d'associer un certificat, présent dans GLPI, �
 .. include:: ../onglets/historical.rst
 
 .. include:: ../onglets/all.rst
+
+
+Les différentes actions
+-----------------------
+
+-   :doc:`Ajouter une licence <../../Les_différentes_actions/creer_un_nouvel_objet>`
+
+-   :doc:`Visualiser une licence <../../Les_différentes_actions/visualiser_un_objet>`
+
+-   :doc:`Modifier une licence <../../Les_différentes_actions/modifier_un_objet>`
+
+-   :doc:`Supprimer une licence <../../Les_différentes_actions/supprimer_un_objet>`
+
+-   :doc:`Associer un document à une licence <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+
+-   :doc:`Transférer une licence <../../Les_différentes_actions/transferer_un_objet>`

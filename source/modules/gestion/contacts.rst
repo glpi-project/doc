@@ -36,7 +36,8 @@ Les différentes actions
 
 -   :doc:`Supprimer un contact <../../Les_différentes_actions/supprimer_un_objet>`
 
+-   :doc:`Associer un document à un contact <../../Les_différentes_actions/associer_un_document_a_un_objet>`
 
--   **[Associer un document à un contact](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
--   **[Associer un contact à un fournisseur](Les_différentes_actions/Lier_contacts_et_fournisseurs.rst)**
--   **[Transférer un contact vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**
+-	:doc:`Associer un fournisseur à un contact <../../Les_différentes_actions/associer_un_fournisseur_et_un_contact>`
+
+-   :doc:`Transférer un contact <../../Les_différentes_actions/transferer_un_objet>`
