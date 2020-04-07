@@ -11,38 +11,64 @@ Cette gestion a pour objectif de fournir:
 - la possibilité d'inclure ces objets dans la gestion financière de GLPI.
 
 
+Objet Centre de données
+-----------------------
 
-Les différents onglets (salle serveur)
---------------------------------------
+Le centre de données en lui même est un objet très simpliste dans GLPI. Il se matérialise sous la forme d'un nom et d'un lieu et permet uniquement de regrouper des salles serveurs.
 
-Salle serveurs
-~~~~~~~~~~~~~~
+.. image:: images/data-centers.png
+		:alt: Caractérsation d'un centre de données
+		:align: center
 
-L'onglet principal d'une salle serveurs. Dans celui, il pourra être défini le nom, le lieu et le centre de données dans lequel la salle se trouve.
+Les différents onglets
+~~~~~~~~~~~~~~~~~~~~~~
 
-En liaison avec l'onglet suivant, c'est ici que pourra être également défini la taille du plan ainsi qu'une image d'arrière plan pour ce dernier.
+Salles serveurs
+~~~~~~~~~~~~~~~
 
-.. note::
+Cet onglet liste les salles serveurs attachées au centre de données actuel et permet également d'en ajouter.
 
-        Le plan sera une grille définie par un nombre de colonnes et de lignes.
-        Il est d'usage de dire qu'une case = 1m carré, car l'objet Baie consomme 1 case.
-        
-        L'arrière plan peut grandement aider à la visualisation de la salle, notamment si celui ci a été généré avec un outil adapté à la représentation de salle.
+.. image:: images/serversrooms-data-centers.png
+		:alt: Liste des salles serveurs attachées au centre
+		:align: center
+
+
+.. include:: ../onglets/all.rst
+
+
+Objet Salle Serveur 
+-------------------
+
+Une salle serveur dans GLPI se matérialise sour forme d'un plan schématique. Ce plan réprésentera l'espace disponible dans la salle de la serveur. Cet espace sera utilisé pour y définir et placer les objets Baies de GLPI.
+
+La salle serveur est associable à un centre de données et un lieu.
+
 
 .. image:: images/servers-room.png
         :alt: Définition d'une salle serveur
         :align: center
 
+.. note::
+
+        Le plan sera une grille définie par un nombre de colonnes et de lignes.
+        1 Baie consomme 1 case.
+        
+        L'arrière plan peut grandement aider à la visualisation de la salle, notamment si celui ci a été généré avec un outil adapté à la représentation d'espace.
+
+Les différents onglets
+~~~~~~~~~~~~~~~~~~~~~~
+
 Baies
 ~~~~~
 
-Cet onglet permet d'obtenir le plan graphique conçu dans l'onglet précédent. Pourront être ajoutées directement sur le plan, les différentes baies informatiques qui composent la salle.
+Cet onglet permet de consulter et d'agir sur le plan de la salle serveur. Pourront être ajoutées directement sur le plan, les différentes baies informatiques qui composent la salle.
 
 Si beaucoup d'éléments sont présents, il est possible de passer sur une vue en mode liste.
 
 .. image:: images/plan-servers-room.png
         :alt: Plan représentatif d'une salle serveur
         :align: center
+
 
 Analyse d'impact
 ~~~~~~~~~~~~~~~~
@@ -84,4 +110,6 @@ Les différentes actions
 -   :doc:`Associer un document à un centre de données <../../Les_différentes_actions/associer_un_document_a_un_objet>`
 
 -   :doc:`Transférer un centre de données <../../Les_différentes_actions/transferer_un_objet>`
+
+-	:doc:`Visualier la liste des salles serveurs <../../Les_différentes_actions/visualiser_liste_ salles_serveurs>`
 
