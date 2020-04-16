@@ -6,6 +6,9 @@ Glossaire
    Accepté
       État d'une demande qui a été validée par un valideur.
 
+   Actions
+      Regroupement des manipulations disponibles sur les objets de GLPI dans une liste.
+
    Règle adaptative
       Règle dont au moins une action est le résultat d'une expression rationnelle définie dans un critère.
 
@@ -223,6 +226,9 @@ Glossaire
    Plugin
       Extension de GLPI permettant l'ajout d'une ou plusieurs fonctionnalités et/ou la modification de certains comportements de l'application.
 
+   PDU
+      Unité de distribution d'alimentation.
+
    Alimentation
       Bloc fournissant le courant électrique aux composants de l'ordinateur.
 
@@ -249,6 +255,9 @@ Glossaire
 
    Purge
       Suppression définitive des éléments précédemment placés dans la corbeille.
+
+   Recherche sauvegardée
+      Enregistrement de l'état actuel du moteur de recherche de GLPI permettant de conserver les recherches.
 
    Collecteur
       Fonctionnalité de GLPI permettant de créer des tickets ou des suivis en important des messages d'une boîte de messagerie.
@@ -369,6 +378,12 @@ Glossaire
 
    Valideur
       Personne effectuant la validation.
+
+   Vue globale
+      Affichage, commun à tous les utilisateurs, des colonnes dans une liste d'un menu de GLPI.
+
+   Vue personnelle
+      Affichage, propre à chaque utilisateur, des colonnes dans une liste d'un menu de GLPI.
 
    vCard
       Carte de visite virtuelle.
