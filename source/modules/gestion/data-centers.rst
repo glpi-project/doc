@@ -6,13 +6,13 @@ GLPI permet la gestion des centres de données et plus précisément la gestion 
 
 Cette gestion a pour objectif de fournir:
 
-- Un inventaire des centres, salles et baies informatiques de l'organisation;
-- tous les autres modules au service des centres, salles et baies (notamment le module Parc qui permet une réprésentation graphique détaillées des baies);
-- la possibilité d'inclure ces objets dans la gestion financière de GLPI.
+* Un inventaire des centres, salles et baies informatiques de l'organisation;
+* tous les autres modules au service des centres, salles et baies (notamment le module Parc qui permet une réprésentation graphique détaillées des baies);
+* la possibilité d'inclure ces objets dans la gestion financière de GLPI.
 
 
-Objet Centre de données
------------------------
+Centre de données
+-----------------
 
 Le centre de données en lui même est un objet très simpliste dans GLPI. Il se matérialise sous la forme d'un nom et d'un lieu et permet uniquement de regrouper des salles serveurs.
 
@@ -36,8 +36,8 @@ Cet onglet liste les salles serveurs attachées au centre de données actuel et 
 .. include:: ../onglets/all.rst
 
 
-Objet Salle Serveur 
--------------------
+Salle Serveur 
+-------------
 
 Une salle serveur dans GLPI se matérialise sour forme d'un plan schématique. Ce plan réprésentera l'espace disponible dans la salle de la serveur. Cet espace sera utilisé pour y définir et placer les objets Baies de GLPI.
 
@@ -99,17 +99,11 @@ Cet onglet permet de consulter et de construire le schéma d'impact du point de 
 
 Les différentes actions
 -----------------------
--   :doc:`Ajouter un centre de données <../../Les_différentes_actions/creer_un_nouvel_objet>`
-
--   :doc:`Visualiser un centre de données <../../Les_différentes_actions/visualiser_un_objet>`
-
--   :doc:`Modifier un centre de données <../../Les_différentes_actions/modifier_un_objet>`
-
--   :doc:`Supprimer un centre de données <../../Les_différentes_actions/supprimer_un_objet>`
-
--   :doc:`Associer un document à un centre de données <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-
--   :doc:`Transférer un centre de données <../../Les_différentes_actions/transferer_un_objet>`
-
--	:doc:`Visualier la liste des salles serveurs <../../Les_différentes_actions/visualiser_liste_ salles_serveurs>`
+*   :doc:`Ajouter un centre de données <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Visualiser un centre de données <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modifier un centre de données <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Supprimer un centre de données <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Associer un document à un centre de données <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transférer un centre de données <../../Les_différentes_actions/transferer_un_objet>`
+*   :doc:`Visualier la liste des salles serveurs <../../Les_différentes_actions/visualiser_liste_ salles_serveurs>`
 

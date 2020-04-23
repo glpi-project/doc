@@ -28,16 +28,10 @@ Les différents onglets
 
 Les différentes actions
 -----------------------
--   :doc:`Ajouter un contact <../../Les_différentes_actions/creer_un_nouvel_objet>`
-
--   :doc:`Visualiser un contact <../../Les_différentes_actions/visualiser_un_objet>`
-
--   :doc:`Modifier un contact <../../Les_différentes_actions/modifier_un_objet>`
-
--   :doc:`Supprimer un contact <../../Les_différentes_actions/supprimer_un_objet>`
-
--   :doc:`Associer un document à un contact <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-
--	:doc:`Associer un fournisseur à un contact <../../Les_différentes_actions/associer_un_fournisseur_et_un_contact>`
-
--   :doc:`Transférer un contact <../../Les_différentes_actions/transferer_un_objet>`
+*   :doc:`Ajouter un contact <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Visualiser un contact <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modifier un contact <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Supprimer un contact <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Associer un document à un contact <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*	:doc:`Associer un fournisseur à un contact <../../Les_différentes_actions/associer_un_fournisseur_et_un_contact>`
+*   :doc:`Transférer un contact <../../Les_différentes_actions/transferer_un_objet>`
