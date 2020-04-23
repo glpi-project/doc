@@ -5,7 +5,7 @@ La gestion de projets permet de suivre complètement l'avancement d'un
 projet au sein de GLPI, que celui-ci soit lié à un
 `changement <04_Module_Assistance/09_Changements.rst>`__ ou non. 
 
-Un projet dans GLPI c'est :
+Un projet dans GLPI, c'est :
 
 - des tâches associées;
 - une équipe désignée;
@@ -35,8 +35,11 @@ coûts des tickets liées aux tâches du projet.
 Plusieurs diagrammes de GANTT sont proposés pour chaque projet (voir
 onglet *GANTT*).
 
+Objet Projet
+------------
+
 Les différents onglets
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Tâches de projet
 ~~~~~~~~~~~~~~~~
@@ -110,6 +113,10 @@ Il est possible de créer ces objets depuis cet onglet également.
 .. include:: ../onglets/debug.rst
 
 .. include:: ../onglets/all.rst
+
+
+Objet Tâche de projet
+---------------------
 
 Les différentes actions
 -----------------------
