@@ -9,19 +9,29 @@ Un fournisseur se caractérise par un nom, un type de tiers (intitulé), des inf
 
 Cette gestion à pour objectif, notamment:
 
-- de référencer tous les fournisseurs relatifs au parc informatique de l'organisation;
-- d'optimiser le contact en cas d'incident;
-- de permettre d'inclure les fournisseurs dans l'Assistance de GLPI.
+* de référencer tous les fournisseurs relatifs au parc informatique de l'organisation;
+* d'optimiser le contact en cas d'incident;
+* de permettre d'inclure les fournisseurs dans l'Assistance de GLPI.
 
 .. image:: images/suppliers.png
         :alt: Caractérisation d'un fournisseur
         :align: center
 
-
 Les différents onglets
 ----------------------
 
 .. include:: ../onglets/contacts.rst
+
+.. note::
+        La distinction est clairement établie entre le fournisseur, qu'il est possible de lier de manière univoque à des éléments d'inventaire et les contacts, qui composent la liste des personnes permettant d'entrer en relation avec ce fournisseur. Pour établir cette liste, il faut donc associer les contacts au fournisseur concerné.
+
+        Exemple :
+
+        Monsieur Dupont est conseiller de vente dans l'entreprise Acme auprès de qui la structure se fournit régulièrement.
+        Créer un fournisseur nommé Acme.
+        Créer un contact au nom de Monsieur Dupont.
+        Affecter à ce contact le type commercial.
+        Puis associer le contact au fournisseur Acme.
 
 .. include:: ../onglets/contract.rst
 
@@ -70,27 +80,9 @@ L'onglet permet la consultation de tous les Changements sur lesquels le fourniss
 Les différentes actions
 -----------------------
 
--   :doc:`Ajouter un fournisseur <../../Les_différentes_actions/creer_un_nouvel_objet>`
-
--   :doc:`Visualiser un fournisseur <../../Les_différentes_actions/visualiser_un_objet>`
-
--   :doc:`Modifier un fournisseur <../../Les_différentes_actions/modifier_un_objet>`
-
--   :doc:`Supprimer un fournisseur <../../Les_différentes_actions/supprimer_un_objet>`
-
--   :doc:`Associer un document à un fournisseur <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-
--   :doc:`Transférer un fournisseur <../../Les_différentes_actions/transferer_un_objet>`
-
-
-
-   La distinction est clairement établie entre le fournisseur, qu'il est possible de lier de manière univoque à des éléments d'inventaire et les contacts, qui composent la liste des personnes permettant d'entrer en relation avec ce fournisseur. Pour établir cette liste, il faut donc associer les contacts au fournisseur concerné.
-
-    Exemple :
-
-    Monsieur Dupont est conseiller de vente dans l'entreprise Acme auprès de qui la structure se fournit régulièrement.
-    Créer un fournisseur nommé Acme.
-    Créer un contact au nom de Monsieur Dupont.
-    Affecter à ce contact le type commercial.
-    Puis associer le contact au fournisseur Acme.
-
+*   :doc:`Ajouter un fournisseur <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Visualiser un fournisseur <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modifier un fournisseur <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Supprimer un fournisseur <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Associer un document à un fournisseur <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transférer un fournisseur <../../Les_différentes_actions/transferer_un_objet>`

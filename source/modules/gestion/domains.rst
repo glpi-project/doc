@@ -5,11 +5,13 @@ Deux nouveaux objets de GLPI sont rassemblés dans cette fonctionnalité : les d
 
 Gérer les domaines et les enregistrements au sein de GLPI permet notamment:
 
-- de construire un inventaire des noms de domaines;
-- d'inventorier les enregistrements (records) de chaque domaine;
-- d'anticiper et suivre le renouvellement des noms de domaines;
-- d'intégrer les domaines dans la gestion financière de GLPI;
-- inclure les domaines et les enregitrements dans l'assistance de GLPI.
+* de construire un inventaire des noms de domaines;
+* d'inventorier les enregistrements (records) de chaque domaine;
+* d'anticiper et suivre le renouvellement des noms de domaines;
+* d'intégrer les domaines dans la gestion financière de GLPI;
+* de lier les éléments du parc au domaine;
+.. versionchanged:: 9.5.0
+* inclure les domaines et les enregitrements dans l'assistance de GLPI.
 
 
 
@@ -22,7 +24,7 @@ Gérer les domaines et les enregistrements au sein de GLPI permet notamment:
 Objet Domaine
 -------------
 
-L'objet domaine permet de matérialiser un domaine dans son ensemble (son nom, sa date d'expiration, etc).
+L'objet domaine permet de matérialiser un domaine informatique dans son ensemble (son nom, sa date d'expiration, etc).
 L'objet est associable dans l'assistance de GLPI (tickets, problèmes changements).
 
 .. image:: images/domains.png
@@ -102,16 +104,10 @@ Les différents onglets
 Les différentes actions 
 -----------------------
 
--   :doc:`Visualiser un domaine <../../Les_différentes_actions/visualiser_un_objet>`
-
--   :doc:`Ajouter un domaine/un enregistrement <../../Les_différentes_actions/creer_un_nouvel_objet>`
-
--   :doc:`Modifier un domaine/un enregistrement <../../Les_différentes_actions/modifier_un_objet>`
-
--   :doc:`Supprimer un domaine/un enregistrement <../../Les_différentes_actions/supprimer_un_objet>`
-
--   :doc:`Associer un document à un domaine/un enregistrement <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-
--   :doc:`Transférer un domaine <../../Les_différentes_actions/transferer_un_objet>`
-
--	:doc:`Visualiser les enregistrements de domaines <../../Les_différentes_actions/visualiser_ liste_des_enregistrements_de_domaine>`
+*   :doc:`Visualiser un domaine <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Ajouter un domaine/un enregistrement <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Modifier un domaine/un enregistrement <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Supprimer un domaine/un enregistrement <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Associer un document à un domaine/un enregistrement <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transférer un domaine <../../Les_différentes_actions/transferer_un_objet>`
+*	:doc:`Visualiser les enregistrements de domaines <../../Les_différentes_actions/visualiser_ liste_des_enregistrements_de_domaine>`
