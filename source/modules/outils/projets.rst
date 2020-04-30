@@ -2,41 +2,34 @@ Gérer les projets
 =================
 
 La gestion de projets permet de suivre complètement l'avancement d'un
-projet au sein de GLPI, que celui-ci soit lié à un
+projet au sein de GLPI via la création de tâche, la constitution d'une équipe, que celui-ci soit lié à un
 `changement <04_Module_Assistance/09_Changements.rst>`__ ou non. 
 
-Un projet dans GLPI, c'est :
+Un projet dans GLPI, c'est la possibilité :
 
-- des tâches associées;
-- une équipe désignée;
+- d'associer des tâches de projet et gérer leur avancement;
+- d'établir une équipe projet et des équipes de tâche;
 - la possibilité de déclencher des sous projets au sein d'un même projet;
-- construire un diagramme de GANTT;
+- de construire un diagramme de GANTT;
 - la possibilité d'utiliser la méthode Kanban;
-- associer des coûts;
-- relier les objets ITIL de GLPI.
+- d'associer des coûts;
+- de relier les objets ITIL de GLPI.
 
-Les projets ainsi que les tâches peuvent être hiérarchisés ; un projet
-peut donc avoir des sous-projets et les tâches des sous-tâches.
+Le projets peut être hiérarchisé ; un projet peut donc avoir des sous-projets.
 
-Les projets et les tâches disposent de caractéristiques (nom, code,
-état, type...), de dates prévisionnelles et réelles ainsi qu'un
-pourcentage d'avancement. Des équipes de gestion distinctes peuvent être
-composées d'utilisateurs, de groupes, de fournisseurs et de contacts.
+Les projets disposent de caractéristiques (nom, code,état, type...), de dates prévisionnelles et réelles ainsi qu'un pourcentage d'avancement. 
 
-Les tâches peuvent être liées à des tickets permettant de planifier des
-interventions permettant de mettre en place le projet. Des durées
-prévisionnelles et effectives sont également définies au niveau des
-tâches. Ces durées ainsi que celles des tickets sont alors consolidées
-au niveau du projet lui même.
+Des équipes de gestion distinctes peuvent être composées d'utilisateurs, de groupes, de fournisseurs et de contacts.
 
-Des coûts sont associables aux projets auxquels peuvent être ajouté les
-coûts des tickets liées aux tâches du projet.
+
 
 Plusieurs diagrammes de GANTT sont proposés pour chaque projet (voir
 onglet *GANTT*).
 
-Objet Projet
-------------
+Dans cette gestion de projet, il y a deux objets principaux : le projet et la tâche de projet.
+
+Projet
+------
 
 Les différents onglets
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -90,7 +83,8 @@ Cet onglet met à disposition une interface afin d'utiliser la méthode Kanban d
 Coûts
 ~~~~~
 
-Définition et visualisation des coûts applicables à ce projet.
+Des coûts sont associables aux projets, auxquels peuvent être ajouté les
+coûts des tickets liées aux tâches du projet.
 
 
 Objets Itil
@@ -115,24 +109,58 @@ Il est possible de créer ces objets depuis cet onglet également.
 .. include:: ../onglets/all.rst
 
 
-Objet Tâche de projet
----------------------
+Tâche de projet
+---------------
+
+l'objet tâche de projet est assez similaire au projet.
+
+une tâche de projet peut être également une sous tâche de projet.
+
+Les tâches disposent de caractéristiques (nom, état, type...), de dates prévisionnelles et réelles ainsi qu'un pourcentage d'avancement. 
+
+Des équipes de gestion distinctes peuvent être composées d'utilisateurs, de groupes, de fournisseurs et de contacts.
+
+.. image:: images/task-details-project.png
+        :alt: Caractérisation d'une tâche
+        :align: center
+
+.. note::
+
+      La tâche de projet n'est pas un objet indépendant de GLPI.
+      L'accès à une tache de projet se fait dans l'onglet Tâches de projet du projet concerné !
+
+Les tâches peuvent être liées à des tickets permettant de planifier des interventions permettant de mettre en place le projet. Des durées prévisionnelles et effectives sont également définies au niveau des tâches. Ces durées ainsi que celles des tickets sont alors consolidées au niveau du projet lui même.
+
+Les différents onglets
+----------------------
+
+Tâches de projet
+~~~~~~~~~~~~~~~~
+
+Dans cet onglet, il est possible de consulter et d'ajouter les sous-tâches.
+
+Equipe de tâche
+~~~~~~~~~~~~~~~
+
+Ici est définie l'équipe en charge de la tâche.
+
+.. include:: ../onglets/documents.rst
+
+.. include:: ../onglets/tickets.rst
+
+.. include:: ../onglets/notes.rst
+
+.. include:: ../onglets/historical.rst
+
+.. include:: ../onglets/all.rst
 
 Les différentes actions
 -----------------------
 
--  **`Ajouter un
-   projet <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
--  **`Modifier un
-   projet <Les_différentes_actions/Modifier_un_objet.rst>`__**
--  **`Supprimer un
-   projet <Les_différentes_actions/Supprimer_un_objet.rst>`__**
--  **`Associer un document à un
-   projet <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
--  **`Associer un élément à un
-   projet <Les_différentes_actions/Onglet_Eléments.rst>`__**
--  **`Associer un contrat à un
-   projet <Les_différentes_actions/Onglet_Contrats.rst>`__**
--  **`Associer un changement à un
-   projet <Les_différentes_actions/Onglet_Problèmes.rst>`__**
+*   :doc:`Ajouter un projet <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Visualiser un projet <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modifier un projet <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Supprimer un projet <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Associer un document à un projet <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transférer un projet <../../Les_différentes_actions/transferer_un_objet>`
 

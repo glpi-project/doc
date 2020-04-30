@@ -1,25 +1,45 @@
 Gérer les flux RSS
 ==================
 
-Les flux RSS se gèrent depuis le menu Outils > Flux RSS
+GLPI permet d'inclure des flux RSS dans la page d'accueil de l'outil.
 
-Cette section permet de gérer des flux RSS, leur taux de
-rafraichissement et le nombre d'éléments à afficher.
-
-Les flux RSS activés apparaissent ensuite sur la page d'accueil de GLPI.
-
-Un flux RSS est considéré comme personnel par défaut. Elle est, par
+Un flux RSS est considéré comme personnel par défaut. Il est, par
 conséquent, uniquement visible par son rédacteur.
 
 Pour qu'un flux RSS devienne visible par d'autres utilisateurs (flux RSS
 public), il est nécessaire de sélectionner une ou plusieurs cibles. La
 ou les cibles correspondent aux entités, aux profils, groupes ou
-utilisateurs qui pourront consulter la note
+utilisateurs de la plateforme.
 
-Un flux RSS public est visible pour les utilisateurs associé à un profil
-ayant le droit de lire les flux RSS publics.
+.. note::
 
---------------
+	Un flux RSS public est visible pour les utilisateurs associés à un profil
+	ayant le droit de lire les flux RSS publics.
 
-**Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.rst>`__
+.. image:: images/details-fluxrss.png
+		:alt: Caractérisation d'une flux rss
+		:align: center
+
+Les différents onglets
+----------------------
+
+Contenu
+~~~~~~~
+
+Dans cet onglet il est possible de consulter le nombre d'éléments affichés. C'est ce contenu qui est reporté en page d'accueil.
+
+Cibles
+~~~~~~
+
+Dans cet onglet, il est possible de consulter et modifier la liste des cibles pour le flux RSS concerné.
+
+.. include:: ../onglets/historical.rst
+
+.. include:: ../onglets/all.rst
+
+Les différentes actions
+-----------------------
+
+*   :doc:`Ajouter un flux RSS <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Visualiser/Modifier un flux RSS <../../Les_différentes_actions/visualiser_modifier_un_flux_rss>`
+*   :doc:`Supprimer un flux RSS <../../Les_différentes_actions/supprimer_un_objet>`
