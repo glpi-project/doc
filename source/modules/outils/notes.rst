@@ -1,66 +1,67 @@
 Gérer les notes personnelles ou publiques
 =========================================
 
-Ce module permet de gérer des notes, leur durée de vie, leur statut et
-de les faire apparaître dans le planning si besoin. Une note correspond
-à une information personnelle ou publique.
+Une note dans GLPI est un simple champ texte et pièce jointe permettant de transmettre des informations aux utilisateurs de la plateforme. 
+
+Une note est caractérisée par:
+
+* une durée de vie;
+* un statut;
+* la possibilité de la faire apparaître dans le planning;
+* les cibles de la note.
+
+.. image:: images/details-notes.png
+       :alt: Caractérisation d'une note
+       :align: center
 
 Les notes saisies apparaissent ensuite sur la page d'accueil de GLPI ou
-dans le planning.
+dans le planning des utilisateurs concernés.
 
-Il est possible de déterminer une date de début et de fin de publication
-pour chaque note. Si la date de début n'est pas mentionnée, la note sera
-visible immédiatement jusqu'à la date de fin. Si la date de fin n'est
-pas mentionnée, la note sera visible de façon permanente à partir de la
-date de début.
+.. image:: images/dashboard-notes.png
+       :alt: Note dans l'accueil de GLPI
+       :align: center
 
-L'ajout d'une note au calendrier permet de la faire apparaître sur le
-planning des utilisateurs concernés par la note : celui de l'utilisateur
-pour une note personnelle, les plannings de tous les utilisateurs dans
-le cas d'une note publique. Une note planifiée n'est pas supprimée une
-fois la date expirée.
+.. image:: images/planning-notes.png
+       :alt: Note dans le planning de GLPI
+       :align: center
 
-***Remarque :** Il est possible de définir un rappel de la note avant
-son début en définissant un intervalle de temps pour le rappel. Les
-notifications doivent être activées pour cela (voir `Configurer les
-notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__).*
+.. note::
+      
+      Il est possible de déterminer une date de début et de fin de publication pour chaque note. Si la date de début n'est pas mentionnée, la note sera visible immédiatement jusqu'à la date de fin. Si la date de fin n'est pas mentionnée, la note sera visible de façon permanente à partir de la date de début.
+
+      L'ajout d'une note au calendrier permet de la faire apparaître sur le planning des utilisateurs concernés par la note : celui de l'utilisateur pour une note personnelle, les plannings de tous les utilisateurs dans le cas d'une note publique. Une note planifiée n'est pas supprimée une fois la date expirée.
+
+
+
 
 Les différents onglets
 ----------------------
 
 .. include:: ../onglets/documents.rst
 
--  **Onglet "Cible"** Une note est considérée comme personnelle par
-   défaut. Elle est, par conséquent, uniquement visible par son
-   rédacteur.
+Cible
+~~~~~
+Une note est considérée comme personnelle par défaut. Elle est, par conséquent, uniquement visible par son rédacteur. 
 
-   Pour qu'une note devienne visible par d'autres utilisateurs (note
-   publique), il est nécessaire de sélectionner une ou plusieurs cibles.
-   La ou les cibles correspondent aux entités, profils, groupes ou
-   utilisateurs qui pourront consulter la note.
+Pour qu'une note devienne visible par d'autres utilisateurs (note publique), il est nécessaire de sélectionner une ou plusieurs cibles. La ou les cibles correspondent aux entités, profils, groupes ou utilisateurs qui pourront consulter la note. 
 
-   Une note publique est visible pour les utilisateurs associés à un
-   profil ayant le droit de lire les notes publiques.
+Une note publique est visible pour les utilisateurs associés à un profil ayant le droit de lire les notes publiques.
 
--  **`Onglet "Tous" <Les_différents_onglets/Onglet_Tous.rst>`__** Pour un
-   élément, toutes les informations sont affichées sur une seule page.
+.. image:: images/targets-notes.png
+       :alt: Cibles d'une note de GLPI
+       :align: center
+
+.. include:: ../onglets/hitorical.rst
+
+.. include:: ../onglets/all.rst
 
 Les différentes actions
 -----------------------
 
--  **`Ajouter une
-   note <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
--  **`Modifier une
-   note <Les_différentes_actions/Modifier_un_objet.rst>`__**
--  **`Supprimer une
-   note <Les_différentes_actions/Supprimer_un_objet.rst>`__**
--  **`Associer un document à une
-   note <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
--  **Rendre une note publique** Il suffit d'ajouter une cible à la note.
--  **publier une note pendant une période donnée** Il suffit d'ajouter
-   une date de début et une date de fin au niveau de la visibilité.
-
---------------
-
-**Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.rst>`__
+* :doc:`Ajouter une note <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Visualiser une note <../../Les_différentes_actions/visualiser_un_objet>`
+* :doc:`Modifier une note <../../Les_différentes_actions/modifier_un_objet>`
+* :doc:`Supprimer une note <../../Les_différentes_actions/Supprimer_un_objet>`
+* :doc:`Associer un document à une note <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+* Rendre une note publique : Ajouter une cible à la note.
+* Publier une note pendant une période donnée : Ajouter une date de début et une date de fin au niveau de la visibilité.

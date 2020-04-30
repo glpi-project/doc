@@ -1,74 +1,48 @@
 Gérer les réservations
 ======================
 
-Cette section propose en fonction des habilitations une partie
-d'administration et/ou une partie de réservation à proprement parlé.
+GLPI met à disposition un outils de réservation de matériel, outil qui permet de sélectionner un ou plusieurs éléments du parc afin de les réserver sur une plage horaire. Pour des réservations répétitives, il est possible de mettre en place de la récurrence sur la réservation.
 
-La partie réservation propose la liste des matériels réservables et
-permet d'effectuer une réservation.
+.. image:: images/details-booking.png
+        :alt: Caractérisation d'une réservation
+        :align: center
 
-La partie administration propose la liste des matériels réservables.
+.. note::
 
-Vous pouvez également voir le planning d'un matériel réservable en
-demandant l'affichage de la colonne Planning et en cliquant sur l'icone
-|image| ou en cliquant sur |image| de la barre de menu. Une réservation
-peut également être faite depuis le planning.
+      Un matériel n'est pas réservable par défaut !
+      Pour rendre un matériel réservable, il faut se rendre dans l'onglet Réservation de la fiche du matériel.
 
-Pour rendre un matériel réservable, choisir l'option adéquate dans
-l'onglet *Réservation* de la fiche de celui-ci.
+Un matériel réservé apparaîtra dans un planning global des réservations.
+
+.. image:: images/planning-booking.png
+        :alt: Planning global de réservation
+        :align: center
+
+
+Il est également possible de consulter le planning spécifique d'un matériel réservable. La réservation peut être créée depuis ce planning également.
+
+.. image:: images/planningspe-booking.png
+        :alt: Planning spécifique de réservation
+        :align: center
+
 
 Les différents onglets
 ----------------------
 
--  **`Onglet
-   "Réservations" <Les_différents_onglets/Onglet_Réservations.rst>`__**
-   Trouver un matériel disponible pendant une période donnée.
+Réservations
+~~~~~~~~~~~~
 
--  **Onglet "Administration"** Cet onglet liste tous les objets
-   réservables et non plus ceux disponibles. Comme pour les principaux
-   objet de GLPI, il propose un moteur de recherche et des actions
-   pouvant être réaliser en masse, notamment désactiver momentanément
-   les réservations sur un matériel (Actif = Non).
+Onglet principal de l'outil. Il permet de consulter et de sélectionner les matériels réservables.
+
+Administration
+~~~~~~~~~~~~~~
+
+Cet onglet liste tous les objets réservables et non plus ceux disponibles. Comme pour les principaux objet de GLPI, il propose un moteur de recherche et des actions pouvant être réaliser en masse, notamment désactiver momentanément les réservations sur un matériel (Actif = Non).
 
 Les différentes actions
 -----------------------
 
--  **`Ajouter une
-   réservation <Les_différents_onglets/Onglet_Réservations.rst>`__**
-   L'ajout d'une réservation se fait :
-
-   -  depuis l'onglet *Réservations* du module Réservations ou de
-      l'objet réservable ;
-   -  depuis l'onglet *Administration* du module réservation en cliquant
-      sur l'icone |image|.
-
--  **`Modifier une
-   réservation <Les_différents_onglets/Onglet_Réservations.rst>`__** La
-   modification d'une réservation se fait :
-
-   -  depuis l'onglet *Réservations* de l'objet réservé ;
-   -  depuis l'onglet *Administration* du module réservation en cliquant
-      sur l'icone |image|.
-
--  **`Supprimer une
-   réservation <Les_différents_onglets/Onglet_Réservations.rst>`__** La
-   suppression d'une réservation se fait :
-
-   -  depuis l'onglet *Réservations* de l'objet réservé ;
-   -  depuis l'onglet *Administration* du module réservation en cliquant
-      sur l'icone |image|. Vous pouvez choisir de supprimer uniquement
-      cette réservation mais également toutes les répétitions.
-
--  **Rendre un matériel indisponible** Depuis les actions de masse,
-   choisir **Modifier Actif Non**.
--  **Rendre un matériel réservable ou non réservable** Cette action se
-   fait depuis l'onglet *Réservations* de l'objet.
-
---------------
-
-**Sujet parent :** `Module
-Outils <06_Module_Outils/01_Module_Outils.rst>`__
-
-.. |image| image:: docs/image/reservation-3.png
-.. |image| image:: docs/image/menu_showall.png
-
+*   :doc:`Ajouter une réservation <../../Les_différentes_actions/reserver_un_materiel>`
+*   :doc:`Visualiser/Modifier les réservations <../../Les_différentes_actions/visualiser_modifier_les_reservations>`
+*   :doc:`Supprimer une réservation <../../Les_différentes_actions/supprimer_une_reservation>`
+*   :doc:`Rendre un matériel indisponible <../../Les_différentes_actions/rendre_un_materiel_indisponible>`
