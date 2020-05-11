@@ -32,12 +32,12 @@ Les différents onglets
 Réservations
 ~~~~~~~~~~~~
 
-Onglet principal de l'outil. Il permet de consulter et de sélectionner les matériels réservables.
+Onglet principal de l'outil. Il permet de consulter et de sélectionner les matériels réservables disponibles.
 
 Administration
 ~~~~~~~~~~~~~~
 
-Cet onglet liste tous les objets réservables et non plus ceux disponibles. Comme pour les principaux objet de GLPI, il propose un moteur de recherche et des actions pouvant être réaliser en masse, notamment désactiver momentanément les réservations sur un matériel (Actif = Non).
+Cet onglet liste tous les objets réservables et non plus ceux disponibles. Comme pour les principaux objet de GLPI, il propose un moteur de recherche avec la possibilité d'effectuer des actions de masse.
 
 Les différentes actions
 -----------------------
