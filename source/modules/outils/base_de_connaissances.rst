@@ -145,9 +145,8 @@ Un article bénéficie d'un espace commentaires, permettant aux utilisateurs de 
 Les différentes actions
 -----------------------
 
-*  **`Ajouter un article <Les_différentes_actions/creer_un_nouvel_objet>`__**
-*  **Modifier un article** : La modification se fait dans l'onglet **Editer**.
-*  **Supprimer un article** : La suppression se fait dans l'onglet **Editer**. Vu que la base de connaissances n'a pas de corbeille, un message vous demandera de confirmer votre suppression définitive.
-*  **`Associer un document à un article <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
-*  **Rendre un article public** : Il suffit d'ajouter une cible à l'article.
-*  **Publier un article pendant une période donnée** : Il suffit d'ajouter une date de début et une date de fin au niveau de la visibilité.
+*  :doc:`Ajouter un article <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*  :doc:`Modifier un article <../../Les_différentes_actions/modifier_un_article>`
+*  :doc:`Supprimer un article <../../Les_différentes_actions/supprimer_un_article>`
+*  :doc:`Associer un document à un article <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*  :doc:`Modifier la visibilité d'un article <../../Les_différentes_actions/modifier_visibilite_article>`
