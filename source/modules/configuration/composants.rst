@@ -62,13 +62,12 @@ Les informations suivantes seront affichés :
 
       Plusieurs onglet sont alors proposés :
 
-      -  Onglet "Elément - Lien nom du composant" : liste les
-         caractéristiques de ce composant.
-      -  :doc:`Onglet "Gestion" <../parc/onglets/gestion>` : gérer les informations financières et administratives.
-      -  :doc:`Onglet "Documents" <../onglets/documents>`
-      -  :doc:`Onglet "Historique" <../onglets/historique>`
-      -  :doc:`Onglet "Debug" <../onglets/debug>` : uniquement si vous êtes connecté en mode Debug.
-      -  :doc:`Onglet "Tous" <../onglets/all>` : pour un élément, toutes les informations sont affichées sur une
+      *  Onglet "Elément - Lien nom du composant" : liste les caractéristiques de ce composant.
+      *  :doc:`Onglet "Gestion" <../parc/onglets/gestion>` : gérer les informations financières et administratives.
+      *  :doc:`Onglet "Documents" <../onglets/documents>`
+      *  :doc:`Onglet "Historique" <../onglets/historique>`
+      *  :doc:`Onglet "Debug" <../onglets/debug>` : uniquement si vous êtes connecté en mode Debug.
+      *  :doc:`Onglet "Tous" <../onglets/all>` : pour un élément, toutes les informations sont affichées sur une
          seule page.
 
 .. include:: ../onglets/documents.rst

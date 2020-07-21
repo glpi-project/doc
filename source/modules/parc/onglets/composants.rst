@@ -74,13 +74,13 @@ La sélection à droite de la colonne du type (ligne grisée) permet de sélecti
 
       Plusieurs onglet sont alors affichés :
 
-      -  Onglet "Elément - Lien nom du composant" : liste les caractéristiques de ce composant.
-      -  :doc:`Onglet "Gestion" <../parc/onglets/gestion>` : gérer les informations financières et administratives.
-      -  :doc:`Onglet "Documents" <../onglets/documents>` : documents attachés
-      -  :doc:`Onglet "Historique" <../onglets/historique>` : historique des modifications
-      -  :doc:`Onglet "Contrat" <../gestion/contrat>` : gérer les contrats.
-      -  :doc:`Onglet "Debug" <../onglets/debug>` : uniquement si vous êtes connecté en mode Debug.
-      -  :doc:`Onglet "Tous" <../onglets/all>` : toutes les informations sont affichées sur une  seule page.
+      *  Onglet "Elément - Lien nom du composant" : liste les caractéristiques de ce composant.
+      *  :doc:`Onglet "Gestion" <../parc/onglets/gestion>` : gérer les informations financières et administratives.
+      *  :doc:`Onglet "Documents" <../onglets/documents>` : documents attachés
+      *  :doc:`Onglet "Historique" <../onglets/historique>` : historique des modifications
+      *  :doc:`Onglet "Contrat" <../gestion/contrat>` : gérer les contrats.
+      *  :doc:`Onglet "Debug" <../onglets/debug>` : uniquement si vous êtes connecté en mode Debug.
+      *  :doc:`Onglet "Tous" <../onglets/all>` : toutes les informations sont affichées sur une  seule page.
 
 .. note::
 
