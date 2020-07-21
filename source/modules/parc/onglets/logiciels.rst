@@ -24,7 +24,7 @@ Pour installer un logiciel, sélectionner son nom dans la liste déroulante, pui
 
 Il est possible d'associer une licence à cet ordinateur.
 
-Pour associer une licence, sélectionner le logiciel dans la liste déroulante puis la licence souhaité
+Pour associer une licence, sélectionner le logiciel dans la liste déroulante puis la licence souhaitée
 
 .. image:: /modules/parc/images/logiciels_licence_add.png
    :alt: Ajout d'une licence

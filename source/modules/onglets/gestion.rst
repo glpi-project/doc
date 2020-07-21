@@ -7,7 +7,7 @@ Gestion des informations financières et administratives, ces informations sont 
    :alt: Écran de gestion
    :align: center
 
-Par defaut cette gestion est désactivé. Il est possible d'activer les informations financières sur tout type d'objet de l'inventaire en utilisant le lien dans l'onglet `Gestion` du détail du matériel
+Par defaut cette gestion est désactivée. Il est possible d'activer les informations financières sur tout type d'objet de l'inventaire en utilisant le lien dans l'onglet *Gestion* du détail du matériel
 
 .. image:: /modules/onglets/images/gestion_enable.png
    :alt: activer la gestion
@@ -15,7 +15,7 @@ Par defaut cette gestion est désactivé. Il est possible d'activer les informat
 
 
 .. note::
-   Il est possible d'activer en masse les informations administratives et financières depuis les actions massives sur les éléments (ordinateur, maoniteur etc ...)
+   Il est possible d'activer les informations administratives et financières depuis les actions massives sur un ensemble d'éléments (ordinateur, moniteur, ...)
 
 .. note::
    Il est possible d'activer les informations administratives et financières dès la création d'un élément

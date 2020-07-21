@@ -89,4 +89,4 @@ La sélection à droite de la colonne du type (ligne grisée) permet de sélecti
 
 .. note::
 
-   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+   En cas d’utilisation d’un outil d’inventaire quelconque, ces informations peuvent être automatiquement importées et mises à jour.

@@ -12,7 +12,7 @@ Pour paramétrer un lien, il est possible d'utiliser des tags
 particuliers qui seront remplacés par les valeurs de l'élément. Les Tags
 valides sont :
 
--  [LOGIN] : identifiant de l'utilisateur ;
+-  ``[LOGIN]`` : identifiant de l'utilisateur ;
 -  [ID] : identifiant interne numérique de l'objet ;
 -  [NAME] : nom de l'objet ;
 -  [LOCATION] : lieu de l'objet ;
@@ -64,4 +64,3 @@ certaines implémentations de VNC fournissent une applet qui permet de
 prendre la main sur un ordinateur à travers un navigateur. En général,
 le port utilisé est 5900. Le lien correspondant sera du type
 http://[IP]:5900 ou http://[NAME].[DOMAIN]:5900.
-

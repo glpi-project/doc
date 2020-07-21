@@ -39,10 +39,10 @@ On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
 
 Les ports réseau peuvent être de différents types. Il y a des ports
 physiques (Ethernet, Wifi ...),
-`virtuels <glossary/virtual_ports.html>`__ (boucle locale, alias,
+:term:`Port réseau virtuel` (boucle locale, alias,
 aggrégats ...), point à point (ligne commutée) ...
 
-L'onglet des ports réseau représente l'ensemble de ports disponibles sur
+L'onglet des ports réseau représente l'ensemble des ports disponibles sur
 l'équipement dans un tableau.
 
 Dans l'en-tête du tableau, à côté du
@@ -122,7 +122,7 @@ Un alias de port comporte son port d'origine (ie. celui sur lequel il
 s'appuie) et une adresse MAC.
 
 Avertissement : Lorsque l'on change le port d'origine, l'adresse MAC
-du nouveau port d'origine est affecté à l'alias de port.
+du nouveau port d'origine est affectée à l'alias de port.
 
 Gestion des aggrégats de ports réseau
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -135,7 +135,7 @@ des aggrégats afin de faire de la redondance et/ou de l'augmentation
 de bande passante.
 
 On peut considérer qu'un équipement réseau est composé de ports
-réseau physique qui sont reliés entre eux par des aggrégats de ports.
+réseaux physiques qui sont reliés entre eux par des aggrégats de ports.
 Ces derniers correspondent aux VLANs physiquement définits sur
 l'équipement. Tout naturellement, ses adresses IP de gestion sont
 rattachées aux aggrégats associés au VLAN de gestion du switch ou du

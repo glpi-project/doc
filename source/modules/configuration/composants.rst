@@ -3,7 +3,7 @@ Configurer les composants
 
 Les composants ajoutés aux ordinateurs sont paramétrables.
 
-Un composant matériel est défini par un type, un nom, un fabricant , un commentaire, ainsi que plusieurs
+Un composant matériel est défini par un type, un nom, un fabricant, un commentaire, ainsi que plusieurs
 champs spécifiques au type de composant. Par exemple, pour une carte
 mère, on pourra y renseigner le chipset.
 
@@ -14,10 +14,10 @@ La liste des différents types de composant est fixe :
    :align: center
 
 .. note::
-   Il est possible de renseigner d'autres types de composants à l'intérieur du type ``Autres composants``.
+   Il est possible de renseigner d'autres types de composants à l'intérieur du type *Autres composants*.
    Il n'est cependant pas possible d'ajouter d'autres types que ceux listés ici.
 
-Une fois un type de composant sélectionné (``Carte mère, Processeur...``), on accède automatiquement à la liste
+Une fois un type de composant sélectionné (*Carte mère*, *Processeur*...), on accède automatiquement à la liste
 des composants déjà enregistrés.
 
 .. image:: images/component_list.png
