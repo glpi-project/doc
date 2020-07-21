@@ -1,5 +1,3 @@
-.. orphan:
-
 Connexions
 ~~~~~~~~~~
 
@@ -10,19 +8,42 @@ Les connexions directes représentent la relation entre des matériels différen
 Depuis un ordinateur
 ^^^^^^^^^^^^^^^^^^^^
 
-Figure 1. Connexion depuis un ordinateur
-![image](docs/image/connexion_computer.png)
+La connexion peut se faire vers un ou plusieurs élément du type
+moniteur, imprimante, périphérique ou téléphone. Pour chaque type
+d'objet connecté, les nom, numéro de série et numéro d'inventaire sont
+listés.
 
-La connexion peut se faire vers un ou plusieurs élément du type moniteur, imprimante, périphérique ou téléphone.
-Pour chaque type d'objet connecté, les nom, numéro de série et numéro d'inventaire sont listés.
+
+.. image:: /modules/parc/images/connexions_computer_list.png
+   :alt: Liste des connexions
+   :align: center
+
+
 
 Depuis un élément autre qu'un ordinateur
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Figure 1. Connexion depuis un élément autre qu'un ordinateur (exemple d'un moniteur)
-![image](docs/image/connexion_monitor.png)
+Pour ajouter une connexion, sélectionner l'ordinateur dans la liste déroulante présente en haut du tableau.
+
+.. image:: /modules/parc/images/connexions_monitor_list.png
+   :alt: Liste des connexions
+   :align: center
+
 
 Dans ce cas, la connexion ne peut se faire que vers un seul ordinateur.
-Le tableau listera le nom de cet ordinateur ainsi que ses numéros de série et d'inventaire.
+Le tableau listera le nom de cet ordinateur ainsi que ses numéros de
+série et d'inventaire.
 
-Les connexions ou déconnexions se font depuis la fiche de chaque matériel lié (onglet Connexions) ou depuis le système de modification massive.
+
+.. note::
+   Les déconnexions se font depuis la fiche de chaque matériel lié (onglet Connexions) via les actions massives.
+
+
+.. note::
+
+   Toute suppression ou ajout d'un ticket est enregistré dans l'historique de l'ordinateur.
+
+
+.. note::
+
+   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.

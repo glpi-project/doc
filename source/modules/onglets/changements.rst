@@ -1,9 +1,9 @@
 .. orphan:
 
-Tickets
+Changements
 ~~~~~~~
 
-Cet onglet permet d'ajouter un ticket à cet objet. Il liste également les tickets déjà liés à cet objet.
+Cet onglet permet d'ajouter un changement à cet objet. Il liste également les changements déjà liés à cet objet.
 
 Ce tableau récapitulatif comprend notamment pour chaque objet :
 
@@ -16,11 +16,11 @@ Ce tableau récapitulatif comprend notamment pour chaque objet :
 * son titre,
 * une colonne indiquant le nombre de tâches planifiées.
 
-.. image:: /modules/onglets/images/tickets.png
-   :alt: Image de la liste des tickets
+.. image:: /modules/onglets/images/changements.png
+   :alt: Image de la liste des changements
 
 .. note::
-   Un second tableau liste les tickets attachés aux éléments liés
+   Un second tableau liste les changements attachés aux éléments liés
 
 .. note::
-   Toute suppression ou ajout d'un ticket est enregistré dans l'historique.
+   Toute suppression ou ajout d'un changement est enregistré dans l'historique.
