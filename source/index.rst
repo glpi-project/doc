@@ -8,23 +8,23 @@ GLPI User Documentation
 
 .. warning::
 
-   La documentation est en cours de ré-écriture. Il est fort probable que certaines parties ne soient vraiment pas à jour, qu'il y ait des liens morts, ...
+   The documentation is being rewritten. It is very likely that some parts are outdated, that there are dead links, etc
 
-Préface
+Preface
 -------
 
-Cette documentation présente l'installation et l'utilisation de l'application GLPI (Gestion Libre de Parc Informatique) !
+This documentation covers the installation and use of GLPI (Gestion Libre de Parc Informatique) !
 
-Solution libre et open-source de gestion de parc informatique et de helpdesk, GLPI est une application accessible via un navigateur web conçue pour gérer l'ensemble de vos problématiques de gestion de parc informatique : de la gestion de l'inventaire des composantes matérielles et logicielles d'un parc informatique à la gestion de l'assistance aux utilisateurs.
+Free and open-source solution for IT asset management and helpdesk, and more. GLPI is a web application designed to manage all of your IT asset management issues from inventory management of hardware components and software to the management of user assistance.
 
-Ce guide se propose de donner une vue générale de l'application GLPI comme guide de l'utilisateur et de l'administrateur.
+This guide is intended to give an overview of GLPI for both administrators and users.
 
-Chaque partie est consultable de manière indépendante même si pour des raisons de logique nous vous recommandons la lecture exhaustive de cette documentation.
+Each part can be consulted independently even if for reasons of logic we recommend that you read this documentation entirely.
 
 Installation
 ------------
 
-La `documentation d'installation de GLPI <https://glpi-install.readthedocs.io>`_ est disponible séparément.
+The `GLPI installation documentation <https://glpi-install.readthedocs.io>`_ is available separately.
 
 Table des matières
 ------------------
@@ -32,7 +32,7 @@ Table des matières
 .. toctree::
    :maxdepth: 3
 
-   premiers-pas/index
+   first-steps/index
    modules/index
    advanced/index
    glossaire
