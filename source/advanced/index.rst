@@ -1,4 +1,4 @@
-Configuration avancée
+Advanced Configuration
 ====================
 
 .. toctree::
