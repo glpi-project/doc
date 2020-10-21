@@ -1,5 +1,5 @@
-Ports réseaux
-~~~~~~~~~~
+Network ports
+~~~~~~~~~~~~~
 
 Gestion des ports réseaux pour les éléments d'inventaire
 
