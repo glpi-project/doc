@@ -5,7 +5,7 @@ User interfaces
 
    The choice of the default interface as well as the visiblity of different modules can be configured in the profiles or from :doc:`the user's preferences <preferences>`.
 
-.. _interface-standard:
+.. _standard_interface:
 
 Standard Interface
 ------------------
@@ -57,7 +57,7 @@ It is divided into 5 views:
 
    As long as you have not performed these operations, the messages will remain.
 
-.. _interface-simplifiee:
+.. _simplified_interface:
 
 Simplified Interface
 --------------------
