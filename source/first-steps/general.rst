@@ -18,7 +18,7 @@ GLPI also works on mobile; it is generally compatible with the mobile versions o
 How to connect
 --------------
 
-Open your browser and go to the GLPI homepage `https://{glpi_address}/ <https://{glpi_address}>`_).
+Open your browser and go to the GLPI homepage (`https://{glpi_address}/ <https://{glpi_address}>`_).
 
 Access to the full functionality of the application requires authentication. An unauthenticated user can possibly access certain functions if GLPI has been configured to allow it:
 
