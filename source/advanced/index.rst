@@ -1,5 +1,5 @@
 Advanced Configuration
-====================
+======================
 
 .. toctree::
    :maxdepth: 3
