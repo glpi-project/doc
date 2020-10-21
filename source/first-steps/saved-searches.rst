@@ -1,7 +1,7 @@
 .. _bookmarks:
 
 Saved Searches
-=======================
+==============
 
 GLPI offers a system for saving searches (bookmarks). Once the search is done, it is possible to save it from a star-shaped button accessible in the search form.
 
@@ -32,7 +32,7 @@ From this interface, it is possible to:
    Setting a particularly heavy search as the default display can have catastrophic effects on the overall performance of the application!
 
 Display of counters
------------------------
+-------------------
 
 The GLPI settings are used to define whether the counters should be displayed or not. In the case of research, it's a bit more complicated.
 
@@ -41,7 +41,7 @@ This is because some searches can take a long time (and resources) to complete. 
 Administrators can override the automatic count method, and have a search always or never be counted. This possibility should be used sparingly.
 
 Configuring alerts
------------------------
+------------------
 
 It is possible to configure the sending of “alerts” on a saved search using the GLPI notification system . Sending a notification is based on the number of results returned by the search, compared with the chosen operator to the entered value.
 

@@ -1,5 +1,5 @@
 View and manage records
-=======================================
+=======================
 
 The display of all the lists of records and of all the details concerning a record always works in the same way in GLPI. Whether it's a list of computers, phones or tickets, the presentation follows the same principle.
 
@@ -16,7 +16,7 @@ A list of elements can be obtained in 2 ways:
 Details concerning a record are displayed in the form of tabs grouping together similar information. For a computer, the financial information and the software list are in two separate tabs.
 
 Customize the display
--------------------------
+---------------------
 
 The columns displayed from the complete list of the inventory can be configured. Click on the button |btn_prefs|. It is possible to add, delete and order the displayed columns.
 

@@ -1,5 +1,5 @@
 Navigate GLPI modules
-=================================
+=====================
 
 The various functions of GLPI have been grouped into several modules, built around similar contexts of use.
 The top bar of the interface allows you to navigate between these modules:

@@ -1,5 +1,5 @@
 User interfaces
-==========================
+===============
 
 .. note::
 
@@ -8,7 +8,7 @@ User interfaces
 .. _interface-standard:
 
 Standard Interface
---------------------
+------------------
 
 This is the main interface of the application. All the modules are available, but there are limits depending on the profile settings.
 
@@ -60,7 +60,7 @@ It is divided into 5 views:
 .. _interface-simplifiee:
 
 Simplified Interface
-----------------------
+--------------------
 
 It is the most restrictive interface of the application and is built for an end-user more than a technician. Therefore, the number of available modules is reduced to a minimum.
 
