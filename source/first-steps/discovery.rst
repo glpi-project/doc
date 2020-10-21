@@ -1,5 +1,5 @@
 Understanding the interface
-=====================
+===========================
 
 Depending on the user's profile, some menus and content may differ, but the logic of the interface remains the same.
 

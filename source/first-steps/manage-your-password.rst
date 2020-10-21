@@ -1,5 +1,5 @@
 Manage your password
-======================
+====================
 
 The change password form can be found in :doc:`user preferences <preferences>`.
 

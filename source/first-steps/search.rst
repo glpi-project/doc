@@ -1,5 +1,5 @@
 Search for information in GLPI
-=====================================
+==============================
 
 GLPI has a search engine allowing you to display a set of elements satisfying a certain number of criteria. The proposed lists are paginated. A navigation bar at the top and bottom of the list is used to define the number of items to display per page and to navigate between pages.
 
@@ -12,7 +12,7 @@ In addition to the list of elements corresponding to the stated criteria; these 
 * A :ref:`marque-pages <bookmarks>` system to save searches
 
 Perform a basic search
--------------------------------
+----------------------
 
 The basic search makes it possible to carry out multiple searches configured and sorted, on one of the types of the inventory. Depending on the data on which the search is carried out, the following operators can be proposed:
 
@@ -40,7 +40,7 @@ For example, to find computers with more than 1024 MiB of memory and more than 8
    Once the criteria have been defined, the search is launched by pressing the Search button.
 
 Perform a multi-criteria search
---------------------------------------
+-------------------------------
 
 The multi-criteria search makes it possible to refine the search by extending it to other types of objects by adding global search criteria. This type of search is obtained by adding criteria with the ``+`` on a white background.
 
@@ -56,12 +56,12 @@ For example, to find computers with more than 1024 MiB of memory and more than 8
 =====  ========  =============================  ===========  ======
 
 Items in Trash
---------------------------
+--------------
 
 Some items in GLPI can be trashed. To view them in order to restore them or delete them permanently, click on the icon representing a recycle bin. To return to the display of active elements, click again on this icon.
 
 Perform an advanced search
--------------------------------
+--------------------------
 
 Here are some examples of search operators:
 
@@ -96,7 +96,7 @@ Two search criteria linked by the operator ``AND NOT``
    For security reasons, the ``\\`` operator is not usable.
 
 Export the result of a search
-------------------------------------
+-----------------------------
 
 The export of the search result in SLK or CSV spreadsheet formats, or in PDF format can be done in two different forms:
 
@@ -108,7 +108,7 @@ The SLK format can be used by many spreadsheets. Fields that are too long will b
 If the data exported in CSV format is imported into Microsoft Excel software, accented characters may not be displayed correctly. This software seems to have difficulty with data encoded in UTF-8.
 
 Perform massive actions
-------------------------------
+-----------------------
 
 A massive action system is integrated into the search engine. It allows you to make bulk modifications and perform actions to all the selected elements. Some examples of the available massive actions (Will differ based on the type of item):
 
@@ -137,7 +137,7 @@ The results of the actions as well as the information messages are presented at 
    The number of elements that can be handled simultaneously is limited by the values ​​of ``max_input_vars`` or ``suhosin.post.max_vars`` in your PHP configuration. You may therefore get a message indicating that massive edits are disabled. You just need to increase the values ​​of your PHP configuration or reduce the number of items displayed.
 
 Quick search
-----------------
+------------
 
 .. image:: images/search_quick.png
    :alt: Quick search box
