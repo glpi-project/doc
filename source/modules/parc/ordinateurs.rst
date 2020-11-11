@@ -27,34 +27,34 @@ Les différents onglets
 
 .. include:: onglets/ports-reseaux.rst
 
-.. include:: ../onglets/gestion.rst
+.. include:: ../tabs/management.rst
 
-.. include:: ../onglets/contrats.rst
+.. include:: ../tabs/contrats.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
 .. include:: onglets/virtualisation.rst
 
 .. include:: onglets/antivirus.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
-.. include:: ../onglets/problemes.rst
+.. include:: ../tabs/problemes.rst
 
-.. include:: ../onglets/changements.rst
+.. include:: ../tabs/changements.rst
 
-.. include:: onglets/liens.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
      Gestion des réservations pour un objet d'inventaire
 
-.. include:: ../onglets/historique.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/debug.rst
+.. include:: ../tabs/debug.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

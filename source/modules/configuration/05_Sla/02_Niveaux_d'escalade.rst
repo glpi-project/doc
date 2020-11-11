@@ -33,9 +33,9 @@ Les différents onglets
    "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
-.. include:: ../../onglets/debug.rst
+.. include:: ../../tabs/debug.rst
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Les différentes actions
 -----------------------

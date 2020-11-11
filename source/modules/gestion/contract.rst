@@ -10,7 +10,7 @@ Cette gestion a pour objectif:
 
 .. image:: images/contract.png
 
-.. include:: ../onglets/templates.rst
+.. include:: ../tabs/templates.rst
 
 .. note::
 
@@ -50,19 +50,19 @@ Dans cet onglet, il est possible d'associer un ou plusieurs fournisseurs au cont
 
 .. image:: images/suppliers-contract.png
 
-.. include:: ../onglets/elements.rst
+.. include:: ../tabs/elements.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/external-links.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/debug.rst
+.. include:: ../tabs/debug.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

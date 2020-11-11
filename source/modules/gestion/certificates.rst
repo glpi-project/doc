@@ -15,7 +15,7 @@ Cette gestion a pour objectif de fournir:
 
 .. image:: images/certificates.png
 
-.. include:: ../onglets/templates.rst
+.. include:: ../tabs/templates.rst
 
 Description des champs spécifiques
 ----------------------------------
@@ -32,29 +32,29 @@ Description des champs spécifiques
 Les différents onglets
 ----------------------
 
-.. include:: ../onglets/elements.rst
+.. include:: ../tabs/elements.rst
 
-.. include:: ../onglets/management.rst
+.. include:: ../tabs/management.rst
 
-.. include:: ../onglets/contract.rst
+.. include:: ../tabs/contract.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/knowledgebase.rst
+.. include:: ../tabs/knowledgebase.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
-.. include:: ../onglets/problems.rst
+.. include:: ../tabs/problems.rst
 
-.. include:: ../onglets/changes.rst
+.. include:: ../tabs/changes.rst
 
-.. include:: ../onglets/external-links.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

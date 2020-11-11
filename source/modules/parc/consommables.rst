@@ -34,15 +34,15 @@ Figure 1. Onglet Consommables
 
 .. include:: onglets/gestion.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/liens.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/debug.rst
+.. include:: ../tabs/debug.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

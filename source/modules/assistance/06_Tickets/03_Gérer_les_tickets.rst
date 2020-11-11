@@ -164,7 +164,7 @@ Les différents onglets
    de la tâche parent. Vous pouvez modifier un projet ou une tâche de
    projet en cliquant sur son nom.
 
-.. include:: ../../onglets/documents.rst
+.. include:: ../../tabs/documents.rst
 
 -  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.rst>`__**
    Permet d'associer plusieurs éléments au ticket.
@@ -179,9 +179,9 @@ Les différents onglets
    "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
    L'historique est visualisé depuis l'onglet *Historique*
 
-.. include:: ../../onglets/debug.rst
+.. include:: ../../tabs/debug.rst
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Les différentes actions
 -----------------------

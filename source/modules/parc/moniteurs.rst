@@ -27,26 +27,26 @@ Les différents onglets
 
 .. include:: onglets/gestion.rst
 
-.. include:: ../onglets/contrats.rst
+.. include:: ../tabs/contracts.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
 .. include:: onglets/problemes.rst
 
-.. include:: ../onglets/liens.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
      Gestion des réservations pour un objet d'inventaire
 
-.. include:: ../onglets/historique.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/debug.rst
+.. include:: ../tabs/debug.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

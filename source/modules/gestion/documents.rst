@@ -22,18 +22,18 @@ Le fichier physique correspondant au document peut être ajouté dans GLPI de pl
 Les différents onglets
 ----------------------
 
-.. include:: ../onglets/elements.rst
+.. include:: ../tabs/elements.rst
 
 Documents
 ~~~~~~~~~
 
 Il est possible d'associer d'autres documents à un document de GLPI, c'est pourquoi cet objet bénéficie d'un onglet du même type.
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 
 Les différentes actions

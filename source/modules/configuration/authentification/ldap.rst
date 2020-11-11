@@ -207,9 +207,9 @@ Afin d'éviter cette situation, des réplicats peuvent être déclarés : ils pa
 
 L'utilisation des réplicats se fait uniquement dans le cas d'une perte de connexion à l'annuaire maître. L'ajout de réplicats se fait dans la fiche d'un annuaire, en renseignant un **nom** qui sera affiché dans GLPI, ainsi qu'un **nom d'hôte** et un **port**. Il n'y a pas de limite quant au nombre d'annuaires répliqués.
 
-.. include:: ../../onglets/historique.rst
+.. include:: ../../tabs/historical.rst
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Les différentes actions
 -----------------------

@@ -70,19 +70,19 @@ Les différents onglets
 
 .. include:: onglets/problemes.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
 -  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.rst>`__**
    Cet onglet permet d'associer un élément à ce changement en
    choisissant le type ainsi que l'élément souhaité.
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historique.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

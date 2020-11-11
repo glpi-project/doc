@@ -33,15 +33,15 @@ Les différents onglets
 
 .. include:: onglets/gestion.rst
 
-.. include:: ../onglets/contrats.rst
+.. include:: ../tabs/contracts.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/historique.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/debug.rst
+.. include:: ../tabs/debug.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

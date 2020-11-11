@@ -30,7 +30,7 @@ statistiques <04_Module_Assistance/11_Statistiques.rst>`__).
 Les différents onglets
 ----------------------
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
 -  **`Onglet
    "Changements" <Les_différents_onglets/Onglet_Changements.rst>`__**
@@ -56,13 +56,13 @@ Les différents onglets
 -  **`Onglet
    "Statistiques" <Les_différents_onglets/Onglet_Statistiques.rst>`__**
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historique.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

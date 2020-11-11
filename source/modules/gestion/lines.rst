@@ -17,17 +17,17 @@ Cette gestion a pour objectif:
 Les différents onglets
 ----------------------
 
-.. include:: ../onglets/management.rst
+.. include:: ../tabs/management.rst
 
-.. include:: ../onglets/contract.rst
+.. include:: ../tabs/contract.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 
 Les différentes actions

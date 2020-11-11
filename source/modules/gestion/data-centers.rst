@@ -33,7 +33,7 @@ Cet onglet liste les salles serveurs attachées au centre de données actuel et 
 		:align: center
 
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 
 Salle Serveur 
@@ -78,23 +78,23 @@ Cet onglet permet de consulter et de construire le schéma d'impact du point de 
 .. image:: images/impact-datacenters.png
 
 
-.. include:: ../onglets/management.rst
+.. include:: ../tabs/management.rst
 
-.. include:: ../onglets/contract.rst
+.. include:: ../tabs/contract.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/external-links.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
-.. include:: ../onglets/problems.rst
+.. include:: ../tabs/problems.rst
 
-.. include:: ../onglets/changes.rst
+.. include:: ../tabs/changes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 
 Les différentes actions
