@@ -22,7 +22,7 @@ Il est possible de suivre l'évolution du budget en traçant la valeur de chaque
 
    Important : Ce total est négatif si le total de la valeur des matériels est plus élevée que la valeur du budget.
 
-.. include:: ../onglets/templates.rst
+.. include:: ../tabs/templates.rst
 
 Les différents onglets
 ----------------------
@@ -47,17 +47,17 @@ Cet onglet permet de visualiser les autres éléments de GLPI attachés à ce bu
 
         Le lien entre le budget et un élément se fait depuis l'onglet Gestion de l'élément !
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/knowledgebase.rst
+.. include:: ../tabs/knowledgebase.rst
 
-.. include:: ../onglets/external-links.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

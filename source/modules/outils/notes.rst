@@ -37,7 +37,7 @@ dans le planning des utilisateurs concernés.
 Les différents onglets
 ----------------------
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
 Cible
 ~~~~~
@@ -51,9 +51,9 @@ Une note publique est visible pour les utilisateurs associés à un profil ayant
        :alt: Cibles d'une note de GLPI
        :align: center
 
-.. include:: ../onglets/hitorical.rst
+.. include:: ../tabs/hitorical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

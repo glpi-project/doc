@@ -74,22 +74,22 @@ A la suite des versions installées, la liste des licences affectées mais non i
 
 .. include:: onglets/gestion.rst
 
-.. include:: ../onglets/contrats.rst
+.. include:: ../tabs/contracts.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
 .. include:: onglets/problemes.rst
 
-.. include:: ../onglets/liens.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
 -   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
      Gestion des réservations pour un objet d'inventaire
 
-.. include:: ../onglets/historique.rst
+.. include:: ../tabs/historical.rst
 
 Regroupement
 ~~~~~~~~~~~~
@@ -130,9 +130,9 @@ Effets du regroupement :
     * de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;
     * d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).
 
-.. include:: ../onglets/debug.rst
+.. include:: ../tabs/debug.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

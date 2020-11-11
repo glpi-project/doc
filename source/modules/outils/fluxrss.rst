@@ -33,9 +33,9 @@ Cibles
 
 Dans cet onglet, il est possible de consulter et modifier la liste des cibles pour le flux RSS concerné.
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

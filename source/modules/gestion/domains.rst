@@ -45,25 +45,25 @@ Dans cet onglet, il est possible de sélectionner ou de créer un enregistrement
         :align: center
 
 
-.. include:: ../onglets/elements.rst
+.. include:: ../tabs/elements.rst
 
-.. include:: ../onglets/management.rst
+.. include:: ../tabs/management.rst
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
-.. include:: ../onglets/problems.rst
+.. include:: ../tabs/problems.rst
 
-.. include:: ../onglets/changes.rst
+.. include:: ../tabs/changes.rst
 
-.. include:: ../onglets/contract/rst
+.. include:: ../tabs/contract/rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/external-links.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 
 Objet Enregistrement de domaine (Record)
@@ -85,19 +85,19 @@ Cet objet doit être associé à un objet Domaine vu précedemment.
 Les différents onglets
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
-.. include:: ../onglets/problems.rst
+.. include:: ../tabs/problems.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/external-links.rst
+.. include:: ../tabs/external-links.rst
 
-.. include:: ../onglets/notes.rst
+.. include:: ../tabs/notes.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 
 

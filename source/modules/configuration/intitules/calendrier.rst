@@ -18,7 +18,7 @@ Période de fermeture
 
 Liste les périodes de fermeture affectées à ce calendrier et permet d'en ajouter une nouvelle; voir :ref:`lca configuration des périodes de fermeture <conf-close-periods>`.
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 .. _conf-close-periods:
 

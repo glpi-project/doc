@@ -60,7 +60,7 @@ Les différents onglets
 
 -  **Onglet "Règles"** Liste les règles métier liées à ce SLA.
 
-.. include:: ../../onglets/tickets.rst
+.. include:: ../../tabs/tickets.rst
 
 Pour les SLA, il n'est pas possible d'ajouter un ticket. L'onglet liste
 juste les tickets affectés à ce SLA.

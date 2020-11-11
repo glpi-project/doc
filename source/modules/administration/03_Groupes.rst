@@ -127,7 +127,7 @@ Les différents onglets
 -  **Onglet "Notifications"** Liste des notifications pour lesquelles ce
    groupe est destinataire ou le superviseur de ce groupe. |image|]
 
-.. include:: ../onglets/tickets.rst
+.. include:: ../tabs/tickets.rst
 
 Pour les groupes, il est possible de lister également les tickets des
 sous-groupes.

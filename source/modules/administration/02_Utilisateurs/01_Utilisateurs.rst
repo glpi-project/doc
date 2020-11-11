@@ -57,14 +57,14 @@ Les différents onglets
    est défini dans le champ *Responsable technique* de l'objet ou est
    membre du groupe défini dans le champ *Groupe technique* de l'objet.
 
-.. include:: ../../onglets/tickets.rst
+.. include:: ../../tabs/tickets.rst
 
 Pour les utilisateurs, en plus de lister les tickets créés par
 l'utilisateur, vous pouvez directement créer un ticket d'incident depuis
 cet onglet. Dans ce cas, l'utilisateur sera défini automatiquement comme
 Demandeur.
 
-.. include:: ../../onglets/documents.rst
+.. include:: ../../tabs/documents.rst
 
 -  **`Onglet
    "Réservations" <Les_différents_onglets/Onglet_Réservations.rst>`__**
@@ -83,9 +83,9 @@ Demandeur.
 -  **`Onglet
    "Historique" <Les_différents_onglets/Onglet_Historique.rst>`__**
 
-.. include:: ../../onglets/debug.rst
+.. include:: ../../tabs/debug.rst
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Les différentes actions
 -----------------------

@@ -114,11 +114,11 @@ Editer
 ~~~~~~
 Cet onglet permet, suivant vos droits, de modifier ou supprimer un article.
 
-.. include:: ../onglets/elements.rst
+.. include:: ../tabs/elements.rst
 
-.. include:: ../onglets/documents.rst
+.. include:: ../tabs/documents.rst
 
-.. include:: ../onglets/historical.rst
+.. include:: ../tabs/historical.rst
 
 Révisions
 ~~~~~~~~~
@@ -140,7 +140,7 @@ Un article bénéficie d'un espace commentaires, permettant aux utilisateurs de 
         :alt: Espace commentaire d'un article
         :align: center
 
-.. include:: ../onglets/all.rst
+.. include:: ../tabs/all.rst
 
 Les différentes actions
 -----------------------

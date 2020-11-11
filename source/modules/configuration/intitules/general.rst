@@ -18,7 +18,7 @@ Eléments
 
 Liste tous les éléments affectés à ce lieu. Vous pouvez choisir de n'afficher qu'un type d'élément (ordinateur, utilisateur, prise réseau, logiciel...).
 
-.. include:: ../../onglets/historique.rst
+.. include:: ../../tabs/historical.rst
 
 .. include:: onglets/traduction.rst
 
@@ -33,7 +33,7 @@ L'ajout peut être unique via la partie haute ou multiple via la partie basse. P
 
 Autre exemple : considerant le préfixe `bru`, `9` et `11` les bornes de la numérotation et `srv` le suffixe ; les prises réseau créées seront nommées : `bru09srv`, `bru10srv` et `bru11srv`.
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Statuts
 -------
@@ -49,7 +49,7 @@ Liste les sous-statuts existants et permet d'en ajouter un nouveau.
 
 .. include:: onglets/traduction.rst
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Fabricants
 ----------
@@ -66,9 +66,9 @@ La liste des Listes noires est une liste de valeurs à plat valable pour toutes 
 Elle comprend la valeur que vous voulez mettre en liste noire ainsi que sur quel type l'appliquer (IP, MAC, numéro de série, UUID ou courriel).
 Les listes noires sont utilisées pour les imports automatique via un agent d'inventaire ou par le collecteur de courriels.
 
-.. include:: ../../onglets/historique.rst
+.. include:: ../../tabs/historical.rst
 
-.. include:: ../../onglets/all.rst
+.. include:: ../../tabs/all.rst
 
 Contenu de courriel interdit
 ----------------------------
