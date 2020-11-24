@@ -73,6 +73,6 @@ Tips
 GLPI allows you to configure a notification on the expiry of the hardware warranty. This is configurable by entity in :ref:`notification management <notification management>` to define the models and recipients used and in :ref:`the administration of entities <administration-entities>` to enable or disable this feature, define the default values and anticipate the sending of the notification if necessary.
 
 GLPI can perform a simple net book value calculation based on straight-line or declining balance depreciation. To do so, a certain amount of information (value, date, etc.) must be entered.
-The user must also enter the date of the financial year in :ref:`the general configuration <configuration-generale>` and the date of the financial year in :ref:`the general configuration <configuration-generale>`. For more information on the notions of depreciation, you can refer to `the Wikipedia article on accounting depreciation <https://fr.wikipedia.org/wiki/Amortissement_comptable#Modes_d.E2.80.99amortissement_accept.C3.A9s_comptablement>`_.
+The user must also enter the date of the financial year in :ref:`the general configuration <configuration-generale>` and the date of the financial year in :ref:`the general configuration <configuration-generale>`.
 
 The display of financial information for each type of equipment depends on the profile of the user logged in.
