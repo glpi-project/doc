@@ -14,4 +14,4 @@ L'interface de GLPI est composée de différentes zones regroupant les fonctionn
 #. Le fil d'ariane permet de situer le contexte d'utilisation de la zone de travail principale ;
 #. Le sélecteur d'entité (en mode multi entités) ;
 #. La zone de travail principale est l'espace privilégié d'interaction avec l'application ;
-#. La zone de recherche permet d'eefectuer une recherche globale à tout moment.
+#. La zone de recherche permet d'effectuer une recherche globale à tout moment.
