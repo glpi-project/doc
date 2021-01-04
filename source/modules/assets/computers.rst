@@ -17,8 +17,8 @@ It is possible to use :doc:`templates with computers <../generalites/gabarits>`.
    * a computer can be a server, a desktop computer or a laptop; to differentiate them, it is possible to use the `type` field
 
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
 .. include:: tabs/os.rst
 

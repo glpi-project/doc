@@ -1,36 +1,36 @@
-Systèmes d'exploitation
-~~~~~~~~~~~~~~~~~~~~~~~
+Operating systems
+~~~~~~~~~~~~~~~~~
 
-Gestion du Système d'exploitation des ordinateurs, ces informations sont visibles dans l'onglet `Système d'exploitation` sur la fiche de l'élément.
+The informations on operating sytems for a computer are visible in tabs `Operating system` for a Computer entry.
 
-.. image:: /modules/parc/images/os.png
-   :alt: Écran de définition d'un système d'exploitation
+.. image:: /modules/assets/images/os.png
+   :alt: Screen presenting an operating sytem
    :align: center
 
-Le système d'exploitation est définit par les éléments suivants :
+An operating system is associated with the following elements:
 
-* Nom
+* Name
 * Version
 * Architecture
 * Service Pack
 * Kernel
 * Edition
 * Product ID
-* Numéro de série
+* Serial number
 
 .. note::
 
-   La création / gestion des intitulés du système d'exploitation se trouve dans :ref:`le menu Configuration > Intitulés > Systèmes d'exploitation`.
+   The creation and management of the titles for operating systems is located in :ref:`the menu Configuration > Dropdowns > Operating systems`.
 
-   .. image:: /modules/parc/images/os_dropdown.png
-      :alt: Écran de définition d'un système d'exploitation
+   .. image:: /modules/assets/images/os_dropdown.png
+      :alt: Screen of titles definition for operating systems
       :align: center
 
 .. note::
 
-   Toute suppression ou ajout d'un système d'exploitation est enregistré dans l'historique de l'ordinateur.
+   A deletion or addition of an operating system is recorded in the history of the computer.
 
 
 .. note::
 
-   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+   If using native inventory or third-party inventory tool, the operation system informations can be automaticaly imported and updated.
