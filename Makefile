@@ -14,6 +14,8 @@ PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
+# the docx builder has other options
+DOCXSPHINXOPTS  = -d $(BUILDDIR)/doctrees -D "extensions = ['sphinx.ext.todo', 'sphinx.ext.ifconfig', 'docxsphinx']" $(SPHINXOPTS) source
 
 #Watcher
 ALLSPHINXLIVEOPTS   = $(ALLSPHINXOPTS) -q \
@@ -60,6 +62,7 @@ help:
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 	@echo "  coverage   to run coverage check of the documentation (if enabled)"
 	@echo "  dummy      to check syntax errors of document sources"
+	@echo "  docx       to make a Word file (need Sphinx docxsphinx extension)"
 
 .PHONY: clean
 clean:
@@ -246,3 +249,10 @@ dummy:
 	$(SPHINXBUILD) -b dummy $(ALLSPHINXOPTS) $(BUILDDIR)/dummy
 	@echo
 	@echo "Build finished. Dummy builder generates no files."
+
+.PHONY: docx
+docx:
+	$(SPHINXBUILD) -b docx $(DOCXSPHINXOPTS) $(BUILDDIR)/docx
+	@echo
+	@echo "Build finished. The .docx file is in $(BUILDDIR)/docx."
+

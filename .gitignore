@@ -1,2 +1,4 @@
 #generated pages
 build/
+# log
+docx.log
