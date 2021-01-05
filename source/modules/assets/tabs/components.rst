@@ -1,92 +1,88 @@
-Composants
+Components
 ~~~~~~~~~~
 
-Gestion des composants matériels, ces informations sont visibles dans l'onglet `Composants` sur la fiche de l'ordinateur.
+This tab, named `Components` and visible in a `Computer` entry, allows to manage the hardware components of a computer.
 
-.. image:: /modules/parc/images/component.png
-   :alt: Écran des composants
+.. image:: /modules/assets/images/component.png
+   :alt: Components screen
    :align: center
 
 .. note::
 
-   La création / gestion de composants se trouve dans le menu  :doc:`Configuration > Composants <../configuration/composants>`.
+   Adding or managing components is located in menu :doc:`Configuration > Composants <../configuration/composants>`.
 
 .. note::
-   Si plusieurs composants du même type sont utilisés ils seront regroupés.
+   If several components of the same type are used, they will be grouped in the view.
 
-   .. image:: /modules/parc/images/component_group.png
-      :alt: Composants regroupés
+   .. image:: /modules/assets/images/component_group.png
+      :alt: Grouped components
       :align: center
 
-Il possible d'ajouter un composant en sélectionnant dans la liste déroulante présente en haut du tableau
-la famille de celui-ci, puis son nom et le nombre de composants à ajouter.
+It is possible to add a component by first selecting its family in the dropdown list at the top of the table and then its name and the number of components to add.
 
-.. image:: /modules/parc/images/component_add.png
-   :alt: Ajout d'un composant
+.. image:: /modules/assets/images/component_add.png
+   :alt: Adding a component
    :align: center
 
 
-Depuis un ordinateur vous pouvez modifier un composant en cliquant sur le lien de son nom.
+Starting from a computer view, it is possible to modify a component by clicking on the link under its name.
 
-.. image:: /modules/parc/images/component_update.png
-   :alt: Modifier un composant
+.. image:: /modules/assets/images/component_update.png
+   :alt: Modify a component
+   :align: center
+
+To act on several components (for example modify an element of the
+component, activate accounting informations or modify them, delete a
+component...), first select the components and then use the `Actions`
+button present at the top or the bottom of the list.
+
+If several types of different components, not having the same
+characteristics, are selcted for modification, in the actions it will
+be asked on which component modification must be applied.
+
+.. image:: /modules/assets/images/component_computer_massives_actions.png
+   :alt: Mass actions on a component
    :align: center
 
 
-Pour agir sur plusieurs composants (modifier un élément typique du composant,
-activer les informations financières ou les modifier, supprimer un
-composant...), sélectionnez les dans la colonne de droite puis utilisez
-le bouton Actions présent en haut ou en bas de la liste.
+Selection button in left column allows to select all the components at once.
 
-Si vous sélectionnez plusieurs type de composants différents n'ayant pas
-les mêmes caractéristiques pour modification, dans les actions, il vous
-sera demandé sur quel composant vous souhaitez intervenir.
-
-.. image:: /modules/parc/images/component_computer_massives_actions.png
-   :alt: Écran des actions massives sur un composant
+.. image:: /modules/assets/images/component_select_group_left.png
+   :alt: Component selection (left)
    :align: center
 
+Selection at right of type column (grayed line) allows to select all components of the same type (processor, memory, network interface...).
 
-La sélection dans la colonne de gauche permet de sélectionner tous les
-composants en une seule fois.
-
-.. image:: /modules/parc/images/component_select_group_left.png
-   :alt: Selection composants (gauche)
-   :align: center
-
-
-La sélection à droite de la colonne du type (ligne grisée) permet de sélectionner tous les composants de ce type (processeur, mémoire, carte réseau...).
-
-.. image:: /modules/parc/images/component_select_group_right.png
-   :alt: Selection composants (droite)
+.. image:: /modules/assets/images/component_select_group_right.png
+   :alt: Component selection (right)
    :align: center
 
 
 .. note::
 
-   -  **Il est possible de modifier les caractéristiques d'un composant uniquement pour l'ordinateur**
+   It is possible to modify the characteristics of a component only for one computer
 
-      Depuis l'onglet *Eléments* du composant, cliquer sur le lien **Mettre à jour**.
+      From tab *Elements* of the component, click on the link **Update**.
 
-      .. image:: /modules/parc/images/component_update_link.png
-         :alt: Modifier un composant
+      .. image:: /modules/assets/images/component_update_link.png
+         :alt: Modify a component
          :align: center
 
-      Plusieurs onglet sont alors affichés :
+      Several tabs are then displayed:
 
-      *  Onglet "Elément - Lien nom du composant" : liste les caractéristiques de ce composant.
-      *  :doc:`Onglet "Gestion" <../parc/onglets/gestion>` : gérer les informations financières et administratives.
-      *  :doc:`Onglet "Documents" <../tabs/documents>` : documents attachés
-      *  :doc:`Onglet "Historique" <../tabs/historical>` : historique des modifications
-      *  :doc:`Onglet "Contrat" <../tabs/contracts>` : gérer les contrats.
-      *  :doc:`Onglet "Debug" <../tabs/debug>` : uniquement si vous êtes connecté en mode Debug.
-      *  :doc:`Onglet "Tous" <../tabs/all>` : toutes les informations sont affichées sur une  seule page.
-
-.. note::
-
-   Toute suppression ou ajout d'un composant est enregistré dans l'historique de l'ordinateur.
-
+      *  Tab "Element - Link name of component" : list the characteristics of this component
+      *  :doc:`Tab "Management" </modules/tabs/gestion>` : manage administrative and accounting informations
+      *  :doc:`Tab "Documents" </modules/tabs/documents>` : attached documents
+      *  :doc:`Tab "Historique" </modules/tabs/historical>` : history of modifications
+      *  :doc:`Tab "Contrat" </modules/tabs/contracts>` : contracts management
+      *  :doc:`Tab "Debug" </modules/tabs/debug>` : only if you are connected in Debug mode
+      *  :doc:`Tab "Tous" </modules/tabs/all>` : all the informations are displayed on a single page
 
 .. note::
 
-   En cas d’utilisation d’un outil d’inventaire quelconque, ces informations peuvent être automatiquement importées et mises à jour.
+   Every deletion or addition of a component is recorded in the history of the computer.
+
+
+.. note::
+
+   If using native inventory or third-party inventory tool, the components informations can be automaticaly imported and updated.
