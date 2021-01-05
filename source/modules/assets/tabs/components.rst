@@ -82,7 +82,6 @@ Selection at right of type column (grayed line) allows to select all components 
 
    Every deletion or addition of a component is recorded in the history of the computer.
 
-
 .. note::
 
    If using native inventory or third-party inventory tool, the components informations can be automaticaly imported and updated.

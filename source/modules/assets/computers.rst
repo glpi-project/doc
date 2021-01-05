@@ -2,6 +2,7 @@ Computers
 =========
 
 In a computer entry, you can find informations such as:
+
 * operating system: name, version, service pack, serial number, product ID...
 * general characteristics: manufacturer, model, type, serial number...
 * management informations: technical manager, status, location...
@@ -34,7 +35,7 @@ The different tabs
 
 .. include:: ../tabs/management.rst
 
-.. include:: ../tabs/contrats.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/documents.rst
 
@@ -44,9 +45,9 @@ The different tabs
 
 .. include:: ../tabs/tickets.rst
 
-.. include:: ../tabs/problemes.rst
+.. include:: ../tabs/problems.rst
 
-.. include:: ../tabs/changements.rst
+.. include:: ../tabs/changes.rst
 
 .. include:: ../tabs/external-links.rst
 

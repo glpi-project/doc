@@ -1,10 +1,10 @@
-Associer des liens externes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+External links
+~~~~~~~~~~~~~~
 
-Pour certains éléments, les liens externes se gèrent depuis le menu :ref:`le menu Configuration > Liens externes`. Voir :doc:`Gérer les liens externes <../configuration/external_link>`
+This tab allows to manage external links.
 
-Dans cet onglet, les liens externes sont listés.
+For some elements, the external links are managed from :ref:`the menu Configuration > External links`. See :doc:`Manage external links <../configuration/external_link>`.
 
-.. image:: /modules/parc/images/liens.png
-   :alt: Écran des antivirus
+.. image:: /modules/assets/images/links.png
+   :alt: Links screen
    :align: center

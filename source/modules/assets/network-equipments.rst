@@ -10,14 +10,14 @@ Il est possible d'utiliser les :doc:`gabarits avec les matériels réseaux <../g
 Les différents onglets
 ----------------------
 
-.. include:: onglets/composants.rst
+.. include:: tabs/components.rst
 
-.. include:: onglets/ports-reseaux.rst
+.. include:: tabs/network-ports.rst
 
 -   **Onglet "Noms réseaux"**
      Récapitulatif des adresses IP et réseaux IP pour chaque nom réseau.
 
-.. include:: onglets/gestion.rst
+.. include:: ../tabs/management.rst
 
 .. include:: ../tabs/contracts.rst
 
@@ -25,7 +25,7 @@ Les différents onglets
 
 .. include:: ../tabs/tickets.rst
 
-.. include:: onglets/problemes.rst
+.. include:: ../tabs/problems.rst
 
 .. include:: ../tabs/external-links.rst
 

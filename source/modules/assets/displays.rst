@@ -25,7 +25,7 @@ Les différents onglets
 
 .. include:: tabs/connexions.rst
 
-.. include:: tabs/gestion.rst
+.. include:: ../tabs/management.rst
 
 .. include:: ../tabs/contracts.rst
 
@@ -33,7 +33,7 @@ Les différents onglets
 
 .. include:: ../tabs/tickets.rst
 
-.. include:: tabs/problemes.rst
+.. include:: ../tabs/problems.rst
 
 .. include:: ../tabs/external-links.rst
 

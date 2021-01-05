@@ -1,49 +1,45 @@
 Connexions
 ~~~~~~~~~~
 
-Dans cet onglet, il est possible de gérer les connexions directes entre un ordinateur et ses éléments connectés.
+This tab allows to manage the direct connexions between a computer and its connected elements.
 
-Les connexions directes représentent la relation entre des matériels différents reliés de manière physique ou virtuelle.
-
-Depuis un ordinateur
-^^^^^^^^^^^^^^^^^^^^
-
-La connexion peut se faire vers un ou plusieurs élément du type
-moniteur, imprimante, périphérique ou téléphone. Pour chaque type
-d'objet connecté, les nom, numéro de série et numéro d'inventaire sont
-listés.
+Direct connexions represent the relation between different hardwares linked either physicaly or virtualy.
 
 
-.. image:: /modules/parc/images/connexions_computer_list.png
-   :alt: Liste des connexions
+From a computer
+^^^^^^^^^^^^^^^
+
+The connexion can be made toward one or several elements of type
+display, printer, peripheral or phone. For each type of connected
+object, its name, serial number and inventory number are displayed.
+
+.. image:: /modules/assets/images/connexions_computer_list.png
+   :alt: List of connexions
    :align: center
 
 
 
-Depuis un élément autre qu'un ordinateur
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+From an element other than a computer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Pour ajouter une connexion, sélectionner l'ordinateur dans la liste déroulante présente en haut du tableau.
+To add a connexion, select the computer in the dropdown list presented at top of the table.
 
-.. image:: /modules/parc/images/connexions_monitor_list.png
-   :alt: Liste des connexions
+.. image:: /modules/assets/images/connexions_monitor_list.png
+   :alt: List of connexions
    :align: center
 
-
-Dans ce cas, la connexion ne peut se faire que vers un seul ordinateur.
-Le tableau listera le nom de cet ordinateur ainsi que ses numéros de
-série et d'inventaire.
-
-
-.. note::
-   Les déconnexions se font depuis la fiche de chaque matériel lié (onglet Connexions) via les actions massives.
+If this case, the connexion can only be made to a single computer. The
+table will list the name of this computer as well as its serial and
+inventory numbers.
 
 
 .. note::
-
-   Toute suppression ou ajout d'un ticket est enregistré dans l'historique de l'ordinateur.
-
+   The deletion of a connexion can be made from the entry of each connected hardware (tab `Connexions`) via mass actions.
 
 .. note::
 
-   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+   Every deletion or addition of a connexion is recorded in the history of the computer.
+
+.. note::
+
+   If using native inventory or third-party inventory tool, the connexions informations can be automaticaly imported and updated.

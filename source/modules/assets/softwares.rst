@@ -72,7 +72,7 @@ Pour **Désinstaller** une version d'un logiciel, il faut utiliser le système d
 
 A la suite des versions installées, la liste des licences affectées mais non installées est affichée. Vous pouvez ajouter une nouvelle licence associée à cet ordinateur. Le système d'actions massives permet, via l'action **Installer**, d'installer les versions d'utilisation des licences sélectionnées.
 
-.. include:: onglets/gestion.rst
+.. include:: ../tabs/management.rst
 
 .. include:: ../tabs/contracts.rst
 
@@ -80,7 +80,7 @@ A la suite des versions installées, la liste des licences affectées mais non i
 
 .. include:: ../tabs/tickets.rst
 
-.. include:: onglets/problemes.rst
+.. include:: ../tabs/problems.rst
 
 .. include:: ../tabs/external-links.rst
 

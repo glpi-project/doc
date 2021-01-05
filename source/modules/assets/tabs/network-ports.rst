@@ -1,64 +1,55 @@
 Network ports
 ~~~~~~~~~~~~~
 
-Gestion des ports réseaux pour les éléments d'inventaire
+This tab, named `Network ports` and visible in a `Computer` entry, allows to manage the network ports attached to a computer.
 
-.. image:: /modules/parc/images/ports.png
-   :alt: Liste des ports réseaux
+.. image:: /modules/assets/images/ports.png
+   :alt: List of network ports
    :align: center
 
-Un port réseau permet de modéliser la sortie d'une interface réseau sur
-un matériel donné. Chaque port est caractérisé par un numéro et un nom.
+A network port represents the output of a network interface on a given hardware. A port is characterized by a number and a name.
 
-Sur ce port, il est possible d'ajouter un ou plusieurs VLAN, ces
-derniers peuvent être définis par un nom, un commentaire et un numéro de
-VLAN (TAG ID).
+.. ??? Un port réseau permet de modéliser la sortie d'une interface réseau sur un matériel donné. Chaque port est caractérisé par un numéro et un nom.
 
-.. image:: /modules/parc/images/ports_vlan.png
+It is possible on a network port to add one or more VLAN, these VLANs being defined by a name, an optional comment and a VLAN number.
+
+.. ??? Sur ce port, il est possible d'ajouter un ou plusieurs VLAN, ces derniers peuvent être définis par un nom, un commentaire et un numéro de VLAN (TAG ID).
+
+.. image:: /modules/assets/images/ports_vlan.png
    :alt: VLAN
    :align: center
 
+One or more :doc:`network name <../configuration/intitules/internet>` can be associated to each network port. This can be done in tab `Network name`.
 
-Sur chaque port réseau, on peut associer un ou plusieurs :doc:`nom réseau <../configuration/intitules/internet>`.
-On peut ajouter plusieurs noms réseau en allant dans l'onglet "Nom réseau".
-
-.. image:: /modules/parc/images/ports_network_name.png
-   :alt: Nom réseau
+.. image:: /modules/assets/images/ports_network_name.png
+   :alt: Network name
    :align: center
 
 .. note::
-   Lorsqu'il n'y a qu'un seul nom réseau, il s'affichera dans le
-   formulaire du port réseau et il sera possible de le modifier
-   directement. On peut également modifier le nom réseau au travers de
-   son formulaire propre (avec ses onglets) en cliquant sur le titre
-   juste au dessus de la partie du formulaire qui le concerne.
+   When a network port has only one network name, this name is displayed
+   in the network port form itself and it is possible to modify the
+   name directly. It is also possible to modify the network name via
+   its own form, accessible by clicking on the link under the name.
 
-   Lorsqu'il y a plusieurs noms réseau, il n'est plus possible de
-   modifier le nom réseau dans le formulaire du port réseau. On doit
-   systématiquement utiliser l'onglet.
+   When a network port has several network names, the only way to
+   modify the network names is via the network name form.
 
-Les ports réseau peuvent être de différents types. Il y a des ports
-physiques (Ethernet, Wifi ...),
-:term:`Port réseau virtuel` (boucle locale, alias,
-aggrégats ...), point à point (ligne commutée) ...
+Network ports can be of different types:
 
-L'onglet des ports réseau représente l'ensemble des ports disponibles sur
-l'équipement dans un tableau.
+* physical port: ethernet, wifi...
+* :term:`virtual network port`: local loopback, alias, aggregates...
+* point to point: switched network...
 
-Dans l'en-tête du tableau, à côté du
-nombre total de port, il y a un lien permettant de choisir les options
-d'affichage des ports réseaux.
-
-Il est ainsi possible d'afficher ou de
-masquer des informations telles que les informations réseau (tout ce qui
-concerne Internet), les caractéristiques intrinsèques du port (ie.
-dépendant de son type), les adresses MAC, les VLANs ...
+The `Network port` tab groups in a table the ports that are available
+on the equipment. The table header contains the total number of ports
+and a link that allows to choose display options. This allows to
+selectively display or mask informations such as network data (IP...),
+port characteristics depending on its type, MAC adress, VLANs...
 
 .. note::
 
-   GLPI permet de représenter fidèlement des connexions
-   réseau très complexes avec des alias ports Wifi et/ou Ethernet associés
-   à des VLAN regroupés dans aggrégats
+   GLPI allows to present complex network connexion with for example wifi or ethernet port aliases associated to VLANs grouped in aggregates...
+
 
 Gestion des ports réseau de type Ethernet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -152,9 +143,8 @@ lesquels il s'appuie) et une adresse MAC.
 
 .. note::
 
-   Toute suppression ou ajout d'un port réseau est enregistré dans l'historique de l'ordinateur.
-
+   Every deletion or addition of a network port is recorded in the history of the computer.
 
 .. note::
 
-   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+   If using native inventory or third-party inventory tool, the network ports informations can be automaticaly imported and updated.

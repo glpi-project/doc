@@ -1,62 +1,52 @@
-Logiciels
+Softwares
 ~~~~~~~~~
 
-Gestion des logiciels installés sur les ordinateurs. Ceux-ci sont triés par catégorie et sont caractérisés par leur nom, leur version ainsi que le statut de cette dernière.
+This tab, named `Softwares` and visible in a `Computer` entry, allows to manage the softwares installed on a computer. These softwares are sorted by their category and are characterized by name, version and version status.
 
-.. image:: /modules/parc/images/logiciels_list.png
-   :alt: Liste de logiciels
+.. image:: /modules/assets/images/softwares_list.png
+   :alt: Softwares list
    :align: center
 
+To install a software, first select its name in the dropdown list, then its version.
 
-Pour installer un logiciel, sélectionner son nom dans la liste déroulante, puis sa version.
-
-.. image:: /modules/parc/images/logiciels_add.png
-   :alt: Ajout d'un logiciel
+.. image:: /modules/assets/images/softwares_add.png
+   :alt: Adding a software
    :align: center
 
+It is possible to associate a license to a software on a computer.
 
-.. note::
+To associate a license, first select the software in the dropdown list, then the wanted license.
 
-    * La liste déroulante énumère les logiciels disponibles dans l'entité.
-    * La gestion des licences se trouve dans :ref:`Parc > Logiciels`.
-      Voir :doc:`Gérer les logiciels <../parc/logiciels>`
-
-
-Il est possible d'associer une licence à cet ordinateur.
-
-Pour associer une licence, sélectionner le logiciel dans la liste déroulante puis la licence souhaitée
-
-.. image:: /modules/parc/images/logiciels_licence_add.png
-   :alt: Ajout d'une licence
+.. image:: /modules/assets/images/softwares_licence_add.png
+   :alt: Adding a license
    :align: center
 
-Si la licence est associée à un logiciel déjà installé sur l'ordinateur elle sera présentée dans la liste des logiciels.
+If the license is associated with a software that is already installed on the computer, it will be presented in the list of softwares.
 
-.. image:: /modules/parc/images/logiciels_licence.png
-   :alt: Licence depuis un logiciel
+.. image:: /modules/assets/images/softwares_licence.png
+   :alt: License from a software
    :align: center
 
-Sinon elle est affiché dans un tableau à part.
+Otherwise it will be displayed in a separate table.
 
-.. image:: /modules/parc/images/logiciels_licence_list.png
-   :alt: Liste de licences
+.. image:: /modules/assets/images/softwares_licence_list.png
+   :alt: List of licenses
    :align: center
 
 .. note::
 
-    * La liste déroulante énumère les logiciels disponibles dans l'entité.
-    * La gestion des licences se trouve dans :ref:`Gestion > Licences`.
-      Voir :doc:`Gérer les licences <../parc/licenses>`
+   * the dropdown list enumerates the softwares that are available in the entity
+   * licenses management can be found in :ref:`Assets > Softwares`.
+     See :doc:`Manage softwares <../assets/softwares>`
 
 .. note::
 
-   Il est possible d'installer un logiciel depuis la licence sur un ordinateur via les actions massives.
+   It is possible via mass actions to install on a computer a software selected from its license.
 
 .. note::
 
-   Toute suppression ou ajout d'un logiciel / d'une licence est enregistré dans l'historique de l'ordinateur.
-
+   Every deletion or addition of a software or a license is recorded in the history of the computer.
 
 .. note::
 
-   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+   If using native inventory or third-party inventory tool, the softwares informations can be automaticaly imported and updated.

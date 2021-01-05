@@ -1,27 +1,26 @@
 Antivirus
 ~~~~~~~~~
 
-Gestion des antivirus, ces informations sont visibles dans l'onglet `Antivirus` sur la fiche de l'ordinateur.
+This tab, named `Antivirus` and visible in a `Computer` entry, allows to manage the antivirus running on a computer.
 
-.. image:: /modules/parc/images/antivirus.png
-   :alt: Écran des antivirus
+.. image:: /modules/assets/images/antivirus.png
+   :alt: Antivirus screen
    :align: center
 
-Un antivirus est définit par les éléments suivants :
+An antivirus is characterized by:
 
-* Nom
-* Actif
-* Fabricant
-* À jour
-* Version de l'antivirus
-* Version de la base de registre
-* Date d'expiration
-
-.. note::
-
-   Toute suppression ou ajout d'un antivirus est enregistré dans l'historique de l'ordinateur.
-
+* name
+* active/non active
+* vendor
+* update status
+* antivirus version
+* signature database version
+* expiration date
 
 .. note::
 
-   En cas d’utilisation de l'inventaire natif ou d’un outil d’inventaire tiers, ces informations peuvent être automatiquement importées et mises à jour.
+   Every deletion or addition of an antivirus is recorded in the history of the computer.
+
+.. note::
+
+   If using native inventory or third-party inventory tool, the antivirus informations can be automaticaly imported and updated.

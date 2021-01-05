@@ -21,7 +21,7 @@ La gestion globale permet de limiter le nombre d'éléments à gérer dans le ca
 Les différents onglets
 ----------------------
 
-.. include:: onglets/composants.rst
+.. include:: tabs/components.rst
 
 Cartouches
 ~~~~~~~~~~
@@ -37,11 +37,11 @@ Il se décompose en deux parties :
 
    Pour la création ou la suppression de cartouche reportez-vous à :doc:`la gestion des cartouches <cartouches>`.
 
-.. include:: onglets/connexions.rst
+.. include:: tabs/connexions.rst
 
-.. include:: onglets/ports-reseaux.rst
+.. include:: tabs/network-ports.rst
 
-.. include:: onglets/gestion.rst
+.. include:: ../tabs/management.rst
 
 .. include:: ../tabs/contracts.rst
 
@@ -49,7 +49,7 @@ Il se décompose en deux parties :
 
 .. include:: ../tabs/tickets.rst
 
-.. include:: onglets/problemes.rst
+.. include:: ../tabs/problems.rst
 
 .. include:: ../tabs/external-links.rst
 
