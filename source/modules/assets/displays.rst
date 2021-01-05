@@ -23,9 +23,9 @@ Les différents onglets
 
 .. _connexion_monitor:
 
-.. include:: onglets/connexions.rst
+.. include:: tabs/connexions.rst
 
-.. include:: onglets/gestion.rst
+.. include:: tabs/gestion.rst
 
 .. include:: ../tabs/contracts.rst
 
@@ -33,7 +33,7 @@ Les différents onglets
 
 .. include:: ../tabs/tickets.rst
 
-.. include:: onglets/problemes.rst
+.. include:: tabs/problemes.rst
 
 .. include:: ../tabs/external-links.rst
 

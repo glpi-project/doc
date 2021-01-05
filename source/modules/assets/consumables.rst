@@ -32,7 +32,7 @@ C'est depuis les actions de masse de cet onglet que sont attribuer les consommab
 Figure 1. Onglet Consommables
 ![image](docs/image/consumable.png)
 
-.. include:: onglets/gestion.rst
+.. include:: tabs/gestion.rst
 
 .. include:: ../tabs/documents.rst
 
