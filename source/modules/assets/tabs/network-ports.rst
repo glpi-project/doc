@@ -51,95 +51,72 @@ port characteristics depending on its type, MAC adress, VLANs...
    GLPI allows to present complex network connexion with for example wifi or ethernet port aliases associated to VLANs grouped in aggregates...
 
 
-Gestion des ports réseau de type Ethernet
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Management of Ethernet network ports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Le protocole Ethernet est celui classiquement utilisé sur les réseaux
-internes.
+The Ethernet protocol is classicaly used on internal networks.
 
-Un port Ethernet est caractérisé par son type (paire torsadée, fibre
-optique monomode/multimode ...), un débit (10Mb, 100Mb, 1Gb, 10Gb
-...) et son adresse MAC. Il est possible de lui associer une carte
-réseau ainsi qu'une prise réseau.
+An Ethernet port is characterized by its type (twisted pair,
+monomode/multimode optical fiber...), a transfer rate ((10Mb, 100Mb,
+1Gb, 10Gb...) and a MAC adress. It is possible to associate to the
+port a network card and a network plug.
 
-Les connexions Ethernet se font en reliant deux ports Ethernet entre
-eux. Pour cela, il faut qu'il y ait un port libre sur chacun de ces
-matériels. Généralement, les connexions se feront entre un port
-présent sur un ordinateur, un périphérique ou une imprimante et un
-port présent sur un matériel réseau (hub, switch).
 
-Gestion des ports réseau de type Wifi
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ethernet connexions are realized by linking two Ethernet ports, which
+requires that there is a free port on each equipment to be
+connected. In general, a connexion links a port attached to a
+computer, a peripheral or a printer and a port attached to a network
+equipment (hub, switch).
 
-Le protocole Wifi est celui classiquement utilisé pour les réseaux
-sans fils.
 
-Un port Wifi est caractérisé par le mode de fonctionnement de la
-carte (Ad-Hoc, Point d'accès, répéteur...), la version du protocol
-Wifi (ab, g ...) et son adresse MAC.
-
-Comme les ports Ethernet, il est possible de lui associer une carte
-réseau.
-
-On peut associer un réseau Wifi à un port donné. Outre son nom, un
-réseau Wifi contient un ESSID et est caractérisé par son type :
-
-*Infrastructure :* réseau Wifi avec un ou plusieurs points d'accès
-   et des clients qui se connectent dessus.
-*Ad-hoc :* réseau Wifi entre systèmes équivalents sans point
-   d'accès.
-
-Gestion des ports réseau de type boucle locale
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-La boucle locale est un port virtuel utilisé par la plupart des
-équipements afin de communiquer en interne. C'est ce port qui est
-sollicité lorsque l'on essaie de communiquer avec la machine
-``localhost`` (``127.0.0.1``).
-
-La boucle locale ne possède aucun attribut spécifique.
-
-Gestion des alias de port réseau
+Management of Wifi network ports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Un alias de port réseau est un port virtuel qui peut spécialiser un
-port physique.
+The Wifi protocol is widely used on wireless networks.
 
-Sous Linux, chaque VLAN, lorsqu'il est transmis
-`"taggé" <glossary/tagged_vlan.html>`__, est associé un alias de port
-(eth2.50 pour représenter le VLAN 50 sur le port eth2).
+A Wifi port is characterized by the mode of the network card (ad-hoc,
+access point, repeater...), the Wifi protocol version (ab, g...) and
+its MAX adress.
 
-Un alias de port comporte son port d'origine (ie. celui sur lequel il
-s'appuie) et une adresse MAC.
+It is possible to associate a network card to the port, similarly to Ethernet ports.
 
-Avertissement : Lorsque l'on change le port d'origine, l'adresse MAC
-du nouveau port d'origine est affectée à l'alias de port.
+A Wifi network can be associated to a given port. Apart from its name, a Wifi network has an ESSID and is characterized by its type:
 
-Gestion des aggrégats de ports réseau
+*Infrastructure :* Wifi network with on or several access points and connected clients
+*Ad-hoc :* Wifi networt between similar systems without access points
+
+Management of local loopback ports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The local loopback is a virtual port used by most equipments for internal communication. It is this port that is used when connecting to ``localhost`` or ``127.0.0.1``.
+
+Local loopback has no specific attribute.
+
+Management of network port aliases
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A network port alias is a virtual port that can refine a physical port.
+
+On Linux, to each VLAN, when transmited `"tagged" <glossary/tagged_vlan.html>`__, is associated a port alias, for example `eth2.50` to represent VLAN 50 on port `eth2`.
+
+.. ??? Sous Linux, chaque VLAN, lorsqu'il est transmis `"taggé" <glossary/tagged_vlan.html>`__, est associé un alias de port (eth2.50 pour représenter le VLAN 50 sur le port eth2).
+
+A port alias contains its base port and a MAC adress.
+
+Note that when the origin port is changed, the MAC adress of the new port is affected to the port alias.
+
+Management of network port aggregates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Un aggrégat de port réseau est un port virtuel qui permet de
-regrouper plusieurs ports physiques entre eux.
+A network port aggregate is a virtual port that allows to group several physical ports.
 
-Les routeurs de coeurs de réseau sont souvent reliés entre eux par
-des aggrégats afin de faire de la redondance et/ou de l'augmentation
-de bande passante.
+.. ??? Les routeurs de coeurs de réseau sont souvent reliés entre eux par des aggrégats afin de faire de la redondance et/ou de l'augmentation de bande passante.
 
-On peut considérer qu'un équipement réseau est composé de ports
-réseaux physiques qui sont reliés entre eux par des aggrégats de ports.
-Ces derniers correspondent aux VLANs physiquement définits sur
-l'équipement. Tout naturellement, ses adresses IP de gestion sont
-rattachées aux aggrégats associés au VLAN de gestion du switch ou du
-routeur.
+.. ??? On peut considérer qu'un équipement réseau est composé de ports réseaux physiques qui sont reliés entre eux par des aggrégats de ports. Ces derniers correspondent aux VLANs physiquement définits sur l'équipement. Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats associés au VLAN de gestion du switch ou du routeur.
 
-Sur les machines Linux, les aggrégats sont représentés par des
-`bridges <http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>`__
-qui relient entre eux différents ports. De la même manière, un
-firewall Ethernet utilisera un bridge qui reliera les interfaces à
-filtrer.
+On Linux, aggregates are represented by bridges `bridges <http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>` linking together different ports. In the same way, an Ethernet firewall uses a bridge that links interfaces to be filtered.
 
-Un aggrégat de ports comporte les ports d'origine (ie. ceux sur
-lesquels il s'appuie) et une adresse MAC.
+A port aggregate contains the origin ports and a MAC adress.
 
 .. note::
 
