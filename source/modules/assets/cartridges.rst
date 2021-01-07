@@ -1,34 +1,35 @@
-Cartouches
+Cartridges
 ==========
 
-Ce module permet de créer des modèles de cartouches ainsi que les cartouches correspondantes.
+This functionality of `Asset` module allows to create cartridges models and corresponding cartridges.
 
-Dans la fiche d'une cartouche, plusieurs informations sont disponibles:
+In a cartridge form, the following informations are available:
 
--   Sur les caractéristiques générales de la cartouche (le fabricant, le type, la référence...) ;
--   Sur la gestion de l'imprimante (le responsable technique, son lieu de stockage...)
+- general characteristics of the cartridge: vendor, type, reference...
+- printer management: technical person in charge, storage site...
 
-Le seuil d'alerte correspond à la valeur minimale à partir de laquelle une alerte est déclenchée.
+The alert threshold is the minimal value at which an alert is triggered.
 
-***Remarque :** Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir [Configurer les notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+***Note :** for alerts to be effective, notifications must be activated (see [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
-Pour qu'une cartouche puisse être installable sur une imprimante, celle-ci doit être renseignée comme compatible avec cette imprimante.
+For a cartridge to be installable on a printer, it must be declared as compatible with this printer.
 
-La gestion des stocks partagés est possible en définissant l'élément comme récursif sur une entité. Les éléments seront alors disponibles pour toutes les sous-entités.
+Management of shared stocks is possible by defining the element as recursive on an entity. The elements will then be available for all sub-entities.
 
-Les différents onglets
-----------------------
-- **Onglet "Cartouches"**
-  C'est depuis cet onglet que vous pouvez ajouter autant de cartouches que nécessaire pour ce modèle. Vous pouvez d'ailleurs ajouter plusieurs cartouches en une seule fois.
+The different tabs
+------------------
 
- Un premier tableau liste les cartouches neuves ou utilisées, le second tableau liste les cartouches usagées.
+- **Tab "Cartridges"**
+This tab allows adding as many cartridges as needed by the model. It is also possible to add several cartridges at once.
+
+A first table lists the new or unused cartridges, the second table lists used cartridges.
 
 Figure 1. Onglet Cartouches
 ![image](docs/image/cartridge.png)
 
 
--   **Onglet "Modèles d'imprimantes"**
-    Cet onglet permet de déterminer les modèles d'imprimantes compatibles avec la cartouche.
+- **Tab "Printer models"**
+  This tab allows to declare the printer models that are compatible with the cartridge.
 
 .. include:: ../tabs/management.rst
 
@@ -44,15 +45,16 @@ Figure 1. Onglet Cartouches
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
--   **[Ajouter un modèle de cartouche](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
--   **[Voir un modèle de cartouche](Les_différentes_actions/Visualiser_un_objet.rst)**
--   **[Modifier un modèle de cartouche](Les_différentes_actions/Modifier_un_objet.rst)**
--   **[Supprimer un modèle de cartouche](Les_différentes_actions/Supprimer_un_objet.rst)**
--   **Ajouter de nouvelles cartouches à un modèle**
-    Voir onglet *Cartouches* ci-dessus
--   **Ajouter un modèle d'imprimante pour le modèle de cartouche**
-    Voir onglet *Modèle d'imprimante* ci-dessus
--   **[Associer un document à un modèle de cartouche](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
--   **[Transférer une cartouche vers une autre entité](Les_différentes_actions/Transférer_un_objet.rst)**
+The different actions
+---------------------
+
+- **[Add a cartridge model](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
+- **[See a cartridge model](Les_différentes_actions/Visualiser_un_objet.rst)**
+- **[Modify a cartridge model](Les_différentes_actions/Modifier_un_objet.rst)**
+- **[Delete a cartridge model](Les_différentes_actions/Supprimer_un_objet.rst)**
+- **Add new cartridges to a model**
+  See tab *Cartridges* above
+- **Add a printer model for the cartridge model**
+  See tab *Printer model* above
+- **[Associate a document with a cartridge model](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
+- **[Transfer a cartridge to another entity](Les_différentes_actions/Transférer_un_objet.rst)**
