@@ -9,7 +9,7 @@ This tab, named `Components` and visible in a `Computer` entry, allows to manage
 
 .. note::
 
-   Adding or managing components is located in menu :doc:`Configuration > Composants <../configuration/composants>`.
+   Adding or managing components is located in menu :doc:`Configuration > Components <../configuration/composants>`.
 
 .. note::
    If several components of the same type are used, they will be grouped in the view.
@@ -18,7 +18,7 @@ This tab, named `Components` and visible in a `Computer` entry, allows to manage
       :alt: Grouped components
       :align: center
 
-It is possible to add a component by first selecting its family in the dropdown list at the top of the table and then its name and the number of components to add.
+It is possible to add a component by first selecting its family in the drop-down list at the top of the table and then its name and the number of components to add.
 
 .. image:: /modules/assets/images/component_add.png
    :alt: Adding a component
@@ -37,7 +37,7 @@ component...), first select the components and then use the `Actions`
 button present at the top or the bottom of the list.
 
 If several types of different components, not having the same
-characteristics, are selcted for modification, in the actions it will
+characteristics, are selected for modification, in the actions it will
 be asked on which component modification must be applied.
 
 .. image:: /modules/assets/images/component_computer_massives_actions.png
@@ -73,10 +73,10 @@ Selection at right of type column (grayed line) allows to select all components 
       *  Tab "Element - Link name of component" : list the characteristics of this component
       *  :doc:`Tab "Management" </modules/tabs/gestion>` : manage administrative and accounting informations
       *  :doc:`Tab "Documents" </modules/tabs/documents>` : attached documents
-      *  :doc:`Tab "Historique" </modules/tabs/historical>` : history of modifications
-      *  :doc:`Tab "Contrat" </modules/tabs/contracts>` : contracts management
+      *  :doc:`Tab "History" </modules/tabs/historical>` : history of modifications
+      *  :doc:`Tab "Contract" </modules/tabs/contracts>` : contracts management
       *  :doc:`Tab "Debug" </modules/tabs/debug>` : only if you are connected in Debug mode
-      *  :doc:`Tab "Tous" </modules/tabs/all>` : all the informations are displayed on a single page
+      *  :doc:`Tab "All" </modules/tabs/all>` : all the informations are displayed on a single page
 
 .. note::
 
@@ -84,4 +84,4 @@ Selection at right of type column (grayed line) allows to select all components 
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the components informations can be automaticaly imported and updated.
+   If using native inventory or third-party inventory tool, the components informations can be automatically imported and updated.

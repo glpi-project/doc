@@ -15,15 +15,15 @@ A volume attached to a computer is characterized by:
 * file system
 * total size
 * available size
-* cyphering algorithm and type
+* ciphering algorithm and type
 
-It is possible from a `Computer` entry to add a volum by clicking on button ``Add a volume``.
+It is possible from a `Computer` entry to add a volume by clicking on button ``Add a volume``.
 
 .. image:: /modules/assets/images/volumes_add.png
-   :alt: Adding un volumes
+   :alt: Adding volumes
    :align: center
 
-It is possible from a `Computer` entry to modify an existing volum by clicking on the link under its name.
+It is possible from a `Computer` entry to modify an existing volume by clicking on the link under its name.
 
 .. image:: /modules/assets/images/volumes_update.png
    :alt: Modify a volume
@@ -35,4 +35,4 @@ It is possible from a `Computer` entry to modify an existing volum by clicking o
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the volumes informations can be automaticaly imported and updated.
+   If using native inventory or third-party inventory tool, the volumes informations can be automatically imported and updated.

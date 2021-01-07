@@ -1,20 +1,20 @@
-Connexions
-~~~~~~~~~~
+Connections
+~~~~~~~~~~~
 
-This tab allows to manage the direct connexions between a computer and its connected elements.
+This tab allows to manage the direct connections between a computer and its connected elements.
 
-Direct connexions represent the relation between different hardwares linked either physicaly or virtualy.
+Direct connections represent the relation between different hardwares linked either physically or virtually.
 
 
 From a computer
 ^^^^^^^^^^^^^^^
 
-The connexion can be made toward one or several elements of type
+The connection can be made toward one or several elements of type
 display, printer, peripheral or phone. For each type of connected
 object, its name, serial number and inventory number are displayed.
 
 .. image:: /modules/assets/images/connexions_computer_list.png
-   :alt: List of connexions
+   :alt: List of connections
    :align: center
 
 
@@ -22,24 +22,24 @@ object, its name, serial number and inventory number are displayed.
 From an element other than a computer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To add a connexion, select the computer in the dropdown list presented at top of the table.
+To add a connection, select the computer in the drop-down list presented at top of the table.
 
 .. image:: /modules/assets/images/connexions_monitor_list.png
-   :alt: List of connexions
+   :alt: List of connections
    :align: center
 
-If this case, the connexion can only be made to a single computer. The
+If this case, the connection can only be made to a single computer. The
 table will list the name of this computer as well as its serial and
 inventory numbers.
 
 
 .. note::
-   The deletion of a connexion can be made from the entry of each connected hardware (tab `Connexions`) via mass actions.
+   The deletion of a connection can be made from the entry of each connected hardware (tab `Connections`) via mass actions.
 
 .. note::
 
-   Every deletion or addition of a connexion is recorded in the history of the computer.
+   Every deletion or addition of a connection is recorded in the history of the computer.
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the connexions informations can be automaticaly imported and updated.
+   If using native inventory or third-party inventory tool, the connections informations can be automatically imported and updated.

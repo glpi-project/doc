@@ -7,7 +7,7 @@ This tab, named `Softwares` and visible in a `Computer` entry, allows to manage 
    :alt: Softwares list
    :align: center
 
-To install a software, first select its name in the dropdown list, then its version.
+To install a software, first select its name in the drop-down list, then its version.
 
 .. image:: /modules/assets/images/softwares_add.png
    :alt: Adding a software
@@ -15,7 +15,7 @@ To install a software, first select its name in the dropdown list, then its vers
 
 It is possible to associate a license to a software on a computer.
 
-To associate a license, first select the software in the dropdown list, then the wanted license.
+To associate a license, first select the software in the drop-down list, then the wanted license.
 
 .. image:: /modules/assets/images/softwares_licence_add.png
    :alt: Adding a license
@@ -35,7 +35,7 @@ Otherwise it will be displayed in a separate table.
 
 .. note::
 
-   * the dropdown list enumerates the softwares that are available in the entity
+   * the drop-down list enumerates the softwares that are available in the entity
    * licenses management can be found in :ref:`Assets > Softwares`.
      See :doc:`Manage softwares <../assets/softwares>`
 
@@ -49,4 +49,4 @@ Otherwise it will be displayed in a separate table.
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the softwares informations can be automaticaly imported and updated.
+   If using native inventory or third-party inventory tool, the softwares informations can be automatically imported and updated.
