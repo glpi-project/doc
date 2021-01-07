@@ -1,15 +1,13 @@
-.. recherche-globale-inventaire:
+Global search
+=============
 
-Recherche globale
-=================
+Menu `Asset > Global` allows to perform a global search on all allowed elements. This search is limited to following assets:
 
-Le menu `Parc > Global` vous permet d'effectuer une recherche globale sur l'ensemble des éléments auxquels vous avez accès. Cette recherche est limitée aux éléments suivants :
-
-* ordinateurs,
-* moniteurs,
-* imprimantes,
-* équipements réseaux,
-* périphériques,
-* téléphones.
-
-Elle permet par exemple d'effectuer une recherche par statut, IP ou MAC.
+* computer
+* displays
+* printers
+* network equipments
+* peripherals
+* phones
+  
+This search allows for instance to perform a query by status, IP or MAC address.
