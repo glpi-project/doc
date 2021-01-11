@@ -71,7 +71,7 @@ Selection at right of type column (grayed line) allows to select all components 
       Several tabs are then displayed:
 
       *  Tab "Element - Link name of component" : list the characteristics of this component
-      *  :doc:`Tab "Management" </modules/tabs/gestion>` : manage administrative and accounting informations
+      *  :doc:`Tab "Management" </modules/tabs/management>` : manage administrative and accounting informations
       *  :doc:`Tab "Documents" </modules/tabs/documents>` : attached documents
       *  :doc:`Tab "History" </modules/tabs/historical>` : history of modifications
       *  :doc:`Tab "Contract" </modules/tabs/contracts>` : contracts management

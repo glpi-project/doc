@@ -20,13 +20,12 @@ The different tabs
 ------------------
 
 - **Tab "Cartridges"**
-This tab allows adding as many cartridges as needed by the model. It is also possible to add several cartridges at once.
+  This tab allows adding as many cartridges as needed by the model. It is also possible to add several cartridges at once.
 
 A first table lists the new or unused cartridges, the second table lists used cartridges.
 
 Figure 1. Onglet Cartouches
 ![image](docs/image/cartridge.png)
-
 
 - **Tab "Printer models"**
   This tab allows to declare the printer models that are compatible with the cartridge.

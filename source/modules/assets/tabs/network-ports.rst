@@ -86,7 +86,7 @@ A WiFi network can be associated to a given port. Apart from its name, a WiFi ne
 *Ad-hoc :* WiFi network between similar systems without access points
 
 Management of local loop-back ports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The local loop-back is a virtual port used by most equipments for internal communication. It is this port that is used when connecting to ``localhost`` or ``127.0.0.1``.
 
