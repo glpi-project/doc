@@ -1,36 +1,36 @@
-Consommables
-============
+Consumables
+===========
 
-Dans la fiche d'un consommable, plusieurs informations sont disponibles:
+In the form of a consumable, several informations are available:
 
--   Sur les caractéristiques générales du consommable (le fabricant, le type, la référence...) ;
--   Sur la gestion du consommable (le responsable technique, son lieu de stockage...).
+- general characteristics of the consumable: vendor, type, reference...
+- consumable management: technical person in charge, storage location...
 
-Le seuil d'alerte correspond à la valeur minimale à partir de laquelle une alerte est déclenchée.
+The alert threshold corresponds to the minimal value at which an alert is triggered.
 
-***Remarque :** Pour que les alertes fonctionnent, il faut que les notifications soient activées. (voir [Configurer les notifications](config_notification.html "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+***Note :** for alerts to be effective, notifications must be activated (see [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
-Pour passer un consommable de l'état de neuf à utilisé, il est nécessaire de renseigner l'utilisateur ou le groupe concerné.
+Changing the state of a consumable from `new` to `used` requires to set involved user or group.
 
-La gestion des stocks partagés est possible en définissant l'élément comme récursif sur une entité. Les éléments seront alors disponibles pour toutes les sous-entités.
+Management of shared stocks is possible by defining the element as recursive on an entity. The elements will then be available for all sub-entities.
 
+The different tabs
+------------------
 
-Les différents onglets
-----------------------
+.. _ajout-consumables-modele:
 
-.. _ajout-consommables-modele:
-
-Consommables
+Consumables
 ~~~~~~~~~~~~
 
-C'est depuis cet onglet que vous pouvez ajouter autant de consommables que nécessaire. Vous pouvez d'ailleurs ajouter plusieurs consommables en une seule fois.
+This tab allows to add as many consumables as needed. It is also possible to add several consumable in one shot.
 
-Un premier tableau liste les consommables neufs, le second tableau liste les consommables utilisés avec notamment le nom du groupe ou de la personne à qui il a été donné.
+A first table lists unused consumables, a second table lists used consumables together with the name of the group or the person to which it has been allocated.
 
-C'est depuis les actions de masse de cet onglet que sont attribuer les consommables (Actions **Donner**).
+The mass actions of this tab allows to allocate consumables (action **Give***).
 
-Figure 1. Onglet Consommables
-![image](docs/image/consumable.png)
+.. image:: /image/consumable.png
+   :alt: A consumable form
+   :align: center
 
 .. include:: ../tabs/management.rst
 
@@ -44,13 +44,18 @@ Figure 1. Onglet Consommables
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
-Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux consommables :
+Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to consumables:
 
-* :ref:`Ajouter de nouveaux consommables à un modèle <ajout-consommables-modele>` ;
-* Lister les consommables attribués
-   ![image](docs/image/resumeConsumable.png)
-   L'icone de droite permet d'avoir un résumé des consommables prêtés
-   ![image](docs/image/resumeConsumableExample.png)
+* :ref:`Add new consumables to a model <ajout-consumables-modele>` ;
+* List allocated consumables:
+  .. image:: /image/resumeConsumable.png
+  :alt: Summary of consumables
+  :align: center
+
+  Right icon allows to have a summary of allocated consumables
+  .. image:: /image/resumeConsumableExample.png
+  :alt: Summary of allocated consumables
+  :align: center
