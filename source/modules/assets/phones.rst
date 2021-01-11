@@ -1,25 +1,27 @@
-Téléphones
-==========
+Phones
+======
 
-Dans la fiche d'un téléphone, plusieurs informations sont disponibles :
+In a phone form, several informations are available:
 
--   Sur les caractéristiques générales du téléphone (le fabricant, le modèle, le type, le numéro de série...) ;
--   Sur la gestion du poste (le responsable technique, son statut, le lieu où il se trouve...) ;
--   Sur les usagers du poste (connus ou non dans GLPI, groupe d'utilisateurs...) ;
--   Sur ses spécifications (l'alimentation, le firmware...).
+- general characteristics of the phone: vendor, model, type, serial number...
+- phone management: technical person in charge, status, location...
+- phone users: users known to GLPI or not, groups of users...
+- specifications: power supply, firmware...
 
-**Description du type de gestion :**
 
-Il est possible de gérer les téléphones de manière unitaire ou globale.
+** Management type: **
 
-La gestion unitaire correspond à une gestion classique (un téléphone pour un ordinateur) alors que dans la gestion globale, le téléphone devient un élément virtuel global qui sera connecté à plusieurs ordinateurs.
+It is possible to manage phones either unitary or globally.
 
-La gestion globale permet de limiter le nombre d'élément à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
+Unitary management corresponds to one phone per computer while global management make the phone a virtual global element that will be connected to several computers.
 
-Il est possible d'utiliser les :doc:`gabarits avec les téléphones <../generalites/gabarits>`.
+Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-Les différents onglets
-----------------------
+It is possible to use :doc:`templates with phones <../generalites/gabarits>`.
+
+
+The different tabs
+------------------
 
 .. include:: tabs/components.rst
 
@@ -41,8 +43,8 @@ Les différents onglets
 
 .. include:: ../tabs/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-     Gestion des réservations pour un objet d'inventaire
+- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+  Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 
@@ -50,7 +52,8 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
+
+The different actions
 -----------------------
 
-Les téléphones ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+Phones do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
