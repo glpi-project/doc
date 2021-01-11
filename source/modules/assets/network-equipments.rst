@@ -1,21 +1,22 @@
-Matériels réseaux
-=================
+Network equipments
+==================
 
-Le matériel réseau représente le matériel qui gère, transmet et route le réseau entre plusieurs autres matériels (ordinateurs, imprimantes...).
+Network equipment represent the hardware that manages, transmits and route network between several other equipments (computers, printers...).
 
-Un matériel réseau peut être un switch, un hub ethernet, un routeur, un pare-feu (firewall) ou encore une borne d'accès sans fil (wifi).
+A network equipment can be a switch, an Ethernet hub, a router, a firewall or a WiFi access point.
 
-Il est possible d'utiliser les :doc:`gabarits avec les matériels réseaux <../generalites/gabarits>`.
+It is possible to use :doc:`templates with network equipments <../generalites/gabarits>`.
 
-Les différents onglets
-----------------------
+
+The different tabs
+------------------
 
 .. include:: tabs/components.rst
 
 .. include:: tabs/network-ports.rst
 
--   **Onglet "Noms réseaux"**
-     Récapitulatif des adresses IP et réseaux IP pour chaque nom réseau.
+- **Tab "Network names"**
+  Summary of IP address and IP networks for each network name
 
 .. include:: ../tabs/management.rst
 
@@ -31,8 +32,8 @@ Les différents onglets
 
 .. include:: ../tabs/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-     Gestion des réservations pour un objet d'inventaire
+- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+  Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 
@@ -40,7 +41,8 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
 
-Les matériels réseaux ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+The different actions
+---------------------
+
+Network equipments do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
