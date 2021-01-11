@@ -1,41 +1,42 @@
-Imprimantes
-===========
+Printers
+========
 
-Dans la fiche d'une imprimante, plusieurs informations sont disponibles:
+In a printer form, several informations are available:
 
--   Sur les caractéristiques générales de l'imprimante (le fabricant, le modèle, le type, le numéro de série...) ;
--   Sur la gestion de l'imprimante (le responsable technique, son statut, le lieu où elle se trouve...) ;
--   Sur les usagers de l'imprimante (connus ou non dans GLPI, groupe d'utilisateurs...) ;
--   Sur ses spécifications (le compteur de page initial, les types de ports...).
+- general characteristics of the printer: vendor, model, type, serial number...
+- printer management: technical person in charge, status, location...
+- printer users: users known to GLPI or not, groups of users..
+- specifications: page counter, port types...
 
-**Description du type de gestion :**
+** Management type: **
 
-Il est possible de gérer les imprimantes de manière unitaire ou globale.
+It is possible to manage printers either unitary or globally.
 
-La gestion unitaire correspond à une gestion classique (une imprimante pour un ordinateur) alors que dans la gestion globale, l'imprimante devient un élément virtuel global qui sera connecté à plusieurs ordinateurs.
+Unitary management corresponds to one printer per computer while global management make the printer a virtual global element that will be connected to several computers.
 
-La gestion globale permet de limiter le nombre d'éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
+Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-**[Gérer les gabarits](Les_différentes_actions/Gérer_les_gabarits.rst)**
+.. ??? La gestion globale permet de limiter le nombre d'éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
 
-Les différents onglets
-----------------------
+**[manage templates](Les_différentes_actions/Gérer_les_gabarits.rst)**
+
+
+The different tabs
+------------------
 
 .. include:: tabs/components.rst
 
-Cartouches
+Cartridges
 ~~~~~~~~~~
 
-Les cartouches associées au modèle d'imprimante sélectionnée.
+This tab displays the cartridges associated with the selected printer model:
 
-Il se décompose en deux parties :
-
-* Les cartouches utilisées, avec comme information les dates d'ajout et d'utilisation,
-* Les cartouches usagées, avec comme information le modèle de cartouche, les dates d'ajout, d'utilisation et de fin de vie, le compteur de l'imprimante ainsi que le nombre de pages imprimées depuis le dernier changement de cartouche.
+* cartridges in use, with add date and use date
+* used cartridges, with cartridge model, add date, use date, end of life date, printing counter and number of printed pages since last cartridge change
 
 .. note::
 
-   Pour la création ou la suppression de cartouche reportez-vous à :doc:`la gestion des cartouches <cartouches>`.
+   For cartridge adding or removing, report to :doc:`cartridges management <cartridges>`.
 
 .. include:: tabs/connexions.rst
 
@@ -55,8 +56,8 @@ Il se décompose en deux parties :
 
 .. include:: ../tabs/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-     Gestion des réservations pour un objet d'inventaire
+- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+  Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 
@@ -65,7 +66,8 @@ Il se décompose en deux parties :
 .. include:: ../tabs/all.rst
 
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
-Les imprimantes ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+Printers do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
+
