@@ -1,35 +1,43 @@
-Licences
+Licenses
 ========
 
-La licence d'un logiciel correspond à un droit d'utilisation de ce logiciel. Elle dispose d'un certain nombre de champs spécifiques. Le nom indique la désignation commerciale de la licence. La version d'achat est celle achetée alors que la version d'utilisation correspond à la version réellement installée du logiciel. Ces deux versions peuvent être totalement différentes mais doivent refléter l'existant.
+A software license is a right to use the software. Its specific fields include:
 
-2 versions d'un logiciel ont été achetées mais une seule est effectivement installée.
+* name: commercial naming of the license
+* purchase version: the version that was bought
+* use version: the real installed version of the software
 
-Le type est la nature du droit d'utilisation. Le type OEM est le seul type configuré par défaut dans GLPI. Voir [Configurer les intitulés](08_Module_Configuration/02_Intitulés/01_Intitulés.rst "Les intitulés se configurent depuis le menu Configuration > Intitulés") pour définir les types.
+Purchase version and use version can be different; however, the use version must be compliant with the purchase version.
 
-Le nombre indique le volume d'installation qui pourra être fait avec cette licence. Cela peut être un nombre d'utilisateurs (licence flottante), un nombre d'installations (licence multiple), un nombre illimité (licence site), etc. Il est possible d'affecter la licence à un ou plusieurs ordinateurs correspondant. par exemple si la licence est de type OEM.
+.. ??? 2 versions d'un logiciel ont été achetées mais une seule est effectivement installée.
 
-L'expiration est la date limite donnant droit d'utilisation de la licence. La dépassement de cette date peut déclencher une notification. Voir [Configuration des notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;").
+Version type describes the specifics of the right to use the software. OEM type is the only type that is configured by default in GLPI. Refer to [Configure types](08_Module_Configuration/02_Intitulés/01_Intitulés.rst "Naming are configured from menu Configuration > Naming") to define types.
 
-***Conseil :*** Ceci est configurable par entité dans le menu ***Configuration > Notifications*** pour définir les modèles et destinataires utilisés et dans le menu ***Configuration > Entité*** pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l'envoi de la notification si besoin.
+Number field displays the number of installations that are allowed with this license. It can be a user number (floating license), a number of installations (multiple license), an unlimited number of installation (site license)... It is possible to assign the license to one or several corresponding computers, for instance if the license is of type OEM.
 
-***Remarque :** Les licences expirées ne comptent plus dans les totaux des licenses disponibles.*
+Expire date is the limit date that allows the use of the license. After this date, a notification can be triggered; refer to [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Notifications are configured from menu Configuration > Notifications ;")).*
 
-Il est possible de lier des contrats à des licences (Voir [Gérer les contrats](05_Module_Gestion/05_Contrats.rst "Les contrats sont gérés depuis le menu Gestion > Contrats")).
+***Advice :*** this is configurable at entity level in menu ***Configuration > Notifications***, in order to define used models and recipients and in menu ***Configuration > Entity*** to activate or not this functionality, define default value and anticipation of notification sending if needed.
 
-***Remarque :** Lors de l'activation des informations financières d'une licence, les données sont initialisées avec les renseignements saisis dans les informations financières du logiciel (qui n'est qu'un modèle).*
+***Remark :** expired licenses are not counted in the total of available licenses.*
 
+It is possible to link contracts with licenses; refer to [Manage contracts](05_Module_Gestion/05_Contrats.rst "Contracts are managed via menu Management > Contracts")).
 
-Les différents onglets
-----------------------
--   **Onglet "Résumé"**
-    Affiche un tableau listant le nombre d'ordinateurs utilisant cette licence
-    ![image](docs/image/resumeLicence.png)
+***Remark:** when activating the accounting informations for a license, data are initialized from software accounting informations which act as a model.
 
 
--   **Onglet "Ordinateurs"**
-    Fournit un tableau listant les ordinateurs utilisant cette licence avec notamment, le nom de l'ordinateur, son numéro de série, son numéro d'inventaire, son lieu d'affectation, son statut, son groupe et son utilisateur.
-    Des actions de masse sont proposées à ce niveau (si droit sur les ordinateurs), pour supprimer l'utilisation de cette licence sur l'ordinateur sélectionné ou pour affecter une autre licence du même logiciel à cet ordinateur (action Déplacer).
+The different tabs
+------------------
+
+- **Tab "Summary"**
+  Displays a table containing the number of computers using this license
+  .. image:: /image/resumeLicence.png
+  :alt: License summary
+  :align: center
+
+- **Tab "Computers"**
+  Displays a table listing the computers using this license, including in particular computer name, serial number, inventory number, location, status, group and user.
+  Mass actions are available, if authorized for the computers, to delete license use on selected computer or to assign another license of the same software to selected computer (action `Move`)
 
 .. include:: ../tabs/management.rst
 
@@ -43,12 +51,14 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
-- **Visualiser le détail d'une licence d'un logiciel**
-  Depuis le menu **Parc > Logiciels** cliquer sur le nom de la licence dans l'onglet *Licences*.
-- **Supprimer l'utilisation d'une licence par un ordinateur**
-  Voir onglet *Ordinateurs* ci-dessus
-  [Voir onglet *Logiciels* d'un ordinateur](03_Module_Parc/04_Logiciels/01_Logiciels.rst)
-- **[Associer un document à une licence](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
-- **[Associer un contrat à une licence](Les_différentes_actions/Lier_un_contrat_à_un_objet.rst)**
+The different actions
+---------------------
+
+- **Display software license details**
+  From menu **Assets > Software** click on license name in tab *Licenses*.
+- **Remove use of a license by a computer**
+  See tab *Computers* above.
+  See also [tab *Softwares* of a computer](/modules/assets/softwares.rst)
+- **[Associate a document and a license](Les_différentes_actions/associer_un_document_a_un_objet.rst)**
+- **[Associate a contract and a license](Les_différentes_actions/Lier_un_contrat_à_un_objet.rst)**
+
