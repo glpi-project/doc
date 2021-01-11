@@ -1,76 +1,79 @@
-Logiciels
+Softwares
 =========
 
-GLPI permet la gestion des logiciels et de leurs versions ainsi que des licences (pouvant être associées ou non à des versions).
+GLPI allows management of softwares and their versions as well as licenses, associated or not to software versions.
 
-Un logiciel est par défaut associé à une entité : c'est-à-dire qu'il y aura autant de logiciels dans la base qu'il y a d'entités. Rendre un logiciel visible dans les sous-entités permet de faire une gestion plus fine.
+A software is by default associated with an entity.
 
-La gestion financière est effectuée au niveau des licences, alors que celle présente dans les logiciels sert uniquement de modèle pour les licences associées à celui-ci.
+.. ??? Un logiciel est par défaut associé à une entité : c'est-à-dire qu'il y aura autant de logiciels dans la base qu'il y a d'entités. Rendre un logiciel visible dans les sous-entités permet de faire une gestion plus fine.
 
-Les logiciels peuvent être importés automatiquement depuis un outil d'inventaire tiers et dans ce cas un dictionnaire peut être utilisé pour filtrer ou nettoyer les données (voir [Configurer les dictionnaires de données](07_Module_Administration/06_Dictionnaires.rst "Les dictionnaires se gèrent depuis le menu Administration > Dictionnaires")).
+Financial management is done at the level of licenses; the financial management at software level is only a model for the licenses associated with this software.
 
-Certains champs sont spécifiques dans la fiche du logiciel : 
-- **Mise à jour** est une donnée informative, à partir de laquelle aucun traitement n'est effectué et qui indique que le logiciel est une mise à jour d'un autre. 
-- **Catégorie** permet des regroupements par nature sur la liste des logiciels d'un ordinateur. 
-- **Associable à un ticket** définit la visibilité du logiciel dans la liste déroulante "Matériel" d'un ticket.
+Softwares can be imported automatically using a third-party inventory tool; in this case a dictionary can be used to filter or clean the import data (see [Configure data dictionaries](07_Module_Administration/06_Dictionnaires.rst "The dictionaries are managed from menu entry Administration > Dictionaries")).
 
-**Bonnes pratiques :**
+Some fields are specific in the software form:
 
-1.  Créer le logiciel (sans version dans le nom)
-2.  Créer les versions
-3.  Créer les licences
+- **Update** is an information, with no processing associated and which tells whether the software is an update of another software
+- **Category** allows to group softwares in the list of softwares of a computer
+- **Can be associated with a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
 
-***Conseil :*** en mode multi-entité, la liste des logiciels peut devenir longue, en partie dû aux doublons (1 logiciel par entité). Une gestion fine des logiciels, licences et versions peut consister à regrouper les logiciels identiques dans une même entité (voir onglet *Regroupement* ci-dessous), puis à rendre récursif les éléments qui peuvent l'être.
+.. ??? définit la visibilité du logiciel dans la liste déroulante "Matériel" d'un ticket.
 
-Il est possible d'utiliser les :doc:`gabarits avec les logiciels <../generalites/gabarits>`.
+It is recommended to first create the software without a version number in the name, then to create the versions and last to create the licenses.
 
-Les différents onglets
-----------------------
+***Note :*** in multi-entity mode, the list of software can rapidly become long because of double entries (one software per entity). A better approach can consist in grouping identical softwares in the same entity (see tab *Grouping* below), then to make recursive the elements that can be made recursive.
+
+It is possible to use :doc:`templates with softwares <../generalites/gabarits>`.
+
+The different tabs
+------------------
 
 .. _versions_soft:
 
 Versions
 ~~~~~~~~
 
-Principes et gestion des versions logiciels dans GLPI
+.. ??? Principes et gestion des versions logiciels dans GLPI
 
-Une version d'un logiciel est l'élément pouvant être installé sur un ordinateur. Voir également :ref:`l'onglet *Installations* <onglet-logiciels-installations>`.
+A version of a software is the element that can be installed on a computer; see also :ref:`tab *Installations* <onglet-logiciels-installations>`.
 
-La vue principale liste le nombre d'installation de la version.
+The main view lists the number of installations of the version.
 
-Champs spécifiques :
+Specific fields:
 
-* **Nom** : correspond au numéro de version ;
-* **Statut** : en préconisations ITIL, il permet de suivre la DSL (bibliothèque de stockage des versions autorisées) ;
-* **Système d'exploitation** : le système d'exploitation sur lequel fonctionne cette version de logiciel ;
-* **Installations** : nombre d'installations de la version ;
-* **Commentaires**.
+* **Name**: the version number
+* **Status**: in ITIL recommendations, it allows to follow the DSL (library storing authorized versions)
+* **Operating system**: the operating system on which this software version runs
+* **Installations**: the number of installations of the version
+* **Comment**: some comments
 
 
-Licences
+Licenses
 ~~~~~~~~
 
-Principes et gestion des licences logiciels dans GLPI
+.. ??? Principes et gestion des licences logiciels dans GLPI
 
-.. _onglet-logiciels-installations:
+.. ??? _onglet-logiciels-installations:
 
 Installations
 ~~~~~~~~~~~~~
 
-Principes et gestion des installations logiciels dans GLPI.
+.. ??? Principes et gestion des installations logiciels dans GLPI.
 
-L'installation d'un logiciel sur un poste est visualisée au travers d'une :ref:`version <versions_soft>` et consultable sur la fiche d'un logiciel (liste des ordinateurs ayant au moins une version installée), sur celle d'une version (ordinateurs ayant cette version installée) ou enfin sur la fiche de l'ordinateur (liste des versions de logiciels installées, triées par catégories).
+The installation of a software on a computer is visualized through a :ref:`version <versions_soft>` and can be consulted on a software form (list of computers having at least one version installed), on a version form (computers having this version installed) and finally on a computer form (list of versions of installed softwares, sorted by category).
 
 .. note::
 
-   * La colonne licence est remplie uniquement lorsque la licence est affectée à l'ordinateur concerné.
-   * L'affichage initial des différentes catégories dépend des préférences utilisateur. Voir [Gérer ses préférences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
+   * column `license` is filled only when the license is affected to the concerned computer
+   * the initial display of different categories depend upon user preferences (see [manage preferences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
 
-Deux options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
+.. ??? Deux options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
 
-Pour **Désinstaller** une version d'un logiciel, il faut utiliser le système d'actions massives : sélectionner les versions à supprimer puis choisir **Supprimer définitivement**. Si une licence est affectée à l'ordinateur elle le reste, mais sa "version d'utilisation" est effacée.
+Two options are available on the list of installations of software on a computer. Above the list, **Install** allows to install manually a version of a software on the computer, by selecting first the software and its version; if a license is associated with this software, the use version of the license is automatically selected.
 
-A la suite des versions installées, la liste des licences affectées mais non installées est affichée. Vous pouvez ajouter une nouvelle licence associée à cet ordinateur. Le système d'actions massives permet, via l'action **Installer**, d'installer les versions d'utilisation des licences sélectionnées.
+To **Uninstall** a version of a software, mass actions must be used: first select the versions to be uninstalled, then select **Suppress definitively**. If a license is affected to the computer, it remains affected but its use version is erased.
+
+Following the list of installed versions, the list of affected but non installed licenses is displayed. It is possible to add a new license to the computer. Mass actions allow, via the action **Install**, to install a use version of selected licenses.
 
 .. include:: ../tabs/management.rst
 
@@ -86,59 +89,59 @@ A la suite des versions installées, la liste des licences affectées mais non i
 
 .. include:: ../tabs/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-     Gestion des réservations pour un objet d'inventaire
+- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+  Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 
-Regroupement
-~~~~~~~~~~~~
+Grouping
+~~~~~~~~
 
-Comment regrouper des logiciels homonymes dans des sous-entités.
+This section describes how to group software having same names in sub-entities, allowing to group softwares of child entities into mother entity.
 
 .. note::
 
-   Cette option n'est disponible que pour les plateformes multi-entités.
+   This is only available for multi-entities platforms.
 
-Elle permet de regrouper les logiciels des entités filles sur l'entité mère.
+How to realize a grouping:
 
-Comment réaliser un regroupement :
 
-#. Si le logiciel n'existe pas dans l'entité mère :
-   Créer un logiciel dont le nom est strictement identique au nom du logiciel dans les entités filles ;
-#. Ouvrir la fiche du logiciel de l'entité mère ;
-#. Activer la récursivité (sous-entités à Oui en haut à droite) ;
-   Un nouvel onglet "Regroupement" apparaît après l'onglet "Historique".
-#. Ouvrir cet onglet ;
-   Une liste indique les logiciels des entités filles ayant le même nom.
-#. Sélectionner les lignes souhaitées et valider le regroupement.
+#. If the software does not exist in mother entity, create in this mother entity a software whose name is strictly identical to the name of software in child entities
+
+#. Open the form of the software of the mother entity 
+
+#. Activate recursivity (sub-entities to Yes at top right); this will make a new tab `Grouping` appear after tab `History`
+
+#. Open this tab; a list displays softwares having same names in child entities
+
+#. Select appropriate lines and validate grouping
 
 .. warning::
 
-    Cette opération est irréversible.
+   This operation cannot be undone
 
-Effets du regroupement :
+This grouping have the following effects:
 
-* Les licences sont attachées au logiciel de l'entité mère, mais restent dans les sous-entités d'origine ;
-* Les versions sont fusionnées (plus de doublon dans l'entité mère);
-* Les anciens logiciels sont déplacés dans la corbeille ;
+* licenses are attached to the software in mother entity, but stay in origin sub-entities
+* versions are merged, no more doubles in mother entity
+* old softwares are moved to the trash
 
 .. note::
 
-    Lors de l'utilisation d'un outil d'inventaire tiers, ne pas oublier :
+   When using a third-party inventory tool, some extra steps are mandatory:
 
-    * de vider la corbeille à la fin du regroupement (sinon la synchronisation restaurera le logiciel en cas de nouvelle version) ;
-    * d'affecter le même fabricant au nouveau logiciel (la synchronisation vérifiant le nom du fabricant, un nouveau logiciel serait créé).
+   * empty trash after grouping, otherwise synchronization will restore the old software in case of new version
+   * associate the same vendor to the new software; as the synchronization checks vendor name, a new software would then be created
 
 .. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
-Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux logiciels :
+Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to softwares:
 
-* :ref:`Ajouter une version à un logiciel <versions_soft>`
-* **[Gérer les licences](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**
-    Depuis le menu ***Parc > Logiciels*** cliquer sur le nom de la licence dans l'onglet *Licences*.
+* :ref:`Add a version to a software <versions_soft>`
+* **[Manage licenses](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**
+  From menu ***Assets > Softwares*** click on license name in tab *Licenses*.
