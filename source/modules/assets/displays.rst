@@ -1,27 +1,27 @@
-Moniteurs
-=========
+Displays
+========
 
-Dans la fiche des moniteurs, plusieurs informations sont disponibles :
+In a display form, several informations are available:
 
--   Sur la gestion du moniteur (le responsable technique, son statut, le lieu où il se trouve...),
--   Sur les caractéristiques générales du poste (le fabricant, le modèle, le type, le numéro de série...),
--   Sur les usagers du poste (connus ou non dans GLPI, groupe d'utilisateurs...),
--   Sur ses spécifications (sa taille, ses types de port : VGA, DVI, HDMI, DisplayPort, s'il a des enceintes ou encore sa connectivité).
+- general characteristics of the display: vendor, model, type, serial number...
+- display management: technical person in charge, status, location...
+- display users: users known to GLPI or not, groups of users..
+- specifications: size, resolution, port types (VGA, DVI, HDMI, DisplayPort), integrated sound, connectivity...
 
-**Description du type de gestion :**
+** Management type: **
 
-Il est possible de gérer les moniteurs de manière unitaire ou globale.
+It is possible to manage displays either unitary or globally.
 
-La gestion unitaire correspond à une gestion classique (un moniteur pour un ordinateur) alors que dans la gestion globale le moniteur devient un élément virtuel global qui sera connecté à plusieurs ordinateurs.
+Unitary management corresponds to one display per computer while global management make the printer a virtual global element that will be connected to several computers.
 
-La gestion globale permet de limiter le nombre d'éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
+Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-Il est possible d'utiliser les :doc:`gabarits avec les moniteurs <../generalites/gabarits>`.
+It is possible to use :doc:`templates with displays <../generalites/gabarits>`.
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
-.. _connexion_monitor:
+.. ??? _connexion_monitor:
 
 .. include:: tabs/connexions.rst
 
@@ -39,8 +39,8 @@ Les différents onglets
 
 .. include:: ../tabs/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-     Gestion des réservations pour un objet d'inventaire
+- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+  Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 
@@ -48,9 +48,9 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
-Outre les :doc:`actions communes <../generalites/actions>` ; certaines actions sont spécifiques aux moniteurs :
+Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to displays:
 
-* :ref:`Connecter un moniteur à un ordinateur <connexion_monitor>`
+* :ref:`connect a display to a monitor <connexion_monitor>`
