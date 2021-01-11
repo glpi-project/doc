@@ -18,7 +18,7 @@ Global management allows to limit the number of elements to manage when these el
 
 .. ??? La gestion globale permet de limiter le nombre d'éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
 
-**[manage templates](Les_différentes_actions/Gérer_les_gabarits.rst)**
+It is possible to use :doc:`templates with printers <../generalites/gabarits>`.
 
 
 The different tabs
