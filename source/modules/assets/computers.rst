@@ -74,4 +74,4 @@ Apart from :doc:`common actions <../generalites/actions>`, some actions are spec
 
     .. warning::
 
-       A software can only be installed if its license has a version, either buying or use.
+       A software can only be installed if its license has a version in use or a purchase version.

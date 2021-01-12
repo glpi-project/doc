@@ -9,11 +9,9 @@ This tab, named `Network ports` and visible in a `Computer` entry, allows to man
 
 A network port represents the output of a network interface on a given hardware. A port is characterized by a number and a name.
 
-.. ??? One port réseau permet de modéliser la sortie d'une interface réseau sur un matériel donné. Chaque port est caractérisé par un numéro et un nom.
 
 It is possible on a network port to add one or more VLAN, these VLANs being defined by a name, an optional comment and a VLAN number.
 
-.. ??? Sur ce port, il est possible d'ajouter un ou plusieurs VLAN, ces derniers peuvent être définis par un nom, un commentaire et un numéro de VLAN (TAG ID).
 
 .. image:: /modules/assets/images/ports_vlan.png
    :alt: VLAN
@@ -82,8 +80,8 @@ It is possible to associate a network card to the port, similarly to Ethernet po
 
 A WiFi network can be associated to a given port. Apart from its name, a WiFi network has an ESSID and is characterized by its type:
 
-*Infrastructure :* WiFi network with on or several access points and connected clients
-*Ad-hoc :* WiFi network between similar systems without access points
+*Infrastructure:* WiFi network with on or several access points and connected clients
+*Ad-hoc:* WiFi network between similar systems without access points
 
 Management of local loop-back ports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -99,7 +97,6 @@ A network port alias is a virtual port that can refine a physical port.
 
 On Linux, to each VLAN, when transmitted `"tagged" <glossary/tagged_vlan.html>`__, is associated a port alias, for example `eth2.50` to represent VLAN 50 on port `eth2`.
 
-.. ??? Sous Linux, chaque VLAN, lorsqu'il est transmis `"taggé" <glossary/tagged_vlan.html>`__, est associé un alias de port (eth2.50 pour représenter le VLAN 50 sur le port eth2).
 
 A port alias contains its base port and a MAC address.
 

@@ -14,7 +14,7 @@ The alert threshold is the minimal value at which an alert is triggered.
 
 For a cartridge to be installable on a printer, it must be declared as compatible with this printer.
 
-Management of shared stocks is possible by defining the element as recursive on an entity. The elements will then be available for all sub-entities.
+Management of shared stock is possible by defining the element as recursive on an entity. The elements will then be available for all sub-entities.
 
 The different tabs
 ------------------

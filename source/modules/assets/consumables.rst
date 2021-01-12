@@ -8,7 +8,9 @@ In the form of a consumable, several informations are available:
 
 The alert threshold corresponds to the minimal value at which an alert is triggered.
 
-***Note :** for alerts to be effective, notifications must be activated (see [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+.. note::
+
+   For alerts to be effective, notifications must be activated (see [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
 
 Changing the state of a consumable from `new` to `used` requires to set involved user or group.
 

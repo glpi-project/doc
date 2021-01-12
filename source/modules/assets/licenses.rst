@@ -17,13 +17,19 @@ Number field displays the number of installations that are allowed with this lic
 
 Expire date is the limit date that allows the use of the license. After this date, a notification can be triggered; refer to [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Notifications are configured from menu Configuration > Notifications ;")).*
 
-***Advice :*** this is configurable at entity level in menu ***Configuration > Notifications***, in order to define used models and recipients and in menu ***Configuration > Entity*** to activate or not this functionality, define default value and anticipation of notification sending if needed.
+.. hint::
 
-***Remark :** expired licenses are not counted in the total of available licenses.*
+   This is configurable at entity level in menu ***Configuration > Notifications***, in order to define used models and recipients and in menu ***Configuration > Entity*** to activate or not this functionality, define default value and anticipation of notification sending if needed.
+
+.. tip:: 
+
+   Expired licenses are not counted in the total of available licenses.
 
 It is possible to link contracts with licenses; refer to [Manage contracts](05_Module_Gestion/05_Contrats.rst "Contracts are managed via menu Management > Contracts")).
 
-***Remark:** when activating the accounting informations for a license, data are initialized from software accounting informations which act as a model.
+.. tip::
+
+   When activating the accounting information for a license, data are initialized from software accounting information which act as a model.
 
 
 The different tabs
@@ -61,4 +67,3 @@ The different actions
   See also [tab *Softwares* of a computer](/modules/assets/softwares.rst)
 - **[Associate a document and a license](Les_différentes_actions/associer_un_document_a_un_objet.rst)**
 - **[Associate a contract and a license](Les_différentes_actions/Lier_un_contrat_à_un_objet.rst)**
-

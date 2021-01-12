@@ -3,7 +3,6 @@ Virtualization
 
 This tab displays the virtualization systems (virtual machines, containers, jails....) associated to a host.
 
-.. ??? Dans cet onglet, on retrouve tous les systèmes de virtualisation (machines virtuelles, containers, jails, ...) associés à un hôte (host) ou l'hôte sur lequel un système de virtualisation est installé.
 
 The available informations vary from one system to another: for a virtual machine for instance, the informations include name, virtualization system, virtualization model, state, allocated memory, number of logical processors... as well as the name of the physical machine (the host).
 

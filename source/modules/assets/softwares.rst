@@ -21,7 +21,9 @@ Some fields are specific in the software form:
 
 It is recommended to first create the software without a version number in the name, then to create the versions and last to create the licenses.
 
-***Note :*** in multi-entity mode, the list of software can rapidly become long because of double entries (one software per entity). A better approach can consist in grouping identical softwares in the same entity (see tab *Grouping* below), then to make recursive the elements that can be made recursive.
+.. note::
+   In multi-entity mode, the list of software can rapidly become long because of double entries (one software per entity).
+   A better approach can consist in grouping identical softwares in the same entity (see tab *Grouping* below), then to make recursive the elements that can be made recursive.
 
 It is possible to use :doc:`templates with softwares <../generalites/gabarits>`.
 
@@ -33,7 +35,6 @@ The different tabs
 Versions
 ~~~~~~~~
 
-.. ??? Principes et gestion des versions logiciels dans GLPI
 
 A version of a software is the element that can be installed on a computer; see also :ref:`tab *Installations* <onglet-logiciels-installations>`.
 
@@ -51,14 +52,12 @@ Specific fields:
 Licenses
 ~~~~~~~~
 
-.. ??? Principes et gestion des licences logiciels dans GLPI
 
 .. ??? _onglet-logiciels-installations:
 
 Installations
 ~~~~~~~~~~~~~
 
-.. ??? Principes et gestion des installations logiciels dans GLPI.
 
 The installation of a software on a computer is visualized through a :ref:`version <versions_soft>` and can be consulted on a software form (list of computers having at least one version installed), on a version form (computers having this version installed) and finally on a computer form (list of versions of installed softwares, sorted by category).
 

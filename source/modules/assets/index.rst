@@ -1,4 +1,4 @@
-Module Asset
+Asset module
 ============
 
 .. parc informatique -> computer equipment? other translation: information system
