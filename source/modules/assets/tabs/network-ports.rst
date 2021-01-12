@@ -107,7 +107,6 @@ Management of network port aggregates
 
 A network port aggregate is a virtual port that allows to group several physical ports.
 
-.. ??? Les routeurs de coeurs de réseau sont souvent reliés entre eux par des aggrégats afin de faire de la redondance et/ou de l'augmentation de bande passante.
 
 
 On Linux, aggregates are represented by bridges `bridges <http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>` linking together different ports. In the same way, an Ethernet firewall uses a bridge that links interfaces to be filtered.
