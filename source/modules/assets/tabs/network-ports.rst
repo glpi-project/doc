@@ -109,7 +109,6 @@ A network port aggregate is a virtual port that allows to group several physical
 
 .. ??? Les routeurs de coeurs de réseau sont souvent reliés entre eux par des aggrégats afin de faire de la redondance et/ou de l'augmentation de bande passante.
 
-.. ??? On peut considérer qu'un équipement réseau est composé de ports réseaux physiques qui sont reliés entre eux par des aggrégats de ports. Ces derniers correspondent aux VLANs physiquement définits sur l'équipement. Tout naturellement, ses adresses IP de gestion sont rattachées aux aggrégats associés au VLAN de gestion du switch ou du routeur.
 
 On Linux, aggregates are represented by bridges `bridges <http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>` linking together different ports. In the same way, an Ethernet firewall uses a bridge that links interfaces to be filtered.
 
