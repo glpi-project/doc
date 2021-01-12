@@ -32,9 +32,9 @@ The different tabs
 
 .. _versions_soft:
 
+
 Versions
 ~~~~~~~~
-
 
 A version of a software is the element that can be installed on a computer; see also :ref:`tab *Installations* <onglet-logiciels-installations>`.
 
@@ -53,18 +53,18 @@ Licenses
 ~~~~~~~~
 
 
-.. ??? _onglet-logiciels-installations:
+..  _onglet-logiciels-installations:
+
 
 Installations
 ~~~~~~~~~~~~~
-
 
 The installation of a software on a computer is visualized through a :ref:`version <versions_soft>` and can be consulted on a software form (list of computers having at least one version installed), on a version form (computers having this version installed) and finally on a computer form (list of versions of installed softwares, sorted by category).
 
 .. note::
 
-   * column `license` is filled only when the license is affected to the concerned computer
-   * the initial display of different categories depend upon user preferences (see [manage preferences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
+   * Column `license` is filled only when the license is affected to the concerned computer
+   * The initial display of different categories depend upon user preferences (see [manage preferences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
 
 .. ??? Deux options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
 
@@ -88,8 +88,10 @@ Following the list of installed versions, the list of affected but non installed
 
 .. include:: ../tabs/notes.rst
 
-- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-  Management of reservations for an inventory object
+.. todo::
+   Fix this reference (include or link???)
+   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../tabs/historical.rst
 
@@ -121,16 +123,16 @@ How to realize a grouping:
 
 This grouping have the following effects:
 
-* licenses are attached to the software in mother entity, but stay in origin sub-entities
-* versions are merged, no more doubles in mother entity
-* old softwares are moved to the trash
+* Licenses are attached to the software in mother entity, but stay in origin sub-entities
+* Versions are merged, no more doubles in mother entity
+* Old softwares are moved to the trash
 
 .. note::
 
    When using a third-party inventory tool, some extra steps are mandatory:
 
-   * empty trash after grouping, otherwise synchronization will restore the old software in case of new version
-   * associate the same vendor to the new software; as the synchronization checks vendor name, a new software would then be created
+   * Empty trash after grouping, otherwise synchronization will restore the old software in case of new version
+   * Associate the same vendor to the new software; as the synchronization checks vendor name, a new software would then be created
 
 .. include:: ../tabs/debug.rst
 

@@ -1,13 +1,30 @@
 Peripherals
 ===========
 
-In a peripheral form, several informations are available:
+In a peripheral form, the following information is available:
 
-- general characteristics of the peripheral: vendor, model, type, serial number...
-- peripheral management: technical person in charge, status, location...
-- peripheral users: users known to GLPI or not, groups of users..
+* General characteristics of the peripheral:
 
-** Management type: **
+  * Vendor
+  * Model
+  * Type
+  * Serial number
+  * ...
+
+* Peripheral management:
+
+  * Technical person in charge
+  * Status
+  * Location
+  * ...
+
+* Peripheral users:
+
+  * Users known to GLPI or not
+  * Groups of users
+  * ...
+
+**Management type:**
 
 It is possible to manage peripherals either unitary or globally.
 
@@ -41,8 +58,10 @@ The different tabs
 
 .. include:: ../tabs/notes.rst
 
-- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-  Management of reservations for an inventory object
+.. todo::
+   Fix this reference (include or link???)
+   **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 

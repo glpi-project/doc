@@ -1,6 +1,8 @@
 Configurer les notifications
 ============================
 
+.. _configure_notifications:
+
 GLPI dispose d'une fonction de notifications. Celle-ci permet de
 recevoir des messages pour certaines actions pré-définies. Elle s'appuie
 sur 2 notions :

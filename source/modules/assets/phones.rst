@@ -1,15 +1,37 @@
 Phones
 ======
 
-In a phone form, several informations are available:
+In a phone form, the following information is available:
 
-- general characteristics of the phone: vendor, model, type, serial number...
-- phone management: technical person in charge, status, location...
-- phone users: users known to GLPI or not, groups of users...
-- specifications: power supply, firmware...
+* General characteristics of the phone:
+
+  * Vendor
+  * Model
+  * Type
+  * Serial number
+  * ...
+
+* Phone management:
+
+  * Technical person in charge
+  * Status
+  * Location
+  * ...
+
+* Phone users:
+
+  * Users known to GLPI or not
+  * Groups of users
+  * ...
+
+* Specifications:
+
+  * Power supply
+  * Firmware
+  * ...
 
 
-** Management type: **
+**Management type:**
 
 It is possible to manage phones either unitary or globally.
 
@@ -43,8 +65,10 @@ The different tabs
 
 .. include:: ../tabs/notes.rst
 
-- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-  Management of reservations for an inventory object
+.. todo::
+   Fix this reference (include or link???)
+   **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 

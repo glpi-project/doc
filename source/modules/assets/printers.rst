@@ -3,12 +3,34 @@ Printers
 
 In a printer form, several informations are available:
 
-- general characteristics of the printer: vendor, model, type, serial number...
-- printer management: technical person in charge, status, location...
-- printer users: users known to GLPI or not, groups of users..
-- specifications: page counter, port types...
+* General characteristics of the printer:
 
-** Management type: **
+  * Vendor
+  * Model
+  * Type
+  * Serial number
+  * ...
+
+* Printer management: 
+
+  * Technical person in charge
+  * Status
+  * Location
+  * ...
+
+* Printer users:
+
+  * Users known to GLPI or not
+  * Groups of users
+  * ..
+
+* Specifications:
+
+  * Page counter
+  * Port types
+  * ...
+
+**Management type:**
 
 It is possible to manage printers either unitary or globally.
 
@@ -56,8 +78,10 @@ This tab displays the cartridges associated with the selected printer model:
 
 .. include:: ../tabs/notes.rst
 
-- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-  Management of reservations for an inventory object
+.. todo::
+   Fix this reference (include or link???)
+   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../tabs/historical.rst
 

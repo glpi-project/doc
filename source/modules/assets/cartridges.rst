@@ -3,14 +3,24 @@ Cartridges
 
 This functionality of `Asset` module allows to create cartridges models and corresponding cartridges.
 
-In a cartridge form, the following informations are available:
+In a cartridge form, the following information is available:
 
-- general characteristics of the cartridge: vendor, type, reference...
-- printer management: technical person in charge, storage site...
+* General characteristics of the cartridge:
+
+  * Vendor
+  * Type
+  * Reference
+  * ...
+
+* Printer management:
+
+  * Technical person in charge
+  * Storage site
+  * ...
 
 The alert threshold is the minimal value at which an alert is triggered.
 
-***Note :** for alerts to be effective, notifications must be activated (see [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+.. note:: For alerts to be effective, notifications must be activated; see :doc:`notifications configuration <../configuration/04_Notifications/01_Configurer_les_notifications>`.
 
 For a cartridge to be installable on a printer, it must be declared as compatible with this printer.
 
@@ -24,8 +34,9 @@ The different tabs
 
 A first table lists the new or unused cartridges, the second table lists used cartridges.
 
-Figure 1. Onglet Cartouches
-![image](docs/image/cartridge.png)
+.. image:: /image/cartridge.png
+   :alt: A cartridge form
+   :align: center
 
 - **Tab "Printer models"**
   This tab allows to declare the printer models that are compatible with the cartridge.

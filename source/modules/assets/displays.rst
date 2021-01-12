@@ -1,14 +1,39 @@
 Displays
 ========
 
-In a display form, several informations are available:
+In a display form, the following information is available:
 
-- general characteristics of the display: vendor, model, type, serial number...
-- display management: technical person in charge, status, location...
-- display users: users known to GLPI or not, groups of users..
-- specifications: size, resolution, port types (VGA, DVI, HDMI, DisplayPort), integrated sound, connectivity...
+* General characteristics of the display:
 
-** Management type: **
+  * Vendor
+  * Model
+  * Type
+  * Serial number
+  * ...
+
+* Display management:
+
+  * Technical person in charge
+  * Status
+  * Location
+  * ...
+
+* Display users:
+
+  * Users known to GLPI or not
+  * Groups of users
+  * ..
+
+* Specifications:
+
+  * Size
+  * Resolution
+  * Port types (VGA, DVI, HDMI, DisplayPort)
+  * Integrated sound
+  * Connectivity
+  * ...
+
+**Management type:**
 
 It is possible to manage displays either unitary or globally.
 
@@ -21,7 +46,7 @@ It is possible to use :doc:`templates with displays <../generalites/gabarits>`.
 The different tabs
 ------------------
 
-.. ??? _connexion_monitor:
+.. _connexion_monitor:
 
 .. include:: tabs/connexions.rst
 
@@ -39,8 +64,10 @@ The different tabs
 
 .. include:: ../tabs/notes.rst
 
-- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-  Management of reservations for an inventory object
+.. todo::
+   Fix this reference (include or link???)
+   **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 

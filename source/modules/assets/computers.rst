@@ -1,12 +1,35 @@
 Computers
 =========
 
-In a computer entry, you can find informations such as:
+In a computer form, the following information is available:
 
-* operating system: name, version, service pack, serial number, product ID...
-* general characteristics: manufacturer, model, type, serial number...
-* management informations: technical manager, status, location...
-* computer users, either known by GLPI or not
+* Operating system:
+
+  * Name
+  * Version
+  * Service pack
+  * Serial number
+  * Product ID
+  * ...
+
+* General characteristics:
+
+  * Manufacturer
+  * Model
+  * Type
+  * Serial number
+  * ...
+
+* Management informations:
+
+  * Technical manager
+  * Status
+  * Location
+  * ...
+
+* Users:
+
+  * Computer users, either known by GLPI or not
 
 Other fields are informative, such as `Network` (connexion type) and `Update source` (where are computer updates coming from (Windows update, yum, apt...).
 
@@ -53,8 +76,10 @@ The different tabs
 
 .. include:: ../tabs/notes.rst
 
--   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-     Gestion des réservations pour un objet d'inventaire
+.. todo::
+   Fix this reference (include or link???)
+   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../tabs/historical.rst
 
@@ -72,6 +97,6 @@ Apart from :doc:`common actions <../generalites/actions>`, some actions are spec
   From the tab *Softwares*, add a license by choosing the name of the software followed by the name of the license.
   From the *Mass actions* of summary table, choose **Install**
 
-    .. warning::
+.. warning::
 
-       A software can only be installed if its license has a version in use or a purchase version.
+   A software can only be installed if its license has a version in use or a purchase version.

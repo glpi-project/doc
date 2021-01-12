@@ -32,8 +32,10 @@ The different tabs
 
 .. include:: ../tabs/notes.rst
 
-- **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-  Management of reservations for an inventory object
+.. todo::
+   Fix this reference (include or link???)
+   **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
+   Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
 

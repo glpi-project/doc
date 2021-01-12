@@ -1,16 +1,24 @@
 Consumables
 ===========
 
-In the form of a consumable, several informations are available:
+In a consumable form, the following information is available:
 
-- general characteristics of the consumable: vendor, type, reference...
-- consumable management: technical person in charge, storage location...
+* General characteristics of the consumable:
+
+  * Vendor
+  * Type
+  * Reference
+  * ...
+
+* Consumable management:
+
+  * Technical person in charge
+  * Storage location
+  * ...
 
 The alert threshold corresponds to the minimal value at which an alert is triggered.
 
-.. note::
-
-   For alerts to be effective, notifications must be activated (see [Configure notifications](08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst "Les notifications se configurent depuis le menu Configuration > Notifications ;")).*
+.. note:: For alerts to be effective, notifications must be activated; see :doc:`notifications configuration <../configuration/04_Notifications/01_Configurer_les_notifications>`.
 
 Changing the state of a consumable from `new` to `used` requires to set involved user or group.
 
@@ -53,11 +61,13 @@ Apart from :doc:`common actions <../generalites/actions>`, some actions are spec
 
 * :ref:`Add new consumables to a model <ajout-consumables-modele>` ;
 * List allocated consumables:
+
   .. image:: /image/resumeConsumable.png
-  :alt: Summary of consumables
-  :align: center
+     :alt: Summary of consumables
+     :align: center
 
   Right icon allows to have a summary of allocated consumables
+
   .. image:: /image/resumeConsumableExample.png
-  :alt: Summary of allocated consumables
-  :align: center
+     :alt: Summary of allocated consumables
+     :align: center
