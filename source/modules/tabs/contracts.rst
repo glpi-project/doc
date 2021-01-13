@@ -10,4 +10,4 @@ The *Contracts* tab is used to show or add linked contracts.
 
 For each associated contract, the name, number, contract type, supplier, start date and initial duration of the contract are listed. In the last field, the end date of the contract is also shown with a red display if the date is earlier than the current date.
 
-Refer to :doc:`contract management </modules/gestion/contracts>` for more information.
+Refer to :doc:`contract management </modules/gestion/contract>` for more information.
