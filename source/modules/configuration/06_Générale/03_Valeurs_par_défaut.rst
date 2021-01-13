@@ -9,7 +9,7 @@ préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>
 Personnalisation
 ----------------
 
-.. figure:: docs/image/personnalisation.png
+.. figure:: /image/personnalisation.png
    :alt: image
 
    image
@@ -71,7 +71,7 @@ Personnalisation
 Assistance
 ----------
 
-.. figure:: docs/image/pref-assistance.png
+.. figure:: /image/pref-assistance.png
    :alt: image
 
    image
@@ -109,7 +109,7 @@ Les paramètres sont applicables à tous les objets du menu
 Progression liée à la date d'échéance
 -------------------------------------
 
-.. figure:: docs/image/pref-duedate.png
+.. figure:: /image/pref-duedate.png
    :alt: image
 
    image

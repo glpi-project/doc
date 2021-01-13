@@ -43,5 +43,5 @@ téléphones <../glpi/inventory_phone.html>`__
 **Sujet parent :** `Gérer les
 fournisseurs <../glpi/management_supplier.html>`__
 
-.. |image| image:: docs/image/probleme_computer.png
+.. |image| image:: /image/probleme_computer.png
 

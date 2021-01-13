@@ -141,9 +141,9 @@ temps appréciable.
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/importrule.png
-.. |image| image:: docs/image/playrule.png
-.. |image| image:: docs/image/critereMozilla.png
-.. |image| image:: docs/image/actionMozilla.png
-.. |image| image:: docs/image/resultatMozilla.png
+.. |image| image:: /image/importrule.png
+.. |image| image:: /image/playrule.png
+.. |image| image:: /image/critereMozilla.png
+.. |image| image:: /image/actionMozilla.png
+.. |image| image:: /image/resultatMozilla.png
 

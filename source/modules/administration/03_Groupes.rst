@@ -164,6 +164,6 @@ d'accès <../glpi/access_control_intro.html>`__
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/addUserLdap.png
-.. |image| image:: docs/image/notifGroupe.png
+.. |image| image:: /image/addUserLdap.png
+.. |image| image:: /image/notifGroupe.png
 

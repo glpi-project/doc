@@ -7,7 +7,7 @@ de GLPI.
 Assistance
 ----------
 
-.. figure:: docs/image/configAssistance.png
+.. figure:: /image/configAssistance.png
    :alt: image
 
    image
@@ -70,5 +70,5 @@ mais le niveau Moyen ne peut être supprimé.
 **Sujet parent :** `Configurer les paramètres
 centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__
 
-.. |image| image:: docs/image/configMatrice.png
+.. |image| image:: /image/configMatrice.png
 

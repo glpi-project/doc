@@ -27,5 +27,5 @@ problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 **Sujet parent :** `Gérer les
 changements <04_Module_Assistance/09_Changements.rst>`__
 
-.. |image| image:: docs/image/tabStatistique.png
+.. |image| image:: /image/tabStatistique.png
 

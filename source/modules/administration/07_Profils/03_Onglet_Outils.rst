@@ -4,7 +4,7 @@ droits <07_Module_Administration/07_Profils/01_Profils.rst>`__).
 Interface simplifiée
 ====================
 
-.. figure:: docs/image/outilsPO.png
+.. figure:: /image/outilsPO.png
    :alt: image
 
    image
@@ -33,7 +33,7 @@ permettent d'intervenir sur un objet pour le rendre réservable ou non.
 
 -  ***Faire une réservation*** : Voir interface simplifiée.
 
-.. figure:: docs/image/projets.png
+.. figure:: /image/projets.png
    :alt: image
 
    image
@@ -60,5 +60,5 @@ profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/outils.png
+.. |image| image:: /image/outils.png
 

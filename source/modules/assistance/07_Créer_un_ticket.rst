@@ -24,5 +24,5 @@ ticket <04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.rst>`__.
 **Sujet parent :** `Gérer les
 tickets <04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.rst>`__
 
-.. |image| image:: docs/image/menu_add.png
+.. |image| image:: /image/menu_add.png
 

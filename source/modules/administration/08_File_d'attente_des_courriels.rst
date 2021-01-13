@@ -41,5 +41,5 @@ que de destinataires, chacune ayant sa propre date d'envoi*.
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/mailqueue.png
+.. |image| image:: /image/mailqueue.png
 

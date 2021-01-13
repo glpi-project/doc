@@ -100,6 +100,6 @@ réservations <06_Module_Outils/06_Réservations.rst>`__
 **Sujet parent :** `Gérer les
 utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.rst>`__
 
-.. |image| image:: docs/image/item_reservations.png
-.. |image| image:: docs/image/reservation-search.png
+.. |image| image:: /image/item_reservations.png
+.. |image| image:: /image/reservation-search.png
 

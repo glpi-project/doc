@@ -1,7 +1,7 @@
 Interface simplifiée
 ====================
 
-.. figure:: docs/image/assistancePO.png
+.. figure:: /image/assistancePO.png
    :alt: image
 
    image
@@ -65,7 +65,7 @@ des droits de création de validation. Dans le cas contraire, il ne
 s'affichera que si vous avez un des droits de validation et uniquement
 si le type du ticket correspond au droit.
 
-.. figure:: docs/image/associationsPO.png
+.. figure:: /image/associationsPO.png
    :alt: image
 
    image
@@ -179,7 +179,7 @@ Suivant les droits du profil, vous pouvez voir les notes publiées dans
 le planning ainsi que les tâches d'un ticket, d'un problème ou d'un
 changement.
 
-.. figure:: docs/image/problemes.png
+.. figure:: /image/problemes.png
    :alt: image
 
    image
@@ -236,11 +236,11 @@ profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/assistance.png
-.. |image| image:: docs/image/tickets.png
-.. |image| image:: docs/image/suivisTaches.png
-.. |image| image:: docs/image/validations.png
-.. |image| image:: docs/image/associations.png
-.. |image| image:: docs/image/visibilite.png
-.. |image| image:: docs/image/changements.png
+.. |image| image:: /image/assistance.png
+.. |image| image:: /image/tickets.png
+.. |image| image:: /image/suivisTaches.png
+.. |image| image:: /image/validations.png
+.. |image| image:: /image/associations.png
+.. |image| image:: /image/visibilite.png
+.. |image| image:: /image/changements.png
 

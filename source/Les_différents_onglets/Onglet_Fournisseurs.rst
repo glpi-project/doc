@@ -4,7 +4,7 @@ Gérer les fournisseurs associés
 Affiche les fournisseurs associés à l'objet (matériel, contrat...) et
 permet d'en associer de nouveaux.
 
-.. figure:: docs/image/fournisseur.png
+.. figure:: /image/fournisseur.png
    :alt: image
 
    image

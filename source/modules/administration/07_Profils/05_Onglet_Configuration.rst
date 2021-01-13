@@ -26,7 +26,7 @@ profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/config.png
-.. |image| image:: docs/image/options_search.png
-.. |image| image:: docs/image/intitules.png
+.. |image| image:: /image/config.png
+.. |image| image:: /image/options_search.png
+.. |image| image:: /image/intitules.png
 

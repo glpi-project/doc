@@ -4,7 +4,7 @@ Onglet Configuration Affichage
 Cet onglet permet de personnaliser l'apparence générale de
 l'application.
 
-.. figure:: docs/image/ConfigGenerale.png
+.. figure:: /image/ConfigGenerale.png
    :alt: image
 
    image

@@ -164,6 +164,6 @@ rationnelle).
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/importrule.png
-.. |image| image:: docs/image/testrule.png
+.. |image| image:: /image/importrule.png
+.. |image| image:: /image/testrule.png
 
