@@ -9,8 +9,6 @@ A software license is a right to use the software. Its specific fields include:
 
 Purchase version and use version can be different; however, the use version must be compliant with the purchase version.
 
-.. ??? 2 versions d'un logiciel ont été achetées mais une seule est effectivement installée.
-
 Version type describes the specifics of the right to use the software. OEM type is the only type that is configured by default in GLPI. Refer to :doc:`configure types <../configuration/intitules/index>`.
 
 Number field displays the number of installations that are allowed with this license. It can be a user number (floating license), a number of installations (multiple license), an unlimited number of installation (site license)... It is possible to assign the license to one or several corresponding computers, for instance if the license is of type OEM.
