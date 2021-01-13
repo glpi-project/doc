@@ -48,6 +48,6 @@ imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
 **Sujet parent :** `Gérer les
 téléphones <../glpi/inventory_phone.html>`__
 
-.. |image| image:: docs/image/connexion_computer.png
-.. |image| image:: docs/image/connexion_monitor.png
+.. |image| image:: /image/connexion_computer.png
+.. |image| image:: /image/connexion_monitor.png
 

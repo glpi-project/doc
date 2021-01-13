@@ -263,5 +263,5 @@ règles <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__.
 **Sujet parent :** `Administrer les contrôles
 d'accès <../glpi/access_control_intro.html>`__
 
-.. |image| image:: docs/image/addcriteria.png
+.. |image| image:: /image/addcriteria.png
 

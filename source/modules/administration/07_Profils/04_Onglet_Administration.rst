@@ -60,10 +60,10 @@ profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
 **Sujet parent :** `Module
 Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
-.. |image| image:: docs/image/legendedroits.png
-.. |image| image:: docs/image/admin.png
-.. |image| image:: docs/image/addUserLdap.png
-.. |image| image:: docs/image/checkVersion.png
-.. |image| image:: docs/image/regles.png
-.. |image| image:: docs/image/dico.png
+.. |image| image:: /image/legendedroits.png
+.. |image| image:: /image/admin.png
+.. |image| image:: /image/addUserLdap.png
+.. |image| image:: /image/checkVersion.png
+.. |image| image:: /image/regles.png
+.. |image| image:: /image/dico.png
 

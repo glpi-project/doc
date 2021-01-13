@@ -52,6 +52,6 @@ Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 
 **Sujet parent :** `Sauvegarder GLPI <../glpi/admin_backup.html>`__
 
-.. |image| image:: docs/image/checkVersion.png
-.. |image| image:: docs/image/maintenance.png
+.. |image| image:: /image/checkVersion.png
+.. |image| image:: /image/maintenance.png
 

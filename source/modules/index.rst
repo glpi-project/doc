@@ -5,7 +5,7 @@ Modules
    :maxdepth: 3
 
    generalites/index
-   parc/index
+   assets/index
    assistance/index
    gestion/index
    outils/index

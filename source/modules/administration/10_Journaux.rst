@@ -15,7 +15,7 @@ paramétrable dans l'onglet **Système** de la configuration générale
 *- La durée de conservation des journaux est paramétrable dans les
 actions automatiques. Voir Configurer les actions automatiques.*
 
-.. figure:: docs/image/journaux.png
+.. figure:: /image/journaux.png
    :alt: image
 
    image

@@ -53,5 +53,5 @@ changements <04_Module_Assistance/08_Changements.rst>`__
 **Sujet parent :** `Gérer les
 projets <06_Module_Outils/02_Projets/01_Projets.rst>`__
 
-.. |image| image:: docs/image/cout.png
+.. |image| image:: /image/cout.png
 

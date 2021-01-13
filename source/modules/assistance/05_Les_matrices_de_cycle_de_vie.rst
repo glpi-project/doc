@@ -66,8 +66,8 @@ problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 **Sujet parent :** `Gérer les
 changements <04_Module_Assistance/09_Changements.rst>`__
 
-.. |image| image:: docs/image/CycleVieTicket.png
-.. |image| image:: docs/image/CycleVieTicket-postonly.png
-.. |image| image:: docs/image/CycleVieProbleme.png
-.. |image| image:: docs/image/CycleVieChange.png
+.. |image| image:: /image/CycleVieTicket.png
+.. |image| image:: /image/CycleVieTicket-postonly.png
+.. |image| image:: /image/CycleVieProbleme.png
+.. |image| image:: /image/CycleVieChange.png
 

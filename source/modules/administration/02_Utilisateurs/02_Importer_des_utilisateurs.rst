@@ -94,9 +94,9 @@ ci-dessus).
 **Sujet parent :** `Gérer les
 utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.rst>`__
 
-.. |image| image:: docs/image/addUserAll.png
-.. |image| image:: docs/image/addUser.png
-.. |image| image:: docs/image/menu_add.png
-.. |image| image:: docs/image/addUserExt.png
-.. |image| image:: docs/image/addUserLdap.png
+.. |image| image:: /image/addUserAll.png
+.. |image| image:: /image/addUser.png
+.. |image| image:: /image/menu_add.png
+.. |image| image:: /image/addUserExt.png
+.. |image| image:: /image/addUserLdap.png
 

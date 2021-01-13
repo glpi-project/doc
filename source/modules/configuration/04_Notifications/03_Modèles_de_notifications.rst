@@ -153,5 +153,5 @@ chaîne de langue ou la valeur d'un champ.
 **Sujet parent :** `Configurer les
 notifications <(08_Module_Configuration/04_Notifications/01_Notifications.rst)>`__
 
-.. |image| image:: docs/image/listeTags.png
+.. |image| image:: /image/listeTags.png
 

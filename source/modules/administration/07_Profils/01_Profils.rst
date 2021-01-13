@@ -211,6 +211,6 @@ Administration <07_Module_Administration/01_Module_Administration.rst>`__.
 **Sujet parent :** `Administrer les contrôles
 d'accès <../glpi/access_control_intro.html>`__
 
-.. |image| image:: docs/image/parc.png
-.. |image| image:: docs/image/gestion.png
+.. |image| image:: /image/parc.png
+.. |image| image:: /image/gestion.png
 

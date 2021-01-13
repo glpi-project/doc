@@ -62,6 +62,6 @@ problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 **Sujet parent :** `Gérer les
 changements <04_Module_Assistance/09_Changements.rst>`__
 
-.. |image| image:: docs/image/tache.png
-.. |image| image:: docs/image/reservation-3.png
+.. |image| image:: /image/tache.png
+.. |image| image:: /image/reservation-3.png
 

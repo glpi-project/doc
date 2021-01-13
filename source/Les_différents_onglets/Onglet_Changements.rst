@@ -42,5 +42,5 @@ problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 **Sujet parent :** `Gérer les
 projets <06_Module_Outils/02_Projets/01_Projets.rst>`__
 
-.. |image| image:: docs/image/tabChange.png
+.. |image| image:: /image/tabChange.png
 

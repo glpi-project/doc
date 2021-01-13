@@ -16,7 +16,7 @@ utilisées par les problèmes et les changements. La gestion des
 catégories est accessible depuis le menu des intitulés :
 ***Configuration > Intitulés > Catégories des tickets***.
 
-.. figure:: docs/image/categorieTicket.png
+.. figure:: /image/categorieTicket.png
    :alt: image
 
    image

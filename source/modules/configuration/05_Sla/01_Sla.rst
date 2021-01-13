@@ -86,5 +86,5 @@ Les différentes actions
 **Sujet parent :** `Module
 Configuration <08_Module_Configuration/01_Module_Configuration.rst>`__
 
-.. |image| image:: docs/image/NiveauSla.png
+.. |image| image:: /image/NiveauSla.png
 

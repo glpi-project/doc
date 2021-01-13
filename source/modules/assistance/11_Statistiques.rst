@@ -71,5 +71,5 @@ filles. Il est possible de naviguer dans l'arbre des valeurs.*
 **Sujet parent :** `Le service d'assistance aux
 utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__
 
-.. |image| image:: docs/image/stats_item.png
+.. |image| image:: /image/stats_item.png
 

@@ -130,9 +130,9 @@ groupes <07_Module_Administration/03_Groupes.rst>`__
 **Sujet parent :** `Gérer les
 composants <08_Module_Configuration/03_Composants.rst>`__
 
-.. |image| image:: docs/image/tabElements.png
-.. |image| image:: docs/image/tabElementsGestion.png
-.. |image| image:: docs/image/ItemUsed.png
-.. |image| image:: docs/image/itemGroup.png
-.. |image| image:: docs/image/itemComponent.png
+.. |image| image:: /image/tabElements.png
+.. |image| image:: /image/tabElementsGestion.png
+.. |image| image:: /image/ItemUsed.png
+.. |image| image:: /image/itemGroup.png
+.. |image| image:: /image/itemComponent.png
 

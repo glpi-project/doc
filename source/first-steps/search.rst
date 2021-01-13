@@ -28,12 +28,12 @@ For labels, it is possible to search for a given value (*is*). If the dropdowns 
 
 For example, to find computers with more than 1024 MiB of memory and more than 80% free disk space:
 
-====   ========  =============================  ===========  ======
+=====  ========  =============================  ===========  ======
 *-*    Type      Field                          Comparison   Value
-====   ========  =============================  ===========  ======
+=====  ========  =============================  ===========  ======
 *-*    *simple*  *Memory*                       *contains*   ``> 1024``
 *AND*  *simple*  *Volumes - Percentage free*    *contains*   ``> 80``
-====   ========  =============================  ===========  ======
+=====  ========  =============================  ===========  ======
 
 .. note::
 

@@ -68,5 +68,5 @@ contrats <../glpi/management_contract.html>`__
 **Sujet parent :** `Gérer les
 documents <../glpi/management_document.html>`__
 
-.. |image| image:: docs/image/document_item.png
+.. |image| image:: /image/document_item.png
 

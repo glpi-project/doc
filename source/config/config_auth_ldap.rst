@@ -226,7 +226,7 @@ Remarque : sur un Active directory il est possible de modifier la valeur
 du MaxPageSize grâce aux commandes suivantes (attention cette
 modification est globale à tout l'annuaire) :
 
-.. code:: codeblock
+::
 
     C:> ntdsutil
     ntdsutil: ldap policies

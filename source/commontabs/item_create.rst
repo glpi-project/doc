@@ -31,5 +31,5 @@ ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.
 | **Related information**
 | `Gérer les gabarits <template.html>`__
 
-.. |image| image:: docs/image/add.png
+.. |image| image:: /image/add.png
 

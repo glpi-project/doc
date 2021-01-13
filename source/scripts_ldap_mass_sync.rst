@@ -7,12 +7,13 @@ Présent dans le répertoire scripts/ de GLPI, il s'appelle
 ldap\_mass\_sync.php. Pour le lancer, il suffit exécuter le script
 suivant :
 
-.. code:: codeblock
+:: 
 
     php ldap_mass_sync.php [action=0|1|2] [ldapservers_id=x] [ldap_filter="(xx)"] [before-days=x] [after-days=y]
 
-Avertissement : le script doit être lancé par l'utilisateur du service
-web.
+.. warning::
+
+   Le script doit être lancé par l'utilisateur du service web.
 
 Le paramètre action indique s'il faut effectuer un import (valeur 0),
 une synchronisation (valeur 1), ou s'il faut réimporter et
