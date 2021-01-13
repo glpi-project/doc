@@ -5,8 +5,6 @@ GLPI allows management of softwares and their versions as well as licenses, asso
 
 A software is by default associated with an entity.
 
-.. ??? Un logiciel est par défaut associé à une entité : c'est-à-dire qu'il y aura autant de logiciels dans la base qu'il y a d'entités. Rendre un logiciel visible dans les sous-entités permet de faire une gestion plus fine.
-
 Financial management is done at the level of licenses; the financial management at software level is only a model for the licenses associated with this software.
 
 Softwares can be imported automatically using a third-party inventory tool; in this case a dictionary can be used to filter or clean the import data (see [Configure data dictionaries](07_Module_Administration/06_Dictionnaires.rst "The dictionaries are managed from menu entry Administration > Dictionaries")).
@@ -14,7 +12,7 @@ Softwares can be imported automatically using a third-party inventory tool; in t
 Some fields are specific in the software form:
 
 - **Update** is an information, with no processing associated and which tells whether the software is an update of another software
-- **Category** allows to group softwares in the list of softwares of a computer
+- **Category** allows to group softwares in the list of softwares of an asset
 - **Can be associated with a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
 
 
@@ -35,7 +33,7 @@ The different tabs
 Versions
 ~~~~~~~~
 
-A version of a software is the element that can be installed on a computer; see also :ref:`*Installations* tab <tab-install-software>`.
+A version of a software is the element that can be installed on a asset; see also :ref:`*Installations* tab <tab-install-software>`.
 
 The main view lists the number of installations of the version.
 
