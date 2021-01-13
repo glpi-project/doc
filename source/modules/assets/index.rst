@@ -1,8 +1,6 @@
 Asset module
 ============
 
-.. parc informatique -> computer equipment? other translation: information system
-
 The GLPI Asset module is used to manage all the assets that are part of your IT infrastructure.
 
 Asset management in GLPI
