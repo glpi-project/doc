@@ -35,7 +35,7 @@ The different tabs
 Versions
 ~~~~~~~~
 
-A version of a software is the element that can be installed on a computer; see also :ref:`tab *Installations* <onglet-logiciels-installations>`.
+A version of a software is the element that can be installed on a computer; see also :ref:`*Installations* tab <tab-install-software>`.
 
 The main view lists the number of installations of the version.
 
@@ -52,8 +52,7 @@ Licenses
 ~~~~~~~~
 
 
-..  _onglet-logiciels-installations:
-
+..  _tab-install-software:
 
 Installations
 ~~~~~~~~~~~~~
