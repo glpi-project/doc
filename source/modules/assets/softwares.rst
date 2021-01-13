@@ -17,7 +17,6 @@ Some fields are specific in the software form:
 - **Category** allows to group softwares in the list of softwares of a computer
 - **Can be associated with a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
 
-.. ??? définit la visibilité du logiciel dans la liste déroulante "Matériel" d'un ticket.
 
 It is recommended to first create the software without a version number in the name, then to create the versions and last to create the licenses.
 
