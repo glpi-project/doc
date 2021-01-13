@@ -23,7 +23,7 @@ Si la mise à jour de GLPI est effectuée depuis une version inférieure à
 0.68, certains répertoires ont changé de nom. Il faut donc copier leur
 contenu :
 
-.. code:: codeblock
+::
 
     ancien_GLPI/docs/ -> nouveau_glpi/files
     ancien_GLPI/backup/dump -> nouveau_GLPI/files/_dumps

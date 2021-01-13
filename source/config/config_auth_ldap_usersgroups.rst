@@ -268,7 +268,7 @@ s'est produite.
 
 -  Création d'un fichier BAT :
 
-.. code:: codeblock
+::
 
     REM Placer vous dans le dossier ou se trouve le script
 

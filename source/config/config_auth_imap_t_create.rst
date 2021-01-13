@@ -12,42 +12,19 @@ d'authentification
 
    1. le nom du serveur est celui qui sera affiché dans GLPI ;
 
-.. code:: codeblock
+   2.  le domaine de messagerie est ce qui suit l'arobase dans une
+       adresse de messagerie ; pour un courriel de type
+       `exemple.fr` dans `courriel@exemple.fr`
 
-    Serveur de messagerie pour Exemple France
+   3.  le nom pleinement qualifié du serveur, `imap.exemple.fr`
 
-::
 
-    2.  le domaine de messagerie est ce qui suit l'arobase dans une
-        adresse de messagerie ; pour un courriel de type
-        courriel@exemple.fr :
+   4.  les paramètres optionnels de connexion au serveur : port et
+       options de connexion telles que IMAP ou POP, SSL, TLS,
+       VALIDATE-CERT ou NO-VALIDATE-CERT et dossier de messagerie.
 
-.. code:: codeblock
-
-    exemple.fr
-
-::
-
-    3.  le nom pleinement qualifié du serveur ;
-
-.. code:: codeblock
-
-    imap.exemple.com
-
-::
-
-    4.  les paramètres optionnels de connexion au serveur : port et
-        options de connexion telles que IMAP ou POP, SSL, TLS,
-        VALIDATE-CERT ou NO-VALIDATE-CERT et dossier de messagerie.
-
-.. code:: codeblock
-
-    993, IMAP, SSL, TLS, NO-VALIDATE-CERT, INBOX
-
-::
-
-    Les champs qui ne sont pas nécessaires à la connexion au serveur de
-    messagerie sont laissés vides.
+      Les champs qui ne sont pas nécessaires à la connexion au serveur de
+      messagerie sont laissés vides.
 
 5. Valider. Le serveur de messagerie est créé dans GLPI.
 6. Vérifier la chaîne de connexion qui apparaît dorénavant. Celle-ci est
