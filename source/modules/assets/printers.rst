@@ -30,7 +30,8 @@ In a printer form, several informations are available:
   * Port types
   * ...
 
-**Management type:**
+Management Type
+---------------
 
 It is possible to manage printers either unitary or globally.
 
