@@ -46,8 +46,6 @@ It is possible to use :doc:`templates with displays <../generalites/gabarits>`.
 The different tabs
 ------------------
 
-.. _connexion_monitor:
-
 .. include:: tabs/connexions.rst
 
 .. include:: ../tabs/management.rst
@@ -80,4 +78,4 @@ The different actions
 
 Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to displays:
 
-* :ref:`connect a display to a monitor <connexion_monitor>`
+* :doc:`connect a display to a monitor <../../commontabs/item_connexions>`
