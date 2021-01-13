@@ -38,7 +38,6 @@ Unitary management corresponds to one printer per computer while global manageme
 
 Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-.. ??? La gestion globale permet de limiter le nombre d'éléments à gérer dans le cas où ceux-ci ne constituent pas une donnée stratégique dans la gestion du parc informatique.
 
 It is possible to use :doc:`templates with printers <../generalites/gabarits>`.
 
@@ -94,4 +93,3 @@ The different actions
 ---------------------
 
 Printers do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
-
