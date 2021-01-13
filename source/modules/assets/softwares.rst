@@ -65,7 +65,6 @@ The installation of a software on a computer is visualized through a :ref:`versi
    * Column `license` is filled only when the license is affected to the concerned computer
    * The initial display of different categories depend upon user preferences (see [manage preferences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
 
-.. ??? Deux options sont disponibles sur la liste des installations de logiciels d'un ordinateur. Au dessus de la liste, **Installer** manuellement une version d'un logiciel sur le poste (nécessite de sélectionner le logiciel et la version) : si une licence est associée à celui-ci la "version d'utilisation" de la licence est automatiquement renseignée.
 
 Two options are available on the list of installations of software on a computer. Above the list, **Install** allows to install manually a version of a software on the computer, by selecting first the software and its version; if a license is associated with this software, the use version of the license is automatically selected.
 
