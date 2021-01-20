@@ -62,7 +62,7 @@ Glossary
    Contract
       Financial document linked to assets and to suppliers
 
-   Controler
+   Controller
       IT component
 
       .. ??? Composant informatique.
