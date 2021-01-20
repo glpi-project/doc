@@ -370,7 +370,7 @@ Glossary
    Ticket
       GLPI object representing an incident or a service request.
 
-   Transfert
+   Transfer
       Action of moving an object from one entity to another.
 
    Trash bin
