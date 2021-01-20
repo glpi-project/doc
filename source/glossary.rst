@@ -349,7 +349,7 @@ Glossary
    VLAN
       :abbr:`VLAN (Virtual Local Area Network)` : Virtual Local Network.
 
-   VLAN Taggé
+   Tagged VLAN
       A tagged :abbr:`VLAN (Virtual Local Area Network)` is a :term:`VLAN` which tag is transmited in network frame (see `802.1Q <http://fr.wikipedia.org/wiki/IEEE_802.1Q>`_).
 
    Virtual network port
