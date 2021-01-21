@@ -132,9 +132,6 @@ Glossary
    Frequently Asked Questions (FAQ)
       Specifically in GLPI, selection of elements of the knowledge base that can be provided independently, for example articles that are made accessible to users having only access to the simplified interface.
 
-   Field
-      Element of the graphical interface that allows an interaction with the user (selection, entry...).
-
    Financial information
       Data for invoicing and warranty.
 
