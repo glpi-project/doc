@@ -56,7 +56,7 @@ Glossary
       Referent person linked to a supplier.
 
    Contract
-      Financial document linked to assets and to suppliers
+      Financial document linked to assets and to suppliers.
 
    Controller
       Device that interfaces with other peripheral device.
@@ -65,7 +65,7 @@ Glossary
       Element or pattern used by search engines to select an information or used by rules engines and dictionaries to perform actions.
 
    Depreciation type
-      Characteristic of depreciation which balance can be linear or declining
+      Characteristic of depreciation which balance can be linear or declining.
 
    Default profile
       Profile attributed by the application in the absence of particular settings (rules, manual attribution...).
@@ -91,9 +91,8 @@ Glossary
    Domain
       Group of assets connected to a network.
 
-   Title
-      Customizable element of a a drop-down list
-
+   Dropdown
+      Customizable dropdown list used in GLPI and plugins.
 
    Entity
       Organizational object allowing to partition view and action scope of users.
@@ -262,7 +261,6 @@ Glossary
 
    Replicate (MySQL)
       MySQL database used by GLPI if main database (`master`) is not available.
-      Base de données MySQL sur laquelle GLPI se connecte en cas d'indisponibilité de la base principale (maître).
 
    Report
       Document that sums up GLPI data.
@@ -375,7 +373,7 @@ Glossary
    Personal view
       In a GLPI menu, display of columns in a list that is specific to a user.
 
-   vCard
+   VCard
       Virtual visit card.
 
    Volume
