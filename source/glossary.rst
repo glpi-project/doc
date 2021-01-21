@@ -45,8 +45,6 @@ Glossary
    Accreditation
       Authorization to perform a set of actions on several entities, given by rights attribution process.
 
-      .. ??? Autorisation résultante de l'attribution de droits sur un périmètre d'action (une ou plusieurs entités).
-
    Closed (ticket)
       Status of a ticket whose solution has been approved by the ticket issuer or that has been close automatically.
 
