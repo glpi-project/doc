@@ -13,8 +13,6 @@ Glossary
    Adaptive rule
       Rule in which at least one action is the result of a regular expression defined in a criteria.
 
-      .. ??? Règle dont au moins une action est le résultat d'une expression rationnelle définie dans un critère.
-
    Administrative closing
       Modification of a ticket status to closed (manually or automatically).
 
