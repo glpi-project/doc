@@ -104,11 +104,6 @@ Glossary
    Title
       Customizable element of a a drop-down list
 
-   Backup
-      Operation that consists in duplicating and securing data.
-
-      .. ??? in glossary? seriously? Opération qui consiste à dupliquer et à mettre en sécurité les données.
-
 
    Entity
       Organizational object allowing to partition view and action scope of users.
