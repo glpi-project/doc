@@ -112,10 +112,6 @@ Glossary
    Dynamic display
       Mode that offers a better user experience in using GLPI thanks to Ajax.
 
-   Writer
-      Person writing.
-
-      .. ??? in glossary? seriously?
 
    Entity
       Organizational object allowing to partition view and action scope of users.
