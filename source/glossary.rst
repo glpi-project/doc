@@ -97,9 +97,7 @@ Glossary
       .. ??? Domaine de messagerie
 
    Domain
-      Grouping of assets connected to a network.
-
-      .. ??. Regroupement de matériels connectés au réseau.
+      Group of assets connected to a network.
 
    Title
       Customizable element of a a drop-down list
