@@ -109,9 +109,6 @@ Glossary
 
       .. ??? in glossary? seriously? Opération qui consiste à dupliquer et à mettre en sécurité les données.
 
-   Dynamic display
-      Mode that offers a better user experience in using GLPI thanks to Ajax.
-
 
    Entity
       Organizational object allowing to partition view and action scope of users.
