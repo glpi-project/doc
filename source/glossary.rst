@@ -414,5 +414,3 @@ Glossary
 
    SLA
       SLA (for Service-Level Agreement) is a contract between a service provider and a client that defines the requested quality of service and the responsibilities in case of failure.
-
-      .. ??? charabia Le service-level agreement (SLA) ou « accord de niveau de service » est un document qui définit la qualité de service, prestation prescrite entre un fournisseur de service et un client. Autrement dit, il s'agit de clauses basées sur un contrat définissant les objectifs précis attendus et le niveau de service que souhaite obtenir un client de la part du prestataire et fixe les responsabilités.
