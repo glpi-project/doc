@@ -63,9 +63,7 @@ Glossary
       Financial document linked to assets and to suppliers
 
    Controller
-      IT component
-
-      .. ??? Composant informatique.
+      Device that interfaces with other peripheral device.
 
    Criteria
       Element or pattern used by search engines to select an information or used by rules engines and dictionaries to perform actions.
