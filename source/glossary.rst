@@ -94,8 +94,6 @@ Glossary
    Mail domain
       Part of a mail adress that is after character `@`.
 
-      .. ??? Domaine de messagerie
-
    Domain
       Group of assets connected to a network.
 
