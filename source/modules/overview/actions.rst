@@ -67,7 +67,7 @@ For all inventory objects, displaying an object is realized in the same way:
 Attaching a document
 ^^^^^^^^^^^^^^^^^^^^
 
-For all inventory objects, attaching a document is realized in the same way:
+When available for the item type, attaching a document is realized in the same way:
 
 #. Connect to GLPI ;
 #. Go to the object menu, for example, to attach to a computer, go to `Assets > Computers` ;
