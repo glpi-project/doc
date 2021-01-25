@@ -72,7 +72,7 @@ Default templates can also be defined by :ref:`ticket category <tickets-categori
 
 When creating a ticket, the used template is, with priority order:
 
-1. First, the template defined in the defined category for the defined type
+1. First, the template defined in the selected category and type
 .. ??? 1. ouille  Celui défini dans la catégorie définie pour le type défini
 2. Then,  the default template for the current profile of the user
 3. Last, the default template for the creation entity of the ticket
