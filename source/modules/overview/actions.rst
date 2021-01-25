@@ -113,7 +113,7 @@ Two possibilities are available:
    #. Select the checkbox located on the left of the object name ;
    #. Click on button **Actions** and choose **Add a Contract**
 
-GLPI will then display the object form with newly attached document.
+GLPI will then display the object form with newly attached contract.
 
 
 Transfer between entities
@@ -175,4 +175,3 @@ In both cases, a choice will have to be made between:
 
 * *Move to trash bin* if object has an associated trash bin. In this case, object may be restored later on ;
 * *Delete permanently* if object does not have an associated trash bin. In this case, GLPI will ask for confirmation before real deletion of the object in the database.
-
