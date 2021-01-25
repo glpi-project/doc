@@ -2,7 +2,9 @@
 
 __Documentation is being rewrited... Some parts may be really out of date, some links can be broken, ...__
 
-Current documentation is built on top of [Sphinx documentation generator](http://sphinx-doc.org/). It is released under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0 International License</a>.
+Current documentation is built on top of [Sphinx documentation generator](http://sphinx-doc.org/). 
+
+Documentation is released under the terms of the Creative Commons License Attribution-ShareAlike 3.0 France [CC BY-SA 3.0 FR](https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en).
 
 ## View it online!
 
