@@ -8,10 +8,10 @@ For some object types in GLPI, it is possible to create new objects (computers f
 
 Template management is accessible via the button |btn_template| located in the menu bar.
 
-Inventory objects
-^^^^^^^^^^^^^^^^^
+Assets
+^^^^^^
 
-For inventory objects, the template defines a default standard object in which some fields are pre-filled and can later be reused to create new objects. This allows to simplify drastically adding a large number of objects that are nearly identical.
+For assets, the template defines a default standard object in which some fields are pre-filled and can later be reused to create new objects. This allows to simplify drastically adding a large number of objects that are nearly identical.
 
 As an example, in order to prepare inventorying 20 identical printers in which only serial number and inventory number differ:
 
