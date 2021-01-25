@@ -93,7 +93,7 @@ GLPI will then display the object form with newly attached document.
 Attaching a contract
 ^^^^^^^^^^^^^^^^^^^^
 
-For all inventory objects, attaching a contract (if a contract can be attached to the object) is realized in the same way:
+When available for the item type, attaching a contract is realized in the same way:
 
 #. Connect to GLPI ;
 #. Go to the object menu, for example, to attach to a computer, go to `Assets > Computers` ;
