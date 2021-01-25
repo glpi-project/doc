@@ -5,6 +5,6 @@ Status information is frequently used to sort hardware that is disposed, availab
 
 Defining new status and the object types they will be used for is under GLPI administrator's responsibility, see :ref:`dropdown configuration <configuration-intitules>`. These defined status can be recursive, in order to ease management.
 
-Modifying an element's status can be down either from the element's form or using mass actions.
+Modifying an element's status can be done either from the element's form or using mass actions.
 
 A :ref:`report <gestion-rapports>` can display a summary of status sorted by asset types. :ref:`Global search on inventory <recherche-globale-inventaire>` allows to query inventory elements by status.
