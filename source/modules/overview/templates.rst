@@ -38,7 +38,6 @@ The field string:
    * ``\m``: is replaced by the month;
    * ``\d``: is replaced by the day.
 
-.. ??? don't understand ``\g`` recherche du numéro parmi tous les champs identiques basés sur le même format ;
 
 For example, when creating a printer, it is possible in the printer template to use this mechanism to generate automatically inventory numbers.
 
