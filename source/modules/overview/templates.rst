@@ -39,7 +39,7 @@ The field string:
    * ``\d``: is replaced by the day.
 
 
-For example, when creating a printer, it is possible in the printer template to use this mechanism to generate automatically inventory numbers.
+For example, when creating a printer, it is possible in the printer template to use this mechanism to automatically generate inventory numbers.
 
 Let suppose that we want an inventory number under the form: `YEAR+MONTH+DAY+fixed code structure equals to 555 + fixed operation code equals to 1234 + 2_DIGITS_COUNTER`; then the inventory number field in the template will be: ``<\Y-\m-\d-555-1234-##\>``.
 
