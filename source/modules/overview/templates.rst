@@ -46,7 +46,6 @@ Let suppose that we want an inventory number under the form: `YEAR+MONTH+DAY+fix
 
 On each printer creation, the first printer will have its inventory number be `1984-JAN-02-555-1234-01`, the second printer `1984-JAN-02-555-1234-02` and so on.
 
-.. ??? please check example
 
 
 Ticket templates
