@@ -4,7 +4,7 @@ Modules
 .. toctree::
    :maxdepth: 3
 
-   generalites/index
+   overview/index
    assets/index
    assistance/index
    gestion/index
