@@ -1,49 +1,41 @@
-Gérer les domaines
-==================
+Domains
+=======
 
-Deux nouveaux objets de GLPI sont rassemblés dans cette fonctionnalité : les domaines et les enregistrements de domaines.
+Domains management in GLPI allows to manage domains (i.e. Internet domains) and domain records:
 
-Gérer les domaines et les enregistrements au sein de GLPI permet notamment:
-
-* de construire un inventaire des noms de domaines;
-* d'inventorier les enregistrements (records) de chaque domaine;
-* d'anticiper et suivre le renouvellement des noms de domaines;
-* d'intégrer les domaines dans la gestion financière de GLPI;
-* de lier les éléments du parc au domaine;
+* inventorying domain names;
+* inventorying domain records;
+* anticipating and following domain names renewal;
+* integrating domains in GLPI financial management;
+* linking assets to domains;
 .. versionchanged:: 9.5.0
-* inclure les domaines et les enregitrements dans l'assistance de GLPI.
-
-
-
+* include domains and records in GLPI assistance.
 
 .. note::
+   Access to list of domain `Records` is done via the list of `Domains`.
 
-		L'accès à la liste des objets Enregistrements de domaines est accessible depuis la liste des objets Domaines !
 
-
-Objet Domaine
+Domain object
 -------------
 
-L'objet domaine permet de matérialiser un domaine informatique dans son ensemble (son nom, sa date d'expiration, etc).
-L'objet est associable dans l'assistance de GLPI (tickets, problèmes changements).
+A `Domain` object represents an Internet domain, with its name, expire date... This object can be attached to other objects in GLPI assistance (tickets, problems, changes).
 
 .. image:: images/domains.png
-        :alt: Caractérisation d'un domaine
-        :align: center
+   :alt: A domain in GLPI
+   :align: center
 
-Les différents onglets
-~~~~~~~~~~~~~~~~~~~~~~
+The different tabs
+~~~~~~~~~~~~~~~~~~
 
 Records
 ~~~~~~~
 
-Dans cet onglet, il est possible de sélectionner ou de créer un enregistrement de domaine à associer au domaine actuel.
+This tab allow to create or select a domain record to be associated with the domain.
 
 
 .. image:: images/recordslist-domains.png
-        :alt: Liste des enregistrements associables
-        :align: center
-
+   :alt: List of attached records
+   :align: center
 
 .. include:: ../tabs/elements.rst
 
@@ -66,24 +58,24 @@ Dans cet onglet, il est possible de sélectionner ou de créer un enregistrement
 .. include:: ../tabs/all.rst
 
 
-Objet Enregistrement de domaine (Record)
--------------------------------------------
+Record object
+-------------
 
-L'objet Enregistrement de domaine permet de matérialiser tous les types d'enregistrements que l'on peut trouver dans une zone ou un fichier de configuration DNS ( TXT, A, PTR, SOA, CNAME, etc ).
+A `Record` object stores all record types that can be found in a DNS zone or DNS configuration file: TXT, A, PTR, SDA, CNAME...
 
-Cet objet doit être associé à un objet Domaine vu précedemment.
+This object must be associated to a `Domain` object described earlier.
 
 .. image:: images/recordsadd-domains.png
-        :alt: Création d'un enregistrement de domaine
-        :align: center
+   :alt: Creation of a domain record
+   :align: center
 
 .. note::
 
-        Les types d'enregistrements ne sont pas limités à ceux créés par défaut, ils sont personnalisables depuis la gestion des intitulés !
+   Record types are not limited to the default ones and can be customized using drop-down management.
 
  
-Les différents onglets
-~~~~~~~~~~~~~~~~~~~~~~
+The different tabs
+~~~~~~~~~~~~~~~~~~
 
 .. include:: ../tabs/tickets.rst
 
@@ -100,14 +92,13 @@ Les différents onglets
 .. include:: ../tabs/all.rst
 
 
+The different actions
+---------------------
 
-Les différentes actions 
------------------------
-
-*   :doc:`Visualiser un domaine <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Ajouter un domaine/un enregistrement <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Modifier un domaine/un enregistrement <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un domaine/un enregistrement <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un domaine/un enregistrement <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un domaine <../../Les_différentes_actions/transferer_un_objet>`
-*	:doc:`Visualiser les enregistrements de domaines <../../Les_différentes_actions/visualiser_ liste_des_enregistrements_de_domaine>`
+* :doc:`Display a domain <../../Les_différentes_actions/visualiser_un_objet>`
+* :doc:`Add a domain or a record <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Modify a domain or a record <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Delete a domain or a record <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Attach a document to a domain or a record <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+* :doc:`Transfer a domain <../../Les_différentes_actions/transferer_un_objet>`
+* :doc:`Display domain records <../../Les_différentes_actions/visualiser_liste_des_enregistrements_de_domaine>`

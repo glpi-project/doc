@@ -1,7 +1,7 @@
 Management module
 =================
 
-The GLPI Management module is used to manage the following elements:
+The GLPI Management module is used to manage the following items:
 
 .. toctree::
    :maxdepth: 1
