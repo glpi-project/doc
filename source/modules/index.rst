@@ -6,8 +6,8 @@ Modules
 
    overview/index
    assets/index
+   management/index
    assistance/index
-   gestion/index
    outils/index
    administration/index
    configuration/index
