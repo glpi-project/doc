@@ -3,13 +3,13 @@ Domains
 
 Domains management in GLPI allows to manage domains (i.e. Internet domains) and domain records:
 
-* inventorying domain names;
-* inventorying domain records;
-* anticipating and following domain names renewal;
-* integrating domains in GLPI financial management;
-* linking assets to domains;
+* Inventorying domain names;
+* Inventorying domain records;
+* Anticipating and following domain names renewal;
+* Integrating domains in GLPI financial management;
+* Linking assets to domains;
 .. versionchanged:: 9.5.0
-* include domains and records in GLPI assistance.
+* Include domains and records in GLPI assistance.
 
 .. note::
    Access to list of domain `Records` is done via the list of `Domains`.
