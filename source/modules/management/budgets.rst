@@ -1,51 +1,52 @@
-Gérer les budgets
-=================
+Budgets
+=======
 
-Un budget dans GLPI, c'est la définition d'un montant sur une période donnée. Les autre éléments de GLPI peuvent être attachés à un budget et ainsi piocher dans ce dernier en indiquant leur valeur.
+A budget in GLPI is defined by an amount and a time period. Other GLPI items can be attached to this budget and will then, by providing their value, modify the budget available amount.
 
-Matérialiser un budget au sein de GLPI ouvre la fonctionnalité de gestion administrative et financière pour tous les autres éléments présents dans l'outil.
+Creating a budget in GLPI enables the administrative and financial management functionality for all other GLPI items.
 
-Il est possible de suivre l'évolution du budget en traçant la valeur de chaque élément rattachés.
+It is possible to follow the evolution of a budget by tracing the value of each attached item.
 
 .. note::
 
-        Lier un élément de GLPI avec un budget se passe dans l'onglet Gestion de l'élément !
-
+   Attaching a GLPI item to a budget is done via tab `Management` of the item!
 
 .. image:: images/budgets.png
-        :alt: Principaux champs d'un budget
-        :align: center
+   :alt: Main fields of a budget
+   :align: center
 
 .. note::
 
-   Lors de la visualisation d'un budget dans une sous-entité, le total du budget restant n'est pas accessible.
+   When displaying a budget from a sub-entity, the budget remaining total amount is not visible.
 
-   Important : Ce total est négatif si le total de la valeur des matériels est plus élevée que la valeur du budget.
+   The budget remaining total amount can be negative if the sum of the values of attached items is greater than the budget amount.
 
 .. include:: ../tabs/templates.rst
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
-Principal
-~~~~~~~~~
+Main tab
+~~~~~~~~
 
-Cet onglet fournit un tableau récapitulant le montant dépensé sur le budget par type d'éléments ainsi que le total restant.
+This tab provides a summary table giving the expended amount of the budget, sorted by item type, as well as total remaining amount.
 
 .. image:: images/main-budgets.png
-        :alt: Tableau récapitulatif du budget
-        :align: center
+   :alt: Budget summary table
+   :align: center
 
-Eléments
-~~~~~~~~~
+Items
+~~~~~
 
-Cet onglet permet de visualiser les autres éléments de GLPI attachés à ce budget ainsi que leur valeur.
+This tab displays GLPI items attached to this budget as well as their value.
 
 .. image:: images/elements-budgets.png
+   :alt: Budget attached elements
+   :align: center
 
 .. note::
 
-        Le lien entre le budget et un élément se fait depuis l'onglet Gestion de l'élément !
+   Attaching a GLPI item to a budget is done via tab `Management` of the item!
 
 .. include:: ../tabs/documents.rst
 
@@ -59,12 +60,13 @@ Cet onglet permet de visualiser les autres éléments de GLPI attachés à ce bu
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
 
-*   :doc:`Ajouter un budget <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser un budget <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modifier un budget <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un budget <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un budget <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un budget <../../Les_différentes_actions/transferer_un_objet>`
+The different actions
+---------------------
+
+* :doc:`Add a budget <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Display a budget <../../Les_différentes_actions/visualiser_un_objet>`
+* :doc:`Modify a budget <../../Les_différentes_actions/modifier_un_objet>`
+* :doc:`Delete a budget <../../Les_différentes_actions/supprimer_un_objet>`
+* :doc:`Attach a document to a budget <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+* :doc:`Transfer a budget <../../Les_différentes_actions/transferer_un_objet>`
