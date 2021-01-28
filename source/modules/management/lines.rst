@@ -19,7 +19,7 @@ Les différents onglets
 
 .. include:: ../tabs/management.rst
 
-.. include:: ../tabs/contract.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/documents.rst
 

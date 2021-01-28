@@ -29,7 +29,7 @@ Description of specific fields
 * **Purchase version**: the purchase version, which can differ from `Version in use`; if different, this field indicates it;
 * **Number**: the maximum number of uses of the license by assets;
 * **Allow Over-Quota**: allow or not the overflow of maximum number configured in field `Number`;
-* **Expiration**: expiration date of the license, useful to configure alerts and anticipate renewal.
+* **Expiration date**: expiration date of the license, useful to configure alerts and anticipate renewal.
 
 The different tabs
 ------------------
@@ -75,7 +75,7 @@ This tab details each item linked to the license.
 
 .. include:: ../tabs/management.rst
 
-.. include:: ../tabs/contract.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/documents.rst
 

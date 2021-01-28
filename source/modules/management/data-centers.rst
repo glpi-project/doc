@@ -80,7 +80,7 @@ Cet onglet permet de consulter et de construire le schéma d'impact du point de 
 
 .. include:: ../tabs/management.rst
 
-.. include:: ../tabs/contract.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/documents.rst
 

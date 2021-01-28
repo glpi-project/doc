@@ -49,7 +49,7 @@ Les interfaces possibles:
         :alt: Liste et ajout des interfaces réseau du cluster
         :align: center
 
-.. include:: ../tabs/contract.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/documents.rst
 
