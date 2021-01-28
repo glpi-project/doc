@@ -1,42 +1,39 @@
-Gérer les certificats
-=====================
+Certificates
+============
 
-Au sein de GLPI, il est possible de matérialiser les certificats.
+Certificates management in GLPI allows to:
 
-Cette gestion a pour objectif de fournir:
-
-* un inventaire de tous les certificats de l'organisation;
-
-* un suivi des installations de chaque certificat sur les éléments du parc;
-
-* inclure les certificats dans la gestion financière de GLPI;
-
-* anticiper et suivre le renouvellement des certificats.
+* Create an inventory of all organization certificates;
+* Follow installation of certificates on assets;
+* Include certificates in GLPI financial management;
+* Anticipate and follow certificates renewal.
 
 .. image:: images/certificates.png
+   :alt: Main fields of a certificate
+   :align: center
 
 .. include:: ../tabs/templates.rst
 
-Description des champs spécifiques
-----------------------------------
+Description of specific fields
+------------------------------
 
-* **Fabricant (CA de l'autorité racine)**: Cette liste déroulante permet de sélectionner et ajouter le fabricant du certificat;
-* **Auto-signé**:  Permet d'indiquer si,oui ou non, le certificat actuel est auto-signé;
-* **Nom DNS**: Ici est à saisir le préfixe du nom protégé par le certificat. Exemple: server.mycompany.com -> server;
-* **Suffixe DNS**: Ici est à saisir le suffixe DNS du nom protégé par le certificat. Exemple: server.mycompany.com -> mycompany.com
-* **Date d'expiration**: Permet de définir la fin de validité du certificat. Champ utile pour les alertes GLPI.
-* **Commande utilisée**: Ici peut être copier la commande système (CLI) qui a généré le certificat.
-* **Requête pour le certificat (CSR)**: Ici peut être copier la commande système (CLI) qui a généré le fichier CSR.
-* **Certificat**: Peut être saisi ici, les données contenues dans le fichier CRT (PEM).
+* **Manufacturer (Root CA)**: This drop-down list allow to select certificate manufacturer;
+* **Self-signed**: Tells whether certificate is self-signed;
+* **DNS name**: The prefix of the domain name associated with the certificate (for example, if domain name is `server.mycompany.com`, DNS name is `server`);
+* **DNS suffix**: The suffix of the domain name associated with the certificate (for example, if domain name is `server.mycompany.com`, DNS suffix is `mycompany.com`);
+* **Expiration date**: Expiration date of the certificate, useful to configure alerts and anticipate renewal;
+* **Command used**: Can store the system command that generated the certificate;
+* **Certificate Request (CSR)**: Can store the system command that generated the CSR file;
+* **Certificate**: Can store the data contained in the CRT file (PEM).
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
 .. include:: ../tabs/elements.rst
 
 .. include:: ../tabs/management.rst
 
-.. include:: ../tabs/contract.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/documents.rst
 
@@ -56,11 +53,13 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
-*   :doc:`Ajouter un certificat <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser un certificat <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modifier un certificat <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un certificat <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un certificat <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un certificat <../../Les_différentes_actions/transferer_un_objet>`
+
+The different actions
+---------------------
+
+*   :doc:`Add a certificate <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Display a certificate <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modify a certificate <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Delete a certificate <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Attach a document to a certificate <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transfer a certificate <../../Les_différentes_actions/transferer_un_objet>`
