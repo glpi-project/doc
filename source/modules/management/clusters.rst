@@ -1,53 +1,58 @@
-Gérer les clusters
-==================
+Clusters
+========
 
-Un Cluster GLPI est un regroupement de plusieurs éléments du parc. Peut rejoindre un cluster, les ordinateurs et les matériels réseau.
+A GLPI cluster is a grouping of several assets, which can be computers or network equipments.
 
 .. note::
 
-        Les clusters renseignés dans GLPI sont pris en compte dans l'analyse d'impact !
-        TODO : link vers la présentation de l'analyse d'impact
+   GLPI clusters are taken into account when performing an impact analysis.
+
+.. todo::
+   link to impact analysis representation
 
 .. image:: images/clusters.png
-
-Description des champs spécifiques
-----------------------------------
-
-* **UUID**: Identifiant unique du cluster
-* **Version**: Dans le cas d'un cluster logiciel ou autre, la version peut être indiquée
-* **Source de mise à jour**: Ce champ représente la manière dont la fiche de l'objet dans GLPI a été mise à jour
+   :alt: A GLPI cluster
+   :align: center
 
 
-Les différents onglets
-----------------------
+Description of specific fields
+------------------------------
 
-Eléments
+* **UUID**: Unique identifier of the cluster
+* **Version**: In the case of a software cluster, the version number can be entered
+* **Update Source**: How the cluster's data were updated
+
+
+The different tabs
+------------------
+
+Elements
 ~~~~~~~~
 
-Cet onglet liste et pemret l'ajout d'un ou plusieurs éléments du parc au sein du cluster.
+This tab lists the cluster's elements and allow to add new assets to the cluster.
 
 .. image:: images/elements-clusters.png
-        :alt: Liste et ajout des membres du cluster
-        :align: center
+   :alt: List of cluster's elements
+   :align: center
 
-Ports réseau
-~~~~~~~~~~~~
+Network ports
+~~~~~~~~~~~~~
 
-Cet onglet permet de créer et de lister des interfaces réseau propres au cluster. 
+This tab list cluster's network interfaces and allows to create new ones.
 
-Les interfaces possibles:
+Possible interfaces are:
 
-* Port Ethernet
-* Ports Wifi
-* Agrégation de port
-* Alias de port
-* Connexion par ligne commutée - Dialup
-* Boucle locale
-* Port Fibre Channel
+* Ethernet port
+* WiFi port
+* FiberChannel port
+* Port aggregate
+* Port alias
+* Dial up line connection
+* Local loop-back
 
 .. image:: images/networks-clusters.png
-        :alt: Liste et ajout des interfaces réseau du cluster
-        :align: center
+   :alt: List of cluster's network interfaces
+   :align: center
 
 .. include:: ../tabs/contracts.rst
 
@@ -63,11 +68,13 @@ Les interfaces possibles:
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
-*   :doc:`Ajouter un cluster <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser un cluster <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modifier un cluster <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un cluster <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un cluster <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un cluster <../../Les_différentes_actions/transferer_un_objet>`
+
+The different actions
+---------------------
+
+*   :doc:`Add a cluster <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Display a cluster <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modify a cluster <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Delete a cluster <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Attach a document to a cluster <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transfer a cluster <../../Les_différentes_actions/transferer_un_objet>`
