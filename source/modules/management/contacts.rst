@@ -37,5 +37,5 @@ The different actions
 * :doc:`Modify a contact <../../Les_différentes_actions/modifier_un_objet>`
 * :doc:`Delete a contact <../../Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Attach a document to a contact <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-* :doc:`Attach a provider to a contact <../../Les_différentes_actions/associer_un_fournisseur_et_un_contact>`
+* :doc:`Attach a supplier to a contact <../../Les_différentes_actions/associer_un_fournisseur_et_un_contact>`
 * :doc:`Transfer a contact <../../Les_différentes_actions/transferer_un_objet>`
