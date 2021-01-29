@@ -1,54 +1,63 @@
-Gérer les contrats
-==================
+Contracts
+=========
 
-Glpi intègre la gestion des contrats. Cette fonctionnalité permet de couvrir tout type de contrat réalisé tel que les prêts, contrats de maintenance, contrat de support, etc.
-Cette gestion a pour objectif:
+GLPI supports contracts management, in order to manage contract types such as loan, maintenance, support...
 
-* de fournir un inventaire de tous les contrats relatifs au parc informatique de l'organisation;
-* d'intégrer les contrats dans la gestion financière de GLPI;
-* d'anticiper et suivre le renouvellement des contrats.
+Contracts management allows to:
+
+* make an inventory of all contracts related to the organization assets
+* integrate contracts in GLPI financial management
+* anticipate and follow contract renewal.
 
 .. image:: images/contract.png
+   :alt: Main fields of a contract
+   :align: center
 
 .. include:: ../tabs/templates.rst
 
 .. note::
 
-	Il est possible de recevoir des notifications pour prévenir d'événements tels que la fin du contrat.
-	Dans le cas ou la reconduction du contrat serait expresse, il peut être intéressant d'être alerté à la date du préavis. Pour les contrats périodiques il est également possible d'être alerté à la fin de chaque période ou préavis de période.
-	Ceci est configurable par entité dans le menu **Configuration > Notifications** pour définir les modèles et destinataires utilisés et dans le menu **Configuration > Entité** pour activer ou non cette fonctionnalité, définir les valeurs par défaut et une anticipation de l'envoi de la notification si besoin.
+   It is possible to receive notifications in order to be informed of events such as contract end.
+   When contract must be renewed expressly, it is useful to be notified before end of contract. For periodic contracts, it is also possible to be notified at the end of each period.
+   Notifications are configured at entity level, in menu **Configuration > Notifications**to define models and destination and in menu **Configuration > Entity** to enable notification, define default values and a possible anticipation of notification.
 
-Description des champs spécifiques
-----------------------------------
-*   **Type de contrat** : par défaut, aucun type de contrat n'est renseigné. Il faut au préalable les renseigner dans la configuration des intitulés. 
-*   **Numéro**: cette information n'est pertinente que si le numéro de contrat est identique à celui utilisé au sein des autres services de la société ;
-*   **Date de début** : à ne pas confondre avec la date d'enregistrement du contrat dans GLPI. Tous les calculs de périodicité sur le contrat sont donc fonction de cette date ;
-*   **Durée initiale du contrat** : si ce champ et la date de début sont renseignés, la date de fin de contrat apparaitra (en rouge si la date a expirée) ;
-*   **Préavis** : ce champ peut servir au déclenchement des notifications d'alerte ;
-*   **Numéro comptable** : pour permettre un rapprochement avec le logiciel comptable de la société ;
-*   **Périodicité du contrat** : c'est la durée à laquelle la reconduction du contrat est possible (*Exemple : Un contrat d'abonnement téléphonique d'une durée de 24 mois renouvelable au bout de 12 mois*) ;
-*   **Périodicité de facturation** : C'est la durée entre chaque facture.
-*   **Type de reconduction** : *Tacite* (le contrat est reconductible automatiquement d'une période à une autre si aucune des parties ne manifeste sa volonté de le rompre) ou *Expresse* (nécessite l'accord des deux parties pour la reconduction du contrat) ;
-*   **Nombre max d'éléments** : la valeur choisie dans ce champ bloquera ou non l'ajout de nouvel éléments attachés à ce contrat ;
-*   **Heures d'intervention** : Les plages horaires d'intervention correspondent aux horaires d'intervention couvert par le contrat. Il est possible d'y distinguer les samedis et les jours chômés.
 
-Les différents onglets
-----------------------
+Description of specific fields
+------------------------------
 
-Coûts
+* **Contract type**: by default, no contract type is defined, contract types must be configured in drop-down configuration;
+* **Number**: contract number;
+* **Start date**: date at which contract starts, all periodicity based events are computed using this date;
+* **Initial contract period**: if this field and start date are given, contract end date will appear, colored in red if contract has expired;
+* **Notice**: used to trigger alert notifications;
+* **Account number**: used to connect with company accounting software;
+* **Contract renewal period**: duration after which contract renewal is available;
+* **Invoice period**: duration between invoices;
+* **Renewal**: *Tacit* (the contract is automatically renewed if no party has ended it) or *Express* (needs agreement for renewal);
+* **Max number of items**: attaching new items to this contract will be blocked when overflowing this number;
+* **Support hours**: support hours as defined in the contract, it is possible to distinguish week days, Saturdays and Sundays/holidays.
+
+
+The different tabs
+------------------
+
+Costs
 ~~~~~
 
-Cet onglet permet de définir un coût relatif au contrat sur un budget présent dans GLPI- c'est-à-dire imputer une valeur sur le montant total du budget sélectionné qui sera attribué au type d'objet Contrat.
+This tab allows to define a cost related to the contract and linked to a GLPI budget: the cost of the contract will be imputed to this budget.
 
 .. image:: images/cost-contract.png
+   :alt: A cost associated to a contract
+   :align: center
 
+Suppliers
+~~~~~~~~~
 
-Fournisseurs
-~~~~~~~~~~~~
-
-Dans cet onglet, il est possible d'associer un ou plusieurs fournisseurs au contrat actuel.
+This tab allows to associate one or several suppliers to the contract.
 
 .. image:: images/suppliers-contract.png
+   :alt: Suppliers associated to a contract
+   :align: center
 
 .. include:: ../tabs/elements.rst
 
@@ -64,11 +73,13 @@ Dans cet onglet, il est possible d'associer un ou plusieurs fournisseurs au cont
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
-*   :doc:`Ajouter un contrat <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser un contrat <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modifier un contrat <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un contrat <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un contrat <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un contrat <../../Les_différentes_actions/transferer_un_objet>`
+
+The different actions
+---------------------
+
+*   :doc:`Add a contract <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Display a contract <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modify a contract <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Delete a contract <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Attach a document to a contract <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transfer a contract <../../Les_différentes_actions/transferer_un_objet>`
