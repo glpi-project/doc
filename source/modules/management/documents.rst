@@ -1,33 +1,39 @@
-Gérer les documents
-===================
+Documents
+=========
 
-Cette section permet d'enregistrer des documents électroniques ou liens web classables selon diverses rubriques.
+Documents management in GLPI allow to store digital documents or web links sorted under different headings.
 
-Un document possède un **nom** ainsi qu'un **commentaire** et peut être associé à une **rubrique**.
+A document is described by a **name** and an **comment** and can be associated to a **heading**.
 
-Le fichier physique correspondant au document peut être ajouté dans GLPI de plusieurs manières :
 
-*   En parcourant le disque dur local ;
-*   En renseignant un lien web pointant vers un document (*une image, une page web, un PDF...*) ;
-*   En précisant un fichier préalablement chargé par FTP (*dans le dossier /mon_glpi/files/_uploads/*)
-*   Enfin un type MIME peut aussi être indiqué. 
+The file corresponding to the document can be added in several ways:
+
+* From local disk;
+* Using a web link pointing to a document (image, HTML page, PDF...);
+* Using a file previously transferred with FTP to sub-folder */files/_uploads/* of GLPI installation
+
+A MIME type can also be given.
 
 .. note::
-	* Les types de documents autorisés dans GLPI (selon leur extension) sont définis dans **Configuration** > **Intitulés** > **Gestion** > **Type de document**.
-	* Les rubriques de documents peuvent être hiérarchiques.
-	* L'option **Interdire à l'importation** permet d'exclure ce document à l'importation via les collecteurs (images de signatures, logos...).
+   * Document types authorized in GLPI according to their extension are defined in **Configuration** > **Drop-downs** > **Management** > **Document types**
+   * Document headings can be hierarchical
+   * The option **Blacklisted for import** allows to exclude this document from import by collectors; it is useful for signature images, logos...
 
 .. image:: images/documents.png
+   :alt: A GLPI document
+   :align: center
 
-Les différents onglets
-----------------------
+
+The different tabs
+------------------
 
 .. include:: ../tabs/elements.rst
+
 
 Documents
 ~~~~~~~~~
 
-Il est possible d'associer d'autres documents à un document de GLPI, c'est pourquoi cet objet bénéficie d'un onglet du même type.
+It is possible in GLPI to attach other documents to a document, which explains why a `Document` has a `Document` tab.
 
 .. include:: ../tabs/notes.rst
 
@@ -36,12 +42,12 @@ Il est possible d'associer d'autres documents à un document de GLPI, c'est pour
 .. include:: ../tabs/all.rst
 
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
-*   :doc:`Ajouter un document <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser un document <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modifier un document <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un document <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un document <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un document <../../Les_différentes_actions/transferer_un_objet>`
+*   :doc:`Add a document <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*   :doc:`Display a document <../../Les_différentes_actions/visualiser_un_objet>`
+*   :doc:`Modify a document <../../Les_différentes_actions/modifier_un_objet>`
+*   :doc:`Delete a document <../../Les_différentes_actions/supprimer_un_objet>`
+*   :doc:`Attach a document to a document <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*   :doc:`Transfer a document <../../Les_différentes_actions/transferer_un_objet>`
