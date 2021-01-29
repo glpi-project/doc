@@ -1,12 +1,12 @@
 Licenses
 ========
 
-Licenses management in GLPI deals with software licenses, allowing:
+Licenses management in GLPI allows to manage software licenses:
 
-* to make an inventory of licenses, with links to softwares inventoried in GLPI;
-* to follow license installations on all assets;
-* to link licenses to financial management;
-* to anticipate and follow licenses renewal.
+* Inventorying licenses, with links to softwares inventoried in GLPI;
+* Following license installations on all assets;
+* Linking licenses to financial management;
+* Anticipating and following licenses renewal.
 
 .. note:: 
         

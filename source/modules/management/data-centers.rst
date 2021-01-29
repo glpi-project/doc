@@ -1,7 +1,7 @@
 Data centers
 ============
 
-Data centers management in GLPI, more precisely management of servers room and racks, allows to:
+Data centers management in GLPI, more precisely management of servers rooms and racks, allows to:
 
 * Create an inventory of data centers, rooms and racks of the organization;
 * Include data centers in GLPI financial management;

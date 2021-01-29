@@ -5,7 +5,7 @@ GLPI supports suppliers management, in order to identity the supplier of an asse
 
 When buying an equipment of make X from supplier Y, two distinct information must be managed in GLPI: the vendor (X) and the supplier (Y).
 
-A supplier is characterized by a name, a tier type, a location (address, zip code, town, country) and a contact (web site, phone, fax...).
+A supplier is characterized by a name, a third party type, a location (address, postal code, town, country) and a contact (web site, phone, fax...).
 
 Supplier management allows to:
 

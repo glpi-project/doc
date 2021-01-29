@@ -1,7 +1,7 @@
 Documents
 =========
 
-Documents management in GLPI allow to store digital documents or web links sorted under different headings.
+Documents management in GLPI allows to store digital documents or web links sorted under different headings.
 
 A document is described by a **name** and an **comment** and can be associated to a **heading**.
 

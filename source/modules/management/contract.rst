@@ -19,7 +19,7 @@ Contracts management allows to:
 
    It is possible to receive notifications in order to be informed of events such as contract end.
    When contract must be renewed expressly, it is useful to be notified before end of contract. For periodic contracts, it is also possible to be notified at the end of each period.
-   Notifications are configured at entity level, in menu **Configuration > Notifications**to define models and destination and in menu **Configuration > Entity** to enable notification, define default values and a possible anticipation of notification.
+   Notifications are configured at entity level, in menu **Configuration > Notifications** to define models and destination and in menu **Configuration > Entity** to enable notification, define default values and a possible anticipation of notification.
 
 
 Description of specific fields
