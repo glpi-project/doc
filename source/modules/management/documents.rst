@@ -15,7 +15,7 @@ The file corresponding to the document can be added in several ways:
 A MIME type can also be given.
 
 .. note::
-   * Document types authorized in GLPI according to their extension are defined in **Configuration** > **Drop-downs** > **Management** > **Document types**
+   * Document types authorized in GLPI according to their extension are defined in **Setup** > **Dropdowns** > **Management** > **Document types**
    * Document headings can be hierarchical
    * The option **Blacklisted for import** allows to exclude this document from import by collectors; it is useful for signature images, logos...
 
