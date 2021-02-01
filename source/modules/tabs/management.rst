@@ -36,7 +36,7 @@ Lifecycle
 Financial and administrative information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Supplier: Third party who sold the equipment. See :doc:`Managing suppliers </modules/gestion/suppliers>`. Suppliers are managed from the menu **Management > Suppliers**.
+* Supplier: Third party who sold the equipment. See :doc:`Managing suppliers </modules/management/suppliers>`. Suppliers are managed from the menu **Management > Suppliers**.
 * Order number : number of the order of the equipment.
 * Asset number.
 * Invoice number: equipment invoice number.
@@ -48,7 +48,7 @@ Financial and administrative information
 * Depreciation period: depreciation period expressed in years.
 * Depreciation coefficient: coefficient applied to a straight-line depreciation type in order to obtain the values of the declining balance type. It is therefore only used if the type of depreciation is declining balance.
 * TCO (value+amount of interventions): the total cost of ownership which includes all the constituent elements of an invoiced product.
-* Budget: the budget on which this equipment was purchased See :doc:`Managing the budget <../gestion/budgets>`.
+* Budget: the budget on which this equipment was purchased See :doc:`Managing the budget <../management/budgets>`.
 * Order date: date on which the material was ordered.
 * Purchase date: date on which the equipment was purchased.
 * Delivery date: date on which the equipment was delivered.

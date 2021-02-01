@@ -1,7 +1,7 @@
-Module Gestion
-==============
+Management module
+=================
 
-Le module Gestion permet aux utilisateurs de gérer les éléments suivants :
+The GLPI Management module is used to manage the following items:
 
 .. toctree::
    :maxdepth: 1
