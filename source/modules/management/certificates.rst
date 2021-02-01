@@ -17,7 +17,7 @@ Certificates management in GLPI allows to:
 Description of specific fields
 ------------------------------
 
-* **Manufacturer (Root CA)**: This drop-down list allow to select certificate manufacturer;
+* **Manufacturer (Root CA)**: This drop-down list allows you to select the certificate manufacturer;
 * **Self-signed**: Tells whether certificate is self-signed;
 * **DNS name**: The prefix of the domain name associated with the certificate (for example, if domain name is `server.mycompany.com`, DNS name is `server`);
 * **DNS suffix**: The suffix of the domain name associated with the certificate (for example, if domain name is `server.mycompany.com`, DNS suffix is `mycompany.com`);
