@@ -51,7 +51,7 @@ Une note publique est visible pour les utilisateurs associés à un profil ayant
        :alt: Cibles d'une note de GLPI
        :align: center
 
-.. include:: ../tabs/hitorical.rst
+.. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
 
@@ -61,7 +61,7 @@ Les différentes actions
 * :doc:`Ajouter une note <../../Les_différentes_actions/creer_un_nouvel_objet>`
 * :doc:`Visualiser une note <../../Les_différentes_actions/visualiser_un_objet>`
 * :doc:`Modifier une note <../../Les_différentes_actions/modifier_un_objet>`
-* :doc:`Supprimer une note <../../Les_différentes_actions/Supprimer_un_objet>`
+* :doc:`Supprimer une note <../../Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Associer un document à une note <../../Les_différentes_actions/associer_un_document_a_un_objet>`
 * Rendre une note publique : Ajouter une cible à la note.
 * Publier une note pendant une période donnée : Ajouter une date de début et une date de fin au niveau de la visibilité.

@@ -1,14 +1,14 @@
-Module Outils
+Module Tools
 =============
 
-Le module Outils permet aux utilisateurs de gérer les projets, les notes, les flux RSS, la base de connaissance, les réservations ainsi que de générer des rapports.
+Tools module allows to manage projects, reminders, RSS feeds, knowledge base, reservations and to generate reports.
 
 .. toctree::
    :maxdepth: 1
 
-   projets
-   notes
-   rapports
+   projects
+   reminders
+   reports
    reservations
-   fluxrss
-   base_de_connaissances
+   rssfeed
+   knowledgebase

@@ -69,8 +69,9 @@ GANTT
 Un diagramme de GANTT est proposé pour chaque projet. Un diagramme de GANTT global est également proposé incluant les projets définis comme visible dans ce diagramme.
 
 .. image:: images/gantt-project.png
-        :alt: Diagramme de Gantt dans GLPI
-        :align: center
+   :alt: Diagramme de Gantt dans GLPI
+   :align: center
+
 Kanban
 ~~~~~~
 
@@ -98,7 +99,7 @@ Il est possible de créer ces objets depuis cet onglet également.
 
 .. include:: ../tabs/documents.rst
 
-.. include:: ../tabs/contrats.rst
+.. include:: ../tabs/contracts.rst
 
 .. include:: ../tabs/notes.rst
 
