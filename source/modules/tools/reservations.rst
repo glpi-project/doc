@@ -1,48 +1,49 @@
-Gérer les réservations
-======================
+Manage reservations
+===================
 
-GLPI met à disposition un outils de réservation de matériel, outil qui permet de sélectionner un ou plusieurs éléments du parc afin de les réserver sur une plage horaire. Pour des réservations répétitives, il est possible de mettre en place de la récurrence sur la réservation.
+GLPI includes an equipment reservation tool that allows to select assets in order to reserve them for a time slot. For repetitive reservations, it is possible to declare a reservation as recurrent.
 
 .. image:: images/details-booking.png
-        :alt: Caractérisation d'une réservation
-        :align: center
+   :alt: Characteristics of a reservation
+   :align: center
 
 .. note::
 
-      Un matériel n'est pas réservable par défaut !
-      Pour rendre un matériel réservable, il faut se rendre dans l'onglet Réservation de la fiche du matériel.
+   By default, an equipment is not reservable!
 
-Un matériel réservé apparaîtra dans un planning global des réservations.
+   Making an equipment reservable is done from the `Reservation` tab of the equipment's form.
+
+A reserved equipment will be displayed in global reservation planning.
 
 .. image:: images/planning-booking.png
-        :alt: Planning global de réservation
-        :align: center
+   :alt: Global reservation planning
+   :align: center
 
-
-Il est également possible de consulter le planning spécifique d'un matériel réservable. La réservation peut être créée depuis ce planning également.
+It is also possible to consult the specific planning of a reservable equipment. A reservation can also be created from this planning.
 
 .. image:: images/planningspe-booking.png
-        :alt: Planning spécifique de réservation
-        :align: center
+   :alt: Specific reservation planning
+   :align: center
 
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
-Réservations
+Reservations
 ~~~~~~~~~~~~
 
-Onglet principal de l'outil. Il permet de consulter et de sélectionner les matériels réservables disponibles.
+This main tab of the tool allows to display and select available reservable equipments.
 
 Administration
 ~~~~~~~~~~~~~~
 
-Cet onglet liste tous les objets réservables et non plus ceux disponibles. Comme pour les principaux objet de GLPI, il propose un moteur de recherche avec la possibilité d'effectuer des actions de masse.
+This tab display all reservable items and not only the available ones. As for main GLPI items, it offers a search engine with mass actions.
 
-Les différentes actions
------------------------
 
-*   :doc:`Ajouter une réservation <../../Les_différentes_actions/reserver_un_materiel>`
-*   :doc:`Visualiser/Modifier les réservations <../../Les_différentes_actions/visualiser_modifier_les_reservations>`
-*   :doc:`Supprimer une réservation <../../Les_différentes_actions/supprimer_une_reservation>`
-*   :doc:`Rendre un matériel indisponible <../../Les_différentes_actions/rendre_un_materiel_indisponible>`
+The different actions
+---------------------
+
+* :doc:`Add a reservation <../../Les_différentes_actions/reserver_un_materiel>`
+* :doc:`Display/modify reservations <../../Les_différentes_actions/visualiser_modifier_les_reservations>`
+* :doc:`Delete a reservation <../../Les_différentes_actions/supprimer_une_reservation>`
+* :doc:`Make an equipment unavailable <../../Les_différentes_actions/rendre_un_materiel_indisponible>`
