@@ -1,54 +1,50 @@
-Gérer les rapports
-==================
+Generate reports
+================
 
-GLPI permet la génération d'un certain nombre de rapports en lien avec les objets présents sur la plateforme :
+GLPI allows to generate reports based on managed items:
 
-* **Rapport par défaut**
-   Ce rapport comptabilise les matériels
-   présents dans le parc triés par type. Pour les ordinateurs, un tri
-   est également effectué par système d'exploitation.
+* **Default report**
 
-* **Par contrat**
-   Matériel sous contrat de maintenance auprès d'un
-   tiers. Il est possible d'obtenir un état détaillé par type de
-   matériel et par date d'achat. La sélection multiple est autorisée.
-   Pour ajouter un type, il suffit de cliquer dans la zone blanche et de
-   choisir le nouveau type. Le principe est le même pour ajouter une
-   date. Le tableau liste, par type d'objet, le nom, s'il est dans la
-   corbeille ou non, son entité, son lieu, les date d'achat et
-   d'expiration de garantie, le type de contrat ainsi que les dates de
-   début et de fin de contrat.
+  This report summarizes present equipments sorted by type. Computers are also sorted by operating systems. 
 
-* **Par année** 
-   Rapport sous le même principe que le rapport
-   précédent mais listant également les matériel sans contrat.
+* **By contract**
 
-* **Informations financières et administratives du matériel**
-   Récapitulatif des informations financières pour les ordinateurs, les
-   imprimantes, les matériels réseaux, les moniteurs, les périphériques
-   et les téléphones. Il est possible d'obtenir un état pour une période
-   donnée. Le tableau liste, par type d'objet, son nom, son entité, sa
-   valeur, sa valeur nette comptable, son TCO, ses dates d'achat, de
-   mise en service et d'expiration de garantie. Un récapitulatif
-   comprenant le total de la valeur et de la valeur nette comptable est
-   poposé par type d'objet et pour la totalité des objets.
+  This report shows the equipments that are under a maintenance contract with a third-party and can be detailed by equipment type and purchase date.
 
-* **Autres Informations Financières et administratives**
-   Rapport sous le même principe que le rapport précédent mais mais pour les
-   cartouches, les licences et les consommables.
+  Multiple selection is available.
 
-* **Rapport réseau**
-   3 rapports peuvent être réalisés : selon le
-   lieu, selon le type de matériel réseau ou selon la prise réseau.
+  To add a type, it is possible to click in empty area and choose new type. Same applies to add a date.
+
+  Generated table lists, sorted by item type, name, if it is in trash bin, entity, location, purchase and warranty expire date, contract type and contract begin and end dates.
+
+* **By year** 
+
+  Same as report by contract, but lists also the equipments without contract.
+
+* **Hardware financial and administrative information**
+
+  This report shows the summary of financial information for computers, printers, network equipments, displays, peripherals and phones.
+
+  It is possible to obtain a report for a given period.
+
+  The generated table lists, sorted by item type, name, entity, value, net accounting value, TCO, purchase date, starting date, warranty expire date. A summary displaying total value and net accounting
+ value is available, both by item type and for all items.
+
+* **Other financial and administrative information**
+
+  Same as `Hardware financial and administrative information`, but for cartridges, licenses and consumables.
+
+* **Network report**
+
+  Three types of reports can be generated: by location, by hardware or by network plug. 
    
-* **Prêt**
-   Récapitulatif des réservations en cours, à venir ou
-   passées pour un utilisateur donné.
+* **Loan**
 
-* **Rapport sur les statuts**
-   Synthèse par type de matériel des
-   différents statuts.
+  This report shows a summary of current, future and past reservations for a given user.
+
+* **Status**
+
+  This report shows a summary of different status, sorted by equipment types.
 
 .. note::
-
-      Le nombre de rapport peut être étoffer en ajoutant un plugin disponible ici : https://plugins.glpi-project.org/#/plugin/reports
+   The range of possible reports can be increased by adding to GLPI the following plugin: https://plugins.glpi-project.org/#/plugin/reports
