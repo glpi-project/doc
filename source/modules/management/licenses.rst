@@ -12,7 +12,7 @@ Licenses management in GLPI allows to manage software licenses:
         
    A license cannot exists in GLPI without a software associated to the license when creating it.
 
-   License management is not automated, a human following is needed for informations update.
+   License management is not automated, a human follow-up is needed for information update.
 
 
 .. image:: images/licenses.png
