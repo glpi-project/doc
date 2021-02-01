@@ -1,45 +1,41 @@
-Gérer les flux RSS
-==================
+Manage RSS feeds
+================
 
-GLPI permet d'inclure des flux RSS dans la page d'accueil de l'outil.
+GLPI allows to include RSS feeds in tool home page.
 
-Un flux RSS est considéré comme personnel par défaut. Il est, par
-conséquent, uniquement visible par son rédacteur.
+A RSS feed is by default personal and therefore only visible by its creator.
 
-Pour qu'un flux RSS devienne visible par d'autres utilisateurs (flux RSS
-public), il est nécessaire de sélectionner une ou plusieurs cibles. La
-ou les cibles correspondent aux entités, aux profils, groupes ou
-utilisateurs de la plateforme.
+For a RSS feed to become public and visible by other users, targets must be added to it, a target being either an entity, a group, a profile or a user.
 
 .. note::
-
-	Un flux RSS public est visible pour les utilisateurs associés à un profil
-	ayant le droit de lire les flux RSS publics.
+   A public RSS feed is visible by users associated with a profile if this profile has read permission for public RSS feeds.
 
 .. image:: images/details-fluxrss.png
-		:alt: Caractérisation d'une flux rss
-		:align: center
+   :alt: Characteristics of a RSS feed
+   :align: center
 
-Les différents onglets
-----------------------
 
-Contenu
+The different tabs
+------------------
+
+Content
 ~~~~~~~
 
-Dans cet onglet il est possible de consulter le nombre d'éléments affichés. C'est ce contenu qui est reporté en page d'accueil.
+This tab allows to consul the number of displayed items; this content is the one displayed on home page.
 
-Cibles
-~~~~~~
+Targets
+~~~~~~~
 
-Dans cet onglet, il est possible de consulter et modifier la liste des cibles pour le flux RSS concerné.
+This tab allows to display and modify the list of targets of the RSS feed.
 
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
 
-*   :doc:`Ajouter un flux RSS <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser/Modifier un flux RSS <../../Les_différentes_actions/visualiser_modifier_un_flux_rss>`
-*   :doc:`Supprimer un flux RSS <../../Les_différentes_actions/supprimer_un_objet>`
+The different actions
+---------------------
+
+* :doc:`Add a RSS feed <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Display/Modify a RSS feed <../../Les_différentes_actions/visualiser_modifier_un_flux_rss>`
+* :doc:`Delete a RSS feed <../../Les_différentes_actions/supprimer_un_objet>`

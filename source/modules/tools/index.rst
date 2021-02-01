@@ -1,5 +1,5 @@
-Module Tools
-=============
+Tools module
+============
 
 Tools module allows to manage projects, reminders, RSS feeds, knowledge base, reservations and to generate reports.
 
