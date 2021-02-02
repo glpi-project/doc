@@ -1,118 +1,108 @@
-Gérer la base de connaissances
-==============================
+Manage knowledge base
+=====================
 
-La base de connaissances de GLPI répond à deux objectifs principaux :
+GLPI knowledge base has two main targets:
 
-* Centraliser des connaissances internes pour les différents techniciens ;
-* Mettre à la disposition des utilisateurs, des informations leur permettant de résoudre seuls des problèmes simples sous forme de FAQ publique.
-
-.. note::
-  Seuls les éléments de la FAQ publique sont visibles par les utilisateurs de l'interface simplifiée. Les éléments qui ne sont pas définis comme faisant partie de la FAQ publique sont visibles uniquement au sein de la console centrale par des techniciens par exemple.
-
-Il est nécessaire de sélectionner pour chaque article de la base de connaissances ou de la FAQ une ou plusieurs cibles. La ou les cibles correspondent aux entités, profils, groupes ou utilisateurs qui pourront consulter l'article. Tant qu'aucune cible n'a été sélectionnée pour un article, ce dernier est visible uniquement par son rédacteur. L'article est considéré comme "non publié" et apparaît dans le tableau "Articles non publiés" de la page d'accueil de la base de connaissances.
-
-Par défaut, les articles ne peuvent pas être traduits dans plusieurs langues. Cette fonctionnalité est activable (voir `la configuration générale <08_Module_Configuration/06_Générale/02_Configuration_Générale.rst>`__).
-
-Il est possible d'associer un ou plusieurs documents aux articles de la base de connaissances.
+* Gather internal knowledge for technicians;
+* Provide information as a public FAQ to enable users to solve simple problems on their own.
 
 .. note::
-  Un article peut être rendu visible pendant une période
-  donnée via la définition de la date de début et la date de fin de
-  visibilité.
+   Only public FAQ items are visible to users of simplified interface. Other elements are visible only to technicians via standard interface.
+
+Each article of the knowledge base or of the FAQ must have one or several targets, a target being either an entity, a group, a profile or a user, to be readable. As long as an article has no target, it is visible only by its writer, is flagged as `unpublished` and appears in table `Unpublished articles` on the home page of the knowledge base.
+
+By default, articles are not translatable. However, this functionality can be activated, see :doc:`general configuration </modules/configuration/06_Générale/02_Configuration_Générale>`.
+
+It is possible to attach documents to articles of the knowledge base.
+
+.. note::
+   An article can be made visible during a time slot by defining a start date and an end date.
 
 .. warning::
-    Les éléments qui ne doivent pas être interprétés à
-    l'affichage peuvent être définis avec le style Préformaté (``<pre>``
-    en HTML). Des balises comme ``<VirtualHost>`` sont donc insérable et
-    affichable. Par contre des balises au format HTML (``<BALISE>``)
-    peuvent disparaître au moment de l'édition ; pour avoir une
-    visibilité complète du texte vous pouvez passer en mode HTML où tous
-    les éléments seront visibles. Votre navigateur peut également
-    modifier dynamiquement le contenu (changement de casse, ajout de
-    balises) lors d'une édition.
+   Elements which should not be interpreted when displayed can be defined with preformated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` can therefore be inserted and will be displayed. Other HTML tags (``<TAG>...</TAG>`` may disappear when editing; to have complete visibility of the text, it is possible to switch to HTML mode where all elements will be visible. The browser may also modify dynamically content (case change, tags adding) when editing.
+   
+It is possible to create categories and sub-categories in order to organize browsing (see :doc:`Configure drop-downs </modules/configuration/intitules/index>`). User can then use several tabs to search and browse knowledge base:
 
-Il est possible de créer des catégories et sous-catégories afin d'organiser la navigation (voir `Configurer les intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés.rst>`__). 
+* **Search** 
+  This tab is the default tab, displaying recent articles, popular articles and last changes. It allows also to search inside knowledge base.
 
-L'utilisateur peut alors utiliser plusieurs onglets pour recherche et naviguer au sein de la base de connaissances :
+  .. image:: images/research-knowledgebase.png
+     :alt: Knowledge base search tab
+     :align: center
 
-* **Rechercher** 
-    C'est l'onglet par défaut. Il présente les articles les plus récents, les plus populaires et les dernières modifications.
-    Il permet également de rechercher au sein de la base de connaissances.
+* **Browse** 
+  This tab allows to browse tree structure of categories.
 
-.. image:: images/research-knowledgebase.png
-        :alt: Onglet Recherche de la base de connaissances
-        :align: center
+  .. image:: images/browse-knowledgebase.png
+     :alt: Knowledge base browse tab
+     :align: center
 
-* **Parcourir** 
-    Cet onglet permet de naviguer au sein de l'arborescence des catégories.
+* **Manage** 
+  This tab is only visible for knowledge base administrators. Depending on user's permissions, it is possible to access quickly user's articles, user's unpublished articles, all unpublished articles...
 
-.. image:: images/browse-knowledgebase.png
-        :alt: Onglet Parcourir de la base de connaissances
-        :align: center
-
-* **Gérer** 
-    Cet onglet n'est accessible qu'aux administrateurs de la base de connaissances. Suivant les droits de l'utilisateur, il est possible d'accéder rapidement à ses ou à tous les articles non publiés (sans cible définies) ainsi qu'à tous ses articles.
-
-.. image:: images/manage-knowledgebase.png
-        :alt: Onglet gérer de la base de connaissances
-        :align: center
+  .. image:: images/manage-knowledgebase.png
+     :alt: Knowledge base manage tab
+     :align: center
 
 .. note::
-    Le moteur de recherche de la base de connaissances permet d'utiliser un certain nombre d'opérateurs pour effectuer des recherches complexes : ``+ - ~ < > * ” ” ()``.
+   The knowledge base search engine provides operators for complex search: ``+ - ~ < > * ” ” ()``.
 
-    * ``+`` Le mot doit être présent ; 
-    * ``-`` Le mot ne doit pas être présent ; 
-    * ``*`` Opérateur de troncature à positionner en suffixe ; 
-    * ``" "`` Une phrase entre guillemets double (") est recherchée littéralement, telle qu'elle a été saisie ; 
-    * ``< >`` permet de définir une préférence sur l'ordre des éléments recherchés ; 
-    * ``()`` agrégateur utile pour l'utilisation de < et >.
+   * ``+``: word must be there; 
+   * ``-``: word must not be there; 
+   * ``*``: truncate suffix; 
+   * ``" "``: contained sequence must be searched literally;
+   * ``< >``: define order on search elements; 
+   * ``()``: group when using < and >.
 
-    ::
+     ::
 
-        Exemples :
+        Examples :
 
-        - panne imprimante 
-           -> Recherche les lignes qui contiennent au moins un de ces mots.
+        - printer failure
+          -> Search lines containing at least one of these words
 
-        - +panne +imprimante 
-           -> Recherche les lignes qui contiennent ces deux mots.
+        - +printer +failure
+          -> Search lines containing both words
 
-        - +courriel thunderbird
-           -> Recherche les lignes qui contiennent le mot *courriel*, 
-              mais classe plus haut les lignes qui contiennent aussi *thunderbird*.
+        - +mail thunderbird
+	  -> Search lines containing word *mail* but rank higher lines containing also word *thunderbird*
 
-        - +courriel -outlook
-           -> Recherche les lignes qui contiennent *courriel* mais pas *outlook*.
+        - +mail -outlook
+          -> Search lines containing word *mail* but not word *outlook*
 
-        - * +courriel +(>thunderbird <outlook)
-          -> Recherche les lignes qui contiennent les mots *courriel* et *thunderbird*, 
-             ou *courriel* et *outlook* (dans n'importe quel ordre), 
-             mais classe *courriel thunderbird* plus haut que *courriel outlook*.
+        - * +mail +(>thunderbird <outlook)
+          -> Search lines containing word *mail* and *thunderbird*, or *mail* and *outlook*, in any order, but rank *mail thunderbird* higher than *mail outlook*
 
         - open*
-           -> Trouve les lignes qui contiennent des mots tels que *openoffice*, *openwriter*, 
-              *openbar* ou *openphp*.
+	  -> Search lines containing words such as *openoffice*, *openwriter*, *openbar*, *openphp*...
 
-        - "suite openoffice"
-           -> Recherche les lignes qui contiennent exactement la phrase *suite openoffice*
+        - "openoffice suite"
+          -> Search lines containing exactly sentence *openoffice suite*
 
-Les différents onglets d'un article
------------------------------------
 
-Base de connaissances
-~~~~~~~~~~~~~~~~~~~~~
-Cet onglet affiche un tableau concernant l'article avec en titre, sa catégorie. Son ensuite listés son sujet et son contenu ainsi que le nom du rédacteur, des dates de création et de dernière modification, le nombre de fois où l'article a été lu ainsi que s'il fait partie ou non de la FAQ.
-Si un article n'est pas publié (cible non définie), cette information apparaît en rouge au-dessus du nombre de vues.
+The different tabs of an article
+--------------------------------
 
-Cible
-~~~~~
-Un article est considéré comme personnel par défaut. Il est, par conséquent, uniquement visible par son rédacteur.
+Knowledge base
+~~~~~~~~~~~~~~
 
-Pour qu'un article devienne visible par d'autres utilisateurs, il est nécessaire de sélectionner une ou plusieurs cibles. La ou les cibles correspondent aux entités, profils, groupes ou utilisateurs qui pourront consulter l'article. Cet onglet permet donc d'ajouter une nouvelle cible tout en listant les cibles déjà définies.
+This tab displays a table with article category, subject, content, writer, creation date, last modification date, number of views and FAQ membership.
 
-Editer
+If an article is unpublished (i.e. has no target), this information will appear in red above number of views.
+
+Target
 ~~~~~~
-Cet onglet permet, suivant vos droits, de modifier ou supprimer un article.
+
+This tab allows to manage article's targets.
+
+An article is by default personal and therefore only visible by its creator.
+
+For an article to become visible by other users, targets must be added to it, a target being either an entity, a group, a profile or a user who will be able to consult the article. 
+
+Edit
+~~~~
+
+This tab allows, if appropriate permission, to modify or delete an article.
 
 .. include:: ../tabs/elements.rst
 
@@ -120,33 +110,34 @@ Cet onglet permet, suivant vos droits, de modifier ou supprimer un article.
 
 .. include:: ../tabs/historical.rst
 
-Révisions
-~~~~~~~~~
+Revision
+~~~~~~~~
 
-Dans cet onglet, il est possible de consulter toutes les révisions de chaque article. C'est à dire que chaque modification de l'article donnera naissance à une révision, une version antérieure de l'article.
+This tab allows to consult all article revisions: each saved modification of the article will create a revision storing the previous version of the article.
 
-les révisions sont affichables et peuvent être restaurées.
+Revisions can be shown and restored.
 
 .. image:: images/revisions-knowledgebase.png
-        :alt: Consultation des révisions d'un article
-        :align: center
+   :alt: Article revisions
+   :align: center
 
-Commentaires
-~~~~~~~~~~~~
+Comments
+~~~~~~~~
 
-Un article bénéficie d'un espace commentaires, permettant aux utilisateurs de la plateforme d'échanger à son sujet.
+This tab allows platform's users to add their comments and discuss the article.
 
 .. image:: images/comments-knowledgebase.png
-        :alt: Espace commentaire d'un article
-        :align: center
+   :alt: Article comments
+   :align: center
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
 
-*  :doc:`Ajouter un article <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*  :doc:`Modifier un article <../../Les_différentes_actions/modifier_un_article>`
-*  :doc:`Supprimer un article <../../Les_différentes_actions/supprimer_un_article>`
-*  :doc:`Associer un document à un article <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*  :doc:`Modifier la visibilité d'un article <../../Les_différentes_actions/modifier_visibilite_article>`
+The different actions
+---------------------
+
+*  :doc:`Add an article <../../Les_différentes_actions/creer_un_nouvel_objet>`
+*  :doc:`Modify an article <../../Les_différentes_actions/modifier_un_article>`
+*  :doc:`Delete an article <../../Les_différentes_actions/supprimer_un_article>`
+*  :doc:`Attach a document to an article <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+*  :doc:`Modify the visibility of an article <../../Les_différentes_actions/modifier_visibilite_article>`
