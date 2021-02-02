@@ -27,8 +27,7 @@ GLPI allows to generate reports based on managed items:
 
   It is possible to obtain a report for a given period.
 
-  The generated table lists, sorted by item type, name, entity, value, net accounting value, TCO, purchase date, starting date, warranty expire date. A summary displaying total value and net accounting
- value is available, both by item type and for all items.
+  The generated table lists, sorted by item type, name, entity, value, net accounting value, TCO, purchase date, starting date, warranty expire date. A summary displaying total value and net accountin value is available, both by item type and for all items.
 
 * **Other financial and administrative information**
 
