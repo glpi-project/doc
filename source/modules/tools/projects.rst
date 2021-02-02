@@ -124,7 +124,7 @@ Distinct management teams can by composed of users, groups, suppliers and contac
 
 Tasks can be attached to tickets in order to plan interventions.
 
-Provisional and effective duration are also defined for a task, reported at project level together with attached tickets duration.
+Planned and actual duration are also defined for a task, reported at project level together with attached tickets duration.
 
 The different tabs
 ------------------
@@ -159,4 +159,3 @@ The different actions
 * :doc:`Delete a project <../../Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Attach a document to a project <../../Les_différentes_actions/associer_un_document_a_un_objet>`
 * :doc:`Transfer a project <../../Les_différentes_actions/transferer_un_objet>`
-
