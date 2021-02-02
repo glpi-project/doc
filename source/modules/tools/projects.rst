@@ -1,99 +1,91 @@
-Gérer les projets
-=================
+Manage projects
+===============
 
-La gestion de projets permet de suivre complètement l'avancement d'un
-projet au sein de GLPI via la création de tâche, la constitution d'une équipe, que celui-ci soit lié à un
-`changement <04_Module_Assistance/09_Changements.rst>`__ ou non. 
+Project management in GLPI allows to follow entirely a project's progress by creating tasks and building teams; projects can be optionally linked to a :doc:`change </modules/assistance/09_Changements>`. 
 
-Un projet dans GLPI, c'est la possibilité :
+A GLPI project allows:
 
-- d'associer des tâches de projet et gérer leur avancement;
-- d'établir une équipe projet et des équipes de tâche;
-- la possibilité de déclencher des sous projets au sein d'un même projet;
-- de construire un diagramme de GANTT;
-- la possibilité d'utiliser la méthode Kanban;
-- d'associer des coûts;
-- de relier les objets ITIL de GLPI.
+* defining tasks associated to the project and following their progress;
+* creating teams for a project and its tasks;
+* triggering sub-projects inside the project;
+* building GANTT diagrams;
+* using Kanban method;
+* attaching costs;
+* linking to GLPI ITIL items.
 
-Le projets peut être hiérarchisé ; un projet peut donc avoir des sous-projets.
+A project can be hierarchical, a project can therefore have sub-projects.
 
-Les projets disposent de caractéristiques (nom, code,état, type...), de dates prévisionnelles et réelles ainsi qu'un pourcentage d'avancement. 
+A project is characterized by name, code, state, type, provisional and real dates, percent done.
 
-Des équipes de gestion distinctes peuvent être composées d'utilisateurs, de groupes, de fournisseurs et de contacts.
+Distinct management teams can by composed of users, groups, suppliers and contacts.
 
+Several GANTT diagrams are available for each project (see tab *GANTT*).
 
+Project management relies on two types of items: project and project task.
 
-Plusieurs diagrammes de GANTT sont proposés pour chaque projet (voir
-onglet *GANTT*).
+Project
+-------
 
-Dans cette gestion de projet, il y a deux objets principaux : le projet et la tâche de projet.
+The different tabs
+~~~~~~~~~~~~~~~~~~
 
-Projet
-------
-
-Les différents onglets
-~~~~~~~~~~~~~~~~~~~~~~
-
-Tâches de projet
-~~~~~~~~~~~~~~~~
-
-Cet onglet permet d'ajouter une nouvelle tâche au projet. Il liste également les tâches déjà définies pour ce projet en indiquant, pour chaque tâche, son nom, son type, son statut, le pourcentage effectuée, les dates de début et de fin planifiées, les durées planifiée et effective ainsi que le nom de la tâche parent.
-
-.. image:: images/tasks-project.png
-        :alt: Les différentes associées au projet
-        :align: center
-
-
-Equipe Projet
+Project tasks
 ~~~~~~~~~~~~~
 
-Cet onglet permet d'ajouter un membre à l'équipe, que ce soit un contact, un fournisseur, un utilisateur ou un groupe. Il liste également chaque membre de l'équipe projet ainsi que son type respectif.
+This tab allows to add new tasks to the project. It displays also already defined tasks with, for each task, its name, type, status, planned start and end dates, real start and end dates, percent done and parent task name.
+
+.. image:: images/tasks-project.png
+   :alt: Project's tasks
+   :align: center
+
+
+Project team
+~~~~~~~~~~~~
+
+This tab allows to add new members to the project team, this member being a contact, a supplier or a group. It lists also members of project team with for each member its type.
 
 .. image:: images/team-project.png
-        :alt: Composition de l'équipe associée au projet
-        :align: center
+   :alt: Project's team
+   :align: center
 
 
-Projet
-~~~~~~
+Project
+~~~~~~~
 
-Cet onglet liste les sous-projets du projet. Pour définir un sous-projet, il suffit de remplir le champ "comme enfant de" d'un projet.
+This tab displays project's sub-projects. A sub-project is defined the same way as a project, the only difference being that the field `As child of` is defined.
 
 .. image:: images/subprojects-project.png
-        :alt: Visualisation des sous projets
-        :align: center
+   :alt: A project's sub-projects
+   :align: center
 
 GANTT
 ~~~~~
 
-Un diagramme de GANTT est proposé pour chaque projet. Un diagramme de GANTT global est également proposé incluant les projets définis comme visible dans ce diagramme.
+A GANTT diagram is available for each project. A global GANTT diagram is also available, including projects defined as visible in this global diagram (field `Show on global GANTT` of the project form).
 
 .. image:: images/gantt-project.png
-   :alt: Diagramme de Gantt dans GLPI
+   :alt: GANTT diagram
    :align: center
 
 Kanban
 ~~~~~~
 
-Cet onglet met à disposition une interface afin d'utiliser la méthode Kanban dans GLPI.
+This tab provides an interface to use Kanban method.
 
 .. image:: images/kanban-project.png
-        :alt: Interface Kanban de GLPI
-        :align: center
+   :alt: Kanban interface in GLPI
+   :align: center
 
-Coûts
+Costs
 ~~~~~
 
-Des coûts sont associables aux projets, auxquels peuvent être ajouté les
-coûts des tickets liées aux tâches du projet.
+Costs can be attached to projects; the costs of the tickets attached to project's tasks will sum up to these costs.
 
 
-Objets Itil
-~~~~~~~~~~~
+ITIL objects
+~~~~~~~~~~~~
 
-C'est dans cet onglet qu'il est possible d'associer au projet actuel les objets itil de GLPI: tickets, problèmes et changements.
-Il est possible de créer ces objets depuis cet onglet également.
-
+This tab allows to attach to the project GLPI ITIL objects: tickets, problems and changes. It is also possible to create these objects directly from this tab.
 
 .. include:: ../tabs/elements.rst
 
@@ -110,40 +102,42 @@ Il est possible de créer ces objets depuis cet onglet également.
 .. include:: ../tabs/all.rst
 
 
-Tâche de projet
----------------
+Project task
+------------
 
-l'objet tâche de projet est assez similaire au projet.
+Task item is quite similar to a project.
 
-une tâche de projet peut être également une sous tâche de projet.
+A project task can also be a project sub-task.
 
-Les tâches disposent de caractéristiques (nom, état, type...), de dates prévisionnelles et réelles ainsi qu'un pourcentage d'avancement. 
+.. ??? une tâche de project peut être également une sous tâche de project.
 
-Des équipes de gestion distinctes peuvent être composées d'utilisateurs, de groupes, de fournisseurs et de contacts.
+A task is characterized by name, state, type, provisional and real dates, percent done.
+
+Distinct management teams can by composed of users, groups, suppliers and contacts.
 
 .. image:: images/task-details-project.png
-        :alt: Caractérisation d'une tâche
-        :align: center
+   :alt: A task
+   :align: center
 
 .. note::
+   A project task is not an independent item, it can only be accessed through the `Project tasks` tab of the project owning the task.
 
-      La tâche de projet n'est pas un objet indépendant de GLPI.
-      L'accès à une tache de projet se fait dans l'onglet Tâches de projet du projet concerné !
+Tasks can be attached to tickets in order to plan interventions.
 
-Les tâches peuvent être liées à des tickets permettant de planifier des interventions permettant de mettre en place le projet. Des durées prévisionnelles et effectives sont également définies au niveau des tâches. Ces durées ainsi que celles des tickets sont alors consolidées au niveau du projet lui même.
+Provisional and effective duration are also defined for a task, reported at project level together with attached tickets duration.
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
-Tâches de projet
-~~~~~~~~~~~~~~~~
+Project tasks
+~~~~~~~~~~~~~
 
-Dans cet onglet, il est possible de consulter et d'ajouter les sous-tâches.
+This tab allows to display and add sub-tasks.
 
-Equipe de tâche
-~~~~~~~~~~~~~~~
+Task team
+~~~~~~~~~
 
-Ici est définie l'équipe en charge de la tâche.
+This tab defines the team in charge of the task.
 
 .. include:: ../tabs/documents.rst
 
@@ -155,13 +149,14 @@ Ici est définie l'équipe en charge de la tâche.
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
 
-*   :doc:`Ajouter un projet <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Visualiser un projet <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modifier un projet <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Supprimer un projet <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Associer un document à un projet <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transférer un projet <../../Les_différentes_actions/transferer_un_objet>`
+The different actions
+---------------------
+
+* :doc:`Add a project <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Display a project <../../Les_différentes_actions/visualiser_un_objet>`
+* :doc:`Modify a project <../../Les_différentes_actions/modifier_un_objet>`
+* :doc:`Delete a project <../../Les_différentes_actions/supprimer_un_objet>`
+* :doc:`Attach a document to a project <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+* :doc:`Transfer a project <../../Les_différentes_actions/transferer_un_objet>`
 
