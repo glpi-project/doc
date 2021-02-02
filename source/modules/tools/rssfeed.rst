@@ -21,7 +21,7 @@ The different tabs
 Content
 ~~~~~~~
 
-This tab allows to consul the number of displayed items; this content is the one displayed on home page.
+This tab allows to consult the number of displayed items; this content is the one displayed on home page.
 
 Targets
 ~~~~~~~
