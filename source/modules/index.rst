@@ -7,7 +7,7 @@ Modules
    overview/index
    assets/index
    management/index
+   tools/index
    assistance/index
-   outils/index
    administration/index
    configuration/index
