@@ -1,7 +1,7 @@
 Manage personal or public reminders
 ===================================
 
-A reminder in GLPI is a simple text with attached files;; it allows to transmit information to other users of the platform.
+A reminder in GLPI is simple text with attached files; it allows to transmit information to other users of the platform.
 
 A reminder is characterized by:
 
