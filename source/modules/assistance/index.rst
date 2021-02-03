@@ -11,26 +11,17 @@ Une fois que les besoins de base sont satisfaits, il est possible de définir le
 
 Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL et intègre donc des notions et normalisation de champs. Bien que l'outil soit conforme ITIL, il n'y aucune obligation pour suivre ces bonnes pratiques : chacun est libre d'implémenter le service d'assistance qui correspond le mieux à ses besoins.
 
--   **Mise en route du service d'assistance**
-     -   :doc:`Définir les acteurs et leurs rôles <02_Définir_les_acteurs>`
-     -   :doc:`Définir la matrice de calcul de la priorité <03_Définir_la_matrice_de_calcul_de_la_priorité>`
-     -   :doc:`Configuration avancée <04_Configuration_avancée>`
-     -   :doc:`Les matrices de cycle de vie <05_Les_matrices_de_cycle_de_vie>`
+.. toctree::
+   :maxdepth: 1
 
--   **Gérer les tickets**
-     -   :doc:`Règles de gestion <06_Tickets/01_Règles_de_gestion>`
-     -   :doc:`Gérer les tickets <06_Tickets/03_Gérer_les_tickets>`
-     -   :doc:`Ouvrir un ticket <06_Tickets/04_Ouvrir_un_ticket>`
-     -   :doc:`Pour aller plus loin <06_Tickets/05_Pour_aller_plus_loin>`
+   actors
+   prioritymatrix
+   tickets
+   recurrentticket
+   problems
+   changes
+   lifecyclematrix
+   planning
+   statistics
+   advancedconfiguration
 
--   :doc:`Créer un ticket <07_Créer_un_ticket>`
-
--   :doc:`Gérer les problèmes <08_Problèmes>`
-
--   :doc:`Gérer les changements <09_Changements>`
-
--   :doc:`Les plannings <10_Planning>`
-
--   :doc:`Les statistiques <11_Statistiques>`
-
--   :doc:`Les tickets récurrents <12_Tickets_récurrents>`

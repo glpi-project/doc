@@ -48,7 +48,3 @@ gestion des habilitations des utilisateurs (voir `Attribuer des
 habilitations à un
 utilisateur <07_Module_Administration/05_Règles/03_Habilitations_utilisateur.rst>`__).*
 
---------------
-
-**Sujet parent :** `Mise en route du service
-d'assistance <04_Module_Assistance/01_Module_Assistance.rst>`__

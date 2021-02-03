@@ -47,7 +47,7 @@ Rapports concernant les tickets
    Le tableau regroupe les mêmes éléments statistiques que ceux définis
    pour les statistiques sur les tickets.
 
-Pour ces 2 types de rapports, l'icône |image| située dans chaque ligne
+Pour ces 2 types de rapports, l'icône |stats_item| située dans chaque ligne
 de résultat, permet d'afficher ces statistiques sous forme graphique.
 
 -  **Par équipement :**
@@ -66,10 +66,5 @@ affichées ; - Arborescence : seules les valeurs de même niveau sont
 affichées et prennent en compte les tickets rattachés aux valeurs
 filles. Il est possible de naviguer dans l'arbre des valeurs.*
 
---------------
-
-**Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__
-
-.. |image| image:: /image/stats_item.png
+.. |stats_item| image:: images/stats_item.png
 
