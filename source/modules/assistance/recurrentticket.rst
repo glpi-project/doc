@@ -37,7 +37,3 @@ L'ouverture de tickets récurrents est effectuée à travers une action
 automatique nommée *ticket recurrent* (voir `Configurer les actions
 automatiques <config_crontask.html>`__).
 
---------------
-
-**Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__

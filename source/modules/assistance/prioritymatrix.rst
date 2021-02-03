@@ -40,10 +40,5 @@ nécessite le droit de modifier la priorité pour pouvoir l'assigner. Un
 incident majeur représente un ticket dont le traitement est tellement
 important qu'il prend le pas sur tous les autres.*
 
---------------
-
-**Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
-
-.. |image| image:: /image/matricepriorite.png
+.. |image| image:: images/matricepriorite.png
 

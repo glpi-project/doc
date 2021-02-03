@@ -35,19 +35,12 @@ Ces informations sont exportables sous 2 formats :
 
 ***Remarques :***
 
-*- L'accès aux flux Ical et Webcal est protégé par une clé de sécurité
-intégrée dans l'URL. Il est possible de régénérer cette clé à partir du
-menu "Préférences". Voir `Gérer ses
-préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__.*
+* L'accès aux flux Ical et Webcal est protégé par une clé de sécurité intégrée dans l'URL. Il est possible de régénérer cette clé à partir du
+menu "Préférences". Voir `Gérer ses préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__.*
 
-*- Votre planning peut être affiché sur la page d'accueil si vous avez
-le droit *\ Voir mon planning personnel\* dans votre profil.\*
+* Votre planning peut être affiché sur la page d'accueil si vous avez le droit *\ Voir mon planning personnel\* dans votre profil.\*
 
     Attention : vous ne pouvez pas ajouter un élément à un planning
     depuis cette interface. Il faut obligatoirement planifier une tâche
     ou une note pour que le planning se remplisse.
 
---------------
-
-**Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__

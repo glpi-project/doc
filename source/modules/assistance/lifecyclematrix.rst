@@ -55,19 +55,8 @@ Dans l'exemple ci-dessus, un changement Nouveau ne pourra jamais être
 Accepté sans être passé auparavant par la statut Evaluation ou
 Validation, ce statut n'étant pas proposé dans le changement.
 
---------------
-
-**Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
-
-**Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.rst>`__
-
-**Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.rst>`__
-
-.. |image| image:: /image/CycleVieTicket.png
-.. |image| image:: /image/CycleVieTicket-postonly.png
-.. |image| image:: /image/CycleVieProbleme.png
-.. |image| image:: /image/CycleVieChange.png
+.. |image| image:: images/CycleVieTicket.png
+.. |image| image:: images/CycleVieTicket-postonly.png
+.. |image| image:: images/CycleVieProbleme.png
+.. |image| image:: images/CycleVieChange.png
 

@@ -66,10 +66,5 @@ affichées ; - Arborescence : seules les valeurs de même niveau sont
 affichées et prennent en compte les tickets rattachés aux valeurs
 filles. Il est possible de naviguer dans l'arbre des valeurs.*
 
---------------
-
-**Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__
-
-.. |image| image:: /image/stats_item.png
+.. |image| image:: images/stats_item.png
 

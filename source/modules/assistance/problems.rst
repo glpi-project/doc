@@ -84,7 +84,3 @@ Les différentes actions
 -  **`Transférer un problème vers une autre
    entité <Les_différentes_actions/Transférer_un_objet.rst>`__**
 
---------------
-
-**Sujet parent :** `Le service d'assistance aux
-utilisateurs <04_Module_Assistance/01_Module_Assistance.rst>`__
