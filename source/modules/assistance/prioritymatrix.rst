@@ -28,7 +28,9 @@ permettre de faciliter la déclaration et la qualification. Pour cela, il
 suffit de définir le niveau choisi à Non. Il faut noter que le niveau
 moyen n'est pas désactivable.
 
-Figure 1. Matrice de calcul de la priorité |image|
+.. image:: images/matricepriorite.png
+   :alt: Matrice de calcul de la priorité
+   :align: center
 
 Dans l'exemple ci-dessus, le niveau d'urgence Basse ne sera pas proposé
 au demandeur et le niveau d'Impact Haut ne sera pas proposé au
@@ -39,6 +41,4 @@ pas partie de la matrice. Celle-ci est supérieure aux autres, et
 nécessite le droit de modifier la priorité pour pouvoir l'assigner. Un
 incident majeur représente un ticket dont le traitement est tellement
 important qu'il prend le pas sur tous les autres.*
-
-.. |image| image:: images/matricepriorite.png
 

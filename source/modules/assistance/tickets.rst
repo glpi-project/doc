@@ -12,14 +12,11 @@ l'interface graphique :
    tête du tableau récapitulatif des tickets.
 
 -  Interface standard :
--  en cliquant sur le |image| situé dans le menu horizontal (voir `ajout
-   standard <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__ comme
-   tout objet de GLPI) ;
+-  en cliquant sur le |menu_add| situé dans le menu horizontal (voir `ajout standard <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__ comme tout objet de GLPI) ;
 
-Voir également `Ouvrir un
-ticket <04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.rst>`__.
+Voir également `Ouvrir un ticket <04_Module_Assistance/06_Tickets/04_Ouvrir_un_ticket.rst>`__.
 
-.. |image| image:: /image/menu_add.png
+.. |menu_add| image:: /image/menu_add.png
 
 
 .. from 06_Tickets/04_Ouvrir_un_ticket.rst
@@ -143,9 +140,7 @@ sur le numéro du ticket apparaissant en vert.
 Interface standard
 ------------------
 
-Pour créer un nouveau ticket aller dans le menu ***Assistance > Tickets
->*** |image|. Voir également `Créer un
-ticket <04_Module_Assistance/05_Créer_un_ticket.rst>`__.
+Pour créer un nouveau ticket aller dans le menu ***Assistance > Tickets>***. Voir également `Créer un ticket <04_Module_Assistance/05_Créer_un_ticket.rst>`__.
 
 Lors de l'ajout d'une nouvelle image depuis l'onglet *Documents* du
 ticket, la balise générée pourra être aussi utilisé pour insérer l'image
@@ -166,26 +161,16 @@ simplifiée des tickets en cours sur celui-ci est proposé.*
 Ouvrir un ticket par courriel
 =============================
 
-L'utilisateur envoie un courriel à une adresse de messagerie définie
-dans le collecteur (Voir `Configurer les
-collecteurs <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.rst>`__.
-Dès la réception du courriel, un ticket est ouvert automatiquement.
+L'utilisateur envoie un courriel à une adresse de messagerie définie dans le collecteur (Voir `Configurer les collecteurs <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.rst>`__. Dès la réception du courriel, un ticket est ouvert automatiquement.
 
-L'objet du message deviendra le titre du ticket, son corps la
-description, les Cc des observateurs (si l'adresse est connue dans GLPI)
-et enfin les pièces jointes des documents associés.
+L'objet du message deviendra le titre du ticket, son corps la description, les Cc des observateurs (si l'adresse est connue dans GLPI) et enfin les pièces jointes des documents associés.
 
-En activant l'option "**Utiliser du texte riche pour l'assistance**"
-dans la configuration générale (onglet assistance), les images présentes
-dans le corps du message seront visibles dans la description du ticket.
+En activant l'option "**Utiliser du texte riche pour l'assistance**" dans la configuration générale (onglet assistance), les images présentes dans le corps du message seront visibles dans la description du ticket.
 
 Ouvrir automatiquement un ticket
 ================================
 
-Ce mécanisme s'active via les `tickets
-récurrents <04_Module_Assistance/10_Tickets_récurrents.rst>`__.
-
-.. |image| image:: /image/menu_add.png
+Ce mécanisme s'active via les `tickets récurrents <04_Module_Assistance/10_Tickets_récurrents.rst>`__.
 
 .. from 06_Tickets/03_Gérer_les_tickets.rst
 
