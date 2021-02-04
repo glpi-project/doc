@@ -1,72 +1,67 @@
-Gérer les changements
-=====================
+Manage changes
+==============
 
-Un changement consiste en une modification de l'infrastructure du
-système d'information.
+A change is a modification of the information system's infrastructure.
 
-La création d'un changement peut se faire soit depuis la fiche d'un
-ticket ou d'un problème, dans l'onglet *Changements*, soit directement
-depuis le menu ***Assistance > Changements***.
+A change can be created either from a ticket form or a problem form, in tab **Changes**, or from menu **Assistance > Changes**.
 
-Le formulaire de déclaration d'un changement ressemble à celui des
-tickets, dont il partage les concepts (*demandeurs*, *observateurs*,
-*assignation*, *statut*, *urgence*, *impact*, *priorité*, *catégorie*,
-pour plus d'informations voir `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__).
-Le système de validation est également le même que celui des tickets
-afin de permettre la validation préalable du changement (onglet
-*Validations*).
+The form to create a change is similar to the ticket creation form and shares with it many terms: *requester*, *watcher*, *assigned to*, *status*, *urgency*, *impact*, *priority*, *category*. For more information see :doc:`Manage tickets </modules/assistance/tickets>`. The validation process is also the same as tickets in order to allow preliminary validation of the change (tab *Validations*).
 
-Une fois le changement créé, il est possible de lui rattacher des
-tickets mais aussi des matériels impactés (onglet *Eléments*). Une phase
-d'analyse (onglet *Analyse*) consiste à décrire les impacts et la liste
-de contrôles afin d'arriver à mettre en place ce changement via un plan
-de déploiement accompagné d'un plan de repli et d'une liste de
-vérifications (onglet *Plans*).
+Once the change is created, it is possible to attach tickets but also impacted items (tab *Items*). An analysis phase (tab *Analysis*) consists in describing impacts and controls list in order to implement this change through a deployment plan, a backup plan and a checklist (tab *Plans*).
 
-Tout comme les tickets, la gestion de tâches, des coûts et l'ajout d'une
-solution permettent de suivre et de résoudre le changement. Pour la
-gestion de changements complexes, un changement peut être lié à un ou
-plusieurs projets permettant une gestion plus complète (`Gérer les
-projets <06_Module_Outils/02_Projets/01_Projets.rst>`__).
+Same as tickets, task, costs and solution allow to follow and solve the change. For complex changes management, a change can be linked with one or several projects allowing a mode detailed management (:doc:`Manage projects </modules/tools/projects>`).
 
-Les changements utilisent leurs propres notifications (voir `Configurer
-les suivis par
-courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.rst>`__).
+Changes use their own notifications (see :doc:`Configure email notifications </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`).
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
--  \*\*Onglet "Analyse" Cet onglet décrit les impacts et les listes de
-   contrôles afin de mettre en place ce changement.
+Analysis
+~~~~~~~~
 
--  \*\*Onglet "Plans" Cet onglet permet de définir les plans de
-   déploiement et de repli ainsi que les listes de contrôles.
+This tab contains impacts and check-lists in order to implement the change.
 
--  **`Onglet "Solution" <Les_différents_onglets/Onglet_Solution.rst>`__**
-   Cet onglet permet d'indiquer la résolution du changement.
+Plans
+~~~~~
 
--  **`Onglet
-   "Statistiques" <Les_différents_onglets/Onglet_Statistiques.rst>`__**
-   Des statistiques similaires aux tickets sont disponibles pour les
-   changements.
+This plan contains deployment plans, backup plans and check-lists.
 
--  **`Onglet
-   "Validations" <Les_différents_onglets/Onglet_Validations.rst>`__**
+Projects
+~~~~~~~~
 
--  **`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches.rst>`__** Une
-   tâche est une action correspondant à une intervention technique liée
-   à un changement.
+This tab allows to attach a project to the change and displays already attached projects. 
 
--  **`Onglet "Coûts" <Les_différents_onglets/Onglet_Coûts.rst>`__**
-   Définition des coûts applicables à ce changement.
+The summary table contains for each project status, opening or closing dates, priority and supervisors.
 
--  **Onglet "Projets"** Cet l'onglet permet d'associer un projet à ce
-   changement. Il liste également les projets déjà liés à ce changement.
-   Ce tableau récapitulatif comprend notamment, pour chaque projet, son
-   statut, sa date (d'ouverture ou de clôture suivant l'état du projet),
-   sa priorité, les superviseur et groupe superviseur si renseignés
-   ainsi que son nom.
+Solutions
+~~~~~~~~~
+
+This tab allows to describe the resolution of the change. See :doc:`Solutions </Les_différents_onglets/Onglet_Solution>`
+
+Statistics
+~~~~~~~~~~
+
+Statistics similar to tickets are available for changes. See :doc:`Statistics </Les_différents_onglets/Onglet_Statistiques>`
+
+Approvals
+~~~~~~~~~
+
+See :doc:`Approvals </Les_différents_onglets/Onglet_Validations>`
+
+Tasks
+~~~~~
+
+A task is an action linked with a change, usually a technical intervention. See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`
+
+Costs
+~~~~~
+
+This tab defines the costs applicable to this change. See :doc:`Costs </Les_différents_onglets/Onglet_Coûts>`
+
+Elements
+~~~~~~~~
+
+This tab allows to attach an item to the change by choosing the type and the selected item. See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`
 
 .. include:: onglets/problemes.rst
 
@@ -74,31 +69,24 @@ Les différents onglets
 
 .. include:: ../tabs/documents.rst
 
--  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.rst>`__**
-   Cet onglet permet d'associer un élément à ce changement en
-   choisissant le type ainsi que l'élément souhaité.
-
 .. include:: ../tabs/notes.rst
 
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
--  **`Ajouter un
-   changement <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
--  **`Modifier un
-   changement <Les_différentes_actions/Modifier_un_objet.rst>`__**
--  **`Supprimer un
-   changement <Les_différentes_actions/Supprimer_un_objet.rst>`__**
--  **`Associer un document à un
-   changement <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
--  **`Associer un élément à un
-   changement <Les_différentes_actions/Onglet_Eléments.rst>`__**
--  **`Associer un ticket à un
-   changement <Les_différentes_actions/Onglet_Tickets.rst>`__**
--  **`Associer un problème à un
-   changement <Les_différentes_actions/Onglet_Problèmes.rst>`__**
+* :doc:`Add a change <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Modify a change <../../Les_différentes_actions/modifier_un_objet>`
+* :doc:`Delete a change <../../Les_différentes_actions/supprimer_un_objet>`
+* :doc:`Attach a document to a change <../../Les_différentes_actions/associer_un_document_a_un_objet>`
 
+.. todo::
+
+   destination links do not exist:
+
+   * :doc:`Associer un élément à un changement <../../Les_différentes_actions/Onglet_Eléments>`
+   * :doc:`Associer un ticket à un changement <../../Les_différentes_actions/Onglet_Tickets>`
+   * :doc:`Associer un problème à un changement <../../Les_différentes_actions/Onglet_Problèmes>`
