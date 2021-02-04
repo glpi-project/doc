@@ -1,5 +1,5 @@
-Define actors and roles
-=======================
+Defining actors and roles
+=========================
 
 An assistance service usually defines the following roles:
 
