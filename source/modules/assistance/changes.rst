@@ -5,7 +5,7 @@ A change is a modification of the information system's infrastructure.
 
 A change can be created either from a ticket form or a problem form, in tab **Changes**, or from menu **Assistance > Changes**.
 
-The form to create a change is similar to the ticket creation form and shares with it many terms: *requester*, *watcher*, *assigned to*, *status*, *urgency*, *impact*, *priority*, *category*. For more information see :doc:`Manage tickets </modules/assistance/tickets>`. The validation process is also the same as tickets in order to allow preliminary validation of the change (tab *Validations*).
+The form to create a change is similar to the ticket creation form and shares with it many terms: *requester*, *watcher*, *assigned to*, *status*, *urgency*, *impact*, *priority*, *category*. For more information see :doc:`Manage tickets </modules/assistance/ticketmanagement>`. The validation process is also the same as tickets in order to allow preliminary validation of the change (tab *Validations*).
 
 Once the change is created, it is possible to attach tickets but also impacted items (tab *Items*). An analysis phase (tab *Analysis*) consists in describing impacts and controls list in order to implement this change through a deployment plan, a backup plan and a checklist (tab *Plans*).
 
