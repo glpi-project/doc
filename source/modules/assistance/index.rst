@@ -12,7 +12,8 @@ GLPI assistance module is compliant with ITIL best practises guide and integrate
 
    actors
    prioritymatrix
-   tickets
+   ticketcreation
+   ticketmanagement
    recurrentticket
    problems
    changes
