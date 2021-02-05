@@ -6,10 +6,11 @@ Les catégories
 
 Une catégorie peut être hiérarchisée : 
 
-- en sélectionnant une catégorie mère depuis le premier onglet via le champ "Comme enfant de" ; 
-- en ajoutant une catégorie fille depuis le second onglet (Catégories de ticket ou de tâches).
+* en sélectionnant une catégorie mère depuis le premier onglet via le champ "Comme enfant de" ; 
+* en ajoutant une catégorie fille depuis le second onglet (Catégories de ticket ou de tâches).
 
--  **Les catégories de tickets**
+Les catégories de tickets
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Contrairement à son nom, les catégories de tickets sont également utilisées par les problèmes et les changements. La gestion des catégories est accessible depuis le menu des intitulés : ***Configuration > Intitulés > Catégories des tickets***.
 
@@ -34,7 +35,8 @@ La catégorisation faciliter le traitement d'un objet. Par exemple, pour un tick
 
     Les catégories de tickets sont un des éléments permettant de faire des traitements automatiques à la création d'un ticket (voir [Règles métier pour les tickets](7_Module_Administration/05_Règles/04_Règles_métier_pour_les_tickets.rst "Lors de la création d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.")).
 
--  **Les catégories de tâches**
+Les catégories de tâches
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Elles servent à catégoriser les tâches pour faciliter leur traitement ou à des fins statistiques.
 
