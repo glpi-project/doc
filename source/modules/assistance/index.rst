@@ -20,5 +20,5 @@ GLPI assistance module is compliant with ITIL best practises guide and integrate
    lifecyclematrix
    planning
    statistics
-   advancedconfiguration
+   categories
 
