@@ -1,70 +1,53 @@
-Visualiser les statistiques
-===========================
+Display statistics
+==================
 
-Les statistiques regroupent les rapports concernant les tickets ainsi
-que les rapports provenant de plugins.
+Statistics group reports on tickets as well as reports coming from plugins.
 
-Il peuvent être paramétrés suivant une période donnée.
+Reports can be parameterized on a given time slot.
 
-Rapports concernant les tickets
--------------------------------
+Reports on tickets
+------------------
 
--  **Globales :**
+* **Global:**
 
-   Affiche des statistiques générales sur les tickets :
+  Display general statistics on tickets:
 
-   -  Nombre de tickets ouverts, résolus en retard et clos ;
-   -  Délais moyens de prise en compte, résolution et clôture du ticket
-      ainsi que la durée réelle du traitement ;
-   -  Nombre d'enquêtes de satisfaction ouvertes ou avec une réponse ;
-   -  Degré de satisfaction moyen.
+  * Number of opened , solved, late and closed tickets;
+  * Average time of processing, resolution, closure and real duration;
+  * Number of satisfaction surveys, opened or answered;
+  * Average satisfaction.
 
--  **Par ticket :**
+* **By ticket:**
 
-   Affiche des statistiques sur les éléments des tickets, sélectionnés
-   via un menu déroulant (par exemple : demandeur, technicien assigné,
-   impact, etc...).
+  Display statistics on tickets items, selected via a dropdown (requester, assigned technician, impact...).
 
-   Le tableau obtenu présente les éléments suivants en 4 parties :
+  Table shows following items in four groups:
 
-   -  Nombre de tickets ouverts, en retard, résolus ou clos ;
-   -  Nombre d'enquêtes de satisfaction ouvertes, nombre de réponses aux
-      enquêtes et degré de satisfaction moyen ;
-   -  Délai moyen de prise en compte (durée entre l'ouverture du ticket
-      et la première action sur celui-ci (suivi, tâche ou solution),
-      résolution ou clôture du ticket ;
+  * Number of opened , solved, late and closed tickets;
+  * Number of opened satisfaction surveys, number of answers and average satisfaction;
+  * Average `Take into account` time (duration between ticket opening and first action on ticket, follow-up, task or solution), resolution time or closure time;
+  * Real ticket duration, average and total (real duration of allocated technician time for actions relevant for the ticket).
+    
+* **By hardware characteristics:**
 
-   -  Durée réelle moyenne et totale de traitement du ticket (durée
-      réelle du temps alloué par un technicien sur les actions liées au
-      ticket).
+  Displays statistics on computer items defined in associated items of a ticket (for example, model, operating system, motherboard...)
 
--  **Par caractéristiques du matériel :**
+  The table groups the same numbers as defined in statistics by tickets.
 
-   Affiche des statistiques sur les éléments des ordinateurs définis
-   dans les éléments associés d'un ticket (par exemple : Modèle, Système
-   d'exploitation, modèle de carte-mère...).
+  For these two types of reports, the button |stats_item| located on each result line allows to display the statistics as a graphic.
 
-   Le tableau regroupe les mêmes éléments statistiques que ceux définis
-   pour les statistiques sur les tickets.
+* **By hardware:**
 
-Pour ces 2 types de rapports, l'icône |stats_item| située dans chaque ligne
-de résultat, permet d'afficher ces statistiques sous forme graphique.
+  Display number of tickets assigned to each hardware, sorted by number of tickets.
 
--  **Par équipement :**
+The option **See graphics**, when available, allows to display result as a pie chart.
 
-   Affiche le nombre de tickets affectés à chaque matériel, trié par
-   nombre de tickets.
+.. note::
 
-L'option **Voir les graphiques**, lorsqu'elle est présente, permet
-d'afficher les résultats sous forme de répartition graphique de type
-camembert.
+   When statistics are done on a tree structured item (groups or categories for example), two presentations are available:
 
-***Remarque :** Lorsque les statistiques sont réalisées sur un élément
-arborescent (les groupes ou les catégories, par exemple), deux
-présentations sont disponibles : - Normale : toutes les valeurs sont
-affichées ; - Arborescence : seules les valeurs de même niveau sont
-affichées et prennent en compte les tickets rattachés aux valeurs
-filles. Il est possible de naviguer dans l'arbre des valeurs.*
+   * Normal: all values are displayed
+   * Tree: only values at same level are displayed, taking into account the tickets attached to child elements. It is possible to navigate into values tree.
 
 .. |stats_item| image:: images/stats_item.png
 
