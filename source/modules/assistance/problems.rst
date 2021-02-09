@@ -5,7 +5,7 @@ A problem is the cause of potential incidents and, once identified, can be manag
 
 Creating a problem object can be done either from the ticket form, in tab *Problem*, or directly from menu *Assistance > Problems*.
 
-The problem creation form is very similar to the ticket creation form and shares with it many concepts: `Requester`, `Watcher`, `Assigned to`, `Status`, `Urgency`, `Impact`, `Priority`, `Category`. For more information, see :doc:`Manage tickets </modules/assistance/ticketmanagement>`.
+The problem creation form is very similar to the ticket creation form and shares with it many concepts: `Requester`, `Watcher`, `Assigned to`, `Status`, `Urgency`, `Impact`, `Priority`, `Category`. For more information, see :doc:`Manage tickets </modules/assistance/tickets/ticketmanagement>`.
 
 .. todo::
    Check what is means
