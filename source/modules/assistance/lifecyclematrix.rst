@@ -8,7 +8,7 @@ The life cycle matrix controls object status changes, which implies it can block
 Ticket life cycle matrix
 ------------------------
 
-See :doc:`Ticket management rules </modules/assistance/ticketmanagement>`.
+See :doc:`Ticket management rules </modules/assistance/tickets/ticketmanagement>`.
 
 .. image:: images/CycleVieTicket.png
    :alt: The life cycle matrix of a problem (standard interface)
