@@ -1,94 +1,135 @@
-Gérer les tickets
-=================
+Manage tickets
+==============
 
-Les tickets dans GLPI, caractéristiques et utilisation
+Manage tickets following ITIL recommendations
+---------------------------------------------
 
-Gérer les incidents en conformité avec ITIL ou pas
---------------------------------------------------
+GLPI assistance module is compliant with ITIL best practices guide for incident and request management: it integrates therefore notions such as impact, ticket urgency, priority calculus matrix and status standardization. Despite the fact that GLPI is ITIL compliant, it is not mandatory to follow these best practices and freedom is given to implement an incident management best tailored for organization's need.
 
-Le module d'assistance de GLPI est conforme au guide de bonnes pratiques ITIL pour la partie Gestion des incidents et gestion des demandes de services : il intègre donc des notions comme l'impact, l'urgence d'un ticket, la matrice de calcul des priorités associées et une normalisation des statuts. Bien que l'outil soit conforme ITIL, il n'y aucune obligation pour suivre ces bonnes pratiques : chacun est libre d'implémenter la gestion des incidents qui correspond le mieux à ses besoins.
+Statistics are available for tickets, see :doc:`Display statistics </modules/assistance/statistics>`.
 
-Des statistiques sont disponibles pour les tickets (voir :doc:`Visualiser les statistiques <04_Module_Assistance/11_Statistiques>`).
+Description of specific fields
+------------------------------
 
-Description de différents champs
---------------------------------
+* **Opening date**: ticket creation date;
 
-* **Date d'ouverture** : date de création du ticket ;
+* **Time to Resolve**: date at which ticket must be solved;
 
-* **Date d'échéance** : Date à laquelle le ticket doit être résolu ;
+  These two dates allow to limit in time incident or service request. A **SLA** can also be associated with the ticket; in this case the SLA and the next escalade level are displayed (see :doc:`Configure SLA </modules/configuration/05_Sla/01_Sla>`).
 
-Ces 2 dates permettent de circonscrire l'incident ou la demande de service dans le temps. Un **SLA** peut également être associé à un ticket. Dans ce cas, le SLA ainsi que le prochain niveau d'escalade sont affichés (voir :doc:`Configurer les SLAs <08_Module_Configuration/05_Sla/01_Sla>`).
+* **By**: references the GLPI user having opened the ticket;
 
-* **Par** : référence l'utilisateur GLPI qui a ouvert le ticket ;
+* **Type**: defines whether it is a request or an incident;
 
-* **Type** : permet de définir s'il s'agit d'une demande ou d'un incident ;
+* **Category**: allows to sort request or incident by their nature, a category being associated to only one type;
 
-* **Catégorie** permet de classer les demandes ou incidents suivant leur nature (une catégorie pouvant être associée uniquement à un seul type) ;
+* **Status**: status attributed manualy by the technician or dynamically by performed actions, see :doc:`Management rules </modules/assistance/tickets/ticketlifecycle>` and :doc:`life cycle matrix </modules/assistance/lifecyclematrix>`;
 
-* **Statut** statut attribué manuellement par le technicien ou dynamiquement suivant les actions effectuées (voir :doc:`Règles de gestion <04_Module_Assistance/04_Tickets/01_Règles_de_gestion>` et :doc:`Matrice de cycle de vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie>`) ;
+* **Request Source**: indicates the channel used to create the ticket, see :doc:`Configure drop down </modules/configuration/intitules/index>`;
 
-* **Source de la demande** : canal utilisé pour créer les tickets (voir :doc:`Configurer les intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés>`) ;
+* **Urgency**: importance given to the ticket by the requester;
 
-* **Urgence** : indique l'importance donnée par le demandeur au ticket ;
+* **Impact**: importance given by the technician;
 
-* **Impact** : est celle jugée par le technicien ;
+* **Priority**: importance of the ticket automaticaly computed from defined impact and urgency using a predefined calculus matrix, see :doc:`life cycle matrix </modules/assistance/lifecyclematrix>`;
 
-* **Priorité** : est l'importance du ticket calculée automatiquement suivant une matrice de calcul prédéfinie en tenant compte de l'impact et de l'urgence définis (Voir :doc:`Matrice de cycle de vie <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie>` ;
+* **Approval**: by default the ticket is *Not subject to approval*;
 
-* **Validation** : par défaut il est *non soumis à validation* ;
+* **Items**: list items associated to this ticket; field appearing only in ticket creation form, later editions will display items in a separate tab also used to associate new items to the ticket;
 
-* **Élément** : liste les éléments associés à ce ticket. L'ajout d'un nouvel élément se fait via l'onglet *Elements*.
+* **Location**: indicates the intervention location, has no link with the location of associated items nor with the requester location (for example roaming requester with a laptop);
 
-* **Lieu** : permet d'indiquer le lieu de l'intervention et n'a aucun lien avec le lieu de l'élément associé où le lieu du demandeur (cas d'un demandeur "nomade" avec un portable) ;
+* **Actor**: implied actors are referenced in the ticket, which allows them to be notified during ticket life cycle, see :doc:`Defining actors and roles </modules/assistance/actors>`.
 
-* **Les acteurs** Les acteurs concernés sont référencés dans le ticket, ce qui permet leur notification durant le cycle de vie du ticket (Voir :doc:`Définir les acteurs <04_Module_Assistance/02_Définir_les_Acteurs>`).
+  If email followup have been configured (see :doc:`Configurer les notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`), information about notifications are displayed for a user or a supplier: *Email Followup* (yes or no) and *Email*. Email is pre-filled with user's email if defined in user or supplier form. If no email is defined in user or supplier form, an email can be entered in text field.
+ 
+  .. todo:: proof read following paragraph
 
-Deux informations concernant les notifications apparaissent pour un utilisateur ou un fournisseur si les suivis par courriels ont été configurés (Voir :doc:`Configurer les notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications>`) : l'activation du **suivi par courriel** pour ce ticket et le **courriel** utilisé. Celui-ci est pré-rempli par défaut avec la valeur présente et définie par défaut dans la fiche de l'utilisateur ou du fournisseur (s'il en a une) et peut être modifié dans la liste déroulante si besoin. Si aucun courriel n'est défini dans la fiche de l'utilisateur ou du fournisseur sélectionnée, elle peut être indiquée, uniquement pour ce ticket, dans la zone de texte.
+  When using GLPI with multiple entities and having technicians with authorizations for several entities, it is not needed to switch current entity to declare a new incident inside an entity. Entity to which ticket will be assigned is determined as so: technician selects requester and GLPI find entities for which this requester has authorizations; if only one entity, ticket creation form is updated and ticket will be declared in this entity, if several entities, a drop-down list allows to select the entity to which ticket will be assigned.
 
-Dans le cadre d'une utilisation de GLPI multi-entités avec des techniciens ayant des habilitations sur plusieurs entités, il n'est pas nécessaire de changer l'entité courante pour déclarer un nouvel incident dans une entité. Le cheminement de l'ouverture d'un nouveau ticket est le suivant : le technicien commence par sélectionner le demandeur et GLPI va déterminer les entités sur lesquelles celui-ci a des habilitations. S'il n'en possède que sur une entité, alors le formulaire de création est mis à jour et le ticket sera déclaré dans l'entité correspondante. S'il en possède plusieurs une liste déroulante supplémentaire permet de sélectionner celle dans laquelle on veut affecter le ticket.
+* **Title**: if no tile is defined by the user when creating the ticket, the first 70 characters of the description will be used to define ticket title;
 
-* **Titre** Si aucun titre n'est défini par l'utilisateur lors de la création du ticket, les 70 premiers caractères de la description sont utilisés pour définir le titre du ticket ;
+* **Description**: mandatory, for above reason;
 
-* **Description** : obligatoire pour les raisons définies ci-dessus.
+* **Linked Tickets**: defines a link between tickets, this link being of two types:
 
-* **Tickets liés** : définit une relation entre les tickets. Cette liaison peut être de 2 types :
-* *Lié à* : ce n'est qu'une liaison simple qui n'a qu'un but informatif ;
-* *Duplique* : c'est une duplication de ticket. A la résolution d'un des tickets, la même solution est définie sur les tickets dupliqués (qui sont donc automatiquement résolus).
+  * *Linked to*: a simple link only used as information;
+  * *Duplicates*: when solving one of the duplicated tickets, the same solution is applied for other duplicated tickets which are therefore automatically solved.
+
+  .. todo::
+
+   Missing description of *Son of* and *Parent of*
+
 
 The different tabs
-----------------------
+------------------
 
-* **Onglet "Suivis"** C'est l'onglet par défaut lors de la consultation d'un ticket, sauf si celui-ci est en attente d'approbation de solution. Il permet l'ajout d'informations à un ticket existant, par exemple signaler que le demandeur a rappelé, que le ticket est en attente de la disponibilité du demandeur... C'est l'élément permettant les échanges entre le demandeur et les personnes en charge de son ticket.
+Processing ticket
+~~~~~~~~~~~~~~~~~
 
-   Pour ajouter un suivi, cliquer sur **Add a nouveau suivi** et saisir une description.
+This tab displays exchanges between requester and personal in charge of the ticket; it allows to add information on the ticket such as requester call, ticket waiting for requester disponibility...
 
-   Il est possible de choisir la source du suivi (Voir :doc:`Configurer les intitulés <08_Module_Configuration/02_Intitulés/01_Intitulés>`).
+This tab is the default tab when consulting a ticket except when the ticket is waiting for approval.
 
-   Un suivi peut être privé ou public. Un suivi privé n'est visible que des utilisateurs ayant le droit ``Voir tous les suivis et tâches`` (publics et privés) dans ses habilitations. Cela permet, par exemple, un échange entre techniciens sans que le demandeur ne puisse le voir.
+To add a followup, click on **Followup** and enter a description.
 
-   L'ajout, la modification ou la suppression d'un suivi dépend des droits définis dans le profil (voir :doc:`Administrer les profils d'utilisateurs <07_Module_Administration/07_Profils/01_Profils>`).
+It is possible to choose the source of the followup, see :doc:`Configure dropdown </modules/configuration/intitules/index>`.
 
-* **:doc:`Onglet "Validation" <Les_différents_onglets/Onglet_Validations>`**
+A followup can be public or private. A private followup is only visible by GLPI users having the authorization `See all followup and tasks`. It allows for instance to have an exchange between technician which is not visible by requester.
 
-* **:doc:`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches>`** Une tâche est une action correspondant à une intervention technique liée à un ticket.
+Adding, modifying and deleting a followup is submited to authorizations defined in profile, see :doc:`Administer user profiles </modules/administration/07_Profils/01_Profils>`.
 
-* **:doc:`Onglet "Solution" <Les_différents_onglets/Onglet_Solution>`** Cet onglet solution permet la résolution du ticket par un technicien et l'approbation de la solution par le demandeur ou le rédacteur.  **Vos tickets à clore**.
+Approvals
+~~~~~~~~~
 
-* **:doc:`Onglet "Statistiques" <Les_différents_onglets/Onglet_Statistiques>`**
+See :doc:`Validation </Les_différents_onglets/Onglet_Validations>`
 
-* **:doc:`Onglet "Coûts <Les_différents_onglets/Onglet_Coûts>`** Définition des coûts applicables à ce ticket.
+Project Tasks
+~~~~~~~~~~~~~
 
-* **Onglet tâches de projet** Liste les tâches d'un projet liées à ce ticket en indiquant, pour chaque tâche, le nom du projet, son nom, son type, son statut, le pourcentage effectuée, les dates de début et de fin planifiées, les durées planifiée et effective ainsi que le nom de la tâche parent. Vous pouvez modifier un projet ou une tâche de projet en cliquant sur son nom.
+A task is an action corresponding to a technical intervention related to the ticket.
 
-.. include:: ../../tabs/documents.rst
+See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`
 
-* **:doc:`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments>`** Permet d'associer plusieurs éléments au ticket.
+Solution
+~~~~~~~~
 
-.. include:: onglets/problemes.rst
+This tab allows resolution of a ticket by a technican and approval of solution by requester.
 
-* **:doc:`Onglet "Changements" <Les_différents_onglets/Onglet_Changements>`** Ajouter et visualiser les changements associés à ce ticket.
+See :doc:`Solutions </Les_différents_onglets/Onglet_Solution>`
 
-* **:doc:`Onglet "Historique" <Les_différents_onglets/Onglet_Historique>`** L'historique est visualisé depuis l'onglet *Historique*
+Statistics
+~~~~~~~~~~
+
+See :doc:`Statistics </Les_différents_onglets/Onglet_Statistiques>`
+
+Items
+~~~~~
+
+Allows to associate several items to the ticket.
+
+See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`
+
+Changes
+~~~~~~~
+
+Allows to add and display changes associated with the ticket.
+
+See :doc:`Changes </Les_différents_onglets/Onglet_Changements>`
+
+Problems
+~~~~~~~~
+
+Allows to display and add problems associated with the ticket.
+
+See :doc:`Problems </commontabs/item_problemes>`
+
+Historical
+~~~~~~~~~~
+
+Display the history of the ticket.
+
+See :doc:`Historical </commontabs/item_historique>`
 
 .. include:: ../../tabs/debug.rst
 
@@ -99,7 +140,7 @@ The different actions
 ---------------------
 
 * :doc:`Add a ticket </modules/assistance/tickets/ticketopening>`
-* :doc:`Modify aticket </Les_différentes_actions/modifier_un_objet>`
+* :doc:`Modify a ticket </Les_différentes_actions/modifier_un_objet>`
 * :doc:`Delete a ticket </Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Attach a document to a ticket </Les_différentes_actions/associer_un_document_a_un_objet>`
 * **Link tickets together**: this action is done using field *Linked tickets* of the form
