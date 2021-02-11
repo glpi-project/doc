@@ -18,8 +18,8 @@ Tickets
 .. toctree::
    :maxdepth: 1
 
-   tickets/ticketopening.rst
-   tickets/ticketlifecycle.rst
-   tickets/ticketmanagement.rst
-   tickets/reccurentticket.rst
-   tickets/ticketadvanced.rst
+   tickets/ticketopening
+   tickets/ticketlifecycle
+   tickets/ticketmanagement
+   tickets/recurrentticket
+   tickets/ticketadvanced
