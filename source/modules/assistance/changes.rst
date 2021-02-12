@@ -63,8 +63,6 @@ Elements
 
 This tab allows to attach an item to the change by choosing the type and the selected item. See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`
 
-.. include:: onglets/problemes.rst
-
 .. include:: ../tabs/tickets.rst
 
 .. include:: ../tabs/documents.rst
