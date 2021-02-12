@@ -1,90 +1,112 @@
 Opening a ticket
 ================
 
-Pour commencer, le demandeur doit exprimer un besoin. Pour cela il peut faire appel à plusieurs outils au choix :
+A requester formulating a need can use several tools:
 
-- il remplit lui-même un formulaire en ligne, qu'il soit connu dans GLPI ou non ;
+* filling an online form, the requester being known to GLPI or not;
 
-- il demande à un délégataire de son groupe de le faire pour lui (voir `Administrer les groupes <07_Module_Administration/03_Groupes.rst>`__). Dans l'interface simplifiée, cela se traduit par l'apparition d'une option permettant d'indiquer si l'incident concerne l'utilisateur lui-même ou un autre. Dans l'interface standard ce mécanisme est actif à partir du moment où le droit **Voir tous les tickets** est à *non* dans le profil. Il se traduit par l'ajout comme demandeur de tous les utilisateurs pour lesquels la délégation s'opère ;
+* asking a delegate in the group to open the ticket (see :doc:`Administer groups </modules/administration/03_Groupes>`. In simplified interface, this is put into evidence by an option allowing to indicate if the ticket concerns the requesting user or another user. In standard interface, this mechanism is active as long as authorization **See all tickets** is set to *No* in the profile; all users for which delegation is active will be added as requester;
 
-- il contacte un opérateur directement (ou par téléphone) qui exécute la déclaration pour lui ;
+* contacting an operator directly or by phone, the operator will open the ticket;
 
-- il envoie sa demande par message électronique (voir helpdesk\_advanced\_collectors.html"). Un ticket peut être ouvert de plusieurs manières :
+* sending the demand by mail. 
 
-Ouvrir un ticket dans GLPI
---------------------------
 
-- via l'interface d'ouverture de tickets anonymes accessible par les utilisateurs non authentifiés si la configuration générale de GLPI l'autorise ;
+Opening a ticket in GLPI
+------------------------
 
-- via l'interface graphique :
+A ticket can be opened:
 
-- interface simplifiée (formulaire de saisie allégé destiné à un utilisateur final authentifié) ;
-- interface standard (formulaire de saisie complet).
+* through the anonymous ticket opening interface, this interface being accessible by all non-authenticated users if GLPI general configuration allows it;
 
-Interface d'ouverture de tickets anonymes (pour utilisateurs non authentifiés)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* through the graphical interface:
 
-Accessible à l'adresse http:///front/helpdesk.html, elle permet aux utilisateurs n'ayant aucun compte dans GLPI d'envoyer un formulaire de signalement au centre de support. Une fois rempli et soumis, un message confirme la bonne création du ticket. Ce formulaire peut être personnalisé en modifiant directement le fichier helpdesk.html. Par défaut le ticket est créé dans l'entité racine.
+  * simplified interface: lightweight form for an authenticated end-user;
+  * standard interface: full-fledged form.
 
-Ouverture d'un ticket dans l'interface graphique
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Anonymous ticket opening interface for non-authenticated users
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Suivant l'utilisation ou non de gabarits (voir `gabarits des tickets <Les_différentes_actions/Gérer_les_gabarits.rst>`__, certains champs peuvent être obligatoires, prédéfinis ou masqués à l'ouverture d'un ticket (contenu, titre et/ou catégorie). Si l'un champ obligatoire est manquant, le ticket ne sera pas créé.
+This interface can be accessed at URL http:///front/helpdesk.html; it allows users having no GLPI account to send an incident signaling form to the help desk. Once filled and submitted, a mail will confirm the ticket opening.
 
-Les différents champs disponibles sont décrits dans la partie `Gérer les tickets <04_Module_Assistance/04_Tickets/03_Gérer_les_tickets.rst>`__.
+The form can be customized by modifying directly file `helpdesk.html`.
 
-Il est possible d'ajouter au ticket un ou plusieurs documents en une seule opération.
+By default, ticket is created in root entity.
 
-En activant l'option "**Utiliser du texte riche pour l'assistance**" dans la configuration générale (onglet assistance), le champ description du ticket pourra être formaté au format Html. De plus une zone supplémentaire sera disponible afin de glisser ou de coller des images (exemple : Screenshot). Une balise sera alors ajoutée automatiquement à la description afin de formaliser le contenu de sa demande.
+Opening a ticket in graphical interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Interface simplifiée
+If templates are used (see :doc:`Using templates </modules/overview/templates>`), some fields can be made mandatory, predefined or masked when opening the ticket (content, title and/or category). If a mandatory field is missing, the ticket will not be opened.
+
+The different fields are described in :doc:`Manage tickets <ticketmanagement>`.
+
+It is possible to attach to the ticket one or more documents in one operation.
+
+When activating option **Use rich text for assistance** in general configuration, the *Description* field of the ticket will be able to be formatted as HTML. Moreover, an added zone will be available for images drag and drop, for example screenshots. A tag will then be added automatically to the description in order to formalize the content of the demand.
+
+Simplified interface
 ^^^^^^^^^^^^^^^^^^^^
 
-Elle permet à un utilisateur authentifié de créer rapidement un ticket pour lui même ou pour une autre personne (délégation).
+This interface allows an authenticated user to open quickly a ticket, for the user or by delegation for another person.
 
-Le formulaire de saisie peut être accompagné d'un message invitant l'utilisateur à vérifier ses coordonnées personnelles (lieu, téléphone), afin de faciliter la prise de contact par les techniciens (voir Configuration / `Onglet Assistance <config_common_assist.html>`__). Pour cela, remplir le formulaire de saisie proposé à l'ouverture de GLPI et valider.
+Ticket opening form can be accompanied by a message inviting user to check personal information (location, phone number) in order to be easily contacted by technicians.
 
-**Champs spécifiques :**
+Specific fields:
 
-- **Informez-moi des suites données** Apparaît si les suivis par courriel ont été configurés (voir `Configurer les notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__.  La sélection à "oui" permet au demandeur d'être tenu informé par courriel des différents traitements concernant son ticket. Le champ Courriel correspond à l'adresse où seront envoyées les notifications.  Si plusieurs courriels sont définis, GLPI prendra l'adresse par défaut définie dans les préférences de l'utilisateur. Il est possible d'en sélectionner une autre ou d'entrer une adresse si la fiche de l'utilisateur n'en mentionne pas ;
+* **Inform me about he actions take**:
+  Appears if email followup are configured, see :doc:`Configure notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`. If set to `Yes`, the requester will be kept informed by mail of the different processing of the ticket. The field *Mail* contains the email address to which notifications will be sent. If several email addresses are defined, GLPI will select the default email defined in user's preferences. It is possible to select another email address or to enter an address if user's profile does not mention an email;
 
-- **Le ticket porte sur** : permet d'associer un objet d'inventaire à un ticket. Le contenu de la ou des listes dépend des paramètres définis dans le profil (Voir `Administrer les profils d'utilisateurs <07_Module_Administration/07_Profils/0_Profils.rst>`__.
+* **Associated elements**:
+  Allows to associate an item of the inventory with the ticket. The content of the list depends upon parameters defined in user's profile (see :doc:`Administer user profile </modules/administration/07_Profils/01_Profils>`.
 
-- **Observateur** : permet d'ajouter un observateur et de définir ses paramètres de notification. Seul les membres des groupes du demandeur peuvent être associés.
+* **Watchers**:
+  Allows to add a watcher and to define notification parameters. Only members of the requester group can be added.
 
-***Conseil :*** Chaque utilisateur a la possibilité d'ajouter de nouvelles addresses de messagerie à son profil directement depuis ses Préférences (voir `Gérer ses préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__).
+  .. hint::
 
-Si vous ajouter une image ou un document au ticket, il est important de la faire après avoir rempli tous les champs marqués obligatoires (astérisque rouge), car le rechargement du formulaire entraine la suppression des images (ou des documents) liés.
+     Users can add new email addresses to the profile, see :doc:`Manager preferences </first-steps/preferences>`.
 
-Un message confirme la bonne création du ticket accessible en cliquant sur le numéro du ticket apparaissant en vert.
+.. warning:: 
 
-Interface standard
+   If images or documents are added to the ticket, it is important to add them **after** having filled **all** mandatory fields marked with a red star, this because the reloading of the ticket opening form triggered by a missing mandatory field suppress attached images or documents.
+
+A message confirms the creation of the ticket which is then accessible by clicking on the ticket number highlighted in green.
+
+Standard interface
 ^^^^^^^^^^^^^^^^^^
 
-Pour créer un nouveau ticket aller dans le menu ***Assistance > Tickets >*** |image|. Voir également `Créer un ticket <04_Module_Assistance/05_Créer_un_ticket.rst>`__.
+To create a ticket, go to menu **Assistance > Ticket** then click add button |menu_add|.
 
-Lors de l'ajout d'une nouvelle image depuis l'onglet *Documents* du ticket, la balise générée pourra être aussi utilisé pour insérer l'image dans la description du ticket.
+When adding a new image from tab *Documents* of the ticket, the generated tag can also be used to insert image in ticket's description.
 
-Un message confirme la bonne création du ticket accessible en cliquant sur le nom du ticket apparaissant en vert.
+A message confirms the creation of the ticket which is then accessible by clicking on the ticket number highlighted in green.
 
-Une demande de validation peut être effectuée à l'ouverture du ticket en indiquant simplement le valideur souhaité.
+A validation demand can also be done at ticket opening by indicating the desired validating user.
 
-***Remarque :** A la saisie du demandeur, du technicien ou d'un groupe assigné, une information est affichée permettant de déterminer combien de tickets cette personne ou ce groupe a déjà ouverts ou a déjà en charge. De la même manière, à la sélection d'un matériel, une vision simplifiée des tickets en cours sur celui-ci est proposé.*
+.. note::
+
+   When filling assigned requester, technician or group, information is displayed about the number of tickets this person or this group has opened or is in charge of. Similarly, when selecting an item, a simplified view of current tickets for this item is displayed.
+
+Open a ticket by mail
+---------------------
+
+Opening a ticket by mail is done by sending a mail to an email address defined in the collector (see :doc:`Configure collectors <>`
+
+On reception of the mail, a ticket will be opened automatically:
+
+* message object will become ticket title
+* body will become ticket description
+* Cc: will become observers if emails are known to GLPI
+* attachments will become attached documents of the ticket
+
+When activating option **Use rich text for assistance** in general configuration, the images present in the message body will become visible in the description of the ticket.
 
 
-Ouvrir un ticket par courriel
------------------------------
+Open a ticket automatically
+---------------------------
 
-L'utilisateur envoie un courriel à une adresse de messagerie définie dans le collecteur (Voir `Configurer les collecteurs <07_Module_Administration/05_Règles/02_Collecteur_de_courriels.rst>`__.  Dès la réception du courriel, un ticket est ouvert automatiquement.
-
-L'objet du message deviendra le titre du ticket, son corps la description, les Cc des observateurs (si l'adresse est connue dans GLPI) et enfin les pièces jointes des documents associés.
-
-En activant l'option "**Utiliser du texte riche pour l'assistance**" dans la configuration générale (onglet assistance), les images présentes dans le corps du message seront visibles dans la description du ticket.
+This mechanism is activated through :doc:`Recurrent tickets <recurrentticket>`.
 
 
-Ouvrir automatiquement un ticket
---------------------------------
-Ce mécanisme s'active via les `tickets récurrents <04_Module_Assistance/10_Tickets_récurrents.rst>`__.
-
-.. |image| image:: docq/image/menu_add.png
+.. |menu_add| image:: /image/menu_add.png
 
