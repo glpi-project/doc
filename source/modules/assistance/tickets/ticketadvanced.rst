@@ -11,7 +11,7 @@ Tickets templates
 
 Using ticket templates, it is possible to customize ticket creation form by masking, pre-defining or making mandatory some fields.
 
-See :doc:`Ticket templates <Les_différentes_actions/Gérer_les_gabarits>`
+See :doc:`Ticket templates </modules/overview/templates>`
 
 Collectors
 ----------
