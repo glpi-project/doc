@@ -21,7 +21,7 @@ A person in charge and/or a technical group can be added to this category and wi
 
 A knowledge base category can also be associated to this category; this will register the solution in this category of the knowledge base.
 
-.. ??? ***Exemple :*** - catégorie de ticket : panne disque dur - champ Base de connaissance de la catégorie : Panne > Ordinateur Si la catégorie "Panne disque dur" est sélectionnée dans le ticket, lors de l'ajout de la solution du ticket dans la base de connaissance, celle-ci sera stockée dans "Panne > Ordinateur".
+In this example, if you have a ticket with the category "Hard disk failure" which is linked to the KB category "Failure > Computer", when you add a solution to the ticket with "Save to Knowledge base" set to "Yes", the default category in the new Knowledge base Article form that opens will be "Failure > Computer".
 
 A category can be invisible in simplified interface, in order to reduce list of categories for end-users. It can also be made visible or not for incidents, demands, problems or changes.
 
