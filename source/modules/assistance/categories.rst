@@ -35,7 +35,7 @@ Using categories eases ticket processing (for example, for a ticket, depending o
 
 .. hint::
 
-   When building a helpdesk, it is important to choose carefully the list of available categories: a too large number visible by end-users will make ticket creation less easy, whereas a too small number will not allow to qualify correctly the demand.
+   When building a helpdesk, it is important to choose carefully the list of available categories: a too large number visible by end-users will make ticket creation less easy, whereas a too small number will not allow you to correctly qualify the demand.
 
    Ticket categories allow to do automatic processing when creating a ticket, for instance modify ticket attributes; see :doc:`Business rules for tickets </modules/administration/05_Règles/04_Règles_métier_pour_les_tickets>`.
 
@@ -62,4 +62,3 @@ Task categories are used to sort task in order to ease their processing or to bu
 .. ----------
 .. `Les statistiques <04_Module_Assistance/10_Statistiques.rst>`__
 .. Les rapports concernant les tickets, les problèmes ou les changements sont disponibles dans le menu ***Assistance > Statistiques***.
-
