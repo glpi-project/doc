@@ -1,61 +1,48 @@
-Les matrices
-============
+Life cycle matrix
+=================
 
-Chaque profil possédant sa propre matrice de cycle de vie, vous pouvez
-affiner quel profil pourra faire quelle action.
+Each profile having its own life cycle matrix, it is possible to refine which profile will be able to do which action.
 
-La matrice vous permet d'empêcher l'objet de passer de tel à tel statut,
-ce qui fait qu'elle peut bloquer certaines actions de GLPI. Si un statut
-est désactivé, il ne sera pas présent dans la liste des statuts de
-l'objet.
+The life cycle matrix controls object status changes, which implies it can block some actions. If a status is not activated, it won't be present in the list of status of the object.
 
-Matrice de cycle de vie des tickets
------------------------------------
+Ticket life cycle matrix
+------------------------
 
-Voir `Les règles de gestion d'un ticket <04_Module_Assistance/06_Tickets/01_Règles_de_gestion.rst>`__.
+See :doc:`Ticket management rules </modules/assistance/tickets/ticketmanagement>`.
 
 .. image:: images/CycleVieTicket.png
-   :alt: Matrice de cycle de vie d'un ticket interface standard
+   :alt: The life cycle matrix of a problem (standard interface)
    :align: center
 
-Dans l'exemple ci-dessus, un ticket Nouveau ne pourra jamais être mis En
-attente, ce statut n'étant pas proposé dans le ticket.
+In example above, a `New` ticket will never be put to `Waiting`, this status being not proposed in the ticket.
 
-De plus, un demandeur ou créateur n'aura pas le formulaire de validation
-de la solution, car un ticket résolu dont la solution est approuvée
-devient clos, ce que l'exemple n'autorise pas.
+Furthermore, a requester will not have access to solution validation form, because a solved ticket for which solution has been approved becomes closed, which is not authorized by the example.
 
 .. image:: images/CycleVieTicket-postonly.png
-   :alt: Matrice de cycle de vie d'un ticket interface simplifiée
+   :alt: The life cycle matrix of a problem (simplified interface)
    :align: center
 
-Pour l'interface simplifiée, le cycle de vie des tickets permet de
-définir si l'utilisateur a le droit de clore un ticket (approbation de
-la solution) et s'il a le droit de le ré-ouvrir même s'il est clos.
+For the simplified interface, ticket life cycle allows to define if user can close a ticket (solution approved) and if user can re-open it event if it is closed.
 
-Matrice de cycle de vie des problèmes
--------------------------------------
+Problem life cycle matrix
+-------------------------
 
-Voir `Les règles de gestion d'un problème <04_Module_Assistance/08_Problèmes.rst>`__.
+See :doc:`Ticket management rules </modules/assistance/problems>`.
 
 .. image:: images/CycleVieProbleme.png
-   :alt: Matrice de cycle de vie d'un problème
+   :alt: The life cycle matrix of a problem
    :align: center
 
-Dans l'exemple ci-dessus, un problème Nouveau ne pourra jamais être mis
-directement au statut Résolu, ce statut n'étant pas proposé dans le
-problème.
+In example above, a `New` problem will never be put directly to status `Solved`, this status being not proposed in the problem.
 
-Matrice de cycle de vie des changements
----------------------------------------
+Change life cycle matrix
+------------------------
 
-Voir `Les règles de gestion d'un changement <04_Module_Assistance/09_Changements.rst>`__.
+See :doc:`Ticket management rules </modules/assistance/changes>`.
 
 .. image:: images/CycleVieChange.png
-   :alt: Matrice de cycle de vie d'un changement
+   :alt: The life cycle matrix of a change
    :align: center
 
-Dans l'exemple ci-dessus, un changement Nouveau ne pourra jamais être
-Accepté sans être passé auparavant par la statut Evaluation ou
-Validation, ce statut n'étant pas proposé dans le changement.
+In example above, a `New` change will never be `Accepted` before having its status put to `Evaluation` or `Validation`, this status being not proposed in the change.
 

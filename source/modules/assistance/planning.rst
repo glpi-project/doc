@@ -1,45 +1,26 @@
-Consulter et gérer les plannings
-================================
+Managing plannings
+==================
 
-Ce menu est présent uniquement si vous avez un des droits de vision des
-plannings dans votre profil.
+Planning view allows to display planned tasks attached to a ticket, a problem or a change as well as planned notes or plugins' planned elements.
 
-La vue planning permet de visualiser les tâches planifiées pour un
-ticket, un problème ou un changement ainsi que les notes planifiées ou
-les éléments planifiés dans les plugins.
+This menu is only visible if profile includes `View planning` authorization.
 
-Il est possible de choisir la date et la période à visualiser. Un
-filtrage sur les objets inclus dans le planning est également possible.
+Date and time slot can be selected. A filtering on objects to include in planning is also available.
 
-4 vues sont proposables suivant les habilitations de l'utilisateur
-connecté :
+Four views are available, depending upon user authorizations:
 
--  Vue personnelle : inclus uniquement les éléments concernant
-   l'utilisateur connecté ;
+* Personal view : includes only the elements of the connected user;
+* Group view: includes only the elements of the connected user's group, needs *See planning of group's persons* authorization;
+* Users view: includes the planning of a particular user, needs *See all plannings* authorization;
+* Groups: includes the planning of a particular group, needs *See all plannings* authorization;
 
--  Vue groupe : inclus uniquement les éléments concernant les groupes de
-   l'utilisateur connecté (nécessite le droit *Voir les plannings des
-   personnes de mes groupes*) ;
+This information can be exported in two formats:
 
--  Utilisateurs : permet de voir le planning d'un utilisateur
-   particulier (nécessite le droit *Voir tous les plannings*) ;
+* Ical, in order to integrate planning in third-party tool calendar;
+* Webcal, which allows to subscribe a third-party calendar to GLPI planning.
 
--  Groupes : permet de voir le planning d'un groupe particulier
-   (nécessite le droit *Voir tous les plannings*).
+.. note::
 
-Ces informations sont exportables sous 2 formats :
+   * Access to Ical and Webcall feed is protected by a security key integrated into the URL. It is possible to regenerate this key in menu `Preferences`. See :doc:`Manage preferences </first-steps/preferences>`.
 
--  Ical afin de les intégrer dans le calendrier d'un logiciel tiers ;
--  "protocole" Webcal qui permet d'abonner un calendrier d'un logiciel
-   tiers sur le planning de GLPI.
-
-***Remarques :***
-
-* L'accès aux flux Ical et Webcal est protégé par une clé de sécurité intégrée dans l'URL. Il est possible de régénérer cette clé à partir du menu "Préférences". Voir `Gérer ses préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__.*
-
-* Votre planning peut être affiché sur la page d'accueil si vous avez le droit *\ Voir mon planning personnel\* dans votre profil.*
-
-    Attention : vous ne pouvez pas ajouter un élément à un planning
-    depuis cette interface. Il faut obligatoirement planifier une tâche
-    ou une note pour que le planning se remplisse.
-
+   * User's planning can be displayed on home page if profile has authorization *See my personal planning*. However, it is not possible to add an element to a planning from this interface; it is mandatory to plan a task or a note so that planning fills up.

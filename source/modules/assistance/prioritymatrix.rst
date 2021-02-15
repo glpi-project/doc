@@ -1,44 +1,21 @@
-Matrice de calcul de la priorité
-================================
+Matrix of calculus for priority
+===============================
 
-Cette matrice est commune à tous les éléments du helpdesk (tickets,
-problèmes et changements) et se paramètre dans l'onglet *Assistance* du
-menu **Configuration > Générale**.
+This matrix is common to all help desk items (tickets, problems and changes) and can be parameterized in tab `Assistance` of menu **Setup > General**.
 
-Les bonnes pratiques ITIL séparent l'urgence (définie par
-l'utilisateur), de l'impact de l'incident (un utilisateur, un service,
-une fonction...) qui est normalement renseigné par le technicien. Une
-matrice est alors utilisée pour calculer la priorité associée à
-l'élément du helpdesk (ticket, problème ou changement) en fonction de
-ces deux critères. GLPI fournit une matrice standard prédéfinie qui
-permet de retrouver un fonctionnement identique au helpdesk dans les
-versions précédentes de l'application (où ces deux notions d'urgence et
-impact n'existaient pas).
+ITIL best practices separate urgency (as defined by the user) from incident impact (a user, a service, a functionality...) which is usually set by the technician. A matrix is then used to compute the priority associated to the item of the help desk (ticket, problem or change) as a function of both urgency and impact. GLPI provides a default predefined matrix which corresponds to standard cases.
 
-Cette matrice pré-définie est modifiable et se trouve dans l'onglet
-*Assistance* du menu **Configuration > Générale** (Voir `Configurer les
-paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.rst>`__).
+This predefined matrix can be modified in tab `Assistance` of menu **Setup > General** (see :doc:`Configure general parameters </modules/configuration/06_Générale/01_Configurer_les_paramètres_centraux>`.
 
-Tout en sachant que l'ordre de traitement des éléments par les
-techniciens est basé sur la priorité, il est possible de sélectionner
-les différents niveaux d'urgence, d'impact ou de priorités qui seront
-utilisés dans le helpdesk et d'en désactiver certains. Cette action peut
-permettre de faciliter la déclaration et la qualification. Pour cela, il
-suffit de définir le niveau choisi à Non. Il faut noter que le niveau
-moyen n'est pas désactivable.
+Knowing that the order of items processing by technicians is based on priority, it is possible to select the different levels of urgency, impact or priorities that will be used in the help desk and to disable some of them. This action allows to ease declaration of an incident and its processing. To disable a level, this level must be set to `No`. Medium level cannot be disabled.
 
 .. image:: images/matricepriorite.png
-   :alt: Matrice de calcul de la priorité
+   :alt: Matrix of calculus for priority
    :align: center
 
-Dans l'exemple ci-dessus, le niveau d'urgence Basse ne sera pas proposé
-au demandeur et le niveau d'Impact Haut ne sera pas proposé au
-technicien.
+In example above, the urgency level `Low` will not be proposed to requester and the impact level `High` will not be proposed to the technician.
 
-***Remarque :** la priorité **majeure** utilisée par les tickets ne fait
-pas partie de la matrice. Celle-ci est supérieure aux autres, et
-nécessite le droit de modifier la priorité pour pouvoir l'assigner. Un
-incident majeur représente un ticket dont le traitement est tellement
-important qu'il prend le pas sur tous les autres.*
+.. note::
+   
+   The **Major** priority used by tickets is not part of the matrix. This level is higher than any other and requires the permission to modify priority in order to be able to assign it. A **Major** incident is a ticket whose processing is of such high importance that it overrides any other ticket.
 

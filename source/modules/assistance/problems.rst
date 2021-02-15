@@ -1,60 +1,61 @@
-Gérer les problèmes
-===================
+Manage problems
+===============
 
-Un problème est la cause d'un ou plusieurs incidents potentiels et peut
-généralement être identifié car un ou plusieurs incidents possèdent les
-mêmes symptômes.
+A problem is the cause of potential incidents and, once identified, can be managed in GLPI.
 
-La création d'un problème peut se faire soit depuis la fiche d'un
-incident, dans l'onglet *Problèmes*, soit directement depuis le menu
-***Assistance > Problèmes***.
+Creating a problem object can be done either from the ticket form, in tab *Problem*, or directly from menu *Assistance > Problems*.
 
-Le formulaire de déclaration d'un problème ressemble à celui des
-incidents, dont il partage les concepts (*demandeurs*, *observateurs*,
-*assignation*, *statut*, *urgence*, *impact*, *priorité*, *catégorie*).
-Pour plus d'informations voir `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__).
+The problem creation form is very similar to the ticket creation form and shares with it many concepts: `Requester`, `Watcher`, `Assigned to`, `Status`, `Urgency`, `Impact`, `Priority`, `Category`. For more information, see :doc:`Manage tickets </modules/assistance/tickets/ticketmanagement>`.
 
-***Remarque :** Depuis la liste des tickets, une solution de
-contournement peut être associé massivement aux tickets liés sans pour
-autant résoudre le problème.*
+.. todo::
+   Check what is means
+   From tickets list, an alternative solution can be associated to linked tickets without solving the problem.
+   Depuis la liste des tickets, une solution de contournement peut être associé massivement aux tickets liés sans pour autant résoudre le problème.
 
-Les problèmes utilisent leurs propres notifications (voir `Configurer
-les suivis par
-courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.rst>`__).
+Problems use their own notifications, see :doc:`Configure email notifications </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`.
 
-Des statistiques similaires aux tickets sont disponibles pour les
-problèmes (voir `Visualiser les
-statistiques <04_Module_Assistance/11_Statistiques.rst>`__).
+Statistics similar to tickets are available for problems, see :doc:`Display statistics </modules/assistance/statistics>`.
 
-Les différents onglets
-----------------------
+
+The different tabs
+------------------
+
+Changes
+~~~~~~~
+
+This tab allows to display changes associated with the problem and add new changes. See :doc:`Solutions </Les_différents_onglets/Onglet_Changements>`
+
+Analysis
+~~~~~~~~
+
+This tab contains problem analysis and describes impacts, causes and symptoms.
+
+Solutions
+~~~~~~~~~
+
+This tab allows to describe the resolution of the problem. See :doc:`Solutions </Les_différents_onglets/Onglet_Solution>`
+
+Statistics
+~~~~~~~~~~
+
+Statistics similar to tickets are available for problems. See :doc:`Statistics </Les_différents_onglets/Onglet_Statistiques>`
+
+Tasks
+~~~~~
+
+A task is an action linked with a problem, usually a technical intervention. See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`
+
+Costs
+~~~~~
+
+This tab defines the costs applicable to this problem. See :doc:`Costs </Les_différents_onglets/Onglet_Coûts>`
+
+Elements
+~~~~~~~~
+
+This tab allows to attach an item to the problem by choosing the type and the selected item. See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`
 
 .. include:: ../tabs/tickets.rst
-
--  **`Onglet
-   "Changements" <Les_différents_onglets/Onglet_Changements.rst>`__**
-   Ajouter et visualiser les changements associés à ce problème.
-
--  **`Onglet "Tâches" <Les_différents_onglets/Onglet_Tâches.rst>`__** Une
-   tâche est une action correspondant à une intervention technique liée
-   à un problème.
-
--  **`Onglet "Coûts" <Les_différents_onglets/Onglet_Coûts.rst>`__**
-   Définition des coûts applicables à ce problème.
-
--  **`Onglet "Eléments" <Les_différents_onglets/Onglet_Eléments.rst>`__**
-   Cet onglet permet d'associer un élément à ce problème en choisissant
-   le type ainsi que l'élément souhaité.
-
--  \*\*Onglet "Analyse" Cet onglet permet l'analyse du problème est
-   précisant les impacts, les causes et les symptômes.
-
--  **`Onglet "Solution" <Les_différents_onglets/Onglet_Solution.rst>`__**
-   Cet onglet permet d'indiquer la résolution du problème.
-
--  **`Onglet
-   "Statistiques" <Les_différents_onglets/Onglet_Statistiques.rst>`__**
 
 .. include:: ../tabs/documents.rst
 
@@ -64,23 +65,21 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
 
--  **`Ajouter un
-   problème <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
--  **`Modifier un
-   problème <Les_différentes_actions/Modifier_un_objet.rst>`__**
--  **`Supprimer un
-   problème <Les_différentes_actions/Supprimer_un_objet.rst>`__**
--  **`Associer un document à un
-   problème <Les_différentes_actions/Lier_un_document_à_un_objet.rst>`__**
--  **`Associer un élément à un
-   problème <Les_différentes_actions/Onglet_Eléments.rst>`__**
--  **`Associer un ticket à un
-   problème <Les_différentes_actions/Onglet_Tickets.rst>`__**
--  **`Associer un changement à un
-   problème <Les_différentes_actions/Onglet_Problèmes.rst>`__**
--  **`Transférer un problème vers une autre
-   entité <Les_différentes_actions/Transférer_un_objet.rst>`__**
+The different actions
+---------------------
+
+* :doc:`Add a problem <../../Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Modify a problem <../../Les_différentes_actions/modifier_un_objet>`
+* :doc:`Delete a problem <../../Les_différentes_actions/supprimer_un_objet>`
+* :doc:`Attach a document to a problem <../../Les_différentes_actions/associer_un_document_a_un_objet>`
+* :doc:`Transfer a problem to another entity <../../Les_différentes_actions/transferer_un_objet>`
+
+.. todo::
+
+   destination links do not exist:
+
+* :doc:`Associer un élément à un problem <../../Les_différentes_actions/Onglet_Eléments.rst>`
+* :doc:`Associer un ticket à un problem <../../Les_différentes_actions/Onglet_Tickets.rst>`
+* :doc:`Associer un changement à un problem <../../Les_différentes_actions/Onglet_Problèmes.rst>`
 

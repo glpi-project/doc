@@ -1,50 +1,23 @@
-Définir les acteurs et leurs rôles
-==================================
+Defining actors and roles
+=========================
 
-Voici les différents rôles que l'on retrouve traditionnellement dans les
-services d'assistance :
+An assistance service usually defines the following roles:
 
--  **Demandeurs** : ce sont les utilisateurs ou groupes d'utilisateurs
-   connus dans GLPI concernés par le ticket (la ou les victimes) ;
--  **Exécutants/Techniciens** ("attribué à") : la prise en charge d'un
-   ticket est effectuée soit par un technicien, soit par un groupe de
-   compétences ou encore par un fournisseur référencé dans l'application
-   ;
--  **Observateurs** : ce sont des utilisateurs ou groupes d'utilisateurs
-   qui peuvent suivre un ticket sans toutefois pouvoir intervenir
-   dessus. Le suivi peut se faire via connection dans GLPI ou via
-   réception de notifications.
+* **Requester** : user or group of users known to GLPI and affected by the ticket;
+* **Technician**: ticket processing is done by a technician, by a group or by a supplier;
+* **Watcher** : user who can follow a ticket but without modifying it; follow-up can be done from GLPI interface or by receiving notifications.
 
-Selon le rôle de l'utilisateur défini dans le profil, GLPI modifie les
-informations visibles ainsi que les actions possibles.
+Visible information and possible actions are defined by GLPI based on the user's role, which is defined in user's profile:
 
-Les techniciens sont les acteurs disposant des informations les plus
-complètes et de la plus large latitude d'actions sur les tickets.
+* Technicians are the actors having the most complete information on a ticket and the widest possible actions
+* Requester and watcher will only view the information needed to fulfill request.
 
-Le demandeur et l'observateur ne verront que les informations
-nécessaires pour répondre à leur demande.
+For multiple users or groups, only the first user or group is defined when creating the ticket, more actors are added later. A user who cannot modify actors but able to see the ticket can become a watcher.
 
-Dans le cas d'utilisateurs ou de groupes multiples, seul le premier
-utilisateur ou groupe est défini lors de la création du ticket, les
-acteurs supplémentaires sont ajoutés ultérieurement. Un utilisateur,
-n'ayant pas de droit de modifier les acteurs mais pouvant voir le ticket
-grâce à ses habilitations, a la possibilité de devenir observateur.
+When associating a new actor to a ticket, the number of tickets assigned to this actor is visible; this eases for instance task partitioning between technicians.
 
-Au moment de l'association d'un nouvel acteur, vous pouvez également
-voir le nombre de tickets en cours pour cet acteur permettant de
-faciliter la répartition des tâches entre techniciens par exemple.
+.. note::
 
-***Remarques :***
+   * for users who are not known to GLPI, mail address can be associated to a ticket. Default choice for requester and watcher (no selected user) allows to add a mail address in these fields; for this to be available, notifications must be activated (see :doc:`Configure notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`)
 
-*- Dans le cas d'utilisateurs non connus de GLPI, des courriels peuvent
-également être associés à un ticket. Le choix par défaut (pas
-d'utilisateur sélectionné) au niveau des demandeurs ou observateurs
-permet de saisir un courriel dans la zone correspondante. Pour ce faire,
-les notifications doivent être activées (voir `Configurer les
-notifications <08_Module_Configuration/04_Notifications/01_Configurer_les_notifications.rst>`__).*
-
-*- Dans GLPI, l'attribution de l'un de ces rôles se fait au niveau de la
-gestion des habilitations des utilisateurs (voir `Attribuer des
-habilitations à un
-utilisateur <07_Module_Administration/05_Règles/03_Habilitations_utilisateur.rst>`__).*
-
+   * Role attribution is done in user's authorization management (see :doc:`Attribute authorizations to a user </modules/administration/05_Règles/03_Habilitations_utilisateur>`)
