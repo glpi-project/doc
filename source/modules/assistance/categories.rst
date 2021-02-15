@@ -27,11 +27,6 @@ A category can be invisible in simplified interface, in order to reduce list of 
 
 A template can be associated with this category and will be loaded when this category is selected in ticket. This template can be different for demands and incidents.
 
-.. ??? sentence and example not clear
-.. La catégorisation faciliter le traitement d'un objet. Par exemple, pour un ticket, en fonction de la configuration souhaitée, le demandeur peut indiquer une catégorie, et le technicien la modifier.
-.. proposed translation:
-
-Using categories eases ticket processing (for example, for a ticket, depending on the configuration, the requester can select a category and the technician can change it).
 
 .. hint::
 
