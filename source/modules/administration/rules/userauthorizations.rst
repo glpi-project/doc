@@ -9,7 +9,7 @@ Les habilitations peuvent être attribuées statiquement, en affectant un utilis
 
 Il est conseillé d'utiliser le moteur de règles d'affectation d'entité et de droits pour attribuer automatiquement les habilitations. Pour cela, il est nécessaire d'utiliser une authentification externe.
 
-***Remarque :*** *si aucun annuaire LDAP, serveur POP ou IMAP ne sont configurés, alors le menu n'apparaît pas dans **Administration > Règles***.
+.. note:: si aucun annuaire LDAP, serveur POP ou IMAP ne sont configurés, alors le menu n'apparaît pas dans **Administration > Règles**.
 
 Le moteur exécute toutes les règles. Il ne s'arrête pas après la première règle qui s'applique à l'utilisateur. Plusieurs règles permettent ainsi d'attribuer différentes habilitations à un même utilisateur. Un utilisateur possédant plusieurs habilitations peut, au cours de sa session et selon ses activités, changer de profil et de contexte d'entité.
 
@@ -48,7 +48,7 @@ Lorsque plusieurs serveurs de messagerie sont définis comme source d'authentifi
 Habilitations basées sur l'identifiant de messagerie :
 ------------------------------------------------------
 
-Lorsque les adresses de messagerie des utilisateurs comportent plusieurs noms de domaine, ou une information pertinente pour définir les habilitations, cette information peut servir à définir les habilitations. Il est également possible d'affecter une entité à un utilisateur en utilisant le domaine de messagerie si celui-ci est spécifique à une entité. Le domaine de messagerie utilisé par l'entité est défini dans les `informations avancées des entités <07_Module_Administration/04_Entités.rst>`__.
+Lorsque les adresses de messagerie des utilisateurs comportent plusieurs noms de domaine, ou une information pertinente pour définir les habilitations, cette information peut servir à définir les habilitations. Il est également possible d'affecter une entité à un utilisateur en utilisant le domaine de messagerie si celui-ci est spécifique à une entité. Le domaine de messagerie utilisé par l'entité est défini dans les :doc:`informations avancées des entités </modules/administration/entities>`.
 
 ::
 
@@ -116,14 +116,14 @@ Soit un annuaire LDAP où l'organisation des branches (unités organisationnelle
 
 L'exécution de la règle récupère dans le "distinguished name" de l'utilisateur son unité organisationnelle (OU) d'appartenance. Elle va ensuite la comparer aux valeurs de l'attribut Information LDAP représentant l'entité dans la base. Si une entité à l'attribut dont la valeur correspond, alors cette dernière est utilisée comme résultat de la règle.
 
-***Remarque :** la valeur de l'action #0 indique que l'on doit utiliser le premier résultat de l'expression rationnelle. #1 indique le deuxième et ainsi de suite. Le bouton **Tester** du formulaire permet d'essayer des valeurs et de voir le résultat obtenu*.
+*.. note:: la valeur de l'action #0 indique que l'on doit utiliser le premier résultat de l'expression rationnelle. #1 indique le deuxième et ainsi de suite. Le bouton **Tester** du formulaire permet d'essayer des valeurs et de voir le résultat obtenu*.
 
 Habilitations basées sur les groupes ou les attributs d'un utilisateur dans un annuaire LDAP
 --------------------------------------------------------------------------------------------
 
 Dans l'annuaire, chacun des utilisateurs fait partie d'un groupe correspondant à un profil GLPI et d'un groupe correspondant à une entité. Un utilisateur peut faire partie de plusieurs profils et de plusieurs entités. Selon la configuration de l'annuaire, l'information de l'appartenance de l'utilisateur à un groupe se trouve dans l'objet utilisateur ou dans l'objet groupe. Dans le premier cas, les informations contenues dans l'objet utilisateur sont suffisantes pour créer des règles d'habilitation : il n'est pas nécessaire d'importer les groupes de l'annuaire dans GLPI. Dans le deuxième cas, les informations contenues dans l'objet utilisateur ne suffisent pas et il est nécessaire de récupérer les informations sur les groupes. Il faut alors d'abord configurer les groupes LDAP et la liaison automatique des utilisateurs aux groupes.
 
-***Remarque :** Tout ceci n'est pas limité aux attributs de type groupe, mais est valable pour les autres types d'attributs stockés dans l'annuaire.*
+.. note:: Tout ceci n'est pas limité aux attributs de type groupe, mais est valable pour les autres types d'attributs stockés dans l'annuaire.
 
 ::
 
@@ -173,7 +173,7 @@ Usage de différentes sources d'habilitations
 
 Des cas mixtes peuvent être rencontrés : les règles peuvent utiliser à la fois l'appartenance à des unités organisationnelles pour l'affectation à une entité, et l'appartenance à un groupe pour l'affectation à un profil.
 
-***Remarque :** il est possible de rajouter des critères LDAP supplémentaires en cliquant sur l'icône |image| à côté de la liste déroulante. Un critère est composé d'un nom (utilisé dans la liste déroulante), d'un critère (correspondant à l'attribut dans l'annuaire LDAP) et d'un commentaire.*
+.. note:: il est possible de rajouter des critères LDAP supplémentaires en cliquant sur l'icône |image| à côté de la liste déroulante. Un critère est composé d'un nom (utilisé dans la liste déroulante), d'un critère (correspondant à l'attribut dans l'annuaire LDAP) et d'un commentaire.
 
 .. |image| image:: /image/addcriteria.png
 

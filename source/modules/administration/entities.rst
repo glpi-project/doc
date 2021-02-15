@@ -17,9 +17,9 @@ On considère la hiérarchie suivante :
 
 L'entité mère (EM, ou nativement appelée Entité Racine dans GLPI) possède deux filiales (EA et EB) qui possèdent à leur tour deux départements chacune (EA1, EA2, EB1 et EB2). Chaque entité possède une vision de son parc et des entités qui lui sont affiliées.
 
--  EM a une vision de son parc et de toutes les entités.
--  EA a une vision de son parc et de EA1 et EA2.
--  EA1 ne voit que son parc.
+* EM a une vision de son parc et de toutes les entités.
+* EA a une vision de son parc et de EA1 et EA2.
+* EA1 ne voit que son parc.
 
 Un utilisateur peut être rattaché à plusieurs entités avec des droits différents. Ces droits peuvent être conservés sur les entités filles ou non. Pour reprendre l'exemple précédent, un utilisateur ne pourra déclarer un ticket qu'au sein de son service, se rapportant uniquement au matériel qui lui est rattaché ou à un matériel de son service (une imprimante, un écran...).
 
@@ -31,22 +31,22 @@ Les fonctionnements peuvent être amenés à varier d'une entité à une autre. 
 
 Dans le cadre d'une utilisation de GLPI en multi-entités, la gestion de certains paramètres de configuration peut s'effectuer différemment pour chaque entité (§).
 
-Les différents onglets
-----------------------
+The different tabs
+------------------
 
-- **Onglet "Entités"** Permet d'ajouter une sous-entité à l'entité sélectionnée et liste les sous-entités existantes.
+* **Onglet "Entités"** Permet d'ajouter une sous-entité à l'entité sélectionnée et liste les sous-entités existantes.
 
-- **Onglet "Adresse"** Regroupe les informations administrative de l'entité (adresse, téléphone, fax, courriel...).
+* **Onglet "Adresse"** Regroupe les informations administrative de l'entité (adresse, téléphone, fax, courriel...).
 
-- **Onglet "Informations avancées" §** Regroupe les données d'identification technique de l'entité : celles en rapport avec les règles génériques d'affectation à l'entité et celles concernant l'interface de recherche des utilisateurs. Ces données seront utilisés par les règles pour l'affectation automatique à cette entité (matériel si couplage avec un agent d'inventaire, utilisateur ou groupe si liaison avec un annuaire LDAP, ticket si création autorisé via un collecteur de courriel) ainsi que pour l'import et la synchronisation des utilisateurs issus d'un annuaire lDAP.
+* **Onglet "Informations avancées" §** Regroupe les données d'identification technique de l'entité : celles en rapport avec les règles génériques d'affectation à l'entité et celles concernant l'interface de recherche des utilisateurs. Ces données seront utilisés par les règles pour l'affectation automatique à cette entité (matériel si couplage avec un agent d'inventaire, utilisateur ou groupe si liaison avec un annuaire LDAP, ticket si création autorisé via un collecteur de courriel) ainsi que pour l'import et la synchronisation des utilisateurs issus d'un annuaire lDAP.
 
    Afin de donner à un administrateur d'une entité la possibilité d'importer ses utilisateurs d'un annuaire LDAP, il est nécessaire de préciser certains paramètres : l'annuaire associé à l'entité et le filtre de recherche. Ce dernier n'est important que si la définition d'une entité se fait par l'ajout d'une restriction sur le filtre LDAP. Il est également possible de définir le domaine de messagerie spécifique à l'entité qui peut être utilisé pour affecter les utilisateurs à cette entité.
 
    Trois options sont disponibles pour l'utilisation des règles d'affectation génériques à l'entité : le TAG provenant de l'outil d'inventaire, l'information LDAP représentant l'entité (par exemple le DN de l'entité, voir Attribuer des habilitations à un utilisateur), et le domaine de messagerie associé à celle-ci.
 
-- **Onglet "Notifications" §** Le paramétrage des notifications se fait par entité. Cet onglet regroupe deux tableaux :
+* **Onglet "Notifications" §** Le paramétrage des notifications se fait par entité. Cet onglet regroupe deux tableaux :
 
-   - les options globales pour toutes les notifications issues de GLPI : le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir `configuration des suivis par courriels <08_Module_Configuration/04_Notifications/02_Configuration_des_suivis_par_courriels.rst>`__) et la signature.
+   - les options globales pour toutes les notifications issues de GLPI : le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir :doc:`configuration des suivis par courriels </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`) et la signature.
 
    Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
 
@@ -56,7 +56,7 @@ Les différents onglets
 
    Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
 
-- **Onglet "Assistance" §** Cet onglet est visible si vous avez les droits de lire ou modifier les paramètres de l'entité dans votre profil. Il regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
+* **Onglet "Assistance" §** Cet onglet est visible si vous avez les droits de lire ou modifier les paramètres de l'entité dans votre profil. Il regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
 
    - **Gabarit de ticket :** à chaque création d'un ticket, le gabarit sélectionné sera appliqué ;
    - **Calendrier :** indique le calendrier par défaut utilisable dans l'entité. Ce calendrier sert à calculer les temps d'attente des tickets et le décalage des dates d'échéance. Il sera par exemple pré-sélectionné lors de la création d'un SLA ;
@@ -88,17 +88,17 @@ Les différents onglets
    -  [SLALEVEL\_ID] => id du niveau de sla
    -  [SLALEVEL\_NAME] = nom du niveau de sla
 
-- **Onglet "Parc" §** Cet onglet propose la configuration de la gestion des différentes dates présentes dans les informations administratives et financières. Les actions automatiques possibles sont :
+* **Onglet "Parc" §** Cet onglet propose la configuration de la gestion des différentes dates présentes dans les informations administratives et financières. Les actions automatiques possibles sont :
 
    -  le remplissage au passage du matériel dans un statut particulier ;
    -  le remplissage par copie d'une autre date ;
    -  aucune gestion automatique.
 
-   L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le `dictionnaire des logiciels <07_Module_Administration/05_Dictionnaires.rst>`__.
+   L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le :doc:`dictionnaire des logiciels </modules/administration/dictionnaries>`.
 
-- **Onglet "Utilisateurs"** Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
+* **Onglet "Utilisateurs"** Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
 
--  **Onglet "Règles" §** Cet onglet permet de créer des règles :
+* **Onglet "Règles" §** Cet onglet permet de créer des règles :
 
    - d'habilitations applicables à des utilisateurs ;
    - d'assignation de tickets ouverts par courriel. Si vous avez besoin de baser ces règles sur des critères, il faut ouvrir la nouvelle règle créée pour définir ces critères. Sont également listés les règles déjà applicables à cette entité.
@@ -111,12 +111,12 @@ Les différents onglets
 
 .. include:: ../tabs/all.rst
 
-Les différentes actions
------------------------
+The different actions
+---------------------
 
-- **`Ajouter une entité <Les_différentes_actions/Créer_un_nouvel_objet.rst>`__**
-- **`Voir une entité <Les_différentes_actions/Visualiser_un_objet.rst>`__**
-- **`Modifier une entité <Les_différentes_actions/Modifier_un_objet.rst>`__**
-- **`Supprimer une entité <Les_différentes_actions/Supprimer_un_objet.rst>`__**
-- **`Associer un document à une entité <Les_différentes_actions/Onglet_Eléments.rst>`__**
+* :doc:`Add a entité </Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Voir une entité </Les_différentes_actions/visualiser_un_objet>`
+* :doc:`Modifier une entité </Les_différentes_actions/modifier_un_objet>`
+* :doc:`Delete an entité </Les_différentes_actions/supprimer_un_objet>`
+* :doc:`Attach a document to a entité </Les_différentes_actions/associer_un_document_a_un_objet>`
 

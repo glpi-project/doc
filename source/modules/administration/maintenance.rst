@@ -10,15 +10,15 @@ Sauvegarder ou restaurer la base de données
 
 Il est possible de réaliser une sauvegarde SQL ou XML directement dans GLPI et de restaurer cette sauvegarde par la suite.
 
-***Conseil :*** Il est préférable d'utiliser le format SQL.
+.. hint:: Il est préférable d'utiliser le format SQL.
 
 La liste des sauvegardes apparaît à partir du moment ou au moins une sauvegarde a été réalisée. Il est ensuite possible de supprimer une sauvegarde précédemment réalisée, de restaurer la base de données à partir de la sauvegarde ou de télécharger la sauvegarde pour l'externaliser.
 
-    Avertissement : la restauration écrase toutes les modifications faites entre la date de sauvegarde et la date de restauration.
+.. warning:: la restauration écrase toutes les modifications faites entre la date de sauvegarde et la date de restauration.
 
 Figure 1. Maintenance de GLPI |image|
 
-***Remarque :** les différents boutons apparaissent suivant les droits définis dans votre profil*.
+.. note:: les différents boutons apparaissent suivant les droits définis dans votre profil.
 
 Il est toutefois préférable d'utiliser un outil externe, tel que mysqldump, pour faire des sauvegardes externes planifiées et de stocker ces sauvegardes sur un support externe.
 
@@ -26,8 +26,8 @@ Pour réaliser une sauvegarde complète de GLPI, il est indispensable de sauvega
 
 Les fichiers de GLPI se situent dans le répertoire d'installation sur le serveur web. Ils contiennent les fichiers de sauvegarde de la base de données créés depuis le menu Administration > Maintenance , ainsi que tous les documents ajoutés dans GLPI (associés aux tickets, aux matériels, aux contrats...).
 
-***Conseil :*** Si GLPI est installé dans un répertoire glpi, c'est ce répertoire qu'il convient de sauvegarder complètement.
+.. hint:: Si GLPI est installé dans un répertoire glpi, c'est ce répertoire qu'il convient de sauvegarder complètement.
 
 .. |image| image:: /image/checkVersion.png
-.. |image| image:: /image/maintenance.png
+.. |image2| image:: /image/maintenance.png
 

@@ -9,7 +9,7 @@ Les actions disponibles sont d'\ **ignorer l'import**, de l'\ **affecter à une 
 
     Important : Le moteur s'arrête à la première règle vérifiée. Il est donc nécessaire de bien ordonner la liste de règles. De plus, il est préférable de mettre en premier les règles qui ont le plus de chance d'être vérifiées (par exemple pour les entités comprenant beaucoup de matériels). Les règles d'affectation à une entité ne sont jouées que lors de l'import initial de la machine dans GLPI : c'est-à-dire qu'à partir du moment où une machine est importée, il n'existe aucun processus automatisé pour la changer d'entité (il faut utiliser l'option de **transfert** manuel).
 
-Grâce au mécanisme de liste noire de GLPI il est possible d'exclure certaines valeurs du traitement dans le moteur de règles comme certaines adresses IP ou MAC (par exemple une IP 127.0.0.1). Voir `Listes noires <07_Module_Administration/05_Règles/01_Gérer_les_règles.rst>`__.
+Grâce au mécanisme de liste noire de GLPI il est possible d'exclure certaines valeurs du traitement dans le moteur de règles comme certaines adresses IP ou MAC (par exemple une IP 127.0.0.1). Voir :doc:`Listes noires </modules/administration/rules/rulesmanagement>`.
 
 Règles d'import et de liaison des ordinateurs
 =============================================
