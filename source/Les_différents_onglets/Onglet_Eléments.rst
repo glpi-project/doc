@@ -104,7 +104,7 @@ cas contraire, ce lien sera ***Mettre à jour***.
 --------------
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.rst>`__
+problèmes <modules/assistance/problems>`__
 
 **Sujet parent :** `Gérer les
 changements <modules/assistance/changes>`__

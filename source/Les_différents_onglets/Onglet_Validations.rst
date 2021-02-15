@@ -62,7 +62,7 @@ sur un changement en attente de validation, une alerte sera affichée.*
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
+tickets <modules/assistance/tickets/ticketmanagement>`__
 
 **Sujet parent :** `Gérer les
 changements <modules/assistance/changes>`__
