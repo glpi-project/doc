@@ -1,29 +1,15 @@
-Visualiser les journaux d'activité
-==================================
+Display logs
+============
 
-Cette zone permet de visualiser et de trier l'historique des logs.
+This menu allows to display and sort logs.
 
-Elle affiche le type d'information modifiée (ordinateur, réservation,
-ticket...), la date de la modification, le service GLPI concerné
-(inventaire, configuration, tickets...) et un message détaillant
-l'événement.
+The logs page displays type of modified information (computer, reservation, ticket...), the modification date, GLPI service (inventory, configuration, tickets...) and a message detailing the event.
 
-***Remarques :*** *- Le niveau de journalisation des journaux est
-paramétrable dans l'onglet **Système** de la configuration générale
-(Niveau de journalisation).*
+.. note::
 
-*- La durée de conservation des journaux est paramétrable dans les
-actions automatiques. Voir Configurer les actions automatiques.*
+   * Log level can be parameterized in field **Log Level** of tab **System** of general configuration.
+   * Log retention period can be parameterized in automatic actions.
 
-.. figure:: /image/journaux.png
-   :alt: image
-
-   image
-
---------------
-
-**Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.rst>`__.
-
-**Sujet parent :** `Réaliser les opérations de
-maintenance <../glpi/admin.html>`__
+.. figure:: images/journaux.png
+   :alt: A log display
+   :align: center
