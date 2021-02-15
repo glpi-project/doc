@@ -44,21 +44,3 @@ Task categories
 ---------------
 
 Task categories are used to sort task in order to ease their processing or to build meaningful statistics.
-
-
-.. ??? All the remaining is already there in the other files => removed
-.. Scheduling rules
-.. ----------------
-.. `Les règles d'ordonnancement <04_Module_Assistance/03_Définir_la_matrice_de_calcul_de_la_priorité.rst>`__
-.. Configurer la matrice d'attribution des priorités en fonction de l'urgence et de l'impact : limiter les niveaux d'urgence et d'impact disponibles.
-.. Planning management
-.. -------------------
-.. `Consulter et gérer les plannings <04_Module_Assistance/09_Planning.rst>`__
-.. Suivez les tâches planifiées.
-.. Email notification
-.. ------------------
-.. Les actions sur les tickets peuvent entrainer l'envoi de notification suivant un évènement déclencheur (création d'un ticket, réponse à enquête de satisfaction...). Voir **configurer les notifications**.
-.. Statistics
-.. ----------
-.. `Les statistiques <04_Module_Assistance/10_Statistiques.rst>`__
-.. Les rapports concernant les tickets, les problèmes ou les changements sont disponibles dans le menu ***Assistance > Statistiques***.
