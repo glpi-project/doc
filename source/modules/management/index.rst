@@ -1,5 +1,5 @@
-Management module
-=================
+Management
+==========
 
 The GLPI Management module is used to manage the following items:
 

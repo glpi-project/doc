@@ -1,5 +1,5 @@
-Module Administration
-=====================
+Administration
+==============
 
 Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires et offre des outils de maintenance de l'application (sauvegarde et restauration de base, vérification de nouvelle version disponible).
 

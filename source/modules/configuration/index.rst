@@ -1,5 +1,5 @@
-Module Configuration
-====================
+Configuration
+=============
 
 Le module Configuration permet d'accéder aux options de configuration générale de GLPI : la configuration globale de GLPI, les notifications, les collecteurs, les tâches automatiques, l'authentification, les plugins, les critères d'unicité et les liens externes protocolés.
 

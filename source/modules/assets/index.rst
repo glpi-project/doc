@@ -1,5 +1,5 @@
-Asset module
-============
+Assets
+======
 
 The GLPI Asset module is used to manage all the assets that are part of your IT infrastructure.
 
