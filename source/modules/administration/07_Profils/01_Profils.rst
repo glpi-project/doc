@@ -130,7 +130,7 @@ dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
    ainsi que l'affectation d'un gabarit au profil.
 
 -  **`Onglet "Cycle de
-   vie" <04_Module_Assistance/05_Les_matrices_de_cycle_de_vie.rst>`__**
+   vie" <modules/assistance/lifecyclematrix>`__**
    Droits sur le processus de changement de statut d'un ticket, d'un
    problème et d'un changement.
 
