@@ -1,30 +1,14 @@
-Les 7 droits standard ne seront pas listés (voir `Explication des
-droits <07_Module_Administration/07_Profils/01_Profils.rst>`__).
+Les 7 droits standard ne seront pas listés (voir `Explication des droits <07_Module_Administration/07_Profils/01_Profils.rst>`__).
 
 |image| Droits **Affichage des résultats de recherche** :
 
-permet le paramétrage de l'affichage via |image| dans le moteur de
-recherche.
+permet le paramétrage de l'affichage via |image| dans le moteur de recherche.
 
--  ***Affichage utilisateur*** : affiche un onglet *Vue personnelle*
-   permettant la personnalisation de l'affichage pour l'utilisateur
-   connecté. La personnalisation se fait objet par objet.
+- ***Affichage utilisateur*** : affiche un onglet *Vue personnelle* permettant la personnalisation de l'affichage pour l'utilisateur connecté. La personnalisation se fait objet par objet.
 
--  ***Affichage par défaut*** : permet de modifier l'affichage standard
-   qui sera appliqué à chaque utilisateur ne possédant pas de vue
-   personnelle.
+- ***Affichage par défaut*** : permet de modifier l'affichage standard qui sera appliqué à chaque utilisateur ne possédant pas de vue personnelle.
 
-|image| Les éléments de la partie Intitulés rentrent dans les 7 droits
-standard. Cette partie permet de pouvoir affiner le paramétrage de
-chaque entité et donc peut être donner en l'administrateur de l'entité.
-
---------------
-
-**Sujet parent :** `La gestion des
-profils <07_Module_Administration/07_Profils/01_Profils.rst>`__.
-
-**Sujet parent :** `Module
-Administration <07_Module_Administration/01_Module_Administration.rst>`__.
+|image| Les éléments de la partie Intitulés rentrent dans les 7 droits standard. Cette partie permet de pouvoir affiner le paramétrage de chaque entité et donc peut être donner en l'administrateur de l'entité.
 
 .. |image| image:: /image/config.png
 .. |image| image:: /image/options_search.png
