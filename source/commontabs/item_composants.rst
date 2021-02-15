@@ -59,7 +59,7 @@ ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs.rst>`__
 périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
+imprimantes <modules/assets/printers>`__
 
 .. |image| image:: /image/add_dropdown.png
 

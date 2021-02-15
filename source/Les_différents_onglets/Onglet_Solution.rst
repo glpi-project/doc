@@ -80,4 +80,4 @@ tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
 problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.rst>`__
+changements <modules/assistance/changes>`__

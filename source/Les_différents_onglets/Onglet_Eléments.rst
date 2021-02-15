@@ -107,7 +107,7 @@ cas contraire, ce lien sera ***Mettre à jour***.
 problèmes <04_Module_Assistance/08_Problèmes.rst>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.rst>`__
+changements <modules/assistance/changes>`__
 
 **Sujet parent :** `Gérer les
 budgets <05_Module_Gestion/02_Budgets.rst>`__

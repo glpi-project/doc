@@ -43,7 +43,7 @@ moniteurs <03_Module_Parc/05_Gérer_les_moniteurs.rst>`__
 périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
+imprimantes <modules/assets/printers>`__
 
 **Sujet parent :** `Gérer les
 téléphones <../glpi/inventory_phone.html>`__

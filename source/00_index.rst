@@ -93,7 +93,7 @@
 
    -  `Créer un ticket <04_Module_Assistance/07_Créer_un_ticket.rst>`__
    -  `Gérer les problèmes <04_Module_Assistance/08_Problèmes.rst>`__
-   -  `Gérer les changements <04_Module_Assistance/09_Changements.rst>`__
+   -  `Gérer les changements <modules/assistance/changes>`__
    -  `Les plannings <04_Module_Assistance/10_Planning.rst>`__
    -  `Les statistiques <04_Module_Assistance/11_Statistiques.rst>`__
    -  `Les tickets

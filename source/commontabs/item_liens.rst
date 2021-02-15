@@ -33,7 +33,7 @@ réseaux <03_Module_Parc/07_Gérer_les_matériels_réseaux.rst>`__
 périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
+imprimantes <modules/assets/printers>`__
 
 **Sujet parent :** `Gérer les
 cartouches <03_Module_Parc/10_Gérer_les_cartouches.rst>`__
