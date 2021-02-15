@@ -1,7 +1,7 @@
 Manage projects
 ===============
 
-Project management in GLPI allows to follow entirely a project's progress by creating tasks and building teams; projects can be optionally linked to a :doc:`change </modules/assistance/09_Changements>`. 
+Project management in GLPI allows to follow entirely a project's progress by creating tasks and building teams; projects can be optionally linked to a :doc:`change </modules/assistance/changes>`. 
 
 A GLPI project allows:
 
