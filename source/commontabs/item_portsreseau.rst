@@ -130,10 +130,10 @@ complexe <appendix/image_complexe_networkport.html>`__).*
 ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.rst>`__
 
 **Sujet parent :** `Gérer les matériels
-réseaux <03_Module_Parc/07_Gérer_les_matériels_réseaux.rst>`__
+réseaux <modules/assets/network-equipments>`__
 
 **Sujet parent :** `Gérer les
-périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
+périphériques <modules/assets/peripherals>`__
 
 **Sujet parent :** `Gérer les
 imprimantes <modules/assets/printers>`__

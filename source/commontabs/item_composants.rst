@@ -53,10 +53,10 @@ enregistré dans l'historique de l'ordinateur.*
 --------------
 
 **Sujet parent :** `Gérer les
-ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs.rst>`__
+ordinateurs <modules/assets/computers>`__
 
 **Sujet parent :** `Gérer les
-périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
+périphériques <modules/assets/peripherals>`__
 
 **Sujet parent :** `Gérer les
 imprimantes <modules/assets/printers>`__
