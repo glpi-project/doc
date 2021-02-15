@@ -1,5 +1,5 @@
 Associer un fournisseur et un contact
-====================================
+=====================================
 
 Il existe deux méthodes pour associer un fournisseur et un contact.
 

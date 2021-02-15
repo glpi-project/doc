@@ -1,5 +1,5 @@
 Rendre un matériel indisponible
-=============================
+===============================
 
 Depuis l'outil de réservation
 -----------------------------

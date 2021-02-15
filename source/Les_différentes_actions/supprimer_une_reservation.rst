@@ -4,7 +4,7 @@ Supprimer une réservation en cours
 Plusieurs méthodes pour supprimer une réservation :
 
 Depuis le planning du matériel
-------------------------
+------------------------------
 
 * Rendez vous dans la fiche du matériel concerné
 * Dans l'onglet **Réservations**, accédez au planning
