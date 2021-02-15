@@ -19,13 +19,13 @@ Figure 1. Onglet Statistiques d'un ticket |image|
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
+tickets <modules/assistance/tickets/ticketmanagement>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.rst>`__
+problèmes <modules/assistance/problems>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.rst>`__
+changements <modules/assistance/changes>`__
 
 .. |image| image:: /image/tabStatistique.png
 

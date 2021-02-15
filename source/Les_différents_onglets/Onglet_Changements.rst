@@ -7,7 +7,7 @@ Module Assistance
 Suivant vos droits dans votre profil, vous pouvez choisir d'ajouter un
 changement existant à cet objet (ticket ou problème) ou créer un
 changement à partir de cet objet (voir `Gestion des
-changements <04_Module_Assistance/09_Changements.rst>`__). Dans ce
+changements <modules/assistance/changes>`__). Dans ce
 dernier cas, le changement créé reprendra les concepts de l'objet
 (*demandeurs*, *observateurs*, *assignation*, *statut*, *urgence*,
 *impact*, *priorité*, *catégorie*).
@@ -34,10 +34,10 @@ pas de créer directement un changement depuis le projet.
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
+tickets <modules/assistance/tickets/ticketmanagement>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.rst>`__
+problèmes <modules/assistance/problems>`__
 
 **Sujet parent :** `Gérer les
 projets <06_Module_Outils/02_Projets/01_Projets.rst>`__

@@ -39,7 +39,7 @@ Onglet *Solution* d'un ticket
    ticket (personne qui a saisi le ticket, par exemple un technicien de
    hot-line) si la matrice de cycle de vie du ticket l'autorise (Voir
    `Matrice de cycle de
-   vie <04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.rst>`__).
+   vie <modules/assistance/tickets/ticketlifecycle>`__).
 
    L'approbation peut se faire de 2 manières :
 
@@ -69,15 +69,15 @@ Onglet *Solution* d'un ticket
 
    De même, vous pouvez supprimer cette opération d(approbation via la
    `matrice de cycle de
-   vie <04_Module_Assistance/04_Tickets/02_Matrice_de_cycle_de_vie.rst>`__.
+   vie <modules/assistance/tickets/ticketlifecycle>`__.
 
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
+tickets <modules/assistance/tickets/ticketmanagement>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.rst>`__
+problèmes <modules/assistance/problems>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/09_Changements.rst>`__
+changements <modules/assistance/changes>`__

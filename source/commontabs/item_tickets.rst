@@ -19,19 +19,19 @@ Figure 1. Onglet Tickets d'un ordinateur |image|
 ordinateurs <03_Module_Parc/04_Gérer_les_ordinateurs/01_Gérer_les_ordinateurs.rst>`__
 
 **Sujet parent :** `Gérer les
-moniteurs <03_Module_Parc/05_Gérer_les_moniteurs.rst>`__
+moniteurs <modules/assets/monitors>`__
 
 **Sujet parent :** `Gérer les
-logiciels <03_Module_Parc/06_Gérer_les_logiciels.rst>`__
+logiciels <modules/assets/softwares>`__
 
 **Sujet parent :** `Gérer les matériels
-réseaux <03_Module_Parc/07_Gérer_les_matériels_réseaux.rst>`__
+réseaux <modules/assets/network-equipments>`__
 
 **Sujet parent :** `Gérer les
-périphériques <03_Module_Parc/08_Gérer_les_périphériques.rst>`__
+périphériques <modules/assets/peripherals>`__
 
 **Sujet parent :** `Gérer les
-imprimantes <03_Module_Parc/09_Gérer_les_imprimantes.rst>`__
+imprimantes <modules/assets/printers>`__
 
 **Sujet parent :** `Gérer les
 téléphones <../glpi/inventory_phone.html>`__

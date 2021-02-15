@@ -42,13 +42,13 @@ module assistance avec uniquement le nom du ticket en plus.
 --------------
 
 **Sujet parent :** `Gérer les
-tickets <04_Module_Assistance/06_Tickets/03_Gérer_les_tickets.rst>`__
+tickets <modules/assistance/tickets/ticketmanagement>`__
 
 **Sujet parent :** `Gérer les
-problèmes <04_Module_Assistance/08_Problèmes.rst>`__
+problèmes <modules/assistance/problems>`__
 
 **Sujet parent :** `Gérer les
-changements <04_Module_Assistance/08_Changements.rst>`__
+changements <modules/assistance/changes>`__
 
 **Sujet parent :** `Gérer les
 projets <06_Module_Outils/02_Projets/01_Projets.rst>`__

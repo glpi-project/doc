@@ -1,5 +1,5 @@
-Assistance module
-=================
+Assistance
+==========
 
 Assistance module allows users to create, follow and process tickets. Plannings, statistics and recurrent tickets are also available.
 
