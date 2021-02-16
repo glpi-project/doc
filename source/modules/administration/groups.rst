@@ -56,9 +56,17 @@ Sous-groupes
 ~~~~~~~~~~~~
 Permet d'ajouter un sous-groupe au groupe sélectionné et liste les sous-groupes existants.
 
-* **:doc:`Onglet "Eléments utilisés" </Les_différents_onglets/Onglet_Eléments>`** Liste les éléments pour lesquels le champ *Groupe* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Utilisateur* de l'objet).
+Eléments utilisés
+~~~~~~~~~~~~~~~~~
+Liste les éléments pour lesquels le champ *Groupe* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Utilisateur* de l'objet).
 
-* **:doc:`Onglet "Eléments gérés" </Les_différents_onglets/Onglet_Eléments>`** Liste les éléments pour lesquels le champ *Groupe Technique* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Responsable technique* de l'objet).
+See :doc:`Onglet "Eléments utilisés" </Les_différents_onglets/Onglet_Eléments>`
+
+Eléments gérés
+~~~~~~~~~~~~~~
+Liste les éléments pour lesquels le champ *Groupe Technique* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Responsable technique* de l'objet).
+
+See :doc:`Onglet "Eléments gérés" </Les_différents_onglets/Onglet_Eléments>`
 
 Liaison annuaire LDAP
 ~~~~~~~~~~~~~~~~~~~~~
@@ -81,7 +89,11 @@ Pour les groupes, il est possible de lister également les tickets des sous-grou
 
 * :doc:`Onglet "Historique" </commontabs/item_historique>`
 
-* **:doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`** Pour un élément, toutes les informations sont affichées sur une seule page.
+Tous
+~~~~
+Pour un élément, toutes les informations sont affichées sur une seule page.
+
+See :doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`
 
 The different actions
 ---------------------

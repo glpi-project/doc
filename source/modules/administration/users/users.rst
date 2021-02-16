@@ -33,18 +33,34 @@ Préférences
 
 Permet l'édition des préférences de l'utilisateur. Voir :doc:`Gérer ses préférences </first-steps/preferences>`.  Pour modifier les données de cet onglet vous devez avoir les droits de modifier la configuration générale.
 
-* **:doc:`Onglet "Eléments utilisés" </Les_différents_onglets/Onglet_Eléments>`** L'utilisateur est défini dans le champ *Utilisateur* de l'objet ou est membre du groupe défini dans le champ *Groupe* de l'objet.
+Eléments utilisés
+~~~~~~~~~~~~~~~~~
+L'utilisateur est défini dans le champ *Utilisateur* de l'objet ou est membre du groupe défini dans le champ *Groupe* de l'objet.
 
-* **:doc:`Onglet "Eléments gérés" </Les_différents_onglets/Onglet_Eléments>`** L'utilisateur est défini dans le champ *Responsable technique* de l'objet ou est membre du groupe défini dans le champ *Groupe technique* de l'objet.
+See :doc:`Onglet "Eléments utilisés" </Les_différents_onglets/Onglet_Eléments>`
 
-* **:doc:`Onglet "Réservations" </Les_différents_onglets/Onglet_Réservations>`** Liste les réservations passées, en cours et à venir de l'utilisateur.  Vous devez avoir le droit de lecture sur l'administration des réservations pour voir cet onglet.
+Eléments gérés
+~~~~~~~~~~~~~~
+L'utilisateur est défini dans le champ *Responsable technique* de l'objet ou est membre du groupe défini dans le champ *Groupe technique* de l'objet.
+
+See :doc:`Onglet "Eléments gérés" </Les_différents_onglets/Onglet_Eléments>`
+
+Réservations
+~~~~~~~~~~~~
+Liste les réservations passées, en cours et à venir de l'utilisateur.  Vous devez avoir le droit de lecture sur l'administration des réservations pour voir cet onglet.
+
+See :doc:`Onglet "Réservations" </Les_différents_onglets/Onglet_Réservations>`
 
 Synchronisation
 ~~~~~~~~~~~~~~~
 
 Cet onglet apparaît si vous avez les droits "Mise à jour auth et sync" dans votre profil. Il permet de changer la méthode d'authentification d'un utilisateur et de forcer sa synchronisation.
 
-* **:doc:`Onglet "Liens" </Les_différents_onglets/Onglet_Liens>`** Cet onglet liste les liens externes définis pour les utilisateurs.
+Liens
+~~~~~
+Cet onglet liste les liens externes définis pour les utilisateurs.
+
+See :doc:`Onglet "Liens" </Les_différents_onglets/Onglet_Liens>`
 
 .. include:: ../../tabs/tickets.rst
 

@@ -76,14 +76,22 @@ Cet onglet gère les droits sur les tickets, les suivis, les tâches, les valida
 
 See :doc:`Tab "Assistance" </modules/administration/profiles/assistancetab>`
 
-* **:doc:`Onglet "Cycle de vie" <modules/assistance/lifecyclematrix>`** Droits sur le processus de changement de statut d'un ticket, d'un problème et d'un changement.
+Cycle de vie
+~~~~~~~~~~~~
+Droits sur le processus de changement de statut d'un ticket, d'un problème et d'un changement.
+
+See :doc:`Onglet "Cycle de vie" <modules/assistance/lifecyclematrix>`
 
 Gestion
 ~~~~~~~
 
 Les éléments du menu ***Gestion*** bénéficient des 7 droits standard (voir ci dessus). |image| Petite particularité pour les droits sur les ***informations financières*** : Ce droit sert également pour les objets ayant des informations financières.  Par exemple vous ne pourrez pas purger un ordinateur ayant des informations financières si vous n'avez pas le droit Purge sur les informations financières.
 
-* **:doc:`Onglet "Outils" </modules/administration/profiles/03_Onglet_Outils>`** Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
+Outils
+~~~~~~
+Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
+
+See :doc:`Onglet "Outils" </modules/administration/profiles/03_Onglet_Outils>`
 
 Administration
 ~~~~~~~~~~~~~~
@@ -100,9 +108,19 @@ Utilisateurs
 
 Liste des entités dans lesquelles ce profil est attribué. Pour voir les utilisateurs correspondant, il suffit de cliquer sur l'entité concernée. *"D"* signifie que les droits ont été attribués dynamiquement *"R"* signifie que les droits sont récursifs depuis l'entité d'affectation
 
-* **:doc:`Onglet "Historique" </Les_différents_onglets/Onglet_Historique>`** L'historique est visualisé depuis l'onglet *Historique*
+Historique
+~~~~~~~~~~
 
-* **:doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`** Pour un élément, toutes les informations sont affichées sur une seule page.
+L'historique est visualisé depuis l'onglet *Historique*
+
+See :doc:`Onglet "Historique" </Les_différents_onglets/Onglet_Historique>`
+
+Tous
+~~~~
+
+Pour un élément, toutes les informations sont affichées sur une seule page.
+
+See :doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`
 
 Tools
 ~~~~~

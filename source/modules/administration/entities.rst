@@ -64,9 +64,13 @@ Le paramétrage des notifications se fait par entité. Cet onglet regroupe deux 
 
   Vous pouvez également définir si le suivi par mail d'un acteur est défini à Oui ou Non.
 
-* les options de déclenchement des alertes pour les cartouches, consommables, contrats, informations financières, licences, réservations et tickets. > Important : Chaque option d'alerte est associée à une action automatique. Si l'action est désactivée par l'administrateur de GLPI, aucune notification ne sera envoyée.
+* les options de déclenchement des alertes pour les cartouches, consommables, contrats, informations financières, licences, réservations et tickets. 
 
-  Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
+  .. warning::
+
+     Chaque option d'alerte est associée à une action automatique. Si l'action est désactivée par l'administrateur de GLPI, aucune notification ne sera envoyée.
+
+Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
 
 Assistance
 ~~~~~~~~~~
@@ -103,16 +107,20 @@ Cet onglet est visible si vous avez les droits de lire ou modifier les paramètr
    -  [SLALEVEL\_ID] => id du niveau de sla
    -  [SLALEVEL\_NAME] = nom du niveau de sla
 
-* **Onglet "Parc" §** Cet onglet propose la configuration de la gestion des différentes dates présentes dans les informations administratives et financières. Les actions automatiques possibles sont :
+Parc
+~~~~
 
-   -  le remplissage au passage du matériel dans un statut particulier ;
-   -  le remplissage par copie d'une autre date ;
-   -  aucune gestion automatique.
+Cet onglet propose la configuration de la gestion des différentes dates présentes dans les informations administratives et financières. Les actions automatiques possibles sont :
 
-   L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le :doc:`dictionnaire des logiciels </modules/administration/dictionnaries>`.
+- le remplissage au passage du matériel dans un statut particulier ;
+- le remplissage par copie d'une autre date ;
+- aucune gestion automatique.
+
+L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le :doc:`dictionnaire des logiciels </modules/administration/dictionnaries>`.
 
 Utilisateurs
 ~~~~~~~~~~~~
+
 Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
 
 Règles
