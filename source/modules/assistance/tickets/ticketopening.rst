@@ -5,7 +5,7 @@ A requester formulating a need can use several tools:
 
 * filling an online form, the requester being known to GLPI or not;
 
-* asking a delegate in the group to open the ticket (see :doc:`Administer groups </modules/administration/03_Groupes>`. In simplified interface, this is put into evidence by an option allowing to indicate if the ticket concerns the requesting user or another user. In standard interface, this mechanism is active as long as authorization **See all tickets** is set to *No* in the profile; all users for which delegation is active will be added as requester;
+* asking a delegate in the group to open the ticket (see :doc:`Administer groups </modules/administration/groups>`. In simplified interface, this is put into evidence by an option allowing to indicate if the ticket concerns the requesting user or another user. In standard interface, this mechanism is active as long as authorization **See all tickets** is set to *No* in the profile; all users for which delegation is active will be added as requester;
 
 * contacting an operator directly or by phone, the operator will open the ticket;
 
@@ -57,7 +57,7 @@ Specific fields:
   Appears if email followup are configured, see :doc:`Configure notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`. If set to `Yes`, the requester will be kept informed by mail of the different processing of the ticket. The field *Mail* contains the email address to which notifications will be sent. If several email addresses are defined, GLPI will select the default email defined in user's preferences. It is possible to select another email address or to enter an address if user's profile does not mention an email;
 
 * **Associated elements**:
-  Allows to associate an item of the inventory with the ticket. The content of the list depends upon parameters defined in user's profile (see :doc:`Administer user profile </modules/administration/07_Profils/01_Profils>`.
+  Allows to associate an item of the inventory with the ticket. The content of the list depends upon parameters defined in user's profile (see :doc:`Administer user profile </modules/administration/profiles/profiles>`.
 
 * **Watchers**:
   Allows to add a watcher and to define notification parameters. Only members of the requester group can be added.

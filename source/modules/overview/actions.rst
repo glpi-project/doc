@@ -127,7 +127,7 @@ To make a transfer, it is first necessary to check that the used profile has per
 
 In order to make a transfer:
 
-#. Configure the actions performed by the transfer :doc:`Administration Rules Transfer <../administration/05_Règles/01_Gérer_les_règles>` ;
+#. Configure the actions performed by the transfer :doc:`Administration Rules Transfer </modules/administration/rules/rulesmanagement>` ;
 #. Check that profile performing transfer has permission on the origin entity and on the destination entity (simplest solution is to use a recursive profile from root entity) ;
 #. Go to root entity (`See all`) ;
 #. From objects list, select the element to be transferred ;

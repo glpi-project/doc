@@ -77,7 +77,7 @@ It is possible to choose the source of the followup, see :doc:`Configure dropdow
 
 A followup can be public or private. A private followup is only visible by GLPI users having the authorization `See all followup and tasks`. It allows for instance to have an exchange between technician which is not visible by requester.
 
-Adding, modifying and deleting a followup is submited to authorizations defined in profile, see :doc:`Administer user profiles </modules/administration/07_Profils/01_Profils>`.
+Adding, modifying and deleting a followup is submited to authorizations defined in profile, see :doc:`Administer user profiles </modules/administration/profiles/profiles>`.
 
 Approvals
 ~~~~~~~~~

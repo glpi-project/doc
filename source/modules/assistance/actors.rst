@@ -20,4 +20,4 @@ When associating a new actor to a ticket, the number of tickets assigned to this
 
    * for users who are not known to GLPI, mail address can be associated to a ticket. Default choice for requester and watcher (no selected user) allows to add a mail address in these fields; for this to be available, notifications must be activated (see :doc:`Configure notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`)
 
-   * Role attribution is done in user's authorization management (see :doc:`Attribute authorizations to a user </modules/administration/05_Règles/03_Habilitations_utilisateur>`)
+   * Role attribution is done in user's authorization management (see :doc:`Attribute authorizations to a user </modules/administration/rules/userauthorizations>`)

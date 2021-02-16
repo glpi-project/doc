@@ -26,9 +26,9 @@ Email is used to create tickets and add follow-up to existing tickets. A GLPI in
 A mail message will go through the following steps:
 
 * Mail box;
-* Collector, configured using :doc:`Unknown document <config_mailcollector.html>`;
-* Rules, see :doc:`Assigned a ticked opened by mail to an entity </modules/administration/05_Règles/02_Collecteur_de_courriels>`
-* Business rules, see :doc:`Business rules for tickets </modules/administration/05_Règles/04_Règles_métier_pour_les_tickets>`
+* Collector, configured using :doc:`Configure collectors </config/config_mailcollector>`;
+* Rules, see :doc:`Assigned a ticked opened by mail to an entity </modules/administration/rules/mailcollector>`
+* Business rules, see :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`
 * Ticket is created
 
 An answer to a mail coming from GLPI will go through the following steps:
@@ -71,7 +71,7 @@ Business rules
 
 Business rules can be defined to modify and assign tickets.
 
-See :doc:`Business rules for tickets </modules/administration/05_Règles/04_Règles_métier_pour_les_tickets>`.
+See :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
 
 
 Administrative closure
@@ -79,7 +79,7 @@ Administrative closure
 
 Administrative closure moves the status of a ticket from *Solved* to *Closed*.
 
-ITIL best practices recommends a validation of the solution by the ticket requester, who validates that the answer provided by the technician corresponds to the demand. However, if the requester does not fulfill this validation, it is possible to parameterize an administrative closure after a delay which can be configured at entity level (see :doc:`Assistance tab </modules/administration/04_Entités>`). If this delay is set to zero, the ticket is automatically closed.
+ITIL best practices recommends a validation of the solution by the ticket requester, who validates that the answer provided by the technician corresponds to the demand. However, if the requester does not fulfill this validation, it is possible to parameterize an administrative closure after a delay which can be configured at entity level (see :doc:`Assistance tab </modules/administration/entities>`). If this delay is set to zero, the ticket is automatically closed.
 
 
 Satisfaction
@@ -87,7 +87,7 @@ Satisfaction
 
 (I can't get no)
 
-A satisfaction survey is triggered when the ticket status is set to *Closed* and the triggering delay is elapsed. This triggering delay is parameterized at entity level (see :doc:`Delegate administration at entity level </modules/administration/04_Entités>`).
+A satisfaction survey is triggered when the ticket status is set to *Closed* and the triggering delay is elapsed. This triggering delay is parameterized at entity level (see :doc:`Delegate administration at entity level </modules/administration/entities>`).
 
 .. note::
 
