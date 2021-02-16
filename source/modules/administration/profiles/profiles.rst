@@ -56,11 +56,14 @@ Avant de voir, onglet par onglet, les droits spécifiques, il y a certains droit
 * ***Mise à jour notes*** : permet de modifier le contenu d'une note ou de la supprimer
 
 The different tabs
-----------------------
+------------------
 
 Remarque : L'affichage de la gestion des profils est fonction du profil dont l'utilisateur connecté dépend. Il peut donc varier selon le profil.
 
-* **Onglet "Parc"** Les éléments du menu ***Parc*** bénéficient des 7 droits standard (voir ci dessus) |image| Droit ***Internet*** :
+Parc
+~~~~
+
+Les éléments du menu ***Parc*** bénéficient des 7 droits standard (voir ci dessus) |image| Droit ***Internet*** :
 
    - champ IP d'un port réseau
    - association ou dissociation d'un nom réseau à un port réseau
@@ -75,7 +78,10 @@ See :doc:`Tab "Assistance" </modules/administration/profiles/assistancetab>`
 
 * **:doc:`Onglet "Cycle de vie" <modules/assistance/lifecyclematrix>`** Droits sur le processus de changement de statut d'un ticket, d'un problème et d'un changement.
 
-* **Onglet "Gestion"** Les éléments du menu ***Gestion*** bénéficient des 7 droits standard (voir ci dessus). |image| Petite particularité pour les droits sur les ***informations financières*** : Ce droit sert également pour les objets ayant des informations financières.  Par exemple vous ne pourrez pas purger un ordinateur ayant des informations financières si vous n'avez pas le droit Purge sur les informations financières.
+Gestion
+~~~~~~~
+
+Les éléments du menu ***Gestion*** bénéficient des 7 droits standard (voir ci dessus). |image| Petite particularité pour les droits sur les ***informations financières*** : Ce droit sert également pour les objets ayant des informations financières.  Par exemple vous ne pourrez pas purger un ordinateur ayant des informations financières si vous n'avez pas le droit Purge sur les informations financières.
 
 * **:doc:`Onglet "Outils" </modules/administration/profiles/03_Onglet_Outils>`** Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
 
@@ -89,7 +95,10 @@ Configuration
 
 See :doc:`Tab "Configuration" </modules/administration/profiles/configurationtab>`
 
-* **Onglet "Utilisateurs"** Liste des entités dans lesquelles ce profil est attribué. Pour voir les utilisateurs correspondant, il suffit de cliquer sur l'entité concernée. *"D"* signifie que les droits ont été attribués dynamiquement *"R"* signifie que les droits sont récursifs depuis l'entité d'affectation
+Utilisateurs
+~~~~~~~~~~~~
+
+Liste des entités dans lesquelles ce profil est attribué. Pour voir les utilisateurs correspondant, il suffit de cliquer sur l'entité concernée. *"D"* signifie que les droits ont été attribués dynamiquement *"R"* signifie que les droits sont récursifs depuis l'entité d'affectation
 
 * **:doc:`Onglet "Historique" </Les_différents_onglets/Onglet_Historique>`** L'historique est visualisé depuis l'onglet *Historique*
 

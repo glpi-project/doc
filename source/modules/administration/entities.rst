@@ -34,29 +34,44 @@ Dans le cadre d'une utilisation de GLPI en multi-entités, la gestion de certain
 The different tabs
 ------------------
 
-* **Onglet "Entités"** Permet d'ajouter une sous-entité à l'entité sélectionnée et liste les sous-entités existantes.
+Entités
+~~~~~~~
 
-* **Onglet "Adresse"** Regroupe les informations administrative de l'entité (adresse, téléphone, fax, courriel...).
+Permet d'ajouter une sous-entité à l'entité sélectionnée et liste les sous-entités existantes.
 
-* **Onglet "Informations avancées" §** Regroupe les données d'identification technique de l'entité : celles en rapport avec les règles génériques d'affectation à l'entité et celles concernant l'interface de recherche des utilisateurs. Ces données seront utilisés par les règles pour l'affectation automatique à cette entité (matériel si couplage avec un agent d'inventaire, utilisateur ou groupe si liaison avec un annuaire LDAP, ticket si création autorisé via un collecteur de courriel) ainsi que pour l'import et la synchronisation des utilisateurs issus d'un annuaire lDAP.
+Adresse
+~~~~~~~
 
-   Afin de donner à un administrateur d'une entité la possibilité d'importer ses utilisateurs d'un annuaire LDAP, il est nécessaire de préciser certains paramètres : l'annuaire associé à l'entité et le filtre de recherche. Ce dernier n'est important que si la définition d'une entité se fait par l'ajout d'une restriction sur le filtre LDAP. Il est également possible de définir le domaine de messagerie spécifique à l'entité qui peut être utilisé pour affecter les utilisateurs à cette entité.
+Regroupe les informations administrative de l'entité (adresse, téléphone, fax, courriel...).
 
-   Trois options sont disponibles pour l'utilisation des règles d'affectation génériques à l'entité : le TAG provenant de l'outil d'inventaire, l'information LDAP représentant l'entité (par exemple le DN de l'entité, voir Attribuer des habilitations à un utilisateur), et le domaine de messagerie associé à celle-ci.
+Informations avancées
+~~~~~~~~~~~~~~~~~~~~~
 
-* **Onglet "Notifications" §** Le paramétrage des notifications se fait par entité. Cet onglet regroupe deux tableaux :
+Regroupe les données d'identification technique de l'entité : celles en rapport avec les règles génériques d'affectation à l'entité et celles concernant l'interface de recherche des utilisateurs. Ces données seront utilisés par les règles pour l'affectation automatique à cette entité (matériel si couplage avec un agent d'inventaire, utilisateur ou groupe si liaison avec un annuaire LDAP, ticket si création autorisé via un collecteur de courriel) ainsi que pour l'import et la synchronisation des utilisateurs issus d'un annuaire lDAP.
 
-   - les options globales pour toutes les notifications issues de GLPI : le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir :doc:`configuration des suivis par courriels </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`) et la signature.
+Afin de donner à un administrateur d'une entité la possibilité d'importer ses utilisateurs d'un annuaire LDAP, il est nécessaire de préciser certains paramètres : l'annuaire associé à l'entité et le filtre de recherche. Ce dernier n'est important que si la définition d'une entité se fait par l'ajout d'une restriction sur le filtre LDAP. Il est également possible de définir le domaine de messagerie spécifique à l'entité qui peut être utilisé pour affecter les utilisateurs à cette entité.
 
-   Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
+Trois options sont disponibles pour l'utilisation des règles d'affectation génériques à l'entité : le TAG provenant de l'outil d'inventaire, l'information LDAP représentant l'entité (par exemple le DN de l'entité, voir Attribuer des habilitations à un utilisateur), et le domaine de messagerie associé à celle-ci.
 
-   Vous pouvez également définir si le suivi par mail d'un acteur est défini à Oui ou Non.
+Notifications
+~~~~~~~~~~~~~
 
-   - les options de déclenchement des alertes pour les cartouches, consommables, contrats, informations financières, licences, réservations et tickets. > Important : Chaque option d'alerte est associée à une action automatique. Si l'action est désactivée par l'administrateur de GLPI, aucune notification ne sera envoyée.
+Le paramétrage des notifications se fait par entité. Cet onglet regroupe deux tableaux :
 
-   Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
+* les options globales pour toutes les notifications issues de GLPI : le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir :doc:`configuration des suivis par courriels </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`) et la signature.
 
-* **Onglet "Assistance" §** Cet onglet est visible si vous avez les droits de lire ou modifier les paramètres de l'entité dans votre profil. Il regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
+  Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
+
+  Vous pouvez également définir si le suivi par mail d'un acteur est défini à Oui ou Non.
+
+* les options de déclenchement des alertes pour les cartouches, consommables, contrats, informations financières, licences, réservations et tickets. > Important : Chaque option d'alerte est associée à une action automatique. Si l'action est désactivée par l'administrateur de GLPI, aucune notification ne sera envoyée.
+
+  Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
+
+Assistance
+~~~~~~~~~~
+
+Cet onglet est visible si vous avez les droits de lire ou modifier les paramètres de l'entité dans votre profil. Il regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
 
    - **Gabarit de ticket :** à chaque création d'un ticket, le gabarit sélectionné sera appliqué ;
    - **Calendrier :** indique le calendrier par défaut utilisable dans l'entité. Ce calendrier sert à calculer les temps d'attente des tickets et le décalage des dates d'échéance. Il sera par exemple pré-sélectionné lors de la création d'un SLA ;
@@ -96,12 +111,17 @@ The different tabs
 
    L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le :doc:`dictionnaire des logiciels </modules/administration/dictionnaries>`.
 
-* **Onglet "Utilisateurs"** Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
+Utilisateurs
+~~~~~~~~~~~~
+Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
 
-* **Onglet "Règles" §** Cet onglet permet de créer des règles :
+Règles
+~~~~~~
 
-   - d'habilitations applicables à des utilisateurs ;
-   - d'assignation de tickets ouverts par courriel. Si vous avez besoin de baser ces règles sur des critères, il faut ouvrir la nouvelle règle créée pour définir ces critères. Sont également listés les règles déjà applicables à cette entité.
+Cet onglet permet de créer des règles :
+
+- d'habilitations applicables à des utilisateurs ;
+- d'assignation de tickets ouverts par courriel. Si vous avez besoin de baser ces règles sur des critères, il faut ouvrir la nouvelle règle créée pour définir ces critères. Sont également listés les règles déjà applicables à cette entité.
 
 .. include:: ../tabs/documents.rst
 

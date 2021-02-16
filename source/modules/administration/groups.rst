@@ -50,19 +50,30 @@ Depuis la liste des groupes, vous pouvez importer un groupe depuis un annuaire L
     Important : dans le cas d'une migration depuis une version inférieure à GLPI 0.80, toute liaison manuelle réalisée préalablement sur un groupe provenant de l'annuaire LDAP sera perdue.
 
 The different tabs
-----------------------
+------------------
 
-* **Onglet "Sous-groupes"** Permet d'ajouter un sous-groupe au groupe sélectionné et liste les sous-groupes existants.
+Sous-groupes
+~~~~~~~~~~~~
+Permet d'ajouter un sous-groupe au groupe sélectionné et liste les sous-groupes existants.
 
 * **:doc:`Onglet "Eléments utilisés" </Les_différents_onglets/Onglet_Eléments>`** Liste les éléments pour lesquels le champ *Groupe* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Utilisateur* de l'objet).
 
 * **:doc:`Onglet "Eléments gérés" </Les_différents_onglets/Onglet_Eléments>`** Liste les éléments pour lesquels le champ *Groupe Technique* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Responsable technique* de l'objet).
 
-* **Onglet "Liaison annuaire LDAP** Cet onglet n'apparait que si vous avez le droit "Mise à jour auth et sync" dans votre profil. Il regroupe les informations permettant à GLPI de retrouver le groupe et ses utilisateurs dans l'annuaire LDAP.
+Liaison annuaire LDAP
+~~~~~~~~~~~~~~~~~~~~~
 
-* **Onglet "Utilisateurs** Cet onglet permet d'ajouter un utilisateur à ce groupe en définissant s'il est *délégataire* et/ou *superviseur* de ce groupe. Il liste également les utilisateurs de ce groupe avec recherche possible via critère (délégataire ou superviseur) et également dans les sous-groupe du groupe courant.
+Cet onglet n'apparait que si vous avez le droit "Mise à jour auth et sync" dans votre profil. Il regroupe les informations permettant à GLPI de retrouver le groupe et ses utilisateurs dans l'annuaire LDAP.
 
-* **Onglet "Notifications"** Liste des notifications pour lesquelles ce groupe est destinataire ou le superviseur de ce groupe. |image|]
+Utilisateurs
+~~~~~~~~~~~~
+
+Cet onglet permet d'ajouter un utilisateur à ce groupe en définissant s'il est *délégataire* et/ou *superviseur* de ce groupe. Il liste également les utilisateurs de ce groupe avec recherche possible via critère (délégataire ou superviseur) et également dans les sous-groupe du groupe courant.
+
+Notifications
+~~~~~~~~~~~~~
+
+Liste des notifications pour lesquelles ce groupe est destinataire ou le superviseur de ce groupe. |image|]
 
 .. include:: ../tabs/tickets.rst
 
@@ -73,7 +84,7 @@ Pour les groupes, il est possible de lister également les tickets des sous-grou
 * **:doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`** Pour un élément, toutes les informations sont affichées sur une seule page.
 
 The different actions
------------------------
+---------------------
 
 * :doc:`Add a groupe </Les_différentes_actions/creer_un_nouvel_objet>`
 * :doc:`Voir un groupe </Les_différentes_actions/visualiser_un_objet>`
