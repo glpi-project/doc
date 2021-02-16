@@ -14,7 +14,7 @@ Administration module allows to administrate users, groups, entities, profiles, 
    profiles/profiles
    mailqueue
    maintenance
-   journals
+   logs
 	      
 
 
