@@ -125,5 +125,5 @@ The different actions
 * :doc:`Delete a profil </Les_différentes_actions/supprimer_un_objet>`
 
 .. |image| image:: /image/parc.png
-.. |image2| image:: /image/gestion.png
+.. |image2| image:: ../images/gestion.png
 

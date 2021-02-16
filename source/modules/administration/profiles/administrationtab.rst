@@ -37,10 +37,10 @@ Droits **Maintenance** :
 
 |image| Les éléments de la partie Dictionnaires rentrent dans les 7 droits standard.
 
-.. |image| image:: /image/legendedroits.png
-.. |image2| image:: /image/admin.png
-.. |image3| image:: /image/addUserLdap.png
-.. |image4| image:: /image/checkVersion.png
+.. |image| image:: ../images/legendedroits.png
+.. |image2| image:: ../images/admin.png
+.. |image3| image:: ../images/addUserLdap.png
+.. |image4| image:: ../images/checkVersion.png
 .. |image5| image:: /image/regles.png
-.. |image6| image:: /image/dico.png
+.. |image6| image:: ../images/dico.png
 

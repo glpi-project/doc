@@ -68,9 +68,9 @@ La fonction |image| (sous la liste des règles d'un dictionnaire) permet de repa
 
 * **Dictionnaires sur les systèmes d'exploitation** Suivant le dictionnaire choisi, le critère portera sur le système d'exploitation lui-même ou le service pack du système d'exploitation ou la version du système d'exploitation.
 
-.. |image| image:: /image/importrule.png
-.. |image2| image:: /image/playrule.png
-.. |image3| image:: /image/critereMozilla.png
-.. |image4| image:: /image/actionMozilla.png
-.. |image5| image:: /image/resultatMozilla.png
+.. |image| image:: images/importrule.png
+.. |image2| image:: images/playrule.png
+.. |image3| image:: images/critereMozilla.png
+.. |image4| image:: images/actionMozilla.png
+.. |image5| image:: images/resultatMozilla.png
 

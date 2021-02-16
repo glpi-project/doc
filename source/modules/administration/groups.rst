@@ -83,6 +83,6 @@ The different actions
 * :doc:`Attach a ticket to a groupe </commontabs/item_tickets>`
 * :doc:`Transfer a groupe vers une autre entité </Les_différentes_actions/transferer_un_objet>`
 
-.. |image| image:: /image/addUserLdap.png
+.. |image| image:: images/addUserLdap.png
 .. |image2| image:: /image/notifGroupe.png
 

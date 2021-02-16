@@ -25,9 +25,9 @@ Une fois importé depuis un annuaire, GLPI stocke l'identifiant unique LDAP de l
 
 Si une source externe d'authentification est configurée, il devient possible d'importer et de synchroniser les utilisateurs depuis celle-ci.  Pour la maintenance régulière de la base d'utilisateur, il est conseillé d'utiliser les automatismes que permettent le script :doc:``ldap_mass_sync.php`` (voir `Importer et synchroniser depuis un annuaire par script <scripts_ldap_mass_sync.html>`). Pour la gestion quotidienne, des mécanismes d'import manuel sont accessibles (voir ci-dessus).
 
-.. |image| image:: /image/addUserAll.png
-.. |image2| image:: /image/addUser.png
+.. |image| image:: ../images/addUserAll.png
+.. |image2| image:: ../images/addUser.png
 .. |image3| image:: /image/menu_add.png
-.. |image4| image:: /image/addUserExt.png
-.. |image5| image:: /image/addUserLdap.png
+.. |image4| image:: ../images/addUserExt.png
+.. |image5| image:: ../images/addUserLdap.png
 

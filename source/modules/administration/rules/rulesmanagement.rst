@@ -127,6 +127,6 @@ Les expressions rationnelles (autrement appelées regex) renvoient un ou plusieu
     Critère : Nom expression rationnelle vérifie /DESKTOP\_(.\*)/ . 
     Si l'objet a pour nom DESKTOP_0001, alors il sera possible d'utiliser 0001 dans les actions de la règle en utilisant le paramètre \#0.
 
-.. |image| image:: /image/importrule.png
+.. |image| image:: ../images/importrule.png
 .. |image2| image:: /image/testrule.png
 

@@ -152,11 +152,11 @@ Droit **Validation** :
 
 L'onglet Validation ne s'affichera dans le ticket que si vous avez un des droits Validation.
 
-.. |image| image:: /image/assistance.png
+.. |image| image:: ../images/assistance.png
 .. |image2| image:: /image/tickets.png
 .. |image3| image:: /image/suivisTaches.png
 .. |image4| image:: /image/validations.png
-.. |image5| image:: /image/associations.png
+.. |image5| image:: ../images/associations.png
 .. |image6| image:: /image/visibilite.png
-.. |image7| image:: /image/changements.png
+.. |image7| image:: ../images/changements.png
 

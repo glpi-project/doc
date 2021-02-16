@@ -14,7 +14,7 @@ permet le paramétrage de l'affichage via |image| dans le moteur de recherche.
 
 |image| Les éléments de la partie Intitulés rentrent dans les 7 droits standard. Cette partie permet de pouvoir affiner le paramétrage de chaque entité et donc peut être donner en l'administrateur de l'entité.
 
-.. |image| image:: /image/config.png
+.. |image| image:: ../images/config.png
 .. |image2| image:: /image/options_search.png
-.. |image3| image:: /image/intitules.png
+.. |image3| image:: ../images/intitules.png
 

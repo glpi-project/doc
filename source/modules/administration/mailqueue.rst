@@ -15,5 +15,5 @@ Une fois la notification expédiée, la file d'attente est positionnée dans la 
 
 .. note:: vous aurez dans la corbeille autant de files d'attente que de destinataires, chacune ayant sa propre date d'envoi.
 
-.. |image| image:: /image/mailqueue.png
+.. |image| image:: images/mailqueue.png
 

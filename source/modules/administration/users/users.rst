@@ -57,5 +57,5 @@ The different actions
 * :doc:`Attach a élément to a utilisateur </Les_différents_onglets/Onglet_Eléments>`
 * :doc:`Attach a ticket to a utilisateur </commontabs/item_tickets>`
 
-.. |image| image:: /image/addUserAll.png
+.. |image| image:: ../images/addUserAll.png
 

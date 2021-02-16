@@ -28,6 +28,6 @@ Les fichiers de GLPI se situent dans le répertoire d'installation sur le serveu
 
 .. hint:: Si GLPI est installé dans un répertoire glpi, c'est ce répertoire qu'il convient de sauvegarder complètement.
 
-.. |image| image:: /image/checkVersion.png
-.. |image2| image:: /image/maintenance.png
+.. |image| image:: images/checkVersion.png
+.. |image2| image:: images/maintenance.png
 
