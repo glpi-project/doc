@@ -18,9 +18,12 @@ Le dictionnaire fonctionne de la manière suivante :
 
 La fonction |image| (sous la liste des règles d'un dictionnaire) permet de repasser les règles sur des données déjà existantes en base.
 
-    Important : Si la base est conséquente, il faudra faire bien attention à la valeur du paramètre *memory\_limit* dans le fichier de configuration de PHP : en effet les traitements peuvent être très longs.
+.. warning:: Si la base est conséquente, il faudra faire bien attention à la valeur du paramètre *memory\_limit* dans le fichier de configuration de PHP : en effet les traitements peuvent être très longs.
 
-.. hint:: - Comme pour tous les autres dictionnaires, il est très fortement conseillé de jouer les règles sur une base de test et de sauvegarder la base de données avant la mise en production du dictionnaire ou de nouvelles règles. - Un script est disponible dans le répertoire scripts de GLPI (*compute\_dictionnary.php*), qui permet de lancer les dictionnaires en ligne de commande. Cela permet de s'affranchir des problèmes de limite d'exécution et propose un gain de temps appréciable.
+.. hint:: 
+
+   * Comme pour tous les autres dictionnaires, il est très fortement conseillé de jouer les règles sur une base de test et de sauvegarder la base de données avant la mise en production du dictionnaire ou de nouvelles règles. 
+   * Un script est disponible dans le répertoire scripts de GLPI (*compute\_dictionnary.php*), qui permet de lancer les dictionnaires en ligne de commande. Cela permet de s'affranchir des problèmes de limite d'exécution et propose un gain de temps appréciable.
 
 * **Dictionnaire général**
 
@@ -28,7 +31,7 @@ La fonction |image| (sous la liste des règles d'un dictionnaire) permet de repa
 
    ::
 
-      .. warning:: il faut être très prudent en utilisant l'action *ajouter le résultat de l'expression régulière* sur une version. En effet, celle-ci n'est prise en compte que lors de  l'import de données venant d'un outil d'inventaire et sera ignorée en cas de ré-application du dictionnaire sur la base existante.
+   .. warning:: il faut être très prudent en utilisant l'action *ajouter le résultat de l'expression régulière* sur une version. En effet, celle-ci n'est prise en compte que lors de  l'import de données venant d'un outil d'inventaire et sera ignorée en cas de ré-application du dictionnaire sur la base existante.
 
    Figure 1. Exemple de regroupement des logiciels Mozilla Les critères sont cumulatifs (ET) |image| |image| Cela aura pour effet de regrouper les logiciels Mozilla par type (Mozilla Thunderbird, MozillaFirefox...) et de grouper tous les noms de versions par type.  |image|
 
