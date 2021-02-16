@@ -1,3 +1,7 @@
+.. not included in any toctree, but "included" with link
+
+:orphan:
+
 Règles métier pour les tickets
 ==============================
 

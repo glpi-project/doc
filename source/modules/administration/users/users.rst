@@ -9,6 +9,12 @@ Une photo peut être associée manuellement ou importée automatiquement depuis 
 
 Depuis la liste des utilisateurs, 3 options sont proposées pour :doc:`importer un utilisateur |image| </modules/administration/users/usersimport>`.
 
+.. toctree::
+   :maxdepth: 1
+
+   usersimport
+
+
 The different tabs
 ------------------
 

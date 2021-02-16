@@ -1,3 +1,7 @@
+.. not included in any toctree, but "included" with link
+
+:orphan:
+
 Les 7 droits standard ne seront pas listés (voir :doc:`Explication des droits </modules/administration/profiles/profiles>`).
 
 Interface simplifiée

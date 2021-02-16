@@ -1,3 +1,7 @@
+.. not included in any toctree, but "included" with link
+
+:orphan:
+
 Attribuer des habilitations à un utilisateur
 ============================================
 

@@ -1,3 +1,7 @@
+.. not included in any toctree, but "included" with link
+
+:orphan:
+
 Affecter un ticket ouvert par courriel à une entité
 ===================================================
 

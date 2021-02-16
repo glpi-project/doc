@@ -1,3 +1,7 @@
+.. not included in any toctree, but "included" with link
+
+:orphan:
+
 Interface simplifiée
 ====================
 
@@ -49,7 +53,7 @@ L'onglet Validation ne s'affichera dans le ticket que si vous avez un des droits
 
 ***Gabarit de ticket par défaut*** : gabarit qui sera appliqué au profil.
 
-    .. warning:: le gabarit étant appliqué au profil qui est un élément de la configuration générale, la liste ne contient que les gabarits récursifs de l'entité racine.
+.. warning:: le gabarit étant appliqué au profil qui est un élément de la configuration générale, la liste ne contient que les gabarits récursifs de l'entité racine.
 
 ***Voir les matériels de mes groupes*** : matériels dont le type est autorisé et pour lesquels je suis membre du groupe.
 

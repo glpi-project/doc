@@ -37,7 +37,7 @@ Une fois le profil créé, il sera possible d'établir les droits sur les diffé
 
 Les différents droits d'un objet sont listés sur la ligne de son nom.  Pour activer un droit il suffit de cocher la case correspondante (et inversement pour supprimer un droit).
 
-    .. warning:: Aucune déduction de droit n'est faite ; par exemple, pour pouvoir modifier un objet vous devez également donner le droit de lecture.
+.. warning:: Aucune déduction de droit n'est faite ; par exemple, pour pouvoir modifier un objet vous devez également donner le droit de lecture.
 
 Droits après migration: La migration reprend intégralement vos anciens droits, quel que soit l'objet et active les valeurs correspondantes dans le nouveau système.
 
@@ -66,7 +66,12 @@ Remarque : L'affichage de la gestion des profils est fonction du profil dont l'u
    - association ou dissociation d'un nom réseau à un port réseau
    - partie Internet des intitulés (Réseaux IP, domaine internet, réseaux wifi, noms réseaux)
 
-* **:doc:`Onglet "Assistance" <administration/profiles/02_Onglet_Assistance>`** Cet onglet gère les droits sur les tickets, les suivis, les tâches, les validations, les associations, les problèmes et les changements.  Il gère également la visibilité des statistiques et des plannings ainsi que l'affectation d'un gabarit au profil.
+Assistance
+~~~~~~~~~~
+
+Cet onglet gère les droits sur les tickets, les suivis, les tâches, les validations, les associations, les problèmes et les changements.  Il gère également la visibilité des statistiques et des plannings ainsi que l'affectation d'un gabarit au profil.
+
+See :doc:`Tab "Assistance" </modules/administration/profiles/assistancetab>`
 
 * **:doc:`Onglet "Cycle de vie" <modules/assistance/lifecyclematrix>`** Droits sur le processus de changement de statut d'un ticket, d'un problème et d'un changement.
 
@@ -74,15 +79,27 @@ Remarque : L'affichage de la gestion des profils est fonction du profil dont l'u
 
 * **:doc:`Onglet "Outils" </modules/administration/profiles/03_Onglet_Outils>`** Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
 
-* :doc:`Onglet "Administration" </modules/administration/profiles/administrationtab>`
+Administration
+~~~~~~~~~~~~~~
 
-* :doc:`Onglet "Configuration" </modules/administration/profiles/configurationtab>`
+See :doc:`Tab "Administration" </modules/administration/profiles/administrationtab>`
+
+Configuration
+~~~~~~~~~~~~~
+
+See :doc:`Tab "Configuration" </modules/administration/profiles/configurationtab>`
 
 * **Onglet "Utilisateurs"** Liste des entités dans lesquelles ce profil est attribué. Pour voir les utilisateurs correspondant, il suffit de cliquer sur l'entité concernée. *"D"* signifie que les droits ont été attribués dynamiquement *"R"* signifie que les droits sont récursifs depuis l'entité d'affectation
 
 * **:doc:`Onglet "Historique" </Les_différents_onglets/Onglet_Historique>`** L'historique est visualisé depuis l'onglet *Historique*
 
 * **:doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`** Pour un élément, toutes les informations sont affichées sur une seule page.
+
+Tools
+~~~~~
+
+See :doc:`Tab "Tools" </modules/administration/profiles/toolstab>`
+
 
 The different actions
 -----------------------

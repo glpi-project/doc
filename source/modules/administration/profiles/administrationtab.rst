@@ -1,3 +1,7 @@
+.. not included in any toctree, but "included" with link
+
+:orphan:
+
 Les 7 droits standard ne seront pas listés (voir :doc:`Explication des droits </modules/administration/profiles/profiles>`).
 
 Avant de commencer le détail des droits de la partie Administration, il faut bien faire attention à la couleur des zones de droits. En effet, comme indiqué dans la légende |image| certains droits s'appliquent globalement dans GLPI et d'autres peuvent être délégués localement.  Exemple : les profils définis le sont pour toutes les entités. Par contre les règles métier peuvent varier d'une entité à une autre.

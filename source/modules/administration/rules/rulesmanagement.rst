@@ -42,20 +42,39 @@ Elles peuvent être désactivées : par exemple lorsqu'elles sont en cours d'éc
 Les différentes règles
 ----------------------
 
-* **:doc:`Règles pour assigner un ticket créé via un collecteur de courriels </modules/administration/rules/01_Collecteur_de_courriels>`** GLPI implémente un mécanisme de routage des tickets ouverts par courriel, afin de les créer dans la bonne entité.
+Règles pour assigner un ticket créé via un collecteur de courriels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :doc:`Règles d'affectation d'habilitations à un utilisateur </modules/administration/rules/userauthorizations>`
+GLPI implémente un mécanisme de routage des tickets ouverts par courriel, afin de les créer dans la bonne entité.
+
+See :doc:`Règles pour assigner un ticket créé via un collecteur de courriels </modules/administration/rules/mailcollector>`
+
+Règles d'affectation d'habilitations à un utilisateur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See :doc:`Règles d'affectation d'habilitations à un utilisateur </modules/administration/rules/userauthorizations>`
+
 
 * Règles d'affectation d'une catégorie aux logiciels
 
    Une classification par catégorie permet de faciliter l'affichage et la recherche des logiciels. Celle-ci peut se faire de manière automatique pour tout nouveau logiciel, ou rétroactivement. Les critères disponibles sont l'éditeur, le nom et le commentaire du logiciel. La seule action possible est l'affectation d'un logiciel à une catégorie. Il est possible de rejouer le moteur depuis la liste des logiciels, grâce à l'action massive Recalculer la catégorie.
 
-* **:doc:`Règles métier pour les tickets </modules/administration/rules/04_Règles_métier_pour_les_tickets>`** Lors de la création et/ou de la modification d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.
+Règles métier pour les tickets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* **:doc:`Règles en liaison avec un agent d'inventaire </modules/administration/rules/05_Règles_outil_d'inventaire>`** Les deux menus ci-dessous ne sont visibles que si vous utilisez un agent d'inventaire pour une remontée automatique des ordinateurs dans GLPI.
+Lors de la création et/ou de la modification d'un ticket, un mécanisme permet de modifier les attributs du ticket de manière automatique.
 
-   - affectation d'un élément à une entité
-   - règle d'import et de liaison des ordinateurs
+See :doc:`Règles métier pour les tickets </modules/administration/rules/ticketbusinessrules>`
+
+Règles en liaison avec un agent d'inventaire
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Les deux menus ci-dessous ne sont visibles que si vous utilisez un agent d'inventaire pour une remontée automatique des ordinateurs dans GLPI.
+
+* affectation d'un élément à une entité
+* règle d'import et de liaison des ordinateurs
+
+See :doc:`Règles en liaison avec un agent d'inventaire </modules/administration/rules/inventorytools>`
 
 * **Transférer** Ce menu vous permet de définir les profils de transfert inter-entités.
 
