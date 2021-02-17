@@ -80,7 +80,7 @@ Cycle de vie
 ~~~~~~~~~~~~
 Droits sur le processus de changement de statut d'un ticket, d'un problème et d'un changement.
 
-See :doc:`Onglet "Cycle de vie" <modules/assistance/lifecyclematrix>`
+See :doc:`Onglet "Cycle de vie" </modules/assistance/lifecyclematrix>`
 
 Gestion
 ~~~~~~~
@@ -91,7 +91,7 @@ Outils
 ~~~~~~
 Cet onglet gère les droits sur les notes, les flux RSS, les marques-pages publics, les rapports, les réservations, la base de connaissance ainsi que les projets et les tâches d'un projet.
 
-See :doc:`Onglet "Outils" </modules/administration/profiles/03_Onglet_Outils>`
+See :doc:`Onglet "Outils" </modules/administration/profiles/toolstab>`
 
 Administration
 ~~~~~~~~~~~~~~
@@ -113,14 +113,14 @@ Historique
 
 L'historique est visualisé depuis l'onglet *Historique*
 
-See :doc:`Onglet "Historique" </Les_différents_onglets/Onglet_Historique>`
+See :doc:`Onglet "Historique" </commontabs/item_historique>`
 
 Tous
 ~~~~
 
 Pour un élément, toutes les informations sont affichées sur une seule page.
 
-See :doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`
+See :doc:`Onglet "Tous" </commontabs/item_tous>`
 
 Tools
 ~~~~~

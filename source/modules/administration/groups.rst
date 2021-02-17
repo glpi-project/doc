@@ -93,7 +93,7 @@ Tous
 ~~~~
 Pour un élément, toutes les informations sont affichées sur une seule page.
 
-See :doc:`Onglet "Tous" </Les_différents_onglets/Onglet_Tous>`
+See :doc:`Onglet "Tous" </commontabs/item_tous>`
 
 The different actions
 ---------------------

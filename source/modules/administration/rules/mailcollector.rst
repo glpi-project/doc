@@ -21,7 +21,7 @@ Enfin il existe un troisième type de critères qui joue sur des données propre
 
 Les actions sont soit le refus du ticket (avec ou sans notification du refus à l'émetteur), soit l'import dans une entité (manuel, depuis TAG, depuis domaine de messagerie, depuis profil de l'utilisateur).
 
-    Important : le moteur s'arrête à la première règle vérifiée.
+.. warning:: le moteur s'arrête à la première règle vérifiée.
 
 ::
 

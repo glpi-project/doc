@@ -72,7 +72,7 @@ External Links
 
 This tab list external links defined for users.
 
-See :doc:`Tab "Links" </Les_différents_onglets/Onglet_Liens>`
+See :doc:`Tab "Links" </commontabs/item_liens>`
 
 .. include:: ../../tabs/tickets.rst
 
