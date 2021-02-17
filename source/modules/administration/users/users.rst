@@ -1,23 +1,16 @@
 Manage users
 ============
 
-User management allows to add, modify, delete, search users and to export users list.
-
-It is possible to deactivate a user if needed. If deactivated, the user can no longer be selected in drop-down menu for tickets or inventories, but keeps associated items and tickets. Validity dates can also define the activity time slot of user: the user account will be considered as active only after the start date and/or before the end date. Both dates can be defined independently.
-
-A photo can be added manually or imported automatically from a directory (see :doc:`Authenticate users with LDAP </modules/configuration/authentification/ldap>`).
-
-From users list, three options are available for :doc:`importing a user </modules/administration/users/usersimport>`.
-
-.. image:: ../images/addUserAll.png
-   :alt: Adding a user
-   :align: center
+User management allows to add, modify, delete, search users and to import and export users list.
 
 .. toctree::
    :maxdepth: 1
 
    usersimport
 
+It is possible to deactivate a user if needed. If deactivated, the user can no longer be selected in drop-down menu for tickets or inventories, but keeps associated items and tickets. Validity dates can also define the activity time slot of user: the user account will be considered as active only after the start date and/or before the end date. Both dates can be defined independently.
+
+A photo can be added manually or imported automatically from a directory (see :doc:`Authenticate users with LDAP </modules/configuration/authentification/ldap>`).
 
 The different tabs
 ------------------
