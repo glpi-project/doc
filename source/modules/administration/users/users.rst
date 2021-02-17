@@ -72,7 +72,7 @@ External Links
 
 This tab list external links defined for users.
 
-See :doc:`Tab "Links" </commontabs/item_liens>`
+See :doc:`Tab "Links" </modules/tabs/external-links>`
 
 .. include:: ../../tabs/tickets.rst
 
@@ -95,6 +95,6 @@ The different actions
 * :doc:`Delete a user </Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Attach a document to a user </Les_différentes_actions/associer_un_document_a_un_objet>`
 * :doc:`Attach an element to a user </Les_différents_onglets/Onglet_Eléments>`
-* :doc:`Attach a ticket to a user </commontabs/item_tickets>`
+* :doc:`Attach a ticket to a user </modules/tabs/tickets>`
 
 

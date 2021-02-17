@@ -113,14 +113,14 @@ Historique
 
 L'historique est visualisé depuis l'onglet *Historique*
 
-See :doc:`Onglet "Historique" </commontabs/item_historique>`
+See :doc:`Onglet "Historique" </modules/tabs/historical>`
 
 Tous
 ~~~~
 
 Pour un élément, toutes les informations sont affichées sur une seule page.
 
-See :doc:`Onglet "Tous" </commontabs/item_tous>`
+See :doc:`Onglet "Tous" </modules/tabs/all>`
 
 Tools
 ~~~~~

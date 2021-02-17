@@ -87,13 +87,13 @@ Liste des notifications pour lesquelles ce groupe est destinataire ou le supervi
 
 Pour les groupes, il est possible de lister également les tickets des sous-groupes.
 
-* :doc:`Onglet "Historique" </commontabs/item_historique>`
+* :doc:`Onglet "Historique" </modules/tabs/historical>`
 
 Tous
 ~~~~
 Pour un élément, toutes les informations sont affichées sur une seule page.
 
-See :doc:`Onglet "Tous" </commontabs/item_tous>`
+See :doc:`Onglet "Tous" </modules/tabs/all>`
 
 The different actions
 ---------------------
@@ -103,7 +103,7 @@ The different actions
 * :doc:`Modify a groupe </Les_différentes_actions/modifier_un_objet>`
 * :doc:`Delete a groupe </Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Attach a élément to a groupe </Les_différents_onglets/Onglet_Eléments>`
-* :doc:`Attach a ticket to a groupe </commontabs/item_tickets>`
+* :doc:`Attach a ticket to a groupe </modules/tabs/tickets>`
 * :doc:`Transfer a groupe vers une autre entité </Les_différentes_actions/transferer_un_objet>`
 
 .. |image| image:: images/addUserLdap.png
