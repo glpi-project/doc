@@ -6,17 +6,17 @@ Dictionnaries
 
 Dictionnaries allow to modify data already existing in GLPI or new data in order to group redundant data.
 
-Les dictionnaires permettent de modifier les données qui sont entrées ou existent déjà dans GLPI afin de regrouper des données redondantes. Ils se basent sur le :doc:`moteur de règles </modules/administration/rules/rulesmanagement>` et sont disponibles pour certaines données d'inventaire (logiciels, fabricants, intitulés). Ces dictionnaires permettent de disposer de règles qui vont modifier des valeurs entrées manuellement, ajoutées automatiquement via un outil d'inventaire ou des plugins (par exemple l'injecteur de fichiers CSV).
+Dictionaries are based on GLPI :doc:`rules engine </modules/administration/rules/rulesmanagement>` and are available for some types of items (softwares, suppliers, drop-downs). The rules associated with a dictionary will modify values that are either manually inserted or automatically inserted via an inventory tool or via plugins (for instance CSV file injector).
 
-Import, export et duplication
------------------------------
+Import, export and duplication
+------------------------------
 
-L'exportation, l'importation et la duplication est possible pour l'ensemble des dictionnaires |importrule|. Ces opérations sont réalisables globalement depuis la page principale des dictionnaires ou bien par lot depuis les moteurs de recherche des différents dictionnaires via les actions massives. Ces fonctionnalités sont intéressantes par exemple dans le cadre de la bascule de règles d'un environnement de pré-production vers un environnement de production.
+Export, import and duplication are available for dictionnaries |importrule|. These operations can be realized globally from dictionnaries main page or by batch using mass actions from dictionnaries search results. These functionnalities are usefull for instance when migrating rules from a pre-production environment to a production one.
 
-.. note:: l'exportation ou l'importation se font via un fichier XML.
+.. note:: export or import use a XML file format
 
-Configurer les dictionnaires de données
----------------------------------------
+Configure data dictionnaries
+----------------------------
 
 Le dictionnaire fonctionne de la manière suivante :
 
@@ -32,11 +32,11 @@ La fonction |playrule| (sous la liste des règles d'un dictionnaire) permet de r
    * Comme pour tous les autres dictionnaires, il est très fortement conseillé de jouer les règles sur une base de test et de sauvegarder la base de données avant la mise en production du dictionnaire ou de nouvelles règles. 
    * Un script est disponible dans le répertoire scripts de GLPI (*compute\_dictionnary.php*), qui permet de lancer les dictionnaires en ligne de commande. Cela permet de s'affranchir des problèmes de limite d'exécution et propose un gain de temps appréciable.
 
-Dictionnaire général
-~~~~~~~~~~~~~~~~~~~~
+Global dictionnary
+~~~~~~~~~~~~~~~~~~
 
-Logiciels
-~~~~~~~~~
+Softwares
++++++++++
 
 Il modifie les données du logiciel (nom, version, fabricant) afin de compléter ou fusionner des logiciels entre eux. Il est utilisé pour rendre plus cohérent des logiciels équivalents dont le nom n'est pas identique (par exemple Mozilla Firefox 3.0 et Mozilla Firefox 3.6) ou pour ajouter un fabricant s'il n'est pas renseigné. Ce dictionnaire permet aussi de rediriger la création d'un logiciel (ou d'un ensemble de logiciels) dans une entité donnée. Pour cela, il suffit de choisir l'action *Entité* et de sélectionner celle dans lequel il sera créé. Cette fonctionnalité peut être utilisée conjointement avec l'option générale *Entité de création des logiciels* disponible dans la configuration d'une entité.
 
@@ -69,25 +69,26 @@ Logiciel expression rationnelle vérifie /Correctif.\*XP.\*KB([0-9]\*)/ Logicel 
 Logiciel assigner Mise à jour Windows Version assigner valeur depuis regex #0
 
 
-Fabricants
-~~~~~~~~~~
+Manufacturer
+++++++++++++
 
 Ce dictionnaire permet de regrouper le nom du fabricant remontant d'"un agent d'inventaire sous différentes forme sous un nom unique. 
 
 *Exemple :* regrouper les fabricants .  Sun\_Microsystems . Sun Microsystems, Inc. for the OpenOffice.org-Community . Sun Microsystems, Inc. . Sun Microsystems, Inc sous le nom Sun Microsystems.
 
-Imprimantes
-~~~~~~~~~~~
+Printers
+++++++++
 
 Ce dictionnaire permet de modifier les informations provenant des imprimantes en se basant sur le fabricant, et/ou le nom. Il est possible de refuser un import (par exemple des imprimantes commençant par //), de regrouper des imprimantes sous un même nom, d'affecter un fabricant ou encore de forcer le type de gestion (globale ou unitaire).
 
-Dictionnaire des intitulés
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Drop-downs
+~~~~~~~~~~
 
 Il permet de modifier un certain nombre d'intitulés en rapport avec l'inventaire (types et modèles d'objets, système d'exploitation ainsi que version et service pack).
 
-Dictionnaires sur les modèles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Models
+++++++
 
 Les critères pouvant être pris en compte sont le fabricant et le modèle de l'objet
 
@@ -108,8 +109,8 @@ Les critères pouvant être pris en compte sont le fabricant et le modèle de l'
 
 un exemple du résultat obtenu : Netvista S42 (8319LGV)
 
-Dictionnaires sur les types
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Types
++++++
 
 Le seul critère possible est le type de l'objet.
 
@@ -129,8 +130,8 @@ Le seul critère possible est le type de l'objet.
 
 résultat obtenu : Clavier
 
-Dictionnaires sur les systèmes d'exploitation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operating systems
++++++++++++++++++
 
 Suivant le dictionnaire choisi, le critère portera sur le système d'exploitation lui-même ou le service pack du système d'exploitation ou la version du système d'exploitation.
 
