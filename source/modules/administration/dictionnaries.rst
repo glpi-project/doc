@@ -18,33 +18,35 @@ Export, import and duplication are available for dictionnaries |importrule|. The
 Configure data dictionnaries
 ----------------------------
 
-Le dictionnaire fonctionne de la manière suivante :
+A dictionary works the following way:
 
-1. la donnée à ajouter passe dans le dictionnaire ;
-2. le moteur de règle rejoue toutes les règles concernant ce type de données et s'arrête à la première vérifiée ;
-3. la donnée modifiée est retournée par le dictionnaire et insérée en base.
+1. data to be added enters the dictionary;
+2. rules engine plays all rules applying to this type of data and stops on first matching rule;
+3. modified data is returned by the dictionary and inserted into database.
 
-La fonction |playrule| (sous la liste des règles d'un dictionnaire) permet de repasser les règles sur des données déjà existantes en base.
+Button |playrule| (under the list of rules of the dictionary) allows to replay the rules on data already existing in database.
 
-.. warning:: Si la base est conséquente, il faudra faire bien attention à la valeur du paramètre *memory\_limit* dans le fichier de configuration de PHP : en effet les traitements peuvent être très longs.
+.. warning:: if database is big, the parameter *memory\_limit* in PHP configuration file must be carefully adjusted: processing by a dictionary can be heavy.
 
-.. hint:: 
-   * Comme pour tous les autres dictionnaires, il est très fortement conseillé de jouer les règles sur une base de test et de sauvegarder la base de données avant la mise en production du dictionnaire ou de nouvelles règles. 
-   * Un script est disponible dans le répertoire scripts de GLPI (*compute\_dictionnary.php*), qui permet de lancer les dictionnaires en ligne de commande. Cela permet de s'affranchir des problèmes de limite d'exécution et propose un gain de temps appréciable.
+.. hint::
+   * it is highly recommended to play rules on a test database and to backup database before production launch of the dictionary or before inserting new rules
+   * a script is available in directory *scripts* of GLPI installation, named *compute\_dictionnary.php*, that allows to launch dictionnary processing in command line mode; this allows to bypass problems of execution limit and provides a significant speedup
 
-Global dictionnary
-~~~~~~~~~~~~~~~~~~
+Global dictionnaries
+~~~~~~~~~~~~~~~~~~~~
 
 Softwares
 +++++++++
 
-Il modifie les données du logiciel (nom, version, fabricant) afin de compléter ou fusionner des logiciels entre eux. Il est utilisé pour rendre plus cohérent des logiciels équivalents dont le nom n'est pas identique (par exemple Mozilla Firefox 3.0 et Mozilla Firefox 3.6) ou pour ajouter un fabricant s'il n'est pas renseigné. Ce dictionnaire permet aussi de rediriger la création d'un logiciel (ou d'un ensemble de logiciels) dans une entité donnée. Pour cela, il suffit de choisir l'action *Entité* et de sélectionner celle dans lequel il sera créé. Cette fonctionnalité peut être utilisée conjointement avec l'option générale *Entité de création des logiciels* disponible dans la configuration d'une entité.
+The softwares dictionary modifies software data (name, version, manufacturer) in order to complete or merge sofwares. It is used to make more coherent equivalent softwares for which name is not identical (for example Mozilla Firefox 3.0 and Mozilla Firefox 3.6) or to add a manufacturer if it is not present. 
 
-.. note:: pour une gestion optimale des logiciels et licences en environnement multi-entités, il est possible d'utiliser le dictionnaire des logiciels conjointement avec des logiciels visibles dans les sous-entités (et donc utiliser la fonctionnalité de regroupement).
+This dictionary allows also to redirect the creation of a software or of a set of softwares in a given entity, by choosing action *Entity* and to select the entity in which to create the software. This functionality can also be used with general option *Entity for software* available in entiy configuration.
 
-.. warning:: il faut être très prudent en utilisant l'action *ajouter le résultat de l'expression régulière* sur une version. En effet, celle-ci n'est prise en compte que lors de  l'import de données venant d'un outil d'inventaire et sera ignorée en cas de ré-application du dictionnaire sur la base existante.
+.. note:: for an optimal management of softwares and licenses in a multi-entity environment, it is possible to use the softwares dictionnary simultaneously with softwares visible in sub-entities and thus to use grouping functionality.
 
-Figure 1. Exemple de regroupement des logiciels Mozilla Les critères sont cumulatifs (ET). Cela aura pour effet de regrouper les logiciels Mozilla par type (Mozilla Thunderbird, MozillaFirefox...) et de grouper tous les noms de versions par type.
+.. warning:: using action *Add regexp result* on a version must be used with maximum care; indeed, this action is only taken into account when importing data coming from an inventory tool and will be ignored when re-applying dictionary on an existing database.
+
+As an example, following image describes grouping Mozilla softwares. Criteria are cumulated with AND. 
 
 .. figure:: images/critereMozilla.png
    :alt: Criteria for grouping Mozilla softwares
@@ -52,11 +54,15 @@ Figure 1. Exemple de regroupement des logiciels Mozilla Les critères sont cumul
 
    Criteria for grouping Mozilla softwares
 
+The following image describes associated action for grouping Mozilla softwares.
+
 .. figure:: images/actionMozilla.png
    :alt: Action for grouping Mozilla softwares
    :align: center
 
    Action for grouping Mozilla softwares
+
+The following image presents result of grouping Mozilla software: softwares are grouped by type (Mozilla Thunderbird, Mozilla Firefox...) and versions are grouped by type.
 
 .. figure:: images/resultatMozilla.png
    :alt: Result of grouping Mozilla softwares
@@ -64,28 +70,26 @@ Figure 1. Exemple de regroupement des logiciels Mozilla Les critères sont cumul
 
    Result of grouping Mozilla softwares
 
-Autre exemple pour regrouper les mises à jour Windows. Cette fois le critères sont des OU et non des ET *Critères*
-Logiciel expression rationnelle vérifie /Correctif.\*XP.\*KB([0-9]\*)/ Logicel expression rationnelle vérifie /Mise.\*XP.\*KB([0-9]\*)/ Logiciel expression rationnelle vérifie /Update.\*XP.\*KB([0-9]\*)/ *Actions*
-Logiciel assigner Mise à jour Windows Version assigner valeur depuis regex #0
+.. ??? unclear++ Autre exemple pour regrouper les mises à jour Windows. Cette fois le critères sont des OU et non des ET *Critères* Logiciel expression rationnelle vérifie /Correctif.\*XP.\*KB([0-9]\*)/ Logicel expression rationnelle vérifie /Mise.\*XP.\*KB([0-9]\*)/ Logiciel expression rationnelle vérifie /Update.\*XP.\*KB([0-9]\*)/ *Actions* Logiciel assigner Mise à jour Windows Version assigner valeur depuis regex #0
 
 
 Manufacturer
 ++++++++++++
 
-Ce dictionnaire permet de regrouper le nom du fabricant remontant d'"un agent d'inventaire sous différentes forme sous un nom unique. 
+This dictionary allows to group under a unique name the manufacturer names coming from an inventory tool under different forms.
 
-*Exemple :* regrouper les fabricants .  Sun\_Microsystems . Sun Microsystems, Inc. for the OpenOffice.org-Community . Sun Microsystems, Inc. . Sun Microsystems, Inc sous le nom Sun Microsystems.
+.. ?? unclear *Exemple :* regrouper les fabricants .  Sun\_Microsystems . Sun Microsystems, Inc. for the OpenOffice.org-Community . Sun Microsystems, Inc. . Sun Microsystems, Inc sous le nom Sun Microsystems.
 
 Printers
 ++++++++
 
-Ce dictionnaire permet de modifier les informations provenant des imprimantes en se basant sur le fabricant, et/ou le nom. Il est possible de refuser un import (par exemple des imprimantes commençant par //), de regrouper des imprimantes sous un même nom, d'affecter un fabricant ou encore de forcer le type de gestion (globale ou unitaire).
+This dictionary allows to modify printer information based on manufacturer and/or name. It is possible to reject an import (for example printer name starting with `//`), to group printers under same name, to assign a manufacturer or to force management type (global or unitary).
 
 
 Drop-downs
 ~~~~~~~~~~
 
-Il permet de modifier un certain nombre d'intitulés en rapport avec l'inventaire (types et modèles d'objets, système d'exploitation ainsi que version et service pack).
+This dictionary allows to modify drop-downs related to inventory: types and models of items, operating system, version and service pack.
 
 Models
 ++++++
