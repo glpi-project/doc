@@ -1,13 +1,25 @@
-Administrer les entités
-=======================
+Entities
+========
 
-La notion d'entité est une notion clé dans GLPI. Elle peut s'apparenter à la notion de hiérarchie, de service au sein d'une administration d'une entreprise ou d'un système d'information. Elle permet d'isoler des ensembles organisés de manière hiérarchique dans une instance unique de GLPI (une seule installation de GLPI). Le terme choisi est volontairement neutre, afin de pouvoir s'adapter à chaque système d'information. Une seule instance de GLPI composée de plusieurs entités permet la consolidation des données et des règles communes.  L'utilisation des entités permet un cloisonnement relativement étanche entre les unités organisationnelles. Dans les cas où ce cloisonnement étanche n'est pas souhaité, il est préférable d'utiliser les fonctionnalités offertes par les groupes. La segmentation en entités peut avoir plusieurs finalités : isoler le parc informatique de chaque service afin de limiter la vision du parc à certains groupes ou utilisateurs ; isoler le parc informatique de différents clients, reproduire la hiérarchie existante au sein de votre annuaire informatique (LDAP, Active Directory)... Cette notion est très intéressante pour une entreprise dont la gestion est hiérarchique et où les personnes doivent avoir une vision du parc dépendant de leur appartenance à un service.
+Entity concept is a key concept in GLPI. Having many similarities with a hierarchy or a division inside a company, it allows on a single instance of GLPI to isolate sets organized in a hierarchical manner. The chosen term is voluntarily neutral in order to adapt to many information systems.
 
-Une fois plusieurs entités créées dans GLPI, l'inventaire de votre parc, les utilisateurs, les profils ou encore le service d'assistance devient fonction des entités. Autrement dit, on peut affecter un ordinateur à une entité, déclarer un ticket sur une entité, créer des profils, gérer des habilitations spécifiques à chaque entité. L'affectation automatique des utilisateurs et des matériels est possible grâce au paramétrage de règles.
+A single instance (or installation) of GLPI, when composed of several entities, allows to consolidate common data and rules. Using entities allows to create a rather tight isolation between organizational units. 
 
-On considère la hiérarchie suivante :
+.. hint:: When this isolation is not desired, it is better to use the functionalities offered by GLPI *Groups*.
 
-::
+Segmenting in entities can have several targets:
+
+* isolate assets of each division in order to limit assets visibility for groups or users
+* isolate assets of clients
+* reproduce the existing hierarchy of the directory (LDAP, Active Directory...).
+
+Using entities is very useful for a company where management is hierarchical and where employees must have access to the assets depending on the division they belong to.
+
+One entities creating in GLPI, assets inventory, users, profiles and assistance service become dependent upon entities: a computer can be assigned to an entity, a ticket can be declared on an entity, profiles and authorizations can be specific to entities... Automatic entity assignment for users and equipments are possible thanks to rules management.
+
+.. topic:: Example: entities inside a company
+
+   ::
 
               EM
         |------|------|
@@ -15,121 +27,122 @@ On considère la hiérarchie suivante :
       |   |        |    |
     EA1   EA2     EB1   EB2
 
-L'entité mère (EM, ou nativement appelée Entité Racine dans GLPI) possède deux filiales (EA et EB) qui possèdent à leur tour deux départements chacune (EA1, EA2, EB1 et EB2). Chaque entité possède une vision de son parc et des entités qui lui sont affiliées.
+   Mother entity (EM, or named *Root Entity* in GLPI) has two subsidiaries (EA and EB) which in turn have two divisions each (EA1, EA2 for EA, EB1, EB2 for EB). Each entity has access to its equipments and subsidiary entities:
 
-* EM a une vision de son parc et de toutes les entités.
-* EA a une vision de son parc et de EA1 et EA2.
-* EA1 ne voit que son parc.
+      * EM has access to its equipments as well as to all equipments of all entities
+      * EA has access to its equipments as well as to EA1 and EA2 equipments
+      * EA1 has only access to its own equipments
 
-Un utilisateur peut être rattaché à plusieurs entités avec des droits différents. Ces droits peuvent être conservés sur les entités filles ou non. Pour reprendre l'exemple précédent, un utilisateur ne pourra déclarer un ticket qu'au sein de son service, se rapportant uniquement au matériel qui lui est rattaché ou à un matériel de son service (une imprimante, un écran...).
+A user can be attached to several entities with different authorizations in each entity, these authorizations being kept in daughter entities or not. For example a user will be able to open a ticket only inside user's division, the ticket applying only to the items of the same division.
 
-Inversement, un utilisateur disposant d'habilitations plus étendues pourra consulter l'ensemble des matériels, tickets ou autres objets. Et ce, sur toutes les entités sur lesquels ses droits sont applicables.
+On the contrary, a user being granted larger authorizations will be able to view all items, tickets and other objects, and this on all entities in which user's authorizations apply.
 
-Par défaut, GLPI s'installe avec une entité générique, appelée Entité Racine. Il est donc mono-entité. Cette entité peut être renommée simplement en modifiant le non de celle-ci.
+By default, GLPI has a single generic entity named *Root Entity*. This entity can be renamed at user's convenience.
 
-Les fonctionnements peuvent être amenés à varier d'une entité à une autre. C'est pour cela que les entités possèdent une administration déléguée (droit *Entités* dans le profil). Cette délégation doit être attribuée à un nombre très restreint d'utilisateurs qui auront en charge la gestion complète de l'entité.
+Processes may vary depending upon entity; for this reason entities can have a delegate administration (authorization *Entities* in profile). This delegation must be granted to a very limited number of users who will be in charge of the complete management of the entity.
 
-Dans le cadre d'une utilisation de GLPI en multi-entités, la gestion de certains paramètres de configuration peut s'effectuer différemment pour chaque entité (§).
+When using GLPI in multi-entities mode, management of some configuration parameters can apply in a different way in each entity.
+
 
 The different tabs
 ------------------
 
-Entités
+Entities
+~~~~~~~~
+
+This tab lists existing sub-entities and allows to add a sub-entity to current entity.
+
+Address
 ~~~~~~~
 
-Permet d'ajouter une sous-entité à l'entité sélectionnée et liste les sous-entités existantes.
+This tab groups administrative information of current entity: address, phone numbers, email...
 
-Adresse
-~~~~~~~
+Advanced information
+~~~~~~~~~~~~~~~~~~~~
 
-Regroupe les informations administrative de l'entité (adresse, téléphone, fax, courriel...).
+This tab groups technical identification data of the entity, those concerning generic entity assignment rules and those concerning users search interface. These data will be used by rules for automatic assignment to the entity (hardware if coupled with an inventory tool, user or group if connected to a LDAP directory, ticket if enabled ticket creation via mail collector) as well as for import and synchronization of users originating from a LDAP directory.
 
-Informations avancées
-~~~~~~~~~~~~~~~~~~~~~
+In order to offer to an entity administrator the possibility to import users from a LDAP directory, it is necessary to provide some parameters: directory associated with the entity and search filter. This search filter is meaningful only if entity definition is done by adding a restriction on LDAP filter. It is also possible to define the email domain specific to the entity which can be used to assign users to this entity.
 
-Regroupe les données d'identification technique de l'entité : celles en rapport avec les règles génériques d'affectation à l'entité et celles concernant l'interface de recherche des utilisateurs. Ces données seront utilisés par les règles pour l'affectation automatique à cette entité (matériel si couplage avec un agent d'inventaire, utilisateur ou groupe si liaison avec un annuaire LDAP, ticket si création autorisé via un collecteur de courriel) ainsi que pour l'import et la synchronisation des utilisateurs issus d'un annuaire lDAP.
-
-Afin de donner à un administrateur d'une entité la possibilité d'importer ses utilisateurs d'un annuaire LDAP, il est nécessaire de préciser certains paramètres : l'annuaire associé à l'entité et le filtre de recherche. Ce dernier n'est important que si la définition d'une entité se fait par l'ajout d'une restriction sur le filtre LDAP. Il est également possible de définir le domaine de messagerie spécifique à l'entité qui peut être utilisé pour affecter les utilisateurs à cette entité.
-
-Trois options sont disponibles pour l'utilisation des règles d'affectation génériques à l'entité : le TAG provenant de l'outil d'inventaire, l'information LDAP représentant l'entité (par exemple le DN de l'entité, voir Attribuer des habilitations à un utilisateur), et le domaine de messagerie associé à celle-ci.
+Three options are available for generic entity assignment rules: the ``TAG`` coming from inventory tool, the LDAP information representing the entity (for example the `DN` of the entity) and the email domain associated with the entity.
 
 Notifications
 ~~~~~~~~~~~~~
 
-Le paramétrage des notifications se fait par entité. Cet onglet regroupe deux tableaux :
+Notification setting is done at entity level. This tab groups two tables:
 
-* les options globales pour toutes les notifications issues de GLPI : le courriel de l'administrateur (sera le courriel expéditeur des mails issus de GLPI), le nom de l'administrateur, le préfixe pour le sujet des notifications (GLPI par défaut si vide), l'adresse de réponse (voir :doc:`configuration des suivis par courriels </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`) et la signature.
+* global options for all GLPI notifications: administrator email (will be the ``From:`` for all GLPI issued emails), administrator name, prefix for notification email subject (``GLPI`` by default), response email address (see :doc:`configuration of email followup </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`) and email signature.
 
-  Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications. Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un ticket de n'envoyer qu'une seule notification.
+  For each entity, the delay applied before sending notification can be defined. This delay allows for instance in case of fast multiples modifications of a ticket to send only one notification email. The email followup of an actor can also be defined to Yes or No.
 
-  Vous pouvez également définir si le suivi par mail d'un acteur est défini à Oui ou Non.
-
-* les options de déclenchement des alertes pour les cartouches, consommables, contrats, informations financières, licences, réservations et tickets. 
+* triggering options of alerts for cartridges, consumables, contracts, accounting information, licenses, reservations and tickets.
 
   .. warning::
 
-     Chaque option d'alerte est associée à une action automatique. Si l'action est désactivée par l'administrateur de GLPI, aucune notification ne sera envoyée.
+     Each alert option is associated with an automatic action. If action is disable by GLPI administrator, no notification will be sent.
 
-Si vous ne souhaitez pas affiner les notifications par entité, vous pouvez définir ces paramétrages au niveau de l'entité racine. Dans chaque entité sera alors pris par défaut les valeurs de l'entité parente (valeurs définies indiquées en vert).
+If refining notification at entity level is not desired, these parameters can be defined once at root entity level; each entity will then by default get the values defined at parent entity level.
 
 Assistance
 ~~~~~~~~~~
 
-Cet onglet est visible si vous avez les droits de lire ou modifier les paramètres de l'entité dans votre profil. Il regroupe les paramétrages de l'entité qui seront appliqués principalement aux tickets :
+This tab is visible if *Read or Modify Entity Parameters* authorization is granted in profile. The tab groups entity parameters applicable to tickets:
 
-   - **Gabarit de ticket :** à chaque création d'un ticket, le gabarit sélectionné sera appliqué ;
-   - **Calendrier :** indique le calendrier par défaut utilisable dans l'entité. Ce calendrier sert à calculer les temps d'attente des tickets et le décalage des dates d'échéance. Il sera par exemple pré-sélectionné lors de la création d'un SLA ;
-   - **Type par défaut pour les tickets :** type prédéfini lors de la création d'un ticket (très utile en cas de création de ticket via collecteur de courriels) ;
-   - **Affectation automatique des tickets :** permet d'assigner automatiquement un ticket ;
-   - *basée sur le matériel puis sur la catégorie :* uniquement si le ticket comporte un élément associé et que cet élément comporte un responsable ou un groupe technique. Dans ce cas, le ticket sera automatiquement affecté à ce technicien et/ou ce groupe technique à la sélection de l'élément associé. Si ces champs sont vides mais que le ticket a une catégorie de définie, le responsable ou le groupe technique seront cherchés dans cette catégorie.
-   - *basée sur la catégorie puis sur le matériel :* uniquement si une catégorie est définie dans le ticket et que cette catégorie comporte un responsable ou un groupe technique. Dans ce cas, le ticket sera automatiquement affecté à ce technicien et/ou ce groupe technique à la sélection de la catégorie. Si ces champs sont vides mais que le ticket a un élément associé de défini, le responsable ou le groupe technique seront cherchés dans cet élément.
-   - **Clôture automatique des tickets résolus après :** permet de réaliser une clôture dite "administrative". Si cette clôture est paramétrée à *immédiatement*, dès que le ticket sera résolu il sera automatiquement clos, ce qui bloquera l'approbation de la solution par le demandeur. Cette clôture est réalisée via une action automatique qui doit être active.
-   - **Configuration de l'enquête de satisfaction :** cette enquête peut être interne (formulaire de satisfaction de GLPI) ou gérée par à un système tiers. Pour chaque entité, vous pouvez donc définir quand l'enquête doit être lancée (délais à compter de la clôture d'un ticket) ainsi que le taux d'enquête à générer. Afin d'éviter que les anciens tickets ne soit concernés lors de l'activation de l'enquête de satisfaction, un champ *"Pour les tickets clos après"* prend la valeur de la date d'activation pour savoir quels doivent être les tickets concernés. De même, si vous décidez de reprendre les enquêtes après une période de désactivation, il faut penser à modifier ce champ pour exclure les vieux tickets. Pour les enquêtes externes, vous pouvez générer automatiquement à partir de balises l'adresse web pour accéder à l'enquête. Les balises disponibles sont :
-   -  [TICKET\_ID] : id du ticket
-   -  [TICKET\_NAME] : nom du ticket
-   -  [TICKET\_CREATEDATE] : date de création du ticket
-   -  [TICKET\_SOLVEDATE] : date de résolution du ticket
-   -  [REQUESTTYPE\_ID] : id de la source de la demande
-   - [REQUESTTYPE\_NAME] : nom de la source de la demande (téléphone, helpdesk,...)
-   - [ITEMTYPE] : type du matériel associé au ticket (ordinateur, imprimante,...)
-   -  [ITEM\_ID] : id du matériel associé au ticket
-   -  [ITEM\_NAME] : nom du matériel associé au ticket
-   -  [TICKET\_PRIORITY] : priorité du ticket
-   -  [TICKETCATEGORY\_ID] : id de la catégorie du ticket
-   -  [TICKETCATEGORY\_NAME] : nom de la catégorie du ticket
-   -  [TICKETTYPE\_ID] => type du ticket
-   -  [TICKETTYPE\_NAME] => nom du type de ticket (gestion des incidents
-      ou demandes de services)
-   -  [SOLUTIONTYPE\_ID] => id du type de solution
-   -  [SOLUTIONTYPE\_NAME] => nom de la solution
-   -  [SLA\_ID] => id du sla associé au ticket
-   -  [SLA\_NAME] => nom du sla associé au ticket
-   -  [SLALEVEL\_ID] => id du niveau de sla
-   -  [SLALEVEL\_NAME] = nom du niveau de sla
+* **Ticket Template**: selected template will be used for each ticket creation;
+* **Calendar**: entity default calendar for computing tickets resolution time and target date shift; this calendar will be pre-selected when creating a SLA;
+* **Ticket Default Type**: predefined type for ticket creation; useful for ticket creation via email collector;
+* **Automatic Ticket Assignment**: allows to assign automatically a ticket;
+  * *based on item then on category*: if ticket has an associated item and this item has a technical manager or group, it will be assigned to this technician and/or group; otherwise if ticket has a defined category, it will be assigned to the technical manager or group of the category
+  * *based on category then on item*: if ticket has a defined category and this category has a technical manager or group, it will be assigned to this technical manager or group; otherwise if ticket has an associated item, it will be assigned to this technician and/or group of the item
+* **Automatic Closure of Solved Ticket After**: allows to perform a so-called "administrative" closure; if closure is set to *immediately*, ticket will be closed as soon as it is solved, which will block solution approval by requester. This closure is performed by an automatic action which must therefore be active
+* **Satisfaction Survey Configuration**: this survey can be internal (GLPI satisfaction form) or delegated to a third-party tool. For each entity, the survey date can be defined (delay after ticket closure) as well as to be generated survey rate. In order to avoid that old tickets are taken into account when activating survey, a field *For Tickets Closed After* contains the activation date to know which tickets must be taken into account. Indeed, if survey are reactivated after a deactivation time, this field must be set to exclude old tickets. For external survey, the URL of the survey can be generated automatically using tags defined below.
 
-Parc
-~~~~
+.. topic:: List of available tags for survey URL:
 
-Cet onglet propose la configuration de la gestion des différentes dates présentes dans les informations administratives et financières. Les actions automatiques possibles sont :
+   * ``[TICKET_ID]``: ticket id
+   * ``[TICKET_NAME]``: ticket name
+   * ``[TICKET_CREATEDATE]``: ticket creation date
+   * ``[TICKET_SOLVEDATE]``: ticket resolution date
+   * ``[REQUESTTYPE_ID]``: request source id
+   * ``[REQUESTTYPE_NAME]``: request source name (phone, help desk...)
+   * ``[ITEMTYPE]``: type of item associated to the ticket (computer, printer...)
+   * ``[ITEM_ID]``: id of item associated to the ticket
+   * ``[ITEM_NAME]``: name of item associated to the ticket
+   * ``[TICKET_PRIORITY]``: ticket priority
+   * ``[TICKETCATEGORY_ID]``: ticket category id 
+   * ``[TICKETCATEGORY_NAME]``: ticket category name
+   * ``[TICKETTYPE_ID]``: ticket type
+   * ``[TICKETTYPE_NAME]``: ticket type name (incident management or service request)
+   * ``[SOLUTIONTYPE_ID]``: solution type id
+   * ``[SOLUTIONTYPE_NAME]``: solution name
+   * ``[SLA_ID]``: id of SLA associated to the ticket
+   * ``[SLA_NAME]``: name of SLA associated to the ticket
+   * ``[SLALEVEL_ID]``: id of SLA level
+   * ``[SLALEVEL_NAME]``: name of SLA level
+  
+Equipments
+~~~~~~~~~~
 
-- le remplissage au passage du matériel dans un statut particulier ;
-- le remplissage par copie d'une autre date ;
-- aucune gestion automatique.
+This tab allows to configure the different dates present in administrative and financial information. The possible automatic actions are:
 
-L'option *Entité de création des logiciels* permet de rediriger la création des logiciels vers une autre entité se trouvant dans un niveau supérieur de la hiérarchie. Cette fonctionnalité s'applique sur la totalité des logiciels de l'entité ; si vous désirez choisir la redirection uniquement pour certains logiciel, vous pouvez utiliser le :doc:`dictionnaire des logiciels </modules/administration/dictionnaries>`.
+* filling when item gets a particular status;
+* filling by copying another date;
+* no automatic filling
 
-Utilisateurs
-~~~~~~~~~~~~
+The option *Software creation entity* allows to redirect softwares creation to another entity at a higher level in the hierarchy. This functionality applies on *all* softwares of the entity; if redirection must be defined only for some softwares, the :doc:`softwares dictionary</modules/administration/dictionnaries>` must be used.
 
-Cet onglet permet d'ajouter un utilisateur à cette entité tout en lui affectant un profil, récursif ou non. Il liste également, par profil, les utilisateurs de cette entité.
+Users
+~~~~~
 
-Règles
-~~~~~~
+This tab allows to add a user to the current entity and to assign to the user a profile, recursive or not. The tab lists also, sorted by profile, the entity users.
 
-Cet onglet permet de créer des règles :
+Rules
+~~~~~
 
-- d'habilitations applicables à des utilisateurs ;
-- d'assignation de tickets ouverts par courriel. Si vous avez besoin de baser ces règles sur des critères, il faut ouvrir la nouvelle règle créée pour définir ces critères. Sont également listés les règles déjà applicables à cette entité.
+This tab allows to create rules:
+
+* for authorizations granting to users;
+* for assignment of tickets opened by email; if the rule must be based on criteria, the newly created rule must be opened to define these criteria. Rules already applicable to the current entity are also displayed.
 
 .. include:: ../tabs/documents.rst
 
@@ -139,12 +152,13 @@ Cet onglet permet de créer des règles :
 
 .. include:: ../tabs/all.rst
 
+
 The different actions
 ---------------------
 
-* :doc:`Add a entité </Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Voir une entité </Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Modifier une entité </Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete an entité </Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a entité </Les_différentes_actions/associer_un_document_a_un_objet>`
+* :doc:`Add an entity </Les_différentes_actions/creer_un_nouvel_objet>`
+* :doc:`Display an entity </Les_différentes_actions/visualiser_un_objet>`
+* :doc:`Modify an entity </Les_différentes_actions/modifier_un_objet>`
+* :doc:`Delete an entity </Les_différentes_actions/supprimer_un_objet>`
+* :doc:`Attach a document to a entity </Les_différentes_actions/associer_un_document_a_un_objet>`
 
