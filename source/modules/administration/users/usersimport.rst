@@ -9,7 +9,7 @@ Import users
 
 From users list, three options are available for adding a user |addUserAll|:
 
-   * |addUser| : opens a user creation form, similar to button |menu_add|; this requires that profile is granted user creation authorization 
+   * |addUser| : opens a user creation form, similar to button |menu_add|; requires profile to be granted user creation authorization 
    * |addUserExt| : import users from external source
    * |addUserLdap| : import and synchronize users from LDAP directory
 
