@@ -1,33 +1,33 @@
 Ce menu vous permet de :
 
-Vérifier la présence de nouvelles mises à jour de GLPI
-------------------------------------------------------
+.. |checkVersion| image:: images/checkVersion.png
 
-Si vous possédez le droit "Vérifier la présence de mises à jour" dans votre profil, un bouton |image| apparaît. Il permet de contrôler si vous avez la dernière version stable de GLPI
+Check for new GLPI updates
+--------------------------
 
-Sauvegarder ou restaurer la base de données
--------------------------------------------
+If the "Check for updates" authorization is granted in your profile, a |checkVersion| button appears. It allows you to check if you have the latest stable version of GLPI
 
-Il est possible de réaliser une sauvegarde SQL ou XML directement dans GLPI et de restaurer cette sauvegarde par la suite.
+Back up or restore the database
+-------------------------------
 
-.. hint:: Il est préférable d'utiliser le format SQL.
+It is possible to backup the database in SQL or XML directly in GLPI and restore this backup later.
 
-La liste des sauvegardes apparaît à partir du moment ou au moins une sauvegarde a été réalisée. Il est ensuite possible de supprimer une sauvegarde précédemment réalisée, de restaurer la base de données à partir de la sauvegarde ou de télécharger la sauvegarde pour l'externaliser.
+.. hint:: It is recommended to use SQL format.
 
-.. warning:: la restauration écrase toutes les modifications faites entre la date de sauvegarde et la date de restauration.
+The list of backups appears when at least one backup has been performed. It is then possible to delete a previously made backup, to restore the database from the backup or to download the backup to save ut externaly.
 
-Figure 1. Maintenance de GLPI |image|
+.. warning:: the restore overwrites all changes made between the backup date and the restore date.
 
-.. note:: les différents boutons apparaissent suivant les droits définis dans votre profil.
+.. figure:: images/maintenance.png
+   :alt: GLPI maintenance
+   :align: center
 
-Il est toutefois préférable d'utiliser un outil externe, tel que mysqldump, pour faire des sauvegardes externes planifiées et de stocker ces sauvegardes sur un support externe.
+   GLPI maintenance
 
-Pour réaliser une sauvegarde complète de GLPI, il est indispensable de sauvegarder l'intégralité des fichiers de GLPI.
+.. note:: the different buttons appear according to the authorization granted in profile.
 
-Les fichiers de GLPI se situent dans le répertoire d'installation sur le serveur web. Ils contiennent les fichiers de sauvegarde de la base de données créés depuis le menu Administration > Maintenance , ainsi que tous les documents ajoutés dans GLPI (associés aux tickets, aux matériels, aux contrats...).
+.. hint:: It is highly recommended to use an external tool, such as ``mysqldump``, to make scheduled external backups and to store these backups on external media.
 
-.. hint:: Si GLPI est installé dans un répertoire glpi, c'est ce répertoire qu'il convient de sauvegarder complètement.
+To perform a complete backup of GLPI, it is essential to back up all GLPI files. GLPI files are located in the installation directory on the web server and contain the database backup files created from the `Administration> Maintenance` menu, as well as all the documents added in GLPI (associated with tickets, equipment, contracts, etc.).
 
-.. |image| image:: images/checkVersion.png
-.. |image2| image:: images/maintenance.png
-
+.. hint:: If GLPI is installed in a ``glpi`` directory, then this directory is the directory to be completely backed up.
