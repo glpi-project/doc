@@ -1,19 +1,24 @@
-Gérer la file d'attente d'envoi de courriels
-============================================
+Mailing queue
+=============
 
-L'ensemble des courriels de notification passent par une file d'attente avant expédition réelle. Celle-ci permet une historisation et une vision des différents courriels envoyés.
+All notification emails go through a queue before actual delivery. This allows keeping a history and a list of the various emails sent.
 
-Une action automatique (queuedmail) permet l'expédition des couriels en attentes (voir :doc:`Configurer les actions automatiques </modules/configuration/08_Actions_automatiques>`). Une autre (queuemailclean) permet de nettoyer la file d'attente en ne conservant que les courriels récents.
+An automatic action (``queuedmail``) allows the sending of pending emails (see :doc:`Configure automatic actions</modules/configuration/08_Actions_automatique>`). Another automatic action (``queuemailclean'') cleans the queue by keeping only recent emails.
 
-Pour chaque entité vous pouvez définir le délai appliqué pour l'envoi des notifications (voir :doc:`l'administration par entité </modules/administration/entities>`). Celui-ci permet par exemple dans le cas de modifications multiples rapides d'un objet de n'envoyer qu'une notification.
+The delay applied for sending notifications can be defined at entity level, see :doc:`administration by entity </modules/administration/entities>`). This allows for example in the case of rapid multiple modifications of an object to send only one notification.
 
-.. warning:: l'utilisation de la file d'attente ne fonctionne pas pour un changement, un problème ou un ticket en lui-même mais uniquement pour un sous-objet. Exemple : Lors de la modification de l'impact d'un ticket, le courriel sera envoyé immédiatement. Par contre, en cas d'ajout ou de modification d'un suivi, d'une tâche, d'une demande de validation... le courriel sera placé dans la file d'attente.
+.. warning:: using the queue does not work for a change, problem or ticket itself, only for a sub-object. For example, when changing the impact of a ticket, the email will be sent immediately; on the other hand, in the event of addition or modification of a follow-up, a task, a validation request... the email will be placed in the queue.
 
-Figure 1. Exemple de file d'attente |image| Dans l'exemple ci-dessus, le délai pour envoyer des notifications par courriel a été fixé à 20mn dans la configuration de mon entité. Donc on voit bien que la date d'envoi est fixée à 20mn après la date de création.
+.. figure:: images/mailqueue.png
+   :alt: Example of queue
+   :align: center
 
-Une fois la notification expédiée, la file d'attente est positionnée dans la corbeille avec remplissage de la date d'envoi.
+   Example of queue
 
-.. note:: vous aurez dans la corbeille autant de files d'attente que de destinataires, chacune ayant sa propre date d'envoi.
+In the example above, the deadline for sending email notifications has been set to 20 minutes in the configuration of the entity; as a consequence the sending date is set at 20 minutes after the creation date.
 
-.. |image| image:: images/mailqueue.png
+Once the notification has been sent, the queue is placed in the recycle bin with the date sent.
+
+.. note:: there will be as many queues in the recycle bin as there are recipients, each with its own sending date. 
+
 
