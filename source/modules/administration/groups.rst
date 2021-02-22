@@ -1,7 +1,7 @@
 Groups
 ======
 
-.. |image| image:: images/addUserLdap.png
+.. |addUserLdap| image:: images/addUserLdap.png
 
 Groups tab allows to add, modify, delete, search, export groups.
 
@@ -10,76 +10,81 @@ Groups can be defined in a hierarchical structure in order to ease navigation an
 .. topic:: Example: groups
 
    ::
-    Direction > Division > Service
+    Management > Division > Service
     or
     N3 Support > Network > LAN
 
-Les groupes peuvent avoir plusieurs fonctions de rassemblement d'utilisateurs par :
-* *compétences* (par exemple les techniciens réseaux, ou les administrateurs de base de données) pour le helpdesk,
-* *regroupements organisationnels* (par exemple tous les ordinateurs de la direction ou du service comptable) mais aussi *ensemble de personnes à notifier*.
+Groups can be used in several way to group users by:
+* *skills*: for the helpdesk, for example network technicians, or database administrators,
+* *organizational groups*: for example all the computers of the management or the accounting department but also set of persons to be notified.
 
-Les options disponibles permettant de régler ces comportements sont : 
-* **Visible dans un ticket**: (groupe demandeur et/ou attribution à ce groupe) ; 
-* **Peut être notifié**: (destinataire de notifications) ; 
-* **Peut être superviseur**: (uniquement pour un :doc:`projet </modules/tools/projects>`) ;
-* **Peut contenir**: (matériel et/ou utilisateurs).
+The options available to adjust these behaviors are:
+* **Visible in a ticket**: requesting group and/or assignment to this group;
+* **Can be notified**: recipient of notifications;
+* **Can be supervisor**: only for a :doc:`project </modules/tools/projects>`;
+* **May contain**: equipments and/or users.
 
-Dans la fiche des matériels, 2 notions de groupes sont disponibles: 
-* *groupe technique*, qui indique quel groupe de personnes a la charge du matériel (équivalent pour un groupe du responsable technique)
-* *groupe* qui indique à quel groupe de matériels celui-ci appartient.
+In an item form, 2 notions of groups are available:
+* *technical group* which indicates which group of people is in charge of the equipment (equivalent for a group of the technical manager)
+* *group* which indicates to which group of items it belongs.
 
-.. note:: le groupe technique peut permettre l'auto-attribution d'un ticket à un groupe de techniciens. Voir les catégories de tickets dans le chapitre :doc:`Configurer les intitulés </modules/configuration/intitules/index>`. De la même manière, il peut être utilisé dans les :doc:`Règles métier pour les tickets </modules/administration/rules/ticketbusinessrules>`.
+.. note:: the technical group can allow the automatic assignment of a ticket to a group of technicians, see the ticket categories in the chapter: doc: `Configure dropdowns </modules/configuration/intitules/assistance.rst>`. Likewise, it can be used in :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
 
-.. hint:: toutes les options sont à *non*, le groupe n'apparaîtra dans aucune liste de sélection. Cela peut être utile pour un groupe supprimé et conservé pour l'historique. C'est aussi utile pour ajouter des groupes vides dans l'arborescence.
+.. hint:: if all options are set to *No*, the group will not appear in any selection list; this can be useful for a group that is deleted and kept for history or for adding empty groups in the hierarchical structure.
 
-Un groupe peut avoir ou plusieurs superviseurs, notion utilisable ensuite pour les notifications, par exemple pour envoyer un courriel au(x) superviseur(s) du groupe à l'ouverture d'un ticket. Voir :doc:`Notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`.
+A group can have one or more supervisors, concept which can then be used for notifications, for example to send an email to the supervisor(s) of the group when a ticket is opened, see :doc:`Notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`.
 
-Un mécanisme de **délégation** permet à un utilisateur de déclarer des incidents non pas pour lui mais pour un des membres de ce groupe.
+A **delegation** mechanism allows a user to declare incidents not for himself but for one of the members of this group.
 
 .. topic:: Example: delegation
 
-   une secrétaire qui déclare les incidents pour les personnes de la direction.
+   an assistant declaring incidents for all persons of the management
 
-Les notions de délégation et de superviseur se paramètres dans l'onglet "Utilisateurs" (voir ci-dessous).
+The concepts of delegation and supervisor can be configured in the "Users" tab (see below).
 
-L'association d'un utilisateur à un groupe est soit statique, c'est-à-dire réalisée à l'aide de l'interface de GLPI, soit dynamique quand celle-ci est déduite automatiquement de l'annuaire LPAP.
+Assigning a user o a group is either static and done using the GLPI interface, or dynamic when this is automatically extracted from the LDAP directory.
 
-Un groupe est attaché à l'entité dans laquelle il est créé et peut ensuite être visible dans les sous-entités.
+A group is attached to the entity in which it is created and can then be visible in sub-entities.
 
-Depuis la liste des groupes, vous pouvez importer un groupe depuis un annuaire LDAP via |image| si l'authentification externe est utilisée et que vous avez le droit "Mise à jour auth et sync" dans votre profil.  L'affectation des utilisateurs dans les groupes sera automatique.07\_Module\_Administration/07\_Profils/01\_Profils.rst Si plusieurs annuaires sont configurés, le choix de l'un d'entre eux est proposé, sinon le formulaire de recherche est directement accessible. En fonction des modalités de recherche des groupes (voir :doc:`Authentifier des utilisateurs à partir d'annuaires LDAP </modules/configuration/authentification/ldap>`), un **filtre de recherche dans les groupes** et/ou **un filtre de recherche des utilisateurs** apparaissent : ceux-ci permettent d'affiner la liste affichée et prête à être importée. Si GLPI est utilisé en multi-entités, il est nécessaire de sélectionner l'entité de destination du groupe, ainsi que sa visibilité dans les sous-entités.
+From the list of groups, a group can be imported from a LDAP directory via |addUserLdap|  if external authentication is used and the "Auth and sync update" authorization is granted in profile. The assignment of users to groups will be automatic, see :doc:`Profiles </modules/administration/profiles/profiles>`. If several directories are configured, the choice between directories is proposed, otherwise the search form is directly accessible.
 
-.. note:: l'import des groupes ne peut pas être filtré par entité. De plus, aucune fonction de synchronisation des groupes est disponible. Le seul moyen de rafraîchir la liste des membres d'un groupe depuis un annuaire est de resynchroniser les utilisateurs (voir :doc:`Importer des utilisateurs depuis une source externe </modules/administration/users/usersimport>`).
+Depending on how you search for groups (see: doc: `Authenticating users from LDAP directories </modules/configuration/authentification/ldap>`), a **Search filter in groups** and/or a **User search filter** appear: these allow to refine the list to be imported. If GLPI is used in multi-entities, it is necessary to select the destination entity of the group as well as its visibility in the sub-entities.
 
-.. warning:: dans le cas d'une migration depuis une version inférieure à GLPI 0.80, toute liaison manuelle réalisée préalablement sur un groupe provenant de l'annuaire LDAP sera perdue.
+.. note:: importing groups cannot be filtered by entity. In addition, no group synchronization function is available. The only way to refresh from a directory the list of group members is to resynchronize users, see :doc:`Import users from an external source </modules/administration/users/usersimport>`.
+
+.. warning:: when migrating from a version of GLPI lower 0.80, any manual connection previously carried out on a group coming from the LDAP directory will be lost.
 
 The different tabs
 ------------------
 
-Sous-groupes
-~~~~~~~~~~~~
-Permet d'ajouter un sous-groupe au groupe sélectionné et liste les sous-groupes existants.
+Sub-groups
+~~~~~~~~~~
 
-Eléments utilisés
-~~~~~~~~~~~~~~~~~
-Liste les éléments pour lesquels le champ *Groupe* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Utilisateur* de l'objet).
+This tab allows to add a subgroup to the selected group and lists the existing subgroups.
+
+Used items
+~~~~~~~~~~
+
+This tab lists the elements for which the *Group* field corresponds to the current group. The search can be extended to sub-groups as well as to the members of the group (*User* field of the item).
 
 See :doc:`Tab "Used Items" </Les_différents_onglets/Onglet_Eléments>`
 
-Eléments gérés
-~~~~~~~~~~~~~~
-Liste les éléments pour lesquels le champ *Groupe Technique* correspond à ce groupe. La recherche peut être étendue ou sous-groupes ainsi qu'aux membres du groupe (champ *Responsable technique* de l'objet).
+Managed items
+~~~~~~~~~~~~~
+
+This tab lists the elements for which the *Technical Group* field corresponds to the current group. The search can be extended to sub-groups as well as to the members of the group (*Technical manager* field of the item).
 
 See :doc:`Tab "Managed Items" </Les_différents_onglets/Onglet_Eléments>`
 
-Liaison annuaire LDAP
-~~~~~~~~~~~~~~~~~~~~~
+LDAP directory link
+~~~~~~~~~~~~~~~~~~~
 
-Cet onglet n'apparait que si vous avez le droit "Mise à jour auth et sync" dans votre profil. Il regroupe les informations permettant à GLPI de retrouver le groupe et ses utilisateurs dans l'annuaire LDAP.
+This tab only appears if the "Auth and sync update" authorization is granted in profile; it gathers the information allowing GLPI to find the group and its users in the LDAP directory.
 
-Utilisateurs
-~~~~~~~~~~~~
+Users
+~~~~~
 
-Cet onglet permet d'ajouter un utilisateur à ce groupe en définissant s'il est *délégataire* et/ou *superviseur* de ce groupe. Il liste également les utilisateurs de ce groupe avec recherche possible via critère (délégataire ou superviseur) et également dans les sous-groupe du groupe courant.
+This tab allows to add a user to this group by defining whether the added user is *delegatee* and/or *supervisor* of the group. It also lists the users of this group with possible search by criteria (delegatee or supervisor) and also in the subgroups of the current group.
 
 Notifications
 ~~~~~~~~~~~~~
