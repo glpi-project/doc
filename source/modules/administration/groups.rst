@@ -95,17 +95,15 @@ Notifications
 
    List of notifications for which destination is group or group supervisor
 
-.. include:: ../../tabs/tickets.rst
-
-.. include:: ../tabs/tickets.rst
+.. include:: /modules/tabs/tickets.rst
 
 For groups, this tab allows to list as well sub-groups tickets.
 
-.. include:: ../../tabs/historical.rst
+.. include:: /modules/tabs/historical.rst
 
-.. include:: ../../tabs/debug.rst
+.. include:: /modules/tabs/debug.rst
 
-.. include:: ../../tabs/all.rst
+.. include:: /modules/tabs/all.rst
 
 
 The different actions
