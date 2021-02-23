@@ -1,14 +1,20 @@
-Ce menu vous permet de :
+Maintenance
+===========
 
 .. |checkVersion| image:: images/checkVersion.png
+
+This tab allows to:
+
+* check the availability of GLPI updates
+* backup/restore GLPI database
 
 Check for new GLPI updates
 --------------------------
 
 If the "Check for updates" authorization is granted in your profile, a |checkVersion| button appears. It allows you to check if you have the latest stable version of GLPI
 
-Back up or restore the database
--------------------------------
+Backup or restore the database
+------------------------------
 
 It is possible to backup the database in SQL or XML directly in GLPI and restore this backup later.
 
