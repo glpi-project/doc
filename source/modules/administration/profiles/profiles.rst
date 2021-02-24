@@ -105,6 +105,8 @@ See :doc:`Tab "Tools" </modules/administration/profiles/toolstab>`
 
 Administration
 ~~~~~~~~~~~~~~
+This tab manages permissions on users, entities, maintenance and business rules on tickets.
+
 See :doc:`Tab "Administration" </modules/administration/profiles/administrationtab>`
 
 Configuration

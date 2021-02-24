@@ -2,9 +2,19 @@
 
 :orphan:
 
+.. |image| image:: ../images/config.png
+.. |image2| image:: ../images/options_search.png
+.. |image3| image:: ../images/intitules.png
+
+Droits Configuration
+--------------------
+
 Les 7 droits standard ne seront pas listés (voir :doc:`Explication des droits </modules/administration/profiles/profiles>`).
 
-|image| Droits **Affichage des résultats de recherche** :
+Droits Affichage des résultats de recherche
++++++++++++++++++++++++++++++++++++++++++++
+
+|image| 
 
 permet le paramétrage de l'affichage via |image2| dans le moteur de recherche.
 
@@ -14,7 +24,4 @@ permet le paramétrage de l'affichage via |image2| dans le moteur de recherche.
 
 |image3| Les éléments de la partie Intitulés rentrent dans les 7 droits standard. Cette partie permet de pouvoir affiner le paramétrage de chaque entité et donc peut être donner en l'administrateur de l'entité.
 
-.. |image| image:: ../images/config.png
-.. |image2| image:: /image/options_search.png
-.. |image3| image:: ../images/intitules.png
 
