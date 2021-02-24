@@ -68,6 +68,7 @@ The 7 standard permissions described above apply to the elements of tab **Assets
    Permissions on assets
 
 The **Internet** permission applies to:
+
 * IP field of a network port
 * association or disassociation of a network name to a network port
 * Internet part of dropdowns (IP networks, internet domains, WiFi networks, network names)
