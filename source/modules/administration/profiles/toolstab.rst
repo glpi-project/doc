@@ -2,60 +2,56 @@
 
 :orphan:
 
-.. |image| image:: ../images/outils.png
+Tools Permissions
+-----------------
 
-Droits Outils
--------------
+The 7 standard permissions will not be listed (see :doc:`Permissions descriptions </modules/administration/profiles/profiles>`).
 
-Les 7 droits standard ne seront pas listés (voir :doc:`Explication des droits </modules/administration/profiles/profiles>`).
-
-Interface simplifiée
+Simplified Interface
 ~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/outilsPO.png
-   :alt: image
+   :alt: Tools permissions (simplified interface)
+   :align: center
 
-* **Foire au question - Lire la FAQ**: voir les articles de la base connaissance qui sont publiés dans la FAQ.
+* **Read the FAQ**: see the knowledge base articles which are published in the FAQ.
 
-* **Réservation - Faire une réservation**: réserver un matériel.
+* **Make a Reservation**: reserve an equipment.
 
-Interface standard
+Standard Interface 
 ~~~~~~~~~~~~~~~~~~
 
-Les champs communs avec l'interface simplifiée ne seront pas détaillés.
+Common fields with the simplified interface will not be detailed.
 
-Droits Base de connaissance
-+++++++++++++++++++++++++++
+.. figure:: ../images/outils.png
+   :alt: Tools permissions
+   :align: center
 
-|image| 
+   Tools permissions
 
-* **Lire la FAQ**: Voir interface simplifiée.
+Knowledge Base Permissions
+++++++++++++++++++++++++++
 
-* **Administration de la base de connaissance**: permet d'intervenir sur tous les tickets afin d'ajouter par exemple une cible.
+* **Knowledge Base Administration**: ???.
+.. todo:: permet d'intervenir sur tous les tickets afin d'ajouter par exemple une cible
 
-* **Publier dans la FAQ**: ajouter ou retirer un article de la FAQ.
+* **Publish in the FAQ**: add or remove an article from the FAQ.
 
-Droits Administration des réservations
-++++++++++++++++++++++++++++++++++++++
-
-Les droits standard permettent d'intervenir sur un objet pour le rendre réservable ou non.
-
-* **Faire une réservation**: Voir interface simplifiée.
-
-Droits Projets
-++++++++++++++
+Projects Permissions
+++++++++++++++++++++
 
 .. figure:: ../images/projets.png
-   :alt: image
+   :alt: Projects permissions
+   :align: center
 
-* **Voir (acteur)**: voir les projets que j'ai créés ou pour lesquels je suis le superviseur ou membre du groupe superviseur.
+* **See (Actor)**: see the projects I have created or for which I am the supervisor or member of the supervisor group.
 
-* **Voir tous**: voir tous les projets de l'entité.
+* **See All**: see all the entity's projects.
 
-Droits Tâches
-+++++++++++++
+Tasks Permissions
++++++++++++++++++
 
-* **Voir (acteur)**: voir les tâches que j'ai créées.
+* **See (Actor)**: see the tasks I created.
 
-* **Mise à jour (acteur)**: modifier les tâches que j'ai créées ou pour lesquelles je suis membre de l'équipe.
+* **Update (Actor)**: modify the tasks that I have created or for which I am a member of the team.
 
