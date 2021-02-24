@@ -61,7 +61,7 @@ Business rules for tickets (entity) permissions
 
    Rules permissions
 
-* **Parent Business** : displays a **applied rules (entity name)** tab in the business rules for tickets. This tab lists all the played rules of the parent entities.
+* **Parent Business**: displays a **applied rules (entity name)** tab in the business rules for tickets. This tab lists all the played rules of the parent entities.
 
 The elements of the *Dictionaries* part fall within the 7 standard permissions.
 
