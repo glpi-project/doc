@@ -2,71 +2,73 @@
 
 :orphan:
 
-Droits Administration
----------------------
+Administration permissions
+--------------------------
 
 .. |addUserLdap| image:: ../images/addUserLdap.png
 .. |addUserExt| image:: ../images/addUserExt.png
 .. |checkVersion| image:: ../images/checkVersion.png
 
-Les 7 droits standard ne seront pas listés (voir :doc:`Explication des droits </modules/administration/profiles/profiles>`).
+The 7 standard permissions will not be listed (see :doc:`Permissions description </modules/administration/profiles/profiles>`).
 
-Avant de commencer le détail des droits de la partie Administration, il faut bien faire attention à la couleur des zones de droits. En effet, comme indiqué dans la légende ??? certains droits s'appliquent globalement dans GLPI et d'autres peuvent être délégués localement.  Exemple : les profils définis le sont pour toutes les entités. Par contre les règles métier peuvent varier d'une entité à une autre.
+.. warning::
+
+   Some permissions apply globally to GLPI, other permissions may be delegated locally. This is indicated by the color of permissions zones, as described in image below.
+
+   For example, profiles are defined for all entities; on the other hand, business rules may vary from one entity to another.
 
 .. figure:: ../images/legendedroits.png
-   :alt:
+   :alt: Permissions zones
    :align: center
 
-   legende droits
+   Permissions zones
 
-Droits Utilisateurs
-~~~~~~~~~~~~~~~~~~~
+User permissions
+~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/admin.png
-   :alt: droits utilisateurs
+   :alt: User permissions
    :align: center
 
-   droits utilisateurs
+   User permissions
 
-* **Lecture auth** : ajoute un champ dans la fiche utilisateur indiquant la méthode d'authentification ainsi que la date de dernière synchronisation
+* **Read Auth**: adds a field in the user form indicating the authentication method as well as the date of the last synchronization
 
-* **Mise à jour auth et sync** :
+* **Update auth & sync**:
 
-  * affiche un onglet *Synchronisation* dans l'utilisateur permettant de changer sa méthode d'authentification et de forcer sa synchronisation ;
-  * ajoute un bouton |addUserLdap| avant la liste des groupes ;
-  * affiche un onglet *Liaison annuaire LDAP* dans le groupe regroupant les informations permettant à GLPI de retrouver le groupe et ses utilisateurs dans l'annuaire LDAP.
+  * displays a *Synchronization* tab in the user allowing to change authentication method and force synchronization;
+  * add button |addUserLdap| before the group list;
+  * displays a *LDAP directory link* tab in the group containing the information allowing GLPI to find the group and its users in the LDAP directory.
 
-* **Ajout externe** :
+* **Add External**:
 
-  * permet l'import ou la synchronisation d'un utilisateur
-  * ajoute un bouton |addUserExt| avant la liste des utilisateurs.
+  * allows the import or synchronization of a user
+  * add a button |addUserExt| before the list of users.
 
-Droits Entités
-~~~~~~~~~~~~~~
-
-* **Mise à jour paramètres** : permet de modifier les données de l'onglet *Assistance* dans l'entité.
-
-* **Lecture paramètres** : permet de visualiser les données de l'onglet *Assistance* dans l'entité.
-
-Droits Maintenance
+Entity permissions
 ~~~~~~~~~~~~~~~~~~
 
-* **Vérifier la présence de mises à jour** : ajoute un bouton |checkVersion| dans le menu **Administration > Maintenance** qui permet de contrôler si vous avez la dernière version stable de GLPI.
+* **Update Parameters**: allows to modify the data of the *Assistance* tab in the entity.
 
-Droits Règles métier pour les tickets (entité)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* **Read Parameters**: allows to view the data in the *Assistance* tab in the entity.
 
-.. image:: ../images/regles.png
-   :alt:
+Business rules for tickets (entity) permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../images/regles.png
+   :alt: Rules permissions
    :align: center
 
-* **Règles métiers (parent)** : affiche un onglet **règles appliquées (nom entité)** dans les règles métier pour les tickets. Cet onglet liste toutes les règles des entités parentes jouées.
+   Rules permissions
 
-Les éléments de la partie *Dictionnaires* rentrent dans les 7 droits standard.
+* **Parent Business** : displays a **applied rules (entity name)** tab in the business rules for tickets. This tab lists all the played rules of the parent entities.
 
-.. image:: ../images/dico.png
-   :alt:
+The elements of the *Dictionaries* part fall within the 7 standard permissions.
+
+.. figure:: ../images/dico.png
+   :alt: Dictionaries permissions
    :align: center
 
+   Dictionaries permissions
 
 
