@@ -2,26 +2,35 @@
 
 :orphan:
 
-.. |image| image:: ../images/config.png
-.. |image2| image:: ../images/options_search.png
-.. |image3| image:: ../images/intitules.png
+.. |options_search| image:: ../images/options_search.png
 
-Droits Configuration
---------------------
+Setup permissions
+-----------------
 
-Les 7 droits standard ne seront pas listés (voir :doc:`Explication des droits </modules/administration/profiles/profiles>`).
+The 7 standard permissions will not be listed (see :doc:`Permissions description </modules/administration/profiles/profiles>`).
 
-Droits Affichage des résultats de recherche
-+++++++++++++++++++++++++++++++++++++++++++
+Search Result Display permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image| 
+.. figure:: ../images/config.png
+   :alt: Search Result Display permissions
+   :align: center
 
-permet le paramétrage de l'affichage via |image2| dans le moteur de recherche.
+   Search Result Display permissions
 
-* **Affichage utilisateur** : affiche un onglet *Vue personnelle* permettant la personnalisation de l'affichage pour l'utilisateur connecté. La personnalisation se fait objet par objet.
+This permissions allows to parameterize display via |options_search| in GLPI search engine..
 
-* **Affichage par défaut** : permet de modifier l'affichage standard qui sera appliqué à chaque utilisateur ne possédant pas de vue personnelle.
+* **User Display**: display a *Personal view* tab allowing display customization for the user, the customization being done object by object.
 
-|image3| Les éléments de la partie Intitulés rentrent dans les 7 droits standard. Cette partie permet de pouvoir affiner le paramétrage de chaque entité et donc peut être donner en l'administrateur de l'entité.
+* **Default Display**: allows to modify standard display that will apply to each user not having a personal view.
 
+Entity Dropdowns permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. figure:: ../images/intitules.png
+   :alt: Entity Dropdowns permissions
+   :align: center
+
+   Entity Dropdowns permissions
+
+The elements of *Entity Dropdowns permissions* fall within the 7 standard permissions. These elements allow to refine setup at entity level and can therefore be applied to entity administrator.
