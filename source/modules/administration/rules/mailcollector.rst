@@ -2,26 +2,34 @@
 
 :orphan:
 
-Affecter un ticket ouvert par courriel à une entité
----------------------------------------------------
+Rules for assigning a ticket opened via a mail collector
+--------------------------------------------------------
 
-GLPI implémente un mécanisme de routage des tickets ouverts par courriel, afin de les créer dans la bonne entité. Celui-ci se base sur le moteur de règles.
+GLPI implements a mechanism for routing tickets opened by email, in order to create them in the right entity. This is based on the rules engine.
 
-.. note:: si les notifications ne sont pas activées dans la configuration, le menu n'apparaît pas dans **Règles**.
+.. note:: if notifications are not enabled in the configuration, the menu does not appear in **Rules**.
 
-Les critères disponibles sont le nom du collecteur de courriels, le demandeur, le domaine de messagerie (s'il est connu ou non), les entêtes du courriel (auto\_submitted, from, in\_reply\_to, received, subject, to, X-Auto-Response-Suppress, X-priority, X-UCE-Status) ainsi que le corps du courriel.
+Available criteria are:
 
-Enfin il existe un troisième type de critères qui joue sur des données propres à l'utilisateur ou à la configuration des entités :
+* name of mail collector
+* requester
+* email domain, whether it is known or not
+* email headers: ``auto_submitted``, ``from``, ``in_reply_to``, ``received``, ``subject``, ``to``, ``X-Auto-Response-Suppress``, ``X-priority``, ``X-UCE-Status``
+* email body.
 
-* **domaine de messagerie connu** : permet de vérifier que le domaine de messagerie du courriel envoyé correspond bien à un domaine renseigné dans une entité. Ce critère permet d'éliminer par exemple tous les spams (messages ne provenant pas de domaines autorisés) ;
-* **utilisateur : groupe** : vérifie que l'utilisateur GLPI associé à l'adresse de messagerie de l'émetteur appartient bien à un groupe donné ;
-* **utilisateur possédant le profil** : l'utilisateur possède un profil donné ;
-* **utilisateur possédant un seul profil** : l'utilisateur possède un et un seul profil dans GLPI. Si le profil est associé à plusieurs entités différentes, alors c'est celle qui est définie comme entité par défaut dans les options de personnalisation de l'utilisateur qui sera l'entité du ticket. Si aucune n'est définie dans les préférences, la règle n'est pas vérifiée ;
-* **utilisateur possédant une seule fois le profil** : l'utilisateur possède une seule fois un profil donné. C'est-à-dire qu'il ne dispose pas du profil affecté sur plusieurs entités distinctes.
+Finally, there is a third type of criteria which operates on data specific to the user or to the configuration of the entities:
 
-Les actions sont soit le refus du ticket (avec ou sans notification du refus à l'émetteur), soit l'import dans une entité (manuel, depuis TAG, depuis domaine de messagerie, depuis profil de l'utilisateur).
+* **known email domain**: checks that the email domain of the email sent corresponds to a domain entered in an entity. This criterion makes it possible to eliminate, for example, all spam, i.e. messages not coming from authorized domains
+* **user: group**: checks that the GLPI user associated with the sender's e-mail address belongs to a given group;
+* **user with profile**: the user has a given profile;
+* **user with single profile**: the user has one and only one profile in GLPI. If the profile is associated with several different entities, then the one that is defined as the default entity in the user's personalization options will be the entity of the ticket. If none is defined in the preferences, the rule does not match
+* **user with the profile only once**: the user has a given profile only once: it does not have the profile assigned on several separate entities.
 
-.. warning:: le moteur s'arrête à la première règle vérifiée.
+The actions are either the refusal of the ticket (with or without notification of the refusal to the issuer), or the import into an entity (manual, from TAG, from mail domain, from user profile).
+
+.. warning:: The engine stops at the first matching rule.
+
+.. todo:: find a correct way to format the example
 
 ::
 
