@@ -29,15 +29,11 @@ The actions are either the refusal of the ticket (with or without notification o
 
 .. warning:: The engine stops at the first matching rule.
 
-.. todo:: find a correct way to format the example
+.. todo:: example
 
-::
+   An example of using the engine is as follows:
 
-    Un exemple d'utilisation du moteur est le suivant :
-
-    1.  règle refusant les courriels dont le domaine de messagerie est inconnu (non prise en compte des spams) ;
-    2.  règle refusant les messages des listes de diffusions ;
-    3.  règles affectant les courriels si l'utilisateur n'a qu'un profil (cas des utilisateurs de l'interface simplifiée) ;
-    4.  Règle affectant les courriels à une entité si l'utilisateur possède un profil particulier 
-       (par exemple pour des super administrateurs, qui ont accès à toutes les entités, mais sont physiquement dans une entité en particulier).
-
+   1. rule refusing emails whose email domain is unknown (not taking spam into account);
+   2. rule refusing messages from mailing lists;
+   3. rules affecting emails if the user has only one profile (case of users of the simplified interface);
+   4. rule affecting emails to an entity if the user has a particular profile (e.g. for super administrators, who have access to all entities, but are physically in a particular entity).

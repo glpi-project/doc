@@ -33,7 +33,7 @@ Button |playrule| (under the list of rules of the dictionary) allows to replay t
    * a script is available in directory *scripts* of GLPI installation, named *compute\_dictionnary.php*, that allows to launch dictionnary processing in command line mode; this allows to bypass problems of execution limit and provides a significant speedup
 
 Global dictionaries
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 Softwares
 +++++++++

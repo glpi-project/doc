@@ -1,5 +1,5 @@
-Manage users
-============
+Users
+=====
 
 User management allows to add, modify, delete, search users and to import and export users list.
 

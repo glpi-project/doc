@@ -1,5 +1,5 @@
-Display logs
-============
+Logs
+====
 
 This menu allows to display and sort logs.
 

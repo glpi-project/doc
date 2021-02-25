@@ -1,5 +1,5 @@
-Rules management
-================
+Rules
+=====
 
 .. |importrule| image:: ../images/importrule.png
 .. |testrule| image:: ../images/testrule.png

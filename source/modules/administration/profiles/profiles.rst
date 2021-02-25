@@ -1,5 +1,5 @@
-Manage user profiles
-====================
+User profiles
+=============
 
 Profile is central in GLPI configuration: profile is the key for users permissions granting and for securing and isolating data.
 

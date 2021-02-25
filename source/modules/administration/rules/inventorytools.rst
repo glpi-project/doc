@@ -37,21 +37,26 @@ The possible actions are to ignore the import, to link it if possible, if not to
 
 .. warning:: The engine stops at the first matching rule. The search for a machine already present in GLPI is done only in the destination entity of the machine.
 
-.. todo:: find a correct way to format the example
+.. topic:: Example
 
-::
+   Refuse all imports coming from a precise inventory server:
 
-   Refus des imports de toutes les machines provenant d'un serveur d'inventaire en particulier :
-   si *serveur d'inventaire est serveur 1*,
-   *refuser l'import oui*.
+   .. code-block::
 
-   Liaison de machines : 
-   si *Machine à importer : Numéro de série**est déjà présent dans GLPI oui* 
-   ET 
-   *Chercher les ordinateurs dans GLPI dont le statut est en stock* 
-   alors *Liaison**assigner Liaison si possible, sinon pas d'import*.
+      if inventory server is server1
+      then refuse import yes
 
-   Refus d'un ordinateur pour mauvais numéro de série : 
-   *Machine à importer : Numéro de série est "To be Filled By OEM"* 
-   alors *Liaison refuser l'import oui*.
+   Linking machine: 
+
+   .. code-block::
+
+      if machine to import : serial number is already present in GLPI yes AND Lookup computers in GLPI which status is in stock
+      then link assing link if possible, else no import
+
+   Refuse a computer because of wrong serial number: 
+
+   .. code-block::
+
+      if machine to import : serial number is "To be Filled By OEM"* 
+      then link refuse import yes
 
