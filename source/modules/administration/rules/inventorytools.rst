@@ -2,52 +2,56 @@
 
 :orphan:
 
-Règles d'affectation d'un élément à une entité
-----------------------------------------------
+Rules for assigning an item to an entity
+----------------------------------------
 
-GLPI dispose d'un type de règles permettant d'affecter automatiquement un élément provenant d'un outil d'inventaire à une entité et un lieu.
+GLPI has a type of rules that automatically assign an item from an inventory tool to an entity and a location.
 
-Un certain nombre de critères sont disponibles : ceux reprenant des champs génériques (nom, description, numéro de série, domaine, adresse IP, sous-réseau) mais aussi des champs venant de l'outil d'inventaire si celui-ci les propose.
+A certain number of criteria are available: those containing generic fields (name, description, serial number, domain, IP address, subnet) but also fields coming from the inventory tool if the tool provides them.
 
-Les actions disponibles sont d'\ **ignorer l'import**, de l'\ **affecter à une entité** (statiquement), de l'\ **affecter à une entité en utilisant le résultat d'une expression rationnelle** ou de l'\ **affecter à un lieu défini**.
+The available actions are:
 
-.. warning:: Le moteur s'arrête à la première règle vérifiée. Il est donc nécessaire de bien ordonner la liste de règles. De plus, il est préférable de mettre en premier les règles qui ont le plus de chance d'être vérifiées (par exemple pour les entités comprenant beaucoup de matériels). Les règles d'affectation à une entité ne sont jouées que lors de l'import initial de la machine dans GLPI : c'est-à-dire qu'à partir du moment où une machine est importée, il n'existe aucun processus automatisé pour la changer d'entité (il faut utiliser l'option de **transfert** manuel).
+* **ignore import**
+* **assign to an entity**
+* **assign to an entity using value from regular expression**
+* **assign to a location**.
 
-Grâce au mécanisme de liste noire de GLPI il est possible d'exclure certaines valeurs du traitement dans le moteur de règles comme certaines adresses IP ou MAC (par exemple une IP 127.0.0.1). Voir :doc:`Listes noires </modules/administration/rules/rulesmanagement>`.
+.. warning:: 
+   The engine stops at the first matching rule. It is therefore necessary to carefully order the list of rules. In addition, it is preferable to put the rules which are most likely to be verified first, for example for entities containing a lot of equipments. The rules for assignment to an entity are only played during the initial import of the machine into GLPI, which means that once a machine is imported, there is no automated process to change its entity and that manual **transfer** must be used.
 
-Règles d'import et de liaison des ordinateurs
----------------------------------------------
+Using GLPI blacklist mechanism, it is possible to exclude certain values ​​from processing by the rules engine such as certain IP or MAC addresses, for example an IP 127.0.0.1; see :doc:`Blacklists </modules/administration/rules/rulesmanagement>`.
 
-Un moteur de règles spécifique permet de contrôler le processus d'import et de liaison des machines depuis un outil d'inventaire.
+Rules for importing and linking computers
+-----------------------------------------
 
-Ce moteur a pour vocation de définir des règles qui permettent d'importer, de lier ou de refuser des ordinateurs.
+A specific rules engine allows to control the process of importing and binding machines from an inventory tool. This engine defines rules that allow to import, link or refuse computers.
 
-Cinématique d'import d'une machine :
+How a computer is imported:
 
-1. la machine à importer passe dans le moteur d'affectation d'entité.  S'il n'en renvoie aucune, alors la machine n'est pas importée. Dans le cas contraire, le processus continue.
-2. la machine passe dans le moteur d'import et de liaison. En fonction des règles, elle est soit importée dans son entité de destination, soit liée avec une autre présente dans GLPI, soit pas importée.
+1. computer to be imported pass through the entity assignment engine. If it does not return any entity, then the machine is not imported. Otherwise, the process continues.
+2. computer pass through the import and link engine. Depending on the rules, it is either imported into its destination entity, or linked with another present in GLPI, or not imported.
 
-Un certain nombre de critères sont disponibles : des champs génériques (nom, description, numéro de série, domaine, adresse IP, sous-réseau) mais aussi des champs venant de l'outil d'inventaire si celui-ci les propose, l'entité de destination de la machine ainsi qu'un statut servant à rechercher une machine déjà présente dans GLPI.
+A certain number of criteria are available: generic fields (name, description, serial number, domain, IP address, subnet) but also fields coming from the inventory tool if the tool provides them, the destination entity of the machine as well as a status used to search for a machine already present in GLPI.
 
-Les actions possibles sont d'ignorer l'import de la machine, de la lier si possible sinon de l'importer ou de la lier si possible sinon de refuser l'import.
+The possible actions are to ignore the import, to link it if possible, if not to import it if possible otherwise to refuse the import.
 
-.. warning:: Le moteur s'arrête à la première règle vérifiée. La recherche d'une machine déjà présente dans GLPI se fait uniquement dans l'entité de destination de la machine.
+.. warning:: The engine stops at the first matching rule. The search for a machine already present in GLPI is done only in the destination entity of the machine.
+
+.. todo:: find a correct way to format the example
 
 ::
 
-    Exemple :
+   Refus des imports de toutes les machines provenant d'un serveur d'inventaire en particulier :
+   si *serveur d'inventaire est serveur 1*,
+   *refuser l'import oui*.
 
-    Refus des imports de toutes les machines provenant d'un serveur d'inventaire en particulier :
-      si *serveur d'inventaire est serveur 1*,
-      *refuser l'import oui*.
+   Liaison de machines : 
+   si *Machine à importer : Numéro de série**est déjà présent dans GLPI oui* 
+   ET 
+   *Chercher les ordinateurs dans GLPI dont le statut est en stock* 
+   alors *Liaison**assigner Liaison si possible, sinon pas d'import*.
 
-    Liaison de machines : 
-      si *Machine à importer : Numéro de série**est déjà présent dans GLPI oui* 
-      ET 
-      *Chercher les ordinateurs dans GLPI dont le statut est en stock* 
-      alors *Liaison**assigner Liaison si possible, sinon pas d'import*.
-
-    Refus d'un ordinateur pour mauvais numéro de série : 
-      *Machine à importer : Numéro de série est "To be Filled By OEM"* 
-      alors *Liaison refuser l'import oui*.
+   Refus d'un ordinateur pour mauvais numéro de série : 
+   *Machine à importer : Numéro de série est "To be Filled By OEM"* 
+   alors *Liaison refuser l'import oui*.
 
