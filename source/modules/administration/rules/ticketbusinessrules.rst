@@ -2,29 +2,30 @@
 
 :orphan:
 
-Règles métier pour les tickets
-------------------------------
+Business rules for tickets
+--------------------------
 
-Un mécanisme permet de modifier les attributs du ticket de manière automatique à la création ou à la mise à jour d'un ticket.
+A mechanism is available to modify the attributes of the ticket automatically when a ticket is opened or updated.
 
-Les critères disponibles sont tous les attributs du ticket (titre, description, statut, catégorie, urgence, impact, priorité, source de la demande, type de matériels, demandeurs groupe/utilisateur/lieu, attribué à fournisseur/groupe/technicien, type de matériels, entité) ainsi que d'autres liés aux collecteurs de courriels (en-têtes...).
+The available criteria are all the attributes of the ticket (title, description, status, category, urgency, impact, priority, source of the request, type of equipment, group/user/location requesters, assigned to supplier/group/technician, type of equipment, entity) as well as others related to email collectors (headers ...).
 
-Les actions possibles sont de modifier certains attributs du ticket (statut, catégorie, urgence, impact, priorité, demandeurs groupe/utilisateur/lieu, attribué à fournisseur/groupe/technicien). Il est aussi possible d'attribuer un ticket à un matériel en fonction de données présentes dans le ticket (attribution sur l'adresse IP, le nom complet et le domaine, l'adresse MAC) ou même d'envoyer une demande de validation.
+The possible actions are to modify certain attributes of the ticket (status, category, urgency, impact, priority, requesters group/user/location, assigned to supplier/group/ technician). It is also possible to assign a ticket to a device according to data present in the ticket (attribution on the IP address, the full name and the domain, the MAC address) or even send a validation request.
 
-.. note:: les règles métier pour les tickets peuvent être joués à la création et/ou à la mise à jour des tickets en fonction du paramètre défini dans la règle. Lors de la mise à jour, seuls les champs modifiés (par l'action sur le ticket ou par les règles précédemment exécutées) déclenchent les règles. Ainsi une règle possédant des critères correspondant à des champs non modifiés ne sera pas exécutée.
+.. note :: business rules for tickets can be played when opening and/or updating tickets depending on the parameter defined in the rule. During the update, only the modified fields (by the action on the ticket or by the rules previously executed) trigger the rules. Thus a rule having criteria corresponding to unmodified fields will not be executed.
 
-.. warning:: le moteur joue toutes les règles les unes après les autres. Le résultat des règles précédentes est passé à la règle en cours. Cela veut dire que si une règle précédente modifie un attribut utilisé par la règle courante, c'est la valeur modifiée de celui-ci qui sera traité.
+.. warning :: the engine plays all the rules one after the other. The result of the previous rules is passed to the current rule. This means that if a previous rule modifies an attribute used by the current rule, it is the modified value of this one that will be processed.
 
-Dans le cas d'une utilisation de GLPI en multi-entités, les règles métier pour les tickets peuvent être récursives, c'est-à-dire qu'elles peuvent être définies sur une entité avec une application sur l'entité même et sur les sous-entités.
+When using GLPI in multi-entities, the business rules for the tickets can be recursive, i.e. they can be defined on an entity with an application on the entity itself and on the sub-entities.
 
-3 onglets sont accessibles :
+Three tabs are available:
 
-* **règles appliquées (nom entité)** : toutes les règles des entités parentes jouées (uniquement si vous avez le droit *Règles métiers (parent)* sur le droit *Règles métier pour les tickets (entité)* ;
-* **règles locales** : la liste des règles définies pour l'entité en cours ;
-* **règles applicables dans les sous-entités** : toutes les règles appliquées après celles de l'entité courante.
+* **applied rules (entity name)**: all the rules of the parent entities played (only if you have the authorization *Business rules (parent)* on the authorization *Business rules for tickets (entity)*;
+* **local rules**: the list of rules defined for the current entity;
+* **rules applicable in sub-entities**: all the rules applied after those of the current entity.
 
-Cas particulier pour les champs Urgence et Impact
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. warning::
 
-Si vous définissez une urgence et/ou un impact via une règle métier, il faut penser également à ajouter l'action Priorité Recalculer afin que cette dernière soit bien basée sur les champs que vous venez de définir.
+   Special case for the Emergency and Impact fields
+
+   If you define an emergency and/or an impact via a business rule, you should also consider adding the *Recalculate priority* action so that it is based on the fields you have just defined.
 
