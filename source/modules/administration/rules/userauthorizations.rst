@@ -1,5 +1,7 @@
 .. not included in any toctree, but "included" with link
 
+.. |image| image:: /image/addcriteria.png
+
 :orphan:
 
 Attribuer des habilitations à un utilisateur
@@ -75,7 +77,7 @@ Habilitations basées sur les annuaires LDAP
 Les attributs LDAP d'un utilisateur peuvent servir de source pour affecter dynamiquement à cet utilisateur des habilitations à l'aide des règles d'affectation d'habilitations. Les manières d'utiliser un arbre LDAP pour créer des règles d'habilitation pour les utilisateurs sont multiples et dépendent du contexte de l'implémentation de l'annuaire.
 
 Habilitations basées sur les unités organisationnelles d'un annuaire LDAP
--------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Soit un annuaire LDAP où l'organisation des branches (unités organisationnelles) correspond à l'organisation des entités GLPI. Chaque unité organisationnelle (OU) contient les utilisateurs, directement ou dans une sous-branche. Chacune des branches peut servir à établir une règle d'affectation d'un utilisateur à une entité. Le cas des utilisateurs appartenant à plusieurs entités doit être traité par ailleurs. Ce modèle est pertinent lorsqu'un profil par défaut peut être attribué à la majorité des utilisateurs. L'attribution des profils non standard doit être traitée par ailleurs. Les informations sur l'utilisateur remontées depuis l'annuaire sont suffisantes pour créer les règles d'affectation dans GLPI.
 
@@ -123,7 +125,7 @@ L'exécution de la règle récupère dans le "distinguished name" de l'utilisate
 *.. note:: la valeur de l'action #0 indique que l'on doit utiliser le premier résultat de l'expression rationnelle. #1 indique le deuxième et ainsi de suite. Le bouton **Tester** du formulaire permet d'essayer des valeurs et de voir le résultat obtenu*.
 
 Habilitations basées sur les groupes ou les attributs d'un utilisateur dans un annuaire LDAP
---------------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dans l'annuaire, chacun des utilisateurs fait partie d'un groupe correspondant à un profil GLPI et d'un groupe correspondant à une entité. Un utilisateur peut faire partie de plusieurs profils et de plusieurs entités. Selon la configuration de l'annuaire, l'information de l'appartenance de l'utilisateur à un groupe se trouve dans l'objet utilisateur ou dans l'objet groupe. Dans le premier cas, les informations contenues dans l'objet utilisateur sont suffisantes pour créer des règles d'habilitation : il n'est pas nécessaire d'importer les groupes de l'annuaire dans GLPI. Dans le deuxième cas, les informations contenues dans l'objet utilisateur ne suffisent pas et il est nécessaire de récupérer les informations sur les groupes. Il faut alors d'abord configurer les groupes LDAP et la liaison automatique des utilisateurs aux groupes.
 
@@ -179,5 +181,4 @@ Des cas mixtes peuvent être rencontrés : les règles peuvent utiliser à la fo
 
 .. note:: il est possible de rajouter des critères LDAP supplémentaires en cliquant sur l'icône |image| à côté de la liste déroulante. Un critère est composé d'un nom (utilisé dans la liste déroulante), d'un critère (correspondant à l'attribut dans l'annuaire LDAP) et d'un commentaire.
 
-.. |image| image:: /image/addcriteria.png
 

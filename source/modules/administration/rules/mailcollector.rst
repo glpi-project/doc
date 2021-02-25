@@ -3,7 +3,7 @@
 :orphan:
 
 Affecter un ticket ouvert par courriel à une entité
-===================================================
+---------------------------------------------------
 
 GLPI implémente un mécanisme de routage des tickets ouverts par courriel, afin de les créer dans la bonne entité. Celui-ci se base sur le moteur de règles.
 

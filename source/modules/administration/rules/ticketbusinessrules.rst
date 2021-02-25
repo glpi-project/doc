@@ -3,7 +3,7 @@
 :orphan:
 
 Règles métier pour les tickets
-==============================
+------------------------------
 
 Un mécanisme permet de modifier les attributs du ticket de manière automatique à la création ou à la mise à jour d'un ticket.
 
@@ -23,7 +23,8 @@ Dans le cas d'une utilisation de GLPI en multi-entités, les règles métier pou
 * **règles locales** : la liste des règles définies pour l'entité en cours ;
 * **règles applicables dans les sous-entités** : toutes les règles appliquées après celles de l'entité courante.
 
-**Cas particulier pour les champs Urgence et Impact :**
+Cas particulier pour les champs Urgence et Impact
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous définissez une urgence et/ou un impact via une règle métier, il faut penser également à ajouter l'action Priorité Recalculer afin que cette dernière soit bien basée sur les champs que vous venez de définir.
 

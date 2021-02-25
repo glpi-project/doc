@@ -3,7 +3,7 @@
 :orphan:
 
 Règles d'affectation d'un élément à une entité
-==============================================
+----------------------------------------------
 
 GLPI dispose d'un type de règles permettant d'affecter automatiquement un élément provenant d'un outil d'inventaire à une entité et un lieu.
 
@@ -11,12 +11,12 @@ Un certain nombre de critères sont disponibles : ceux reprenant des champs gén
 
 Les actions disponibles sont d'\ **ignorer l'import**, de l'\ **affecter à une entité** (statiquement), de l'\ **affecter à une entité en utilisant le résultat d'une expression rationnelle** ou de l'\ **affecter à un lieu défini**.
 
-    Important : Le moteur s'arrête à la première règle vérifiée. Il est donc nécessaire de bien ordonner la liste de règles. De plus, il est préférable de mettre en premier les règles qui ont le plus de chance d'être vérifiées (par exemple pour les entités comprenant beaucoup de matériels). Les règles d'affectation à une entité ne sont jouées que lors de l'import initial de la machine dans GLPI : c'est-à-dire qu'à partir du moment où une machine est importée, il n'existe aucun processus automatisé pour la changer d'entité (il faut utiliser l'option de **transfert** manuel).
+.. warning:: Le moteur s'arrête à la première règle vérifiée. Il est donc nécessaire de bien ordonner la liste de règles. De plus, il est préférable de mettre en premier les règles qui ont le plus de chance d'être vérifiées (par exemple pour les entités comprenant beaucoup de matériels). Les règles d'affectation à une entité ne sont jouées que lors de l'import initial de la machine dans GLPI : c'est-à-dire qu'à partir du moment où une machine est importée, il n'existe aucun processus automatisé pour la changer d'entité (il faut utiliser l'option de **transfert** manuel).
 
 Grâce au mécanisme de liste noire de GLPI il est possible d'exclure certaines valeurs du traitement dans le moteur de règles comme certaines adresses IP ou MAC (par exemple une IP 127.0.0.1). Voir :doc:`Listes noires </modules/administration/rules/rulesmanagement>`.
 
 Règles d'import et de liaison des ordinateurs
-=============================================
+---------------------------------------------
 
 Un moteur de règles spécifique permet de contrôler le processus d'import et de liaison des machines depuis un outil d'inventaire.
 
@@ -31,7 +31,7 @@ Un certain nombre de critères sont disponibles : des champs génériques (nom, 
 
 Les actions possibles sont d'ignorer l'import de la machine, de la lier si possible sinon de l'importer ou de la lier si possible sinon de refuser l'import.
 
-    Important : Le moteur s'arrête à la première règle vérifiée. La recherche d'une machine déjà présente dans GLPI se fait uniquement dans l'entité de destination de la machine.
+.. warning:: Le moteur s'arrête à la première règle vérifiée. La recherche d'une machine déjà présente dans GLPI se fait uniquement dans l'entité de destination de la machine.
 
 ::
 
