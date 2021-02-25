@@ -32,8 +32,7 @@ Common fields with the simplified interface will not be detailed.
 Knowledge Base Permissions
 ++++++++++++++++++++++++++
 
-* **Knowledge Base Administration**: ???.
-.. todo:: permet d'intervenir sur tous les tickets afin d'ajouter par exemple une cible
+* **Knowledge Base Administration**: administer knowledge base access.
 
 * **Publish in the FAQ**: add or remove an article from the FAQ.
 
