@@ -50,7 +50,7 @@ Rules for assigning a ticket opened via a mail collector
 
 GLPI implements a mechanism for routing tickets opened by email, in order to create them in the right entity.
 
-See :doc:`Rules to assign a ticket opened via a mail collector </modules/administration/rules/mailcollector>`
+See :doc:`Rules for assigning a ticket opened via a mail collector </modules/administration/rules/mailcollector>`
 
 Rules for assigning authorizations to a user
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
