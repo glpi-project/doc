@@ -15,7 +15,7 @@ Segmenting in entities can have several targets:
 
 Using entities is very useful for a company where management is hierarchical and where employees must have access to the assets depending on the division they belong to.
 
-One entities creating in GLPI, assets inventory, users, profiles and assistance service become dependent upon entities: a computer can be assigned to an entity, a ticket can be declared on an entity, profiles and authorizations can be specific to entities... Automatic entity assignment for users and equipments are possible thanks to rules management.
+One entities creating in GLPI, assets inventory, users, profiles and assistance service become dependent upon entities: a computer can be assigned to an entity, a ticket can be declared on an entity, profiles and authorizations can be specific to entities... Automatic entity assignment for users and assets are possible thanks to rules management.
 
 .. topic:: Example: entities inside a company
 
@@ -161,4 +161,3 @@ The different actions
 * :doc:`Modify an entity </Les_différentes_actions/modifier_un_objet>`
 * :doc:`Delete an entity </Les_différentes_actions/supprimer_un_objet>`
 * :doc:`Attach a document to a entity </Les_différentes_actions/associer_un_document_a_un_objet>`
-
