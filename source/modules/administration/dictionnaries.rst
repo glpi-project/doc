@@ -65,7 +65,7 @@ The following image describes associated action for grouping Mozilla softwares.
 The following image presents result of grouping Mozilla software: software are grouped by type (Mozilla Thunderbird, Mozilla Firefox...) and versions are grouped by type.
 
 .. figure:: images/resultatMozilla.png
-   :alt: Result of grouping Mozilla softwares
+   :alt: Result of grouping Mozilla software
    :align: center
 
    Result of grouping Mozilla softwares
