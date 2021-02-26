@@ -120,7 +120,7 @@ This tab is visible if *Read or Modify Entity Parameters* authorization is grant
    * ``[SLALEVEL_ID]``: id of SLA level
    * ``[SLALEVEL_NAME]``: name of SLA level
   
-Equipments
+Assets
 ~~~~~~~~~~
 
 This tab allows to configure the different dates present in administrative and financial information. The possible automatic actions are:
