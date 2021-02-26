@@ -22,7 +22,7 @@ The options available to adjust these behaviors are:
 * **Visible in a ticket**: requesting group and/or assignment to this group;
 * **Can be notified**: recipient of notifications;
 * **Can be supervisor**: only for a :doc:`project </modules/tools/projects>`;
-* **May contain**: equipments and/or users.
+* **May contain**: assets and/or users.
 
 In an item form, 2 notions of groups are available:
 * *technical group* which indicates which group of people is in charge of the equipment (equivalent for a group of the technical manager)
@@ -116,5 +116,4 @@ The different actions
 * :doc:`Attach an item to a group</Les_différents_onglets/Onglet_Eléments>`
 * :doc:`Attach a ticket to a group</modules/tabs/tickets>`
 * :doc:`Transfer a group to another entity </Les_différentes_actions/transferer_un_objet>`
-
 
