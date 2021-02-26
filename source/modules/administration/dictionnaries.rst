@@ -57,7 +57,7 @@ As an example, following image describes grouping Mozilla softwares. Criteria ar
 The following image describes associated action for grouping Mozilla softwares.
 
 .. figure:: images/actionMozilla.png
-   :alt: Action for grouping Mozilla softwares
+   :alt: Action for grouping Mozilla software
    :align: center
 
    Action for grouping Mozilla softwares
@@ -143,4 +143,3 @@ Operating systems
 +++++++++++++++++
 
 Depending on chosen dictionary, the criteria will be based on operating system itself, on operating system service pack or on operating system version.
-
