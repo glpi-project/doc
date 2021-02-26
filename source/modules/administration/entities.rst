@@ -27,7 +27,7 @@ One entities creating in GLPI, assets inventory, users, profiles and assistance 
       |   |        |    |
     EA1   EA2     EB1   EB2
 
-   Mother entity (EM, or named *Root Entity* in GLPI) has two subsidiaries (EA and EB) which in turn have two divisions each (EA1, EA2 for EA, EB1, EB2 for EB). Each entity has access to its equipments and subsidiary entities:
+   Mother entity (EM, or named *Root Entity* in GLPI) has two subsidiaries (EA and EB) which in turn have two divisions each (EA1, EA2 for EA, EB1, EB2 for EB). Each entity has access to its assets and subsidiary entities:
 
       * EM has access to its equipments as well as to all equipments of all entities
       * EA has access to its equipments as well as to EA1 and EA2 equipments
