@@ -68,7 +68,7 @@ The following image presents result of grouping Mozilla software: software are g
    :alt: Result of grouping Mozilla software
    :align: center
 
-   Result of grouping Mozilla softwares
+   Result of grouping Mozilla software
 
 .. topic:: Example for Windows updates grouping, very unclear!
 
