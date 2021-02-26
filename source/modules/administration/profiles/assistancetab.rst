@@ -65,10 +65,10 @@ Associations permissions
    Associations permissions   
 
 * **Link with items for the creation of tickets**: 
-  * **My Devices**: equipments whose type is authorized and for which I am the user;
-  * **All Items**: all equipments of my entity whose type is authorized
+  * **My Devices**: assets whose type is authorized and for which I am the user;
+  * **All Items**: all assets of my entity whose type is authorized
 
-* **Associable items to a ticket**: types of equipment on which a ticket can be associated. To add a type, just click in the white area and choose the authorized type or *All* if you want to authorize all types. To delete a type, simply click on the cross to the left of its name or on *None* if you do not want to allow any associated element
+* **Associable items to a ticket**: types of asset on which a ticket can be associated. To add a type, just click in the white area and choose the authorized type or *All* if you want to authorize all types. To delete a type, simply click on the cross to the left of its name or on *None* if you do not want to allow any associated element
 
 * **Default Tickets template**: default template that will apply for profile.
 
@@ -80,7 +80,7 @@ Associations permissions
 
      Default Tickets template 
 
-* **See hardware of my groups**: equipment whose type is authorized and for which I am a member of the group.
+* **See hardware of my groups**: asset whose type is authorized and for which I am a member of the group.
 
 Standard interface
 ~~~~~~~~~~~~~~~~~~

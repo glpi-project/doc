@@ -17,7 +17,7 @@ The available actions are:
 * **assign to a location**.
 
 .. warning:: 
-   The engine stops at the first matching rule. It is therefore necessary to carefully order the list of rules. In addition, it is preferable to put the rules which are most likely to be verified first, for example for entities containing a lot of equipments. The rules for assignment to an entity are only played during the initial import of the machine into GLPI, which means that once a machine is imported, there is no automated process to change its entity and that manual **transfer** must be used.
+   The engine stops at the first matching rule. It is therefore necessary to carefully order the list of rules. In addition, it is preferable to put the rules which are most likely to be verified first, for example for entities containing a lot of assets. The rules for assignment to an entity are only played during the initial import of the machine into GLPI, which means that once a machine is imported, there is no automated process to change its entity and that manual **transfer** must be used.
 
 Using GLPI blacklist mechanism, it is possible to exclude certain values ​​from processing by the rules engine such as certain IP or MAC addresses, for example an IP 127.0.0.1; see :doc:`Blacklists </modules/administration/rules/rulesmanagement>`.
 

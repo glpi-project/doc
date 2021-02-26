@@ -35,26 +35,26 @@ Button |playrule| (under the list of rules of the dictionary) allows to replay t
 Global dictionaries
 ~~~~~~~~~~~~~~~~~~~
 
-Softwares
-+++++++++
+Software
+++++++++
 
-The softwares dictionary modifies software data (name, version, manufacturer) in order to complete or merge software's. It is used to make more coherent equivalent softwares for which name is not identical (for example Mozilla Firefox 3.0 and Mozilla Firefox 3.6) or to add a manufacturer if it is not present. 
+The software dictionary modifies software data (name, version, manufacturer) in order to complete or merge software's. It is used to make more coherent equivalent software for which name is not identical (for example Mozilla Firefox 3.0 and Mozilla Firefox 3.6) or to add a manufacturer if it is not present. 
 
-This dictionary allows also to redirect the creation of a software or of a set of softwares in a given entity, by choosing action *Entity* and to select the entity in which to create the software. This functionality can also be used with general option *Entity for software* available in entity configuration.
+This dictionary allows also to redirect the creation of a software or of a set of software in a given entity, by choosing action *Entity* and to select the entity in which to create the software. This functionality can also be used with general option *Entity for software* available in entity configuration.
 
-.. note:: for an optimal management of softwares and licenses in a multi-entity environment, it is possible to use the softwares dictionnary simultaneously with softwares visible in sub-entities and thus to use grouping functionality.
+.. note:: for an optimal management of software and licenses in a multi-entity environment, it is possible to use the software dictionnary simultaneously with software visible in sub-entities and thus to use grouping functionality.
 
 .. warning:: using action *Add regexp result* on a version must be used with maximum care; indeed, this action is only taken into account when importing data coming from an inventory tool and will be ignored when re-applying dictionary on an existing database.
 
-As an example, following image describes grouping Mozilla softwares. Criteria are accumulated with AND. 
+As an example, following image describes grouping Mozilla software. Criteria are accumulated with AND. 
 
 .. figure:: images/critereMozilla.png
-   :alt: Criteria for grouping Mozilla softwares
+   :alt: Criteria for grouping Mozilla software
    :align: center
 
-   Criteria for grouping Mozilla softwares
+   Criteria for grouping Mozilla software
 
-The following image describes associated action for grouping Mozilla softwares.
+The following image describes associated action for grouping Mozilla software.
 
 .. figure:: images/actionMozilla.png
    :alt: Action for grouping Mozilla software

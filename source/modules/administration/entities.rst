@@ -129,7 +129,7 @@ This tab allows to configure the different dates present in administrative and f
 * filling by copying another date;
 * no automatic filling
 
-The option *Software creation entity* allows to redirect softwares creation to another entity at a higher level in the hierarchy. This functionality applies on *all* softwares of the entity; if redirection must be defined only for some softwares, the :doc:`softwares dictionary</modules/administration/dictionnaries>` must be used.
+The option *Software creation entity* allows to redirect software creation to another entity at a higher level in the hierarchy. This functionality applies on *all* software of the entity; if redirection must be defined only for some software, the :doc:`software dictionary</modules/administration/dictionnaries>` must be used.
 
 Users
 ~~~~~

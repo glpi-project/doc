@@ -17,7 +17,7 @@ This engine is used for both:
 
 * management rules:
 
-  * assigning an equipment to an entity
+  * assigning an asset to an entity
   * granting permissions to a user
   * assigning category to a software
   * routing tickets to entities
@@ -26,10 +26,10 @@ This engine is used for both:
 * :doc:`data dictionaries </modules/administration/dictionnaries>` :
 
   * manufacturers
-  * softwares
+  * software
   * printers
-  * types of equipments
-  * models of equipments
+  * types of assets
+  * models of assets
   * operating system related fields
 
 The engine behaves differently depending on the types of rules:
@@ -57,8 +57,8 @@ Rules for assigning authorizations to a user
 
 See :doc:`Rules for assigning authorizations to a user </modules/administration/rules/userauthorizations>`
 
-Rules for assigning a category to softwares
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rules for assigning a category to software
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Classification by category makes it easier to display and find software. This can be done automatically for any new software, or retroactively. The available criteria are the publisher, the name and the comment of the software. The only possible action is to assign software to a category. It is possible to replay the rules from the software list, using massive action *Recalculate category*.
 

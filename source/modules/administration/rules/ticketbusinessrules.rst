@@ -7,7 +7,7 @@ Business rules for tickets
 
 A mechanism is available to modify the attributes of the ticket automatically when a ticket is opened or updated.
 
-The available criteria are all the attributes of the ticket (title, description, status, category, urgency, impact, priority, source of the request, type of equipment, group/user/location requesters, assigned to supplier/group/technician, type of equipment, entity) as well as others related to email collectors (headers ...).
+The available criteria are all the attributes of the ticket (title, description, status, category, urgency, impact, priority, source of the request, type of asset, group/user/location requesters, assigned to supplier/group/technician, type of asset, entity) as well as others related to email collectors (headers ...).
 
 The possible actions are to modify certain attributes of the ticket (status, category, urgency, impact, priority, requesters group/user/location, assigned to supplier/group/ technician). It is also possible to assign a ticket to a device according to data present in the ticket (attribution on the IP address, the full name and the domain, the MAC address) or even send a validation request.
 

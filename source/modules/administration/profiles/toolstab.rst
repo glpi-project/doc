@@ -16,7 +16,7 @@ Simplified Interface
 
 * **Read the FAQ**: see the knowledge base articles which are published in the FAQ.
 
-* **Make a Reservation**: reserve an equipment.
+* **Make a Reservation**: reserve an asset.
 
 Standard Interface 
 ~~~~~~~~~~~~~~~~~~

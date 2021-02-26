@@ -29,7 +29,7 @@ By default, 7 profiles are pre-registered in GLPI:
 
 * **Observer**: This profile has read permission to all inventory and management data. In terms of assistance, it can open a ticket or be assigned one, but cannot administer this section (assign a ticket, steal a ticket...).
 
-* **Self-Service**: This profile is the most limited. It is also the only one to have a different interface, the :doc:`simplified interface</first-steps/interfaces>`, as opposed to the **standard interface**. However, it can declare a ticket, add a follow-up, consult the FAQ or reserve equipment. This profile is set as the default profile.
+* **Self-Service**: This profile is the most limited. It is also the only one to have a different interface, the :doc:`simplified interface</first-steps/interfaces>`, as opposed to the **standard interface**. However, it can declare a ticket, add a follow-up, consult the FAQ or reserve asset. This profile is set as the default profile.
 
 Permissions description
 -----------------------
