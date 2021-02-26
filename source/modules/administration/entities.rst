@@ -29,9 +29,9 @@ One entities creating in GLPI, assets inventory, users, profiles and assistance 
 
    Mother entity (EM, or named *Root Entity* in GLPI) has two subsidiaries (EA and EB) which in turn have two divisions each (EA1, EA2 for EA, EB1, EB2 for EB). Each entity has access to its assets and subsidiary entities:
 
-      * EM has access to its equipments as well as to all equipments of all entities
-      * EA has access to its equipments as well as to EA1 and EA2 equipments
-      * EA1 has only access to its own equipments
+      * EM has access to its assets as well as to all assets of all entities
+      * EA has access to its assets as well as to EA1 and EA2 assets
+      * EA1 has only access to its own assets
 
 A user can be attached to several entities with different authorizations in each entity, these authorizations being kept in daughter entities or not. For example a user will be able to open a ticket only inside user's division, the ticket applying only to the items of the same division.
 
