@@ -13,17 +13,6 @@ Check for new GLPI updates
 
 If the "Check for updates" authorization is granted in your profile, a |checkVersion| button appears. It allows you to check if you have the latest stable version of GLPI
 
-Backup or restore the database
-------------------------------
-
-It is possible to backup the database in SQL or XML directly in GLPI and restore this backup later.
-
-.. hint:: It is recommended to use SQL format.
-
-The list of backups appears when at least one backup has been performed. It is then possible to delete a previously made backup, to restore the database from the backup or to download the backup to save ut externaly.
-
-.. warning:: the restore overwrites all changes made between the backup date and the restore date.
-
 .. figure:: images/maintenance.png
    :alt: GLPI maintenance
    :align: center
