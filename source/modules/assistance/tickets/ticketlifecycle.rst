@@ -6,7 +6,7 @@ Ticket life cycle is defined at *profile* level in a :doc:`life cycle matrix </m
 Ticket types
 ------------
 
-GLPI tickets are either incidents or requests, this type being stored in field *Type* of the ticket. This type field allows to perform actions based on ticket type (see :doc:`business rules for tickets modification and assignment </modules/administration/05_Règles/04_Règles_métier_pour_les_tickets>`, :doc:`ticket templates </modules/overview/templates>` and :doc:`problem management </modules/assistance/problems>`) and to customize the list of available categories.
+GLPI tickets are either incidents or requests, this type being stored in field *Type* of the ticket. This type field allows to perform actions based on ticket type (see :doc:`business rules for tickets modification and assignment </modules/administration/rules/ticketbusinessrules>`, :doc:`ticket templates </modules/overview/templates>` and :doc:`problem management </modules/assistance/problems>`) and to customize the list of available categories.
 
 Status
 ------
@@ -26,7 +26,7 @@ These status can neither be parameterized nor modified.
 
    It is therefore possible to hide some status according to profile (see :doc:`Life cycle matrix </modules/assistance/lifecyclematrix>`).*
 
-To go further in status management, refer to :doc:`ticket templates </modules/overview/templates>` and :doc:`business rules for tickets modification and assignment </modules/administration/05_Règles/04_Règles_métier_pour_les_tickets>`.
+To go further in status management, refer to :doc:`ticket templates </modules/overview/templates>` and :doc:`business rules for tickets modification and assignment </modules/administration/rules/ticketbusinessrules>`.
 
 
 Scheduling

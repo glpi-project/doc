@@ -32,7 +32,7 @@ A template can be associated with this category and will be loaded when this cat
 
    When building a helpdesk, it is important to choose carefully the list of available categories: a too large number visible by end-users will make ticket creation less easy, whereas a too small number will not allow you to correctly qualify the demand.
 
-   Ticket categories allow to do automatic processing when creating a ticket, for instance modify ticket attributes; see :doc:`Business rules for tickets </modules/administration/05_Règles/04_Règles_métier_pour_les_tickets>`.
+   Ticket categories allow to do automatic processing when creating a ticket, for instance modify ticket attributes; see :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
 
 
 Task categories
