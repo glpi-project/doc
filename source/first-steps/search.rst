@@ -107,6 +107,17 @@ The SLK format can be used by many spreadsheets. Fields that are too long will b
 
 If the data exported in CSV format is imported into Microsoft Excel software, accented characters may not be displayed correctly. This software seems to have difficulty with data encoded in UTF-8.
 
+Sorting results
+---------------
+
+You can sort the results of a search by clicking on the column names.
+
+Since GLPI 10.0.0, sorting by multiple columns is now supported.
+To avoid confusion for most users, GLPI works in single-sort mode. By holding down the `ctrl` key when clicking on new columns, you can add them to the sort.
+Clicking a sorted column with or without the `ctrl` key will change the sort direction. To remove a sorted column, click it until it is no longer sorted.
+
+Currently, there is no limit to the number of columns that can be sorted at once.
+
 Perform massive actions
 -----------------------
 
