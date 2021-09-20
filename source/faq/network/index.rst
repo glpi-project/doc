@@ -5,3 +5,5 @@ GLPI Network FAQ
    :maxdepth: 2
 
    collectors
+   lostpassword
+   authentication/index

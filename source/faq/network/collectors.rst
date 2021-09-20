@@ -41,7 +41,7 @@ Your iCloud account must have an email address in the `icloud.com` domain. The A
 
 Your iCloud account password will not work. You must generate an application password in the security settings of your iCloud account. To do this, `Apple provides documentation <https://support.apple.com/fr-fr/HT204397>`_.
 
-`Apple provides IMAP connection settings <https://support.apple.com/fr-fr/HT202304>`.
+`Apple provides IMAP connection settings <https://support.apple.com/fr-fr/HT202304>`_.
 
 GLPI
 ^^^^
