@@ -36,6 +36,7 @@ Table of contents
    modules/index
    advanced/index
    glossary
+   faq/index
 
    
 Documentation license
