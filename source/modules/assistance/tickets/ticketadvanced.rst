@@ -26,8 +26,8 @@ Email is used to create tickets and add follow-up to existing tickets. A GLPI in
 A mail message will go through the following steps:
 
 * Mail box;
-* Collector, configured using :doc:`Configure collectors </config/config_mailcollector>`;
-* Rules, see :doc:`Assigned a ticked opened by mail to an entity </modules/administration/rules/mailcollector>`
+* Collector, configured using :doc:`Configure collectors </modules/configuration/collectors>`;
+* Rules, see :ref:`Assigned a ticked opened by mail to an entity <collectors_rules>`
 * Business rules, see :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`
 * Ticket is created
 

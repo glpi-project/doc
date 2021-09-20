@@ -90,7 +90,7 @@ A validation demand can also be done at ticket opening by indicating the desired
 Open a ticket by mail
 ---------------------
 
-Opening a ticket by mail is done by sending a mail to an email address defined in the collector (see :doc:`Configure collectors <>`
+Opening a ticket by mail is done by sending a mail to an email address defined in the collector (see :doc:`Configure collectors </modules/configuration/collectors>`
 
 On reception of the mail, a ticket will be opened automatically:
 

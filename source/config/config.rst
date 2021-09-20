@@ -31,14 +31,6 @@ protocolés.
    automatiques <../glpi/config_crontask.html>`__**
    Les actions automatiques se configurent depuis le menu Configuration
    > Actions automatiques
--  **`Configurer les
-   collecteurs <../glpi/config_mailcollector.html>`__**
-   La configuration des collecteurs s'effectue depuis le menu
-   Configuration > Collecteurs
--  **`Ajouter un
-   collecteur <../glpi/config_mailcollector_t_create.html>`__**
--  **`Supprimer un
-   collecteur <../glpi/config_mailcollector_t_delete.html>`__**
 -  **`Configurer les liens externes
    protocolés <../glpi/config_link.html>`__**
    Les liens externes se configurent depuis le menu Configuration >

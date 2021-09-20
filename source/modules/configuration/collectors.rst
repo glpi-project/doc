@@ -1,6 +1,37 @@
-.. not included in any toctree, but "included" with link
+E-Mail collectors
+=================
 
-:orphan:
+E-Mail Collectors configuration can be reached from `Configuration -> Collectors` menu.
+
+A mail collector allow to import emails from a mailbox ans turn them into GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring them to the destination entity.
+
+A mail collector is associated with an email address. It is possible to add as many collectors as you want. Of course, the more collectors you configure, the more import will take time.
+
+To declare a new collector, you will have to provide a server name, as well as connection options (IMAP or POP, SSL, TLS, certificate validation). It is possible to limit the maximum size for attachments (no import, or from 1 to 100 Mio). This configuration value is inherited from the main configuration (`Setup -> General -> Assistance`)
+A configuration option permit to switch tickets creation date between import date or email date.
+
+Optionally, you can set an archive directory in the mailbox where imported and refused emails will be stored.
+
+Collectors that have errors will be indicated above the list. In that case, number of successive errors will be displayed in collector configuration form.
+
+Once the form validated, you can test connection and messages retrieving by using the dedicated button.
+
+An automatic action will do the import on configured collectors; time between two executions can be configured in automated task form.
+
+Another automatic action will send notifications when any collector repetitively fails to import emails. See `notifications configuration <modules/configuration/notifications>`.
+
+.. warning::
+
+   Answers to emails generated from GLPI for tickets are cleaned when importing from a collector: all content between up and bottom tags will be removed. Answers must be done before or after original message.
+
+Blacklists
+----------
+
+Collectors can use a blacklist mechanism in order to remove recurrent but useless contents, like email signatures.
+
+Blacklist can also prevent emails to be imported from specific email addresses; this can be useful to prevent spam, or to handle emails aliases.
+
+.. _collectors_rules:
 
 Rules for assigning a ticket opened via a mail collector
 --------------------------------------------------------
