@@ -1,13 +1,13 @@
 Configuration
 =============
 
-Le module Configuration permet d'accéder aux options de configuration générale de GLPI : la configuration globale de GLPI, les notifications, les collecteurs, les tâches automatiques, l'authentification, les plugins, les critères d'unicité et les liens externes protocolés.
+Configuration module gives access to all GLPI configuration options: global configuration, notifications, collectors,  automated tasks,authentication, plugins, unicity criteria ans external links.
 
 Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
 
 .. note::
 
-   Si des éléments que vous voulez supprimer sont utilisés, GLPI proposera automatiquement de transférer les entrées existantes vers un autre élément de la liste, ou bien de les remettre à zéro.
+   If the elements you want to remove are used, GLPI will propose to transfer linked entries to another element in list, or to reset them.
 
 -   **[Configurer les composants](08_Module_Configuration/03_Composants.rst)**
      
@@ -23,13 +23,6 @@ Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`a
      
 -   **[Configurer les actions automatiques](08_Module_Configuration/08_Actions_automatiques.rst)**
      
--   **[Configurer les collecteurs](../glpi/config_mailcollector.html)**\
-     La configuration des collecteurs s'effectue depuis le menu
-    Configuration \> Collecteurs
--   **[Ajouter un
-    collecteur](../glpi/config_mailcollector_t_create.html)**\
--   **[Supprimer un
-    collecteur](../glpi/config_mailcollector_t_delete.html)**\
 -   **[Configurer les liens externes
     protocolés](../glpi/config_link.html)**\
      Les liens externes se configurent depuis le menu Configuration \>
@@ -44,3 +37,4 @@ Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`a
 
    authentification/index
    intitules/index
+   collectors
