@@ -12,11 +12,11 @@ A configuration option permit to switch tickets creation date between import dat
 
 Optionally, you can set an archive directory in the mailbox where imported and refused emails will be stored.
 
-Collectors that have errors will be placed at the top of the list. In that case, number of successive errors will be displayed in collector configuration form.
+Collectors that have errors will be indicated above the list. In that case, number of successive errors will be displayed in collector configuration form.
 
 Important: collector name must be the email address used. This allows to determine the address associated to the account. This is used to prevent collector address to be added as observer in tickets.
 
-Once the form validated, you can test connection and messages retrieving using the dedicated button.
+Once the form validated, you can test connection and messages retrieving by using the dedicated button.
 
 An automatic action will do the import on configured collectors; time between two executions can be configured in automated task form.
 
