@@ -3,7 +3,7 @@ Setup OAuth (SSO) authentication
 
 In this article, we will see how to to setup oauth (SSO) authentication to allow automatic authentication and import users from external services.
 
-.. image:: external_providers.png
+.. image:: images/external_providers.png
 
 Currently connects via:
 
@@ -22,7 +22,7 @@ This plugin is available on the Marketplace in your GLPI Network Ckoud Instance.
 * Go in `Setup -> Plugins` (`-> Marketplace` if display is not by default )
 * Install Oauthsso
 
-.. image:: sso_plugin_marketplace.png
+.. image:: images/sso_plugin_marketplace.png
 
 Plugin configuration
 ********************
@@ -43,7 +43,7 @@ For example:
 * Email : **email**
 * language : **language**
 
-.. image:: other_auth_send_http_request.png
+.. image:: images/other_auth_send_http_request.png
 
 .. warning::
 
@@ -58,7 +58,7 @@ For example:
 
 Now, you need to enable `Automatically add users from an external authentication source`. Go in `Setup -> Authentication -> Setup` and set `Automatically add users from an external authentication source` to `Yes`.
 
-.. image:: auto_add_from_external.png
+.. image:: images/auto_add_from_external.png
 
 Oauth SSO authentication configuration
 **************************************
@@ -95,11 +95,11 @@ Remember that we enabled an option above to avoid illegitimate authentication! T
 
 This can therefore become a criteria of my rule because ``@mydomain`` is a common denominator of all my users:
 
-.. image:: rule_criteria.png
+.. image:: images/rule_criteria.png
 
 Now, i can establish an action for my rule. Here, i want to assign Self-Service profile:
 
-.. image:: rule_action.png
+.. image:: images/rule_action.png
 
 Google specificity
 ******************

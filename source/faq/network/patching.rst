@@ -12,7 +12,7 @@ A file patch is a set of changes (+/-) designed to update, fix, improve or remov
 
 Here is an example of ``myPatch.patch``:
 
-.. image:: mypatch.png
+.. image:: images/mypatch.png
 
 * The ``+`` informs that we add some code
 * The ``-`` informs that we remove some code
@@ -31,7 +31,7 @@ Service support give you this a commit, like ``adc9876``
 
 First, you need to retrieve changes from commit. Go to ``https://github.com/glpi-project/glpi/commit/COMMIT_NUMBER.patch`` like https://github.com/glpi-project/glpi/commit/adc9876.patch
 
-.. image:: gh_patch.png
+.. image:: images/gh_patch.png
 
 Save the page from your browser, and name it for example ``myPatch.patch``.
 
@@ -44,7 +44,7 @@ Service support give you a :abbr:`Pull Request <PR>` number, like ``4770``.
 
 First, you need to retrieve changes from PR. Go to ``https://github.com/glpi-project/glpi/pull/PR_NUMBER.patch`` like https://github.com/glpi-project/glpi/pull/4770.patch
 
-.. image:: gh_pr_patch.png
+.. image:: images/gh_pr_patch.png
 
 Save the page from your browser, and name it for example ``myPatch.patch``.
 

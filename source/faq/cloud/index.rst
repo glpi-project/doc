@@ -9,6 +9,7 @@ GLPI Cloud FAQ
    data
    customize
    usage
+   inventory
 
 How to become our reseller partner?
 -----------------------------------
