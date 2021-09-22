@@ -1,3 +1,5 @@
+:orphan:
+
 Visualiser les réservations
 ===========================
 

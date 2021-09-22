@@ -1,3 +1,5 @@
+:orphan:
+
 Afficher toutes les informations sur une seule page
 ===================================================
 

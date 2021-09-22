@@ -1,3 +1,5 @@
+:orphan:
+
 Ajouter un nouvel annuaire LDAP
 ===============================
 

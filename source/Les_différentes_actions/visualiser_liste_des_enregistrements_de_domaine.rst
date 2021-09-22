@@ -1,3 +1,5 @@
+:orphan:
+
 Visualiser la liste des enregistrements de domaines
 ===================================================
 

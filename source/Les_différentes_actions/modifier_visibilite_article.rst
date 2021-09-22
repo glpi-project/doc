@@ -1,3 +1,5 @@
+:orphan:
+
 Modifier la visibilité d'un article
 ===================================
 

@@ -1,3 +1,5 @@
+:orphan:
+
 Préparer la mise à jour
 =======================
 

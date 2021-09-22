@@ -1,3 +1,5 @@
+:orphan:
+
 Lancer les actions automatiques en ligne de commande
 ====================================================
 

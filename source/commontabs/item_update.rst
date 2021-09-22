@@ -1,3 +1,5 @@
+:orphan:
+
 Modifier un objet dans l'inventaire
 ===================================
 

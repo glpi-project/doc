@@ -1,3 +1,5 @@
+:orphan:
+
 Gérer les réservations
 ======================
 

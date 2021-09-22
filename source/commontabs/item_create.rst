@@ -1,3 +1,5 @@
+:orphan:
+
 Ajouter un objet dans l'inventaire
 ==================================
 

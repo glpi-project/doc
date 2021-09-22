@@ -1,3 +1,5 @@
+:orphan:
+
 Voir un objet dans l'inventaire
 ===============================
 

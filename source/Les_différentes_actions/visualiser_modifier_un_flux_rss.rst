@@ -1,3 +1,5 @@
+:orphan:
+
 Visualier un flux RSS
 =====================
 

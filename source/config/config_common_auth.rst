@@ -1,3 +1,5 @@
+:orphan:
+
 Configurer l'intégration avec les sources d'authentification externes
 =====================================================================
 

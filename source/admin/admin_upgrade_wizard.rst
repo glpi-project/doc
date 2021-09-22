@@ -1,3 +1,5 @@
+:orphan:
+
 Utiliser l'assistant de mise à jour
 ===================================
 

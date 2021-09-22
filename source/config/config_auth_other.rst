@@ -1,3 +1,5 @@
+:orphan:
+
 Configurer les autres méthodes d'authentification externe
 =========================================================
 
