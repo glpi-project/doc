@@ -6,7 +6,7 @@ The GLPI Asset module is used to manage all the assets that are part of your IT 
 Asset management in GLPI
 ------------------------
 
-In order to manage hardwares and softwares of an IT infrastructure, GLPI allows natively to list all the assets that are used inside the managed organization.
+In order to manage hardwares and software of an IT infrastructure, GLPI allows natively to list all the assets that are used inside the managed organization.
 
 However, it is possible to automate information pushing from the assets thanks to third-party tools. GLPI supports the use of two existing plugins:
 

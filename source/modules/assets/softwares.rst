@@ -1,18 +1,18 @@
-Softwares
-=========
+Software
+========
 
-GLPI allows management of softwares and their versions as well as licenses, associated or not to software versions.
+GLPI allows management of software and their versions as well as licenses, associated or not to software versions.
 
 A software is by default associated with an entity.
 
 Financial management is done at the level of licenses; the financial management at software level is only a model for the licenses associated with this software.
 
-Softwares can be imported automatically using a third-party inventory tool; in this case a dictionary can be used to filter or clean the import data (see [Configure data dictionaries](07_Module_Administration/06_Dictionnaires.rst "The dictionaries are managed from menu entry Administration > Dictionaries")).
+Software can be imported automatically using a third-party inventory tool; in this case a dictionary can be used to filter or clean the import data (see [Configure data dictionaries](07_Module_Administration/06_Dictionnaires.rst "The dictionaries are managed from menu entry Administration > Dictionaries")).
 
 Some fields are specific in the software form:
 
 - **Update** is an information, with no processing associated and which tells whether the software is an update of another software
-- **Category** allows to group softwares in the list of softwares of an asset
+- **Category** allows to group software in the list of software of an asset
 - **Can be associated with a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
 
 
@@ -20,9 +20,9 @@ It is recommended to first create the software without a version number in the n
 
 .. note::
    In multi-entity mode, the list of software can rapidly become long because of double entries (one software per entity).
-   A better approach can consist in grouping identical softwares in the same entity (see tab *Grouping* below), then to make recursive the elements that can be made recursive.
+   A better approach can consist in grouping identical software in the same entity (see tab *Grouping* below), then to make recursive the elements that can be made recursive.
 
-It is possible to use :doc:`templates with softwares <../generalites/gabarits>`.
+It is possible to use :doc:`templates with software <../generalites/gabarits>`.
 
 The different tabs
 ------------------
@@ -55,7 +55,7 @@ Licenses
 Installations
 ~~~~~~~~~~~~~
 
-The installation of a software on a computer is visualized through a :ref:`version <versions_soft>` and can be consulted on a software form (list of computers having at least one version installed), on a version form (computers having this version installed) and finally on a computer form (list of versions of installed softwares, sorted by category).
+The installation of a software on a computer is visualized through a :ref:`version <versions_soft>` and can be consulted on a software form (list of computers having at least one version installed), on a version form (computers having this version installed) and finally on a computer form (list of versions of installed software, sorted by category).
 
 .. note::
 
@@ -93,7 +93,7 @@ Following the list of installed versions, the list of affected but non installed
 Grouping
 ~~~~~~~~
 
-This section describes how to group software having same names in sub-entities, allowing to group softwares of child entities into mother entity.
+This section describes how to group software having same names in sub-entities, allowing to group software of child entities into mother entity.
 
 .. note::
 
@@ -108,7 +108,7 @@ How to realize a grouping:
 
 #. Activate recursivity (sub-entities to Yes at top right); this will make a new tab `Grouping` appear after tab `History`
 
-#. Open this tab; a list displays softwares having same names in child entities
+#. Open this tab; a list displays software having same names in child entities
 
 #. Select appropriate lines and validate grouping
 
@@ -120,7 +120,7 @@ This grouping have the following effects:
 
 * Licenses are attached to the software in mother entity, but stay in origin sub-entities
 * Versions are merged, no more doubles in mother entity
-* Old softwares are moved to the trash
+* Old software are moved to the trash
 
 .. note::
 
@@ -136,7 +136,7 @@ This grouping have the following effects:
 The different actions
 ---------------------
 
-Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to softwares:
+Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to software:
 
 * :ref:`Add a version to a software <versions_soft>`
 * **[Manage licenses](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**
