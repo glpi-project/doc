@@ -23,4 +23,4 @@ An antivirus is characterized by:
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the antivirus informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the antivirus information can be automatically imported and updated.

@@ -20,7 +20,7 @@ In a computer form, the following information is available:
   * Serial number
   * ...
 
-* Management informations:
+* Management information:
 
   * Technical manager
   * Status
@@ -37,7 +37,7 @@ It is possible to use :doc:`templates with computers <../generalites/gabarits>`.
 
 .. note::
 
-   * when GLPI is used with an inventory tool, various informations provided by the tool itself are also available
+   * when GLPI is used with an inventory tool, various information provided by the tool itself are also available
    * a computer can be a server, a desktop computer or a laptop; to differentiate them, it is possible to use the `type` field
 
 
