@@ -40,15 +40,15 @@ L'attribution des habilitations est décrite dans la section [Attribuer des habi
 
 -   **[Configurer l'intégration avec les sources d'authentification
     externes](../glpi/config_common_auth.html)**\
-     Les paramètres généraux de l'intégration avec des sources externes
+    Les paramètres généraux de l'intégration avec des sources externes
     d'authentification se configurent dans le menu Configuration \>
     Authentification \> Configuration Authentification .
 -   **[Chiffrage des mots de passe dans la base de
     données](../glpi/config_passwords_encrypted.html)**\
-     Les mots de passe des accès extérieurs sont chiffrés
+    Les mots de passe des accès extérieurs sont chiffrés
 -   **[Authentifier des utilisateurs à partir d'annuaires
     LDAP](../glpi/config_auth_ldap.html)**\
-     L'interface de GLPI avec les annuaires LDAP se configure depuis le
+    L'interface de GLPI avec les annuaires LDAP se configure depuis le
     menu Configuration \> Authentification \> Annuaire LDAP .
 -   **[Configurer la liaison LDAP pour les utilisateurs et les
     groupes](../glpi/config_auth_ldap_usersgroups.html)**\
@@ -57,11 +57,11 @@ L'attribution des habilitations est décrite dans la section [Attribuer des habi
 -   **[Supprimer un annuaire](../glpi/config_auth_ldap_t_delete.html)**\
 -   **[Importer et synchroniser depuis un annuaire par
     script](../glpi/scripts_ldap_mass_sync.html)**\
-     Un script permet l'import et la synchronisation à partir d'un
+    Un script permet l'import et la synchronisation à partir d'un
     annuaire.
 -   **[Authentifier des utilisateurs à partir de serveurs de
     messagerie](../glpi/config_auth_imap.html)**\
-     L'interfaçage de GLPI avec des serveurs de messagerie comme source
+    L'interfaçage de GLPI avec des serveurs de messagerie comme source
     d'authentification se configure depuis le menu Configuration \>
     Authentification \> Serveurs de messagerie .
 -   **[Ajouter un serveur de
@@ -70,7 +70,7 @@ L'attribution des habilitations est décrite dans la section [Attribuer des habi
     messagerie](../glpi/config_auth_imap_t_delete.html)**\
 -   **[Configurer les autres méthodes d'authentification
     externe](../glpi/config_auth_other.html)**\
-     L'interfaçage de GLPI à des systèmes permettant de faire de
+    L'interfaçage de GLPI à des systèmes permettant de faire de
     l'authentification unique se configure depuis le menu Configuration
     \> Authentification \> Autre méthode d'authentification .
 

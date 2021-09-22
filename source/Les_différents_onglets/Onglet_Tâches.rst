@@ -11,7 +11,9 @@ Cet onglet permet de :
 -  modifier une tâche en cliquant sur la ligne correspondante dans le
    tableau.
 
-Figure 1. Onglet Tâches d'un ticket |image|
+.. figure:: /image/tache.png
+
+   Onglet Tâches d'un ticket
 
 Les icones de gauche vous permettent de visualiser rapidement le statut
 d'une tâche. Dans l'image vous avez successivement une tâche faite, à
@@ -64,6 +66,5 @@ problèmes <modules/assistance/problems>`__
 **Sujet parent :** `Gérer les
 changements <modules/assistance/changes>`__
 
-.. |image| image:: /image/tache.png
 .. |image| image:: /image/reservation-3.png
 

@@ -26,19 +26,19 @@ individuellement ou en bloc.
 La partie administration propose la liste des matériels réservables où
 ifférentes icônes permettent de :
 
--  Désactiver momentanément les réservations sur un matériel : |image|
--  Supprimer un item de la liste des matériels réservables : |image|.
+-  Désactiver momentanément les réservations sur un matériel : |image_moins|
+-  Supprimer un item de la liste des matériels réservables : |image_delete|.
    L'élément réservable passe alors à la corbeille ce qui permet de
    garder l'historique des réservations. Il est alors purgeable si
    besoin.
--  Voir le planning d'un matériel réservable : |image|
+-  Voir le planning d'un matériel réservable : |image_resa|
 
 Pour rendre un matériel réservable, choisir l'option adéquate dans
 l'onglet réservation de la fiche de celui-ci.
 
 **Sujet parent :** `Module Outils <../glpi/tool.html>`__
 
-.. |image| image:: ../image/moins.png
-.. |image| image:: ../image/delete.png
-.. |image| image:: ../image/reservation-3.png
+.. |image_moins| image:: ../image/moins.png
+.. |image_delete| image:: ../image/delete.png
+.. |image_resa| image:: ../image/reservation-3.png
 

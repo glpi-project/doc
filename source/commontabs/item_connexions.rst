@@ -12,7 +12,9 @@ différents reliés de manière physique ou virtuelle.
 Connexion depuis un ordinateur
 ------------------------------
 
-Figure 1. Connexion depuis un ordinateur |image|
+.. figure:: /image/connexion_computer.png
+
+   Connexion depuis un ordinateur
 
 La connexion peut se faire vers un ou plusieurs élément du type
 moniteur, imprimante, périphérique ou téléphone. Pour chaque type
@@ -22,8 +24,9 @@ listés.
 Connexion depuis un élément autre qu'un ordinateur
 --------------------------------------------------
 
-Figure 1. Connexion depuis un élément autre qu'un ordinateur (exemple
-d'un moniteur) |image|
+.. figure:: /image/connexion_monitor.png
+
+   Connexion depuis un élément autre qu'un ordinateur (exemple d'un moniteur)
 
 Dans ce cas, la connexion ne peut se faire que vers un seul ordinateur.
 Le tableau listera le nom de cet ordinateur ainsi que ses numéros de
@@ -49,7 +52,3 @@ imprimantes <modules/assets/printers>`__
 
 **Sujet parent :** `Gérer les
 téléphones <../glpi/inventory_phone.html>`__
-
-.. |image| image:: /image/connexion_computer.png
-.. |image| image:: /image/connexion_monitor.png
-
