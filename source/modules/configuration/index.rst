@@ -25,7 +25,7 @@ Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`a
      
 -   **[Configurer les liens externes
     protocolés](../glpi/config_link.html)**\
-     Les liens externes se configurent depuis le menu Configuration \>
+    Les liens externes se configurent depuis le menu Configuration \>
     Liens externes
 -   **[Ajouter un lien externe](../glpi/config_link_t_create.html)**\
 -   **[Supprimer un lien externe](../glpi/config_link_t_delete.html)**\

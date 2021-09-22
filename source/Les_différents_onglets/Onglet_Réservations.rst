@@ -11,8 +11,10 @@ Gestion des réservations pour un objet d'inventaire
 Dans cet onglet, il est possible de rendre l'élément de l'inventaire
 sélectionné réservable ou non.
 
-Figure 1. Onglet Réservations d'un ordinateur déclaré réservable et
-disponible |image|
+
+.. figure:: /image/item_reservations.png
+
+   Onglet Réservations d'un ordinateur déclaré réservable et disponible
 
 Actions
 -------
@@ -102,6 +104,5 @@ réservations <06_Module_Outils/06_Réservations.rst>`__
 **Sujet parent :** `Gérer les
 utilisateurs <07_Module_Administration/02_Utilisateurs/01_Utilisateurs.rst>`__
 
-.. |image| image:: /image/item_reservations.png
 .. |image| image:: /image/reservation-search.png
 
