@@ -1,10 +1,10 @@
-Softwares
-~~~~~~~~~
+Software
+~~~~~~~~
 
-This tab, named `Softwares` and visible in a `Computer` entry, allows to manage the softwares installed on a computer. These softwares are sorted by their category and are characterized by name, version and version status.
+This tab, named `Softwares` and visible in a `Computer` entry, allows to manage the software installed on a computer. Those software are sorted by their category and are characterized by name, version and version status.
 
 .. image:: /modules/assets/images/softwares_list.png
-   :alt: Softwares list
+   :alt: Software list
    :align: center
 
 To install a software, first select its name in the drop-down list, then its version.
@@ -21,7 +21,7 @@ To associate a license, first select the software in the drop-down list, then th
    :alt: Adding a license
    :align: center
 
-If the license is associated with a software that is already installed on the computer, it will be presented in the list of softwares.
+If the license is associated with a software that is already installed on the computer, it will be presented in the list of software.
 
 .. image:: /modules/assets/images/softwares_licence.png
    :alt: License from a software
@@ -35,9 +35,9 @@ Otherwise it will be displayed in a separate table.
 
 .. note::
 
-   * the drop-down list enumerates the softwares that are available in the entity
-   * licenses management can be found in :ref:`Assets > Softwares`.
-     See :doc:`Manage softwares <../assets/softwares>`
+   * the drop-down list enumerates the software that are available in the entity
+   * licenses management can be found in `Assets > Softwares`.
+     See :doc:`Manage software <../softwares>`
 
 .. note::
 
@@ -49,4 +49,4 @@ Otherwise it will be displayed in a separate table.
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the softwares informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the software information can be automatically imported and updated.
