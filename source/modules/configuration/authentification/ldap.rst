@@ -1,9 +1,9 @@
 Annuaires LDAP
 ==============
 
-GLPI s'interface avec un (ou plusieurs) :term:`Annuaire LDAP` afin d'authentifier les utilisateurs, de contrôler leur accès, de récupérer leurs informations personnelles et d'importer des groupes.
+GLPI s'interface avec un (ou plusieurs) :term:`Annuaire LDAP <LDAP directory>` afin d'authentifier les utilisateurs, de contrôler leur accès, de récupérer leurs informations personnelles et d'importer des groupes.
 
-Tous les annuaires compatibles LDAP v3 sont supportés par GLPI. C'est donc aussi le cas pour l':term:`Annuaire Active Directory` de Microsoft. Il n'y a pas de limite quant au nombre d'annuaires renseignés : bien entendu plus le nombre est élevé, plus la recherche d'un nouvel utilisateur à authentifier peut être longue.
+Tous les annuaires compatibles LDAP v3 sont supportés par GLPI. C'est donc aussi le cas pour l':term:`Annuaire Active Directory <Active Directory service>` de Microsoft. Il n'y a pas de limite quant au nombre d'annuaires renseignés : bien entendu plus le nombre est élevé, plus la recherche d'un nouvel utilisateur à authentifier peut être longue.
 
 Il est possible d'importer et de synchroniser les utilisateurs de 2 manières :
 
