@@ -1,3 +1,5 @@
+:orphan:
+
 Configurer les suivis par courriels et les alertes
 ==================================================
 

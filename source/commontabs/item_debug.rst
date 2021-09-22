@@ -1,3 +1,5 @@
+:orphan:
+
 Afficher des informations pour aider au debuggage
 =================================================
 

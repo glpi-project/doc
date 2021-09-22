@@ -1,3 +1,5 @@
+:orphan:
+
 Créer un nouvel objet dans GLPI
 ===============================
 

@@ -1,3 +1,5 @@
+:orphan:
+
 Supprimer une réservation en cours
 ==================================
 

@@ -1,3 +1,5 @@
+:orphan:
+
 Authentifier des utilisateurs à partir d'annuaires LDAP
 =======================================================
 

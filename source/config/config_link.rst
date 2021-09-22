@@ -1,3 +1,5 @@
+:orphan:
+
 Configurer les liens externes protocolés
 ========================================
 

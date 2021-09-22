@@ -1,3 +1,5 @@
+:orphan:
+
 Mettre à jour GLPI
 ==================
 

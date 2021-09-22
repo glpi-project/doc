@@ -1,3 +1,5 @@
+:orphan:
+
 Supprimer un objet dans l'inventaire
 ====================================
 

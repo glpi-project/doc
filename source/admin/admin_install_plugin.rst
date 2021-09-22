@@ -1,3 +1,5 @@
+:orphan:
+
 Installer et mettre à jour les plugins
 ======================================
 

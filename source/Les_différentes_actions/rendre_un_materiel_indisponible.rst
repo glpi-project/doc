@@ -1,3 +1,5 @@
+:orphan:
+
 Rendre un matériel indisponible
 ===============================
 

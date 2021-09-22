@@ -1,3 +1,5 @@
+:orphan:
+
 Importer et synchroniser depuis un annuaire par script
 ======================================================
 
