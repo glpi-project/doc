@@ -1,7 +1,7 @@
 Operating systems
 ~~~~~~~~~~~~~~~~~
 
-The informations on operating systems for a computer are visible in tabs `Operating system` for a Computer entry.
+The information on operating systems for a computer are visible in tabs `Operating system` for a Computer entry.
 
 .. image:: /modules/assets/images/os.png
    :alt: Screen presenting an operating system
@@ -33,4 +33,4 @@ An operating system is associated with the following elements:
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the operation system informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the operation system information can be automatically imported and updated.

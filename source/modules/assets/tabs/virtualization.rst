@@ -12,4 +12,4 @@ The only way to link manually a virtual machine to a physical machine is to attr
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the virtualization informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the virtualization information can be automatically imported and updated.

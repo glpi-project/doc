@@ -41,7 +41,7 @@ Network ports can be of different types:
 The `Network port` tab groups in a table the ports that are available
 on the equipment. The table header contains the total number of ports
 and a link that allows to choose display options. This allows to
-selectively display or mask informations such as network data (IP...),
+selectively display or mask information such as network data (IP...),
 port characteristics depending on its type, MAC address, VLANs...
 
 .. note::
@@ -119,4 +119,4 @@ A port aggregate contains the origin ports and a MAC address.
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the network ports informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the network ports information can be automatically imported and updated.

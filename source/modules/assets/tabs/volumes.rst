@@ -35,4 +35,4 @@ It is possible from a `Computer` entry to modify an existing volume by clicking 
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the volumes informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the volumes information can be automatically imported and updated.

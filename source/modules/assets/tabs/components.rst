@@ -32,7 +32,7 @@ Starting from a computer view, it is possible to modify a component by clicking 
    :align: center
 
 To act on several components (for example modify an element of the
-component, activate accounting informations or modify them, delete a
+component, activate accounting information or modify them, delete a
 component...), first select the components and then use the `Actions`
 button present at the top or the bottom of the list.
 
@@ -71,12 +71,12 @@ Selection at right of type column (grayed line) allows to select all components 
       Several tabs are then displayed:
 
       *  Tab "Element - Link name of component" : list the characteristics of this component
-      *  :doc:`Tab "Management" </modules/tabs/management>` : manage administrative and accounting informations
+      *  :doc:`Tab "Management" </modules/tabs/management>` : manage administrative and accounting information
       *  :doc:`Tab "Documents" </modules/tabs/documents>` : attached documents
       *  :doc:`Tab "History" </modules/tabs/historical>` : history of modifications
       *  :doc:`Tab "Contract" </modules/tabs/contracts>` : contracts management
       *  :doc:`Tab "Debug" </modules/tabs/debug>` : only if you are connected in Debug mode
-      *  :doc:`Tab "All" </modules/tabs/all>` : all the informations are displayed on a single page
+      *  :doc:`Tab "All" </modules/tabs/all>` : all the information are displayed on a single page
 
 .. note::
 
@@ -84,4 +84,4 @@ Selection at right of type column (grayed line) allows to select all components 
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the components informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the components information can be automatically imported and updated.

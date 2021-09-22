@@ -1,7 +1,7 @@
 Printers
 ========
 
-In a printer form, several informations are available:
+In a printer form, several information are available:
 
 * General characteristics of the printer:
 
