@@ -18,7 +18,9 @@ Un tableau liste les éléments déjà attachés à cet objet. Cette liste est
 triée par type d'éléments (avec en dessous le nombre de matériels) et la
 liste complète.
 
-Figure 2. Onglet Eléments du module Assistance |image|
+.. figure:: /image/tabElements.png
+
+   Onglet Eléments du module Assistance
 
 ***Remarque :** Les cases à cocher des actions de masse n'apparaissent
 que si vous avez les droits de modification sur le type d'élément
@@ -33,14 +35,17 @@ La liste est triée par type d'éléments (avec à côté le nombre de
 matériels) et la liste complète. Tout en bas du tableau, est affiché le
 nombre total d'éléments associés à cet objet.
 
-Figure 2. Onglet Eléments du module Gestion |image|
+
+.. figure:: /image/tabElementsGestion.png
+
+   Onglet Eléments du module Gestion
 
 Pour associer un élément à un objet du module gestion, il faut réaliser
 cette action via l'onglet *Gestion* de l'objet lié.
 
 ::
 
-    Exemple :  
+    Exemple :
     Pour lier un ordinateur à un fournisseur, il faut choisir le fournisseur dans l'onglet *Gestion* de la fiche de l'ordinateur.
 
 **Contrats** Dans le menu ***Contrats***, vous pouvez directement
@@ -66,7 +71,7 @@ Pour les **utilisateurs** :
    premier regroupe les objets d'inventaire affectés à l'utilisateur et
    le second ceux affectés à un groupe dont l'utilisateur est membre, et
    ce quelle que soit l'entité des objets. Figure 1. Eléments utilisés
-   d'un utilisateur |image| Dans la copie d'écran, étant positionné dans
+   d'un utilisateur |image_itemuser| Dans la copie d'écran, étant positionné dans
    Mon entité, je vois également les éléments de l'entité Site
    d'Armentières mais dans le cas, le nom n'est pas un lien cliquable.
 
@@ -83,7 +88,7 @@ Pour les **groupes**,
    possible de faire des recherches par type d'objet, étendre cette
    recherche également dans les sous-groupes et sur les objets dont le
    champ *utilisateur* correspond à un membre de ce groupe. Figure 1.
-   Eléments utilisés d'un groupe |image|
+   Eléments utilisés d'un groupe |image_itemgroup|
 
 -  Onglet **"Eléments gérés"** Même affichage que pour l'onglet
    "Eléments utilisés" mais le tableau concerne dans ce cas les objets
@@ -132,9 +137,7 @@ groupes <07_Module_Administration/03_Groupes.rst>`__
 **Sujet parent :** `Gérer les
 composants <08_Module_Configuration/03_Composants.rst>`__
 
-.. |image| image:: /image/tabElements.png
-.. |image| image:: /image/tabElementsGestion.png
-.. |image| image:: /image/ItemUsed.png
-.. |image| image:: /image/itemGroup.png
+.. |image_itemuser| image:: /image/ItemUsed.png
+.. |image_itemgroup| image:: /image/itemGroup.png
 .. |image| image:: /image/itemComponent.png
 
