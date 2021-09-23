@@ -41,7 +41,7 @@ Unitary management corresponds to one display per computer while global manageme
 
 Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-It is possible to use :doc:`templates with displays <../generalites/gabarits>`.
+It is possible to use :doc:`templates with displays <../overview/templates>`.
 
 The different tabs
 ------------------
@@ -76,6 +76,6 @@ The different tabs
 The different actions
 ---------------------
 
-Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to displays:
+Apart from :doc:`common actions <../overview/actions>`, some actions are specific to displays:
 
 * :doc:`connect a display to a monitor <../../commontabs/item_connexions>`

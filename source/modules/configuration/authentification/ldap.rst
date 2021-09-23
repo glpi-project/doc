@@ -214,4 +214,4 @@ L'utilisation des réplicats se fait uniquement dans le cas d'une perte de conne
 Les différentes actions
 -----------------------
 
-Les annuaires LDAP ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+Les annuaires LDAP ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../../overview/actions>`.

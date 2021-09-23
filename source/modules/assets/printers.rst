@@ -40,7 +40,7 @@ Unitary management corresponds to one printer per computer while global manageme
 Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
 
-It is possible to use :doc:`templates with printers <../generalites/gabarits>`.
+It is possible to use :doc:`templates with printers <../overview/templates>`.
 
 
 The different tabs
@@ -93,4 +93,4 @@ This tab displays the cartridges associated with the selected printer model:
 The different actions
 ---------------------
 
-Printers do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
+Printers do not have specific actions; report to :doc:`common actions <../overview/actions>`.

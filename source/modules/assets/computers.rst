@@ -33,7 +33,7 @@ In a computer form, the following information is available:
 
 Other fields are informative, such as `Network` (connexion type) and `Update source` (where are computer updates coming from (Windows update, yum, apt...).
 
-It is possible to use :doc:`templates with computers <../generalites/gabarits>`.
+It is possible to use :doc:`templates with computers <../overview/templates>`.
 
 .. note::
 
@@ -91,7 +91,7 @@ The different tabs
 The different actions
 ---------------------
 
-Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to computers:
+Apart from :doc:`common actions <../overview/actions>`, some actions are specific to computers:
 
 * **Install a software with a license on a computer**
   From the tab *Softwares*, add a license by choosing the name of the software followed by the name of the license.

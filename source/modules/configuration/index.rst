@@ -11,7 +11,7 @@ Configuration module gives access to all GLPI configuration options: global conf
    collectors
    general/index
 
-Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../overview/actions>`.
 
 .. note::
 

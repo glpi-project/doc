@@ -27,7 +27,7 @@ Management of shared stocks is possible by defining the element as recursive on 
 The different tabs
 ------------------
 
-.. _ajout-consumables-modele:
+.. _add-consumables-model:
 
 Consumables
 ~~~~~~~~~~~~
@@ -57,9 +57,9 @@ The mass actions of this tab allows to allocate consumables (action **Give***).
 The different actions
 ---------------------
 
-Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to consumables:
+Apart from :doc:`common actions <../overview/actions>`, some actions are specific to consumables:
 
-* :ref:`Add new consumables to a model <ajout-consumables-modele>` ;
+* :ref:`Add new consumables to a model <add-consumables-model>` ;
 * List allocated consumables:
 
   .. image:: /image/resumeConsumable.png

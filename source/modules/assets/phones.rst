@@ -39,7 +39,7 @@ Unitary management corresponds to one phone per computer while global management
 
 Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-It is possible to use :doc:`templates with phones <../generalites/gabarits>`.
+It is possible to use :doc:`templates with phones <../overview/templates>`.
 
 
 The different tabs
@@ -80,4 +80,4 @@ The different tabs
 The different actions
 -----------------------
 
-Phones do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
+Phones do not have specific actions; report to :doc:`common actions <../overview/actions>`.

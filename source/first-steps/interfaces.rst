@@ -38,7 +38,7 @@ It is divided into 5 views:
 
 * *RSS feed*
 
-   Proposes the content of defined RSS feeds. :doc:`RSS feeds are managed from the "Tools  > RSS Feeds" menu <../modules/outils/fluxrss>`.
+   Proposes the content of defined RSS feeds. :doc:`RSS feeds are managed from the "Tools  > RSS Feeds" menu <../modules/tools/rssfeed>`.
 
 .. note::
 

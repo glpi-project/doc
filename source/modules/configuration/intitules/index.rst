@@ -12,7 +12,7 @@ Certaines listes de sélections déroulantes sont paramétrables dans GLPI :
 
 En somme, tout ce qui dépend d'une nomenclature propre à un contexte particulier doit être paramétré. Si certains de ces intitulés sont fournis avec une liste par défaut, la plupart des intitulés doivent être déclarés dans l'application.
 
-Par défaut, les intitulés ne peuvent être traduits dans plusieurs langues. Cette :ref:`fonctionnalité doit être activée <common-configuration>`  et permet alors de traduire l'ensemble des champs des intitulés.
+Par défaut, les intitulés ne peuvent être traduits dans plusieurs langues. Cette :doc:`fonctionnalité doit être activée </modules/configuration/general/index>`  et permet alors de traduire l'ensemble des champs des intitulés.
 
 Les intitulés sont soit une liste de valeurs à plat (simple liste de valeurs), soit une liste arborescente (chaque élément peut avoir des sous-éléments).
 
