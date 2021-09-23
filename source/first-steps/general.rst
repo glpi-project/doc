@@ -27,7 +27,7 @@ Access to the full functionality of the application requires authentication. An 
 * Open a ticket,
 * ...
 
-Depending on the profile of the authenticated user, they may be shown the :ref:`standard interface <standard-interface>`, or :ref:`simplified interface <simplified-interface>`.
+Depending on the profile of the authenticated user, they may be shown the :ref:`standard interface <standard_interface>`, or :ref:`simplified interface <simplified_interface>`.
 
 End your session
 ----------------
