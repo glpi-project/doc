@@ -5,7 +5,7 @@ This matrix is common to all help desk items (tickets, problems and changes) and
 
 ITIL best practices separate urgency (as defined by the user) from incident impact (a user, a service, a functionality...) which is usually set by the technician. A matrix is then used to compute the priority associated to the item of the help desk (ticket, problem or change) as a function of both urgency and impact. GLPI provides a default predefined matrix which corresponds to standard cases.
 
-This predefined matrix can be modified in tab `Assistance` of menu **Setup > General** (see :doc:`Configure general parameters </modules/configuration/06_Générale/01_Configurer_les_paramètres_centraux>`.
+This predefined matrix can be modified in tab `Assistance` of menu **Setup > General** (see :doc:`Configure general parameters </modules/configuration/general/index>`.
 
 Knowing that the order of items processing by technicians is based on priority, it is possible to select the different levels of urgency, impact or priorities that will be used in the help desk and to disable some of them. This action allows to ease declaration of an incident and its processing. To disable a level, this level must be set to `No`. Medium level cannot be disabled.
 

@@ -1,10 +1,7 @@
-:orphan:
+Assistance
+==========
 
-Onglet Assistance
-=================
-
-Cet onglet permet de paramétrer le comportement de la partie assistance
-de GLPI.
+This tab allows management of GLPI assistance part.
 
 Assistance
 ----------
@@ -54,8 +51,8 @@ Assistance
    utilisateur non présent dans GLPI de répondre à un courriel provenant
    de GLPI
 
-Matrice de définition de la priorité
-------------------------------------
+Matrix of calculus for priority
+-------------------------------
 
 Le cycle de vie du ticket est influencé par des événements qui peuvent
 déclencher des traitements automatiques : suppression des tickets liés à
@@ -66,11 +63,6 @@ documents liés aux tickets.
 priorité des tickets en fonction du niveau d'impact et d'urgence. La
 disponibilité de ces niveaux dans l'application peut aussi être définie
 mais le niveau Moyen ne peut être supprimé.
-
---------------
-
-**Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__
 
 .. |image| image:: /image/configMatrice.png
 

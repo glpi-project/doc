@@ -1,18 +1,12 @@
-:orphan:
+Assets
+=======
 
-Onglet Parc
-===========
+This tab permit to configure global parameters for inventory.
 
-Cet onglet parc permet de définir les paramètres généraux concernant la
-partie inventaire de l'application.
+Assets
+------
 
-Parc
-----
-
-.. figure:: /image/configparc.png
-   :alt: image
-
-   image
+.. image:: /image/configparc.png
 
 -  **Activer les informations financières et administratives par
    défaut** : applicable pour tous les objets de l'inventaire.
@@ -43,10 +37,14 @@ Parc
    unitaire peut passer sous le mode de la gestion globale. Il est
    possible de restreindre le type de gestion selon les matériels.
 
-.. figure:: /image/configtransfert.png
-   :alt: image
+Automatic transfer of computers
+-------------------------------
 
-   image
+.. image:: /image/configtransfert.png
+
+.. note::
+
+   This configuration option is not present if you have only one entity in your instance.
 
 -  **Modèle pour le transfert automatique d'ordinateurs dans une autre
    entité** : GLPI permet aussi de transférer un ordinateur dans une
@@ -58,10 +56,10 @@ Parc
    résultante est différente de l'entité de l'ordinateur, celui-ci sera
    transféré.
 
-.. figure:: /image/configpc.png
-   :alt: image
+Automatically update of the elements related to the computers
+-------------------------------------------------------------
 
-   image
+.. image:: /image/configpc.png
 
 L'interfaçage avec un outil d'inventaire rend possible l'inventaire
 automatisé des matériels. Cet interfaçage est possible au travers d'un
@@ -80,8 +78,3 @@ plugin.
 Exemple : lors de la première remontée d'inventaire vous pouvez définir
 que le moniteur connecté à l'ordinateur prendra le statut Production. En
 cas de déconnexion il prendra le statut Disponible
-
---------------
-
-**Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configures_les_paramètres_centraux.rst>`__
