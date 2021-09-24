@@ -46,8 +46,8 @@ externes configurées dans l'application.
 
 Pour utiliser la capacité de GLPI de créer à la volée des utilisateurs
 présents dans les sources externes d'authentification, il faut l'activer
-dans le menu Configuration > Authentification > Configuration
-Authentification . Les annuaires LDAP permettent en outre de refuser la
+dans le menu **Configuration > Authentification**.
+Les annuaires LDAP permettent en outre de refuser la
 création des utilisateurs ne possédant pas d'habilitations. La
 suppression d'un utilisateur de l'annuaire peut aussi entraîner une
 action telle que la mise à la corbeille de l'utilisateur, la suppression
