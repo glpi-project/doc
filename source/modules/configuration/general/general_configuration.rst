@@ -13,7 +13,7 @@ Description of fields
 * **Text in the login box**: specific text to be displayed at the top of the login block
 * **Allow FAQ anonymous access**: allows :abbr:`Frequently Asked Question <FAQ>` access without any login in GLPI. A link to access the FAQ will be displayed below the login box when enabled.
 * **Default search results limit**: maximum number of search results displayed at once on all search pages
-* **Default characters limit**: maximum number of displayed characters visible in search results. If you display a ticket content for example, ill will be truncated on this number of characters
+* **Default characters limit**: maximum number of displayed characters visible in search results. If you display a ticket content for example, it will be truncated on this number of characters
 * **Default url length limit**: same as the above, but applying on URLs
 * **Default decimals limit**: number of decimals displayed for amounts
 * **Translation of dropdowns**: allows dropdowns do be translated. Once this parameter enabled, a translation tab will be added on dropdown forms (see `dropdowns translations <08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.rst>`_)
