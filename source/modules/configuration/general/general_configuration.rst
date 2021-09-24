@@ -26,7 +26,4 @@ Description of fields
 * **Don't show search engine in dropdowns if the number of items is less than**: search in dropdown won't be displayed if there are less results than configured here
 
 * **Items seen**
-* **all**: Positionnement de ce paramètre dans le moteur de recherche
-  d'un objet (non visible, en fin de liste ou préselectionné à
-  l'ouverture de l'objet).
 * **Global search**: enable global search adding a search field at the top of the interface
