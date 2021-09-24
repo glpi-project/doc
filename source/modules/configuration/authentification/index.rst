@@ -1,5 +1,5 @@
-Authentification
-================
+Authentication
+==============
 
 C'est ici que GLPI gère l'authentification et les informations personnelles des utilisateurs.
 
@@ -38,44 +38,26 @@ L'attribution des habilitations est décrite dans la section [Attribuer des habi
       #.  si le moteur a donné à celui-ci une ou plusieurs habilitations, alors l'utilisateur a accès à GLPI ;
       #.  si l'utilisateur ne se voit attribuer aucune habilitation, alors bien qu'étant inscrit dans la base GLPI, il ne peut se connecter à l'application.
 
--   **[Configurer l'intégration avec les sources d'authentification
-    externes](../glpi/config_common_auth.html)**\
-    Les paramètres généraux de l'intégration avec des sources externes
-    d'authentification se configurent dans le menu Configuration \>
-    Authentification \> Configuration Authentification .
--   **[Chiffrage des mots de passe dans la base de
-    données](../glpi/config_passwords_encrypted.html)**\
-    Les mots de passe des accès extérieurs sont chiffrés
--   **[Authentifier des utilisateurs à partir d'annuaires
-    LDAP](../glpi/config_auth_ldap.html)**\
-    L'interface de GLPI avec les annuaires LDAP se configure depuis le
-    menu Configuration \> Authentification \> Annuaire LDAP .
--   **[Configurer la liaison LDAP pour les utilisateurs et les
-    groupes](../glpi/config_auth_ldap_usersgroups.html)**\
--   **[Ajouter un nouvel annuaire
-    LDAP](../glpi/config_auth_ldap_t_create.html)**\
--   **[Supprimer un annuaire](../glpi/config_auth_ldap_t_delete.html)**\
+
+Afin de pouvoir utiliser ces sources externes d'authentification, il
+faut au préalable activer les extensions correspondantes dans la
+configuration de PHP. Il n'y a pas de limite quant au nombre de sources
+externes configurées dans l'application.
+
+Pour utiliser la capacité de GLPI de créer à la volée des utilisateurs
+présents dans les sources externes d'authentification, il faut l'activer
+dans le menu Configuration > Authentification > Configuration
+Authentification . Les annuaires LDAP permettent en outre de refuser la
+création des utilisateurs ne possédant pas d'habilitations. La
+suppression d'un utilisateur de l'annuaire peut aussi entraîner une
+action telle que la mise à la corbeille de l'utilisateur, la suppression
+de ses habilitations ou sa désactivation.
+
+
 -   **[Importer et synchroniser depuis un annuaire par
     script](../glpi/scripts_ldap_mass_sync.html)**\
     Un script permet l'import et la synchronisation à partir d'un
     annuaire.
--   **[Authentifier des utilisateurs à partir de serveurs de
-    messagerie](../glpi/config_auth_imap.html)**\
-    L'interfaçage de GLPI avec des serveurs de messagerie comme source
-    d'authentification se configure depuis le menu Configuration \>
-    Authentification \> Serveurs de messagerie .
--   **[Ajouter un serveur de
-    messagerie](../glpi/config_auth_imap_t_create.html)**\
--   **[Supprimer un serveur de
-    messagerie](../glpi/config_auth_imap_t_delete.html)**\
--   **[Configurer les autres méthodes d'authentification
-    externe](../glpi/config_auth_other.html)**\
-    L'interfaçage de GLPI à des systèmes permettant de faire de
-    l'authentification unique se configure depuis le menu Configuration
-    \> Authentification \> Autre méthode d'authentification .
-
-**Sujet parent :** [Administrer les contrôles
-d'accès](../glpi/access_control_intro.html "Cette partie décrit comment administrer le système de contrôle d'accès qui permet à chaque utilisateur d'accéder à un contexte d'utilisation spécifique.")
 
 
 .. toctree::
@@ -83,3 +65,5 @@ d'accès](../glpi/access_control_intro.html "Cette partie décrit comment admini
 
    configuration
    ldap
+   imap
+   other

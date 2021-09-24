@@ -1,7 +1,5 @@
-:orphan:
-
-Authentifier des utilisateurs à partir de serveurs de messagerie
-================================================================
+Authenticate from IMAP
+======================
 
 L'interfaçage de GLPI avec des serveurs de messagerie comme source
 d'authentification se configure depuis le menu Configuration >
@@ -21,5 +19,3 @@ de l'adresse de messagerie qui suit le caractère arobase, et le nom
 pleinement qualifié du serveur de messagerie, qui peut servir plusieurs
 domaines de messageries.
 
-**Sujet parent :** `Configurer la gestion
-d'identité <../glpi/config_auth.html>`__
