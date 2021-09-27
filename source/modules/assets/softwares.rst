@@ -22,7 +22,7 @@ It is recommended to first create the software without a version number in the n
    In multi-entity mode, the list of software can rapidly become long because of double entries (one software per entity).
    A better approach can consist in grouping identical software in the same entity (see tab *Grouping* below), then to make recursive the elements that can be made recursive.
 
-It is possible to use :doc:`templates with software <../generalites/gabarits>`.
+It is possible to use :doc:`templates with software <../overview/templates>`.
 
 The different tabs
 ------------------
@@ -136,7 +136,7 @@ This grouping have the following effects:
 The different actions
 ---------------------
 
-Apart from :doc:`common actions <../generalites/actions>`, some actions are specific to software:
+Apart from :doc:`common actions <../overview/actions>`, some actions are specific to software:
 
 * :ref:`Add a version to a software <versions_soft>`
 * **[Manage licenses](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**

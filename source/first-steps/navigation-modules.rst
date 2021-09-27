@@ -4,10 +4,10 @@ Navigate GLPI modules
 The various functions of GLPI have been grouped into several modules, built around similar contexts of use.
 The top bar of the interface allows you to navigate between these modules:
 
-* The :doc:`Assets module <../../modules/parc/index>` provides access to the various inventoried materials,
+* The :doc:`Assets module <../../modules/assets/index>` provides access to the various inventoried materials,
 * The :doc:`Assistance module <../../modules/assistance/index>` allows you to create and monitor tickets, problems and changes; as well as see statistics.
 * The :doc:`Management module <../../modules/management/index>` allows you to manage contacts, suppliers, budgets, contracts and documents.
-* The :doc:`Tools module <../../modules/outils/index>` allows you to manage projects, notes, the knowledge base, reservations, RSS feeds and view reports.
+* The :doc:`Tools module <../../modules/tools/index>` allows you to manage projects, notes, the knowledge base, reservations, RSS feeds and view reports.
 * The :doc:`Administration module <../../modules/administration/index>` allows you to administer users, groups, entities, profiles, rules and dictionaries. It also allows the maintenance of the application (basic backup and restore, check if a new version is available) as well as the management of the email queue.
 * The :doc:`Setup module <../../modules/configuration/index>` provides access to the general configuration options of GLPI: notifications, collectors, automatic tasks, authentication, plugins, external links, SLA, management of titles, components as well as control of the uniqueness of fields.
 

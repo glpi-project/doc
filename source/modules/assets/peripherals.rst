@@ -32,7 +32,7 @@ Unitary management corresponds to one peripheral per computer while global manag
 
 Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
 
-It is possible to use :doc:`templates with peripherals <../generalites/gabarits>`.
+It is possible to use :doc:`templates with peripherals <../overview/templates>`.
 
 
 The different tabs
@@ -73,4 +73,4 @@ The different tabs
 The different actions
 ---------------------
 
-Peripherals do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
+Peripherals do not have specific actions; report to :doc:`common actions <../overview/actions>`.

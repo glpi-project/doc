@@ -1,20 +1,12 @@
-:orphan:
+Default values
+==============
 
-Valeurs par défaut
-==================
+This tabs allows to confiugure display preferences pllied per defaiult. It can be overrided per user session(see `Manage preferences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`_).
 
-Cet onglet permet de définir les préférences d'affichage appliquées par
-défaut à GLPI. Elles peuvent être modifiées par les utilisateurs dans
-leur session (voir `Gérer ses
-préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__).
+Personalization
+---------------
 
-Personnalisation
-----------------
-
-.. figure:: /image/personnalisation.png
-   :alt: image
-
-   image
+.. image:: images/default_values_personalization.png
 
 -  **Langue** : langue d'affichage de GLPI.
 
@@ -73,10 +65,7 @@ Personnalisation
 Assistance
 ----------
 
-.. figure:: /image/pref-assistance.png
-   :alt: image
-
-   image
+.. image:: images/default_values_assistance.png
 
 Les paramètres sont applicables à tous les objets du menu
 ***Assistance***.
@@ -108,22 +97,16 @@ Les paramètres sont applicables à tous les objets du menu
    ce paramètre peut être utilise pour un technicien travaillant
    continuellement depuis a liste des tickets.
 
-Progression liée à la date d'échéance
--------------------------------------
+Due date progression
+--------------------
 
-.. figure:: /image/pref-duedate.png
-   :alt: image
-
-   image
+.. image:: images/default_values_duedate.png
 
 Permet de définir les couleurs qui seront appliquées dans la barre de
 progression d'un objet. Ces différents états dépendent des seuils
 paramétrés en pourcentage, en heures ou en jours.
 
---------------
+Dashboards
+----------
 
-**Sujet parent :** `Gérer ses
-préférences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`__
-
-**Sujet parent :** `Configurer les paramètres
-centraux <08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.rst>`__
+.. image:: images/default_values_dashboards.png

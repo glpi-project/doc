@@ -3,7 +3,15 @@ Configuration
 
 Configuration module gives access to all GLPI configuration options: global configuration, notifications, collectors,  automated tasks,authentication, plugins, unicity criteria ans external links.
 
-Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../generalites/actions>`.
+.. toctree::
+   :maxdepth: 2
+
+   authentification/index
+   intitules/index
+   collectors
+   general/index
+
+Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../overview/actions>`.
 
 .. note::
 
@@ -17,8 +25,6 @@ Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`a
 -   **[Configurer les SLAs](08_Module_Configuration/05_Sla/01_Sla.rst)**
      Définir les SLA ainsi que les différents niveaux d'escalade.
 
--   **[Configurer les paramètres centraux](08_Module_Configuration/06_Générale/01_Configurer_les_paramètres_centraux.rst)**
-
 -   **[Configurer les contrôles](08_Module_Configuration/07_Controles.rst)**
      
 -   **[Configurer les actions automatiques](08_Module_Configuration/08_Actions_automatiques.rst)**
@@ -31,10 +37,3 @@ Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`a
 -   **[Supprimer un lien externe](../glpi/config_link_t_delete.html)**\
 -   **[Configurer les plugins GLPI](../glpi/config_plugin.html)**\
      Les plugins dans GLPI, installation, configuration, activation
-
-.. toctree::
-   :maxdepth: 2
-
-   authentification/index
-   intitules/index
-   collectors

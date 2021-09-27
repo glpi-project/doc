@@ -65,7 +65,7 @@ Les informations suivantes seront affichés :
       Plusieurs onglet sont alors proposés :
 
       *  Onglet "Elément - Lien nom du composant" : liste les caractéristiques de ce composant.
-      *  :doc:`Onglet "Gestion" <../parc/onglets/gestion>` : gérer les informations financières et administratives.
+      *  :doc:`Onglet "Gestion" <../tabs/management>` : gérer les informations financières et administratives.
       *  :doc:`Onglet "Documents" <../tabs/documents>`
       *  :doc:`Onglet "Historique" <../tabs/historical>`
       *  :doc:`Onglet "Debug" <../tabs/debug>` : uniquement si vous êtes connecté en mode Debug.

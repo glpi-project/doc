@@ -1,13 +1,10 @@
-:orphan:
-
-Onglet Réplicats MySQL
-======================
+Mysql replicate
+===============
 
 GLPI peut être configuré pour utiliser une base MySQL esclave.
 
 Cet onglet n'est visible que si l'utilisation du réplicat a été validé
-dans :doc:`l'onglet
-*Système* <./06_Systeme>`
+dans :doc:`l'onglet Système <./system>`
 
 .. image:: /image/replicat.png
    :align: center

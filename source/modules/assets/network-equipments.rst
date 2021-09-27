@@ -5,7 +5,7 @@ Network equipment represent the hardware that manages, transmits and route netwo
 
 A network equipment can be a switch, an Ethernet hub, a router, a firewall or a WiFi access point.
 
-It is possible to use :doc:`templates with network equipments <../generalites/gabarits>`.
+It is possible to use :doc:`templates with network equipments <../overview/templates>`.
 
 
 The different tabs
@@ -47,4 +47,4 @@ The different tabs
 The different actions
 ---------------------
 
-Network equipments do not have specific actions; report to :doc:`common actions <../generalites/actions>`.
+Network equipments do not have specific actions; report to :doc:`common actions <../overview/actions>`.
