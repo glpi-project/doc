@@ -24,6 +24,10 @@ In the plugin marketplace UI, click on the `Discovery` tab to view the list of a
 These include official plugins (free and subscription) and community plugins.
 On the left, you can select a category to filter plugins and use the search bar to further limit the results.
 
+.. image:: images/marketplace_discover.png
+   :alt: Discover tab in Marketplace
+   :align: center
+
 Any plugin that has a `GLPI NETWORK` requires a non-free subscription. These plugins will also indicate the tier required such as `BASIC` or `STANDARD`. Each paid tier includes the plugins from the lower tiers.
 
 Installing plugins
