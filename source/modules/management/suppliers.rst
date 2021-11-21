@@ -77,14 +77,3 @@ This tab allows to display the **Changes** associated with the supplier, i.e. al
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-*   :doc:`Add a supplier <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Display a supplier <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modify a supplier <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Delete a supplier <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Attach a document to a supplier <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transfer a supplier <../../Les_différentes_actions/transferer_un_objet>`

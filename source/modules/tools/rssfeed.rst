@@ -31,11 +31,3 @@ This tab allows to display and modify the list of targets of the RSS feed.
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add a RSS feed <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Display/Modify a RSS feed <../../Les_différentes_actions/visualiser_modifier_un_flux_rss>`
-* :doc:`Delete a RSS feed <../../Les_différentes_actions/supprimer_un_objet>`

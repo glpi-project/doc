@@ -64,22 +64,3 @@ This tab allows to attach an item to the problem by choosing the type and the se
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add a problem <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Modify a problem <../../Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a problem <../../Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a problem <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-* :doc:`Transfer a problem to another entity <../../Les_différentes_actions/transferer_un_objet>`
-
-.. todo::
-
-   destination links do not exist:
-
-* :doc:`Associer un élément à un problem <../../Les_différentes_actions/Onglet_Eléments.rst>`
-* :doc:`Associer un ticket à un problem <../../Les_différentes_actions/Onglet_Tickets.rst>`
-* :doc:`Associer un changement à un problem <../../Les_différentes_actions/Onglet_Problèmes.rst>`
-

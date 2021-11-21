@@ -78,16 +78,3 @@ For users, this tab allows to list tickets created by the user but also to creat
 .. include:: ../../tabs/debug.rst
 
 .. include:: ../../tabs/all.rst
-
-The different actions
----------------------
-
-* :doc:`Add a user </modules/administration/users/usersimport>`
-* :doc:`Modify user data </Les_différentes_actions/modifier_un_objet>`
-* **Modify user authentication method**: is done through tab `Synchronization` (see above)
-* :doc:`Delete a user </Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a user </Les_différentes_actions/associer_un_document_a_un_objet>`
-* :doc:`Attach an element to a user </Les_différents_onglets/Onglet_Eléments>`
-* :doc:`Attach a ticket to a user </modules/tabs/tickets>`
-
-

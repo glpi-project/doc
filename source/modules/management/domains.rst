@@ -92,15 +92,3 @@ The different tabs
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Display a domain <../../Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Add a domain or a record <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Modify a domain or a record <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Delete a domain or a record <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Attach a document to a domain or a record <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-* :doc:`Transfer a domain <../../Les_différentes_actions/transferer_un_objet>`
-* :doc:`Display domain records <../../Les_différentes_actions/visualiser_liste_des_enregistrements_de_domaine>`

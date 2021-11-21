@@ -131,13 +131,3 @@ This tab allows platform's users to add their comments and discuss the article.
    :align: center
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-*  :doc:`Add an article <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*  :doc:`Modify an article <../../Les_différentes_actions/modifier_un_article>`
-*  :doc:`Delete an article <../../Les_différentes_actions/supprimer_un_article>`
-*  :doc:`Attach a document to an article <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*  :doc:`Modify the visibility of an article <../../Les_différentes_actions/modifier_visibilite_article>`

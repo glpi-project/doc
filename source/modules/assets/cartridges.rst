@@ -54,17 +54,3 @@ A first table lists the new or unused cartridges, the second table lists used ca
 .. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
-
-The different actions
----------------------
-
-- **[Add a cartridge model](Les_différentes_actions/Créer_un_nouvel_objet.rst)**
-- **[See a cartridge model](Les_différentes_actions/Visualiser_un_objet.rst)**
-- **[Modify a cartridge model](Les_différentes_actions/Modifier_un_objet.rst)**
-- **[Delete a cartridge model](Les_différentes_actions/Supprimer_un_objet.rst)**
-- **Add new cartridges to a model**
-  See tab *Cartridges* above
-- **Add a printer model for the cartridge model**
-  See tab *Printer model* above
-- **[Associate a document with a cartridge model](Les_différentes_actions/Lier_un_document_à_un_objet.rst)**
-- **[Transfer a cartridge to another entity](Les_différentes_actions/Transférer_un_objet.rst)**

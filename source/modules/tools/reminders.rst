@@ -52,15 +52,3 @@ A public reminder is visible by users associated with a profile if this profile 
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add a reminder <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Display a reminder <../../Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Modifier a reminder <../../Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a reminder <../../Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a reminder <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-* Make a reminder public: add a target to the reminder
-* Publish a reminder during a given duration: add a start date and an end date in `Visibility`

@@ -139,15 +139,3 @@ See :doc:`Historical </commontabs/item_historique>`
 .. include:: ../../tabs/debug.rst
 
 .. include:: ../../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add a ticket </modules/assistance/tickets/ticketopening>`
-* :doc:`Modify a ticket </Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a ticket </Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a ticket </Les_différentes_actions/associer_un_document_a_un_objet>`
-* **Link tickets together**: this action is done using field *Linked tickets* of the form
-* :doc:`Transfer a ticket to another entity </Les_différentes_actions/transferer_un_objet>`
-
