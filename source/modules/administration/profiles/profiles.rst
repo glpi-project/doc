@@ -125,29 +125,3 @@ See :doc:`Tab "Historical" </modules/tabs/historical>`
 All
 ~~~
 See :doc:`Tab "All" </modules/tabs/all>`
-
-
-The different actions
------------------------
-
-* :doc:`Add a profile </Les_différentes_actions/creer_un_nouvel_objet>`
-
-  Fields to be provided are:
-
-  * **Name**
-  * **Default profile** : when this field is checked, every newly created or imported user will be assigned this profile.
-
-    .. warning:: if more than one profile is registered as default profile, the first registered will supersede others.
-
-  * **Profile's Interface**: see :doc:`standard or simplified interface </first-steps/interfaces>`
-  * **Modify password**: when this field is checked, users with this profile will be able to change their password using the **Preferences** link.
-
-    .. warning:: if directory authentication is enabled, users will lose their ability to change their password, as well as any other data coming from the directory.
-
-  * **Ticket creation form on login**: if this field is checked, users having this profile will be redirected to ticket opening page instead of home page.
-
-* :doc:`See a profile </Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Modify a profile </Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a profile </Les_différentes_actions/supprimer_un_objet>`
-
-

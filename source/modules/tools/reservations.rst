@@ -38,12 +38,3 @@ Administration
 ~~~~~~~~~~~~~~
 
 This tab display all reservable items and not only the available ones. As for main GLPI items, it offers a search engine with mass actions.
-
-
-The different actions
----------------------
-
-* :doc:`Add a reservation <../../Les_différentes_actions/reserver_un_materiel>`
-* :doc:`Display/modify reservations <../../Les_différentes_actions/visualiser_modifier_les_reservations>`
-* :doc:`Delete a reservation <../../Les_différentes_actions/supprimer_une_reservation>`
-* :doc:`Make an equipment unavailable <../../Les_différentes_actions/rendre_un_materiel_indisponible>`

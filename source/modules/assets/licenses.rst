@@ -55,14 +55,3 @@ The different tabs
 .. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
-
-The different actions
----------------------
-
-- **Display software license details**
-  From menu **Assets > Software** click on license name in tab *Licenses*.
-- **Remove use of a license by a computer**
-  See tab *Computers* above.
-  See also [tab *Softwares* of a computer](/modules/assets/softwares.rst)
-- **[Associate a document and a license](Les_différentes_actions/associer_un_document_a_un_objet.rst)**
-- **[Associate a contract and a license](Les_différentes_actions/Lier_un_contrat_à_un_objet.rst)**

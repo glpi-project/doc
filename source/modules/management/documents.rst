@@ -40,14 +40,3 @@ It is possible in GLPI to attach other documents to a document, which explains w
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-*   :doc:`Add a document <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Display a document <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modify a document <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Delete a document <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Attach a document to a document <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transfer a document <../../Les_différentes_actions/transferer_un_objet>`

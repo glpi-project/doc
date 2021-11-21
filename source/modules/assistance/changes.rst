@@ -72,19 +72,3 @@ This tab allows to attach an item to the change by choosing the type and the sel
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-The different actions
----------------------
-
-* :doc:`Add a change <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Modify a change <../../Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a change <../../Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a change <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-
-.. todo::
-
-   destination links do not exist:
-
-   * :doc:`Associer un élément à un changement <../../Les_différentes_actions/Onglet_Eléments>`
-   * :doc:`Associer un ticket à un changement <../../Les_différentes_actions/Onglet_Tickets>`
-   * :doc:`Associer un problème à un changement <../../Les_différentes_actions/Onglet_Problèmes>`

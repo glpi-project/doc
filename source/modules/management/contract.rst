@@ -72,14 +72,3 @@ This tab allows to associate one or several suppliers to the contract.
 .. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-*   :doc:`Add a contract <../../Les_différentes_actions/creer_un_nouvel_objet>`
-*   :doc:`Display a contract <../../Les_différentes_actions/visualiser_un_objet>`
-*   :doc:`Modify a contract <../../Les_différentes_actions/modifier_un_objet>`
-*   :doc:`Delete a contract <../../Les_différentes_actions/supprimer_un_objet>`
-*   :doc:`Attach a document to a contract <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-*   :doc:`Transfer a contract <../../Les_différentes_actions/transferer_un_objet>`

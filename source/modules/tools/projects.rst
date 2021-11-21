@@ -148,14 +148,3 @@ This tab defines the team in charge of the task.
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add a project <../../Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Display a project <../../Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Modify a project <../../Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a project <../../Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a project <../../Les_différentes_actions/associer_un_document_a_un_objet>`
-* :doc:`Transfer a project <../../Les_différentes_actions/transferer_un_objet>`

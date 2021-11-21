@@ -104,16 +104,3 @@ For groups, this tab allows to list as well sub-groups tickets.
 .. include:: /modules/tabs/debug.rst
 
 .. include:: /modules/tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add a group</Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Display a group</Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Modify a group</Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete a group</Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach an item to a group</Les_différents_onglets/Onglet_Eléments>`
-* :doc:`Attach a ticket to a group</modules/tabs/tickets>`
-* :doc:`Transfer a group to another entity </Les_différentes_actions/transferer_un_objet>`
-

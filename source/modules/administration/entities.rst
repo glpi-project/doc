@@ -151,13 +151,3 @@ This tab allows to create rules:
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-* :doc:`Add an entity </Les_différentes_actions/creer_un_nouvel_objet>`
-* :doc:`Display an entity </Les_différentes_actions/visualiser_un_objet>`
-* :doc:`Modify an entity </Les_différentes_actions/modifier_un_objet>`
-* :doc:`Delete an entity </Les_différentes_actions/supprimer_un_objet>`
-* :doc:`Attach a document to a entity </Les_différentes_actions/associer_un_document_a_un_objet>`
