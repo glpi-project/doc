@@ -10,6 +10,7 @@ Configuration module gives access to all GLPI configuration options: global conf
    intitules/index
    collectors
    general/index
+   plugins
 
 Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../overview/actions>`.
 
