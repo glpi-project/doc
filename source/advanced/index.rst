@@ -5,3 +5,4 @@ Advanced Configuration
    :maxdepth: 3
 
    cache
+   status
