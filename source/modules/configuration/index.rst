@@ -6,7 +6,7 @@ Configuration module gives access to all GLPI configuration options: global conf
 .. toctree::
    :maxdepth: 2
 
-   authentification/index
+   authentication/index
    intitules/index
    collectors
    general/index
