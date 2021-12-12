@@ -35,6 +35,7 @@ Table of contents
    first-steps/index
    modules/index
    advanced/index
+   cli
    glossary
 
    
