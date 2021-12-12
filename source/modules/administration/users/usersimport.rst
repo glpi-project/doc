@@ -42,5 +42,7 @@ An **Expert Mode** is also proposed by following link on the right of table head
 
 Once imported from a directory, GLPI stores user's LDAP unique identifier (the `distinguedName` or `DN`) in addition to connection identifier. This allows to manage updating connection identifier when DN is left untouched. For example, if connection identifier is email address, GLPI will be able to update it without recreating a new user in the case of a change.
 
-If an external authentication source is configured, it becomes possible to import and synchronize users using this source. For regular maintenance of the users base, it is recommended to use automation provided by script, see :doc:`Import and synchronize from a directory using script </scripts_ldap_mass_sync>`. For daily management, manual import mechanism are available (see above).
+If an external authentication source is configured, it becomes possible to import and synchronize users using this source.
+For regular maintenance of the users base, it is recommended to use the GLPI CLI command `glpi:ldap:synchronize_users`.
+For daily management, the manual import mechanism is available (see above).
 
