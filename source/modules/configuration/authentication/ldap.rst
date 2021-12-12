@@ -136,47 +136,37 @@ Advanced Information
    :align: center
    :scale: 50%
 
-Dans le cas où l'heure de la machine hébergeant l'annuaire LDAP n'est
-pas dans le même fuseau horaire que celui de GLPI, il faut modifier la
-variable **Fuseau horaire** afin d'ajuster le délai : en effet, cela
-peut provoquer des résultats erronés dans la liste des utilisateurs à
-synchroniser.
+In case the server hosting the LDAP directory is in a different timezone as GLPI, it is necessary to modify the **Timezone** variable to account for the difference.
 
-**Connexion LDAP sécurisée**
+**Secure LDAP connection**
 
-GLPI gère la connexion sécurisée à un annuaire LDAP à travers une
-connexion SSL (aussi appelé LDAPS). Il suffit de rajouter devant le nom
-de l'hôte (ou son IP) *ldaps://*. Ainsi que de changer le port (par
-défaut 636). Par exemple l'accès en LDAPS en local donnera : *Hôte :
-ldaps://127.0.0.1 Port : 636*
+GLPI can connect to a LDAP directory through a LDAPS connection. To enable this, add the *ldaps://* prefix to your host/server IP and change the port to your server's LDAPS port (default 636).
 
-**Limite du nombre d'enregistrement retournés (sizelimit)**
+**Limit of the number of records returned**
 
-Il existe souvent deux limites sur le nombre maximum d'enregistrements
-retournés par une requête LDAP :
+There are often two limits on the number of records retured per request.
 
-* la limite du client (définie par exemple sur Debian/Ubuntu dans ``/etc/ldap/ldap.conf``)
-* la limite imposée par le serveur : si la limite définie par le client est supérieure à la limite serveur, c'est cette dernière qui prend le dessus.
+* The client limit (defined for example on Debian/Ubuntu in ``/etc/ldap/ldap.conf``)
+* The server limit: If the server limit is lower than the client limit, then that is the effective limit
 
 .. warning::
 
-   Si la limite est atteinte l'option de comportement lors de la suppression d'un utilisateur de l'annuaire ne peut fonctionner. De plus, GLPI affichera un message d'avertissement lors d'un import ou d'une synchronisation.
+   If the limit is reached, the optional GLPI behavior for LDAP user deletion can not work.
+   Moreover, GLPI will display a warning message during the import or synchronization.
 
-Avec PHP 5.4 ou supérieur, il est désormais possible de contourner la limitation du sizelimit en activant, dans l'onglet *Informations
-avancées*, la **pagination des résultats**. Dans ce mode, PHP va requêter l'annuaire autant de fois que nécessaire et par tranche de X
-résultats jusqu'à ce que l'ensemble des enregistrements soient renvoyés.
+It is possible to bypass the limitation by enabling **Pagination of results** in the **Advanced Information** tab of the LDAP directory in GLPI.
+This will split requests into smaller requests that are under the configured limit.
 
-L'option **Taille des pages** permet d'ajuster cette valeur de même que **nombre maximum de résultats** définit la limite d'enregistrement à ne
-pas dépasser lors d'une requête LDAP (afin par exemple d'éviter une erreur indiquant que PHP demande plus de mémoire que ce qui lui est
-alloué).
+The **Page size** option adjusts the number of results retreived per "page" with pagination enabled.
+The **Maximum number of results** option is the limit for the total number of records. This option may be useful to avoid high memory usage.
 
 .. note::
 
-   Sur un annuaire OpenLDAP la limite par défaut est à 500 enregistrements, sur un Active Directory elle est de 1000.
+   On an OpenLDAP directory, the default limit is 500 and in Active Directory, it is 1000.
 
-   Sur un Active directory il est possible de modifier la valeur du `MaxPageSize` grâce aux commandes suivantes (attention cette modification est globale à tout l'annuaire) :
+   In Active Directory it is possible to modify the value of `MaxPageSize` with the following commands (This modification is global for the whole directory):
 
-   .. code-block::
+   .. code-block:: none
 
       C:> ntdsutil
       ntdsutil: ldap policies
@@ -192,11 +182,13 @@ alloué).
 Replicates
 ~~~~~~~~~~
 
-Si un annuaire LDAP n'est pas accessible, les utilisateurs ne pourront plus se connecter à GLPI.
+If an LDAP directory is not accessible, the users provided by it will not be able to connect to GLPI.
 
-Afin d'éviter cette situation, des réplicats peuvent être déclarés : ils partagent la même configuration que le serveur qu'ils répliquent, mais sont disponibles à une adresse différente.
+To help avoid this situation, replicates can be declared in GLPI. These are LDAP servers that have the same data as the main server, but are available at a different address.
 
-L'utilisation des réplicats se fait uniquement dans le cas d'une perte de connexion à l'annuaire maître. L'ajout de réplicats se fait dans la fiche d'un annuaire, en renseignant un **nom** qui sera affiché dans GLPI, ainsi qu'un **nom d'hôte** et un **port**. Il n'y a pas de limite quant au nombre d'annuaires répliqués.
+Replicates are only used when the connection to the main server is lost.
+The addition of replicates in GLPI is done by entering a **Name** which is displayed in GLPI, as well as a **Server**, **Port**, and **Timeout** in the **Replicates** tab in the LDAP directory.
+There is no limit to the number of replicates per LDAP directory.
 
 .. include:: ../../tabs/historical.rst
 
@@ -205,4 +197,4 @@ L'utilisation des réplicats se fait uniquement dans le cas d'une perte de conne
 The different actions
 ---------------------
 
-Les annuaires LDAP ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../../overview/actions>`.
+See the :doc:`common actions <../../overview/actions>`.
