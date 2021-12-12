@@ -1,64 +1,44 @@
 Authentication
 ==============
 
-C'est ici que GLPI gère l'authentification et les informations personnelles des utilisateurs.
+This is where GLPI manages the authentication and information of users.
 
-L'accès d'un utilisateur à GLPI est possible après que ces conditions aient été vérifiées :
+GLPI uses its own internal database of users. These are either created in GLPI itself or imported from one or more external sources.
+Depending on the type of source, the import can be done in bulk or at the time of login if the user is not yet known to GLPI but exists in an external authentication server with matching credentials.
 
-#. envoi d'informations d'authentification par l'utilisateur ;
-#. existence de l'identifiant de l'utilisateur ;
-#. authentification de l'utilisateur ;
-#. attribution d'habilitations à l'utilisateur.
+The general authentication configuration and the management of external authentication servers can be done in the :doc:`Setup > Authentication menu <configuration>`.
 
-GLPI utilise sa propre base interne d'utilisateurs. Ceux-ci sont soit créés depuis l'interface de l'application, soit importés depuis une ou plusieurs sources externes. Selon le type de source, l'import des utilisateurs peut se faire soit en masse, soit au fil de l'eau lors de la tentative de connexion d'un utilisateur non encore connu de GLPI.
-
-Pour effectuer l'authentification, GLPI fait appel à une base de mots de passes interne, qui peut être complétée par une ou plusieurs sources externes d'authentification. L'utilisation de méthodes d'authentification externes permet de déléguer cette fonctionnalité à des systèmes tiers assurant la gestion d'identité. Voir [Configurer l'intégration avec les sources d'authentification
-externes](08_Module_Configuration/09_Authentification/02_Configuration.rst) "Les paramètres généraux de l'intégration avec des sources externes d'authentification se configurent dans le menu Configuration > Authentification > Configuration.").
-
-L'attribution des habilitations est décrite dans la section [Attribuer des habilitations à un utilisateur](07_Module_Administration/05_Règles/03_Habilitations_utilisateur.rst) "GLPI dispose d'un moteur d'habilitations dynamiques qui se base sur des sources externes d'authentification. Il est accessible depuis le menu Administration > Règles > Règles d'affectation d'habilitation à un utilisateur.").
+The attribution of authorizations is described in the :doc:`Rules for assigning authorizations to a user <../../administration/rules/userauthorizations>` documentation.
 
 .. note::
 
-   La cinématique d'authentification est la suivante :
+   The authentication process is as follows:
 
-   #. l'utilisateur entre son identifiant et son mot de passe ;
-   #. GLPI vérifie si l'utilisateur est déjà enregistré dans la base. S'il ne l'est pas :
+   #. A user enters their login and password in GLPI
+   #. GLPI checks if the user is already registered in its database and if not:
 
-      #. GLPI essaye les méthodes d'authentification les unes après les autres : la base interne, puis tous les annuaires LDAP et enfin les annuaires de messagerie ;
-      #. lorsque l'authentification est réussie, l'utilisateur est créé dans la base interne, ainsi que sa méthode d'authentification ;
-      #. si aucune source n'a pu authentifier l'utilisateur, celui-ci est redirigé vers une page lui indiquant que son identifiant ou mot de passe est incorrect ;
+      #. GLPI tries the configured methods of authentication one after another (Internal > LDAP > IMAP > Other)
+      #. When the authentication is successful, the user is created in the GLPI database and the method of authentication is stored with it
+      #. If no method of authentication is able to authenticate the user, they are shown an error indicating that their username or password is incorrect
 
-   #. Si l'utilisateur est déjà présent dans la base interne, ou une fois son identifiant créé :
+   #. If the user already existed in the GLPI database or was imported in the previous step:
 
-      #. GLPI tente d'authentifier l'utilisateur en utilisant la dernière méthode d'authentification réussie (et uniquement celle-ci) ;
-      #. si l'authentification a échoué, l'utilisateur est redirigé vers une page lui indiquant que son identifiant ou mot de passe est incorrect ;
+      #. GLPI tries authenticating the user only with the last source that was able to successfully authenticate them
+      #. If the authentication fails, they are shown an error indicating that their username or password is incorrect
 
-   #. Le moteur d'habilitation est lancé avec les informations de l'utilisateur :
+   #. The authorization engine is launched with the user's information:
 
-      #.  si le moteur a donné à celui-ci une ou plusieurs habilitations, alors l'utilisateur a accès à GLPI ;
-      #.  si l'utilisateur ne se voit attribuer aucune habilitation, alors bien qu'étant inscrit dans la base GLPI, il ne peut se connecter à l'application.
-
-
-Afin de pouvoir utiliser ces sources externes d'authentification, il
-faut au préalable activer les extensions correspondantes dans la
-configuration de PHP. Il n'y a pas de limite quant au nombre de sources
-externes configurées dans l'application.
-
-Pour utiliser la capacité de GLPI de créer à la volée des utilisateurs
-présents dans les sources externes d'authentification, il faut l'activer
-dans le menu **Configuration > Authentification**.
-Les annuaires LDAP permettent en outre de refuser la
-création des utilisateurs ne possédant pas d'habilitations. La
-suppression d'un utilisateur de l'annuaire peut aussi entraîner une
-action telle que la mise à la corbeille de l'utilisateur, la suppression
-de ses habilitations ou sa désactivation.
+      #.  If the engine has granted one or more authorizations to the user, then that user has access to GLPI
+      #.  If the user is not granted any authorizations, then the user will be known to GLPI but will not be able to login
 
 
--   **[Importer et synchroniser depuis un annuaire par
-    script](../glpi/scripts_ldap_mass_sync.html)**\
-    Un script permet l'import et la synchronisation à partir d'un
-    annuaire.
+In order to use an external source of authentication you may need to enable the relevant PHP extension(s).
+For example, LDAP sources will require the `php-ldap` extension.
 
+There is no limit to the number of authentication sources that can be configured.
+
+To allow GLPI to create users automatically from external authentication sources as they try to log in, it must be enabled in the **Setup > Authentication > Setup** form.
+When using LDAP directories, it is possible to configure the action that GLPI takes when a user is no longer present in the LDAP directory from this same form.
 
 .. toctree::
    :maxdepth: 1
