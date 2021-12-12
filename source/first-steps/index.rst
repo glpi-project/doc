@@ -15,3 +15,4 @@ First Steps with GLPI
    view
    search
    saved-searches
+   access-glpi
