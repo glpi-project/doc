@@ -63,11 +63,18 @@ Help
 
 Valid cache systems are: Memcached, Redis (TCP), Redis (TLS).
 
-- Memcached DSN format: memcached://[user:pass@][ip|host|socket[:port]][?weight=int]
-- Redis (TCP) DSN format: redis://[pass@][ip|host|socket[:port]][/db-index]
-- Redis (TLS) DSN format: rediss://[pass@][ip|host|socket[:port]][/db-index]
+Memcached DSN format: memcached://[user:pass@][ip|host|socket[:port]][?weight=int]
+Redis (TCP) DSN format: redis://[pass@][ip|host|socket[:port]][/db-index]
+Redis (TLS) DSN format: rediss://[pass@][ip|host|socket[:port]][/db-index]
 
 Cache namespace can be use to ensure either separation or sharing of multiple GLPI instances data on same cache system.
+
+Usage
+*****
+
+ - glpi:cache:configure --use-default
+ - glpi:cache:configure --dsn=memcached://cache1.glpi-project.org --dsn=memcached://cache2.glpi-project.org
+ - glpi:cache:configure --dsn=redis://redis.glpi-project.org:6379/glpi
 
 glpi:cache:debug
 ----------------
@@ -321,6 +328,10 @@ Description
 
 Run plugin(s) installation script
 
+Usage
+*****
+
+ - glpi:plugin:install -p foo=bar -p force myplugin
 
 glpi:rules:process_software_category_rules
 ------------------------------------------
