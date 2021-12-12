@@ -1,7 +1,7 @@
 Administration
 ==============
 
-Administration module allows to administrate users, groups, entities, profiles, rules and dictionnaries and offer tools for GLPi maintenance such as backup, restore and update checking.
+Administration module allows to administrate users, groups, entities, profiles, rules and dictionnaries.
 
 .. toctree::
    :maxdepth: 1
@@ -13,7 +13,6 @@ Administration module allows to administrate users, groups, entities, profiles, 
    dictionnaries
    profiles/profiles
    mailqueue
-   maintenance
    logs
 	      
 
