@@ -12,9 +12,9 @@ However, it is possible to automate information pushing from the assets thanks t
 
 More information on the GLPI Agent can be found in its dedicated `documentation <https://glpi-agent.readthedocs.io/en/latest/index.html>`_.
 
-If you have used Fusion Inventory in the past with GLPI, it is very easy to migrate over to the GLPI Agent due to the native inventory remaining compatible with the Fusion Inventory agent.
+.. note:: If you have used Fusion Inventory in the past with GLPI, it is very easy to migrate over to the GLPI Agent due to the native inventory remaining compatible with the Fusion Inventory agent.
 
-GLPI also supports the use of two existing plugins:
+GLPI also supports automatic inventory via multiple plugins including but not limited to:
 
 * The `Fusion Inventory <https://github.com/fusioninventory/fusioninventory-for-glpi/>`_ plugin transforms GLPI into an inventory server with the Fusion Inventory agents interfacing directly with the GLPI server.
 
