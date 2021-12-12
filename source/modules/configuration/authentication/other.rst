@@ -1,75 +1,53 @@
 Other external authentication methods
 =====================================
 
-L'interfaçage de GLPI à des systèmes permettant de faire de
-l'authentification unique se configure depuis le menu Configuration >
-Authentification > Autre méthode d'authentification .
-
-GLPI permet de déléguer l'authentification des utilisateurs à des
-systèmes externes afin d'obtenir une authentification unique (SSO pour
-Single Sign On).
-
-Dans ce cadre, le moteur de contrôle d'accès sera appliqué afin de
-savoir s'ils ont au moins une habilitation. Si au moins un annuaire LDAP
-est configuré, GLPI fera des requêtes sur l'annuaire (comme dans le
-mécanisme standard d'authentification). Si l'utilisateur se connectant
-n'est pas encore connu dans l'application, tous les annuaires seront
-testés afin de réaliser l'import.
+The integration of GLPI and authentication sources beyond internal, LDAP, and IMAP is configured from the **Setup > Authentication > Other authentication methods** menu.
 
 .. _auth_cas:
 
-Serveur central d'authentification (CAS)
-----------------------------------------
+Central Authentication Service (CAS)
+------------------------------------
 
-La configuration du serveur CAS est composée de l'adresse du serveur
-d'authentification et de son port (par défaut 443). Un répertoire de
-base peut être spécifié si besoin. L'adresse web de retour à la
-déconnexion permet de rediriger l'utilisateur vers une page spécifique
-lorsque celui-ci se déconnecte de GLPI.
+The configuration of a CAS server is comprised on the address of the server and its port (default 443).
+A base directory can be specified if needed.
+The return web address parameter allows you to redirect the user to a specific page after they log out from GLPI.
 
-Important : une fois activée, chaque authentification est redirigée vers
-le serveur CAS. Afin de pouvoir se connecter avec un utilisateur local
-(donc défini et authentifié sur la base GLPI), il faut se connecter en
-ajoutant ?noAUTO=1 à l'URL.
+.. warning:: 
+   Once the CAS authentication is activated, each authentication is automatically redirected to the CAS server.
+   In order to log into an internal account or one authenticated through a different method, you have to add "?noAUTO=1" to the login URL.
 
-Remarque : L'extension CURL ou DOMXML du parseur PHP est nécessaire pour
-l'authentification CAS.
+.. note::
+   The `php-curl` or `php-dom` extensions are required to be enabled for CAS authentication to function.
 
 .. _auth_x509:
 
-Authentifier les utilisateurs par certificat x509
--------------------------------------------------
+x509 certificate
+----------------
 
-La variable Attribut adresse de messagerie pour x509 indique à GLPI de
-rechercher la valeur de cet attribut dans la variable de requête HTTP
-nommée SSL\_CLIENT\_S\_DN, passée par le système d'authentification.
+The **Email attribute for x509 authentication** tells GLPI to look at the value of this attribute in the SSL\_CLIENT\_S\_DN HTTP request variable passed by the authentication system.
 
-Il est possible de restreindre les valeurs acceptées pour les champs O,
-OU et CN du certificat client. Afin de spécifier plusieurs valeurs pour
-chaque champ, il suffit de séparer celles-ci par le symbole *$*.
+It is possible to restrict the accepted values for the O, OR, and CN fields of the client certificate.
+In order to specify multiple values for each field, you may separate each value with the *$* symbol.
 
 .. _auth_other:
 
-Autres authentifications automatiques
--------------------------------------
+Other automatic authentications
+-------------------------------
 
-GLPI peut se baser sur d'autres systèmes externes pour authentifier les
-utilisateurs, comme par exemple :
+GLPI can rely on other external systems to authenticate users such as:
 
--  une authentification basique Apache
--  une authentification sur domaine Windows
--  une authentification provenant d'un serveur d'authentification comme
-   LemonLDAP::NG, Shibboleth...
+-  Basic Apache authentication
+-  Windows domain authentication
+-  Authentication coming from an authentication server like
+   LemonLDAP::NG, Shibboleth, etc
 
-Le fonctionnement est simple : lorsque l'utilisateur désire accéder à
-GLPI, celui-ci vérifie la présence d'une variable dans les entêtes HTTP.
-Si celle-ci est présente, l'authentification est supposée effectuée. On
-peut mapper les *données transmises par le système d'authentification*
-avec les *champs du compte utilisateur de GLPI* (nom, prénom, email,
-langue...). Pour finir, les contrôles d'habilitations sont réalisés. Une
-option permet de supprimer le domaine de l'utilisateur de la variable
-avant contrôle d'accès.
+When the user wishes to reach GLPI, this one checks the presence of a variable in the HTTP headers storing the login/username.
+If the variable is present, the authentication is allowed to be done.
+We can map the *data transmitted by the authentication system* with the *fields of the user account of GLPI* (name, first name, email, language...).
+To finish, the controls of authorizations are carried out.
+An option allows to remove the domain of the user's login (Ex: testuser@example.com > testuser).
 
-Remarque : La liste des valeurs possibles pour les entêtes est
-configurable : les plus communes sont fournies mais il est possible d'en
-ajouter, voir `Configurer les intitulés </modules/configuration/intitules/index>`_.
+.. note::
+
+   The list of possible names for the headers is configurable, although the most common ones are already provided by GLPI.
+   See `Configuring headings </modules/configuration/intitules/index>`_.
