@@ -100,12 +100,16 @@ Export the result of a search
 
 The export of the search result in SLK or CSV spreadsheet formats, or in PDF format can be done in two different forms:
 
-* The *current page* exports only the data displayed on the screen (for example the first 10 results out of 200)
+* *Current page* exports only the data displayed on the screen (for example the first 10 results out of 200)
 * *All pages* exports all of the search results
 
-The SLK format can be used by many spreadsheets. Fields that are too long will be truncated when using software that does not fully comply with the standards. In this case, it is preferable to use the exports in CSV format.
+There is also an option to copy the names of the results to the clipboard (Ex: Computer names).
+
+The SLK format can be used by a lot of spreadsheet software. Fields that are too long will be truncated when using software that does not fully comply with the standards. In this case, it is preferable to use the exports in CSV format.
 
 If the data exported in CSV format is imported into Microsoft Excel software, accented characters may not be displayed correctly. This software seems to have difficulty with data encoded in UTF-8.
+
+You can export search results by clicking on the `Export` button above the search results list.
 
 Perform massive actions
 -----------------------
