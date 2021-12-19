@@ -125,8 +125,8 @@ The switch to the map view, click on the map toggle above the search results.
 
       If an item type does not have the ability to have a location, then the map view toggle will be hidden.
 
-Navigating the table view
--------------------------
+Using the table view
+--------------------
 
 In the table view, you have the option to sort the results by any of the displayed fields by clicking on the relevant column headers.
 You may perform a multi-sort by holding the ``Ctrl`` or ``Command (MacOS)`` keys while left clicking on the column header.
