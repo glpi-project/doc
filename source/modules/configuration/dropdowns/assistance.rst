@@ -84,6 +84,6 @@ Elle permet de définir les types de tâches appliqués à un projet.
 Les onglets communs
 -------------------
 
-.. include:: onglets/traduction.rst
+.. include:: tabs/translation.rst
 
 .. include:: ../../tabs/all.rst

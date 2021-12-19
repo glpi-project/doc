@@ -7,7 +7,7 @@ Configuration module gives access to all GLPI configuration options: global conf
    :maxdepth: 2
 
    authentication/index
-   intitules/index
+   dropdowns/index
    collectors
    fields-unicity
    general/index
