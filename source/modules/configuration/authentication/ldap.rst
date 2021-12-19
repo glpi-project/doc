@@ -1,9 +1,9 @@
 LDAP directories
 ================
 
-GLPI can interface with one or more :term:`Annuaire LDAP <LDAP directory>`  in order to authenticate users, control their access, retrieve their personal information and import groups.
+GLPI can interface with one or more :term:`LDAP directories <LDAP directory>`  in order to authenticate users, control their access, retrieve their personal information and import groups.
 
-All the directories compatible LDAP v3 are supported by GLPI. It is thus also the case for the l':term:`Annuaire Active Directory <Active Directory service>` of Microsoft.
+All the directories compatible LDAP v3 are supported by GLPI. It is thus also the case for the ':term:`Active Directory <Active Directory service>` of Microsoft.
 There is no limit as to the number of directories informed. However, the higher the number, the longer the search for a new user to authenticate can be.
 
 It is possible to import and synchronize users in 2 ways:
