@@ -9,7 +9,7 @@ In addition to the list of elements corresponding to the stated criteria; these 
 
 * Export in different formats (CSV, PDF, ...)
 * Massive (Bulk) actions
-* A :ref:`marque-pages <bookmarks>` system to save searches
+* A :ref:`bookmarks <bookmarks>` system to save searches
 
 Perform a basic search
 ----------------------
@@ -22,7 +22,7 @@ The basic search makes it possible to carry out multiple searches configured and
 * ``before``,
 * ``after``.
 
-Searching on dates allows you to specify a specific date (*Specify a date*) or to define it in relation to the current date (*Now*, *+* ou *-* *X* *hour(s)*, *day(s)*, *month* or *year(s)*). It is also possible to specify a search before or after a given date, as defined intervals (*Monday*, *Last Saturday*, *Start of month*, *Start of year*, *Start of year*, etc).
+Searching on dates allows you to specify a specific date (*Specify a date*) or to define it in relation to the current date (*Now*, *+* or *-* *X* *hour(s)*, *day(s)*, *month* or *year(s)*). It is also possible to specify a search before or after a given date, as defined intervals (*Monday*, *Last Saturday*, *Start of month*, *Start of year*, *Start of year*, etc).
 
 For labels, it is possible to search for a given value (*is*). If the dropdowns can be visible in the sub-entities, the choices under and not under appear. The criteria are added with the ``+`` on a gray background.
 
