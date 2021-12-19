@@ -21,7 +21,7 @@ It is also at this level that the time zone of GLPI is set.
 External authentication sources that can be used inside GLPI are:
 
 *  :doc:`LDAP directories <ldap>`
-*  :doc:`emails servers <imap>`
+*  :doc:`Email servers <imap>`
 *  :ref:`CAS server <auth_cas>`
 *  :ref:`x509 certificate <auth_x509>`
-*  :ref:`delegate authentication to web server <auth_other>`
+*  :ref:`Delegate authentication to web server <auth_other>`
