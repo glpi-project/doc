@@ -111,6 +111,30 @@ If the data exported in CSV format is imported into Microsoft Excel software, ac
 
 You can export search results by clicking on the `Export` button above the search results list.
 
+Search views
+------------
+
+The are two different views for search results in GLPI.
+
+* List/Table - The default view that shows results in a table with the field names along the top as headers and each result as a row
+* Map - Shows the location of the results on a map
+
+The switch to the map view, click on the map toggle above the search results.
+
+   .. note::
+
+      If an item type does not have the ability to have a location, then the map view toggle will be hidden.
+
+Navigating the table view
+-------------------------
+
+In the table view, you have the option to sort the results by any of the displayed fields by clicking on the relevant column headers.
+You may perform a multi-sort by holding the ``Ctrl`` or ``Command (MacOS)`` keys while left clicking on the column header.
+Clicking on column headers multiple times will cycle between sort directions and removing the sort.
+
+At the bottom of the results table is a dropdown that can be used to change the number of results that will show on each page.
+There are also pagination controls that let you navigate between the search results pages, and an indicator of where you are currently at within the results (Ex: Showing 1 to 20 of 30 rows).
+
 Perform massive actions
 -----------------------
 
