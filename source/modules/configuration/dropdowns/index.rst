@@ -29,6 +29,6 @@ The types of dropdowns that can be associated with specific entities will show a
 
    general
    assistance
-   calendrier
+   calendar
    internet
-   autres
+   others

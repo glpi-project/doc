@@ -1,88 +1,98 @@
 Assistance
 ++++++++++
 
-Catégories de ticket
---------------------
-
-La liste des catégories de ticket est de type arborescente : chaque élément peut avoir des sous-éléments. Elle peut être déléguée par entité.
-
-Dans la fiche d'une catégorie de ticket, on trouve un certain nombre d'informations concernant cette catégorie (responsable et groupe techniques pour l'affectation automatique des tickets (voir [configuration de l'entité](07_Module_Administration/04_Entités.rst)), la catégorie par défaut de la base de connaissance lorsque l'on souhaite ajouter une solution d'un ticket dans celle-ci, la visibilité de cette catégorie suivant l'interface ou suivant l'objet ainsi que les gabarits affectées à cette catégorie) ainsi que l'information précisant la catégorie mère (comme enfant de) et si la catégorie peut être visible des sous entités.
-En cas de choix d'un gabarit, celui-ci sera affecté au choix de la catégorie donc surchargera celle qui aurait u être définie dans l'entité ou via règle métier.
-
-Un lien avec les catégories de la base de connaissances est possible. Si une catégorie est choisie, le clic sur l'aide de la catégorie du ticket dans un ticket amène directement à tous les articles de la base de connaissance de cette catégorie.
-
-Catégories de tickets
-~~~~~~~~~~~~~~~~~~~~~
-
-Liste les sous-catégories existantes et permet d'en ajouter une nouvelle.
-
-.. include:: ../../tabs/historical.rst
-
-
-Catégories de tâches
---------------------
-
-La liste des catégories de tâches est de type arborescente : chaque élément peut avoir des sous-éléments. Elle peut être déléguée par entité.
-
-La fiche d'une catégorie de tâche indique son nom ainsi que l'information précisant la catégorie mère (comme enfant de) et si la catégorie peut être visible des sous entités.
-
-Catégories de tâches
-~~~~~~~~~~~~~~~~~~~~
-
-Liste les sous-catégories existantes et permet d'en ajouter une nouvelle.
-
-.. include:: ../../tabs/historical.rst
-
-Types de solution
+Ticket categories
 -----------------
 
-Cette liste est une liste de valeurs à plat valable. Elle peut être déléguée par entité.
+The list of ticket categories is tree-like: each element can have sub-elements. It can be delegated by entity.
 
-Sources des demandes
---------------------
+In the form of a ticket category, you can find some information about this category including but not limited to:
 
-Cette liste est une liste de valeurs à plat valable pour toutes les entités.
+* Responsible and technical group for the automatic assignment of tickets
+* Default category of the knowledgebase when you want to add a solution of a ticket
+* Visibility of the category depending on the interface (simplified/standard) or object
+* Ticket template to use for this category
+* Parent category
 
-Elle précise si cette source source doit être défini par défaut pour les tickets et/ou les collecteurs.
+If a template is chosen, it will be assigned to the choice of the category and will therefore override the one that would have been defined in the entity or via a business rule.
 
-Gabarits de solution
---------------------
+A link with the categories of the knowledge base is possible.
+If a category is chosen, clicking on the ticket category help in a ticket leads directly to all the articles in the knowledge base for this category.
 
-Cette liste est une liste de valeurs à plat valable. Elle peut être déléguée par entité.
+Ticket categories
+~~~~~~~~~~~~~~~~~
 
-Elle permet de prédéfinir le contenu ainsi que le type d'une solution et peut être visible ou non des sous-entités.
+Displays a list of child ticket categories and allows adding new ones.
+
+.. include:: ../../tabs/historical.rst
+
+
+Task categories
+---------------
+
+The list of task categories is tree-like: each element can have sub-elements. It can be delegated by entity.
+
+In the form of a task category, you can find some information about this category including but not limited to:
+
+* Name
+* Parent category
+
+Task categories
+~~~~~~~~~~~~~~~
+
+Displays a list of child task categories and allows adding new ones.
+
+.. include:: ../../tabs/historical.rst
+
+Solution types
+--------------
+
+This list is a list of valid flat values. It can be delegated by entity.
+
+Request sources
+---------------
+
+This list is a list of valid flat values for all entities.
+
+It specifies if this source should be defined by default for tickets and/or collectors.
+
+Solution templates
+------------------
+
+This list is a list of valid flat values. It can be delegated by entity.
+
+It allows to predefine the content as well as the type of a solution and can be visible or not from the sub-entity.
 
 .. note::
 
-   Les gabarits de solution ne peuvent pas être traduits
+   Solution templates cannot be translated
 
 .. include:: ../../tabs/historical.rst
 
 
-Statuts de projet
------------------
+Project states
+--------------
 
-Cette liste est une liste de valeurs à plat valable pour toutes les entités.
+This list is a flat value list valid for all entities.
 
-Elle permet de définir les statuts appliqués à un projet ainsi que l'(état de celui-ci.
+It allows to define the statuses applied to a project as well as its state.
 
-Types de projet
-----------------
+Project types
+-------------
 
-Cette liste est une liste de valeurs à plat valable pour toutes les entités.
+This list is a list of flat values valid for all entities.
 
-Elle permet de définir les types appliqués à un projet.
+It is used to define the types applied to a project.
 
+Project task types
+------------------
 
-Types de tâches de projet
--------------------------
+This list is a flat value list valid for all entities.
 
-Cette liste est une liste de valeurs à plat valable pour toutes les entités.
+It is used to define the types of tasks applied to a project.
 
-Elle permet de définir les types de tâches appliqués à un projet.
-
-Les onglets communs
--------------------
+The common tabs
+---------------
 
 .. include:: tabs/translation.rst
 
