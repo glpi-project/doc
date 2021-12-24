@@ -16,3 +16,4 @@ First Steps with GLPI
    search
    saved-searches
    access-glpi
+   conclusion
