@@ -8,11 +8,13 @@ Configuration module gives access to all GLPI configuration options: global conf
 
    authentication/index
    dropdowns/index
+   components
    collectors
    notifications/index
    crontasks
    fields-unicity
    general/index
+   external_links
    plugins
 
 Les intitulés  ne proposent pas d'actions spécifiques, se reporter aux :doc:`actions communes <../overview/actions>`.
