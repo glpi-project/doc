@@ -9,7 +9,7 @@ This tab, named `Components` and visible in a `Computer` entry, allows to manage
 
 .. note::
 
-   Adding or managing components is located in menu :doc:`Configuration > Components </modules/configuration/composants>`.
+   Adding or managing components is located in menu :doc:`Configuration > Components </modules/configuration/components>`.
 
 .. note::
    If several components of the same type are used, they will be grouped in the view.
