@@ -1,112 +1,103 @@
 Default values
 ==============
 
-This tabs allows to confiugure display preferences pllied per defaiult. It can be overrided per user session(see `Manage preferences <01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst>`_).
+This tabs allows to configure the display preferences that are used by default.
+They can be overridden for each user (see `manage preferences <../../../first-steps/preferences.html>`_).
 
 Personalization
 ---------------
 
 .. image:: images/default_values_personalization.png
 
--  **Langue** : langue d'affichage de GLPI.
+-  **Default language**
+   The language to use in the GLPI interface
 
--  **Nombre de résultats par page** : nombre d'éléments affichés dans la
-   liste des objets. La valeur indiquée ici ne peut dépasser la valeur
-   maximale définie dans les options générales d'affichage.
+-  **Results to display by page**
+   The number of results displayed in the search results list.
+   If a user sets this higher than what is specified in the general setup, then they will be limited to the general setup's value.
 
--  **Limite par défaut du nombre de caractères dans les listes
-   déroulantes** : nombre de caractères par liste.
+-  **Display the complete name in tree dropdowns**
+   Display the full name of child items in a tree dropdown
 
--  **Afficher le nom complet pour le choix des intitulés arborescents**
-   : affichage des éléments de la liste sous forme arborescente ou à
-   plat.
+-  **Show GLPI ID**
+   Adds the GLPI ID after its name on the item's edit form
 
--  **Montrer les ID GLPI** : ajoute l'ID de l'élément à la suite de son
-   nom.
+-  **Notifications for my changes**
+   Receive notifications for the actions that the logged in user has done.
+   This does not apply to the creation of a ticket for which the notification is systematically sent (proof of creation).
 
--  **Notifications pour mes changements** : recevoir les notifications
-   pour les actions que l'utilisateur connecté à réalisées. Ce paramètre
-   ne s'applique pas pour la création d'un ticket pour laquelle la
-   notification est systématiquement envoyée (preuve de création).
+-  **PDF export font**
+   The font used when generating PDF exports
 
--  **Police pour l'export PDF** : police utilisée lors de la génération
-   des fichiers PDF afin de l'adapter au jeu de caractères utilisé.
+-  **Go to created item after creation**
+   If enabled, the user would be redirected to the edit from of the item after it gets created.
+   Otherwise, they would remain on the new item form to be able to add more items.
 
--  **Après la création, aller à l'élément créé** : après la création
-   d'un élément, permet de paramétrer comment l'utilisateur est redirigé
-   (vers l'élément créé ou vers le formulaire de création). Ce paramètre
-   peut être très utile en cas de nombreuses saisies successives d'un
-   même objet.
+-  **Date format**
+   Display format for dates
 
--  **Format des dates** : format d'affichage de toutes les dates.
+-  **Number format**
+   Display format for numbers
 
--  **Format des nombres** : format d'affichage de tous les nombres.
+-  **Display order of surnames/firstnames**
+   Display order for a user's first and last name
 
--  **Ordre d'affichage du nom complet** : permet de choisir l'ordre
-   n'affiches des nom et prénom d'un utilisateur
+-  **Display counters**
+   If enabled, the number of elements will be shown next to some tab names such as the `Items` tab in a Ticket.
 
--  **Afficher les compteurs dans les onglet** : permet de visualiser
-   directement depuis le nom de l'onglet s'il contient ou non des
-   éléments.
+-  **CSV delimiter**
+   Character to delimit fields in a CSV export
 
--  **Délimiteur CSV** : délimiteur utilisé au moment des exports.
+-  **Results to display on home page**
+   The number of items to display in the Ticket, Change, and Problem tables on the home page.
+   If this parameter is set to 0, only the table titles will be displayed but you can access their respective contents by clicking on the name of the table.
 
--  **Résultats à afficher sur la page d'accueil** : concerne le contenu
-   des tableaux concernant les tickets, les problèmes et les
-   changements. Si ce paramètre est mis à 0, seuls les titres de
-   tableaux apparaitront mais vous pourrez accéder à leur contenu
-   respectif en cliquant sur le nom du tableau (principe identique si le
-   nombre défini est inférieur au nombre d'éléments).
-
--  **Garder les composants à la suppression définitive d'un élément** :
-   si un élément ayant des composants est purgé de la corbeille,
-   conservation ou non des composants liés.
+-  **Keep devices when purging an item** :
+   If enabled, the components linked to an item that is being deleted can be preserved.
+   Otherwise, they will be deleted along with the item.
 
 Assistance
 ----------
 
 .. image:: images/default_values_assistance.png
 
-Les paramètres sont applicables à tous les objets du menu
-***Assistance***.
+-  **Private followups by default**
+   If enabled, followups are pre-selected to be private.
 
--  **Suivis privés par défaut** : pré-sélectionne le champ Privé d'un
-   suivi.
+-  **Private tasks by default**
+   If enabled, tasks are pre-selected to be private.
 
--  **Tâches privées par défaut** : pré-sélectionne le champ Privé d'une
-   tâche.
+-  **Tasks state by default**
+   Pre-selected state for tasks
 
--  **Etat des tâches par défaut** : pré-sélection de l'état.
+-  **Pre-select me as a technician when creating a ticket**
+   The logged in user will automatically be assigned to the ticket while creating it.
+   This only applies to users who can be assigned to tickets.
 
--  **Pré-sélection comme technicien lors de la création de ticket** : la
-   personne connectée sera automatique assigné au ticket. Cette variable
-   n'est paramétrable que si l'utilisateur à le droit d'être en charge
-   d'un ticket.
+-  **Priority colors**
+   Define the colors used in the interface to differentiate the different priority levels.
 
--  **Couleurs des priorités** : utilisé dans l'interface depuis la liste
-   des objets pour une meilleure visibilité .
+-  **Show new tickets on the home page**
+   If the logged in user has the right to see all tickets, a table listing all tickets with the "New" will be displayed in the *Overview* tab of the home page.
 
--  **Montrer les nouveaux tickets sur la page d'accueil** : si vous avez
-   également le droit de voir tous les tickets, un tableau listant tous
-   les tickets au statut Nouveau s'affichera dans l'onglet *Vue globale*
-   de l'accueil.
+-  **Request sources by default**
+   Pre-selected request source for new tickets
 
--  **Source par défaut des demandes** : valeur du champ dans un ticket.
-
--  **Rafraichissement automatique de la liste des tickets (minutes)** :
-   ce paramètre peut être utilise pour un technicien travaillant
-   continuellement depuis a liste des tickets.
+-  **Automatically refresh data (tickets list, project kanban) in minutes** :
+   Automatically refresh the information in the tickets list and Kanban.
+   If set to 0, the automatic refresh is disabled.
 
 Due date progression
 --------------------
 
 .. image:: images/default_values_duedate.png
 
-Permet de définir les couleurs qui seront appliquées dans la barre de
-progression d'un objet. Ces différents états dépendent des seuils
-paramétrés en pourcentage, en heures ou en jours.
+Allows to define the colors that will be applied in the progress bar of an object.
+These different states depend on the thresholds set in percent, hours or days.
 
 Dashboards
 ----------
 
 .. image:: images/default_values_dashboards.png
+
+Configure the default dashboards for the home page (central), assistance module, assets module, and above the tickets search results list.
