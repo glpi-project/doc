@@ -11,7 +11,7 @@ Once the change is created, it is possible to attach tickets but also impacted i
 
 Same as tickets, task, costs and solution allow to follow and solve the change. For complex changes management, a change can be linked with one or several projects allowing a mode detailed management (:doc:`Manage projects </modules/tools/projects>`).
 
-Changes use their own notifications (see :doc:`Configure email notifications </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`).
+Changes use their own notifications (see :doc:`configuration of email follow-ups <email_notifications>`).
 
 The different tabs
 ------------------
