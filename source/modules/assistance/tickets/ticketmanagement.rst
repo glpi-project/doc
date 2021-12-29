@@ -41,7 +41,7 @@ Description of specific fields
 
 * **Actor**: implied actors are referenced in the ticket, which allows them to be notified during ticket life cycle, see :doc:`Defining actors and roles </modules/assistance/actors>`.
 
-  If email followup have been configured (see :doc:`Configurer les notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`), information about notifications are displayed for a user or a supplier: *Email Followup* (yes or no) and *Email*. Email is pre-filled with user's email if defined in user or supplier form. If no email is defined in user or supplier form, an email can be entered in text field.
+  If email followup have been configured (see :ref:`notification management <configure_notifications>`), information about notifications are displayed for a user or a supplier: *Email Followup* (yes or no) and *Email*. Email is pre-filled with user's email if defined in user or supplier form. If no email is defined in user or supplier form, an email can be entered in text field.
  
   .. todo:: proof read following paragraph
 

@@ -32,7 +32,7 @@ In an item form, 2 notions of groups are available:
 
 .. hint:: if all options are set to *No*, the group will not appear in any selection list; this can be useful for a group that is deleted and kept for history or for adding empty groups in the hierarchical structure.
 
-A group can have one or more supervisors, concept which can then be used for notifications, for example to send an email to the supervisor(s) of the group when a ticket is opened, see :doc:`Notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`.
+A group can have one or more supervisors, concept which can then be used for notifications, for example to send an email to the supervisor(s) of the group when a ticket is opened, see :ref:`notification management <configure_notifications>`.
 
 A **delegation** mechanism allows a user to declare incidents not for himself but for one of the members of this group.
 
