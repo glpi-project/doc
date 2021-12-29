@@ -12,8 +12,9 @@ To do this, you must activate the **Enable followup** option then **Enable follo
 
    templates
    template_example
-   notifications
-   emailconfig
+   definitions
+   email_notifications
+   alarm_options
 
 .. note::
    Notifications work as follows (*e.g.: ticket creation notified by email*):
