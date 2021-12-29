@@ -23,4 +23,4 @@ The different fields
 
    Tickets will only be created if `Active` is `Yes` and if current date is between `Start date` and `End date`.
 
-Reccurent ticket opening is done through an automatic action named *recurrent ticket*, see :doc:`Configure automatic actions </config/config_crontask>`.
+Reccurent ticket opening is done through an automatic action named *recurrent ticket*, see :doc:`Configure automatic actions <../../configuration/crontasks>`.
