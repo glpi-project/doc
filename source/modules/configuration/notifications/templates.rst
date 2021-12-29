@@ -1,7 +1,16 @@
 Notification templates
 ======================
 
-This is where a notification is constructed, its content and layout.
+A template is a global object of GLPI that defines the information included in a notification and the formatting of the information.
+
+The creation of a template is a complex operation, which impacts the users.
+Therefore, templates can only be modified by Administrators with the *Update* permission for the *Config* right.
+Moreover a template is not linked to an entity, which means that it is not possible to delegate its management to an administrator of a of a sub-entity.
+
+A template reflects a communication to a user and can be available in several languages thanks to a translation mechanism.
+The use of tags (i.e. markers that are independent of the language used) language used) makes it possible to create a generic translation, available for all the languages of GLPI.
+
+GLPI comes with a set of pre-defined templates for all notifications (tickets, reservations, financial information, cartridges, consumables, licenses, MySQL synchronization ...).
 
 
 Parameters
@@ -57,4 +66,3 @@ There are several types of tags:
    - all <objects>: ``##FOREACH<objects>##`` ... ``##ENDFOREACH<objects>##``
    - first <N> <objects>: ``##FOREACH FIRST <N> <objects>##`` ... ``##ENDFOREACH<objects>##``
    - last <N> <objects>: ``##FOREACH LAST <N> <objects>##`` ... ``##ENDFOREACH<objects>##``
-
