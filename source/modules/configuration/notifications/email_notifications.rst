@@ -26,6 +26,8 @@ The global configuration allows you to set the following options:
 - Max delivery retries - Number times GLPI will try to send a notification.
 - Try to deliver again in (minutes) - Time between notification delivery attempts.
 
+You can test the sending of notifications from the global notification configuration form by trying to send an email to the specified Administrator email address.
+
 Email Method - PHP
 ------------------
 
