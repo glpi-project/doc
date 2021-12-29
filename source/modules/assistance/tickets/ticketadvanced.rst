@@ -63,7 +63,7 @@ Processing time
 
 Incidents resolution delays or SLA can be configured.
 
-See :doc:`Configure SLAs </modules/configuration/05_Sla/01_Sla>`.
+See :doc:`Configure SLAs <modules/configuration/service_levels>`.
 
 
 Business rules

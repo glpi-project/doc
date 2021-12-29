@@ -15,7 +15,7 @@ Description of specific fields
 
 * **Time to Resolve**: date at which ticket must be solved;
 
-  These two dates allow to limit in time incident or service request. A **SLA** can also be associated with the ticket; in this case the SLA and the next escalade level are displayed (see :doc:`Configure SLA </modules/configuration/05_Sla/01_Sla>`).
+  These two dates allow to limit in time incident or service request. A **SLA** can also be associated with the ticket; in this case the SLA and the next escalade level are displayed (see :doc:`Configure SLA <modules/configuration/service_levels>`).
 
 * **By**: references the GLPI user having opened the ticket;
 
