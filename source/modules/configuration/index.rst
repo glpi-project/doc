@@ -9,6 +9,7 @@ Configuration module gives access to all GLPI configuration options: global conf
    authentication/index
    dropdowns/index
    collectors
+   notifications/index
    fields-unicity
    general/index
    plugins
