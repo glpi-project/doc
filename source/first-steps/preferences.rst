@@ -1,9 +1,13 @@
 Manage your Preferences
 =======================
 
-User preferences are accessible from the `Preferences` tab of the user form; by clicking on your name at the top right of the interface, from any page.
+User preferences are accessible from the `Preferences` tab of the user form by clicking on your name at the top right of the interface, from any page.
 
 Each authenticated user has the possibility to modify his preferences if they have the `Personalize` update right in their profile.
+
+.. note::
+   These options override the default ones set in the general setup.
+   For more information about the available options refer to the `general setup documentation <../../../modules/configuration/general/default_values.html>`_.
 
 Main Tab
 --------

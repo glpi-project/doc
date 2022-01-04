@@ -18,6 +18,6 @@ Some of the parameters can be changed by users in their session.
    performances
    api
    impact_analysis
-   mysql_replicate
+   sql_replicas
    glpi_network
 

@@ -10,6 +10,7 @@ Configuration module gives access to all GLPI configuration options: global conf
    dropdowns/index
    collectors
    notifications/index
+   crontasks
    fields-unicity
    general/index
    plugins

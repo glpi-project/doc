@@ -8,34 +8,30 @@ Assets
 
 .. image:: /image/configparc.png
 
--  **Activer les informations financières et administratives par
-   défaut** : applicable pour tous les objets de l'inventaire.
+-  **Enable the financial and administrative information by default**
+   Applicable for all objects in the inventory
 
--  **Catégorie des logiciels supprimés par les règles du dictionnaire**
-   : il est possible de modifier automatiquement la catégorie des
-   logiciels supprimés par le dictionnaire. Par défaut ceux-ci sont
-   déplacés automatiquement dans la catégorie FUSION.
+-  **Software category deleted by the dictionary rules**
+   It is possible to automatically change the category of software deleted by dictionary rules.
+   By default they are automatically moved to the FUSION category.
 
--  **Début de l'année fiscale** : utilisée dans la partie Gestion
+-  **End of fiscal year**
+   Used in the Management section
 
--  \*\*Champs automatiques (marqués par \*)\*\* : à la création d'un
-   gabarit, il est possible d'ajouter des champs générés automatiquement
-   à partir d'un modèle (par exemple : le nom du matériel, le numéro
-   d'inventaire). L'incrémentation des valeurs de ces champs se fait
-   soit par entité soit de manière globale.
+-  **Automatic fields (marked by*)**
+   When a template is created, it is possible to add automatically generated fields from a template.
+   For example, the name of the asset or the inventory number.
+   The values of these fields can be incremented either by entity or globally.
 
--  **Restreindre la gestion des moniteurs** :
--  **Restreindre la gestion des périphériques** :
--  **Restreindre la gestion des téléphones** :
--  **Restreindre la gestion des imprimantes** : Lors de la création
-   manuelle d'un matériel, il est demandé à l'utilisateur de choisir le
-   type de gestion (unitaire ou globale) de ce dernier. Une gestion
-   globale n'importe qu'une seule fois un élément contrairement à une
-   gestion unitaire qui l'importe autant de fois qu'utilisé exemple :
-   une imprimante partagée par plusieurs utilisateur, moniteur relié à
-   un commutateur d'écran Par la suite, un matériel géré de manière
-   unitaire peut passer sous le mode de la gestion globale. Il est
-   possible de restreindre le type de gestion selon les matériels.
+-  **Restrict monitor management**
+-  **Restrict device management**
+-  **Restrict phone management**
+-  **Restrict printer management**
+   When creating a device manually, the user is asked to choose the type of management (unitary or global).
+   A global management only imports an element once, unlike a unitary management which imports it as many times as it is used.
+   For example, a printer shared by several users or a monitor connected to a screen switch.
+   Subsequently, a unitary managed equipment can be switched to global management mode.
+   It is possible to restrict the type of management depending on the equipment.
 
 Automatic transfer of computers
 -------------------------------
@@ -46,35 +42,23 @@ Automatic transfer of computers
 
    This configuration option is not present if you have only one entity in your instance.
 
--  **Modèle pour le transfert automatique d'ordinateurs dans une autre
-   entité** : GLPI permet aussi de transférer un ordinateur dans une
-   autre entité si un des critères utilisé pour l'affectation à une
-   entité est modifié. Si l'option Modèle pour le transfert automatique
-   d'ordinateur dans une autre entité indique un modèle existant, à
-   chaque mise à jour d'un ordinateur depuis l'outil d'inventaire, le
-   moteur de règles d'affectation des entités sera rejoué. Si l'entité
-   résultante est différente de l'entité de l'ordinateur, celui-ci sera
-   transféré.
+-  **Template for the automatic transfer of computers in another entity**
+   GLPI also allows to transfer a computer in another entity if one of the criteria used for the assignment to an entity is modified.
+   If the option Model for the automatic transfer of computers in another entity indicates an existing model, then each time a computer is updated from the inventory tool, the entity assignment rules engine will be replayed.
+   If the resulting entity is different from the current entity, the computer will be transferred to the new entity.
 
 Automatically update of the elements related to the computers
 -------------------------------------------------------------
 
 .. image:: /image/configpc.png
 
-L'interfaçage avec un outil d'inventaire rend possible l'inventaire
-automatisé des matériels. Cet interfaçage est possible au travers d'un
-plugin.
+Interfacing with an inventory tool makes it possible to take an automated inventory of the equipment.
+This interfacing is possible through the native inventory feature or a plugin.
 
--  **Lors de la connexion ou mise à jour** : lors de la connexion
-   directe à un ordinateur d'un élément géré de manière unitaire, il est
-   possible de lui attribuer des informations récupérées depuis
-   l'ordinateur
--  **Lors de la déconnexion** : lors de la déconnexion, il est possible
-   d'effacer ces informations. Ces fonctionnalités ne sont pas activées
-   par défaut et concernent tous les éléments de l'inventaire ayant les
-   champs usager, utilisateur, groupe et lieu qui sont récupérés via
-   l'agent d'inventaire et le champ statut que vous définissez.
+-  **When connecting or updating**
+   When connecting a device (that is unit managed) directly to a computer, it is possible to have information retrieved from the computer assigned to it such as the User.
+-  **When disconnecting**
+   When disconnecting a device (that is unit managed) from a computer, it is possible to remove some of the data in the Computer such as the User.
 
-Exemple : lors de la première remontée d'inventaire vous pouvez définir
-que le moniteur connecté à l'ordinateur prendra le statut Production. En
-cas de déconnexion il prendra le statut Disponible
+For example, When the inventory is first retrieved, you can define that the monitor connected to the computer will have the status "Production".
+Then, when disconnected, it will take the status "Available".
