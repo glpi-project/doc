@@ -71,7 +71,7 @@ Notifications
 
 Notification setting is done at entity level. This tab groups two tables:
 
-* global options for all GLPI notifications: administrator email (will be the ``From:`` for all GLPI issued emails), administrator name, prefix for notification email subject (``GLPI`` by default), response email address (see :doc:`configuration of email followup </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`) and email signature.
+* global options for all GLPI notifications: administrator email (will be the ``From:`` for all GLPI issued emails), administrator name, prefix for notification email subject (``GLPI`` by default), response email address (see :doc:`configuration of email follow-ups <email_notifications>`) and email signature.
 
   For each entity, the delay applied before sending notification can be defined. This delay allows for instance in case of fast multiples modifications of a ticket to send only one notification email. The email followup of an actor can also be defined to Yes or No.
 

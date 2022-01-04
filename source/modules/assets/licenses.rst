@@ -13,7 +13,7 @@ Version type describes the specifics of the right to use the software. OEM type 
 
 Number field displays the number of installations that are allowed with this license. It can be a user number (floating license), a number of installations (multiple license), an unlimited number of installation (site license)... It is possible to assign the license to one or several corresponding computers, for instance if the license is of type OEM.
 
-Expire date is the limit date that allows the use of the license. After this date, a notification can be triggered; for alerts to be effective, notifications must be activated, see :doc:`notifications configuration <../configuration/04_Notifications/01_Configurer_les_notifications>`.
+Expire date is the limit date that allows the use of the license. After this date, a notification can be triggered; for alerts to be effective, notifications must be activated, see :ref:`notification management <configure_notifications>`.
 
 .. hint::
 

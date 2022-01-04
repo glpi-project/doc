@@ -54,7 +54,7 @@ Ticket opening form can be accompanied by a message inviting user to check perso
 Specific fields:
 
 * **Inform me about he actions take**:
-  Appears if email followup are configured, see :doc:`Configure notifications </modules/configuration/04_Notifications/01_Configurer_les_notifications>`. If set to `Yes`, the requester will be kept informed by mail of the different processing of the ticket. The field *Mail* contains the email address to which notifications will be sent. If several email addresses are defined, GLPI will select the default email defined in user's preferences. It is possible to select another email address or to enter an address if user's profile does not mention an email;
+  Appears if email followup are configured, see :ref:`notification management <configure_notifications>`. If set to `Yes`, the requester will be kept informed by mail of the different processing of the ticket. The field *Mail* contains the email address to which notifications will be sent. If several email addresses are defined, GLPI will select the default email defined in user's preferences. It is possible to select another email address or to enter an address if user's profile does not mention an email;
 
 * **Associated elements**:
   Allows to associate an item of the inventory with the ticket. The content of the list depends upon parameters defined in user's profile (see :doc:`Administer user profile </modules/administration/profiles/profiles>`.

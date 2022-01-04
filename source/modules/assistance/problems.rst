@@ -12,7 +12,7 @@ The problem creation form is very similar to the ticket creation form and shares
    From tickets list, an alternative solution can be associated to linked tickets without solving the problem.
    Depuis la liste des tickets, une solution de contournement peut être associé massivement aux tickets liés sans pour autant résoudre le problème.
 
-Problems use their own notifications, see :doc:`Configure email notifications </modules/configuration/04_Notifications/02_Configuration_des_suivis_par_courriels>`.
+Problems use their own notifications, see :doc:`configuration of email follow-ups <email_notifications>`.
 
 Statistics similar to tickets are available for problems, see :doc:`Display statistics </modules/assistance/statistics>`.
 

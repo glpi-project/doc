@@ -20,7 +20,7 @@ In a cartridge form, the following information is available:
 
 The alert threshold is the minimal value at which an alert is triggered.
 
-.. note:: For alerts to be effective, notifications must be activated; see :doc:`notifications configuration <../configuration/04_Notifications/01_Configurer_les_notifications>`.
+.. note:: For alerts to be effective, notifications must be activated; see :ref:`notification management <configure_notifications>`.
 
 For a cartridge to be installable on a printer, it must be declared as compatible with this printer.
 
