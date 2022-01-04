@@ -25,7 +25,7 @@ Create template
 2. Click on **Add** button
 3. Fill in fields
 
-   - **Name*: ``Generic tickets with timeline`` *for example*
+   - **Name**: ``Generic tickets with timeline`` *for example*
    - **Type**: ``Ticket``
    - **Comments**: ``Generic template for tickets, using timeline`` *for example*
    - **CSS**: *leave empty for now*
