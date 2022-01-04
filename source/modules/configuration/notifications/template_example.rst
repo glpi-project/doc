@@ -22,15 +22,15 @@ Create template
 ---------------
 
 1. Go to **Setup > Notifications > Notification templates**
-2. Clic on **add** button
+2. Click on **Add** button
 3. Fill in fields
 
-   - **Name** = ``Generic tickets with timeline`` *for example*
-   - **Type** = ``Ticket``
-   - **Comments** = ``Generic template for tickets, using timeline`` *for example*
+   - **Name*: ``Generic tickets with timeline`` *for example*
+   - **Type**: ``Ticket``
+   - **Comments**: ``Generic template for tickets, using timeline`` *for example*
    - **CSS**: *leave empty for now*
 
-4. Save to be redirect to template translation
+4. Save to be redirected to the template translation
 
 
 Basic data
@@ -38,9 +38,9 @@ Basic data
 
 We are now in the editing mode of a template translation.
 
-- **Language** = ``Default translation`` *minimum to create, we will see later on the case of other languages*
+- **Language**: ``Default translation`` *The minimum required. We will see later how to add other languages.*
 
-- **Subject** = ``##ticket.action##: ##ticket.title##`` *"[GLPI <ticket_number>]" will be automatically added to the email subject*
+- **Subject**: ``##ticket.action##: ##ticket.title##`` *"[GLPI <ticket_number>]" will be automatically added to the email subject*
 
 .. note::
    - ``##ticket.action##``: action that triggered the notification
@@ -56,7 +56,7 @@ Case: New ticket
 ----------------
 
 Let's start by adding some basic data.
-You can add more by using the "**Show list of available tags**" button to display the existing tags.
+You can add more by using the "**Show list of available tags**" button to display the available tags.
 
 - **Email HTML body**:
 
@@ -115,7 +115,7 @@ Follow-ups, tasks and solutions are elements of a ticket's timeline, so we'll lo
 Layout
 ------
 
-For now, we have only retrieved tags, but there is no formatting yet.
+For now, we have only retrieved tags but there is no formatting yet.
 
 
 Put in bold
@@ -159,7 +159,7 @@ This table will allow us to display the logo at the same row as the ticket title
 2. Click on **Insert table** button
 3. The generated table has 2 columns and 2 rows, we only want one row, so delete one:
 
-   1. Right-clic on the generated table
+   1. Right-click on the generated table
    2. Clic on **Row** > **Delete row**
 
 4. Select the previously added image, to drag and drop it into the left cell
@@ -171,7 +171,7 @@ This table will allow us to display the logo at the same row as the ticket title
       ##lang.ticket.status##: ##ticket.status##
       ##lang.ticket.url##: ##ticket.url##
 
-6. **Right-clic** on table > **Table properties**
+6. **Right-click** on table > **Table properties**
 7. In **Advanced**, click on **Background color** field to select **Dark Blue**
 8. Click on **Save** button
 
@@ -182,13 +182,13 @@ Change colors
 As the background of the table is dark, we will write in white to be more readable.
 
    1. Select the text in the table
-   3. Click on the **Text color** drop-down list and select the color **white**
+   3. Click on the **Text color** drop-down list and select the color **White**
 
 
 Add conditional emoticon
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-If the ticket is in pending status, we want to display an emoticon.
+If the ticket is in pending status, we want to display an emoji.
 
 1. Add 2 test tags: ``##IFticket.storestatus=4##`` ``##ENDIFticket.storestatus##``
 2. **Right-click** between the 2 tags > **Emoticon**
@@ -210,12 +210,12 @@ And we want to add a text under the URL that everyone can understand:
 
 1. In the **Default translation** we add the English text
 2. Remember to **Save**
-3. **Right-clic** in "Email HTML body" field > **Source code**
+3. **Right-click** in "Email HTML body" field > **Source code**
 4. Select all the code to **copy** it
 5. Go back to the template header by clicking on the **Notification templates** value at the top
 6. In **Template translations** tab click on **Add a new translation** button
-7. Select Language = **Français**
-8. **Right-clic** in "Email HTML body" field > **Source code**
+7. Select Language = **French**
+8. **Right-click** in "Email HTML body" field > **Source code**
 9. **Paste** the previously copied code
 10. **Save** to exit code view
 11. Updates the fields:
