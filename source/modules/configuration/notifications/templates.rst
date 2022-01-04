@@ -21,10 +21,10 @@ Notification template
 
 First tab.
 
-- **Name**: template name
-- **Type**: type of GLPI object to which the template relates
-- **Comments**: (optionnal) additional information
-- **CSS**: (optionnal) style sheet used for the template in HTML
+- **Name**: Template name
+- **Type**: Type of GLPI object to which the template relates
+- **Comments**: (optional) Additional information
+- **CSS**: (optional) Style sheet used for the template in HTML
 
 .. note::
    Templates are global, they are not defined at the entity level, as notifications.
@@ -33,12 +33,12 @@ First tab.
 Template translation
 ~~~~~~~~~~~~~~~~~~~~
 
-Tab that lists the different notifications defined by language and allows to add a new language.
+Tab that lists the different notifications defined by language and allows adding a new language.
 
-- **Language**: indicates the language to which this translation refers. If no language is selected in the drop-down list, this translation will be the default for this template.
-- **Subject**: subject of the mail
-- **Email text body**: plain text without layout, used in cases where HTML is not allowed. If the field is empty then it is generated from the HTML body text.
-- **Email HTML body**: text with HTML layout
+- **Language**: Indicates the language to which this translation refers. If no language is selected in the drop-down list, this translation will be the default for this template.
+- **Subject**: Subject of the mail.
+- **Email text body**: Plain text without layout, used in cases where HTML is not allowed. If the field is empty then it is generated from the HTML body text.
+- **Email HTML body**: Text with HTML layout.
 
 .. note::
    A default translation is applicable to all GLPI languages that do not have their own translation.
