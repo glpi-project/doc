@@ -80,30 +80,6 @@ context  c         Cache context to clear (i.e. 'core' or 'plugin:plugin_name').
 =======  ========  ==================================================================================================  ========  =======  =====  =========
 
 
-glpi:cache:clear
-----------------
-
-Aliases: `cache:clear, glpi:system:clear_cache, system:clear_cache`
-
-Description
-***********
-
-Clear GLPI cache.
-
-Arguments/Options
-*****************
-
-There are no arguments for this command
-
-Options:
-
-=======  ========  ==================================================================================================  ========  =======  =====  =========
-Name     Shortcut  Description                                                                                         Required  Default  Array  Negatable
--------  --------  --------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-context  c         Cache context to clear (i.e. 'core' or 'plugin:plugin_name'). All contexts are cleared by default.  Yes       []       Yes    No
-=======  ========  ==================================================================================================  ========  =======  =====  =========
-
-
 glpi:cache:configure
 --------------------
 
@@ -226,34 +202,6 @@ Name     Shortcut  Description            Required  Default  Array  Negatable
 -------  --------  ---------------------  --------  -------  -----  ---------
 context  c         Configuration context  Yes       core     No     No
 =======  ========  =====================  ========  =======  =====  =========
-
-
-glpi:database:check_schema_integrity
-------------------------------------
-
-Aliases: `db:check_schema_integrity, glpi:database:check, db:check`
-
-Description
-***********
-
-Check for schema differences between current database and installation file.
-
-Arguments/Options
-*****************
-
-There are no arguments for this command
-
-Options:
-
-===================================  ========  ========================================================================  ========  =======  =====  =========
-Name                                 Shortcut  Description                                                               Required  Default  Array  Negatable
------------------------------------  --------  ------------------------------------------------------------------------  --------  -------  -----  ---------
-strict                                         Strict comparison of definitions                                          No                 No     No
-ignore-innodb-migration                        Do not check tokens related to migration from "MyISAM" to "InnoDB".       No                 No     No
-ignore-timestamps-migration                    Do not check tokens related to migration from "datetime" to "timestamp".  No                 No     No
-ignore-utf8mb4-migration                       Do not check tokens related to migration from "utf8" to "utf8mb4".        No                 No     No
-ignore-dynamic-row-format-migration            Do not check tokens related to "DYNAMIC" row format migration.            No                 No     No
-===================================  ========  ========================================================================  ========  =======  =====  =========
 
 
 glpi:database:check_schema_integrity
