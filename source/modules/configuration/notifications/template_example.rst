@@ -214,7 +214,7 @@ And we want to add a text under the URL that everyone can understand:
 4. Select all the code to **copy** it
 5. Go back to the template header by clicking on the **Notification templates** value at the top
 6. In **Template translations** tab click on **Add a new translation** button
-7. Select Language = **French**
+7. Select Language = **Français**
 8. **Right-click** in "Email HTML body" field > **Source code**
 9. **Paste** the previously copied code
 10. **Save** to exit code view
