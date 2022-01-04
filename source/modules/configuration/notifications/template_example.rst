@@ -3,7 +3,7 @@ Template example
 
 In this example, we will create a template for ticket mail notifications.
 
-.. image:: final_result.png
+.. image:: images/final_result.png
    :alt: Final result
    :align: center
    :scale: 60%
