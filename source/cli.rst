@@ -24,11 +24,11 @@ There are no arguments for this command
 
 Options:
 
-====  ========  ====================================  ========  =======  =====  =========
-Name  Shortcut  Description                           Required  Default  Array  Negatable
-----  --------  ------------------------------------  --------  -------  -----  ---------
-max   m         Max items to handle in one execution  Yes       500      No     No
-====  ========  ====================================  ========  =======  =====  =========
+=====  ========  ====================================  ========  =======  =====  =========
+Name   Shortcut  Description                           Required  Default  Array  Negatable
+-----  --------  ------------------------------------  --------  -------  -----  ---------
+--max  -m        Max items to handle in one execution  Yes       500      No     No
+=====  ========  ====================================  ========  =======  =====  =========
 
 
 glpi:build:compile_scss
@@ -48,12 +48,12 @@ There are no arguments for this command
 
 Options:
 
-=======  ========  =============================================================  ========  =======  =====  =========
-Name     Shortcut  Description                                                    Required  Default  Array  Negatable
--------  --------  -------------------------------------------------------------  --------  -------  -----  ---------
-file     f         File to compile (compile all SCSS files by default)            No        []       Yes    Yes
-dry-run            Simulate compilation without actually save compiled CSS files  No                 No     No
-=======  ========  =============================================================  ========  =======  =====  =========
+=========  ========  =============================================================  ========  =======  =====  =========
+Name       Shortcut  Description                                                    Required  Default  Array  Negatable
+---------  --------  -------------------------------------------------------------  --------  -------  -----  ---------
+--file     -f        File to compile (compile all SCSS files by default)            No        []       Yes    Yes
+--dry-run            Simulate compilation without actually save compiled CSS files  No                 No     No
+=========  ========  =============================================================  ========  =======  =====  =========
 
 
 glpi:cache:clear
@@ -73,11 +73,11 @@ There are no arguments for this command
 
 Options:
 
-=======  ========  ==================================================================================================  ========  =======  =====  =========
-Name     Shortcut  Description                                                                                         Required  Default  Array  Negatable
--------  --------  --------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-context  c         Cache context to clear (i.e. 'core' or 'plugin:plugin_name'). All contexts are cleared by default.  Yes       []       Yes    No
-=======  ========  ==================================================================================================  ========  =======  =====  =========
+=========  ========  ==================================================================================================  ========  =======  =====  =========
+Name       Shortcut  Description                                                                                         Required  Default  Array  Negatable
+---------  --------  --------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--context  -c        Cache context to clear (i.e. 'core' or 'plugin:plugin_name'). All contexts are cleared by default.  Yes       []       Yes    No
+=========  ========  ==================================================================================================  ========  =======  =====  =========
 
 
 glpi:cache:configure
@@ -97,14 +97,14 @@ There are no arguments for this command
 
 Options:
 
-======================  ========  ===========================================================================  ========  =======  =====  =========
-Name                    Shortcut  Description                                                                  Required  Default  Array  Negatable
-----------------------  --------  ---------------------------------------------------------------------------  --------  -------  -----  ---------
-context                           Cache context (i.e. 'core' or 'plugin:plugin_name')                          Yes       core     No     No
-dsn                               Cache system DSN                                                             Yes       []       Yes    No
-use-default                       Unset cache configuration to use default filesystem cache for given context  No                 No     No
-skip-connection-checks            Skip connection checks                                                       No                 No     No
-======================  ========  ===========================================================================  ========  =======  =====  =========
+========================  ========  ===========================================================================  ========  =======  =====  =========
+Name                      Shortcut  Description                                                                  Required  Default  Array  Negatable
+------------------------  --------  ---------------------------------------------------------------------------  --------  -------  -----  ---------
+--context                           Cache context (i.e. 'core' or 'plugin:plugin_name')                          Yes       core     No     No
+--dsn                               Cache system DSN                                                             Yes       []       Yes    No
+--use-default                       Unset cache configuration to use default filesystem cache for given context  No                 No     No
+--skip-connection-checks            Skip connection checks                                                       No                 No     No
+========================  ========  ===========================================================================  ========  =======  =====  =========
 
 Help
 ****
@@ -141,12 +141,12 @@ There are no arguments for this command
 
 Options:
 
-=======  ========  =============================================================  ========  =======  =====  =========
-Name     Shortcut  Description                                                    Required  Default  Array  Negatable
--------  --------  -------------------------------------------------------------  --------  -------  -----  ---------
-key      k         Cache key to debug.                                            Yes       []       Yes    No
-context  c         Cache context to clear (i.e. 'core' or 'plugin:plugin_name').  Yes       core     No     No
-=======  ========  =============================================================  ========  =======  =====  =========
+=========  ========  =============================================================  ========  =======  =====  =========
+Name       Shortcut  Description                                                    Required  Default  Array  Negatable
+---------  --------  -------------------------------------------------------------  --------  -------  -----  ---------
+--key      -k        Cache key to debug.                                            Yes       []       Yes    No
+--context  -c        Cache context to clear (i.e. 'core' or 'plugin:plugin_name').  Yes       core     No     No
+=========  ========  =============================================================  ========  =======  =====  =========
 
 
 glpi:cache:set_namespace_prefix
@@ -197,11 +197,11 @@ value  Configuration value (ommit argument to be prompted for value)  Yes
 
 Options:
 
-=======  ========  =====================  ========  =======  =====  =========
-Name     Shortcut  Description            Required  Default  Array  Negatable
--------  --------  ---------------------  --------  -------  -----  ---------
-context  c         Configuration context  Yes       core     No     No
-=======  ========  =====================  ========  =======  =====  =========
+=========  ========  =====================  ========  =======  =====  =========
+Name       Shortcut  Description            Required  Default  Array  Negatable
+---------  --------  ---------------------  --------  -------  -----  ---------
+--context  -c        Configuration context  Yes       core     No     No
+=========  ========  =====================  ========  =======  =====  =========
 
 
 glpi:database:check_schema_integrity
@@ -221,15 +221,15 @@ There are no arguments for this command
 
 Options:
 
-===================================  ========  ========================================================================  ========  =======  =====  =========
-Name                                 Shortcut  Description                                                               Required  Default  Array  Negatable
------------------------------------  --------  ------------------------------------------------------------------------  --------  -------  -----  ---------
-strict                                         Strict comparison of definitions                                          No                 No     No
-ignore-innodb-migration                        Do not check tokens related to migration from "MyISAM" to "InnoDB".       No                 No     No
-ignore-timestamps-migration                    Do not check tokens related to migration from "datetime" to "timestamp".  No                 No     No
-ignore-utf8mb4-migration                       Do not check tokens related to migration from "utf8" to "utf8mb4".        No                 No     No
-ignore-dynamic-row-format-migration            Do not check tokens related to "DYNAMIC" row format migration.            No                 No     No
-===================================  ========  ========================================================================  ========  =======  =====  =========
+=====================================  ========  ========================================================================  ========  =======  =====  =========
+Name                                   Shortcut  Description                                                               Required  Default  Array  Negatable
+-------------------------------------  --------  ------------------------------------------------------------------------  --------  -------  -----  ---------
+--strict                                         Strict comparison of definitions                                          No                 No     No
+--ignore-innodb-migration                        Do not check tokens related to migration from "MyISAM" to "InnoDB".       No                 No     No
+--ignore-timestamps-migration                    Do not check tokens related to migration from "datetime" to "timestamp".  No                 No     No
+--ignore-utf8mb4-migration                       Do not check tokens related to migration from "utf8" to "utf8mb4".        No                 No     No
+--ignore-dynamic-row-format-migration            Do not check tokens related to "DYNAMIC" row format migration.            No                 No     No
+=====================================  ========  ========================================================================  ========  =======  =====  =========
 
 
 glpi:database:configure
@@ -249,17 +249,17 @@ There are no arguments for this command
 
 Options:
 
-========================  ========  =============================================================================  ========  =========  =====  =========
-Name                      Shortcut  Description                                                                    Required  Default    Array  Negatable
-------------------------  --------  -----------------------------------------------------------------------------  --------  ---------  -----  ---------
-db-host                   H         Database host                                                                  No        localhost  No     Yes
-db-name                   d         Database name                                                                  Yes                  No     No
-db-password               p         Database password (will be prompted for value if option passed without value)  No                   No     Yes
-db-port                   P         Database port                                                                  No                   No     Yes
-db-user                   u         Database user                                                                  Yes                  No     No
-reconfigure               r         Reconfigure database, override configuration file if it already exists         No                   No     No
-log-deprecation-warnings            Indicated if deprecation warnings sent by database server should be logged     No                   No     No
-========================  ========  =============================================================================  ========  =========  =====  =========
+==========================  ========  =============================================================================  ========  =========  =====  =========
+Name                        Shortcut  Description                                                                    Required  Default    Array  Negatable
+--------------------------  --------  -----------------------------------------------------------------------------  --------  ---------  -----  ---------
+--db-host                   -H        Database host                                                                  No        localhost  No     Yes
+--db-name                   -d        Database name                                                                  Yes                  No     No
+--db-password               -p        Database password (will be prompted for value if option passed without value)  No                   No     Yes
+--db-port                   -P        Database port                                                                  No                   No     Yes
+--db-user                   -u        Database user                                                                  Yes                  No     No
+--reconfigure               -r        Reconfigure database, override configuration file if it already exists         No                   No     No
+--log-deprecation-warnings            Indicated if deprecation warnings sent by database server should be logged     No                   No     No
+==========================  ========  =============================================================================  ========  =========  =====  =========
 
 
 glpi:database:enable_timezones
@@ -292,21 +292,21 @@ There are no arguments for this command
 
 Options:
 
-========================  ========  ===========================================================================================  ========  =========  =====  =========
-Name                      Shortcut  Description                                                                                  Required  Default    Array  Negatable
-------------------------  --------  -------------------------------------------------------------------------------------------  --------  ---------  -----  ---------
-db-host                   H         Database host                                                                                No        localhost  No     Yes
-db-name                   d         Database name                                                                                Yes                  No     No
-db-password               p         Database password (will be prompted for value if option passed without value)                No                   No     Yes
-db-port                   P         Database port                                                                                No                   No     Yes
-db-user                   u         Database user                                                                                Yes                  No     No
-reconfigure               r         Reconfigure database, override configuration file if it already exists                       No                   No     No
-log-deprecation-warnings            Indicated if deprecation warnings sent by database server should be logged                   No                   No     No
-default-language          L         Default language of GLPI                                                                     No        en_GB      No     Yes
-force                     f         Force execution of installation, overriding existing database                                No                   No     No
-enable-telemetry                    Allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)     No                   No     No
-no-telemetry                        Disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)  No                   No     No
-========================  ========  ===========================================================================================  ========  =========  =====  =========
+==========================  ========  ===========================================================================================  ========  =========  =====  =========
+Name                        Shortcut  Description                                                                                  Required  Default    Array  Negatable
+--------------------------  --------  -------------------------------------------------------------------------------------------  --------  ---------  -----  ---------
+--db-host                   -H        Database host                                                                                No        localhost  No     Yes
+--db-name                   -d        Database name                                                                                Yes                  No     No
+--db-password               -p        Database password (will be prompted for value if option passed without value)                No                   No     Yes
+--db-port                   -P        Database port                                                                                No                   No     Yes
+--db-user                   -u        Database user                                                                                Yes                  No     No
+--reconfigure               -r        Reconfigure database, override configuration file if it already exists                       No                   No     No
+--log-deprecation-warnings            Indicated if deprecation warnings sent by database server should be logged                   No                   No     No
+--default-language          -L        Default language of GLPI                                                                     No        en_GB      No     Yes
+--force                     -f        Force execution of installation, overriding existing database                                No                   No     No
+--enable-telemetry                    Allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)     No                   No     No
+--no-telemetry                        Disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)  No                   No     No
+==========================  ========  ===========================================================================================  ========  =========  =====  =========
 
 
 glpi:database:update
@@ -326,14 +326,14 @@ There are no arguments for this command
 
 Options:
 
-================  ========  ===========================================================================================  ========  =======  =====  =========
-Name              Shortcut  Description                                                                                  Required  Default  Array  Negatable
-----------------  --------  -------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-allow-unstable    u         Allow update to an unstable version                                                          No                 No     No
-force             f         Force execution of update from v-1 version of GLPI even if schema did not changed            No                 No     No
-enable-telemetry            Allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)     No                 No     No
-no-telemetry                Disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)  No                 No     No
-================  ========  ===========================================================================================  ========  =======  =====  =========
+==================  ========  ===========================================================================================  ========  =======  =====  =========
+Name                Shortcut  Description                                                                                  Required  Default  Array  Negatable
+------------------  --------  -------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--allow-unstable    -u        Allow update to an unstable version                                                          No                 No     No
+--force             -f        Force execution of update from v-1 version of GLPI even if schema did not changed            No                 No     No
+--enable-telemetry            Allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)     No                 No     No
+--no-telemetry                Disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)  No                 No     No
+==================  ========  ===========================================================================================  ========  =======  =====  =========
 
 
 glpi:ldap:synchronize_users
@@ -353,28 +353,28 @@ There are no arguments for this command
 
 Options:
 
-======================  ========  =====================================================================================================================================================================================================================================================  ========  =======  =====  =========
-Name                    Shortcut  Description                                                                                                                                                                                                                                            Required  Default  Array  Negatable
-----------------------  --------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-only-create-new         c         Only create new users                                                                                                                                                                                                                                  No                 No     No
-only-update-existing    u         Only update existing users                                                                                                                                                                                                                             No                 No     No
-ldap-server-id          s         Synchronize only users attached to this LDAP server                                                                                                                                                                                                    No        []       Yes    Yes
-ldap-filter             f         Filter to apply on LDAP search                                                                                                                                                                                                                         No                 No     Yes
-begin-date                        Begin date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)                                                                                                                              No                 No     Yes
-end-date                          End date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)                                                                                                                                No                 No     Yes
-deleted-user-strategy   d         Force strategy used for deleted users (current configured action: "1")
+========================  ========  =====================================================================================================================================================================================================================================================  ========  =======  =====  =========
+Name                      Shortcut  Description                                                                                                                                                                                                                                            Required  Default  Array  Negatable
+------------------------  --------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--only-create-new         -c        Only create new users                                                                                                                                                                                                                                  No                 No     No
+--only-update-existing    -u        Only update existing users                                                                                                                                                                                                                             No                 No     No
+--ldap-server-id          -s        Synchronize only users attached to this LDAP server                                                                                                                                                                                                    No        []       Yes    Yes
+--ldap-filter             -f        Filter to apply on LDAP search                                                                                                                                                                                                                         No                 No     Yes
+--begin-date                        Begin date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)                                                                                                                              No                 No     Yes
+--end-date                          End date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)                                                                                                                                No                 No     Yes
+--deleted-user-strategy   -d        Force strategy used for deleted users (current configured action: "1")
 Possible values are:
 - 0: Preserve
 - 1: Put in trashbin
 - 2: Withdraw dynamic authorizations and groups
 - 3: Disable
 - 4: Disable + Withdraw dynamic authorizations and groups  No                 No     Yes
-restored-user-strategy  r         Force strategy used for restored users (current configured action: "0")
+--restored-user-strategy  -r        Force strategy used for restored users (current configured action: "0")
 Possible values are:
 - 0: Do nothing
 - 1: Restore (move out of trashbin)
 - 3: Enable                                                                                           No                 No     Yes
-======================  ========  =====================================================================================================================================================================================================================================================  ========  =======  =====  =========
+========================  ========  =====================================================================================================================================================================================================================================================  ========  =======  =====  =========
 
 
 glpi:maintenance:disable
@@ -407,11 +407,11 @@ There are no arguments for this command
 
 Options:
 
-====  ========  ==================================  ========  =======  =====  =========
-Name  Shortcut  Description                         Required  Default  Array  Negatable
-----  --------  ----------------------------------  --------  -------  -----  ---------
-text  t         Text to display during maintenance  No                 No     Yes
-====  ========  ==================================  ========  =======  =====  =========
+======  ========  ==================================  ========  =======  =====  =========
+Name    Shortcut  Description                         Required  Default  Array  Negatable
+------  --------  ----------------------------------  --------  -------  -----  ---------
+--text  -t        Text to display during maintenance  No                 No     Yes
+======  ========  ==================================  ========  =======  =====  =========
 
 
 glpi:migration:appliances_plugin_to_core
@@ -431,11 +431,11 @@ There are no arguments for this command
 
 Options:
 
-===========  ========  ============================  ========  =======  =====  =========
-Name         Shortcut  Description                   Required  Default  Array  Negatable
------------  --------  ----------------------------  --------  -------  -----  ---------
-skip-errors  s         Do not exit on import errors  No                 No     No
-===========  ========  ============================  ========  =======  =====  =========
+=============  ========  ============================  ========  =======  =====  =========
+Name           Shortcut  Description                   Required  Default  Array  Negatable
+-------------  --------  ----------------------------  --------  -------  -----  ---------
+--skip-errors  -s        Do not exit on import errors  No                 No     No
+=============  ========  ============================  ========  =======  =====  =========
 
 
 glpi:migration:build_missing_timestamps
@@ -468,12 +468,12 @@ There are no arguments for this command
 
 Options:
 
-==============  ========  =======================================================================================================================  ========  =======  =====  =========
-Name            Shortcut  Description                                                                                                              Required  Default  Array  Negatable
---------------  --------  -----------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-update-plugin   u         Run Domains plugin update (you need version 2.1.0 files to do this)                                                      No                 No     No
-without-plugin  w         Enable migration without plugin files (we cannot validate that plugin data are compatible with supported 2.1.0 version)  No                 No     No
-==============  ========  =======================================================================================================================  ========  =======  =====  =========
+================  ========  =======================================================================================================================  ========  =======  =====  =========
+Name              Shortcut  Description                                                                                                              Required  Default  Array  Negatable
+----------------  --------  -----------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--update-plugin   -u        Run Domains plugin update (you need version 2.1.0 files to do this)                                                      No                 No     No
+--without-plugin  -w        Enable migration without plugin files (we cannot validate that plugin data are compatible with supported 2.1.0 version)  No                 No     No
+================  ========  =======================================================================================================================  ========  =======  =====  =========
 
 
 glpi:migration:dynamic_row_format
@@ -519,15 +519,15 @@ There are no arguments for this command
 
 Options:
 
-=====================  ========  =======================================================================================================================  ========  =======  =====  =========
-Name                   Shortcut  Description                                                                                                              Required  Default  Array  Negatable
----------------------  --------  -----------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-ignore-other-elements  i         Ignore "PluginRacksOther" models and elements                                                                            No                 No     No
-skip-errors            s         Do not exit on import errors                                                                                             No                 No     No
-truncate               t         Remove existing core data                                                                                                No                 No     No
-update-plugin          u         Run Racks plugin update (you need version 1.8.0 files to do this)                                                        No                 No     No
-without-plugin         w         Enable migration without plugin files (we cannot validate that plugin data are compatible with supported 1.8.0 version)  No                 No     No
-=====================  ========  =======================================================================================================================  ========  =======  =====  =========
+=======================  ========  =======================================================================================================================  ========  =======  =====  =========
+Name                     Shortcut  Description                                                                                                              Required  Default  Array  Negatable
+-----------------------  --------  -----------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--ignore-other-elements  -i        Ignore "PluginRacksOther" models and elements                                                                            No                 No     No
+--skip-errors            -s        Do not exit on import errors                                                                                             No                 No     No
+--truncate               -t        Remove existing core data                                                                                                No                 No     No
+--update-plugin          -u        Run Racks plugin update (you need version 1.8.0 files to do this)                                                        No                 No     No
+--without-plugin         -w        Enable migration without plugin files (we cannot validate that plugin data are compatible with supported 1.8.0 version)  No                 No     No
+=======================  ========  =======================================================================================================================  ========  =======  =====  =========
 
 
 glpi:migration:timestamps
@@ -579,11 +579,11 @@ directory  Plugin directory  No        []
 
 Options:
 
-====  ========  ==========================  ========  =======  =====  =========
-Name  Shortcut  Description                 Required  Default  Array  Negatable
-----  --------  --------------------------  --------  -------  -----  ---------
-all   a         Run command on all plugins  No                 No     No
-====  ========  ==========================  ========  =======  =====  =========
+=====  ========  ==========================  ========  =======  =====  =========
+Name   Shortcut  Description                 Required  Default  Array  Negatable
+-----  --------  --------------------------  --------  -------  -----  ---------
+--all  -a        Run command on all plugins  No                 No     No
+=====  ========  ==========================  ========  =======  =====  =========
 
 
 glpi:plugin:deactivate
@@ -609,11 +609,11 @@ directory  Plugin directory  No        []
 
 Options:
 
-====  ========  ==========================  ========  =======  =====  =========
-Name  Shortcut  Description                 Required  Default  Array  Negatable
-----  --------  --------------------------  --------  -------  -----  ---------
-all   a         Run command on all plugins  No                 No     No
-====  ========  ==========================  ========  =======  =====  =========
+=====  ========  ==========================  ========  =======  =====  =========
+Name   Shortcut  Description                 Required  Default  Array  Negatable
+-----  --------  --------------------------  --------  -------  -----  ---------
+--all  -a        Run command on all plugins  No                 No     No
+=====  ========  ==========================  ========  =======  =====  =========
 
 
 glpi:plugin:install
@@ -639,17 +639,17 @@ directory  Plugin directory  No        []
 
 Options:
 
-========  ========  ================================================================================================================================================================  ========  =======  =====  =========
-Name      Shortcut  Description                                                                                                                                                       Required  Default  Array  Negatable
---------  --------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-all       a         Run command on all plugins                                                                                                                                        No                 No     No
-param     p         Additionnal parameters to pass to the plugin install hook function
+==========  ========  ================================================================================================================================================================  ========  =======  =====  =========
+Name        Shortcut  Description                                                                                                                                                       Required  Default  Array  Negatable
+----------  --------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--all       -a        Run command on all plugins                                                                                                                                        No                 No     No
+--param     -p        Additionnal parameters to pass to the plugin install hook function
 "-p foo" will set "foo" param value to true
 "-p foo=bar" will set "foo" param value to "bar"
   No        []       Yes    Yes
-username  u         Name of user used during installation script (among other things to set plugin admin rights)                                                                      Yes                No     No
-force     f         Force execution of installation, even if plugin is already installed                                                                                              No                 No     No
-========  ========  ================================================================================================================================================================  ========  =======  =====  =========
+--username  -u        Name of user used during installation script (among other things to set plugin admin rights)                                                                      Yes                No     No
+--force     -f        Force execution of installation, even if plugin is already installed                                                                                              No                 No     No
+==========  ========  ================================================================================================================================================================  ========  =======  =====  =========
 
 Usage
 *****
@@ -673,11 +673,11 @@ There are no arguments for this command
 
 Options:
 
-====  ========  ===========================================================================  ========  =======  =====  =========
-Name  Shortcut  Description                                                                  Required  Default  Array  Negatable
-----  --------  ---------------------------------------------------------------------------  --------  -------  -----  ---------
-all   a         Process rule for all software, even those having already a defined category  No                 No     No
-====  ========  ===========================================================================  ========  =======  =====  =========
+=====  ========  ===========================================================================  ========  =======  =====  =========
+Name   Shortcut  Description                                                                  Required  Default  Array  Negatable
+-----  --------  ---------------------------------------------------------------------------  --------  -------  -----  ---------
+--all  -a        Process rule for all software, even those having already a defined category  No                 No     No
+=====  ========  ===========================================================================  ========  =======  =====  =========
 
 
 glpi:rules:replay_dictionnary_rules
@@ -697,13 +697,13 @@ There are no arguments for this command
 
 Options:
 
-===============  ========  ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  ========  =======  =====  =========
-Name             Shortcut  Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Required  Default  Array  Negatable
----------------  --------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-dictionnary      d         Dictionnary to use. Possible values are: CableType, ComputerModel, ComputerType, DatabaseInstanceType, Glpi\SocketModel, ImageFormat, ImageResolution, Manufacturer, MonitorModel, MonitorType, NetworkEquipmentModel, NetworkEquipmentType, OperatingSystem, OperatingSystemArchitecture, OperatingSystemEdition, OperatingSystemKernel, OperatingSystemKernelVersion, OperatingSystemServicePack, OperatingSystemVersion, PeripheralModel, PeripheralType, PhoneModel, PhoneType, Printer, PrinterModel, PrinterType, Software  Yes                No     No
-manufacturer-id  m         If option is set, only items having given manufacturer ID will be processed.
+=================  ========  ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  ========  =======  =====  =========
+Name               Shortcut  Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Required  Default  Array  Negatable
+-----------------  --------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--dictionnary      -d        Dictionnary to use. Possible values are: CableType, ComputerModel, ComputerType, DatabaseInstanceType, Glpi\SocketModel, ImageFormat, ImageResolution, Manufacturer, MonitorModel, MonitorType, NetworkEquipmentModel, NetworkEquipmentType, OperatingSystem, OperatingSystemArchitecture, OperatingSystemEdition, OperatingSystemKernel, OperatingSystemKernelVersion, OperatingSystemServicePack, OperatingSystemVersion, PeripheralModel, PeripheralType, PhoneModel, PhoneType, Printer, PrinterModel, PrinterType, Software  Yes                No     No
+--manufacturer-id  -m        If option is set, only items having given manufacturer ID will be processed.
 Currently only available for Software dictionnary.                                                                                                                                                                                                                                                                                                                                                                                                   Yes                No     No
-===============  ========  ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  ========  =======  =====  =========
+=================  ========  ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  ========  =======  =====  =========
 
 
 glpi:security:change_key
@@ -762,13 +762,13 @@ There are no arguments for this command
 
 Options:
 
-=======  ========  ===================================================================================================================================  ========  =======  =====  =========
-Name     Shortcut  Description                                                                                                                          Required  Default  Array  Negatable
--------  --------  -----------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-format   f         Output format [plain or json]                                                                                                        No        plain    No     Yes
-private  p         Status information publicity. Private status information may contain potentially sensitive information such as version information.  No                 No     No
-service  s         The service to check or all                                                                                                          No        all      No     Yes
-=======  ========  ===================================================================================================================================  ========  =======  =====  =========
+=========  ========  ===================================================================================================================================  ========  =======  =====  =========
+Name       Shortcut  Description                                                                                                                          Required  Default  Array  Negatable
+---------  --------  -----------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--format   -f        Output format [plain or json]                                                                                                        No        plain    No     Yes
+--private  -p        Status information publicity. Private status information may contain potentially sensitive information such as version information.  No                 No     No
+--service  -s        The service to check or all                                                                                                          No        all      No     Yes
+=========  ========  ===================================================================================================================================  ========  =======  =====  =========
 
 
 glpi:task:unlock
@@ -788,14 +788,14 @@ There are no arguments for this command
 
 Options:
 
-=====  ========  ======================================================================================================  ========  =======  =====  =========
-Name   Shortcut  Description                                                                                             Required  Default  Array  Negatable
------  --------  ------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
-all    a         Unlock all tasks                                                                                        No                 No     No
-cycle  c         Execution time (in cycles) from which the task is considered as stuck (delay = task frequency * cycle)  No                 No     Yes
-delay  d         Execution time (in seconds) from which the task is considered as stuck (default: 1800)                  No                 No     Yes
-task   t         Itemtype::name of task to unlock (e.g: "MailCollector::mailgate")                                       No        []       Yes    Yes
-=====  ========  ======================================================================================================  ========  =======  =====  =========
+=======  ========  ======================================================================================================  ========  =======  =====  =========
+Name     Shortcut  Description                                                                                             Required  Default  Array  Negatable
+-------  --------  ------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--all    -a        Unlock all tasks                                                                                        No                 No     No
+--cycle  -c        Execution time (in cycles) from which the task is considered as stuck (delay = task frequency * cycle)  No                 No     Yes
+--delay  -d        Execution time (in seconds) from which the task is considered as stuck (default: 1800)                  No                 No     Yes
+--task   -t        Itemtype::name of task to unlock (e.g: "MailCollector::mailgate")                                       No        []       Yes    Yes
+=======  ========  ======================================================================================================  ========  =======  =====  =========
 
 
 glpi:tools:check_database_keys
@@ -815,12 +815,12 @@ There are no arguments for this command
 
 Options:
 
-====================  ========  ====================  ========  =======  =====  =========
-Name                  Shortcut  Description           Required  Default  Array  Negatable
---------------------  --------  --------------------  --------  -------  -----  ---------
-detect-misnamed-keys            Detect misnamed keys  No                 No     No
-detect-useless-keys             Detect misnamed keys  No                 No     No
-====================  ========  ====================  ========  =======  =====  =========
+======================  ========  ====================  ========  =======  =====  =========
+Name                    Shortcut  Description           Required  Default  Array  Negatable
+----------------------  --------  --------------------  --------  -------  -----  ---------
+--detect-misnamed-keys            Detect misnamed keys  No                 No     No
+--detect-useless-keys             Detect misnamed keys  No                 No     No
+======================  ========  ====================  ========  =======  =====  =========
 
 
 glpi:tools:check_database_schema_consistency
@@ -853,10 +853,10 @@ There are no arguments for this command
 
 Options:
 
-=======  ========  =====================================================  ========  =======  =====  =========
-Name     Shortcut  Description                                            Required  Default  Array  Negatable
--------  --------  -----------------------------------------------------  --------  -------  -----  ---------
-dry-run            Simulate the command without actually delete anything  No                 No     No
-=======  ========  =====================================================  ========  =======  =====  =========
+=========  ========  =====================================================  ========  =======  =====  =========
+Name       Shortcut  Description                                            Required  Default  Array  Negatable
+---------  --------  -----------------------------------------------------  --------  -------  -----  ---------
+--dry-run            Simulate the command without actually delete anything  No                 No     No
+=========  ========  =====================================================  ========  =======  =====  =========
 
 
