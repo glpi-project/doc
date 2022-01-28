@@ -70,7 +70,7 @@ Otherwise, the available updates are listed in the action's log.
 checkdbreplicate (DBconnection)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Checks the status of all database replicates including that it is reachable from GLPI and that it is in sync with the master database.
+Checks the status of all database replicates including that it is reachable from GLPI and that it is in sync with the main database.
 If you have notifications enabled, you can receive a notification regarding any issues with the replicates.
 Otherwise, the issues are listed in the action's log.
 
