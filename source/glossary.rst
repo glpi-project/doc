@@ -260,7 +260,7 @@ Glossary
       Character string (often called pattern) that describes a set of accepted strings according to a well-defined syntax.
 
    Replicate (MySQL)
-      MySQL database used by GLPI if main database (`master`) is not available.
+      MySQL database used by GLPI if main database is not available.
 
    Report
       Document that sums up GLPI data.
