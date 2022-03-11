@@ -61,7 +61,7 @@ Assets
 ~~~~~~
 The 7 standard permissions described above apply to the elements of tab **Assets**.
 
-.. figure:: ../images/parc.png
+.. figure:: ../images/assets.png
    :alt: Permissions on assets
    :align: center
 
@@ -89,7 +89,7 @@ Management
 ~~~~~~~~~~
 The 7 standard permissions described above apply to the elements of tab **Management**.
 
-.. figure:: ../images/gestion.png
+.. figure:: ../images/management.png
    :alt: Permissions on management
    :align: center
 

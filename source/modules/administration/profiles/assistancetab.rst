@@ -58,11 +58,11 @@ The *Validation* tab will only appear in the ticket if you have one of the valid
 Associations permissions
 ++++++++++++++++++++++++
 
-.. figure:: ../images/associationsPO.png
+.. figure:: ../images/associations.png
    :alt: Associations permissions
    :align: center
 
-   Associations permissions   
+   Associations permissions
 
 * **Link with items for the creation of tickets**: 
   * **My Devices**: assets whose type is authorized and for which I am the user;
@@ -111,7 +111,7 @@ Tickets permissions
 Followups permissions
 +++++++++++++++++++++
 
-.. figure:: ../images/suivisTaches.png
+.. figure:: ../images/followups_and_tasks.png
    :alt: Followups permissions
    :align: center
 
@@ -139,11 +139,17 @@ Tasks permissions
 Planning permissions
 ++++++++++++++++++++
 
-.. figure:: ../images/visibilite.png
+.. figure:: ../images/planning.png
    :alt: Planning permissions
    :align: center
 
    Planning permissions
+
+.. figure:: ../images/planning_visibility.png
+   :alt: Planning visibility permissions
+   :align: center
+
+   Planning visibility permissions
 
 * **See personal planning**: only see my planning data.
 
@@ -156,7 +162,7 @@ Depending on the permissions of the profile, you can see the notes published in 
 Problems permissions
 ++++++++++++++++++++
 
-.. figure:: ../images/problemes.png
+.. figure:: ../images/problems.png
    :alt: image
 
 * **See (author)**: view problems for which I am a requester, or a member of the requesting group, or an observer, or a member of the observer group, or the assigned technician, or member of the assigned group.
@@ -173,7 +179,7 @@ Problems permissions
 Changes permissions
 +++++++++++++++++++
 
-.. figure:: ../images/changements.png
+.. figure:: ../images/changes.png
    :alt: Changes permissions
    :align: center
 

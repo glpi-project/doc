@@ -67,10 +67,10 @@ This will open a modal window allowing you to filter, via a search field, all th
 
 In this window, additional shortcuts are available:
 
-* ``🡇`` and ``🡅`` in order to navigate through the results
+* ``↑`` and ``↓`` in order to navigate through the results
 * ``Enter`` to change the active glpi page on the selected result
 * ``Esc`` to close the window.
 
-.. image:: images/fuzzyglpi.gif
+.. image:: images/fuzzyglpi.png
    :alt: Navigation "Fuzzy"
    :align: center
