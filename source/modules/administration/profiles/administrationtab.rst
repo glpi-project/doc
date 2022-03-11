@@ -17,7 +17,7 @@ The 7 standard permissions will not be listed (see :doc:`Permissions description
 
    For example, profiles are defined for all entities; on the other hand, business rules may vary from one entity to another.
 
-.. figure:: ../images/legendedroits.png
+.. figure:: ../images/legend.png
    :alt: Permissions zones
    :align: center
 
@@ -26,7 +26,7 @@ The 7 standard permissions will not be listed (see :doc:`Permissions description
 User permissions
 ~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/admin.png
+.. figure:: ../images/administration.png
    :alt: User permissions
    :align: center
 
@@ -55,7 +55,7 @@ Entity permissions
 Business rules for tickets (entity) permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/regles.png
+.. figure:: ../images/rules.png
    :alt: Rules permissions
    :align: center
 
@@ -65,7 +65,7 @@ Business rules for tickets (entity) permissions
 
 The elements of the *Dictionaries* part fall within the 7 standard permissions.
 
-.. figure:: ../images/dico.png
+.. figure:: ../images/dictionaries.png
    :alt: Dictionaries permissions
    :align: center
 

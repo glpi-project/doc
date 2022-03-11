@@ -9,28 +9,17 @@ Setup permissions
 
 The 7 standard permissions will not be listed (see :doc:`Permissions description </modules/administration/profiles/profiles>`).
 
-Search Result Display permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All Configuration Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/config.png
-   :alt: Search Result Display permissions
+   :alt: All Configuration Permissions
    :align: center
 
-   Search Result Display permissions
+   All Configuration Permissions
 
-This permissions allows to parameterize display via |options_search| in GLPI search engine..
+The **Search result display** permission allows to configure the displayed columns in the GLPI search engine..
 
 * **User Display**: display a *Personal view* tab allowing display customization for the user, the customization being done object by object.
 
 * **Default Display**: allows to modify standard display that will apply to each user not having a personal view.
-
-Entity Dropdowns permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. figure:: ../images/intitules.png
-   :alt: Entity Dropdowns permissions
-   :align: center
-
-   Entity Dropdowns permissions
-
-The elements of *Entity Dropdowns permissions* fall within the 7 standard permissions. These elements allow to refine setup at entity level and can therefore be applied to entity administrator.

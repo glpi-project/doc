@@ -23,7 +23,7 @@ Standard Interface
 
 Common fields with the simplified interface will not be detailed.
 
-.. figure:: ../images/outils.png
+.. figure:: ../images/tools_standard.png
    :alt: Tools permissions
    :align: center
 
@@ -39,7 +39,7 @@ Knowledge Base Permissions
 Projects Permissions
 ++++++++++++++++++++
 
-.. figure:: ../images/projets.png
+.. figure:: ../images/projects.png
    :alt: Projects permissions
    :align: center
 

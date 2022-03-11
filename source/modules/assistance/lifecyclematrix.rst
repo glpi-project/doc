@@ -10,7 +10,7 @@ Ticket life cycle matrix
 
 See :doc:`Ticket management rules </modules/assistance/tickets/ticketmanagement>`.
 
-.. image:: images/CycleVieTicket.png
+.. image:: images/lifecycle_tickets_standard.png
    :alt: The life cycle matrix of a problem (standard interface)
    :align: center
 
@@ -29,7 +29,7 @@ Problem life cycle matrix
 
 See :doc:`Ticket management rules </modules/assistance/problems>`.
 
-.. image:: images/CycleVieProbleme.png
+.. image:: images/lifecycle_problems.png
    :alt: The life cycle matrix of a problem
    :align: center
 
@@ -40,7 +40,7 @@ Change life cycle matrix
 
 See :doc:`Ticket management rules </modules/assistance/changes>`.
 
-.. image:: images/CycleVieChange.png
+.. image:: images/lifecycle_changes.png
    :alt: The life cycle matrix of a change
    :align: center
 

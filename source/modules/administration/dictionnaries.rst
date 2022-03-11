@@ -48,7 +48,7 @@ This dictionary allows also to redirect the creation of a software or of a set o
 
 As an example, following image describes grouping Mozilla software. Criteria are accumulated with AND. 
 
-.. figure:: images/critereMozilla.png
+.. figure:: images/criteriaMozilla.png
    :alt: Criteria for grouping Mozilla software
    :align: center
 
