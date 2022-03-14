@@ -221,15 +221,17 @@ There are no arguments for this command
 
 Options:
 
-=====================================  ========  ========================================================================  ========  =======  =====  =========
-Name                                   Shortcut  Description                                                               Required  Default  Array  Negatable
--------------------------------------  --------  ------------------------------------------------------------------------  --------  -------  -----  ---------
---strict                                         Strict comparison of definitions                                          No                 No     No
---ignore-innodb-migration                        Do not check tokens related to migration from "MyISAM" to "InnoDB".       No                 No     No
---ignore-timestamps-migration                    Do not check tokens related to migration from "datetime" to "timestamp".  No                 No     No
---ignore-utf8mb4-migration                       Do not check tokens related to migration from "utf8" to "utf8mb4".        No                 No     No
---ignore-dynamic-row-format-migration            Do not check tokens related to "DYNAMIC" row format migration.            No                 No     No
-=====================================  ========  ========================================================================  ========  =======  =====  =========
+====================================  ========  ===========================================================================================  ========  =======  =====  =========
+Name                                  Shortcut  Description                                                                                  Required  Default  Array  Negatable
+------------------------------------  --------  -------------------------------------------------------------------------------------------  --------  -------  -----  ---------
+--strict                                        Strict comparison of definitions                                                             No                 No     No
+--check-all-migrations                          Check tokens related to all databases migrations.                                            No                 No     No
+--check-innodb-migration                        Check tokens related to migration from "MyISAM" to "InnoDB".                                 No                 No     No
+--check-timestamps-migration                    Check tokens related to migration from "datetime" to "timestamp".                            No                 No     No
+--check-utf8mb4-migration                       Check tokens related to migration from "utf8" to "utf8mb4".                                  No                 No     No
+--check-dynamic-row-format-migration            Check tokens related to "DYNAMIC" row format migration.                                      No                 No     No
+--check-unsigned-keys-migration                 Check tokens related to migration from signed to unsigned integers in primary/foreign keys.  No                 No     No
+====================================  ========  ===========================================================================================  ========  =======  =====  =========
 
 
 glpi:database:configure
@@ -249,17 +251,17 @@ There are no arguments for this command
 
 Options:
 
-==========================  ========  =============================================================================  ========  =========  =====  =========
-Name                        Shortcut  Description                                                                    Required  Default    Array  Negatable
---------------------------  --------  -----------------------------------------------------------------------------  --------  ---------  -----  ---------
---db-host                   -H        Database host                                                                  No        localhost  No     Yes
---db-name                   -d        Database name                                                                  Yes                  No     No
---db-password               -p        Database password (will be prompted for value if option passed without value)  No                   No     Yes
---db-port                   -P        Database port                                                                  No                   No     Yes
---db-user                   -u        Database user                                                                  Yes                  No     No
---reconfigure               -r        Reconfigure database, override configuration file if it already exists         No                   No     No
---log-deprecation-warnings            Indicated if deprecation warnings sent by database server should be logged     No                   No     No
-==========================  ========  =============================================================================  ========  =========  =====  =========
+======================  ========  ============================================================================================  ========  =========  =====  =========
+Name                    Shortcut  Description                                                                                   Required  Default    Array  Negatable
+----------------------  --------  --------------------------------------------------------------------------------------------  --------  ---------  -----  ---------
+--db-host               -H        Database host                                                                                 No        localhost  No     Yes
+--db-name               -d        Database name                                                                                 Yes                  No     No
+--db-password           -p        Database password (will be prompted for value if option passed without value)                 No                   No     Yes
+--db-port               -P        Database port                                                                                 No                   No     Yes
+--db-user               -u        Database user                                                                                 Yes                  No     No
+--reconfigure           -r        Reconfigure database, override configuration file if it already exists                        No                   No     No
+--strict-configuration            Use strict configuration, to enforce warnings triggering on deprecated or discouraged usages  No                   No     No
+======================  ========  ============================================================================================  ========  =========  =====  =========
 
 
 glpi:database:enable_timezones
@@ -292,21 +294,21 @@ There are no arguments for this command
 
 Options:
 
-==========================  ========  ===========================================================================================  ========  =========  =====  =========
-Name                        Shortcut  Description                                                                                  Required  Default    Array  Negatable
---------------------------  --------  -------------------------------------------------------------------------------------------  --------  ---------  -----  ---------
---db-host                   -H        Database host                                                                                No        localhost  No     Yes
---db-name                   -d        Database name                                                                                Yes                  No     No
---db-password               -p        Database password (will be prompted for value if option passed without value)                No                   No     Yes
---db-port                   -P        Database port                                                                                No                   No     Yes
---db-user                   -u        Database user                                                                                Yes                  No     No
---reconfigure               -r        Reconfigure database, override configuration file if it already exists                       No                   No     No
---log-deprecation-warnings            Indicated if deprecation warnings sent by database server should be logged                   No                   No     No
---default-language          -L        Default language of GLPI                                                                     No        en_GB      No     Yes
---force                     -f        Force execution of installation, overriding existing database                                No                   No     No
---enable-telemetry                    Allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)     No                   No     No
---no-telemetry                        Disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)  No                   No     No
-==========================  ========  ===========================================================================================  ========  =========  =====  =========
+======================  ========  ============================================================================================  ========  =========  =====  =========
+Name                    Shortcut  Description                                                                                   Required  Default    Array  Negatable
+----------------------  --------  --------------------------------------------------------------------------------------------  --------  ---------  -----  ---------
+--db-host               -H        Database host                                                                                 No        localhost  No     Yes
+--db-name               -d        Database name                                                                                 Yes                  No     No
+--db-password           -p        Database password (will be prompted for value if option passed without value)                 No                   No     Yes
+--db-port               -P        Database port                                                                                 No                   No     Yes
+--db-user               -u        Database user                                                                                 Yes                  No     No
+--reconfigure           -r        Reconfigure database, override configuration file if it already exists                        No                   No     No
+--strict-configuration            Use strict configuration, to enforce warnings triggering on deprecated or discouraged usages  No                   No     No
+--default-language      -L        Default language of GLPI                                                                      No        en_GB      No     Yes
+--force                 -f        Force execution of installation, overriding existing database                                 No                   No     No
+--enable-telemetry                Allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)      No                   No     No
+--no-telemetry                    Disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)   No                   No     No
+======================  ========  ============================================================================================  ========  =========  =====  =========
 
 
 glpi:database:update
@@ -451,6 +453,30 @@ Set missing `date_creation` and `date_mod` values using log entries.
 
 
 
+glpi:migration:databases_plugin_to_core
+---------------------------------------
+
+Aliases: `None`
+
+Description
+***********
+
+Migrate Databases plugin data into GLPI core tables
+
+Arguments/Options
+*****************
+
+There are no arguments for this command
+
+Options:
+
+=============  ========  ============================  ========  =======  =====  =========
+Name           Shortcut  Description                   Required  Default  Array  Negatable
+-------------  --------  ----------------------------  --------  -------  -----  ---------
+--skip-errors  -s        Do not exit on import errors  No                 No     No
+=============  ========  ============================  ========  =======  =====  =========
+
+
 glpi:migration:domains_plugin_to_core
 -------------------------------------
 
@@ -468,12 +494,11 @@ There are no arguments for this command
 
 Options:
 
-================  ========  =======================================================================================================================  ========  =======  =====  =========
-Name              Shortcut  Description                                                                                                              Required  Default  Array  Negatable
-----------------  --------  -----------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
---update-plugin   -u        Run Domains plugin update (you need version 2.1.0 files to do this)                                                      No                 No     No
---without-plugin  -w        Enable migration without plugin files (we cannot validate that plugin data are compatible with supported 2.1.0 version)  No                 No     No
-================  ========  =======================================================================================================================  ========  =======  =====  =========
+=============  ========  ============================  ========  =======  =====  =========
+Name           Shortcut  Description                   Required  Default  Array  Negatable
+-------------  --------  ----------------------------  --------  -------  -----  ---------
+--skip-errors  -s        Do not exit on import errors  No                 No     No
+=============  ========  ============================  ========  =======  =====  =========
 
 
 glpi:migration:dynamic_row_format
@@ -539,6 +564,19 @@ Description
 ***********
 
 Convert "datetime" fields to "timestamp" to use timezones.
+
+
+
+
+glpi:migration:unsigned_keys
+----------------------------
+
+Aliases: `None`
+
+Description
+***********
+
+Migrate primary/foreign keys to unsigned integers
 
 
 
