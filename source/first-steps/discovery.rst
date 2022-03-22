@@ -9,9 +9,8 @@ The GLPI interface is made up of different areas grouping together the applicati
    :alt: General interface of GLPI
    :align: center
 
-#. The user menu allows you to manage your preferences, access help, change the current language, and disconnect.
+#. The user menu allows you to manage your preferences, access help, change the current language, change your current profile and entity, and disconnect.
 #. The main menu allows you to navigate through the different modules.
 #. The breadcrumb trail allows you to locate the context of use of the main work area.
-#. The entity selector (in multi-entity mode).
 #. The main working area is the privileged space for interaction with the application.
 #. The search box allows you to perform a global search at any time.
