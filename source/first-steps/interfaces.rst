@@ -49,6 +49,7 @@ It is divided into 5 views:
    Two security messages may be displayed when you log in for the first time after completing the installation procedure.
 
    The first asks you to change the passwords of the accounts created by default in GLPI, the second asks you to delete the directory ``glpi/install``.
+   There may also be one or more other messages here related to security or needed database schema changes
 
    .. image:: images/security-messages.png
       :alt: Security messages
