@@ -18,7 +18,7 @@ In example above, a `New` ticket will never be put to `Waiting`, this status bei
 
 Furthermore, a requester will not have access to solution validation form, because a solved ticket for which solution has been approved becomes closed, which is not authorized by the example.
 
-.. image:: images/CycleVieTicket-postonly.png
+.. image:: images/lifecycle_tickets_simple.png
    :alt: The life cycle matrix of a problem (simplified interface)
    :align: center
 

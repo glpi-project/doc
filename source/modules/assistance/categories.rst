@@ -6,15 +6,15 @@ A category can be made hierarchical:
 * by selecting a parent category using in first tab the field `As child of`
 * by adding a new child category in tab `ITIL Categories`
 
-Ticket categories
------------------
+ITIL categories
+---------------
 
-Ticket categories can be managed in dropdown setup *Setup > Dropdowns > Ticket Categories*.
+ITIL categories can be managed in dropdown setup *Setup > Dropdowns > Ticket Categories*.
 
-Ticket categories are also used by changes and problems.
+ITIL categories are used by Tickets, Changes and Problems.
 
-.. image:: images/categorieTicket.png
-   :alt: Ticket category
+.. image:: images/itilcategory.png
+   :alt: ITIL category
    :align: center
 
 A person in charge and/or a technical group can be added to this category and will then be used for notifications.
