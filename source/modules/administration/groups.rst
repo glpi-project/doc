@@ -1,8 +1,6 @@
 Groups
 ======
 
-.. |addUserLdap| image:: images/addUserLdap.png
-
 Groups tab allows to add, modify, delete, search, export groups.
 
 Groups can be defined in a hierarchical structure in order to ease navigation and search.
@@ -46,7 +44,7 @@ Assigning a user o a group is either static and done using the GLPI interface, o
 
 A group is attached to the entity in which it is created and can then be visible in sub-entities.
 
-From the list of groups, a group can be imported from a LDAP directory via |addUserLdap|  if external authentication is used and the "Auth and sync update" authorization is granted in profile. The assignment of users to groups will be automatic, see :doc:`Profiles </modules/administration/profiles/profiles>`. If several directories are configured, the choice between directories is proposed, otherwise the search form is directly accessible.
+From the list of groups, a group can be imported from a LDAP directory via the *LDAP directory link* button if external authentication is used and the "Auth and sync update" authorization is granted in profile. The assignment of users to groups will be automatic, see :doc:`Profiles </modules/administration/profiles/profiles>`. If several directories are configured, the choice between directories is proposed, otherwise the search form is directly accessible.
 
 Depending on how you search for groups (see: doc: `Authenticating users from LDAP directories </modules/configuration/authentification/ldap>`), a **Search filter in groups** and/or a **User search filter** appear: these allow to refine the list to be imported. If GLPI is used in multi-entities, it is necessary to select the destination entity of the group as well as its visibility in the sub-entities.
 
@@ -89,7 +87,7 @@ This tab allows to add a user to this group by defining whether the added user i
 Notifications
 ~~~~~~~~~~~~~
 
-.. figure:: images/notifGroupe.png
+.. figure:: images/notifGroup.png
    :alt: List of notifications for which destination is group or group supervisor
    :align: center
 

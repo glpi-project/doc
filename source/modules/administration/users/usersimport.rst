@@ -2,16 +2,12 @@ Import users
 ============
 
 .. |addUserAll| image:: ../images/addUserAll.png
-.. |addUser| image:: ../images/addUser.png
-.. |menu_add| image:: /image/menu_add.png
-.. |addUserExt| image:: ../images/addUserExt.png
-.. |addUserLdap| image:: ../images/addUserLdap.png
 
 From users list, three options are available for adding a user |addUserAll|:
 
-   * |addUser| : opens a user creation form, similar to button |menu_add|; requires profile to be granted user creation authorization 
-   * |addUserExt| : import users from external source
-   * |addUserLdap| : import and synchronize users from LDAP directory
+   * **Add user**: Opens a user creation form, similar to the `Add` button; requires profile to be granted user creation authorization 
+   * **...From an external source**: Import users from external source
+   * **LDAP directory link**: Import and synchronize users from LDAP directory
 
 Import users from external source
 ---------------------------------

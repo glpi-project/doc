@@ -10,6 +10,6 @@ The logs page displays type of modified information (computer, reservation, tick
    * Log level can be parameterized in field **Log Level** of tab **System** of general configuration.
    * Log retention period can be parameterized in automatic actions.
 
-.. figure:: images/journaux.png
+.. figure:: images/logs.png
    :alt: A log display
    :align: center

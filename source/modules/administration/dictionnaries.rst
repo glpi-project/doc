@@ -1,9 +1,6 @@
 Dictionaries
 =============
 
-.. |import-rule| image:: images/importrule.png
-.. |playrule| image:: images/playrule.png
-
 Dictionary's allow to modify data already existing in GLPI or new data in order to group redundant data.
 
 Dictionaries are based on GLPI :doc:`rules engine </modules/administration/rules/rulesmanagement>` and are available for some types of items (software, suppliers, drop-downs). The rules associated with a dictionary will modify values that are either manually inserted or automatically inserted via an inventory tool or via plugins (for instance CSV file injector).
@@ -11,7 +8,7 @@ Dictionaries are based on GLPI :doc:`rules engine </modules/administration/rules
 Import, export and duplication
 ------------------------------
 
-Export, import and duplication are available for dictionary's |import-rule|. These operations can be realized globally from dictionary's main page or by batch using mass actions from dictionary's search results. These functionalities are useful for instance when migrating rules from a pre-production environment to a production one.
+Export, import and duplication are available for dictionarys. These operations can be realized globally from dictionary's main page or by batch using mass actions from dictionary's search results. These functionalities are useful for instance when migrating rules from a pre-production environment to a production one.
 
 .. note:: export or import use a XML file format
 
@@ -24,7 +21,7 @@ A dictionary works the following way:
 2. rules engine plays all rules applying to this type of data and stops on first matching rule;
 3. modified data is returned by the dictionary and inserted into database.
 
-Button |playrule| (under the list of rules of the dictionary) allows to replay the rules on data already existing in database.
+The *Replay the dictionary rules* button (under the list of rules of the dictionary) allows to replay the rules on data already existing in database.
 
 .. warning:: if database is big, the parameter *memory\_limit* in PHP configuration file must be carefully adjusted: processing by a dictionary can be heavy.
 
@@ -64,7 +61,7 @@ The following image describes associated action for grouping Mozilla software.
 
 The following image presents result of grouping Mozilla software: software are grouped by type (Mozilla Thunderbird, Mozilla Firefox...) and versions are grouped by type.
 
-.. figure:: images/resultatMozilla.png
+.. figure:: images/resultMozilla.png
    :alt: Result of grouping Mozilla software
    :align: center
 
@@ -104,7 +101,7 @@ Possible criteria are manufacturer and item model.
 
    Often inventory tools extract model technical number, which is irrelevant for user. This example allows to extract commercial model name while keeping technical number which can be required in case of requesting a provider intervention.
 
-   .. figure:: images/critereS42.png
+   .. figure:: images/criteriaS42.png
       :alt: Example of dictionary for computer model: rule
       :align: center
 
@@ -125,7 +122,7 @@ Only possible criteria is item type.
 
 .. topic:: Example: harmonizing peripheral names
 
-   .. figure:: images/critereKbd.png
+   .. figure:: images/criteriaKbd.png
       :alt: Example of dictionary on peripheral type: rule
       :align: center
 
@@ -137,7 +134,7 @@ Only possible criteria is item type.
 
    Example of dictionary on peripheral type: action
 
-   The obtained result will be for instance: Clavier
+   The obtained result will be for instance: Keyboard
 
 Operating systems
 +++++++++++++++++

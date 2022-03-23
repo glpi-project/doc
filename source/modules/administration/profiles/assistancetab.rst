@@ -70,15 +70,15 @@ Associations permissions
 
 * **Associable items to a ticket**: types of asset on which a ticket can be associated. To add a type, just click in the white area and choose the authorized type or *All* if you want to authorize all types. To delete a type, simply click on the cross to the left of its name or on *None* if you do not want to allow any associated element
 
-* **Default Tickets template**: default template that will apply for profile.
+* **Default ITIL templates**: default templates for Tickets, Changes and Problems that will apply for profile.
 
   .. warning:: the template being applied to the profile which is an element of the general configuration, the list contains only the recursive templates of the root entity.
 
-  .. figure:: ../images/assistance.png
-     :alt: Default Tickets template 
+  .. figure:: ../images/assistance_general.png
+     :alt: Default ITIL templates
      :align: center
 
-     Default Tickets template 
+     Default ITIL templates
 
 * **See hardware of my groups**: asset whose type is authorized and for which I am a member of the group.
 
