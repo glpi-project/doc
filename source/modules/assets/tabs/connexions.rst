@@ -13,7 +13,7 @@ The connection can be made toward one or several elements of type
 display, printer, peripheral or phone. For each type of connected
 object, its name, serial number and inventory number are displayed.
 
-.. image:: /modules/assets/images/connexions_computer_list.png
+.. image:: /modules/assets/images/connections_computer_list.png
    :alt: List of connections
    :align: center
 
@@ -24,7 +24,7 @@ From an element other than a computer
 
 To add a connection, select the computer in the drop-down list presented at top of the table.
 
-.. image:: /modules/assets/images/connexions_monitor_list.png
+.. image:: /modules/assets/images/connections_monitor_list.png
    :alt: List of connections
    :align: center
 
