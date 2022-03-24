@@ -6,7 +6,7 @@ Introduction
 
 For some object types in GLPI, it is possible to create new objects (computers for example) using predefined templates. A template defines a creation model in which some fields are either already fixed or computed using a function, for example in the case of a computer a function which would compute the inventory number.
 
-Template management is accessible via the button |btn_template| located in the menu bar.
+Template management is accessible via the button *Templates* located in the menu bar.
 
 Assets
 ^^^^^^
@@ -85,7 +85,5 @@ When creating a ticket, the used template is, with priority order:
    * The template is used to create :ref:`recurrent tickets <recurrent-tickets>`.
 
 
-.. |btn_template| image:: images/templates_button.png
-                :alt: template management
 .. |autofill_mark| image:: images/autofill_mark.png
                  :alt: autofill marker
