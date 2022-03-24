@@ -46,7 +46,7 @@ Costs
 
 This tab allows to define a cost related to the contract and linked to a GLPI budget: the cost of the contract will be imputed to this budget.
 
-.. image:: images/cost-contract.png
+.. image:: images/cost.png
    :alt: A cost associated to a contract
    :align: center
 

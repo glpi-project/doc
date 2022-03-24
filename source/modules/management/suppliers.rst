@@ -35,38 +35,15 @@ Supplier management allows to:
 
 .. include:: ../tabs/contracts.rst
 
-
-Associated elements
-~~~~~~~~~~~~~~~~~~~
-
-The tab `Items` in a supplier form allows only to display associated assets. Associating an asset with a supplier is done from tab **Management** of this asset.
-
-.. image:: images/elements-suppliers.png
-   :alt: Assets associated with a supplier
-   :align: center
+.. include:: ../tabs/elements.rst
 
 .. include:: ../tabs/documents.rst
 
 .. include:: ../tabs/tickets.rst
 
-Problems
-~~~~~~~~
+.. include:: ../tabs/problems.rst
 
-This tab allows to display the **Problems** associated with the supplier, i.e. all the problems for which the supplier is assigned in the field **Assigned to**.
-
-.. image:: images/problems-suppliers.png
-   :alt: Problems associated with a supplier
-   :align: center
-
-Changes
-~~~~~~~
-
-This tab allows to display the **Changes** associated with the supplier, i.e. all the changes for which the supplier is assigned in the field **Assigned to**.
-
-
-.. image:: images/changes-suppliers.png
-   :alt: Changes associated with a supplier
-   :align: center
+.. include:: ../tabs/changes.rst
 
 .. include:: ../tabs/external-links.rst
 

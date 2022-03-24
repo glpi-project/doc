@@ -59,7 +59,7 @@ This tab lists all types and entities of items linked to this license.
         
    Creating a link between an asset and the license id done in tab `Softwares` of the asset.
 
-.. image:: images/resume-licenses.png
+.. image:: images/summary-licenses.png
    :alt: Summary of item types linked to the license
    :align: center
 
