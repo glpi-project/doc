@@ -1,10 +1,9 @@
 Rules
 =====
 
-.. |importrule| image:: ../images/importrule.png
 .. |testrule| image:: ../images/testrule.png
 
-Export, import |importrule| and duplication is possible for all rules. These operations can be carried out globally from the main rules page or by batch from the search engines for the various rules via massive actions. These features are interesting for example in the context of switching of rules from a pre-production environment to a production environment.
+Export, import and duplication is possible for all rules. These operations can be carried out globally from the main rules page or by batch from the search engines for the various rules via massive actions. These features are interesting for example in the context of switching of rules from a pre-production environment to a production environment.
 
 .. note:: export or import use a XML file format
 
@@ -40,7 +39,7 @@ The engine behaves differently depending on the types of rules:
 
 Rules can be disabled, for example when writing and testing new rules.
 
-.. hint:: in general, it is recommended to test the rules well before using them and to make a backup before setting up each new rule. On the main form of a rule, a |testrule| button opens an additional window that allows to see all the criteria and results of the rule.
+.. hint:: in general, it is recommended to test the rules well before using them and to make a backup before setting up each new rule. On the main form of a rule, a *Test* button opens an additional window that allows to see all the criteria and results of the rule.
 
 The different rules
 -------------------

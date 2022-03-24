@@ -10,7 +10,7 @@ The 7 standard permissions will not be listed (see :doc:`Permissions description
 Simplified Interface
 ~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/outilsPO.png
+.. figure:: ../images/toolsPO.png
    :alt: Tools permissions (simplified interface)
    :align: center
 

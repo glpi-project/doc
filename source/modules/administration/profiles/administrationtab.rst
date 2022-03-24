@@ -5,9 +5,7 @@
 Administration permissions
 --------------------------
 
-.. |addUserLdap| image:: ../images/addUserLdap.png
 .. |addUserExt| image:: ../images/addUserExt.png
-.. |checkVersion| image:: ../images/checkVersion.png
 
 The 7 standard permissions will not be listed (see :doc:`Permissions description </modules/administration/profiles/profiles>`).
 
@@ -36,14 +34,14 @@ User permissions
 
 * **Update auth & sync**:
 
-  * displays a *Synchronization* tab in the user allowing to change authentication method and force synchronization;
-  * add button |addUserLdap| before the group list;
-  * displays a *LDAP directory link* tab in the group containing the information allowing GLPI to find the group and its users in the LDAP directory.
+  * Displays a *Synchronization* tab in the user allowing to change authentication method and force synchronization;
+  * Adds a *LDAP directory link* button before the group list;
+  * Displays a *LDAP directory link* tab in the group containing the information allowing GLPI to find the group and its users in the LDAP directory.
 
 * **Add External**:
 
-  * allows the import or synchronization of a user
-  * add a button |addUserExt| before the list of users.
+  * Allows the import or synchronization of a user
+  * Adds a *...From an external source* button before the list of users
 
 Entity permissions
 ~~~~~~~~~~~~~~~~~~
