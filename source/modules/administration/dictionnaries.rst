@@ -8,7 +8,7 @@ Dictionaries are based on GLPI :doc:`rules engine </modules/administration/rules
 Import, export and duplication
 ------------------------------
 
-Export, import and duplication are available for dictionarys. These operations can be realized globally from dictionary's main page or by batch using mass actions from dictionary's search results. These functionalities are useful for instance when migrating rules from a pre-production environment to a production one.
+Export, import and duplication are available for dictionarys or rules. These operations can be realized globally from dictionary's main page or by batch using mass actions from dictionary's search results. These functionalities are useful for instance when migrating rules from a pre-production environment to a production one.
 
 .. note:: export or import use a XML file format
 
