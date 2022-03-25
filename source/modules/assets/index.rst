@@ -29,7 +29,6 @@ Available types
    computers
    displays
    softwares
-   licenses
    Network equipments <network-equipments>
    peripherals
    printers
