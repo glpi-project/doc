@@ -17,6 +17,11 @@ In a consumable form, the following information is available:
   * ...
 
 The alert threshold corresponds to the minimal value at which an alert is triggered.
+A restock threshold which represents the amount you wish to have in stock after ordering.
+
+For example, you want to have 100 HDMI cables in stock but it isn't worth ordering them until you have 10 or less in stock (due to bulk discounts, process overhead, etc).
+You can set your alarm threshold to 10 and your restock value to 100.
+When you receive the alarm notification, it will let you know what the restock value is and plainly say how many need to be ordered to meet that value (configurable in notification templates).
 
 .. note:: For alerts to be effective, notifications must be activated; see :ref:`notification management <configure_notifications>`.
 
