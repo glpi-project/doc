@@ -20,3 +20,5 @@ GLPI assistance module is compliant with ITIL best practises guide and integrate
    statistics
    categories
 
+Tickets, Changes and Problems can be viewed globally in a Kanban view.
+For more information about the Kanban feature, please refer to the :doc:`full documentation </modules/overview/kanban>`.
