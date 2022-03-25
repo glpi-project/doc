@@ -34,7 +34,7 @@ The different tabs
 
 A first table lists the new or unused cartridges, the second table lists used cartridges.
 
-.. image:: /image/cartridge.png
+.. image:: images/cartridge.png
    :alt: A cartridge form
    :align: center
 

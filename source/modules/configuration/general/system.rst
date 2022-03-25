@@ -3,7 +3,7 @@ System
 
 This tab allows you to view a summary of information about the web server, configure the proxy information, and to define the logging information to be recorded.
 
-.. image:: /image/systemConfig.png
+.. image:: ../images/system_config.png
 
 -  **Logging level**
    Each internal event of the application is recorded in the logs which are visible in `Administration > Logs <../../administration/logs.html>`_.
@@ -21,18 +21,18 @@ This tab allows you to view a summary of information about the web server, confi
    Enable to usage of one or more replica databases.
    The replicas can be further configured in the `SQL replicas` tab after this option is enabled.
 
-.. image:: /image/systemMaintenance.png
+.. image:: ../images/system_maintenance.png
 
 A maintenance mode can be activated to allow a technical operation such as an update for example.
 A maintenance message is configurable and would show on the login page.
 In maintenance mode, you can still access GLPI via ``index.php?skipMaintenance=1``.
 
-.. image:: /image/systemProxy.png
+.. image:: ../images/system_proxy.png
 
 In the case GLPI sits behind a proxy, it is necessary to indicate the information to allow GLPI to access the Internet.
 This affects the checking of new versions, fetching RSS feeds, etc.
 
-.. image:: /image/systemInfo.png
+.. image:: ../images/system_info.png
 
 The following screen lists all the information of GLPI necessary to report a malfunction to the GLPI development team.
 It is preferred to click the `Copy system information` button which will add a rich-text version of the system information tables to your clipboard.

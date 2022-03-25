@@ -5,7 +5,7 @@ GLPI can be configured to use replica databases in some cases to improve perform
 
 This tab is only visible if the option has been enabled in the `system tab <system.html>`_.
 
-.. image:: /image/replicat.png
+.. image:: ../images/sql_replicas.png
    :align: center
 
 To activate the replica management, you just have to fill in the connection parameters.

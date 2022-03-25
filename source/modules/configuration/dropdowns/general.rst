@@ -36,7 +36,7 @@ You are able to filter this list by a specific item type (Computers, Monitors, e
 Sockets
 ~~~~~~~
 
-![image](docs/image/priseReseau.png)
+.. image:: ../images/sockets_location.png
 
 Lists the network sockets assigned to this location and allows to add a new one.
 In this case, when selecting a socket on a network port of a device, only the available network sockets of the device location (and child locations) are shown.

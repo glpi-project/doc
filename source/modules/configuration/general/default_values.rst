@@ -7,7 +7,7 @@ They can be overridden for each user (see `manage preferences <../../../first-st
 Personalization
 ---------------
 
-.. image:: images/default_values_personalization.png
+.. image:: ../images/default_values_personalization.png
 
 -  **Default language**
    The language to use in the GLPI interface
@@ -59,7 +59,7 @@ Personalization
 Assistance
 ----------
 
-.. image:: images/default_values_assistance.png
+.. image:: ../images/default_values_assistance.png
 
 -  **Private followups by default**
    If enabled, followups are pre-selected to be private.
@@ -90,7 +90,7 @@ Assistance
 Due date progression
 --------------------
 
-.. image:: images/default_values_duedate.png
+.. image:: ../images/default_values_duedate.png
 
 Allows to define the colors that will be applied in the progress bar of an object.
 These different states depend on the thresholds set in percent, hours or days.
@@ -98,6 +98,6 @@ These different states depend on the thresholds set in percent, hours or days.
 Dashboards
 ----------
 
-.. image:: images/default_values_dashboards.png
+.. image:: ../images/default_values_dashboards.png
 
 Configure the default dashboards for the home page (central), assistance module, assets module, and above the tickets search results list.

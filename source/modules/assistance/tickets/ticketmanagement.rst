@@ -122,7 +122,7 @@ Problems
 
 Allows to display and add problems associated with the ticket, or to create a problem from this ticket.
 
-.. image:: /image/problemeTicket.png
+.. image:: ../images/ticket_problems.png
    :alt: Creating a problem from a ticket
    :align: center
 

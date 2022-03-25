@@ -3,7 +3,7 @@ General configuration
 
 This tab permits to customize main application appearance.
 
-.. image:: images/general_configuration.png
+.. image:: ../images/general_configuration.png
 
 Description of fields
 ---------------------

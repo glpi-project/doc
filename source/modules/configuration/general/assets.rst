@@ -6,7 +6,7 @@ This tab permit to configure global parameters for inventory.
 Assets
 ------
 
-.. image:: /image/configparc.png
+.. image:: ../images/configparc.png
 
 -  **Enable the financial and administrative information by default**
    Applicable for all objects in the inventory
@@ -33,24 +33,10 @@ Assets
    Subsequently, a unitary managed equipment can be switched to global management mode.
    It is possible to restrict the type of management depending on the equipment.
 
-Automatic transfer of computers
--------------------------------
-
-.. image:: /image/configtransfert.png
-
-.. note::
-
-   This configuration option is not present if you have only one entity in your instance.
-
--  **Template for the automatic transfer of computers in another entity**
-   GLPI also allows to transfer a computer in another entity if one of the criteria used for the assignment to an entity is modified.
-   If the option Model for the automatic transfer of computers in another entity indicates an existing model, then each time a computer is updated from the inventory tool, the entity assignment rules engine will be replayed.
-   If the resulting entity is different from the current entity, the computer will be transferred to the new entity.
-
 Automatically update of the elements related to the computers
 -------------------------------------------------------------
 
-.. image:: /image/configpc.png
+.. image:: ../images/configpc.png
 
 Interfacing with an inventory tool makes it possible to take an automated inventory of the equipment.
 This interfacing is possible through the native inventory feature or a plugin.
