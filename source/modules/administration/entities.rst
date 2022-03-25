@@ -123,13 +123,24 @@ This tab is visible if *Read or Modify Entity Parameters* authorization is grant
 Assets
 ~~~~~~~~~~
 
-This tab allows to configure the different dates present in administrative and financial information. The possible automatic actions are:
+This tab allows to configure the different dates present in administrative and financial information and some other entity-level asset options. The possible automatic actions are:
 
 * filling when item gets a particular status;
 * filling by copying another date;
 * no automatic filling
 
 The option *Software creation entity* allows to redirect software creation to another entity at a higher level in the hierarchy. This functionality applies on *all* software of the entity; if redirection must be defined only for some software, the :doc:`software dictionary</modules/administration/dictionnaries>` must be used.
+
+.. image:: images/configtransfer.png
+
+-  **Model for automatic entity transfer on inventories**
+   GLPI also allows to transfer a computer in another entity if one of the criteria used for the assignment to an entity is modified.
+   If the option Model for the automatic transfer of computers in another entity indicates an existing model, then each time a computer is updated from the inventory tool, the entity assignment rules engine will be replayed.
+   If the resulting entity is different from the current entity, the computer will be transferred to the new entity.
+
+.. note::
+
+   This configuration option is not present if you have only one entity in your instance.
 
 Users
 ~~~~~

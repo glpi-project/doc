@@ -38,7 +38,7 @@ A first table lists unused consumables, a second table lists used consumables to
 
 The mass actions of this tab allows to allocate consumables (action **Give***).
 
-.. image:: /image/consumable.png
+.. image:: images/consumable.png
    :alt: A consumable form
    :align: center
 
@@ -61,13 +61,8 @@ Apart from :doc:`common actions <../overview/actions>`, some actions are specifi
 
 * :ref:`Add new consumables to a model <add-consumables-model>` ;
 * List allocated consumables:
+  The *Summary* menu button allows you to see a summary of allocated consumables
 
-  .. image:: /image/resumeConsumable.png
-     :alt: Summary of consumables
-     :align: center
-
-  Right icon allows to have a summary of allocated consumables
-
-  .. image:: /image/resumeConsumableExample.png
+  .. image:: images/consumable_summary.png
      :alt: Summary of allocated consumables
      :align: center

@@ -75,7 +75,7 @@ A message confirms the creation of the ticket which is then accessible by clicki
 Standard interface
 ^^^^^^^^^^^^^^^^^^
 
-To create a ticket, go to menu **Assistance > Ticket** then click add button |menu_add|.
+To create a ticket, go to menu **Assistance > Ticket** then click add button with the "+" icon.
 
 When adding a new image from tab *Documents* of the ticket, the generated tag can also be used to insert image in ticket's description.
 
