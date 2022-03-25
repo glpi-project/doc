@@ -76,6 +76,9 @@ This tab provides an interface to use Kanban method.
    :alt: Kanban interface in GLPI
    :align: center
 
+For more information about the Kanban feature, please refer to the :doc:`full documentation </modules/overview/kanban>`.
+
+
 Costs
 ~~~~~
 

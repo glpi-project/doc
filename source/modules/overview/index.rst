@@ -7,3 +7,4 @@ Overview
    actions
    templates
    status
+   kanban
