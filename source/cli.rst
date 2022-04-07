@@ -416,6 +416,84 @@ Name    Shortcut  Description                         Required  Default  Array  
 ======  ========  ==================================  ========  =======  =====  =========
 
 
+glpi:marketplace:download
+-------------------------
+
+Aliases: `marketplace:download`
+
+Description
+***********
+
+Download plugin from the GLPI marketplace
+
+Arguments/Options
+*****************
+
+Arguments (in order):
+
+=======  ==============  ========  =======
+Name     Description     Required  Default
+-------  --------------  --------  -------
+plugins  The plugin key  Yes       []
+=======  ==============  ========  =======
+
+Options:
+
+=======  ========  =======================================================  ========  =======  =====  =========
+Name     Shortcut  Description                                              Required  Default  Array  Negatable
+-------  --------  -------------------------------------------------------  --------  -------  -----  ---------
+--force  -f        Force download even if the plugin is already downloaded  No                 No     No
+=======  ========  =======================================================  ========  =======  =====  =========
+
+
+glpi:marketplace:info
+---------------------
+
+Aliases: `marketplace:info`
+
+Description
+***********
+
+Get information about a plugin
+
+Arguments/Options
+*****************
+
+Arguments (in order):
+
+======  ==============  ========  =======
+Name    Description     Required  Default
+------  --------------  --------  -------
+plugin  The plugin key  Yes
+======  ==============  ========  =======
+
+There are no options for this command
+
+
+glpi:marketplace:search
+-----------------------
+
+Aliases: `marketplace:search`
+
+Description
+***********
+
+Search GLPI marketplace
+
+Arguments/Options
+*****************
+
+Arguments (in order):
+
+====  ===============  ========  =======
+Name  Description      Required  Default
+----  ---------------  --------  -------
+term  The search term  No
+====  ===============  ========  =======
+
+There are no options for this command
+
+
 glpi:migration:appliances_plugin_to_core
 ----------------------------------------
 
