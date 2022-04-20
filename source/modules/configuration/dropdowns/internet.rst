@@ -96,7 +96,7 @@ Liste les alias réseau du domaine.
 Wi-Fi networks
 --------------
 
-A FAIRE
+TO BE DONE
 
 Network names
 -------------
