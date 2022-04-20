@@ -106,7 +106,3 @@ Open a ticket automatically
 ---------------------------
 
 This mechanism is activated through :doc:`Recurrent tickets <recurrentticket>`.
-
-
-.. |menu_add| image:: /image/menu_add.png
-
