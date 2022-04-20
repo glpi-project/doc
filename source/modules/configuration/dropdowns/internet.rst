@@ -118,11 +118,8 @@ This information is not kept in the network name because it can have several IP 
    When entering a network name, the validity of the name as well as that of each IP address is checked.
    If one of these elements is not valid then it is rejected.
 
-To add an IP address to a network name, click on the |img_addcriteria| in front of the IP address entry fields.
+To add an IP address to a network name, click on the *plus button* in front of the IP address entry fields.
 To remove an IP address, simply delete the contents of the IP field you wish to remove.
-
-.. |img_addcriteria| image:: ../../../image/addcriteria.png
-
 
 Network alias
 ~~~~~~~~~~~~~

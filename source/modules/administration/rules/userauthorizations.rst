@@ -1,7 +1,5 @@
 .. not included in any toctree, but "included" with link
 
-.. |addcriteria| image:: /image/addcriteria.png
-
 :orphan:
 
 Rules for assigning authorizations to a user
@@ -174,6 +172,6 @@ Using different sources of authorization
 
 Mixed cases can be encountered: the rules can use both membership of organizational units for assignment to an entity, and membership of a group for assignment to a profile.
 
-.. note:: it is possible to add additional LDAP criteria by clicking on the |addcriteria| next to the drop-down list. A criterion is composed of a name (used in the drop-down list), a criterion (corresponding to the attribute in the LDAP directory) and a comment.
+.. note:: it is possible to add additional LDAP criteria by clicking on the *plus button* next to the drop-down list. A criterion is composed of a name (used in the drop-down list), a criterion (corresponding to the attribute in the LDAP directory) and a comment.
 
 
