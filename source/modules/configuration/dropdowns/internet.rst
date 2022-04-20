@@ -38,7 +38,7 @@ In this form, you may omit 1 - 3 leading zeros in each group.
 IPv6 masks are represented in the form of the subnetwork prefix (ie: number of bits to 1 in the mask).
 
 IP networks
-----------
+-----------
 
 IP networks allows you to define the network topology.
 They group together a set of IP addresses grouped according to the topology defined by the network administrators' addressing plan.

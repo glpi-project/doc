@@ -27,7 +27,7 @@ Don't forget to do the same afterwards with new beginners to share your experien
 A full, up to date list of discussion platforms can be found on the main `GLPI Project website <https://glpi-project.org/discussions/>`_.
 
 Partners of the GLPI Project
---------------------------
+----------------------------
 
 The growing demand for services around the GLPI project has given birth to a network of partners.
 These partners are able to bring you the high value-added services and the assistance to the GLPI deployment that you need.
