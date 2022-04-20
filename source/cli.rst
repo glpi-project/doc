@@ -355,29 +355,85 @@ There are no arguments for this command
 
 Options:
 
-========================  ========  =====================================================================================================================================================================================================================================================  ========  =======  =====  =========
-Name                      Shortcut  Description                                                                                                                                                                                                                                            Required  Default  Array  Negatable
-------------------------  --------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
---only-create-new         -c        Only create new users                                                                                                                                                                                                                                  No                 No     No
---only-update-existing    -u        Only update existing users                                                                                                                                                                                                                             No                 No     No
---ldap-server-id          -s        Synchronize only users attached to this LDAP server                                                                                                                                                                                                    No        []       Yes    Yes
---ldap-filter             -f        Filter to apply on LDAP search                                                                                                                                                                                                                         No                 No     Yes
---begin-date                        Begin date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)                                                                                                                              No                 No     Yes
---end-date                          End date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)                                                                                                                                No                 No     Yes
---deleted-user-strategy   -d        Force strategy used for deleted users (current configured action: "1")
-Possible values are:
-- 0: Preserve
-- 1: Put in trashbin
-- 2: Withdraw dynamic authorizations and groups
-- 3: Disable
-- 4: Disable + Withdraw dynamic authorizations and groups  No                 No     Yes
---restored-user-strategy  -r        Force strategy used for restored users (current configured action: "0")
-Possible values are:
-- 0: Do nothing
-- 1: Restore (move out of trashbin)
-- 3: Enable                                                                                           No                 No     Yes
-========================  ========  =====================================================================================================================================================================================================================================================  ========  =======  =====  =========
+.. list-table::	
+   :widths: 10 10 60 5 5 5 5
+   :header-rows: 1
 
+   * - Name
+     - Shortcut
+     - Description
+     - Required
+     - Default
+     - Array
+     - Negatable
+   * - --only-create-new
+     - -c
+     - Only create new users
+     - No
+     - 
+     - No
+     - No
+   * - --only-update-existing
+     - -u
+     - Only update existing users
+     - No
+     - 
+     - No
+     - No
+   * - --ldap-server-id
+     - -s
+     - Synchronize only users attached to this LDAP server
+     - No
+     - []
+     - Yes
+     - Yes
+   * - --ldap-filter
+     - -f
+     - Filter to apply on LDAP search
+     - No
+     - 
+     - No
+     - Yes
+   * - --begin-date
+     - 
+     - Begin date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)
+     - No
+     - 
+     - No
+     - Yes
+   * - --end-date
+     - 
+     - End date to apply in "modifyTimestamp" filter (see http://php.net/manual/en/datetime.formats.php for supported formats)
+     - No
+     - 
+     - No
+     - Yes
+   * - --deleted-user-strategy
+     - -d
+     - Force strategy used for deleted users (current configured action: "1")
+       Possible values are:
+
+        - 0: Preserve
+        - 1: Put in trashbin
+        - 2: Withdraw dynamic authorizations and groups
+        - 3: Disable
+        - 4: Disable + Withdraw dynamic authorizations and groups
+     - No
+     - 
+     - No
+     - Yes
+   * - --restored-user-strategy
+     - -r
+     - Force strategy used for restored users (current configured action: "0")
+       Possible values are:
+
+        - 0: Do nothing
+        - 1: Restore (move out of trashbin)
+        - 3: Enable
+     - No
+     - 
+     - No
+     - Yes
 
 glpi:maintenance:disable
 ------------------------
@@ -759,10 +815,10 @@ Options:
 Name        Shortcut  Description                                                                                                                                                       Required  Default  Array  Negatable
 ----------  --------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
 --all       -a        Run command on all plugins                                                                                                                                        No                 No     No
---param     -p        Additionnal parameters to pass to the plugin install hook function
-"-p foo" will set "foo" param value to true
-"-p foo=bar" will set "foo" param value to "bar"
-  No        []       Yes    Yes
+--param     -p        Additionnal parameters to pass to the plugin install hook function                                                                                                No        []       Yes    Yes
+                      "-p foo" will set "foo" param value to true
+                      "-p foo=bar" will set "foo" param value to "bar"
+
 --username  -u        Name of user used during installation script (among other things to set plugin admin rights)                                                                      Yes                No     No
 --force     -f        Force execution of installation, even if plugin is already installed                                                                                              No                 No     No
 ==========  ========  ================================================================================================================================================================  ========  =======  =====  =========
@@ -813,14 +869,31 @@ There are no arguments for this command
 
 Options:
 
-=================  ========  ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  ========  =======  =====  =========
-Name               Shortcut  Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Required  Default  Array  Negatable
------------------  --------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
---dictionnary      -d        Dictionnary to use. Possible values are: CableType, ComputerModel, ComputerType, DatabaseInstanceType, Glpi\SocketModel, ImageFormat, ImageResolution, Manufacturer, MonitorModel, MonitorType, NetworkEquipmentModel, NetworkEquipmentType, OperatingSystem, OperatingSystemArchitecture, OperatingSystemEdition, OperatingSystemKernel, OperatingSystemKernelVersion, OperatingSystemServicePack, OperatingSystemVersion, PeripheralModel, PeripheralType, PhoneModel, PhoneType, Printer, PrinterModel, PrinterType, Software  Yes                No     No
---manufacturer-id  -m        If option is set, only items having given manufacturer ID will be processed.
-Currently only available for Software dictionnary.                                                                                                                                                                                                                                                                                                                                                                                                   Yes                No     No
-=================  ========  ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  ========  =======  =====  =========
+.. list-table::	
+   :widths: 10 10 60 5 5 5 5
+   :header-rows: 1
 
+   * - Name
+     - Shortcut
+     - Description
+     - Required
+     - Default
+     - Array
+     - Negatable
+   * - --dictionnary
+     - -d
+     - Dictionnary to use. Possible values are: CableType, ComputerModel, ComputerType, DatabaseInstanceType, Glpi\SocketModel, ImageFormat, ImageResolution, Manufacturer, MonitorModel, MonitorType, NetworkEquipmentModel, NetworkEquipmentType, OperatingSystem, OperatingSystemArchitecture, OperatingSystemEdition, OperatingSystemKernel, OperatingSystemKernelVersion, OperatingSystemServicePack, OperatingSystemVersion, PeripheralModel, PeripheralType, PhoneModel, PhoneType, Printer, PrinterModel, PrinterType, Software
+     - Yes
+     - 
+     - No
+     - No
+   * - --manufacturer-id
+     - -m
+     - If option is set, only items having given manufacturer ID will be processed. Currently only available for Software dictionnary.
+     - Yes
+     - 
+     - No
+     - No
 
 glpi:security:change_key
 ------------------------
