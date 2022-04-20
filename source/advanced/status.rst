@@ -29,6 +29,7 @@ The plain-text output is deprecated in favor of the JSON format, but it remains 
 
 The following formats are currently supported and can be chosen by using the HTTP `Accept` header or the `format` query parameter.
 When using the `format` parameter, the short format identifier should be used.
+
  - JSON
 
    - HTTP Accept - application/json
