@@ -84,15 +84,6 @@ Network names
 
 Displays a list of network names for the domain.
 
-Alias réseau
-~~~~~~~~~~~~
-
-Liste les alias réseau du domaine.
-
-.. include:: ../../tabs/historical.rst
-
-.. include:: ../../tabs/all.rst
-
 Wi-Fi networks
 --------------
 
