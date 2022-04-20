@@ -811,17 +811,49 @@ directory  Plugin directory  No        []
 
 Options:
 
-==========  ========  ================================================================================================================================================================  ========  =======  =====  =========
-Name        Shortcut  Description                                                                                                                                                       Required  Default  Array  Negatable
-----------  --------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -------  -----  ---------
---all       -a        Run command on all plugins                                                                                                                                        No                 No     No
---param     -p        Additionnal parameters to pass to the plugin install hook function                                                                                                No        []       Yes    Yes
-                      "-p foo" will set "foo" param value to true
-                      "-p foo=bar" will set "foo" param value to "bar"
 
---username  -u        Name of user used during installation script (among other things to set plugin admin rights)                                                                      Yes                No     No
---force     -f        Force execution of installation, even if plugin is already installed                                                                                              No                 No     No
-==========  ========  ================================================================================================================================================================  ========  =======  =====  =========
+.. list-table::	
+   :widths: 10 10 60 5 5 5 5
+   :header-rows: 1
+
+   * - Name
+     - Shortcut
+     - Description
+     - Required
+     - Default
+     - Array
+     - Negatable
+   * - --all
+     - -a
+     - Run command on all plugins
+     - No
+     - 
+     - No
+     - No
+   * - --param
+     - -p
+     - Additionnal parameters to pass to the plugin install hook function
+             
+        - "-p foo" will set "foo" param value to true
+        - "-p foo=bar" will set "foo" param value to "bar"
+     - No
+     - []
+     - Yes
+     - Yes
+   * - --username
+     - -u
+     - Name of user used during installation script (among other things to set plugin admin rights)
+     - Yes
+     - 
+     - No
+     - No
+   * - --force
+     - -f
+     - Force execution of installation, even if plugin is already installed
+     - No
+     - 
+     - No
+     - No
 
 Usage
 *****
