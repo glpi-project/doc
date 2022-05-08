@@ -741,12 +741,13 @@ Options:
    * - --deleted-user-strategy
      - -d
      - Force strategy used for deleted users (current configured action: "1")
-Possible values are:
-- 0: Preserve
-- 1: Put in trashbin
-- 2: Withdraw dynamic authorizations and groups
-- 3: Disable
-- 4: Disable + Withdraw dynamic authorizations and groups
+       Possible values are:
+
+         - 0: Preserve
+         - 1: Put in trashbin
+         - 2: Withdraw dynamic authorizations and groups
+         - 3: Disable
+         - 4: Disable + Withdraw dynamic authorizations and groups
      - No
      - 
      - No
@@ -754,10 +755,11 @@ Possible values are:
    * - --restored-user-strategy
      - -r
      - Force strategy used for restored users (current configured action: "0")
-Possible values are:
-- 0: Do nothing
-- 1: Restore (move out of trashbin)
-- 3: Enable
+       Possible values are:
+
+         - 0: Do nothing
+         - 1: Restore (move out of trashbin)
+         - 3: Enable
      - No
      - 
      - No
@@ -1331,9 +1333,9 @@ Options:
    * - --param
      - -p
      - Additionnal parameters to pass to the plugin install hook function
-"-p foo" will set "foo" param value to true
-"-p foo=bar" will set "foo" param value to "bar"
 
+         - "-p foo" will set "foo" param value to true
+         - "-p foo=bar" will set "foo" param value to "bar"
      - No
      - []
      - Yes
