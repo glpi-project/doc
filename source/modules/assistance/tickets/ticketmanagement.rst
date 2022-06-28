@@ -25,7 +25,7 @@ Description of specific fields
 
 * **Status**: status attributed manualy by the technician or dynamically by performed actions, see :doc:`Management rules </modules/assistance/tickets/ticketlifecycle>` and :doc:`life cycle matrix </modules/assistance/lifecyclematrix>`;
 
-* **Request Source**: indicates the channel used to create the ticket, see :doc:`Configure drop down </modules/configuration/intitules/index>`;
+* **Request Source**: indicates the channel used to create the ticket, see :doc:`Configure drop down </modules/configuration/dropdowns/index>`;
 
 * **Urgency**: importance given to the ticket by the requester;
 
@@ -73,7 +73,7 @@ This tab is the default tab when consulting a ticket except when the ticket is w
 
 To add a followup, click on **Followup** and enter a description.
 
-It is possible to choose the source of the followup, see :doc:`Configure dropdown </modules/configuration/intitules/index>`.
+It is possible to choose the source of the followup, see :doc:`Configure dropdown </modules/configuration/dropdowns/index>`.
 
 A followup can be public or private. A private followup is only visible by GLPI users having the authorization `See all followup and tasks`. It allows for instance to have an exchange between technician which is not visible by requester.
 

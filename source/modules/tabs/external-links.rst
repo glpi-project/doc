@@ -5,7 +5,7 @@ The *External links* tab is used to show associated external links.
 
 For some items, external links are managed from the menu **Setup > External links**.
 
-These links can use object fields such as IP, name, etc. See :doc:`Configure protocol external links </modules/configuration/external_link>`.
+These links can use object fields such as IP, name, etc. See :doc:`Configure protocol external links </modules/configuration/external_links>`.
 
 Examples:
 

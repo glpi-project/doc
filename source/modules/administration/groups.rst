@@ -26,7 +26,7 @@ In an item form, 2 notions of groups are available:
 * *technical group* which indicates which group of people is in charge of the asset (equivalent for a group of the technical manager)
 * *group* which indicates to which group of items it belongs.
 
-.. note:: the technical group can allow the automatic assignment of a ticket to a group of technicians, see the ticket categories in the chapter: doc: `Configure dropdowns </modules/configuration/intitules/assistance.rst>`. Likewise, it can be used in :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
+.. note:: the technical group can allow the automatic assignment of a ticket to a group of technicians, see the ticket categories in the chapter: doc: `Configure dropdowns </modules/configuration/dropdowns/assistance.rst>`. Likewise, it can be used in :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
 
 .. hint:: if all options are set to *No*, the group will not appear in any selection list; this can be useful for a group that is deleted and kept for history or for adding empty groups in the hierarchical structure.
 
