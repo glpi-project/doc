@@ -22,7 +22,7 @@ It is possible to attach documents to articles of the knowledge base.
 .. warning::
    Elements which should not be interpreted when displayed can be defined with preformated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` can therefore be inserted and will be displayed. Other HTML tags (``<TAG>...</TAG>`` may disappear when editing; to have complete visibility of the text, it is possible to switch to HTML mode where all elements will be visible. The browser may also modify dynamically content (case change, tags adding) when editing.
    
-It is possible to create categories and sub-categories in order to organize browsing (see :doc:`Configure drop-downs </modules/configuration/intitules/index>`). User can then use several tabs to search and browse knowledge base:
+It is possible to create categories and sub-categories in order to organize browsing (see :doc:`Configure drop-downs </modules/configuration/dropdowns/index>`). User can then use several tabs to search and browse knowledge base:
 
 * **Search** 
   This tab is the default tab, displaying recent articles, popular articles and last changes. It allows also to search inside knowledge base.

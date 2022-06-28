@@ -29,7 +29,7 @@ This button is available when profile is granted user *External add* authorizati
 .. note::
 
    * In order to be able to use simplified interface, either LDAP parameters for the entity must have been configured first using *Administration > Entity* to assign a directory to the entity or a default directory must have been defined.
-   * This option, coupled with search on criteria, allows to bypass the limit of records returned by directory for a LDAP request (see :doc:`Authenticate users with LDAP directories</modules/configuration/authentification/ldap>`)
+   * This option, coupled with search on criteria, allows to bypass the limit of records returned by directory for a LDAP request (see :doc:`Authenticate users with LDAP directories</modules/configuration/authentication/ldap>`)
    * Simplified interface does not require write authorization for users. An asset manager or a technician can therefore import users from the directory without having access to these imported users after import. This option is for example useful for a call center or for a directory from which mass users import is not desired.
 
 An **Expert Mode** is also proposed by following link on the right of table header. This mode is available for users granted with update authorization either for general configuration or for entities. Unlike simple interface, results are not filtered by entity: the only available criteria are directory, based and users search filter.

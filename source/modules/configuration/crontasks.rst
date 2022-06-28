@@ -308,5 +308,3 @@ The different actions
 ---------------------
 
 - **Reset last run**: Clear the last run
-
---------------

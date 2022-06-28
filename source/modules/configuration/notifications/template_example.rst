@@ -219,8 +219,10 @@ And we want to add a text under the URL that everyone can understand:
 9. **Paste** the previously copied code
 10. **Save** to exit code view
 11. Updates the fields:
+
    - **Subject** = ``##ticket.action##: ##ticket.title##``
    - In **Email HTML body** replace English text with the French text
+
 12. **Save**
 
 

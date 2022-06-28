@@ -19,8 +19,7 @@ The global configuration allows you to set the following options:
 - Reply-to name - The display name to use for the Reply-to email address.
 - No-Reply address - The email address to use for emails that shouldn't be responded to.
 - No-Reply name - The display name to use for the No-Reply email address.
-- Add documents into ticket notifications - If enabled, documents attached to a ticket will be added to related notifications as links.
-    The links will use the GLPI URL specified in the general configuration.
+- Add documents into ticket notifications - If enabled, documents attached to a ticket will be added to related notifications as links. The links will use the GLPI URL specified in the general configuration.
 - Email signature - Text added at the end of every notification.
 - Way of sending emails - Method to send emails (PHP, SMTP, SMTP+SSL, SMTP+TLS).
 - Max delivery retries - Number times GLPI will try to send a notification.

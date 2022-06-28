@@ -8,6 +8,7 @@ Likewise, some actions in the tab depend on profile permission, such as mass act
 This page describes only main actions that can apply to different types of objects. If an action is specific to an object, it will be described in the documentation of this object.
 
 .. _action-add:
+
 Creation
 ^^^^^^^^
 

@@ -17,7 +17,7 @@ It is possible on a network port to add one or more VLAN, these VLANs being defi
    :alt: VLAN
    :align: center
 
-One or more :doc:`network name </modules/configuration/intitules/internet>` can be associated to each network port. This can be done in tab `Network name`.
+One or more :doc:`network name </modules/configuration/dropdowns/internet>` can be associated to each network port. This can be done in tab `Network name`.
 
 .. image:: /modules/assets/images/ports_network_name.png
    :alt: Network name
