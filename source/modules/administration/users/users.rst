@@ -16,7 +16,7 @@ Impersonate
 ------------------
 
 For debugging or administrative purposes, it's possible for a “super-admin” account (or any profile with the configuration rights) to temporarily take the ownership of another user’s account without knowing its password.
-An icon is available at the top in the user´s form to perform this action.
+An icon is available at the top of the user´s form to perform this action.
 
 .. image:: /modules/administration/images/impersonate_icon.png
    :alt: Impersonate user icon
