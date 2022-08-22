@@ -12,6 +12,26 @@ It is possible to deactivate a user if needed. If deactivated, the user can no l
 
 A photo can be added manually or imported automatically from a directory (see :doc:`Authenticate users with LDAP </modules/configuration/authentification/ldap>`).
 
+Impersonate
+------------------
+
+For debugging or administrative purposes, it's possible for a “super-admin” account (or any profile with the configuration rights) to temporarily take the ownership of another user’s account without knowing its password.
+An icon is available at the top in the user´s form to perform this action.
+
+.. image:: /modules/administration/images/impersonate_icon.png
+   :alt: Impersonate user icon
+   :align: center
+
+To note:
+
+* A special banner will show permanently as long as the function is active and will allow you to exit this mode.
+* After the exit, the admin will retrieve its session as it was before using the feature.
+* The history of actions taken by the administrator will appear with a special note: “user (xxx) impersonated by admin (yyy)”.
+
+.. image:: /modules/administration/images/impersonate_banner.png
+   :alt: Impersonate banner
+   :align: center
+
 The different tabs
 ------------------
 
