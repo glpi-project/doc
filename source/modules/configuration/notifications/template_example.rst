@@ -234,7 +234,7 @@ Going further with HTML and CSS
 -------------------------------
 
 .. warning::
-   Part for people already familiar with HMTL and CSS.
+   Part for people already familiar with HTML and CSS.
 
 Everything we have done in the "Email HTML body" field is converted into HTML code which you can edit via **right-click** > **Source code**.
 So if you are familiar with HTML, you can edit the code directly. Depending on the case and your skills, this is sometimes easier.
