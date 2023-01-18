@@ -8,9 +8,11 @@ GLPI knowledge base has two main targets:
 
 .. note::
    Only public FAQ items are visible to users of simplified interface. Other elements are visible only to technicians via standard interface.
-   FAQ items are public to everyone (within their entity) that has access to read FAQs. The additional visibility restrictions will have no affect in this case.
 
-Each article of the knowledge base that is not in the FAQ must have one or several targets, a target being either an entity, a group, a profile or a user, to be readable. As long as an article has no target, it is visible only by its writer, is flagged as `unpublished` and appears in table `Unpublished articles` on the home page of the knowledge base.
+Each article of the knowledge base must have one or several targets, a target being either an entity, a group, a profile or a user, to be readable. As long as an article has no target, it is visible only by its writer, is flagged as `unpublished` and appears in table `Unpublished articles` on the home page of the knowledge base.
+
+.. note::
+   You can publish an article to everyone, targeting the root entity.
 
 By default, articles are not translatable. However, this functionality can be activated, see :doc:`general configuration </modules/configuration/general/general_configuration>`.
 
