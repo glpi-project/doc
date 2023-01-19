@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/configuration/authentication/configuration.rst:2
+msgid "Configure external authentication"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:4
+msgid ""
+"This menu allows you to configure the general settings for integration "
+"with external authentication sources."
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:6
+msgid ""
+"In order to be able to use these external authentication sources, the "
+"corresponding extensions must first be activated in the PHP "
+"configuration. There is no limit to the number of external sources "
+"configured in the application."
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:8
+msgid ""
+"To use the capacity of GLPI to create on the fly users present in the "
+"external sources of authentication, it is necessary to activate it in the"
+" menu Configuration \\> Authentication \\> Configuration."
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:-1
+msgid "Authentication configuration menu"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:14
+msgid ""
+"The LDAP directories also allow you to refuse the creation of users who "
+"do not have authorizations. Deleting a user from the directory can also "
+"lead to an action such as trashing the user, deleting his permissions or "
+"deactivating him. You also have the option to specify how to handle users"
+" that were previously deleted from the directory but are now restored. "
+"You can set the restore action to do nothing, restore the user from the "
+"trashbin, or re-enable the user."
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:19
+msgid "It is also at this level that the time zone of GLPI is set."
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:21
+msgid "External authentication sources that can be used inside GLPI are:"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:23
+msgid ":doc:`LDAP directories <ldap>`"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:24
+msgid ":doc:`Email servers <imap>`"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:25
+msgid ":ref:`CAS server <auth_cas>`"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:26
+msgid ":ref:`x509 certificate <auth_x509>`"
+msgstr ""
+
+#: ../../source/modules/configuration/authentication/configuration.rst:27
+msgid ":ref:`Delegate authentication to web server <auth_other>`"
+msgstr ""
+

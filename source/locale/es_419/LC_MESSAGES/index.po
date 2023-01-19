@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/index.rst:7
+msgid "GLPI User Documentation"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid ""
+"The documentation is being rewritten. It is very likely that some parts "
+"are outdated, that there are dead links, etc"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Preface"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid ""
+"This documentation covers the installation and use of GLPI (Gestion Libre"
+" de Parc Informatique) !"
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid ""
+"Free and open-source solution for IT asset management and helpdesk, and "
+"more. GLPI is a web application designed to manage all of your IT asset "
+"management issues from inventory management of hardware components and "
+"software to the management of user assistance."
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid ""
+"This guide is intended to give an overview of GLPI for both "
+"administrators and users."
+msgstr ""
+
+#: ../../source/index.rst:22
+msgid ""
+"Each part can be consulted independently even if for reasons of logic we "
+"recommend that you read this documentation entirely."
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid "Installation"
+msgstr ""
+
+#: ../../source/index.rst:27
+msgid ""
+"The `GLPI installation documentation <https://glpi-"
+"install.readthedocs.io>`_ is available separately."
+msgstr ""
+
+#: ../../source/index.rst:30
+msgid "Table of contents"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid "Documentation license"
+msgstr ""
+
+#: ../../source/index.rst:45
+msgid ""
+"This documentation is distributed under the terms of the `Creative "
+"Commons License Attribution-ShareAlike 3.0 France (CC BY-SA 3.0 FR) "
+"<https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en>`_."
+msgstr ""
+
+#: ../../source/index.rst:47
+msgid ""
+"For the complete terms of the license, please refer to "
+"https://creativecommons.org/licenses/by-sa/3.0/fr/legalcode."
+msgstr ""
+
+#: ../../source/index.rst:49
+msgid "You are free to:"
+msgstr ""
+
+#: ../../source/index.rst:51
+msgid "Share — copy and redistribute the material in any medium or format"
+msgstr ""
+
+#: ../../source/index.rst:52
+msgid ""
+"Adapt — remix, transform, and build upon the material for any purpose, "
+"even commercially."
+msgstr ""
+
+#: ../../source/index.rst:54
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the "
+"license terms."
+msgstr ""
+
+#: ../../source/index.rst:56
+msgid "Under the following terms:"
+msgstr ""
+
+#: ../../source/index.rst:58
+msgid ""
+"Attribution — You must give appropriate credit, provide a link to the "
+"license, and indicate if changes were made. You may do so in any "
+"reasonable manner, but not in any way that suggests the licensor endorses"
+" you or your use."
+msgstr ""
+
+#: ../../source/index.rst:59
+msgid ""
+"ShareAlike — If you remix, transform, or build upon the material, you "
+"must distribute your contributions under the same license as the "
+"original."
+msgstr ""
+
+#: ../../source/index.rst:61
+msgid ""
+"No additional restrictions — You may not apply legal terms or "
+"technological measures that legally restrict others from doing anything "
+"the license permits."
+msgstr ""
+

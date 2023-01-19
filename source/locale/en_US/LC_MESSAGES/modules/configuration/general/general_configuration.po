@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/configuration/general/general_configuration.rst:2
+msgid "General configuration"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:4
+msgid "This tab permits to customize main application appearance."
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:9
+msgid "Description of fields"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:11
+msgid ""
+"**URL of the application**: used in different links provided in the "
+"application, in notifications, and for the API. Its defined at install "
+"time depending on the URL that has been used for it."
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:13
+msgid ""
+"**Text in the login box**: specific text to be displayed at the top of "
+"the login block"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:14
+msgid ""
+"**Allow FAQ anonymous access**: allows :abbr:`Frequently Asked Question "
+"<FAQ>` access without any login in GLPI. A link to access the FAQ will be"
+" displayed below the login box when enabled."
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:15
+msgid ""
+"**Default search results limit**: maximum number of search results "
+"displayed at once on all search pages"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:16
+msgid ""
+"**Default characters limit**: maximum number of displayed characters "
+"visible in search results. If you display a ticket content for example, "
+"it will be truncated on this number of characters"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:17
+msgid "**Default url length limit**: same as the above, but applying on URLs"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:18
+msgid "**Default decimals limit**: number of decimals displayed for amounts"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:19
+msgid ""
+"**Translation of dropdowns**: allows dropdowns do be translated. Once "
+"this parameter enabled, a translation tab will be added on dropdown forms"
+" (see `dropdowns translations "
+"<08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.rst>`_)"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:20
+msgid "**Translation of reminders**: same as the above, but applying on reminders"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:21
+msgid ""
+"**Knowledge base translation**: same as the above, but applying on "
+"knowledge base entries"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:22
+msgid ""
+"**Simplified interface help link**: link to help displayed for users "
+"using simplified interface"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:23
+msgid ""
+"**Standard interface help link**: link to help displayed for users using "
+"standard interface"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:25
+msgid ""
+"**Page size for dropdown**: number of elements displayed in a dropdown on"
+" each scroll"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:26
+msgid ""
+"**Don't show search engine in dropdowns if the number of items is less "
+"than**: search in dropdown won't be displayed if there are less results "
+"than configured here"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:28
+msgid "**Items seen**"
+msgstr ""
+
+#: ../../source/modules/configuration/general/general_configuration.rst:29
+msgid ""
+"**Global search**: enable global search adding a search field at the top "
+"of the interface"
+msgstr ""
+

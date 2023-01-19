@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:6
+msgid "Business rules for tickets"
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:8
+msgid ""
+"A mechanism is available to modify the attributes of the ticket "
+"automatically when a ticket is opened or updated."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:10
+msgid ""
+"The available criteria are all the attributes of the ticket (title, "
+"description, status, category, urgency, impact, priority, source of the "
+"request, type of asset, group/user/location requesters, assigned to "
+"supplier/group/technician, type of asset, entity) as well as others "
+"related to email collectors (headers ...)."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:12
+msgid ""
+"The possible actions are to modify certain attributes of the ticket "
+"(status, category, urgency, impact, priority, requesters "
+"group/user/location, assigned to supplier/group/ technician). It is also "
+"possible to assign a ticket to a device according to data present in the "
+"ticket (attribution on the IP address, the full name and the domain, the "
+"MAC address) or even send a validation request."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:14
+msgid ""
+"business rules for tickets can be played when opening and/or updating "
+"tickets depending on the parameter defined in the rule. During the "
+"update, only the modified fields (by the action on the ticket or by the "
+"rules previously executed) trigger the rules. Thus a rule having criteria"
+" corresponding to unmodified fields will not be executed."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:16
+msgid ""
+"the engine plays all the rules one after the other. The result of the "
+"previous rules is passed to the current rule. This means that if a "
+"previous rule modifies an attribute used by the current rule, it is the "
+"modified value of this one that will be processed."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:18
+msgid ""
+"When using GLPI in multi-entities, the business rules for the tickets can"
+" be recursive, i.e. they can be defined on an entity with an application "
+"on the entity itself and on the sub-entities."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:20
+msgid "Three tabs are available:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:22
+msgid ""
+"**applied rules (entity name)**: all the rules of the parent entities "
+"played (only if you have the authorization *Business rules (parent)* on "
+"the authorization *Business rules for tickets (entity)*;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:23
+msgid "**local rules**: the list of rules defined for the current entity;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:24
+msgid ""
+"**rules applicable in sub-entities**: all the rules applied after those "
+"of the current entity."
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:28
+msgid "Special case for the Emergency and Impact fields"
+msgstr ""
+
+#: ../../source/modules/administration/rules/ticketbusinessrules.rst:30
+msgid ""
+"If you define an emergency and/or an impact via a business rule, you "
+"should also consider adding the *Recalculate priority* action so that it "
+"is based on the fields you have just defined."
+msgstr ""
+

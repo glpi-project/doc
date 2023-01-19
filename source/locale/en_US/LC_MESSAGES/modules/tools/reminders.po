@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/tools/reminders.rst:2
+msgid "Manage personal or public reminders"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:4
+msgid ""
+"A reminder in GLPI is simple text with attached files; it allows to "
+"transmit information to other users of the platform."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:6
+msgid "A reminder is characterized by:"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:8
+msgid "a lifetime;"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:9
+msgid "a status;"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:10
+msgid "the possibility to appear in planning;"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:11
+msgid "its targets."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:-1
+msgid "Characteristics of a reminder"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:17
+msgid ""
+"The created reminders will then appear in GLPI home page or in targeted "
+"users' planning."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:-1
+msgid "Reminder on GLPI home page"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:-1
+msgid "Reminder in GLPI planning"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:29
+msgid ""
+"It is possible to add a start date and an end date for each reminder. If "
+"no start date is given, the reminder will be visible immediately and "
+"until its end date. If no end date is given, the reminder will be visible"
+" permanently starting from its start date."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:31
+msgid ""
+"Adding a reminder to the planning makes it visible for targeted users of "
+"the reminder: the owner for a personal reminder, all users' plannings for"
+" a public note. A planned reminder is not deleted after its end date."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:35
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:2
+msgid "Documents"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:4
+msgid ""
+"Additional information is stored in the form of external documents which "
+"are files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of "
+"the documents themselves </modules/management/documents>` is dealt with "
+"in another chapter."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:6
+msgid ""
+"It is also possible to quickly create a document via this tab by "
+"specifying the desired file and optionally the field in which the new "
+"document is to be placed. The name of the created document will be based "
+"on the name of the added file."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:-1
+msgid "Document creation screen"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:14
+msgid ""
+"When you delete a document from this tab via mass actions, you only "
+"remove the link between the object and the document; the document itself "
+"is still present."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:40
+msgid "Target"
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:42
+msgid ""
+"A reminder is personal by default and therefore only visible for its "
+"writer."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:44
+msgid ""
+"For a reminder to be visible by other users (public reminder), it is "
+"necessary to add targets to the reminder. Possible targets are entity, "
+"profile, group or users."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:46
+msgid ""
+"A public reminder is visible by users associated with a profile if this "
+"profile has read permission for public reminders."
+msgstr ""
+
+#: ../../source/modules/tools/reminders.rst:-1
+msgid "A reminder's targets"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The "
+"following information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between "
+"the old and the new value (For example with location field: Change HQ to "
+"Remote Office A), or the explanation of the action which was carried out "
+"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the "
+"modification of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab."
+" This shows all of the tabs of an object's form in one view, one below "
+"the other."
+msgstr ""
+
