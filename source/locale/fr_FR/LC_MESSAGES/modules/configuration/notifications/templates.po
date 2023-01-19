@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/notifications/templates.rst:2
+msgid "Notification templates"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:4
+msgid ""
+"A template is a global object of GLPI that defines the information included "
+"in a notification and the formatting of the information."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:6
+msgid ""
+"The creation of a template is a complex operation, which impacts the users. "
+"Therefore, templates can only be modified by Administrators with the "
+"*Update* permission for the *Config* right. Moreover a template is not "
+"linked to an entity, which means that it is not possible to delegate its "
+"management to an administrator of a of a sub-entity."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:10
+msgid ""
+"A template reflects a communication to a user and can be available in "
+"several languages thanks to a translation mechanism. The use of tags (i.e. "
+"markers that are independent of the language used) language used) makes it "
+"possible to create a generic translation, available for all the languages of"
+" GLPI."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:13
+msgid ""
+"GLPI comes with a set of pre-defined templates for all notifications "
+"(tickets, reservations, financial information, cartridges, consumables, "
+"licenses, MySQL synchronization ...)."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:17
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:20
+msgid "Notification template"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:22
+msgid "First tab."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:24
+msgid "**Name**: Template name"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:25
+msgid "**Type**: Type of GLPI object to which the template relates"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:26
+msgid "**Comments**: (optional) Additional information"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:27
+msgid "**CSS**: (optional) Style sheet used for the template in HTML"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:30
+msgid ""
+"Templates are global, they are not defined at the entity level, as "
+"notifications."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:34
+msgid "Template translation"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:36
+msgid ""
+"Tab that lists the different notifications defined by language and allows "
+"adding a new language."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:38
+msgid ""
+"**Language**: Indicates the language to which this translation refers. If no"
+" language is selected in the drop-down list, this translation will be the "
+"default for this template."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:39
+msgid "**Subject**: Subject of the mail."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:40
+msgid ""
+"**Email text body**: Plain text without layout, used in cases where HTML is "
+"not allowed. If the field is empty then it is generated from the HTML body "
+"text."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:41
+msgid "**Email HTML body**: Text with HTML layout."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:44
+msgid ""
+"A default translation is applicable to all GLPI languages that do not have "
+"their own translation."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:48
+msgid "Tags"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:50
+msgid ""
+"The tags allow to display data of the notification trigger object. **e.g.**:"
+" in a ticket you can retrieve its title, description, actors, ..."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:52
+msgid "A tag is identified by **##** at the beginning and at the end."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:55
+msgid "There are several types of tags:"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:57
+msgid ""
+"**Simple**: ``##<object>.<field>##`` for the field value of a GLPI object"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:58
+msgid ""
+"**Label**: ``##lang.<object>.<field>##`` for the translated label of the "
+"object's field"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:59
+msgid "**Condition**: to test if a field has:"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:61
+msgid "a value: ``##IF<object>.<field>##`` ... ``##ENDIF<object>.<field>##``"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:62
+msgid ""
+"a value = <V>: ``##IF<object>.<field>=<V>##`` ... "
+"``##ENDIF<object>.<field>##``"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:64
+msgid "**Loop**: to display sub-objects:"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:66
+msgid ""
+"all <objects>: ``##FOREACH<objects>##`` ... ``##ENDFOREACH<objects>##``"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:67
+msgid ""
+"first <N> <objects>: ``##FOREACH FIRST <N> <objects>##`` ... "
+"``##ENDFOREACH<objects>##``"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/templates.rst:68
+msgid ""
+"last <N> <objects>: ``##FOREACH LAST <N> <objects>##`` ... "
+"``##ENDFOREACH<objects>##``"
+msgstr ""

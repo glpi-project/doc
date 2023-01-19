@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/external_links.rst:2
+msgid "External links"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:4
+msgid ""
+"Some elements of GLPI can be associated with a set of links to external "
+"applications. These are visible from the **Links** tab of the various forms."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:7
+msgid ""
+"To parameterize a link, it is possible to use tags which will be replaced by"
+" the values of the element. The tags are:"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:10
+msgid "[LOGIN]: The logged in user's username"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:11
+msgid "[ID]: The internal numeric ID for the item"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:12
+msgid "[NAME]: The name of the item"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:13
+msgid "[LOCATION]: The name of the item's location"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:14
+msgid "[LOCATIONID]: The internal numeric ID for the item's location"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:15
+msgid "[IP]: The IP address of the item"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:16
+msgid "[MAC]: The MAC address of the item"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:17
+msgid "[NETWORK]: The item's network"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:18
+msgid ""
+"[DOMAIN]: The item's domain. If more than one domain is associated with the "
+"item, the first one is used."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:19
+msgid "[SERIAL]: The item's serial number"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:20
+msgid "[OTHERSERIAL]: The item's inventory number/asset tag"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:21
+msgid "[USER]: The item's user"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:22
+msgid "[GROUP]: The item's group"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:23
+msgid ""
+"[FIRSTNAME]: The user's first name (Only applies to User external links)"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:24
+msgid "[REALNAME]: The user's surname (Only applies to User external links)"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:27
+msgid ""
+"[FIELD:*]: If the field you want is not available as a separate tag, it may "
+"still be possible to use it by referencing its internal field name."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:26
+msgid ""
+"For example, the comment field would be `[FIELD:comment]`. The field name is"
+" case sensitive and typically it will need to be all lowercase."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:29
+msgid "Each link can be associated with one or more element types."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:31
+msgid ""
+"If the content is empty, a simple link will be generated. If content is "
+"present, it is a link to the download of the content that will be generated."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:34
+msgid ""
+"The link can be opened in a new window according to the `Open in new window`"
+" parameter."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:37
+msgid "A web type link"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:39
+msgid ""
+"Create an external protocol link with the name `https://[IP]` and assign it "
+"to the network hardware."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:42
+msgid "An RDP link"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:44
+msgid ""
+"For remote access on computers, create an external protocol link with the "
+"name link with the name `RemoteAccess.rdp` and set the **file content** by "
+"inserting the content of an RDP type file and replacing the ip / name / "
+"domain by TAGS like [IP], [NAME], [DOMAIN]."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:48
+msgid ""
+"When using tags from network ports (IP, MAC), if the hardware has several, "
+"then this will create as many create as many links as there are ports. For "
+"example, for a machine with 2 different IP addresses, 2 links will be "
+"displayed."
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:52
+msgid "Remote control through a VNC extension"
+msgstr ""
+
+#: ../../source/modules/configuration/external_links.rst:54
+msgid ""
+"Some VNC implementations provide an extension that allows to take control of"
+" a computer through a browser. In general, the port used is 5900. The "
+"corresponding link will be of type `https://[IP]:5900` or "
+"`https://[NAME].[DOMAIN]:5900`."
+msgstr ""

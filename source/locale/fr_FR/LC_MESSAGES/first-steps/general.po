@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/first-steps/general.rst:2
+msgid "General"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:5
+msgid "Choose a web browser"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:7
+msgid "GLPI requires the use of a web browser."
+msgstr ""
+
+#: ../../source/first-steps/general.rst:9
+msgid ""
+"Optimal functioning of the application is obtained by using a modern browser"
+" compliant with web standards."
+msgstr ""
+
+#: ../../source/first-steps/general.rst:11
+msgid "The following web browsers are supported:"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:13
+msgid "Edge"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:14
+msgid "Firefox (including 2 latests ESR version)"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:15
+msgid "Chrome"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:17
+msgid ""
+"GLPI also works on mobile; it is generally compatible with the mobile "
+"versions of the supported browsers."
+msgstr ""
+
+#: ../../source/first-steps/general.rst:20
+msgid "How to connect"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:22
+msgid ""
+"Open your browser and go to the GLPI homepage (`https://{glpi_address}/ "
+"<https://{glpi_address}>`_)."
+msgstr ""
+
+#: ../../source/first-steps/general.rst:24
+msgid ""
+"Access to the full functionality of the application requires authentication."
+" An unauthenticated user can possibly access certain functions if GLPI has "
+"been configured to allow it:"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:26
+msgid "View the :abbr:`FAQ (Frequently Asked Questions)`,"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:27
+msgid "Open a ticket,"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:28
+msgid "..."
+msgstr ""
+
+#: ../../source/first-steps/general.rst:30
+msgid ""
+"Depending on the profile of the authenticated user, they may be shown the "
+":ref:`standard interface <standard_interface>`, or :ref:`simplified "
+"interface <simplified_interface>`."
+msgstr ""
+
+#: ../../source/first-steps/general.rst:33
+msgid "End your session"
+msgstr ""
+
+#: ../../source/first-steps/general.rst:35
+msgid ""
+"To log out, click the Logout button in the top right of the screen. Once "
+"logged out, you will be redirected to the login page."
+msgstr ""

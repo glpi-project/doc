@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/assistance/categories.rst:2
+msgid "Categories"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:4
+msgid "A category can be made hierarchical:"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:6
+msgid ""
+"by selecting a parent category using in first tab the field `As child of`"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:7
+msgid "by adding a new child category in tab `ITIL Categories`"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:10
+msgid "ITIL categories"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:12
+msgid ""
+"ITIL categories can be managed in dropdown setup *Setup > Dropdowns > Ticket"
+" Categories*."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:14
+msgid "ITIL categories are used by Tickets, Changes and Problems."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst-1
+msgid "ITIL category"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:20
+msgid ""
+"A person in charge and/or a technical group can be added to this category "
+"and will then be used for notifications."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:22
+msgid ""
+"A knowledge base category can also be associated to this category; this will"
+" register the solution in this category of the knowledge base."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:24
+msgid ""
+"In this example, if you have a ticket with the category \"Hard disk "
+"failure\" which is linked to the KB category \"Failure > Computer\", when "
+"you add a solution to the ticket with \"Save to Knowledge base\" set to "
+"\"Yes\", the default category in the new Knowledge base Article form that "
+"opens will be \"Failure > Computer\"."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:26
+msgid ""
+"A category can be invisible in simplified interface, in order to reduce list"
+" of categories for end-users. It can also be made visible or not for "
+"incidents, demands, problems or changes."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:28
+msgid ""
+"A template can be associated with this category and will be loaded when this"
+" category is selected in ticket. This template can be different for demands "
+"and incidents."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:33
+msgid ""
+"When building a helpdesk, it is important to choose carefully the list of "
+"available categories: a too large number visible by end-users will make "
+"ticket creation less easy, whereas a too small number will not allow you to "
+"correctly qualify the demand."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:35
+msgid ""
+"Ticket categories allow to do automatic processing when creating a ticket, "
+"for instance modify ticket attributes; see :doc:`Business rules for tickets "
+"</modules/administration/rules/ticketbusinessrules>`."
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:39
+msgid "Task categories"
+msgstr ""
+
+#: ../../source/modules/assistance/categories.rst:41
+msgid ""
+"Task categories are used to sort task in order to ease their processing or "
+"to build meaningful statistics."
+msgstr ""

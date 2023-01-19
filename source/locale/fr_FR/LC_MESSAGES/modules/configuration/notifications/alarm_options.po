@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/notifications/alarm_options.rst:2
+msgid "Alarm options"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/alarm_options.rst:4
+msgid ""
+"At the entity level, you can configure the alarm options "
+"(cartridge/consumable stock alarms, expiration alarms, etc). By default, "
+"these options will inherit the value from their parent entity."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/alarm_options.rst:7
+msgid ""
+"As of GLPI 10.0, the following alarm options are available: - Cartridges > "
+"Reminders frequency for alarms on cartridges - Cartridges > Default "
+"threshold for cartridges count - Consumables > Reminders frequency for "
+"alarms on consumables - Consumables > Default threshold for consumables "
+"count - Contract > Alarms on contracts - Contract > Default value - Contract"
+" > Send contract alarms before - Financial and administrative information > "
+"Alarms on financial and administrative information - Financial and "
+"administrative information > Default value - Financial and administrative "
+"information > Send financial and administrative information alarms before - "
+"Licenses > Alarms on expired licenses - Licenses > Send license alarms "
+"before - Certificates > Alarms on expired certificates - Certificates > Send"
+" certificates alarms before - Reservations > Alerts on reservations - "
+"Tickets > Alerts on tickets which are not solved since - Domains > Alarms on"
+" domains expiries - Domains > Domains closes expiries - Domains > Domains "
+"expired"
+msgstr ""

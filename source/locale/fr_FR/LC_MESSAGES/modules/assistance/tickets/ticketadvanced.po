@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:2
+msgid "To go further"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:5
+msgid "Tickets categories"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:7
+msgid "See :doc:`Categories </modules/assistance/categories>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:10
+msgid "Tickets templates"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:12
+msgid ""
+"Using ticket templates, it is possible to customize ticket creation form by "
+"masking, pre-defining or making mandatory some fields."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:14
+msgid "See :doc:`Ticket templates </modules/overview/templates>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:17
+msgid "Collectors"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:19
+msgid ""
+"External tools can interact with assistance module using mail collectors."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:21
+msgid ""
+"Email is used to create tickets and add follow-up to existing tickets. A "
+"GLPI internal task will connect to a mailbox and fetch messages."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:24
+msgid "The solution or closure of a ticket are not available via collectors."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:26
+msgid "A mail message will go through the following steps:"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:28
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:36
+msgid "Mail box;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:29
+msgid ""
+"Collector, configured using :doc:`Configure collectors "
+"</modules/configuration/collectors>`;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:30
+msgid ""
+"Rules, see :ref:`Assigned a ticked opened by mail to an entity "
+"<collectors_rules>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:31
+msgid ""
+"Business rules, see :doc:`Business rules for tickets "
+"</modules/administration/rules/ticketbusinessrules>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:32
+msgid "Ticket is created"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:34
+msgid ""
+"An answer to a mail coming from GLPI will go through the following steps:"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:37
+msgid "Collector ;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:38
+msgid "Creation of a follow-up for concerned ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:42
+msgid "Recurrent tickets"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:44
+msgid ""
+"See :doc:`Recurrent tickets </modules/assistance/tickets/recurrentticket>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:48
+msgid "Attached costs"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:50
+msgid ""
+"See :doc:`Attached costs </modules/assistance/tickets/ticketmanagement>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:54
+msgid "Links between tickets"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:56
+msgid ""
+"It is possible to define links between tickets or to mark tickets as "
+"duplicates."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:58
+msgid ""
+"See :doc:`Links between tickets "
+"</modules/assistance/tickets/ticketmanagement>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:62
+msgid "Processing time"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:64
+msgid "Incidents resolution delays or SLA can be configured."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:66
+msgid "See :doc:`Configure SLAs <modules/configuration/service_levels>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:70
+msgid "Business rules"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:72
+msgid "Business rules can be defined to modify and assign tickets."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:74
+msgid ""
+"See :doc:`Business rules for tickets "
+"</modules/administration/rules/ticketbusinessrules>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:78
+msgid "Administrative closure"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:80
+msgid ""
+"Administrative closure moves the status of a ticket from *Solved* to "
+"*Closed*."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:82
+msgid ""
+"ITIL best practices recommends a validation of the solution by the ticket "
+"requester, who validates that the answer provided by the technician "
+"corresponds to the demand. However, if the requester does not fulfill this "
+"validation, it is possible to parameterize an administrative closure after a"
+" delay which can be configured at entity level (see :doc:`Assistance tab "
+"</modules/administration/entities>`). If this delay is set to zero, the "
+"ticket is automatically closed."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:86
+msgid "Satisfaction"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:88
+msgid "(I can't get no)"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:90
+msgid ""
+"A satisfaction survey is triggered when the ticket status is set to *Closed*"
+" and the triggering delay is elapsed. This triggering delay is parameterized"
+" at entity level (see :doc:`Delegate administration at entity level "
+"</modules/administration/entities>`)."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:94
+msgid "The automatic task that triggers the survey must be activated."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:96
+msgid ""
+"When ticket is closed, a notification that includes a link to the "
+"satisfaction survey can be sent to the requester. The requester will also "
+"have access to the survey from the ticket form in tab `Satisfaction`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:98
+msgid ""
+"The requester can then select the satisfaction level (from 0 to 5, given as "
+"stars) about the ticket solution. A comment can also be added."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:100
+msgid ""
+"Statistics on surveys are available in :doc:`statistics "
+"</modules/assistance/statistics>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:104
+msgid ""
+"the requester can change the answer to the satisfaction survey within a "
+"delay of 12 hours after first answer"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:105
+msgid ""
+"a notification can be sent when satisfaction survey is generated, but also "
+"on each answer to this survey"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:109
+msgid "See also"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketadvanced.rst:111
+msgid "See :doc:`Advanced configuration </modules/assistance/categories>`."
+msgstr ""

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/first-steps/view.rst:2
+msgid "View and manage records"
+msgstr ""
+
+#: ../../source/first-steps/view.rst:4
+msgid ""
+"The display of all the lists of records and of all the details concerning a "
+"record always works in the same way in GLPI. Whether it's a list of "
+"computers, phones or tickets, the presentation follows the same principle."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:6
+msgid "A list of elements can be obtained in 2 ways:"
+msgstr ""
+
+#: ../../source/first-steps/view.rst:8
+msgid "From the search engine"
+msgstr ""
+
+#: ../../source/first-steps/view.rst:10
+msgid ""
+"From the search engine, after determining the criteria and validating the "
+"search, a list of records is displayed. By default, no search criteria limit"
+" the list of recordings offered and the display is limited to the first "
+"``x`` records in the list, which is configurable in the preferences."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:12
+msgid "From another list"
+msgstr ""
+
+#: ../../source/first-steps/view.rst:14
+msgid ""
+"Some tabs offer a list of related items. For example, from a list of "
+"computers, click on the name of a computer then navigate to the software "
+"tab. The list of software installed on this computer is displayed."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:16
+msgid ""
+"Details concerning a record are displayed in the form of tabs grouping "
+"together similar information. For a computer, the financial information and "
+"the software list are in two separate tabs."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:19
+msgid "Customize the display"
+msgstr ""
+
+#: ../../source/first-steps/view.rst:21
+msgid ""
+"The columns displayed from the complete list of the inventory can be "
+"configured. Click on the button |btn_prefs|. It is possible to add, delete "
+"and order the displayed columns."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:28
+msgid "Management of display preferences"
+msgstr ""
+
+#: ../../source/first-steps/view.rst:23
+msgid ""
+"The global view applies to all profiles having access to a part of the "
+"inventory: the modification of this part will therefore be visible by all "
+"users."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:24
+msgid ""
+"The personal view applies only to the logged-in user and overrides the "
+"global view settings. This view is only available if you have the *User "
+"view* right regarding the *Search result display*."
+msgstr ""
+
+#: ../../source/first-steps/view.rst:26
+msgid ""
+"This tab also allows you to reset the display customization of the different"
+" lists. The user can, for each type of object, return to the default display"
+" by deleting this personalization."
+msgstr ""

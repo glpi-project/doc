@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:2
+msgid "Life cycle matrix"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:4
+msgid ""
+"Each profile having its own life cycle matrix, it is possible to refine "
+"which profile will be able to do which action."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:6
+msgid ""
+"The life cycle matrix controls object status changes, which implies it "
+"can block some actions. If a status is not activated, it won't be present"
+" in the list of status of the object."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:9
+msgid "Ticket life cycle matrix"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:11
+msgid ""
+"See :doc:`Ticket management rules "
+"</modules/assistance/tickets/ticketmanagement>`."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:-1
+msgid "The life cycle matrix of a problem (standard interface)"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:17
+msgid ""
+"In example above, a `New` ticket will never be put to `Waiting`, this "
+"status being not proposed in the ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:19
+msgid ""
+"Furthermore, a requester will not have access to solution validation "
+"form, because a solved ticket for which solution has been approved "
+"becomes closed, which is not authorized by the example."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:-1
+msgid "The life cycle matrix of a problem (simplified interface)"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:25
+msgid ""
+"For the simplified interface, ticket life cycle allows to define if user "
+"can close a ticket (solution approved) and if user can re-open it event "
+"if it is closed."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:28
+msgid "Problem life cycle matrix"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:30
+msgid "See :doc:`Ticket management rules </modules/assistance/problems>`."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:-1
+msgid "The life cycle matrix of a problem"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:36
+msgid ""
+"In example above, a `New` problem will never be put directly to status "
+"`Solved`, this status being not proposed in the problem."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:39
+msgid "Change life cycle matrix"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:41
+msgid "See :doc:`Ticket management rules </modules/assistance/changes>`."
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:-1
+msgid "The life cycle matrix of a change"
+msgstr ""
+
+#: ../../source/modules/assistance/lifecyclematrix.rst:47
+msgid ""
+"In example above, a `New` change will never be `Accepted` before having "
+"its status put to `Evaluation` or `Validation`, this status being not "
+"proposed in the change."
+msgstr ""
+

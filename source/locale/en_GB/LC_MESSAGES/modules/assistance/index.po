@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/assistance/index.rst:2
+msgid "Assistance"
+msgstr ""
+
+#: ../../source/modules/assistance/index.rst:4
+msgid ""
+"Assistance module allows users to create, follow and process tickets. "
+"Plannings, statistics and recurrent tickets are also available."
+msgstr ""
+
+#: ../../source/modules/assistance/index.rst:6
+msgid ""
+"Depending on profile permissions, it is possible as well to create, "
+"follow and process problems and changes."
+msgstr ""
+
+#: ../../source/modules/assistance/index.rst:8
+msgid ""
+"GLPI assistance module is compliant with ITIL best practises guide and "
+"integrates therefore some fields normalization. However, following ITIL "
+"best practises is recommanded but not mandatory and it is perfectly "
+"feasible, thanks to module's flexibility, to implement an assistance "
+"service tailored to the organization's needs."
+msgstr ""
+
+#: ../../source/modules/assistance/index.rst:23
+msgid ""
+"Tickets, Changes and Problems can be viewed globally in a Kanban view. "
+"For more information about the Kanban feature, please refer to the "
+":doc:`full documentation </modules/overview/kanban>`."
+msgstr ""
+

@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/first-steps/discovery.rst:2
+msgid "Understanding the interface"
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:4
+msgid ""
+"Depending on the user's profile, some menus and content may differ, but "
+"the logic of the interface remains the same."
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:6
+msgid ""
+"The GLPI interface is made up of different areas grouping together the "
+"application's functionalities according to their nature."
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:-1
+msgid "General interface of GLPI"
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:12
+msgid ""
+"The user menu allows you to manage your preferences, access help, change "
+"the current language, change your current profile and entity, and "
+"disconnect."
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:13
+msgid "The main menu allows you to navigate through the different modules."
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:14
+msgid ""
+"The breadcrumb trail allows you to locate the context of use of the main "
+"work area."
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:15
+msgid ""
+"The main working area is the privileged space for interaction with the "
+"application."
+msgstr ""
+
+#: ../../source/first-steps/discovery.rst:16
+msgid "The search box allows you to perform a global search at any time."
+msgstr ""
+

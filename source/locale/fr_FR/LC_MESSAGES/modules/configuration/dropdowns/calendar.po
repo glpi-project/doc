@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:2
+#: ../../source/modules/configuration/dropdowns/calendar.rst:9
+msgid "Calendar"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:4
+msgid ""
+"The calendars used within GLPI are configurable by entity. They are "
+"characterized by periods of opening as well as periods of closing."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:6
+msgid ""
+"These calendars are used in the :term:`SLA` (see Configure SLAs) and the "
+":doc:`configuration of entities <../../administration/entities>`."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:12
+msgid "Time ranges"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:14
+msgid ""
+"Corresponds to the opening time slots of the entity. You can add as many as "
+"necessary per day as long as these slots do not overlap."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:17
+#: ../../source/modules/configuration/dropdowns/calendar.rst:25
+msgid "Close times"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:18
+msgid ""
+"Lists the closing periods assigned to this calendar and allows you to add a "
+"new one; see :ref:`lca configuration of closing periods <conf-close-"
+"periods>`."
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:27
+msgid ""
+"The list of closure periods is a flat list of valid values. It can be "
+"delegated by entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:30
+msgid ""
+"A closure period consists of a name, a period and whether this closure is "
+"recurring or not."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:32
+msgid ""
+"Concerning the field Recurring, if it is in Yes it means that the period "
+"indicated is valid all the time. In this case GLPI would not care about the "
+"year indicated."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/calendar.rst:35
+msgid ""
+"Very useful to indicate the holidays recurring each year (Christmas, Victory"
+" of 1945, May 1 ...) or the period of closure of the company (closed every "
+"year from 1 to 31 August) and especially it avoids re-entering the same "
+"dates each year."
+msgstr ""

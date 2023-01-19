@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/dropdowns/general.rst:2
+msgid "Common"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:5
+#: ../../source/modules/configuration/dropdowns/general.rst:22
+msgid "Locations"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:7
+msgid ""
+"The list of locations is organized into a tree structure. Each location can "
+"have sub-locations (Location 1 > Sub-location 1 > Sub-sub-location 1). It "
+"can be delegated by entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:11
+msgid ""
+"In the record of a location, there is some information about it including:"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:13
+msgid "The parent location"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:14
+msgid "Building number"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:15
+msgid "Room number"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:16
+msgid "GPS coordinates (longitude, latitude, altitude)"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:17
+msgid "Street address"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:19
+msgid ""
+"If you allow GLPI to use your location, the map displayed when creating a "
+"new location will automatically show your approximate location to help make "
+"assigning GPS coordinates easier."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:24
+msgid ""
+"Displays a list of locations that are children of the current location and "
+"gives an option to add new child locations."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:27
+msgid "Items"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:29
+msgid ""
+"Displays a list of items that have this location assigned to them. You are "
+"able to filter this list by a specific item type (Computers, Monitors, etc)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst:2
+msgid "Translation"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst:4
+msgid ""
+"This tab is reserved for names and only appears if the translation of "
+"dropdown names has been enabled in the general configuration."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst-1
+msgid "Dropdown translation tab"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst:11
+msgid ""
+"This tab lists all current translations of the dropdown name and allows you "
+"to add new ones."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:37
+msgid "Sockets"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:41
+msgid ""
+"Lists the network sockets assigned to this location and allows to add a new "
+"one. In this case, when selecting a socket on a network port of a device, "
+"only the available network sockets of the device location (and child "
+"locations) are shown. The addition can be single via the top part or "
+"multiple via the bottom part. For adding multiple sockets, you can prefix "
+"the socket number as shown in the screenshot. Another example: considering "
+"the prefix `bru`, `9` and `11` the socket numbers and `srv` the suffix; the "
+"network sockets created will be named: `bru09srv`, `bru10srv` and "
+"`bru11srv`."
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:49
+msgid "Status of items"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:51
+msgid ""
+"The list of statuses is organized into a tree structure. Each status can "
+"have sub-locations (Status 1 > Sub-status 1 > Sub-sub-status 1). It can be "
+"delegated by entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:56
+msgid "Statuses of items"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:58
+msgid ""
+"Displays a list of statuses that are children of the current status and "
+"gives an option to add new child statuses."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:65
+msgid "Manufacturers"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:67
+#: ../../source/modules/configuration/dropdowns/general.rst:74
+#: ../../source/modules/configuration/dropdowns/general.rst:88
+msgid "This list is a flat list of values valid for all entities."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:69
+#: ../../source/modules/configuration/dropdowns/general.rst:79
+#: ../../source/modules/configuration/dropdowns/general.rst:93
+msgid "This dropdown type cannot be translated."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:72
+msgid "Blacklists"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:76
+msgid ""
+"It includes the value you want to blacklist as well as what type to "
+"blacklist (IP, MAC, serial number, UUID or email). Blacklists are used for "
+"automatic imports via an inventory agent or by the email collector."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:86
+msgid "Blacklisted email content"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/general.rst:90
+msgid ""
+"It allows the email collector to not import an email containing the defined "
+"text. This can allow, among other things, to fight against spam in the case "
+"of the authorization of ticket creation for anonymous emails."
+msgstr ""

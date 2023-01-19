@@ -1,0 +1,915 @@
+[main]
+host = https://www.transifex.com
+
+[glpi-user-documentation.advanced--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/advanced/index.po
+source_file = build/locale/advanced/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.advanced--status]
+file_filter = source/locale/<lang>/LC_MESSAGES/advanced/status.po
+source_file = build/locale/advanced/status.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.advanced--cache]
+file_filter = source/locale/<lang>/LC_MESSAGES/advanced/cache.po
+source_file = build/locale/advanced/cache.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--overview--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/overview/index.po
+source_file = build/locale/modules/overview/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--overview--actions]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/overview/actions.po
+source_file = build/locale/modules/overview/actions.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--overview--kanban]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/overview/kanban.po
+source_file = build/locale/modules/overview/kanban.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--overview--status]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/overview/status.po
+source_file = build/locale/modules/overview/status.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--overview--templates]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/overview/templates.po
+source_file = build/locale/modules/overview/templates.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/index.po
+source_file = build/locale/modules/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/index.po
+source_file = build/locale/modules/management/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--domains]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/domains.po
+source_file = build/locale/modules/management/domains.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--licenses]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/licenses.po
+source_file = build/locale/modules/management/licenses.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--data-centers]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/data-centers.po
+source_file = build/locale/modules/management/data-centers.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--budgets]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/budgets.po
+source_file = build/locale/modules/management/budgets.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--clusters]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/clusters.po
+source_file = build/locale/modules/management/clusters.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--documents]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/documents.po
+source_file = build/locale/modules/management/documents.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--contacts]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/contacts.po
+source_file = build/locale/modules/management/contacts.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--suppliers]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/suppliers.po
+source_file = build/locale/modules/management/suppliers.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--certificates]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/certificates.po
+source_file = build/locale/modules/management/certificates.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--lines]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/lines.po
+source_file = build/locale/modules/management/lines.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--management--contract]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/management/contract.po
+source_file = build/locale/modules/management/contract.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--peripherals]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/peripherals.po
+source_file = build/locale/modules/assets/peripherals.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/index.po
+source_file = build/locale/modules/assets/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--global]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/global.po
+source_file = build/locale/modules/assets/global.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--consumables]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/consumables.po
+source_file = build/locale/modules/assets/consumables.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--softwares]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/softwares.po
+source_file = build/locale/modules/assets/softwares.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--printers]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/printers.po
+source_file = build/locale/modules/assets/printers.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--computers]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/computers.po
+source_file = build/locale/modules/assets/computers.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--network-equipments]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/network-equipments.po
+source_file = build/locale/modules/assets/network-equipments.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--virtualization]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/virtualization.po
+source_file = build/locale/modules/assets/tabs/virtualization.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--links]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/links.po
+source_file = build/locale/modules/assets/tabs/links.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--volumes]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/volumes.po
+source_file = build/locale/modules/assets/tabs/volumes.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--network-ports]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/network-ports.po
+source_file = build/locale/modules/assets/tabs/network-ports.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--connexions]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/connexions.po
+source_file = build/locale/modules/assets/tabs/connexions.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--softwares]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/softwares.po
+source_file = build/locale/modules/assets/tabs/softwares.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--os]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/os.po
+source_file = build/locale/modules/assets/tabs/os.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--antivirus]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/antivirus.po
+source_file = build/locale/modules/assets/tabs/antivirus.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--tabs--components]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/tabs/components.po
+source_file = build/locale/modules/assets/tabs/components.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--phones]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/phones.po
+source_file = build/locale/modules/assets/phones.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--cartridges]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/cartridges.po
+source_file = build/locale/modules/assets/cartridges.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assets--displays]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assets/displays.po
+source_file = build/locale/modules/assets/displays.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--reminders]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/reminders.po
+source_file = build/locale/modules/tools/reminders.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/index.po
+source_file = build/locale/modules/tools/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--reports]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/reports.po
+source_file = build/locale/modules/tools/reports.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--knowledgebase]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/knowledgebase.po
+source_file = build/locale/modules/tools/knowledgebase.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--reservations]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/reservations.po
+source_file = build/locale/modules/tools/reservations.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--rssfeed]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/rssfeed.po
+source_file = build/locale/modules/tools/rssfeed.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tools--projects]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tools/projects.po
+source_file = build/locale/modules/tools/projects.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--users--usersimport]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/users/usersimport.po
+source_file = build/locale/modules/administration/users/usersimport.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--users--users]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/users/users.po
+source_file = build/locale/modules/administration/users/users.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/index.po
+source_file = build/locale/modules/administration/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--profiles--profiles]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/profiles/profiles.po
+source_file = build/locale/modules/administration/profiles/profiles.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--profiles--configurationtab]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/profiles/configurationtab.po
+source_file = build/locale/modules/administration/profiles/configurationtab.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--profiles--assistancetab]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/profiles/assistancetab.po
+source_file = build/locale/modules/administration/profiles/assistancetab.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--profiles--toolstab]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/profiles/toolstab.po
+source_file = build/locale/modules/administration/profiles/toolstab.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--profiles--administrationtab]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/profiles/administrationtab.po
+source_file = build/locale/modules/administration/profiles/administrationtab.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--groups]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/groups.po
+source_file = build/locale/modules/administration/groups.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--logs]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/logs.po
+source_file = build/locale/modules/administration/logs.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--dictionnaries]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/dictionnaries.po
+source_file = build/locale/modules/administration/dictionnaries.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--entities]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/entities.po
+source_file = build/locale/modules/administration/entities.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--rules--ticketbusinessrules]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/rules/ticketbusinessrules.po
+source_file = build/locale/modules/administration/rules/ticketbusinessrules.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--rules--inventorytools]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/rules/inventorytools.po
+source_file = build/locale/modules/administration/rules/inventorytools.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--rules--rulesmanagement]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/rules/rulesmanagement.po
+source_file = build/locale/modules/administration/rules/rulesmanagement.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--rules--userauthorizations]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/rules/userauthorizations.po
+source_file = build/locale/modules/administration/rules/userauthorizations.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--administration--mailqueue]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/mailqueue.po
+source_file = build/locale/modules/administration/mailqueue.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--notes]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/notes.po
+source_file = build/locale/modules/tabs/notes.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--changes]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/changes.po
+source_file = build/locale/modules/tabs/changes.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--contracts]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/contracts.po
+source_file = build/locale/modules/tabs/contracts.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--management]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/management.po
+source_file = build/locale/modules/tabs/management.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--knowledgebase]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/knowledgebase.po
+source_file = build/locale/modules/tabs/knowledgebase.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--historical]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/historical.po
+source_file = build/locale/modules/tabs/historical.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--documents]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/documents.po
+source_file = build/locale/modules/tabs/documents.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--contacts]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/contacts.po
+source_file = build/locale/modules/tabs/contacts.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--suppliers]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/suppliers.po
+source_file = build/locale/modules/tabs/suppliers.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--templates]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/templates.po
+source_file = build/locale/modules/tabs/templates.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--external-links]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/external-links.po
+source_file = build/locale/modules/tabs/external-links.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--debug]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/debug.po
+source_file = build/locale/modules/tabs/debug.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--tickets]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/tickets.po
+source_file = build/locale/modules/tabs/tickets.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--problems]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/problems.po
+source_file = build/locale/modules/tabs/problems.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--elements]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/elements.po
+source_file = build/locale/modules/tabs/elements.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--tabs--all]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/tabs/all.po
+source_file = build/locale/modules/tabs/all.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/index.po
+source_file = build/locale/modules/assistance/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--changes]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/changes.po
+source_file = build/locale/modules/assistance/changes.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--prioritymatrix]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/prioritymatrix.po
+source_file = build/locale/modules/assistance/prioritymatrix.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--lifecyclematrix]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/lifecyclematrix.po
+source_file = build/locale/modules/assistance/lifecyclematrix.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--actors]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/actors.po
+source_file = build/locale/modules/assistance/actors.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--statistics]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/statistics.po
+source_file = build/locale/modules/assistance/statistics.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--categories]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/categories.po
+source_file = build/locale/modules/assistance/categories.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--tickets]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/tickets.po
+source_file = build/locale/modules/assistance/tickets.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--tickets--ticketopening]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/tickets/ticketopening.po
+source_file = build/locale/modules/assistance/tickets/ticketopening.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--tickets--ticketmanagement]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/tickets/ticketmanagement.po
+source_file = build/locale/modules/assistance/tickets/ticketmanagement.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--tickets--ticketlifecycle]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/tickets/ticketlifecycle.po
+source_file = build/locale/modules/assistance/tickets/ticketlifecycle.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--tickets--recurrentticket]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/tickets/recurrentticket.po
+source_file = build/locale/modules/assistance/tickets/recurrentticket.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--tickets--ticketadvanced]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/tickets/ticketadvanced.po
+source_file = build/locale/modules/assistance/tickets/ticketadvanced.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--problems]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/problems.po
+source_file = build/locale/modules/assistance/problems.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--assistance--planning]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/assistance/planning.po
+source_file = build/locale/modules/assistance/planning.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--fields-unicity]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/fields-unicity.po
+source_file = build/locale/modules/configuration/fields-unicity.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/index.po
+source_file = build/locale/modules/configuration/general/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--api]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/api.po
+source_file = build/locale/modules/configuration/general/api.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--logs_purge]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/logs_purge.po
+source_file = build/locale/modules/configuration/general/logs_purge.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--system]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/system.po
+source_file = build/locale/modules/configuration/general/system.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--sql_replicas]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/sql_replicas.po
+source_file = build/locale/modules/configuration/general/sql_replicas.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--management]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/management.po
+source_file = build/locale/modules/configuration/general/management.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--impact_analysis]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/impact_analysis.po
+source_file = build/locale/modules/configuration/general/impact_analysis.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--glpi_network]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/glpi_network.po
+source_file = build/locale/modules/configuration/general/glpi_network.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--assistance]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/assistance.po
+source_file = build/locale/modules/configuration/general/assistance.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--general_configuration]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/general_configuration.po
+source_file = build/locale/modules/configuration/general/general_configuration.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--assets]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/assets.po
+source_file = build/locale/modules/configuration/general/assets.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--default_values]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/default_values.po
+source_file = build/locale/modules/configuration/general/default_values.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--performances]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/performances.po
+source_file = build/locale/modules/configuration/general/performances.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--general--security]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/general/security.po
+source_file = build/locale/modules/configuration/general/security.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/index.po
+source_file = build/locale/modules/configuration/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--external_links]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/external_links.po
+source_file = build/locale/modules/configuration/external_links.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--plugins]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/plugins.po
+source_file = build/locale/modules/configuration/plugins.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--authentication--configuration]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/authentication/configuration.po
+source_file = build/locale/modules/configuration/authentication/configuration.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--authentication--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/authentication/index.po
+source_file = build/locale/modules/configuration/authentication/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--authentication--ldap]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/authentication/ldap.po
+source_file = build/locale/modules/configuration/authentication/ldap.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--authentication--imap]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/authentication/imap.po
+source_file = build/locale/modules/configuration/authentication/imap.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--authentication--other]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/authentication/other.po
+source_file = build/locale/modules/configuration/authentication/other.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--service_levels]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/service_levels.po
+source_file = build/locale/modules/configuration/service_levels.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--crontasks]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/crontasks.po
+source_file = build/locale/modules/configuration/crontasks.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--collectors]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/collectors.po
+source_file = build/locale/modules/configuration/collectors.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/index.po
+source_file = build/locale/modules/configuration/dropdowns/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--assistance]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/assistance.po
+source_file = build/locale/modules/configuration/dropdowns/assistance.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--general]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/general.po
+source_file = build/locale/modules/configuration/dropdowns/general.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--calendar]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/calendar.po
+source_file = build/locale/modules/configuration/dropdowns/calendar.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--tabs--translation]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/tabs/translation.po
+source_file = build/locale/modules/configuration/dropdowns/tabs/translation.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--others]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/others.po
+source_file = build/locale/modules/configuration/dropdowns/others.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--dropdowns--internet]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/dropdowns/internet.po
+source_file = build/locale/modules/configuration/dropdowns/internet.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--notifications--definitions]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/notifications/definitions.po
+source_file = build/locale/modules/configuration/notifications/definitions.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--notifications--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/notifications/index.po
+source_file = build/locale/modules/configuration/notifications/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--notifications--email_notifications]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/notifications/email_notifications.po
+source_file = build/locale/modules/configuration/notifications/email_notifications.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--notifications--alarm_options]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/notifications/alarm_options.po
+source_file = build/locale/modules/configuration/notifications/alarm_options.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--notifications--template_example]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/notifications/template_example.po
+source_file = build/locale/modules/configuration/notifications/template_example.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--notifications--templates]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/notifications/templates.po
+source_file = build/locale/modules/configuration/notifications/templates.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.modules--configuration--components]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/configuration/components.po
+source_file = build/locale/modules/configuration/components.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.cli]
+file_filter = source/locale/<lang>/LC_MESSAGES/cli.po
+source_file = build/locale/cli.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--search]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/search.po
+source_file = build/locale/first-steps/search.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--navigation-modules]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/navigation-modules.po
+source_file = build/locale/first-steps/navigation-modules.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/index.po
+source_file = build/locale/first-steps/index.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--preferences]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/preferences.po
+source_file = build/locale/first-steps/preferences.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--interfaces]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/interfaces.po
+source_file = build/locale/first-steps/interfaces.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--conclusion]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/conclusion.po
+source_file = build/locale/first-steps/conclusion.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--general]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/general.po
+source_file = build/locale/first-steps/general.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--access-glpi]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/access-glpi.po
+source_file = build/locale/first-steps/access-glpi.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--discovery]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/discovery.po
+source_file = build/locale/first-steps/discovery.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--saved-searches]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/saved-searches.po
+source_file = build/locale/first-steps/saved-searches.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--view]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/view.po
+source_file = build/locale/first-steps/view.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.first-steps--manage-your-password]
+file_filter = source/locale/<lang>/LC_MESSAGES/first-steps/manage-your-password.po
+source_file = build/locale/first-steps/manage-your-password.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.glossary]
+file_filter = ./source/locale/<lang>/LC_MESSAGES/glossary.po
+source_file = build/locale/glossary.pot
+source_lang = en
+type = PO
+
+[glpi-user-documentation.glossary_]
+file_filter = source/locale/<lang>/LC_MESSAGES/glossary.po
+source_file = build/locale/glossary.pot
+source_lang = en
+type = PO
+

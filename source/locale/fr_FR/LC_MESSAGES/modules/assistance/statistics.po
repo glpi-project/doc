@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/assistance/statistics.rst:2
+msgid "Display statistics"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:4
+msgid ""
+"Statistics group reports on tickets as well as reports coming from plugins."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:6
+msgid "Reports can be parameterized on a given time slot."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:9
+msgid "Reports on tickets"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:11
+msgid "**Global:**"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:13
+msgid "Display general statistics on tickets:"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:15
+#: ../../source/modules/assistance/statistics.rst:26
+msgid "Number of opened , solved, late and closed tickets;"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:16
+msgid "Average time of processing, resolution, closure and real duration;"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:17
+msgid "Number of satisfaction surveys, opened or answered;"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:18
+msgid "Average satisfaction."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:20
+msgid "**By ticket:**"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:22
+msgid ""
+"Display statistics on tickets items, selected via a dropdown (requester, "
+"assigned technician, impact...)."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:24
+msgid "Table shows following items in four groups:"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:27
+msgid ""
+"Number of opened satisfaction surveys, number of answers and average "
+"satisfaction;"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:28
+msgid ""
+"Average `Take into account` time (duration between ticket opening and first "
+"action on ticket, follow-up, task or solution), resolution time or closure "
+"time;"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:29
+msgid ""
+"Real ticket duration, average and total (real duration of allocated "
+"technician time for actions relevant for the ticket)."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:31
+msgid "**By hardware characteristics:**"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:33
+msgid ""
+"Displays statistics on computer items defined in associated items of a "
+"ticket (for example, model, operating system, motherboard...)"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:35
+msgid "The table groups the same numbers as defined in statistics by tickets."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:37
+msgid ""
+"For these two types of reports, the button |stats_item| located on each "
+"result line allows to display the statistics as a graphic."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:52
+msgid "stats_item"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:39
+msgid "**By hardware:**"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:41
+msgid ""
+"Display number of tickets assigned to each hardware, sorted by number of "
+"tickets."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:43
+msgid ""
+"The option **See graphics**, when available, allows to display result as a "
+"pie chart."
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:47
+msgid ""
+"When statistics are done on a tree structured item (groups or categories for"
+" example), two presentations are available:"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:49
+msgid "Normal: all values are displayed"
+msgstr ""
+
+#: ../../source/modules/assistance/statistics.rst:50
+msgid ""
+"Tree: only values at same level are displayed, taking into account the "
+"tickets attached to child elements. It is possible to navigate into values "
+"tree."
+msgstr ""

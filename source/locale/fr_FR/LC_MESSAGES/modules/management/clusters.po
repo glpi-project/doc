@@ -1,0 +1,365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/management/clusters.rst:2
+msgid "Clusters"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:4
+msgid ""
+"A GLPI cluster is a grouping of several assets, which can be computers or "
+"network equipments."
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:8
+msgid ""
+"GLPI clusters are taken into account when performing an impact analysis."
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:10
+msgid "Todo"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:11
+msgid "link to impact analysis representation"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst-1
+msgid "A GLPI cluster"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:19
+msgid "Description of specific fields"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:21
+msgid "**UUID**: Unique identifier of the cluster"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:22
+msgid ""
+"**Version**: In the case of a software cluster, the version number can be "
+"entered"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:23
+msgid "**Update Source**: How the cluster's data were updated"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:27
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:30
+msgid "Elements"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:32
+msgid ""
+"This tab lists the cluster's elements and allow to add new assets to the "
+"cluster."
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst-1
+msgid "List of cluster's elements"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:39
+msgid "Network ports"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:41
+msgid ""
+"This tab list cluster's network interfaces and allows to create new ones."
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:43
+msgid "Possible interfaces are:"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:45
+msgid "Ethernet port"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:46
+msgid "WiFi port"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:47
+msgid "FiberChannel port"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:48
+msgid "Port aggregate"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:49
+msgid "Port alias"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:50
+msgid "Dial up line connection"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst:51
+msgid "Local loop-back"
+msgstr ""
+
+#: ../../source/modules/management/clusters.rst-1
+msgid "List of cluster's network interfaces"
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:2
+msgid "Associated Contracts"
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:4
+msgid "The *Contracts* tab is used to show or add linked contracts."
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst-1
+msgid "Contract display screen"
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:11
+msgid ""
+"For each associated contract, the name, number, contract type, supplier, "
+"start date and initial duration of the contract are listed. In the last "
+"field, the end date of the contract is also shown with a red display if the "
+"date is earlier than the current date."
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:13
+msgid ""
+"Refer to :doc:`contract management </modules/management/contract>` for more "
+"information."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:2
+msgid "Documents"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:4
+msgid ""
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:6
+msgid ""
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst-1
+msgid "Document creation screen"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:14
+msgid ""
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:2
+msgid "Tickets"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:4
+msgid ""
+"The *Tickets* tab is used to create a ticket associated with the current "
+"object. It also lists the tickets already linked to the object."
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst-1
+msgid "Image of the ticket list"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:11
+msgid "A second table lists the tickets attached to the linked elements"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:14
+msgid "Any deletion or addition of a ticket is recorded in the history."
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:2
+msgid "Problems"
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:4
+msgid ""
+"The *Problems* tab is used to create a problem associated with the current "
+"object. It also lists the changes already linked to the object."
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:6
+msgid "This summary table includes for each object:"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:8
+#: ../../source/modules/tabs/problems.rst:8
+msgid "Status"
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:9
+msgid ""
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the problem)"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:10
+#: ../../source/modules/tabs/problems.rst:10
+msgid "Priority"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:11
+#: ../../source/modules/tabs/problems.rst:11
+msgid "Requestor(s) and assigned technician(s)"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:12
+#: ../../source/modules/tabs/problems.rst:12
+msgid "Associated elements"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:13
+#: ../../source/modules/tabs/problems.rst:13
+msgid "Category"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:14
+#: ../../source/modules/tabs/problems.rst:14
+msgid "Name"
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:15
+msgid "Column indicating the number of scheduled tasks"
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst-1
+msgid "Creation and list of associated problems"
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:22
+msgid "A second table lists the problems attached to the related elements"
+msgstr ""
+
+#: ../../source/modules/tabs/problems.rst:25
+msgid "Any deletion or addition of a problem is recorded in the history."
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:2
+msgid "Changes"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:4
+msgid ""
+"The *Changes* tab is used to create a change associated with the current "
+"object. It also lists the changes already linked to the object."
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:6
+msgid "This summary table includes the following fields for each object:"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:9
+msgid ""
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the change)"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:15
+msgid "Number of scheduled tasks"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst-1
+msgid "Creation and list of associated changes"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:22
+msgid "A second table lists the changes attached to the related elements"
+msgstr ""
+
+#: ../../source/modules/tabs/changes.rst:25
+msgid "Any deletion or addition of a change is recorded in the history."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
+msgstr ""

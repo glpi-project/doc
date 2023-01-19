@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/assets/tabs/softwares.rst:2
+msgid "Software"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:4
+msgid ""
+"This tab, named `Softwares` and visible in a `Computer` entry, allows to "
+"manage the software installed on a computer. Those software are sorted by "
+"their category and are characterized by name, version and version status."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst-1
+msgid "Software list"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:10
+msgid ""
+"To install a software, first select its name in the drop-down list, then its"
+" version."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst-1
+msgid "Adding a software"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:16
+msgid "It is possible to associate a license to a software on a computer."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:18
+msgid ""
+"To associate a license, first select the software in the drop-down list, "
+"then the wanted license."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst-1
+msgid "Adding a license"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:24
+msgid ""
+"If the license is associated with a software that is already installed on "
+"the computer, it will be presented in the list of software."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst-1
+msgid "License from a software"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:30
+msgid "Otherwise it will be displayed in a separate table."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst-1
+msgid "List of licenses"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:38
+msgid ""
+"the drop-down list enumerates the software that are available in the entity"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:39
+msgid ""
+"licenses management can be found in `Assets > Softwares`. See :doc:`Manage "
+"software <../softwares>`"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:44
+msgid ""
+"It is possible via mass actions to install on a computer a software selected"
+" from its license."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:48
+msgid ""
+"Every deletion or addition of a software or a license is recorded in the "
+"history of the computer."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/softwares.rst:52
+msgid ""
+"If using native inventory or third-party inventory tool, the software "
+"information can be automatically imported and updated."
+msgstr ""
