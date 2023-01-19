@@ -3,3 +3,5 @@ build/
 # log
 docx.log
 .vscode/settings.json
+#compiled gettext
+*.mo
