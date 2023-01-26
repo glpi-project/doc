@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/administration/users/users.rst:2
+msgid "Users"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:4
+msgid ""
+"User management allows to add, modify, delete, search users and to import"
+" and export users list."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:11
+msgid ""
+"It is possible to deactivate a user if needed. If deactivated, the user "
+"can no longer be selected in drop-down menu for tickets or inventories, "
+"but keeps associated items and tickets. Validity dates can also define "
+"the activity time slot of user: the user account will be considered as "
+"active only after the start date and/or before the end date. Both dates "
+"can be defined independently."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:13
+msgid ""
+"A photo can be added manually or imported automatically from a directory "
+"(see :doc:`Authenticate users with LDAP "
+"</modules/configuration/authentification/ldap>`)."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:16
+msgid "Impersonate"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:18
+msgid ""
+"For debugging or administrative purposes, it's possible for a “super-"
+"admin” account (or any profile with the configuration rights) to "
+"temporarily take the ownership of another user’s account without knowing "
+"its password. An icon is available at the top of the user´s form to "
+"perform this action."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:-1
+msgid "Impersonate user icon"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:25
+msgid "To note:"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:27
+msgid ""
+"A special banner will show permanently as long as the function is active "
+"and will allow you to exit this mode."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:28
+msgid ""
+"After the exit, the admin will retrieve its session as it was before "
+"using the feature."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:29
+msgid ""
+"The history of actions taken by the administrator will appear with a "
+"special note: “user (xxx) impersonated by admin (yyy)”."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:-1
+msgid "Impersonate banner"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:36
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:39
+msgid "Authorizations"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:41
+msgid ""
+"This tab allows to manage user authorizations. To add an authorization, "
+"select entity for which authorizations must be given, then select the "
+"profile to attribute. the option `Recursive` allows to associate the "
+"chosen profile to all sub-entities of selected entities."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:43
+msgid "A summary tab displays already attributed authorizations for the user."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:46
+msgid "Groups"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:48
+msgid ""
+"This tab lists the groups associated to the user. Table includes group "
+"name, whether the group is dynamic (i.e. linked to a directory service), "
+"whether the user is delegatee or manager for the group (see :doc:`Manage "
+"groups </modules/administration/groups>`)."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:50
+msgid ""
+"If modify user authorization is granted, it is also possible from this "
+"tab to assign a group to the user."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:53
+msgid "Settings"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:55
+msgid ""
+"This tab allows to edit user's settings (see :doc:`Manage settings "
+"</first-steps/preferences>`). In order to be able to modify data in this "
+"tab, general configuration modification authorization must be granted."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:58
+msgid "Used items"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:60
+msgid ""
+"This tab lists the items for which user is defined in field *User* of the"
+" item or for which user is member of the group defined in field *Group* "
+"of the item."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:62
+msgid "See :doc:`Tab \"Used items\" </Les_différents_onglets/Onglet_Eléments>`"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:65
+msgid "Managed items"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:67
+msgid ""
+"This tab lists the items for which user is defined in field *Technician "
+"in Charge* of the item or for which user is member of the group defined "
+"in field *Group in Charge* of the item."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:69
+msgid "See :doc:`Tab \"Managed items\" </Les_différents_onglets/Onglet_Eléments>`"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:72
+msgid "Reservations"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:74
+msgid ""
+"This tab lists passed, current and future reservations of the user. In "
+"order to see this tab, read authorization on reservation management must "
+"be granted."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:76
+msgid ""
+"See :doc:`Tab \"Reservations\" "
+"</Les_différents_onglets/Onglet_Réservations>`"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:79
+msgid "Synchronization"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:81
+msgid ""
+"This tab is displayed if *Update Authentication and Synchronization* "
+"right is granted. It allows to change authentication method for the user "
+"and to force its synchronization."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:84
+msgid "External Links"
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:86
+msgid "This tab list external links defined for users."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:88
+msgid "See :doc:`Tab \"Links\" </modules/tabs/external-links>`"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:2
+msgid "Tickets"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:4
+msgid ""
+"The *Tickets* tab is used to create a ticket associated with the current "
+"object. It also lists the tickets already linked to the object."
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:-1
+msgid "Image of the ticket list"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:11
+msgid "A second table lists the tickets attached to the linked elements"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:14
+msgid "Any deletion or addition of a ticket is recorded in the history."
+msgstr ""
+
+#: ../../source/modules/administration/users/users.rst:92
+msgid ""
+"For users, this tab allows to list tickets created by the user but also "
+"to create directly a ticket (the user will then be defined automatically "
+"as *Requester*)."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:2
+msgid "Documents"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:4
+msgid ""
+"Additional information is stored in the form of external documents which "
+"are files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of "
+"the documents themselves </modules/management/documents>` is dealt with "
+"in another chapter."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:6
+msgid ""
+"It is also possible to quickly create a document via this tab by "
+"specifying the desired file and optionally the field in which the new "
+"document is to be placed. The name of the created document will be based "
+"on the name of the added file."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:-1
+msgid "Document creation screen"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:14
+msgid ""
+"When you delete a document from this tab via mass actions, you only "
+"remove the link between the object and the document; the document itself "
+"is still present."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The "
+"following information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between "
+"the old and the new value (For example with location field: Change HQ to "
+"Remote Office A), or the explanation of the action which was carried out "
+"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the "
+"modification of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:2
+msgid "Debugging information"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:4
+msgid ""
+"If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
+"appear before the *All* tab. This tab offers information to help you "
+"resolve an issue."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:6
+msgid ""
+"For example, for a computer, you have one or more tables depending on the"
+" affected object (financial information, reservations...) listing the "
+"notifications that will be triggered on this computer with:"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:8
+msgid "Triggering event"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:9
+msgid "Recipient(s)"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:10
+msgid "Notification model used"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:11
+msgid "Recipient(s) email address"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:-1
+msgid "Debugging page"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab."
+" This shows all of the tabs of an object's form in one view, one below "
+"the other."
+msgstr ""
+

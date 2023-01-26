@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/tools/projects.rst:2
+msgid "Manage projects"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:4
+msgid ""
+"Project management in GLPI allows to follow entirely a project's progress by"
+" creating tasks and building teams; projects can be optionally linked to a "
+":doc:`change </modules/assistance/changes>`."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:6
+msgid "A GLPI project allows:"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:8
+msgid "defining tasks associated to the project and following their progress;"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:9
+msgid "creating teams for a project and its tasks;"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:10
+msgid "triggering sub-projects inside the project;"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:11
+msgid "building GANTT diagrams;"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:12
+msgid "using Kanban method;"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:13
+msgid "attaching costs;"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:14
+msgid "linking to GLPI ITIL items."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:16
+msgid ""
+"A project can be hierarchical, a project can therefore have sub-projects."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:18
+msgid ""
+"A project is characterized by name, code, state, type, provisional and real "
+"dates, percent done."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:20
+#: ../../source/modules/tools/projects.rst:119
+msgid ""
+"Distinct management teams can by composed of users, groups, suppliers and "
+"contacts."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:22
+msgid ""
+"Several GANTT diagrams are available for each project (see tab *GANTT*)."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:24
+msgid ""
+"Project management relies on two types of items: project and project task."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:27
+#: ../../source/modules/tools/projects.rst:53
+msgid "Project"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:30
+#: ../../source/modules/tools/projects.rst:133
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:33
+#: ../../source/modules/tools/projects.rst:136
+msgid "Project tasks"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:35
+msgid ""
+"This tab allows to add new tasks to the project. It displays also already "
+"defined tasks with, for each task, its name, type, status, planned start and"
+" end dates, real start and end dates, percent done and parent task name."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst-1
+msgid "Project's tasks"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:43
+msgid "Project team"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:45
+msgid ""
+"This tab allows to add new members to the project team, this member being a "
+"contact, a supplier or a group. It lists also members of project team with "
+"for each member its type."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst-1
+msgid "Project's team"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:55
+msgid ""
+"This tab displays project's sub-projects. A sub-project is defined the same "
+"way as a project, the only difference being that the field `As child of` is "
+"defined."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst-1
+msgid "A project's sub-projects"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:62
+msgid "GANTT"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:64
+msgid ""
+"A GANTT diagram is available for each project. A global GANTT diagram is "
+"also available, including projects defined as visible in this global diagram"
+" (field `Show on global GANTT` of the project form)."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst-1
+msgid "GANTT diagram"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:71
+msgid "Kanban"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:73
+msgid "This tab provides an interface to use Kanban method."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst-1
+msgid "Kanban interface in GLPI"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:79
+msgid ""
+"For more information about the Kanban feature, please refer to the "
+":doc:`full documentation </modules/overview/kanban>`."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:83
+msgid "Costs"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:85
+msgid ""
+"Costs can be attached to projects; the costs of the tickets attached to "
+"project's tasks will sum up to these costs."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:89
+msgid "ITIL objects"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:91
+msgid ""
+"This tab allows to attach to the project GLPI ITIL objects: tickets, "
+"problems and changes. It is also possible to create these objects directly "
+"from this tab."
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:2
+msgid "Associated elements"
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:4
+msgid "The *Items* tab is used to show or add linked assets."
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst-1
+msgid "Adding and viewing an element"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:2
+msgid "Documents"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:4
+msgid ""
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:6
+msgid ""
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst-1
+msgid "Document creation screen"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:14
+msgid ""
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:2
+msgid "Associated Contracts"
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:4
+msgid "The *Contracts* tab is used to show or add linked contracts."
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst-1
+msgid "Contract display screen"
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:11
+msgid ""
+"For each associated contract, the name, number, contract type, supplier, "
+"start date and initial duration of the contract are listed. In the last "
+"field, the end date of the contract is also shown with a red display if the "
+"date is earlier than the current date."
+msgstr ""
+
+#: ../../source/modules/tabs/contracts.rst:13
+msgid ""
+"Refer to :doc:`contract management </modules/management/contract>` for more "
+"information."
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:2
+msgid "Notes"
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:4
+msgid ""
+"The *Notes* tab provides a free text field for storing additional "
+"information. Notes are displayed in the order of their creation."
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst-1
+msgid "View and enter a note"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:2
+msgid "Debugging information"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:4
+msgid ""
+"If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
+"appear before the *All* tab. This tab offers information to help you resolve"
+" an issue."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:6
+msgid ""
+"For example, for a computer, you have one or more tables depending on the "
+"affected object (financial information, reservations...) listing the "
+"notifications that will be triggered on this computer with:"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:8
+msgid "Triggering event"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:9
+msgid "Recipient(s)"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:10
+msgid "Notification model used"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:11
+msgid "Recipient(s) email address"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst-1
+msgid "Debugging page"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:109
+msgid "Project task"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:111
+msgid "Task item is quite similar to a project."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:113
+msgid "A project task can also be a project sub-task."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:117
+msgid ""
+"A task is characterized by name, state, type, provisional and real dates, "
+"percent done."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst-1
+msgid "A task"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:126
+msgid ""
+"A project task is not an independent item, it can only be accessed through "
+"the `Project tasks` tab of the project owning the task."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:128
+msgid "Tasks can be attached to tickets in order to plan interventions."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:130
+msgid ""
+"Planned and actual duration are also defined for a task, reported at project"
+" level together with attached tickets duration."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:138
+msgid "This tab allows to display and add sub-tasks."
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:141
+msgid "Task team"
+msgstr ""
+
+#: ../../source/modules/tools/projects.rst:143
+msgid "This tab defines the team in charge of the task."
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:2
+msgid "Tickets"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:4
+msgid ""
+"The *Tickets* tab is used to create a ticket associated with the current "
+"object. It also lists the tickets already linked to the object."
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst-1
+msgid "Image of the ticket list"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:11
+msgid "A second table lists the tickets attached to the linked elements"
+msgstr ""
+
+#: ../../source/modules/tabs/tickets.rst:14
+msgid "Any deletion or addition of a ticket is recorded in the history."
+msgstr ""

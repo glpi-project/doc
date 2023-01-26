@@ -1,0 +1,572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/crontasks.rst:2
+msgid "Configure automatic actions"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:4
+msgid ""
+"GLPI has multiple automatic actions (also referred to as crontasks) that are"
+" periodically scheduled jobs. These actions can be configured to run at a "
+"specific frequency and run in either GLPI or CLI mode."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:7
+msgid ""
+"In GLPI mode, the actions are started occasionally when users navigate GLPI."
+" In CLI mode, the actions are started in their own session via cron, "
+"Scheduled Tasks, or some other external task scheduler. You may configure "
+"some actions to run in GLPI mode and others to be CLI. Some actions may "
+"support only one of the modes."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:13
+msgid "Configure CLI mode"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:15
+msgid ""
+"To run CLI mode tasks, you will need to configure your external task "
+"scheduler to call GLPI's `front/cron.php` file periodically. It is "
+"recommended to have it run every minute to ensure that actions that are "
+"ready to run, get ran as soon as possible."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:18
+msgid ""
+"For Linux/MacOS, you should add the following to the web server's user's "
+"(www-data, apache, etc) crontab: ``` * * * * * php GLPI/front/cron.php ```"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:23
+msgid ""
+"You will need to replace `GLPI` with the path to your GLPI folder. You may "
+"also need to replace `php` with the full path to your php binary if it is "
+"not in the PATH."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:27
+msgid "Force execution of action from CLI"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:29
+msgid ""
+"To execute a specific action from the command-line, you can run (for "
+"mailgate action): ``` php GLPI/front/cron.php --force mailgate ``` You will "
+"need to replace `GLPI` with the path to your GLPI folder."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:35
+msgid ""
+"Forcing the action to run will ensure it is run even if it is not scheduled "
+"to run again yet."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:38
+msgid "Default actions"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:41
+msgid "alertnotclosed (Ticket)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:43
+msgid ""
+"Send notification alerts for tickets that have been open a certain number of"
+" days without being closed. Notifications must be enabled for this action to"
+" work. The number of days can be configured for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:49
+msgid "cartridge (CartridgeItem)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:51
+msgid ""
+"Send notification alerts for cartridge stock under the alert threshold. "
+"Notifications must be enabled for this action to work. The alert threshold "
+"can be changed for each Cartridge."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:56
+msgid "certificate (Certificate)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:58
+msgid ""
+"Send notification alerts for certificates that are about to expire. "
+"Notifications must be enabled for this action to work. The expiration "
+"warning delay can be changed for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:63
+msgid "checkAllUpdates (Glpi\\Marketplace\\Controller)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:65
+msgid ""
+"Checks all installed plugins to see if there is an update available. The "
+"plugins must be available via the `marketplace <plugins.html>`_ even if they"
+" weren't installed that way in order for the update detection to work. If "
+"you have notifications enabled, you can receive a notification regarding the"
+" available updates. Otherwise, the available updates are listed in the "
+"action's log."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:71
+msgid "checkdbreplicate (DBconnection)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:73
+msgid ""
+"Checks the status of all database replicates including that it is reachable "
+"from GLPI and that it is in sync with the main database. If you have "
+"notifications enabled, you can receive a notification regarding any issues "
+"with the replicates. Otherwise, the issues are listed in the action's log."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:78
+msgid "checkupdate (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:80
+msgid "Checks for a new GLPI version."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:83
+msgid "circularlogs (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:85
+msgid ""
+"Removes entries in logs in the `files/_log` folder that are older than a "
+"certain number of days which is configurable within the action form itself."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:88
+msgid "cleanorphans (Document)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:90
+msgid ""
+"Deletes all documents that aren't associated with other GLPI items like "
+"Tickets."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:93
+#: ../../source/modules/configuration/crontasks.rst:117
+msgid "..note ::"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:93
+msgid ""
+"This doesn't account for direct links to documents added for example in "
+"Ticket tasks, comments, etc."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:96
+msgid "cleanorphans (Glpi\\Inventory\\Inventory)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:98
+msgid ""
+"Deletes all inventory submission files that are not related to an existing "
+"asset in GLPI."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:101
+msgid "cleansoftware (CleanSoftwareCron)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:103
+msgid ""
+"Deletes all software versions without an installation and deletes all "
+"software without a version."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:106
+msgid "cleantemp (Glpi\\Inventory\\Inventory)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:108
+msgid "Deletes all temporary inventory files older than 12 hours."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:111
+msgid "closeticket (Ticket)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:113
+msgid ""
+"Closes all tickets that were solved for a certain amount of working time. "
+"The amount of time can be configured for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:117
+msgid ""
+"The working hours on the Entity's calendar are considered when determining "
+"how much working time had passed."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:120
+msgid "consumable (ConsumableItem)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:122
+msgid ""
+"Send notification alerts for consumable stock under the alert threshold. "
+"Notifications must be enabled for this action to work. The alert threshold "
+"can be changed for each consumable."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:127
+msgid "contract (Contract)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:129
+msgid ""
+"Send notification alerts for contracts that are about to expire. If you "
+"don't have notifications enabled, the expiration warnings are still listed "
+"in the action's log. The expiration warning delay can be changed for each "
+"Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:134
+msgid "countAll (SavedSearch)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:136
+msgid "Updates the estimated execution time for saved searches."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:139
+msgid "createinquest (Ticket)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:141
+msgid ""
+"Creates ticket satisfaction surveys after a certain amount of time and "
+"closes surveys after a certain amount of time. Both durations can be changed"
+" for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:145
+msgid "DomainsAlert (Domain)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:147
+msgid ""
+"Send notification alerts for domains that are about to expire. If you don't "
+"have notifications enabled, the expiration warnings are still listed in the "
+"action's log. The expiration warning delay can be changed for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:152
+msgid "graph (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:154
+msgid "Cleans generated graphs older than an hour."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:156
+msgid ""
+"These graphs were only created in GLPI before version 9.2 for statistics and"
+" possibly some plugins from those versions or newer."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:159
+msgid "infocom (Infocom)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:161
+msgid ""
+"Send notification alerts for warranties (Set in the Management tab on an "
+"asset form) that are about to expire. If you don't have notifications "
+"enabled, the expiration warnings are still listed in the action's log. The "
+"expiration warning delay can be changed for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:166
+msgid "logs (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:168
+msgid ""
+"Cleans old automatic action log entries. The amount of time to keep log "
+"entries can be changed for each automatic action."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:172
+msgid "mailgate (MailCollector)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:174
+msgid ""
+"Retrieves emails from `configured mailboxes <collectors.html>`_ and creates "
+"tickets from the mail."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:177
+msgid "mailgateerror (MailCollector)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:179
+msgid ""
+"Send notification alerts for any errors encountered when collecting emails "
+"by the collectors."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:182
+msgid "olaticket (OlaLevel_Ticket)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:184
+msgid "Evaluate OLA levels for tickets."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:187
+msgid "passwordexpiration (User)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:189
+msgid ""
+"Send notification alerts for user passwords that expired and handle "
+"disabling the affected accounts."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:192
+msgid "pendingreason_autobump_autosolve (PendingReasonCron)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:194
+msgid ""
+"Automatically add followups for tickets that are in a pending status to try "
+"and get a response from or to remind an end-user of the pending reason. If "
+"the end-user doesn't respond after a certain number of reminders, the ticket"
+" will be automatically resolved."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:198
+msgid "planningrecall (PlanningRecall)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:200
+msgid "Send notification reminders for planned events."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:203
+msgid "PurgeLogs (PurgeLogs)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:205
+msgid ""
+"Deletes historical data entries that are older than a certain amount of "
+"time. The amount of time can only be changed globally for all Entities, but "
+"some of the types of entries can be configured with different durations."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:209
+msgid "purgeticket (Ticket)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:211
+msgid ""
+"Purge tickets that have been closed for a certain amount of time. The delay "
+"can be changed for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:215
+msgid "queuednotification (QueuedNotification)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:217
+msgid ""
+"Try sending all queued notifications. If a notification cannot be sent, the "
+"failure is recorded and then the notification will try to be sent again "
+"during the next action run in case it was a temporary issue. After continued"
+" failures, the notification is cancelled."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:222
+msgid "queuednotificationclean (QueuedNotification)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:224
+msgid ""
+"Deletes all notifications that are older than a certain number of days. The "
+"number of days can be configured within the action itself."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:228
+msgid "RecurrentItems (CommonITILRecurrentCron)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:230
+msgid "Create scheduled recurring tickets or changes."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:233
+msgid "reservation (ReservationItem)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:235
+msgid "Send notification alerts for the end of reservations."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:238
+msgid "savedsearchesalerts (SavedSearch_Alert)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:240
+msgid "Send notification alerts for saved searches."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:243
+msgid "session (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:245
+msgid "Delete expired session files."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:248
+msgid "slaticket (SlaLevel_Ticket)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:250
+msgid "Evaluate SLA levels for tickets."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:253
+msgid "software (SoftwareLicense)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:255
+msgid ""
+"Send notification alerts for software licenses that are about to expire. "
+"Notifications must be enabled for this action to work. The expiration "
+"warning delay can be changed for each Entity."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:260
+msgid "telemetry (Telemetry)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:262
+msgid "Send telemetry information."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:265
+msgid "temp (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:267
+msgid "Clean all temporary files older than an hour."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:270
+msgid "unlockobject (ObjectLock)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:272
+msgid ""
+"Automatically remove locks on items older than a specific number of hours. "
+"The number of hours can be changed within the action itself."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:276
+msgid "watcher (CronTask)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:278
+msgid ""
+"The watcher automatic action is an action that monitors the execution of the"
+" other automatic actions. If one of them has an error, a notification will "
+"be sent. For this to work properly, notifications will need to be "
+"configured."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:283
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:285
+msgid "**Automatic action**"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:287
+msgid "For each action, it is possible to configure:"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:289
+msgid "Run frequency"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:290
+msgid "Status (Allows you to disable the action if needed)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:291
+msgid "Run mode"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:292
+msgid ""
+"Run period (Allows you to disable certain actions at night for example)"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:293
+msgid "Number of days this action's logs are stored"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:295
+msgid ""
+"The interface also allows you to reset the execution date and to manually "
+"force the execution manually."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:297
+msgid ""
+"Some automatic actions can have particular parameters, such as the maximum "
+"number of emails to be sent each time for the mailqueue action. Also plugins"
+" can define their own automatic actions."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:300
+msgid ""
+"**Statistics** Displays information about the execution of this task (number"
+" of executions, start date, minimum, maximum, average and total durations)."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:303
+msgid ""
+"**Logs** Lists the last executions according to the parameter defined in the"
+" *Automatic action* tab (see above). A link on the execution date allows to "
+"have the details of a specific execution."
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:308
+msgid "The different actions"
+msgstr ""
+
+#: ../../source/modules/configuration/crontasks.rst:310
+msgid "**Reset last run**: Clear the last run"
+msgstr ""

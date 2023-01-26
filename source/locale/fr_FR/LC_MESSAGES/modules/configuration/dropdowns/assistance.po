@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:2
+msgid "Assistance"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:5
+#: ../../source/modules/configuration/dropdowns/assistance.rst:23
+msgid "Ticket categories"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:7
+msgid ""
+"The list of ticket categories is tree-like: each element can have sub-"
+"elements. It can be delegated by entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:9
+msgid ""
+"In the form of a ticket category, you can find some information about this "
+"category including but not limited to:"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:11
+msgid ""
+"Responsible and technical group for the automatic assignment of tickets"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:12
+msgid ""
+"Default category of the knowledgebase when you want to add a solution of a "
+"ticket"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:13
+msgid ""
+"Visibility of the category depending on the interface (simplified/standard) "
+"or object"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:14
+msgid "Ticket template to use for this category"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:15
+#: ../../source/modules/configuration/dropdowns/assistance.rst:38
+msgid "Parent category"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:17
+msgid ""
+"If a template is chosen, it will be assigned to the choice of the category "
+"and will therefore override the one that would have been defined in the "
+"entity or via a business rule."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:19
+msgid ""
+"A link with the categories of the knowledge base is possible. If a category "
+"is chosen, clicking on the ticket category help in a ticket leads directly "
+"to all the articles in the knowledge base for this category."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:25
+msgid "Displays a list of child ticket categories and allows adding new ones."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:31
+#: ../../source/modules/configuration/dropdowns/assistance.rst:41
+msgid "Task categories"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:33
+msgid ""
+"The list of task categories is tree-like: each element can have sub-"
+"elements. It can be delegated by entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:35
+msgid ""
+"In the form of a task category, you can find some information about this "
+"category including but not limited to:"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:37
+msgid "Name"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:43
+msgid "Displays a list of child task categories and allows adding new ones."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:48
+msgid "Solution types"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:50
+#: ../../source/modules/configuration/dropdowns/assistance.rst:62
+msgid ""
+"This list is a list of valid flat values. It can be delegated by entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:53
+msgid "Request sources"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:55
+msgid "This list is a list of valid flat values for all entities."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:57
+msgid ""
+"It specifies if this source should be defined by default for tickets and/or "
+"collectors."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:60
+msgid "Solution templates"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:64
+msgid ""
+"It allows to predefine the content as well as the type of a solution and can"
+" be visible or not from the sub-entity."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:68
+msgid "Solution templates cannot be translated"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:74
+msgid "Project states"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:76
+#: ../../source/modules/configuration/dropdowns/assistance.rst:90
+msgid "This list is a flat value list valid for all entities."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:78
+msgid ""
+"It allows to define the statuses applied to a project as well as its state."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:81
+msgid "Project types"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:83
+msgid "This list is a list of flat values valid for all entities."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:85
+msgid "It is used to define the types applied to a project."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:88
+msgid "Project task types"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:92
+msgid "It is used to define the types of tasks applied to a project."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/assistance.rst:95
+msgid "The common tabs"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst:2
+msgid "Translation"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst:4
+msgid ""
+"This tab is reserved for names and only appears if the translation of "
+"dropdown names has been enabled in the general configuration."
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst-1
+msgid "Dropdown translation tab"
+msgstr ""
+
+#: ../../source/modules/configuration/dropdowns/tabs/translation.rst:11
+msgid ""
+"This tab lists all current translations of the dropdown name and allows you "
+"to add new ones."
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
+msgstr ""

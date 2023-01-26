@@ -43,9 +43,8 @@ You can then use the `livehtml` command:
 $ make livehtml
 ```
 
-
 ## Translations...
 
-As you can read on top page statement; doc is currently being rewritted and translated into english. Once this has been done, we'll add the project on transifex to get multiple translations :)
+Join the project on [Transifex](https://www.transifex.com/glpi/glpi-user-documentation/).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/80x15.png" /></a>

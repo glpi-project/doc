@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:2
+msgid "Email followups configuration"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:4
+msgid ""
+"For GLPI to be able to send notification via email, an email server "
+"connection will need configured."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:6
+msgid ""
+"The email server configuration can be configured globally, and then some "
+"options can be overridden at the entity level."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:8
+msgid ""
+"Global settings can be accessed from the \"Email followups configuration\" "
+"option on the **Setup > Notifications** page."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:11
+msgid "Global Configuration"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:13
+msgid ""
+"The global configuration allows you to set the following options: - "
+"Administrator email - GLPI Administrator email. This can be used as a "
+"special recipient in notifications. - Administrator name - The display name "
+"to use for the Administrator email address. - From email - The email address"
+" to use in the From field for emails sent by GLPI. - From name - The display"
+" name to use for the From email address. - Reply-to address - The email "
+"address to use when user's reply to the email notifications. - Reply-to name"
+" - The display name to use for the Reply-to email address. - No-Reply "
+"address - The email address to use for emails that shouldn't be responded "
+"to. - No-Reply name - The display name to use for the No-Reply email "
+"address. - Add documents into ticket notifications - If enabled, documents "
+"attached to a ticket will be added to related notifications as links. The "
+"links will use the GLPI URL specified in the general configuration. - Email "
+"signature - Text added at the end of every notification. - Way of sending "
+"emails - Method to send emails (PHP, SMTP, SMTP+SSL, SMTP+TLS). - Max "
+"delivery retries - Number times GLPI will try to send a notification. - Try "
+"to deliver again in (minutes) - Time between notification delivery attempts."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:28
+msgid ""
+"You can test the sending of notifications from the global notification "
+"configuration form by trying to send an email to the specified Administrator"
+" email address."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:31
+msgid "Email Method - PHP"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:33
+msgid ""
+"This option cannot be configured within GLPI and must be done in your PHP "
+"configuration. This option uses the `mail()` function of PHP."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:37
+msgid "The PHP email method is blocked by most hosting providers"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:40
+msgid "Email Method - SMTP"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:42
+msgid ""
+"The following configuration options are available for the `SMTP` email "
+"method(s):"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:44
+msgid "Check certificate - Verify the email server has a valid certificate."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:45
+msgid "SMTP host - The SMTP server address."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:46
+msgid "Port - The port to communicate with the SMTP host over."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:47
+msgid "Typically, this is port 25."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:48
+msgid ""
+"SMTP login (optional) - Username to authenticate with the email server."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:49
+msgid ""
+"SMTP password (optional) - Password to authenticate with the email server."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:51
+msgid "Email sender - This may be needed for some email providers."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:51
+msgid "If this is not specified, the Administrator email will be used."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:54
+msgid "Email Method - SMTP+SSL"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:56
+msgid ""
+"The configuration options are the same as the `SMTP` option but GLPI will "
+"use `SSL` security for the connection."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:59
+msgid "Email Method - SMTP+TLS"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:61
+msgid ""
+"The configuration options are the same as the `SMTP` option but GLPI will "
+"use `TLS` security for the connection."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:64
+msgid "Entity Configuration"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:66
+msgid ""
+"The following options can be overridden at an entity level (See global "
+"configuration for more information about each option): - Administrator email"
+" - Administrator name - Reply-to address - Reply-to name - Email signature"
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:73
+msgid ""
+"The entity level options can be accessed for the **Notifications** tab in "
+"the entity's form."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:75
+msgid ""
+"The following options can only be configured at the entity level: - Prefix "
+"for notifications - Text to prefix to the subject of email notifications. - "
+"Delay to send email notifications - Optional delay to the initial sending of"
+" notifications. - Enable notifications by default - If enabled, a user is "
+"automatically set to receive notifications in some cases such as when they "
+"are assigned to a ticket."
+msgstr ""
+
+#: ../../source/modules/configuration/notifications/email_notifications.rst:80
+msgid ""
+"Fields that are no set, will be inherited from their parent entity by "
+"default."
+msgstr ""

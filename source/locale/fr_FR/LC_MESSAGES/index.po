@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Legastelois François <flegastelois@teclib.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Last-Translator: Legastelois François <flegastelois@teclib.com>, 2023\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/index.rst:7
+msgid "GLPI User Documentation"
+msgstr "GLPI Documentation Utilisateur"
+
+#: ../../source/index.rst:11
+msgid ""
+"The documentation is being rewritten. It is very likely that some parts are "
+"outdated, that there are dead links, etc"
+msgstr ""
+"La documentation est en cours de réécriture. Il est fort probable que "
+"certaines parties soient obsolètes, qu'il y ait des liens morts, etc."
+
+#: ../../source/index.rst:14
+msgid "Preface"
+msgstr "Préface"
+
+#: ../../source/index.rst:16
+msgid ""
+"This documentation covers the installation and use of GLPI (Gestion Libre de"
+" Parc Informatique) !"
+msgstr ""
+"Cette documentation couvre l'utilisation de GLPI (Gestion Libre de Parc "
+"Informatique) !"
+
+#: ../../source/index.rst:18
+msgid ""
+"Free and open-source solution for IT asset management and helpdesk, and "
+"more. GLPI is a web application designed to manage all of your IT asset "
+"management issues from inventory management of hardware components and "
+"software to the management of user assistance."
+msgstr ""
+"Solution libre et open source pour la gestion des actifs informatiques et le"
+" service d'assistance, et plus encore. GLPI est une application web conçue "
+"pour gérer l'ensemble de vos problématiques de gestion de parc informatique "
+"depuis la gestion des stocks de composants matériels et logiciels jusqu'à la"
+" gestion de l'assistance aux utilisateurs."
+
+#: ../../source/index.rst:20
+msgid ""
+"This guide is intended to give an overview of GLPI for both administrators "
+"and users."
+msgstr ""
+"Ce guide est destiné à donner une vue d'ensemble de GLPI pour les "
+"administrateurs et les utilisateurs."
+
+#: ../../source/index.rst:22
+msgid ""
+"Each part can be consulted independently even if for reasons of logic we "
+"recommend that you read this documentation entirely."
+msgstr ""
+"Chaque partie peut être consultée indépendamment même si pour des raisons de"
+" logique nous vous recommandons de lire entièrement cette documentation."
+
+#: ../../source/index.rst:25
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../source/index.rst:27
+msgid ""
+"The `GLPI installation documentation <https://glpi-install.readthedocs.io>`_"
+" is available separately."
+msgstr ""
+"La `documentation d'installation de GLPI <https://glpi-"
+"install.readthedocs.io>`_ est disponible séparément."
+
+#: ../../source/index.rst:30
+msgid "Table of contents"
+msgstr "Sommaire"
+
+#: ../../source/index.rst:43
+msgid "Documentation license"
+msgstr "Licence de cette documentation"
+
+#: ../../source/index.rst:45
+msgid ""
+"This documentation is distributed under the terms of the `Creative Commons "
+"License Attribution-ShareAlike 3.0 France (CC BY-SA 3.0 FR) "
+"<https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en>`_."
+msgstr ""
+"Cette documentation est distribuée sous les termes de la `Creative Commons "
+"License Attribution-ShareAlike 3.0 France (CC BY-SA 3.0 FR) "
+"<https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en>`_."
+
+#: ../../source/index.rst:47
+msgid ""
+"For the complete terms of the license, please refer to "
+"https://creativecommons.org/licenses/by-sa/3.0/fr/legalcode."
+msgstr ""
+"Pour les termes complets de la licence, veuillez vous référer à "
+"https://creativecommons.org/licenses/by-sa/3.0/fr/legalcode."
+
+#: ../../source/index.rst:49
+msgid "You are free to:"
+msgstr "Vous êtes libre de :"
+
+#: ../../source/index.rst:51
+msgid "Share — copy and redistribute the material in any medium or format"
+msgstr ""
+"Partager - copier et redistribuer cette documentation sur n'importe quel "
+"support ou format"
+
+#: ../../source/index.rst:52
+msgid ""
+"Adapt — remix, transform, and build upon the material for any purpose, even "
+"commercially."
+msgstr ""
+"Adapter - remixer, transformer et générer cette documentation à n'importe "
+"quelle fin, même commercialement."
+
+#: ../../source/index.rst:54
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+"Le concédant ne peut pas révoquer ces libertés tant que vous respectez les "
+"termes de la licence."
+
+#: ../../source/index.rst:56
+msgid "Under the following terms:"
+msgstr "Aux termes suivants :"
+
+#: ../../source/index.rst:58
+msgid ""
+"Attribution — You must give appropriate credit, provide a link to the "
+"license, and indicate if changes were made. You may do so in any reasonable "
+"manner, but not in any way that suggests the licensor endorses you or your "
+"use."
+msgstr ""
+"Attribution — Vous devez donner le crédit approprié, fournir un lien vers la"
+" licence et indiquer si des modifications ont été apportées. Vous pouvez le "
+"faire de toute manière raisonnable, mais en aucun cas suggérant que le "
+"concédant vous approuve ou approuve votre utilisation."
+
+#: ../../source/index.rst:59
+msgid ""
+"ShareAlike — If you remix, transform, or build upon the material, you must "
+"distribute your contributions under the same license as the original."
+msgstr ""
+"Partage dans les mêmes conditions — Si vous remixez, transformez ou générez "
+"cette documentation, vous devez distribuer vos contributions sous la même "
+"licence que l'original."
+
+#: ../../source/index.rst:61
+msgid ""
+"No additional restrictions — You may not apply legal terms or technological "
+"measures that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+"Aucune restriction supplémentaire — Vous ne pouvez pas appliquer des termes "
+"juridiques ou des mesures technologiques qui empêchent légalement les autres"
+" de faire tout ce que la licence autorise."

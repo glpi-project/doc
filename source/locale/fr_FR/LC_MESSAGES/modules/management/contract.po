@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/management/contract.rst:2
+msgid "Contracts"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:4
+msgid ""
+"GLPI supports contracts management, in order to manage contract types such "
+"as loan, maintenance, support..."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:6
+msgid "Contracts management allows to:"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:8
+msgid "make an inventory of all contracts related to the organization assets"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:9
+msgid "integrate contracts in GLPI financial management"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:10
+msgid "anticipate and follow contract renewal."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst-1
+msgid "Main fields of a contract"
+msgstr ""
+
+#: ../../source/modules/tabs/templates.rst:2
+msgid ""
+"It is possible to use :doc:`templates to generate this object "
+"<../overview/templates>`."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:20
+msgid ""
+"It is possible to receive notifications in order to be informed of events "
+"such as contract end. When contract must be renewed expressly, it is useful "
+"to be notified before end of contract. For periodic contracts, it is also "
+"possible to be notified at the end of each period. Notifications are "
+"configured at entity level, in menu **Setup > Notifications** to define "
+"models and destination and in menu **Administration > Entities** to enable "
+"notification, define default values and a possible anticipation of "
+"notification."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:26
+msgid "Description of specific fields"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:28
+msgid ""
+"**Contract type**: by default, no contract type is defined, contract types "
+"must be configured in drop-down configuration;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:29
+msgid "**Number**: contract number;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:30
+msgid ""
+"**Start date**: date at which contract starts, all periodicity based events "
+"are computed using this date;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:31
+msgid ""
+"**Initial contract period**: if this field and start date are given, "
+"contract end date will appear, colored in red if contract has expired;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:32
+msgid "**Notice**: used to trigger alert notifications;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:33
+msgid "**Account number**: used to connect with company accounting software;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:34
+msgid ""
+"**Contract renewal period**: duration after which contract renewal is "
+"available;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:35
+msgid "**Invoice period**: duration between invoices;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:36
+msgid ""
+"**Renewal**: *Tacit* (the contract is automatically renewed if no party has "
+"ended it) or *Express* (needs agreement for renewal);"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:37
+msgid ""
+"**Max number of items**: attaching new items to this contract will be "
+"blocked when overflowing this number;"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:38
+msgid ""
+"**Support hours**: support hours as defined in the contract, it is possible "
+"to distinguish week days, Saturdays and Sundays/holidays."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:42
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:45
+msgid "Costs"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:47
+msgid ""
+"This tab allows to define a cost related to the contract and linked to a "
+"GLPI budget: the cost of the contract will be imputed to this budget."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst-1
+msgid "A cost associated to a contract"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:54
+msgid "Suppliers"
+msgstr ""
+
+#: ../../source/modules/management/contract.rst:56
+msgid "This tab allows to associate one or several suppliers to the contract."
+msgstr ""
+
+#: ../../source/modules/management/contract.rst-1
+msgid "Suppliers associated to a contract"
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:2
+msgid "Associated elements"
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:4
+msgid "The *Items* tab is used to show or add linked assets."
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst-1
+msgid "Adding and viewing an element"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:2
+msgid "Documents"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:4
+msgid ""
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:6
+msgid ""
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst-1
+msgid "Document creation screen"
+msgstr ""
+
+#: ../../source/modules/tabs/documents.rst:14
+msgid ""
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:2
+msgid "Associated External Links"
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:4
+msgid "The *External links* tab is used to show associated external links."
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:6
+msgid ""
+"For some items, external links are managed from the menu **Setup > External "
+"links**."
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:8
+msgid ""
+"These links can use object fields such as IP, name, etc. See :doc:`Configure"
+" protocol external links </modules/configuration/external_links>`."
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:10
+msgid "Examples:"
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:12
+msgid ""
+"A web link: http://192.168.0.1 (IP retrieved from the network port of the "
+"hardware) ;"
+msgstr ""
+
+#: ../../source/modules/tabs/external-links.rst:13
+msgid ""
+"A RDP link for remote access: glpi://MSTSC.EXE,pc001 (name \"pc001\" "
+"retrieved from the hardware)."
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:2
+msgid "Notes"
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:4
+msgid ""
+"The *Notes* tab provides a free text field for storing additional "
+"information. Notes are displayed in the order of their creation."
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst-1
+msgid "View and enter a note"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:2
+msgid "Debugging information"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:4
+msgid ""
+"If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
+"appear before the *All* tab. This tab offers information to help you resolve"
+" an issue."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:6
+msgid ""
+"For example, for a computer, you have one or more tables depending on the "
+"affected object (financial information, reservations...) listing the "
+"notifications that will be triggered on this computer with:"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:8
+msgid "Triggering event"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:9
+msgid "Recipient(s)"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:10
+msgid "Notification model used"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:11
+msgid "Recipient(s) email address"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst-1
+msgid "Debugging page"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
+msgstr ""

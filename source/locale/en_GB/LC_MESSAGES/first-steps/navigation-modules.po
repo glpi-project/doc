@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/first-steps/navigation-modules.rst:2
+msgid "Navigate GLPI modules"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:4
+msgid ""
+"The various functions of GLPI have been grouped into several modules, "
+"built around similar contexts of use. The top bar of the interface allows"
+" you to navigate between these modules:"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:7
+msgid ""
+"The :doc:`Assets module <../../modules/assets/index>` provides access to "
+"the various inventoried materials,"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:8
+msgid ""
+"The :doc:`Assistance module <../../modules/assistance/index>` allows you "
+"to create and monitor tickets, problems and changes; as well as see "
+"statistics."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:9
+msgid ""
+"The :doc:`Management module <../../modules/management/index>` allows you "
+"to manage contacts, suppliers, budgets, contracts and documents."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:10
+msgid ""
+"The :doc:`Tools module <../../modules/tools/index>` allows you to manage "
+"projects, notes, the knowledge base, reservations, RSS feeds and view "
+"reports."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:11
+msgid ""
+"The :doc:`Administration module <../../modules/administration/index>` "
+"allows you to administer users, groups, entities, profiles, rules and "
+"dictionaries. It also allows the management of the email queue."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:12
+msgid ""
+"The :doc:`Setup module <../../modules/configuration/index>` provides "
+"access to the general configuration options of GLPI: notifications, "
+"collectors, automatic tasks, authentication, plugins, external links, "
+"SLA, management of titles, components as well as control of the "
+"uniqueness of fields."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:14
+msgid ""
+"The menus presented vary according to the authorizations of the logged in"
+" user. The navigation context is presented to the user in the breadcrumb "
+"trail."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:18
+msgid ""
+"You will find at the bottom right a button allowing you to quickly return"
+" to the top of the page if necessary."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:20
+msgid ""
+"There are keyboard shortcuts that allow you to navigate from one module /"
+" submodule to another. Here is the list of these shortcuts:"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:22
+msgid "``1`` => Home"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:23
+msgid "*Assets*"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:25
+msgid "``o`` => Computers"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:26
+msgid "``s`` => Software"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:28
+msgid "*Assistance*"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:30
+msgid "``t`` => Tickets"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:31
+msgid "``a`` => Statistics"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:32
+msgid "``p`` => Planning"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:34
+msgid "*Management*"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:36
+msgid "``d`` => Documents"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:38
+msgid "*Tools*"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:40
+msgid "``b`` => Knowledge base"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:41
+msgid "``r`` => Reservations"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:42
+msgid "``e`` => Reports"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:44
+msgid "*Administration*"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:46
+msgid "``u`` => Users"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:47
+msgid "``g`` => Groups"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:49
+msgid "*Setup*"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:51
+msgid "``n`` => Dropdowns"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:55
+msgid ""
+"The combination of keys to associate with these shortcuts varies "
+"depending on the operating systems and browsers used. Here are some "
+"examples according to the browsers:"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:57
+msgid "Mozilla Firefox / Chrome"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:59
+msgid ""
+"Simultaneously press the keys ``Alt``, ``Shift`` and *the desired "
+"shortcut*."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:61
+msgid "Opera"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:63
+msgid ""
+"Simultaneously press the keys ``Esc``, ``Shift`` and *the desired "
+"shortcut*."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:65
+msgid ""
+"In addition, since version 9.2, GLPI offers navigation with approximate "
+"search (fuzzy) accessible from the keyboard shortcut ``Ctrl`` + ``Alt`` +"
+" ``G``. This will open a modal window allowing you to filter, via a "
+"search field, all the menus of GLPI (all the levels are present, you have"
+" for example access to the 3rd level such as the dropdowns or the "
+"components)."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:68
+msgid "In this window, additional shortcuts are available:"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:70
+msgid "``↑`` and ``↓`` in order to navigate through the results"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:71
+msgid "``Enter`` to change the active glpi page on the selected result"
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:72
+msgid "``Esc`` to close the window."
+msgstr ""
+
+#: ../../source/first-steps/navigation-modules.rst:-1
+msgid "Navigation \"Fuzzy\""
+msgstr ""
+

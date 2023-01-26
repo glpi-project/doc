@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/first-steps/preferences.rst:2
+msgid "Manage your Preferences"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:4
+msgid ""
+"User preferences are accessible from the `Preferences` tab of the user form "
+"by clicking on your name at the top right of the interface, from any page."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:6
+msgid ""
+"Each authenticated user has the possibility to modify his preferences if "
+"they have the `Personalize` update right in their profile."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:9
+msgid ""
+"These options override the default ones set in the general setup. For more "
+"information about the available options refer to the `general setup "
+"documentation "
+"<../../../modules/configuration/general/default_values.html>`_."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:13
+msgid "Main Tab"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst-1
+msgid "Screen for user form"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:20
+msgid "Here the user can modify the usual personal information:"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:22
+msgid "Surname"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:23
+msgid "First name"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:24
+msgid "Email address"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:25
+msgid "Phone numbers"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:26
+msgid "Location"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:27
+msgid "Language"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:28
+msgid "..."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:32
+msgid "Some fields cannot be modified if they come from an LDAP directory."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:34
+msgid ""
+"A user can add email addresses and select the default address, which will be"
+" used for sending notifications."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:36
+msgid ""
+"They can also specify some default behaviors of the application, such as the"
+" selected profile and entity. They can also turn off notifications for "
+"actions they take."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:38
+msgid ""
+"Depending on the profiles, the experienced user can also choose to exit the "
+"normal application mode. In debug mode, GLPI displays errors, all variable "
+"values, SQL queries, etc. It is useful to activate this mode in the event of"
+" GLPI malfunction. A maximum amount of information can therefore be "
+"communicated to the developers. This mode also allows you to have additional"
+" information on different objects in a specific tab (notifications, etc.)."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:41
+msgid "Personalization Tab"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst-1
+msgid "Screen for customizing user preferences"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:48
+msgid ""
+"This tab allows you to modify the general display preferences applied to a "
+"given user. These parameters take priority over those defined in the general"
+" configuration."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:52
+msgid ""
+"The Number of results per page value shown here cannot exceed the maximum "
+"value set in the general display options."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:55
+msgid ""
+"Note that the Remote access key section allows you to regenerate the "
+"security key used to access the private flows offered by GLPI. Currently the"
+" ICAL and WEBCAL flows of the planning are protected by this security key "
+"which is integrated into the url."
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:58
+msgid "Personal View Tab"
+msgstr ""
+
+#: ../../source/first-steps/preferences.rst:60
+msgid ""
+"Lists custom views defined in objects by the user. In particular, it allows "
+"you to delete the personal views defined to return to global views."
+msgstr ""

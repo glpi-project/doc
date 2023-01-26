@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:5
+msgid "options_search"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:8
+msgid "Setup permissions"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:10
+msgid ""
+"The 7 standard permissions will not be listed (see :doc:`Permissions "
+"description </modules/administration/profiles/profiles>`)."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:13
+#: ../../source/modules/administration/profiles/configurationtab.rst:19
+msgid "All Configuration Permissions"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:21
+msgid ""
+"The **Search result display** permission allows to configure the "
+"displayed columns in the GLPI search engine.."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:23
+msgid ""
+"**User Display**: display a *Personal view* tab allowing display "
+"customization for the user, the customization being done object by "
+"object."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/configurationtab.rst:25
+msgid ""
+"**Default Display**: allows to modify standard display that will apply to"
+" each user not having a personal view."
+msgstr ""
+

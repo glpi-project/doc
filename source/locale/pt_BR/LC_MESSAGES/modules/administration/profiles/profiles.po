@@ -1,0 +1,366 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/administration/profiles/profiles.rst:2
+msgid "User profiles"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:4
+msgid ""
+"Profile is central in GLPI configuration: profile is the key for users "
+"permissions granting and for securing and isolating data."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:6
+msgid "A profile is associated with :"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:8
+msgid "a user"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:9
+msgid "an entity, in a **recursive** or **dynamic** manner"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:11
+msgid ""
+"In order to enable permissions to be passed to child entities, the "
+"profile must be associated recursively."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:13
+msgid "Todo"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:13
+msgid ""
+"old version: Pour répercuter les droits liés à ce profil, à toutes les "
+"entités filles de l'entité enregistrée, il faut associer le profil de "
+"manière récursive. C'est là tout le principe de la récursivité."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:15
+msgid ""
+"Different profiles can be associated with the same user, based on "
+"entities and whatever the relation between these entities: this can be "
+"achieved by adding the profile to the user for each entity where user "
+"profile must be different."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:17
+msgid "By default, 7 profiles are pre-registered in GLPI:"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:19
+msgid ""
+"**Super-Admin**: This profile is granted **all** permissions! .. warning "
+":: if the super-admin profile is deleted or if the **simplified "
+"interface** is associated with this profile, access to the GLPI "
+"configuration may be permanently lost."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:22
+msgid ""
+"**Admin**: This profile has administration rights for all GLPI. Some "
+"restrictions are applied to it at the level of the configuration of "
+"rules, entities as well as other items which may alter the behavior of "
+"GLPI."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:24
+msgid ""
+"**Supervisor**: This profile incorporates the elements of the "
+"*Technician* profile by adding elements allowing management of a team and"
+" its organization (allocation of tickets, etc.)."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:26
+msgid ""
+"**Technician**: This profile corresponds to the one used for a "
+"maintenance technician, having read access to the inventory and to the "
+"help desk in order to process tickets."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:28
+msgid ""
+"**Hotliner**: This profile corresponds to the one that could be given for"
+" a hotline service; it allows to open tickets and follow them but not to "
+"be in charge of them as a *Technician* can be."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:30
+msgid ""
+"**Observer**: This profile has read permission to all inventory and "
+"management data. In terms of assistance, it can open a ticket or be "
+"assigned one, but cannot administer this section (assign a ticket, steal "
+"a ticket...)."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:32
+msgid ""
+"**Self-Service**: This profile is the most limited. It is also the only "
+"one to have a different interface, the :doc:`simplified interface</first-"
+"steps/interfaces>`, as opposed to the **standard interface**. However, it"
+" can declare a ticket, add a follow-up, consult the FAQ or reserve asset."
+" This profile is set as the default profile."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:35
+msgid "Permissions description"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:37
+msgid ""
+"Once the profile has been created, it will be possible to establish the "
+"permissions on the various functionalities of GLPI. Seven tabs "
+"corresponding to the different menus of GLPI are then available to manage"
+" this set of permissions and are described below."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:39
+msgid ""
+"The different permissions of an object are listed on the line of its "
+"name. To activate an permission, the corresponding box must be checked "
+"and vice versa to delete an permission the box must be unchecked."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:41
+msgid ""
+"no permission deduction is done; for example in order to be able to "
+"modify an object, read permission must also be granted."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:43
+msgid ""
+"Permissions after migration: migration takes over old permissions in "
+"full, regardless of the purpose, and activates the corresponding values "
+"​​in the new system. Previous *Write* permission is transformed into "
+"*Read*, *Update*, *Create*, *Delete* and *Purge* for most objects and "
+"must then be refined if needed. For others, the permissions are grouped "
+"by object, for example, FAQ permission are permissions of the Knowledge "
+"Base object."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:45
+msgid "Some permissions are standards for all objects:"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:47
+msgid ""
+"**Read**: allows to display an object, it is also often this permission "
+"which displays or not the object in the different menus"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:48
+msgid "**Update**: allows to display an object data"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:49
+msgid "**Create**: allows to create a new element of the type of the object"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:50
+msgid ""
+"**Delete**: allows you to place the object in the trash bin. If this "
+"permission is not present, it means that the object does not have a trash"
+" bin."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:51
+msgid ""
+"**Purge**: deletes the object from the trash bin and therefore "
+"permanently from the database. The permissions can therefore be refined "
+"between temporary deletion (placing in the trash bin) and permanent "
+"deletion (purging the trash bin)"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:52
+msgid "**Read notes**: allows to display the *Notes* tab, if object has one"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:53
+msgid "**Update notes**: allows to modify the content of a note or to delete it"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:56
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:58
+msgid ""
+"the display of profile management depends on the profile of connected "
+"user. It can therefore vary depending on the profile."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:61
+msgid "Assets"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:62
+msgid ""
+"The 7 standard permissions described above apply to the elements of tab "
+"**Assets**."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:68
+msgid "Permissions on assets"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:70
+msgid "The **Internet** permission applies to:"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:72
+msgid "IP field of a network port"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:73
+msgid "association or disassociation of a network name to a network port"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:74
+msgid ""
+"Internet part of dropdowns (IP networks, internet domains, WiFi networks,"
+" network names)"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:77
+msgid "Assistance"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:78
+msgid ""
+"This tab manages permissions on tickets, follow-ups, tasks, validations, "
+"associations, problems and changes. It also manages the visibility of "
+"statistics and schedules as well as the assignment of a template to the "
+"profile."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:80
+msgid ""
+"See :doc:`Tab \"Assistance\" "
+"</modules/administration/profiles/assistancetab>`"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:83
+msgid "Life cycle"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:84
+msgid ""
+"This tab manages the permissions on the status life cyle of tickets, "
+"problems and changes."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:86
+msgid "See :doc:`Tab \"Life cycle\" </modules/assistance/lifecyclematrix>`"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:89
+msgid "Management"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:90
+msgid ""
+"The 7 standard permissions described above apply to the elements of tab "
+"**Management**."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:96
+msgid "Permissions on management"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:99
+msgid ""
+"The permissions on **Financial and administrative information** applies "
+"also to objects containing financial information; for instance it is not "
+"allowed to purge a computer containing financial information if profile "
+"is not granted with *Purge* permission on financial information."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:102
+msgid "Tools"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:103
+msgid ""
+"This tab manages permissions on notes, RSS feeds, public bookmarks, "
+"reports, reservations, knowledge base as well as projects and tasks of a "
+"project."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:105
+msgid "See :doc:`Tab \"Tools\" </modules/administration/profiles/toolstab>`"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:108
+msgid "Administration"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:109
+msgid ""
+"This tab manages permissions on users, entities and business rules on "
+"tickets."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:111
+msgid ""
+"See :doc:`Tab \"Administration\" "
+"</modules/administration/profiles/administrationtab>`"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:114
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:115
+msgid ""
+"See :doc:`Tab \"Configuration\" "
+"</modules/administration/profiles/configurationtab>`"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:118
+msgid "Users"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:119
+msgid ""
+"This tab lists the entities in which this profile is assigned. To see the"
+" corresponding users, click on the concerned entity. *\"D\"* means the "
+"permissions have been assigned dynamically, *\"R\"* means the permissions"
+" are recursive from the assignment entity."
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:122
+msgid "Historical"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:123
+msgid "See :doc:`Tab \"Historical\" </modules/tabs/historical>`"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:126
+msgid "All"
+msgstr ""
+
+#: ../../source/modules/administration/profiles/profiles.rst:127
+msgid "See :doc:`Tab \"All\" </modules/tabs/all>`"
+msgstr ""
+

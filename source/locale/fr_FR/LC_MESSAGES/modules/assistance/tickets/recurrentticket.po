@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:2
+msgid "Reccurent tickets"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:4
+msgid "Using templates, it is possible to program recurrent ticket opening."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:8
+msgid ""
+"Open a ticket every Monday to check that weekend backup was correctly "
+"executed"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:9
+msgid ""
+"Open a ticket first day of the month to perform initialization operations"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:12
+msgid "The different fields"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:14
+msgid "**Active**: allows to disable temporarily ticket creation;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:15
+msgid "**Ticket template**: model that will be used for ticket creation;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:16
+msgid "**Start date**: start date for ticket creation, mandatory;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:17
+msgid "**End date**: optional, defines ticket creation end date;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:18
+msgid "**Periodicity**: ticket creation period;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:19
+msgid "**Preliminary creation**: time for anticipated ticket creation;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:20
+msgid "**Calendar** : allows to limit ticket creation days."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:24
+msgid ""
+"Tickets will only be created if `Active` is `Yes` and if current date is "
+"between `Start date` and `End date`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/recurrentticket.rst:26
+msgid ""
+"Reccurent ticket opening is done through an automatic action named "
+"*recurrent ticket*, see :doc:`Configure automatic actions "
+"<../../configuration/crontasks>`."
+msgstr ""

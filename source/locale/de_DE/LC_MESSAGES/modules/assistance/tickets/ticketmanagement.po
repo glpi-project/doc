@@ -1,0 +1,387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:2
+msgid "Manage tickets"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:5
+msgid "Manage tickets following ITIL recommendations"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:7
+msgid ""
+"GLPI assistance module is compliant with ITIL best practices guide for "
+"incident and request management: it integrates therefore notions such as "
+"impact, ticket urgency, priority calculus matrix and status "
+"standardization. Despite the fact that GLPI is ITIL compliant, it is not "
+"mandatory to follow these best practices and freedom is given to "
+"implement an incident management best tailored for organization's need."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:9
+msgid ""
+"Statistics are available for tickets, see :doc:`Display statistics "
+"</modules/assistance/statistics>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:12
+msgid "Description of specific fields"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:14
+msgid "**Opening date**: ticket creation date;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:16
+msgid "**Time to Resolve**: date at which ticket must be solved;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:18
+msgid ""
+"These two dates allow to limit in time incident or service request. A "
+"**SLA** can also be associated with the ticket; in this case the SLA and "
+"the next escalade level are displayed (see :doc:`Configure SLA "
+"<modules/configuration/service_levels>`)."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:20
+msgid "**By**: references the GLPI user having opened the ticket;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:22
+msgid "**Type**: defines whether it is a request or an incident;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:24
+msgid ""
+"**Category**: allows to sort request or incident by their nature, a "
+"category being associated to only one type;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:26
+msgid ""
+"**Status**: status attributed manualy by the technician or dynamically by"
+" performed actions, see :doc:`Management rules "
+"</modules/assistance/tickets/ticketlifecycle>` and :doc:`life cycle "
+"matrix </modules/assistance/lifecyclematrix>`;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:28
+msgid ""
+"**Request Source**: indicates the channel used to create the ticket, see "
+":doc:`Configure drop down </modules/configuration/dropdowns/index>`;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:30
+msgid "**Urgency**: importance given to the ticket by the requester;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:32
+msgid "**Impact**: importance given by the technician;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:34
+msgid ""
+"**Priority**: importance of the ticket automaticaly computed from defined"
+" impact and urgency using a predefined calculus matrix, see :doc:`life "
+"cycle matrix </modules/assistance/lifecyclematrix>`;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:36
+msgid "**Approval**: by default the ticket is *Not subject to approval*;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:38
+msgid ""
+"**Items**: list items associated to this ticket; field appearing only in "
+"ticket creation form, later editions will display items in a separate tab"
+" also used to associate new items to the ticket;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:40
+msgid ""
+"**Location**: indicates the intervention location, has no link with the "
+"location of associated items nor with the requester location (for example"
+" roaming requester with a laptop);"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:42
+msgid ""
+"**Actor**: implied actors are referenced in the ticket, which allows them"
+" to be notified during ticket life cycle, see :doc:`Defining actors and "
+"roles </modules/assistance/actors>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:44
+msgid ""
+"If email followup have been configured (see :ref:`notification management"
+" <configure_notifications>`), information about notifications are "
+"displayed for a user or a supplier: *Email Followup* (yes or no) and "
+"*Email*. Email is pre-filled with user's email if defined in user or "
+"supplier form. If no email is defined in user or supplier form, an email "
+"can be entered in text field."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:46
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:59
+msgid "Todo"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:46
+msgid "proof read following paragraph"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:48
+msgid ""
+"When using GLPI with multiple entities and having technicians with "
+"authorizations for several entities, it is not needed to switch current "
+"entity to declare a new incident inside an entity. Entity to which ticket"
+" will be assigned is determined as so: technician selects requester and "
+"GLPI find entities for which this requester has authorizations; if only "
+"one entity, ticket creation form is updated and ticket will be declared "
+"in this entity, if several entities, a drop-down list allows to select "
+"the entity to which ticket will be assigned."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:50
+msgid ""
+"**Title**: if no tile is defined by the user when creating the ticket, "
+"the first 70 characters of the description will be used to define ticket "
+"title;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:52
+msgid "**Description**: mandatory, for above reason;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:54
+msgid ""
+"**Linked Tickets**: defines a link between tickets, this link being of "
+"two types:"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:56
+msgid "*Linked to*: a simple link only used as information;"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:57
+msgid ""
+"*Duplicates*: when solving one of the duplicated tickets, the same "
+"solution is applied for other duplicated tickets which are therefore "
+"automatically solved."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:61
+msgid "Missing description of *Son of* and *Parent of*"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:65
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:68
+msgid "Processing ticket"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:70
+msgid ""
+"This tab displays exchanges between requester and personal in charge of "
+"the ticket; it allows to add information on the ticket such as requester "
+"call, ticket waiting for requester disponibility..."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:72
+msgid ""
+"This tab is the default tab when consulting a ticket except when the "
+"ticket is waiting for approval."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:74
+msgid "To add a followup, click on **Followup** and enter a description."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:76
+msgid ""
+"It is possible to choose the source of the followup, see :doc:`Configure "
+"dropdown </modules/configuration/dropdowns/index>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:78
+msgid ""
+"A followup can be public or private. A private followup is only visible "
+"by GLPI users having the authorization `See all followup and tasks`. It "
+"allows for instance to have an exchange between technician which is not "
+"visible by requester."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:80
+msgid ""
+"Adding, modifying and deleting a followup is submited to authorizations "
+"defined in profile, see :doc:`Administer user profiles "
+"</modules/administration/profiles/profiles>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:83
+msgid "Approvals"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:85
+msgid "See :doc:`Validation </Les_différents_onglets/Onglet_Validations>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:88
+msgid "Project Tasks"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:90
+msgid ""
+"A task is an action corresponding to a technical intervention related to "
+"the ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:92
+msgid "See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:95
+msgid "Solution"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:97
+msgid ""
+"This tab allows resolution of a ticket by a technican and approval of "
+"solution by requester."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:99
+msgid "See :doc:`Solutions </Les_différents_onglets/Onglet_Solution>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:102
+msgid "Statistics"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:104
+msgid "See :doc:`Statistics </Les_différents_onglets/Onglet_Statistiques>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:107
+msgid "Items"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:109
+msgid "Allows to associate several items to the ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:111
+msgid "See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:114
+msgid "Changes"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:116
+msgid "Allows to add and display changes associated with the ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:118
+msgid "See :doc:`Changes </Les_différents_onglets/Onglet_Changements>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:121
+msgid "Problems"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:123
+msgid ""
+"Allows to display and add problems associated with the ticket, or to "
+"create a problem from this ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:-1
+msgid "Creating a problem from a ticket"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:130
+msgid "See :doc:`Problems </commontabs/item_problemes>`"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:133
+msgid "Historical"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:135
+msgid "Display the history of the ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketmanagement.rst:137
+msgid "See :doc:`Historical </commontabs/item_historique>`"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:2
+msgid "Debugging information"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:4
+msgid ""
+"If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
+"appear before the *All* tab. This tab offers information to help you "
+"resolve an issue."
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:6
+msgid ""
+"For example, for a computer, you have one or more tables depending on the"
+" affected object (financial information, reservations...) listing the "
+"notifications that will be triggered on this computer with:"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:8
+msgid "Triggering event"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:9
+msgid "Recipient(s)"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:10
+msgid "Notification model used"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:11
+msgid "Recipient(s) email address"
+msgstr ""
+
+#: ../../source/modules/tabs/debug.rst:-1
+msgid "Debugging page"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab."
+" This shows all of the tabs of an object's form in one view, one below "
+"the other."
+msgstr ""
+

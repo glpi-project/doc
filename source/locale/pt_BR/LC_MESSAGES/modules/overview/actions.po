@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/overview/actions.rst:2
+msgid "Actions"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:4
+msgid ""
+"The different actions that are available on an object depend on the "
+"permissions assigned in user profile."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:6
+msgid ""
+"Likewise, some actions in the tab depend on profile permission, such as "
+"mass actions."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:8
+msgid ""
+"This page describes only main actions that can apply to different types "
+"of objects. If an action is specific to an object, it will be described "
+"in the documentation of this object."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:13
+msgid "Creation"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:15
+msgid ""
+"The permission to create an object depend on defined permission in user "
+"profile."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:17
+#: ../../source/modules/overview/actions.rst:33
+msgid "For all inventory objects, creation is realized in the same way:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:19
+#: ../../source/modules/overview/actions.rst:35
+#: ../../source/modules/overview/actions.rst:63
+#: ../../source/modules/overview/actions.rst:74
+#: ../../source/modules/overview/actions.rst:100
+#: ../../source/modules/overview/actions.rst:161
+msgid "Connect to GLPI ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:20
+msgid ""
+"Go to the object page, for example `Assets > Computers` to add a computer"
+" ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:21
+msgid "Click on the \"+\" button located in horizontal menu ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:22
+msgid ""
+"If the inventory object has a template management, choose the template to"
+" be applied ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:23
+msgid "Fill in the different fields of the empty form ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:24
+msgid "Validate."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:26
+msgid ""
+"An option located in user preferences, *After creation, go to created "
+"element*, allows to choose, after creating an object, if the newly "
+"created object is displayed or if a new empty form is displayed in order "
+"to create another object."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:29
+msgid "Modification"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:31
+msgid ""
+"The permission to modify an object depend on defined permission in user "
+"profile."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:36
+msgid ""
+"Go to the object page, for example, to modify a computer, go to `Assets >"
+" Computers` ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:37
+#: ../../source/modules/overview/actions.rst:65
+#: ../../source/modules/overview/actions.rst:76
+#: ../../source/modules/overview/actions.rst:102
+#: ../../source/modules/overview/actions.rst:163
+msgid ""
+"Or alternatively: search the object in the search engine available on top"
+" of objects list ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:38
+msgid "Two choices of modification are then possible:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:40
+msgid "Unitary modification:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:42
+#: ../../source/modules/overview/actions.rst:168
+msgid "Click on object name ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:43
+msgid "Modify fields ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:44
+msgid "Click on button **Update**."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:46
+msgid "Mass modification:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:48
+#: ../../source/modules/overview/actions.rst:89
+#: ../../source/modules/overview/actions.rst:115
+#: ../../source/modules/overview/actions.rst:173
+msgid "Select the checkbox located on the left of the object name ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:49
+#: ../../source/modules/overview/actions.rst:174
+msgid "Click on button **Actions** ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:50
+msgid "Choose field to be modified ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:51
+msgid "Enter new field value ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:52
+msgid "Click on button **Post**."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:55
+msgid "Display"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:57
+msgid ""
+"The permission to display an object depend on `read` permission in user "
+"profile."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:59
+msgid ""
+"If the permission to display an object is not granted, the name of this "
+"object will not appear in GLPI different menus. For example, if the "
+"permission to read a `Computer` type object is not granted in the user's "
+"profile, the sub-menu `Computer` will not appear in menu `Assets`, even "
+"if the permission to modify a `Computer` is granted."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:61
+msgid ""
+"For all inventory objects, displaying an object is realized in the same "
+"way:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:64
+msgid ""
+"Go to the object page, for example, to display a computer, go to `Assets "
+"> Computers` ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:66
+msgid "Click on object name.."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:70
+msgid "Attaching a document"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:72
+msgid ""
+"When available for the item type, attaching a document is realized in the"
+" same way:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:75
+#: ../../source/modules/overview/actions.rst:101
+msgid ""
+"Go to the object menu, for example, to attach to a computer, go to "
+"`Assets > Computers` ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:78
+#: ../../source/modules/overview/actions.rst:104
+msgid "Two possibilities are available:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:80
+#: ../../source/modules/overview/actions.rst:106
+msgid "Unitary attachment :"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:82
+#: ../../source/modules/overview/actions.rst:108
+msgid "Click on the object name ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:83
+msgid "Select tab **Documents** ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:84
+msgid "Select a document or click button **Choose** to add a new document ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:85
+#: ../../source/modules/overview/actions.rst:111
+msgid "Click on button **Add**."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:87
+#: ../../source/modules/overview/actions.rst:113
+msgid "Mass attachment :"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:90
+msgid "Click on button **Actions** and choose **Add a Document**"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:92
+msgid "GLPI will then display the object form with newly attached document."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:96
+msgid "Attaching a contract"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:98
+msgid ""
+"When available for the item type, attaching a contract is realized in the"
+" same way:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:109
+msgid "Select tab **Contracts** ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:110
+msgid "Select a contract ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:116
+msgid "Click on button **Actions** and choose **Add a Contract**"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:118
+msgid "GLPI will then display the object form with newly attached contract."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:122
+msgid "Transfer between entities"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:124
+msgid ""
+"Entities open the possibility to define transfer profiles in order to "
+"move elements between entities. This allows in particular to switch from "
+"a single entity GLPI to a GLPI with multiple entities."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:126
+msgid ""
+"To make a transfer, it is first necessary to check that the used profile "
+"has permission to make transfers (`Administration > Profiles > "
+"Administration --> Transfer read permission`)."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:130
+msgid "In order to make a transfer:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:132
+msgid ""
+"Configure the actions performed by the transfer :doc:`Administration "
+"Rules Transfer </modules/administration/rules/rulesmanagement>` ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:133
+msgid ""
+"Check that profile performing transfer has permission on the origin "
+"entity and on the destination entity (simplest solution is to use a "
+"recursive profile from root entity) ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:134
+msgid "Go to root entity (`See all`) ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:135
+msgid "From objects list, select the element to be transferred ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:136
+msgid "Choose **Add to transfer list** then **Validate** ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:137
+msgid ""
+"In **Transfer mode**, select a transfer configuration profile that has "
+"been created at step 2 ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:138
+msgid "Select destination entity, where object will be transferred to ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:139
+msgid "Click on **Transfer** ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:140
+msgid "Check in destination entity that object is effectively there."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:144
+msgid ""
+"If a linked element does not exist in destination entity, it will be "
+"automatically created if transfer profile asks to keep it."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:147
+msgid ""
+"Example : transfer of a `Computer` with a provider defined in accounting "
+"informations: if this provider exists only in origin entity, it will be "
+"created in destination entity; however, a provider defined in root entity"
+" with recursivity enable will not be recreated."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:151
+msgid "Location and group must be updated for destination entity."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:155
+msgid "Deletion"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:157
+msgid ""
+"The permission to delete an object depend on `delete` permission in user "
+"profile."
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:159
+msgid "For all inventory objects, deleting an object is realized in the same way:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:162
+msgid ""
+"Go to the object page, for example, to delete a computer, go to `Assets >"
+" Computers` ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:164
+msgid "Two choices of deletion are then possible:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:166
+msgid "Unitary deletion:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:169
+msgid "Click on button **Delete** ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:171
+msgid "Mass deletion:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:176
+msgid "In both cases, a choice will have to be made between:"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:178
+msgid ""
+"*Move to trash bin* if object has an associated trash bin. In this case, "
+"object may be restored later on ;"
+msgstr ""
+
+#: ../../source/modules/overview/actions.rst:179
+msgid ""
+"*Delete permanently* if object does not have an associated trash bin. In "
+"this case, GLPI will ask for confirmation before real deletion of the "
+"object in the database."
+msgstr ""
+

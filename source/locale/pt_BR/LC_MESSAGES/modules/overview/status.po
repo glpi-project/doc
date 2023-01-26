@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/overview/status.rst:2
+msgid "Status in GLPI, specific view"
+msgstr ""
+
+#: ../../source/modules/overview/status.rst:4
+msgid ""
+"Status information is frequently used to sort hardware that is disposed, "
+"available, assigned... It is possible to create new status values "
+"specific to the information system managed by GLPI."
+msgstr ""
+
+#: ../../source/modules/overview/status.rst:6
+msgid ""
+"Defining new status and the object types they will be used for is under "
+"GLPI administrator's responsibility, see :doc:`dropdown configuration "
+"</modules/configuration/dropdowns/index>`. These defined status can be "
+"recursive, in order to ease management."
+msgstr ""
+
+#: ../../source/modules/overview/status.rst:8
+msgid ""
+"Modifying an element's status can be done either from the element's form "
+"or using mass actions."
+msgstr ""
+
+#: ../../source/modules/overview/status.rst:10
+msgid ""
+"A :ref:`report <gestion-rapports>` can display a summary of statuses "
+"sorted by asset types. :ref:`Global search on inventory <recherche-"
+"globale-inventaire>` allows to query inventory elements by status."
+msgstr ""
+

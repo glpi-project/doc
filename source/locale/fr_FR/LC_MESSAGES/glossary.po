@@ -1,0 +1,1133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 10:24+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/glossary.rst:2
+msgid "Glossary"
+msgstr ""
+
+#: ../../source/glossary.rst:6
+msgid "Accepted"
+msgstr ""
+
+#: ../../source/glossary.rst:8
+msgid "State of a demand which has been validated by an approver."
+msgstr ""
+
+#: ../../source/glossary.rst:42
+msgid "Accreditation"
+msgstr ""
+
+#: ../../source/glossary.rst:44
+msgid ""
+"Authorization to perform a set of actions on several entities, given by "
+"rights attribution process."
+msgstr ""
+
+#: ../../source/glossary.rst:9
+msgid "Actions"
+msgstr ""
+
+#: ../../source/glossary.rst:11
+msgid "Grouping in a list of available handling of GLPI objects."
+msgstr ""
+
+#: ../../source/glossary.rst:78
+msgid "Active Directory service"
+msgstr ""
+
+#: ../../source/glossary.rst:80
+msgid ""
+"Directory service compatible with :term:`LDAP directory`, provided by "
+"Microsoft. Also known as `AD`."
+msgstr ""
+
+#: ../../source/glossary.rst:12
+msgid "Adaptive rule"
+msgstr ""
+
+#: ../../source/glossary.rst:14
+msgid ""
+"Rule in which at least one action is the result of a regular expression "
+"defined in a criteria."
+msgstr ""
+
+#: ../../source/glossary.rst:15
+msgid "Administrative closing"
+msgstr ""
+
+#: ../../source/glossary.rst:17
+msgid "Modification of a ticket status to closed (manually or automatically)."
+msgstr ""
+
+#: ../../source/glossary.rst:18
+msgid "Alert threshold"
+msgstr ""
+
+#: ../../source/glossary.rst:20
+msgid "Minimal value from which an alert is triggered."
+msgstr ""
+
+#: ../../source/glossary.rst:167
+msgid "Asset"
+msgstr ""
+
+#: ../../source/glossary.rst:169
+msgid ""
+"Generic term for an element that can be inventoried and managed in GLPI."
+msgstr ""
+
+#: ../../source/glossary.rst:21
+msgid "Automatic action"
+msgstr ""
+
+#: ../../source/glossary.rst:23
+msgid ""
+"Process for regular actions triggering, either internal to GLPI or external "
+"(Unix cron, Windows planned tasks...)."
+msgstr ""
+
+#: ../../source/glossary.rst:24
+msgid "Automatic closing"
+msgstr ""
+
+#: ../../source/glossary.rst:26
+msgid ""
+"GLPI internal process that closes unresolved tickets after a given time."
+msgstr ""
+
+#: ../../source/glossary.rst:270
+msgid "Booking"
+msgstr ""
+
+#: ../../source/glossary.rst:272
+msgid "Element that is booked for a given period."
+msgstr ""
+
+#: ../../source/glossary.rst:27
+msgid "Bookmark"
+msgstr ""
+
+#: ../../source/glossary.rst:29
+msgid "Stored link to a GLPI page that allows to access the page quickly."
+msgstr ""
+
+#: ../../source/glossary.rst:30
+msgid "Budget"
+msgstr ""
+
+#: ../../source/glossary.rst:32
+msgid ""
+"Accounting operation that groups all provisional expenses and receipts."
+msgstr ""
+
+#: ../../source/glossary.rst:33
+msgid "Cartridge"
+msgstr ""
+
+#: ../../source/glossary.rst:35
+msgid "Consumable used by a printer and specifically managed in GLPI."
+msgstr ""
+
+#: ../../source/glossary.rst:36
+msgid "Case"
+msgstr ""
+
+#: ../../source/glossary.rst:38
+msgid ""
+"Physical element that contains a computer's components (motherboard, "
+"processor, disk...)."
+msgstr ""
+
+#: ../../source/glossary.rst:45
+msgid "Closed (ticket)"
+msgstr ""
+
+#: ../../source/glossary.rst:47
+msgid ""
+"Status of a ticket whose solution has been approved by the ticket issuer or "
+"that has been close automatically."
+msgstr ""
+
+#: ../../source/glossary.rst:249
+msgid "Collector"
+msgstr ""
+
+#: ../../source/glossary.rst:251
+msgid ""
+"Functionality of GLPI that allows to create tickets or followup by importing"
+" messages from a mailbox."
+msgstr ""
+
+#: ../../source/glossary.rst:48
+msgid "Connection (network)"
+msgstr ""
+
+#: ../../source/glossary.rst:50
+msgid "Link between two network ports."
+msgstr ""
+
+#: ../../source/glossary.rst:54
+msgid "Contact"
+msgstr ""
+
+#: ../../source/glossary.rst:56
+msgid "Referent person linked to a supplier."
+msgstr ""
+
+#: ../../source/glossary.rst:57
+msgid "Contract"
+msgstr ""
+
+#: ../../source/glossary.rst:59
+msgid "Financial document linked to assets and to suppliers."
+msgstr ""
+
+#: ../../source/glossary.rst:60
+msgid "Controller"
+msgstr ""
+
+#: ../../source/glossary.rst:62
+msgid "Device that interfaces with other peripheral device."
+msgstr ""
+
+#: ../../source/glossary.rst:63
+msgid "Criteria"
+msgstr ""
+
+#: ../../source/glossary.rst:65
+msgid ""
+"Element or pattern used by search engines to select an information or used "
+"by rules engines and dictionaries to perform actions."
+msgstr ""
+
+#: ../../source/glossary.rst:69
+msgid "Default profile"
+msgstr ""
+
+#: ../../source/glossary.rst:71
+msgid ""
+"Profile attributed by the application in the absence of particular settings "
+"(rules, manual attribution...)."
+msgstr ""
+
+#: ../../source/glossary.rst:66
+msgid "Depreciation type"
+msgstr ""
+
+#: ../../source/glossary.rst:68
+msgid ""
+"Characteristic of depreciation which balance can be linear or declining."
+msgstr ""
+
+#: ../../source/glossary.rst:72
+msgid "Dictionary"
+msgstr ""
+
+#: ../../source/glossary.rst:74
+msgid "Set of rules that allow to modify GLPI data."
+msgstr ""
+
+#: ../../source/glossary.rst:75
+msgid "Direct connection"
+msgstr ""
+
+#: ../../source/glossary.rst:77
+msgid "Physical link between a computer and another asset."
+msgstr ""
+
+#: ../../source/glossary.rst:84
+msgid "Document"
+msgstr ""
+
+#: ../../source/glossary.rst:86
+msgid ""
+"Element that defines a link and/or store a file and that can be associated "
+"to other objects of GLPI."
+msgstr ""
+
+#: ../../source/glossary.rst:90
+msgid "Domain"
+msgstr ""
+
+#: ../../source/glossary.rst:92
+msgid "Group of assets connected to a network."
+msgstr ""
+
+#: ../../source/glossary.rst:93
+msgid "Dropdown"
+msgstr ""
+
+#: ../../source/glossary.rst:95
+msgid "Customizable dropdown list used in GLPI and plugins."
+msgstr ""
+
+#: ../../source/glossary.rst:96
+msgid "Entity"
+msgstr ""
+
+#: ../../source/glossary.rst:98
+msgid ""
+"Organizational object allowing to partition view and action scope of users."
+msgstr ""
+
+#: ../../source/glossary.rst:294
+msgid "Express renewal"
+msgstr ""
+
+#: ../../source/glossary.rst:296
+msgid ""
+"The contract is renewed only if both parties agree for its renewal (opposite"
+" to tacit renewal)."
+msgstr ""
+
+#: ../../source/glossary.rst:105
+msgid "External link"
+msgstr ""
+
+#: ../../source/glossary.rst:107
+msgid ""
+"Link displayed on an asset form in GLPI and built dynamically using the "
+"asset data."
+msgstr ""
+
+#: ../../source/glossary.rst:111
+msgid "Financial information"
+msgstr ""
+
+#: ../../source/glossary.rst:113
+msgid "Data for invoicing and warranty."
+msgstr ""
+
+#: ../../source/glossary.rst:114
+msgid "Followup"
+msgstr ""
+
+#: ../../source/glossary.rst:116
+msgid "Exchange between a ticket issuer and the persons in charge of it."
+msgstr ""
+
+#: ../../source/glossary.rst:126
+msgid "FQDN"
+msgstr ""
+
+#: ../../source/glossary.rst:128
+msgid ""
+"A :abbr:`FQDN (Fully qualified domain name)` is a fully qualified domain "
+"name."
+msgstr ""
+
+#: ../../source/glossary.rst:130
+msgid "For example : `www.glpi-project.org`, `forge.glpi-project.org`..."
+msgstr ""
+
+#: ../../source/glossary.rst:108
+msgid "Frequently Asked Questions (FAQ)"
+msgstr ""
+
+#: ../../source/glossary.rst:110
+msgid ""
+"Specifically in GLPI, selection of elements of the knowledge base that can "
+"be provided independently, for example articles that are made accessible to "
+"users having only access to the simplified interface."
+msgstr ""
+
+#: ../../source/glossary.rst:131
+msgid "Global management"
+msgstr ""
+
+#: ../../source/glossary.rst:133
+msgid ""
+"Management mode in which a unique inventory object can be connected to "
+"several computers."
+msgstr ""
+
+#: ../../source/glossary.rst:134
+msgid "Global note"
+msgstr ""
+
+#: ../../source/glossary.rst:136
+msgid "Public note that is also visible from sub-entities."
+msgstr ""
+
+#: ../../source/glossary.rst:137
+msgid "Global right"
+msgstr ""
+
+#: ../../source/glossary.rst:139
+msgid "Permission on objects that are not linked to an entity."
+msgstr ""
+
+#: ../../source/glossary.rst:369
+msgid "Global view"
+msgstr ""
+
+#: ../../source/glossary.rst:371
+msgid ""
+"In a GLPI menu, display of columns in a list that is common to all users."
+msgstr ""
+
+#: ../../source/glossary.rst:143
+msgid "Group"
+msgstr ""
+
+#: ../../source/glossary.rst:145
+msgid "Grouping of users."
+msgstr ""
+
+#: ../../source/glossary.rst:140
+msgid "Grouping"
+msgstr ""
+
+#: ../../source/glossary.rst:142
+msgid ""
+"Action of merging similar elements of distinct entities into the parent "
+"entity."
+msgstr ""
+
+#: ../../source/glossary.rst:146
+msgid "Hive"
+msgstr ""
+
+#: ../../source/glossary.rst:148
+msgid "Entry in Windows registry."
+msgstr ""
+
+#: ../../source/glossary.rst:149
+msgid "ICAL (ICalendar)"
+msgstr ""
+
+#: ../../source/glossary.rst:151
+msgid "Calendar import/export format."
+msgstr ""
+
+#: ../../source/glossary.rst:152
+msgid "ID"
+msgstr ""
+
+#: ../../source/glossary.rst:154
+msgid "Technical identifier of an element."
+msgstr ""
+
+#: ../../source/glossary.rst:177
+msgid "Identifier"
+msgstr ""
+
+#: ../../source/glossary.rst:179
+msgid "Connection name of a user (login)."
+msgstr ""
+
+#: ../../source/glossary.rst:155
+msgid "IMAP/POP"
+msgstr ""
+
+#: ../../source/glossary.rst:157
+msgid ""
+":abbr:`IMAP (Internet Message Access Protocol)` and :abbr:`POP (Post Office "
+"Protocol)` are messaging protocols allowing to retrieve mail messages."
+msgstr ""
+
+#: ../../source/glossary.rst:158
+msgid "Impact"
+msgstr ""
+
+#: ../../source/glossary.rst:160
+msgid ""
+"Measure of the effect of an incident, problem or change in business process."
+msgstr ""
+
+#: ../../source/glossary.rst:228
+msgid "In progress (attributed) (Ticket)"
+msgstr ""
+
+#: ../../source/glossary.rst:230
+msgid ""
+"Status of a ticket that is attributed to a technician or a group of "
+"technicians."
+msgstr ""
+
+#: ../../source/glossary.rst:231
+msgid "In progress (planned) (Ticket)"
+msgstr ""
+
+#: ../../source/glossary.rst:233
+msgid ""
+"Status of a ticket that is attributed to a technician or a group of "
+"technicians and for which an action is planned."
+msgstr ""
+
+#: ../../source/glossary.rst:161
+msgid "Incident"
+msgstr ""
+
+#: ../../source/glossary.rst:163
+msgid "Unplanned interruption or quality decrease of a service."
+msgstr ""
+
+#: ../../source/glossary.rst:164
+msgid "Intervention"
+msgstr ""
+
+#: ../../source/glossary.rst:166
+msgid "Action of a technician to solve an incident."
+msgstr ""
+
+#: ../../source/glossary.rst:171
+msgid "Knowledge base"
+msgstr ""
+
+#: ../../source/glossary.rst:173
+msgid ""
+"Database allowing to gather, analyze, store and share knowledge and "
+"information inside an organization."
+msgstr ""
+
+#: ../../source/glossary.rst:117
+msgid "Label FQDN"
+msgstr ""
+
+#: ../../source/glossary.rst:119
+msgid "A :term:`FQDN` is composed of labels separated by dots ('`.`')."
+msgstr ""
+
+#: ../../source/glossary.rst:121
+msgid ""
+"For example, `www.glpi-project.org` is composed of labels `www`, `glpi-"
+"project` and `org`."
+msgstr ""
+
+#: ../../source/glossary.rst:123
+msgid ""
+"A computer name is composed of a label and the name of the domain it belongs"
+" to, for example `www` name in domain `glpi-project.org`."
+msgstr ""
+
+#: ../../source/glossary.rst:125
+msgid "In GLPI, labels are compliant with section 2.1 of RFC 1123."
+msgstr ""
+
+#: ../../source/glossary.rst:81
+msgid "LDAP directory"
+msgstr ""
+
+#: ../../source/glossary.rst:83
+msgid ""
+"Directory service using the :abbr:`LDAP protocol (Lightweight Directory "
+"Access Protocol)`. Allows in particular to store user accounts."
+msgstr ""
+
+#: ../../source/glossary.rst:99
+msgid "Local right"
+msgstr ""
+
+#: ../../source/glossary.rst:101
+msgid "Permission applicable to a given scope (entity)."
+msgstr ""
+
+#: ../../source/glossary.rst:174
+msgid "Location"
+msgstr ""
+
+#: ../../source/glossary.rst:176
+msgid "Name in GLPI allowing geographical localization of an asset."
+msgstr ""
+
+#: ../../source/glossary.rst:180
+msgid "Logs"
+msgstr ""
+
+#: ../../source/glossary.rst:182
+msgid "List of events occurring during use of GLPI application."
+msgstr ""
+
+#: ../../source/glossary.rst:87
+msgid "Mail domain"
+msgstr ""
+
+#: ../../source/glossary.rst:89
+msgid "Part of a mail adress that is after character `@`."
+msgstr ""
+
+#: ../../source/glossary.rst:183
+msgid "Manufacturer"
+msgstr ""
+
+#: ../../source/glossary.rst:185
+msgid "Company producing a hardware."
+msgstr ""
+
+#: ../../source/glossary.rst:186
+msgid "Mount point"
+msgstr ""
+
+#: ../../source/glossary.rst:188
+msgid ""
+"Directory from which the data contained in a partition can be accessed."
+msgstr ""
+
+#: ../../source/glossary.rst:189
+msgid "Network"
+msgstr ""
+
+#: ../../source/glossary.rst:191
+msgid "Name defining the connection type (internet, local...)."
+msgstr ""
+
+#: ../../source/glossary.rst:192
+msgid "Network port"
+msgstr ""
+
+#: ../../source/glossary.rst:194
+msgid "Network interface that can be virtual or physical."
+msgstr ""
+
+#: ../../source/glossary.rst:195
+msgid "Networks"
+msgstr ""
+
+#: ../../source/glossary.rst:197
+msgid "Hardwares providing interconnection of computer equipments."
+msgstr ""
+
+#: ../../source/glossary.rst:198
+msgid "New (ticket)"
+msgstr ""
+
+#: ../../source/glossary.rst:200
+msgid "Default status of a ticket."
+msgstr ""
+
+#: ../../source/glossary.rst:201
+msgid "Path"
+msgstr ""
+
+#: ../../source/glossary.rst:203
+msgid "Address allowing to localize an element in a tree structure."
+msgstr ""
+
+#: ../../source/glossary.rst:204
+msgid "Pattern"
+msgstr ""
+
+#: ../../source/glossary.rst:206
+msgid "Character string used for comparison in a criteria."
+msgstr ""
+
+#: ../../source/glossary.rst:216
+msgid "PDU"
+msgstr ""
+
+#: ../../source/glossary.rst:218
+msgid "Power Distribution Unit."
+msgstr ""
+
+#: ../../source/glossary.rst:381
+msgid "Pending (Ticket)"
+msgstr ""
+
+#: ../../source/glossary.rst:383
+msgid ""
+"Status of a ticket which processing is temporarily suspended (does not "
+"impact processing time)."
+msgstr ""
+
+#: ../../source/glossary.rst:207
+msgid "Personal note"
+msgstr ""
+
+#: ../../source/glossary.rst:209
+msgid "Note visible only by its writer."
+msgstr ""
+
+#: ../../source/glossary.rst:372
+msgid "Personal view"
+msgstr ""
+
+#: ../../source/glossary.rst:374
+msgid ""
+"In a GLPI menu, display of columns in a list that is specific to a user."
+msgstr ""
+
+#: ../../source/glossary.rst:210
+msgid "Planning"
+msgstr ""
+
+#: ../../source/glossary.rst:212
+msgid "Scheduling of a task in time scale."
+msgstr ""
+
+#: ../../source/glossary.rst:213
+msgid "Plugin"
+msgstr ""
+
+#: ../../source/glossary.rst:215
+msgid ""
+"GLPI extension that allows to add functionalities and/or to modify "
+"application behaviors."
+msgstr ""
+
+#: ../../source/glossary.rst:219
+msgid "Power supply"
+msgstr ""
+
+#: ../../source/glossary.rst:221
+msgid "Bloc providing electric current to the components of a computer."
+msgstr ""
+
+#: ../../source/glossary.rst:288
+msgid "Preferences"
+msgstr ""
+
+#: ../../source/glossary.rst:290
+msgid "Personal parameters of a user."
+msgstr ""
+
+#: ../../source/glossary.rst:222
+msgid "Priority"
+msgstr ""
+
+#: ../../source/glossary.rst:224
+msgid ""
+"Scale that identifies the relative importance of a ticket and that results "
+"from impact and urgency."
+msgstr ""
+
+#: ../../source/glossary.rst:225
+msgid "Private"
+msgstr ""
+
+#: ../../source/glossary.rst:227
+msgid "Element that is visible only by its writer (bookmark, note...)."
+msgstr ""
+
+#: ../../source/glossary.rst:234
+msgid "Profile"
+msgstr ""
+
+#: ../../source/glossary.rst:236
+msgid "Set of rights."
+msgstr ""
+
+#: ../../source/glossary.rst:318
+msgid "Provider"
+msgstr ""
+
+#: ../../source/glossary.rst:320
+msgid ""
+"Legal structure toward which a contractual relation can be established "
+"(purchase, contract...)."
+msgstr ""
+
+#: ../../source/glossary.rst:237
+msgid "Public"
+msgstr ""
+
+#: ../../source/glossary.rst:239
+msgid "Element that is visible by all authorized users of an entity."
+msgstr ""
+
+#: ../../source/glossary.rst:240
+msgid "Public note"
+msgstr ""
+
+#: ../../source/glossary.rst:242
+msgid "Note that is visible by all users of the note's entity."
+msgstr ""
+
+#: ../../source/glossary.rst:243
+msgid "Purge"
+msgstr ""
+
+#: ../../source/glossary.rst:245
+msgid "Permanent deletion of elements placed in the trash bin."
+msgstr ""
+
+#: ../../source/glossary.rst:252
+msgid "Recursivity"
+msgstr ""
+
+#: ../../source/glossary.rst:254
+msgid ""
+"Property of an object belonging to an entity that makes it visible from sub-"
+"entities."
+msgstr ""
+
+#: ../../source/glossary.rst:255
+msgid "Refused"
+msgstr ""
+
+#: ../../source/glossary.rst:257
+msgid "State of a demand that has been invalidated."
+msgstr ""
+
+#: ../../source/glossary.rst:51
+msgid "Registered user"
+msgstr ""
+
+#: ../../source/glossary.rst:53
+msgid "Person having an accreditation allowing to connect to GLPI."
+msgstr ""
+
+#: ../../source/glossary.rst:258
+msgid "Regular expression"
+msgstr ""
+
+#: ../../source/glossary.rst:260
+msgid ""
+"Character string (often called pattern) that describes a set of accepted "
+"strings according to a well-defined syntax."
+msgstr ""
+
+#: ../../source/glossary.rst:261
+msgid "Replicate (MySQL)"
+msgstr ""
+
+#: ../../source/glossary.rst:263
+msgid "MySQL database used by GLPI if main database is not available."
+msgstr ""
+
+#: ../../source/glossary.rst:264
+msgid "Report"
+msgstr ""
+
+#: ../../source/glossary.rst:266
+msgid "Document that sums up GLPI data."
+msgstr ""
+
+#: ../../source/glossary.rst:267
+msgid "Requester"
+msgstr ""
+
+#: ../../source/glossary.rst:269
+msgid "Person at the origin of an incident ticket or a service request."
+msgstr ""
+
+#: ../../source/glossary.rst:273
+msgid "Restoration"
+msgstr ""
+
+#: ../../source/glossary.rst:275
+msgid "Recovery of an element of the trash bin."
+msgstr ""
+
+#: ../../source/glossary.rst:276
+msgid "Right"
+msgstr ""
+
+#: ../../source/glossary.rst:278
+msgid "Authorization of a user for a given action."
+msgstr ""
+
+#: ../../source/glossary.rst:279
+msgid "Root entity"
+msgstr ""
+
+#: ../../source/glossary.rst:281
+msgid ""
+"First entity of GLPI entities tree structure, that is always present even if"
+" no other entity is defined and that cannot be deleted."
+msgstr ""
+
+#: ../../source/glossary.rst:282
+msgid "Rule"
+msgstr ""
+
+#: ../../source/glossary.rst:284
+msgid ""
+"List of criteria that trig a list of actions if criteria are satisfied."
+msgstr ""
+
+#: ../../source/glossary.rst:246
+msgid "Saved search"
+msgstr ""
+
+#: ../../source/glossary.rst:248
+msgid ""
+"Recording of GLPI search engine state that allows to store and perform again"
+" the search."
+msgstr ""
+
+#: ../../source/glossary.rst:285
+msgid "Service"
+msgstr ""
+
+#: ../../source/glossary.rst:287
+msgid "General action of GLPI listed in the events."
+msgstr ""
+
+#: ../../source/glossary.rst:306
+msgid "Simplified interface"
+msgstr ""
+
+#: ../../source/glossary.rst:308
+msgid ""
+"GLPI user interface that gives access to a reduced set of functionalities "
+"and that targets end users (opposite to `standard interface`)."
+msgstr ""
+
+#: ../../source/glossary.rst:387
+msgid "SLA"
+msgstr ""
+
+#: ../../source/glossary.rst:389
+msgid ""
+"SLA (for Service-Level Agreement) is a contract between a service provider "
+"and a client that defines the requested quality of service and the "
+"responsibilities in case of failure."
+msgstr ""
+
+#: ../../source/glossary.rst:291
+msgid "Solved (ticket)"
+msgstr ""
+
+#: ../../source/glossary.rst:293
+msgid "Ticket state when a technical solution was provided for an incident."
+msgstr ""
+
+#: ../../source/glossary.rst:39
+msgid "SSO"
+msgstr ""
+
+#: ../../source/glossary.rst:41
+msgid "Unique authentication system (:abbr:`SSO (Single Sign On)`)."
+msgstr ""
+
+#: ../../source/glossary.rst:297
+msgid "Standard interface"
+msgstr ""
+
+#: ../../source/glossary.rst:299
+msgid ""
+"GLPI user interface that gives access to all functionalities (opposite to "
+"`simplified interface`)."
+msgstr ""
+
+#: ../../source/glossary.rst:300
+msgid "Statistics"
+msgstr ""
+
+#: ../../source/glossary.rst:302
+msgid "Summary of GLPI data linked to tickets."
+msgstr ""
+
+#: ../../source/glossary.rst:303
+msgid "Status"
+msgstr ""
+
+#: ../../source/glossary.rst:305
+msgid "State of an asset or of a ticket, belonging to its life cycle."
+msgstr ""
+
+#: ../../source/glossary.rst:309
+msgid "Sub-entity"
+msgstr ""
+
+#: ../../source/glossary.rst:311
+msgid "Child entity of an entity; on a form, indicates recursivity status."
+msgstr ""
+
+#: ../../source/glossary.rst:312
+msgid "Subject"
+msgstr ""
+
+#: ../../source/glossary.rst:314
+msgid "Title or question of an element of the knowledge base."
+msgstr ""
+
+#: ../../source/glossary.rst:315
+msgid "Supervisor"
+msgstr ""
+
+#: ../../source/glossary.rst:317
+msgid "Person in charge of a group of users."
+msgstr ""
+
+#: ../../source/glossary.rst:102
+msgid "Tacit renewal"
+msgstr ""
+
+#: ../../source/glossary.rst:104
+msgid ""
+"The contract is renewed automaticaly if none of the parties declares its "
+"will to break it."
+msgstr ""
+
+#: ../../source/glossary.rst:324
+msgid "Tagged VLAN"
+msgstr ""
+
+#: ../../source/glossary.rst:326
+msgid ""
+"A tagged :abbr:`VLAN (Virtual Local Area Network)` is a :term:`VLAN` which "
+"tag is transmited in network frame (see `802.1Q "
+"<http://fr.wikipedia.org/wiki/IEEE_802.1Q>`_)."
+msgstr ""
+
+#: ../../source/glossary.rst:330
+msgid "Task"
+msgstr ""
+
+#: ../../source/glossary.rst:332
+msgid "Action corresponding to a technical operation that can be planned."
+msgstr ""
+
+#: ../../source/glossary.rst:333
+msgid "Technician"
+msgstr ""
+
+#: ../../source/glossary.rst:335
+msgid "User in charge of tickets processing."
+msgstr ""
+
+#: ../../source/glossary.rst:336
+msgid "Template"
+msgstr ""
+
+#: ../../source/glossary.rst:338
+msgid ""
+"Reusable model of object containing predefined fieds and allowing easier "
+"user entry."
+msgstr ""
+
+#: ../../source/glossary.rst:342
+msgid "Ticket"
+msgstr ""
+
+#: ../../source/glossary.rst:344
+msgid "GLPI object representing an incident or a service request."
+msgstr ""
+
+#: ../../source/glossary.rst:339
+msgid "Tier type"
+msgstr ""
+
+#: ../../source/glossary.rst:341
+msgid "Category of providers."
+msgstr ""
+
+#: ../../source/glossary.rst:345
+msgid "Transfer"
+msgstr ""
+
+#: ../../source/glossary.rst:347
+msgid "Action of moving an object from one entity to another."
+msgstr ""
+
+#: ../../source/glossary.rst:348
+msgid "Trash bin"
+msgstr ""
+
+#: ../../source/glossary.rst:350
+msgid ""
+"Container of elements deleted by users. Similar to the trash bin in a "
+"desktop environment, it is an intermediate state before purge."
+msgstr ""
+
+#: ../../source/glossary.rst:351
+msgid "Tree"
+msgstr ""
+
+#: ../../source/glossary.rst:353
+msgid "Hierarchical organization of data using a tree structure."
+msgstr ""
+
+#: ../../source/glossary.rst:354
+msgid "Unitary management"
+msgstr ""
+
+#: ../../source/glossary.rst:356
+msgid ""
+"Management mode in which an inventory object can be connected to only one "
+"computer."
+msgstr ""
+
+#: ../../source/glossary.rst:357
+msgid "Urgency"
+msgstr ""
+
+#: ../../source/glossary.rst:359
+msgid ""
+"Criteria defined by the requester that specifies for a ticket the desired "
+"resolution speed."
+msgstr ""
+
+#: ../../source/glossary.rst:360
+msgid "User"
+msgstr ""
+
+#: ../../source/glossary.rst:362
+msgid "User of an asset that is not registered in GLPI user base."
+msgstr ""
+
+#: ../../source/glossary.rst:363
+msgid "Validation"
+msgstr ""
+
+#: ../../source/glossary.rst:365
+msgid "Action of authorizing a ticket processing."
+msgstr ""
+
+#: ../../source/glossary.rst:366
+msgid "Validator"
+msgstr ""
+
+#: ../../source/glossary.rst:368
+msgid "Person performing the validation of a ticket."
+msgstr ""
+
+#: ../../source/glossary.rst:375
+msgid "VCard"
+msgstr ""
+
+#: ../../source/glossary.rst:377
+msgid "Virtual visit card."
+msgstr ""
+
+#: ../../source/glossary.rst:327
+msgid "Virtual network port"
+msgstr ""
+
+#: ../../source/glossary.rst:329
+msgid ""
+"A virtual network port is a port which does not correspond to a physical "
+"network hardware."
+msgstr ""
+
+#: ../../source/glossary.rst:321
+msgid "VLAN"
+msgstr ""
+
+#: ../../source/glossary.rst:323
+msgid ":abbr:`VLAN (Virtual Local Area Network)` : Virtual Local Network."
+msgstr ""
+
+#: ../../source/glossary.rst:378
+msgid "Volume"
+msgstr ""
+
+#: ../../source/glossary.rst:380
+msgid "Storage area attached to a computer."
+msgstr ""
+
+#: ../../source/glossary.rst:384
+msgid "Webcal"
+msgstr ""
+
+#: ../../source/glossary.rst:386
+msgid "Exchange format for calendar data."
+msgstr ""

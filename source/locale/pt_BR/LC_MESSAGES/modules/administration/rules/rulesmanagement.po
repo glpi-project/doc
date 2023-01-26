@@ -1,0 +1,370 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:2
+msgid "Rules"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:4
+msgid "testrule"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:6
+msgid ""
+"Export, import and duplication is possible for all rules. These "
+"operations can be carried out globally from the main rules page or by "
+"batch from the search engines for the various rules via massive actions. "
+"These features are interesting for example in the context of switching of"
+" rules from a pre-production environment to a production environment."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:8
+msgid "export or import use a XML file format"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:11
+msgid "Rules engine"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:13
+msgid ""
+"GLPI contains a rules engine which enables a certain number of actions "
+"and associations to be carried out automatically."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:15
+msgid "This engine is used for both:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:17
+msgid "management rules:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:19
+msgid "assigning an asset to an entity"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:20
+msgid "granting permissions to a user"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:21
+msgid "assigning category to a software"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:22
+msgid "routing tickets to entities"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:23
+msgid "automatic actions when opening ticket"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:25
+msgid ":doc:`data dictionaries </modules/administration/dictionnaries>` :"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:27
+msgid "manufacturers"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:28
+msgid "software"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:29
+msgid "printers"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:30
+msgid "types of assets"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:31
+msgid "models of assets"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:32
+msgid "operating system related fields"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:34
+msgid "The engine behaves differently depending on the types of rules:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:36
+msgid "stop after first matching rule"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:37
+msgid "apply all rules"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:38
+msgid "apply rules and pass rule result to next rule"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:40
+msgid "Rules can be disabled, for example when writing and testing new rules."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:42
+msgid ""
+"in general, it is recommended to test the rules well before using them "
+"and to make a backup before setting up each new rule. On the main form of"
+" a rule, a *Test* button opens an additional window that allows to see "
+"all the criteria and results of the rule."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:45
+msgid "The different rules"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:48
+msgid "Rules for assigning a ticket opened via a mail collector"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:50
+msgid ""
+"See :ref:`Rules for assigning a ticket opened via a mail collector "
+"<collectors_rules>`"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:53
+msgid "Rules for assigning authorizations to a user"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:55
+msgid ""
+"See :doc:`Rules for assigning authorizations to a user "
+"</modules/administration/rules/userauthorizations>`"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:58
+msgid "Rules for assigning a category to software"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:60
+msgid ""
+"Classification by category makes it easier to display and find software. "
+"This can be done automatically for any new software, or retroactively. "
+"The available criteria are the publisher, the name and the comment of the"
+" software. The only possible action is to assign software to a category. "
+"It is possible to replay the rules from the software list, using massive "
+"action *Recalculate category*."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:63
+msgid "Business rules for tickets"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:65
+msgid ""
+"When opening or modifying a ticket, a mechanism allows to modify ticket "
+"attributes automatically."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:67
+msgid ""
+"See :doc:`Business rules for tickets "
+"</modules/administration/rules/ticketbusinessrules>`"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:70
+msgid "Rules for inventory agent"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:72
+msgid ""
+"The two menus below are only visible if you use an inventory agent for an"
+" automatic inventory of computers in GLPI."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:74
+msgid "rules for assigning an item to an entity"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:75
+msgid "rules for importing and linking computers"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:77
+msgid ""
+"See :doc:`Rules for inventory agent "
+"</modules/administration/rules/inventorytools>`"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:79
+msgid ""
+"**Transfer** This menu allows you to define the inter-entity transfer "
+"profiles."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:81
+msgid "Several actions are possible:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:83
+msgid "**Preserve**: the item will be transferred with the object;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:84
+msgid ""
+"**Put in Trash Bin**: the item will be placed in the recycle bin of the "
+"ceding entity;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:85
+msgid "**Delete Permanently**: the item will be deleted from the database;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:86
+msgid "**Keep**: the item will remain in the ceding entity;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:87
+msgid "**Disconnect**: the connection between element and object will be deleted"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:89
+msgid ""
+"**Blacklists** Thanks to the GLPI blacklist mechanism, it is possible to "
+"exclude certain values ​​from processing by the rules engine. The types "
+"that can be taken into account are:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:91
+msgid "IP address;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:92
+msgid "MAC address;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:93
+msgid "serial number;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:94
+msgid "UUID;"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:95
+msgid "email"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:97
+msgid ""
+"This allows, for example, to exclude certain IP addresses from the "
+"inventory agent (for example an IP 127.0.0.1 or 0.0.0.0) or not to create"
+" a ticket from a particular email address (for example daily backup of a "
+"server)."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:100
+msgid "Create a rule"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:102
+msgid ""
+"A rule is composed of a series of criteria. Depending on the option "
+"chosen (OR/ ND) one or all of the criteria must be verified to trigger an"
+" action list."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:104
+msgid ""
+"A preview mechanism allows you to test the rules being written before "
+"putting them into production."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:106
+msgid "Several criteria are available:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:108
+msgid "simple:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:110
+msgid "is"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:111
+msgid "is not"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:112
+msgid "contains"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:113
+msgid "does not contain"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:114
+msgid "starts with"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:115
+msgid "ends with"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:116
+msgid ""
+"under (for tree dropdowns, indicates to be this dropdown or one of the "
+"child dropdowns)"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:117
+msgid ""
+"not under (for tree dropdowns, indicates not to be this dropdown or one "
+"of the child dropdowns))"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:119
+msgid "complex:"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:121
+msgid "regular expression match"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:122
+msgid "regular expression does not match"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:124
+msgid ""
+"Regular expressions (otherwise known as regex) return one or more results"
+" which can then be used by actions using the #x directive (where x is the"
+" number of the result of the regular expression)."
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:-1
+msgid "Example"
+msgstr ""
+
+#: ../../source/modules/administration/rules/rulesmanagement.rst:128
+msgid ""
+"Criteria : name matching regular expression ``/DESKTOP\\_(.\\*)/`` If "
+"object is named ``DESKTOP_0001``, then it will be possible to use "
+"``0001`` in the actions of the rules using parameter ``#0``"
+msgstr ""
+

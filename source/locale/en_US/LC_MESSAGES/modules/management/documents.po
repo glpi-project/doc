@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/management/documents.rst:2
+#: ../../source/modules/management/documents.rst:34
+msgid "Documents"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:4
+msgid ""
+"Documents management in GLPI allows to store digital documents or web "
+"links sorted under different headings."
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:6
+msgid ""
+"A document is described by a **name** and an **comment** and can be "
+"associated to a **heading**."
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:9
+msgid "The file corresponding to the document can be added in several ways:"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:11
+msgid "From local disk;"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:12
+msgid "Using a web link pointing to a document (image, HTML page, PDF...);"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:13
+msgid ""
+"Using a file previously transferred with FTP to sub-folder "
+"*/files/_uploads/* of GLPI installation"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:15
+msgid "A MIME type can also be given."
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:18
+msgid ""
+"Document types authorized in GLPI according to their extension are "
+"defined in **Setup** > **Dropdowns** > **Management** > **Document "
+"types**"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:19
+msgid "Document headings can be hierarchical"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:20
+msgid ""
+"The option **Blacklisted for import** allows to exclude this document "
+"from import by collectors; it is useful for signature images, logos..."
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:-1
+msgid "A GLPI document"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:28
+msgid "The different tabs"
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:2
+msgid "Associated elements"
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:4
+msgid "The *Items* tab is used to show or add linked assets."
+msgstr ""
+
+#: ../../source/modules/tabs/elements.rst:-1
+msgid "Adding and viewing an element"
+msgstr ""
+
+#: ../../source/modules/management/documents.rst:36
+msgid ""
+"It is possible in GLPI to attach other documents to a document, which "
+"explains why a `Document` has a `Document` tab."
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:2
+msgid "Notes"
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:4
+msgid ""
+"The *Notes* tab provides a free text field for storing additional "
+"information. Notes are displayed in the order of their creation."
+msgstr ""
+
+#: ../../source/modules/tabs/notes.rst:-1
+msgid "View and enter a note"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:2
+msgid "History"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:4
+msgid ""
+"The *History* tab is used to show any changes made to an item. The "
+"following information about the changes is available:"
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:6
+msgid "ID of the change."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:7
+msgid "Date and time the change was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:8
+msgid ""
+"User who made the change. If this field is not filled, it means that the "
+"action was done automatically (For example: automatic inventory update)."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:9
+msgid "Field that was changed."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:10
+msgid "Description of the change that was made."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:12
+msgid ""
+"The description of the change represents either the difference between "
+"the old and the new value (For example with location field: Change HQ to "
+"Remote Office A), or the explanation of the action which was carried out "
+"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+msgstr ""
+
+#: ../../source/modules/tabs/historical.rst:16
+msgid ""
+"For dropdowns or objects with a parent/child relationship, the "
+"modification of a child will appear in the history of the parent element."
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:2
+msgid "All Information"
+msgstr ""
+
+#: ../../source/modules/tabs/all.rst:4
+msgid ""
+"For an item, all information is displayed on one page from the *All* tab."
+" This shows all of the tabs of an object's form in one view, one below "
+"the other."
+msgstr ""
+

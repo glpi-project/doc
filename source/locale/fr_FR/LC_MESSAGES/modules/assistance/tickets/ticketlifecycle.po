@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:2
+msgid "Ticket life cycle"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:4
+msgid ""
+"Ticket life cycle is defined at *profile* level in a :doc:`life cycle matrix"
+" </modules/assistance/lifecyclematrix>`. To display a life cycle and modify "
+"it, it is therefore done in profile management form (menu **Administration >"
+" Profiles**)."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:7
+msgid "Ticket types"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:9
+msgid ""
+"GLPI tickets are either incidents or requests, this type being stored in "
+"field *Type* of the ticket. This type field allows to perform actions based "
+"on ticket type (see :doc:`business rules for tickets modification and "
+"assignment </modules/administration/rules/ticketbusinessrules>`, "
+":doc:`ticket templates </modules/overview/templates>` and :doc:`problem "
+"management </modules/assistance/problems>`) and to customize the list of "
+"available categories."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:12
+msgid "Status"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:14
+msgid ""
+"ITIL defines a standard for ticket status life cycle. This status life cycle"
+" is implemented in GLPI by defining the following status:"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:16
+msgid "New"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:17
+msgid "Processing (assigned)"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:18
+msgid "Processing (planned)"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:19
+msgid "Pending"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:20
+msgid "Solved"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:21
+msgid "Closed"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:23
+msgid "These status can neither be parameterized nor modified."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:27
+msgid ""
+"It is therefore possible to hide some status according to profile (see "
+":doc:`Life cycle matrix </modules/assistance/lifecyclematrix>`).*"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:29
+msgid ""
+"To go further in status management, refer to :doc:`ticket templates "
+"</modules/overview/templates>` and :doc:`business rules for tickets "
+"modification and assignment "
+"</modules/administration/rules/ticketbusinessrules>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:33
+msgid "Scheduling"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:35
+msgid ""
+"Ticket scheduling is done according to data provided by the requester and "
+"the technician:"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:37
+msgid "Requester defines urgency"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:38
+msgid "Technician appreciates the impact"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:40
+msgid ""
+"Priority results from these two values. It is computed automatically using a"
+" matrix and provides the true importance of the ticket."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:44
+msgid ""
+"To go further on this matrix configuration, see :doc:`Define the matrix of "
+"calculus for priority </modules/assistance/prioritymatrix>`."
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:47
+msgid "Management rules"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:49
+msgid "The ticket status follows the following process:"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:51
+msgid "upon creation, the ticket has status **New**"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:52
+msgid ""
+"when a technician assigns ticket processing to a group, a technician or a "
+"supplier, the ticket goes to status **Processing (assigned)**"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:53
+msgid ""
+"when a new task is added to the ticket and is planned, ticket status become "
+"then **Processing (planned)**"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:54
+msgid "when a solution is found for the ticket, its status become **Solved**"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:55
+msgid ""
+"at last, then requester or writer validates the proposed solution, the "
+"ticket status is **Closed**"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:59
+msgid ""
+"Technician can change ticket status at every moment, in particular to put "
+"the ticket to **Pending**. Following ITIL recommendations, a ticket must be "
+"made **Pending** only by the requester, for example if request is not "
+"complete or if requester is not available for an intervention"
+msgstr ""
+
+#: ../../source/modules/assistance/tickets/ticketlifecycle.rst:60
+msgid ""
+"Requester can delete the ticket as long as the ticket status is **New** and "
+"no action has been done on the ticket"
+msgstr ""

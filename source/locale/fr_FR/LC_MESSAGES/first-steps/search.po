@@ -1,0 +1,621 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/first-steps/search.rst:2
+msgid "Search for information in GLPI"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:4
+msgid ""
+"GLPI has a search engine allowing you to display a set of elements "
+"satisfying a certain number of criteria. The proposed lists are paginated. A"
+" navigation bar at the top and bottom of the list is used to define the "
+"number of items to display per page and to navigate between pages."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:6
+msgid ""
+"A global search engine (that is, one that can use data from objects of "
+"different type) is also available."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:8
+msgid ""
+"In addition to the list of elements corresponding to the stated criteria; "
+"these lists offer some additional features:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:10
+msgid "Export in different formats (CSV, PDF, ...)"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:11
+msgid "Massive (Bulk) actions"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:12
+msgid "A :ref:`bookmarks <bookmarks>` system to save searches"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:15
+msgid "Perform a basic search"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:17
+msgid ""
+"The basic search makes it possible to carry out multiple searches configured"
+" and sorted, on one of the types of the inventory. Depending on the data on "
+"which the search is carried out, the following operators can be proposed:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:19
+msgid "``contains``,"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:20
+msgid "``is``,"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:21
+msgid "``is not``,"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:22
+msgid "``before``,"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:23
+msgid "``after``."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:25
+msgid ""
+"Searching on dates allows you to specify a specific date (*Specify a date*) "
+"or to define it in relation to the current date (*Now*, *+* or *-* *X* "
+"*hour(s)*, *day(s)*, *month* or *year(s)*). It is also possible to specify a"
+" search before or after a given date, as defined intervals (*Monday*, *Last "
+"Saturday*, *Start of month*, *Start of year*, *Start of year*, etc)."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:27
+msgid ""
+"For labels, it is possible to search for a given value (*is*). If the "
+"dropdowns can be visible in the sub-entities, the choices under and not "
+"under appear. The criteria are added with the ``+`` on a gray background."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:29
+msgid ""
+"For example, to find computers with more than 1024 MiB of memory and more "
+"than 80% free disk space:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:32
+#: ../../source/first-steps/search.rst:34
+#: ../../source/first-steps/search.rst:50
+#: ../../source/first-steps/search.rst:52
+msgid "*-*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:32
+#: ../../source/first-steps/search.rst:50
+msgid "Type"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:32
+#: ../../source/first-steps/search.rst:50
+msgid "Field"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:32
+#: ../../source/first-steps/search.rst:50
+msgid "Comparison"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:32
+#: ../../source/first-steps/search.rst:50
+msgid "Value"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:34
+#: ../../source/first-steps/search.rst:35
+#: ../../source/first-steps/search.rst:52
+#: ../../source/first-steps/search.rst:53
+msgid "*simple*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:34
+msgid "*Memory*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:34
+#: ../../source/first-steps/search.rst:35
+#: ../../source/first-steps/search.rst:52
+#: ../../source/first-steps/search.rst:53
+#: ../../source/first-steps/search.rst:54
+#: ../../source/first-steps/search.rst:55
+msgid "*contains*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:34
+#: ../../source/first-steps/search.rst:52
+msgid "``> 1024``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:35
+#: ../../source/first-steps/search.rst:53
+#: ../../source/first-steps/search.rst:54
+#: ../../source/first-steps/search.rst:55
+msgid "*AND*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:35
+msgid "*Volumes - Percentage free*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:35
+#: ../../source/first-steps/search.rst:53
+msgid "``> 80``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:40
+msgid ""
+"Once the criteria have been defined, the search is launched by pressing the "
+"Search button."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:43
+msgid "Perform a multi-criteria search"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:45
+msgid ""
+"The multi-criteria search makes it possible to refine the search by "
+"extending it to other types of objects by adding global search criteria. "
+"This type of search is obtained by adding criteria with the ``+`` on a white"
+" background."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:47
+msgid ""
+"For example, to find computers with more than 1024 MiB of memory and more "
+"than 80% free disk space, attached to a 17-inch monitor and having "
+"LibreOffice software installed:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:52
+msgid "*Memory (Mio)*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:53
+msgid "*Volumes > Percentage free*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:54
+#: ../../source/first-steps/search.rst:55
+msgid "*multi*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:54
+msgid "*Monitor > Size*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:54
+msgid "``17``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:55
+msgid "*Software > Name*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:55
+msgid "``LibreOffice``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:59
+msgid "Items in Trash"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:61
+msgid ""
+"Some items in GLPI can be trashed. To view them in order to restore them or "
+"delete them permanently, click on the icon representing a recycle bin. To "
+"return to the display of active elements, click again on this icon."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:64
+msgid "Perform an advanced search"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:66
+msgid "Here are some examples of search operators:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:70
+msgid "``NULL``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:69
+msgid ""
+"Find the records with such empty field with a date field: <number_of_months "
+"or> number_of_months"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:70
+msgid ""
+"Search for materials with a deadline corresponding to the number of months"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:71
+msgid ""
+"Search for computers that are 5 years old: Date of purchase contains <-60."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:77
+msgid "``^123``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:73
+msgid "Find the records containing 123 at the start of the field."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:77
+msgid ""
+"On some systems, you have to type ^, the space bar then the first character."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:79
+msgid "``^Windows``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:80
+msgid "Find records containing Windows 2000, Windows XP but not with Windows."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:81
+msgid "``123$``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:82
+msgid "Find the records containing 123 at the end of the field."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:83
+msgid "``^123$``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:84
+msgid "Find records containing only the text 123."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:85
+msgid "Two search criteria linked by the operator ``AND NOT``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:86
+msgid "Find records that do not match a criterion (other than)."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:91
+msgid "*Entity is « Root entity »* ``AND NOT`` *Type contains « Laptop »*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:88
+msgid "Search for all computers in the « Root entity » which are not laptops."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:0
+msgid "Search interface"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:93
+msgid "``[Year]-[Month]-[Day]`` (YYYY-MM-DD)"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:94
+msgid "Search by date."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:96
+msgid "``\\\\``"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:96
+msgid "For security reasons, the ``\\\\`` operator is not usable."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:99
+msgid "Export the result of a search"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:101
+msgid ""
+"The export of the search result in SLK or CSV spreadsheet formats, or in PDF"
+" format can be done in two different forms:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:103
+msgid ""
+"*Current page* exports only the data displayed on the screen (for example "
+"the first 10 results out of 200)"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:104
+msgid "*All pages* exports all of the search results"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:106
+msgid ""
+"There is also an option to copy the names of the results to the clipboard "
+"(Ex: Computer names)."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:108
+msgid ""
+"The SLK format can be used by a lot of spreadsheet software. Fields that are"
+" too long will be truncated when using software that does not fully comply "
+"with the standards. In this case, it is preferable to use the exports in CSV"
+" format."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:110
+msgid ""
+"If the data exported in CSV format is imported into Microsoft Excel "
+"software, accented characters may not be displayed correctly. This software "
+"seems to have difficulty with data encoded in UTF-8."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:112
+msgid ""
+"You can export search results by clicking on the `Export` button above the "
+"search results list."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:115
+msgid "Search views"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:117
+msgid "The are two different views for search results in GLPI."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:119
+msgid ""
+"List/Table - The default view that shows results in a table with the field "
+"names along the top as headers and each result as a row"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:120
+msgid "Map - Shows the location of the results on a map"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:122
+msgid ""
+"The switch to the map view, click on the map toggle above the search "
+"results."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:126
+msgid ""
+"If an item type does not have the ability to have a location, then the map "
+"view toggle will be hidden."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:129
+msgid "Using the table view"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:131
+msgid ""
+"In the table view, you have the option to sort the results by any of the "
+"displayed fields by clicking on the relevant column headers. You may perform"
+" a multi-sort by holding the ``Ctrl`` or ``Command (MacOS)`` keys while left"
+" clicking on the column header. Clicking on column headers multiple times "
+"will cycle between sort directions and removing the sort."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:135
+msgid ""
+"At the bottom of the results table is a dropdown that can be used to change "
+"the number of results that will show on each page. There are also pagination"
+" controls that let you navigate between the search results pages, and an "
+"indicator of where you are currently at within the results (Ex: Showing 1 to"
+" 20 of 30 rows)."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:139
+msgid "Perform massive actions"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:141
+msgid ""
+"A massive action system is integrated into the search engine. It allows you "
+"to make bulk modifications and perform actions to all the selected elements."
+" Some examples of the available massive actions (Will differ based on the "
+"type of item):"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:143
+msgid "*Put in trashbin*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:144
+msgid "*Delete permanently*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:145
+msgid "*Restore*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:146
+msgid "*Connect* / *Disconnect*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:147
+msgid "*Install*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:148
+msgid "*Update*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:149
+msgid "*Add a contract*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:150
+msgid "*Enable the financial and administrative information*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:151
+msgid "*Add to transfer list*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:152
+msgid "*Synchronize*"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:154
+msgid ""
+"To use it, simply select the elements for which you want to perform an "
+"action then click on the Actions button available at the top and bottom of "
+"the list. Then, once the type of action has been selected, options are "
+"optionally presented, as well as a validation button."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:156
+msgid ""
+"The results of the actions as well as the information messages are presented"
+" at the end of the execution of all the actions."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:160
+msgid ""
+"You will find in the headers of the table (at the top and at the bottom) a "
+"checkbox allowing you to select or unselect all the elements of the list."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:161
+msgid ""
+"A similar system of actions is available in certain lists present within the"
+" objects themselves. The operation is identical to that explained here."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:165
+msgid ""
+"The number of elements that can be handled simultaneously is limited by the "
+"values ​​of ``max_input_vars`` or ``suhosin.post.max_vars`` in your PHP "
+"configuration. You may therefore get a message indicating that massive edits"
+" are disabled. You just need to increase the values ​​of your PHP "
+"configuration or reduce the number of items displayed."
+msgstr ""
+
+#: ../../source/first-steps/search.rst:168
+msgid "Quick search"
+msgstr ""
+
+#: ../../source/first-steps/search.rst-1
+msgid "Quick search box"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:173
+msgid ""
+"This tool is located at the top right of the GLPI screen. It allows "
+"searching within elements including but not limited to:"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:175
+msgid "Tickets"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:176
+msgid "Problems"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:177
+msgid "Changes"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:178
+msgid "Projects"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:179
+msgid "Computers"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:180
+msgid "Monitors"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:181
+msgid "Software"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:182
+msgid "Network Equipment"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:183
+msgid "Peripherals"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:184
+msgid "Printers"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:185
+msgid "Phones"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:186
+#: ../../source/first-steps/search.rst:187
+msgid "Contacts"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:188
+msgid "Suppliers"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:189
+msgid "Documents"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:190
+msgid "Budgets"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:191
+msgid "Licenses"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:192
+msgid "Users"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:193
+msgid "Groups"
+msgstr ""
+
+#: ../../source/first-steps/search.rst:197
+msgid ""
+"The search is carried out only on the fields displayed by default for each "
+"of the elements mentioned above. In essence, it is the same as an ``items "
+"seen`` search on each type of element."
+msgstr ""

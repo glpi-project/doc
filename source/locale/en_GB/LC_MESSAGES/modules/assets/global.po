@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/assets/global.rst:2
+msgid "Global search"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:4
+msgid ""
+"Menu `Asset > Global` allows to perform a global search on default view "
+"columns for allowed elements. This search is limited to following assets:"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:6
+msgid "Computer,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:7
+msgid "Contact,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:8
+msgid "Contract,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:9
+msgid "Document,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:10
+msgid "Monitor,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:11
+msgid "NetworkEquipment,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:12
+msgid "Peripheral,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:13
+msgid "Phone,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:14
+msgid "Printer,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:15
+msgid "Software,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:16
+msgid "SoftwareLicense,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:17
+msgid "Ticket,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:18
+msgid "Problem,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:19
+msgid "Change',"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:20
+msgid "User,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:21
+msgid "Group,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:22
+msgid "Project,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:23
+msgid "Supplier',"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:24
+msgid "Budget,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:25
+msgid "Certificate,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:26
+msgid "Line,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:27
+msgid "Datacenter,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:28
+msgid "DCRoom,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:29
+msgid "Enclosure,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:30
+msgid "PDU,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:31
+msgid "Rack,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:32
+msgid "Cluster,"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:33
+msgid "Domain"
+msgstr ""
+
+#: ../../source/modules/assets/global.rst:35
+msgid ""
+"This search allows for instance to perform a query by status, IP or MAC "
+"address."
+msgstr ""
+

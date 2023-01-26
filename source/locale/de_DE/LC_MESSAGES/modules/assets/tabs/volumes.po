@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/modules/assets/tabs/volumes.rst:2
+msgid "Volumes"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:4
+msgid ""
+"This tab, named `Volumes` and visible in a `Computer` entry, allows to "
+"manage the volumes attached to a computer."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:-1
+msgid "Volumes screen"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:10
+msgid "A volume attached to a computer is characterized by:"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:12
+msgid "name"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:13
+msgid "physical partition"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:14
+msgid "mount point"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:15
+msgid "file system"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:16
+msgid "total size"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:17
+msgid "available size"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:18
+msgid "ciphering algorithm and type"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:20
+msgid ""
+"It is possible from a `Computer` entry to add a volume by clicking on "
+"button ``Add a volume``."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:-1
+msgid "Adding volumes"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:26
+msgid ""
+"It is possible from a `Computer` entry to modify an existing volume by "
+"clicking on the link under its name."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:-1
+msgid "Modify a volume"
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:34
+msgid ""
+"Every deletion or addition of a volume is recorded in the history of the "
+"computer."
+msgstr ""
+
+#: ../../source/modules/assets/tabs/volumes.rst:38
+msgid ""
+"If using native inventory or third-party inventory tool, the volumes "
+"information can be automatically imported and updated."
+msgstr ""
+

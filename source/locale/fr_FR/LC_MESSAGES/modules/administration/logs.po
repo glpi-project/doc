@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2023, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 10:29+0100\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/1637/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/modules/administration/logs.rst:2
+msgid "Logs"
+msgstr ""
+
+#: ../../source/modules/administration/logs.rst:4
+msgid "This menu allows to display and sort logs."
+msgstr ""
+
+#: ../../source/modules/administration/logs.rst:6
+msgid ""
+"The logs page displays type of modified information (computer, reservation, "
+"ticket...), the modification date, GLPI service (inventory, configuration, "
+"tickets...) and a message detailing the event."
+msgstr ""
+
+#: ../../source/modules/administration/logs.rst:10
+msgid ""
+"Log level can be parameterized in field **Log Level** of tab **System** of "
+"general configuration."
+msgstr ""
+
+#: ../../source/modules/administration/logs.rst:11
+msgid "Log retention period can be parameterized in automatic actions."
+msgstr ""
+
+#: ../../source/modules/administration/logs.rst-1
+msgid "A log display"
+msgstr ""
