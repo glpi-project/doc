@@ -17,7 +17,7 @@ It is recommended to have it run every minute to ensure that actions that are re
 
 For Linux/MacOS, you should add the following to the web server's user's (www-data, apache, etc) crontab:
 
-.. code-block:: bash
+::
 
    * * * * * php GLPI/front/cron.php
 
@@ -29,7 +29,7 @@ Force execution of action from CLI
 
 To execute a specific action from the command-line, you can run (for mailgate action):
 
-.. code-block:: bash
+::
 
    php GLPI/front/cron.php --force mailgate
 
