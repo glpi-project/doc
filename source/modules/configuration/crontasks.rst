@@ -16,9 +16,10 @@ To run CLI mode tasks, you will need to configure your external task scheduler t
 It is recommended to have it run every minute to ensure that actions that are ready to run, get ran as soon as possible.
 
 For Linux/MacOS, you should add the following to the web server's user's (www-data, apache, etc) crontab:
-```
-* * * * * php GLPI/front/cron.php
-```
+
+.. code-block:: bash
+
+   * * * * * php GLPI/front/cron.php
 
 You will need to replace `GLPI` with the path to your GLPI folder.
 You may also need to replace `php` with the full path to your php binary if it is not in the PATH.
@@ -27,9 +28,11 @@ Force execution of action from CLI
 ----------------------------------
 
 To execute a specific action from the command-line, you can run (for mailgate action):
-```
-php GLPI/front/cron.php --force mailgate
-```
+
+.. code-block:: bash
+
+   php GLPI/front/cron.php --force mailgate
+
 You will need to replace `GLPI` with the path to your GLPI folder.
 
 Forcing the action to run will ensure it is run even if it is not scheduled to run again yet.
@@ -89,7 +92,8 @@ cleanorphans (Document)
 
 Deletes all documents that aren't associated with other GLPI items like Tickets.
 
-..note ::
+.. note::
+
    This doesn't account for direct links to documents added for example in Ticket tasks, comments, etc.
 
 cleanorphans (Glpi\Inventory\Inventory)
@@ -113,7 +117,8 @@ closeticket (Ticket)
 Closes all tickets that were solved for a certain amount of working time.
 The amount of time can be configured for each Entity.
 
-..note ::
+.. note::
+
    The working hours on the Entity's calendar are considered when determining how much working time had passed.
 
 consumable (ConsumableItem)
