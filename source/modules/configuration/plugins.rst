@@ -66,7 +66,7 @@ After installing or updating a plugin, you will need to re-enable it.
 Uninstalling plugins
 --------------------
 
-When you unstall a plugin using the uninstall button in the plugin list or in the marketplace UI, it does not remove the plugin code and the plugin will still show in the list of plugins to re-install.
+When you uninstall a plugin using the uninstall button in the plugin list or in the marketplace UI, it does not remove the plugin code and the plugin will still show in the list of plugins to re-install.
 
-To permenantly remove the plugin, it is nessacary to delete the plugin's folder.
+To permanently remove the plugin, it is necessary to delete the plugin's folder.
 After removing the plugin's folder there should be a new "cleanup" action available for the plugin in GLPI. This will remove the reference to the plugin from the database.
