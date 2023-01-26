@@ -12,6 +12,11 @@ GLPI knowledge base has two main targets:
 Each article of the knowledge base must have one or several targets, a target being either an entity, a group, a profile or a user, to be readable. As long as an article has no target, it is visible only by its writer, is flagged as `unpublished` and appears in table `Unpublished articles` on the home page of the knowledge base.
 
 .. note::
+   .. versionchanged:: 10.1
+
+   Targeting applies in the same way whether the article is in the FAQ or only in the knowledge base.
+
+.. note::
    You can publish an article to everyone, targeting the root entity.
 
 By default, articles are not translatable. However, this functionality can be activated, see :doc:`general configuration </modules/configuration/general/general_configuration>`.
