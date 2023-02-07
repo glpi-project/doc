@@ -34,7 +34,7 @@ In order to allow you to refine the settings, or to use another cache system, a 
 
    {"adapter":"redis","options":{"server":{"host":"127.0.0.1"}}}
 
-Refer to the `Config::getCache() <https://forge.glpi-project.org/apidoc/source-class-Config.html>`_ method and `Symfony Cache documentation <https://symfony.com/doc/current/components/cache.html>`_ for more information.
+Refer to the ``Config::getCache()`` method and `Symfony Cache documentation <https://symfony.com/doc/current/components/cache.html>`_ for more information.
 
 .. warning::
 
