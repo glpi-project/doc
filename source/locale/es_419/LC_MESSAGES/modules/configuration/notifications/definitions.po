@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/notifications/definitions.rst:2
 msgid "Notification Definitions"
@@ -31,9 +31,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:7
 msgid ""
-"Templates are added for specific notifications modes. This allows you to "
-"use one template for email notifications and another for browser "
-"notifications."
+"Templates are added for specific notifications modes. This allows you to use"
+" one template for email notifications and another for browser notifications."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:9
@@ -43,8 +42,8 @@ msgstr ""
 #: ../../source/modules/configuration/notifications/definitions.rst:10
 msgid ""
 "The list of recipients could include specific users, groups, etc or can "
-"include dynamic recipients such as \"Requester\" which would be replaced "
-"by all user's listed as requester on a Ticket for example."
+"include dynamic recipients such as \"Requester\" which would be replaced by "
+"all user's listed as requester on a Ticket for example."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:11
@@ -65,8 +64,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:23
 msgid ""
-"A notification is composed of a certain number of specific fields to fill"
-" in:"
+"A notification is composed of a certain number of specific fields to fill "
+"in:"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:19
@@ -83,20 +82,20 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:22
 msgid ""
-"**Notification mode** The notification method (Email and Browser "
-"available by default)"
+"**Notification mode** The notification method (Email and Browser available "
+"by default)"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:23
 msgid ""
-"**Event**: Indicates what will be the triggering event following the type"
-" of the object"
+"**Event**: Indicates what will be the triggering event following the type of"
+" the object"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:25
 msgid ""
-"**Notification templates**: Indicates the notification that will be sent "
-"for the object type and the event defined previously"
+"**Notification templates**: Indicates the notification that will be sent for"
+" the object type and the event defined previously"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:46
@@ -109,8 +108,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:29
 msgid ""
-"A certain number of actors of the application are proposed and the list "
-"The list varies according to the type of object defined."
+"A certain number of actors of the application are proposed and the list The "
+"list varies according to the type of object defined."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:32
@@ -119,14 +118,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:34
 msgid ""
-"**Administrator**: person whose email address has been defined in the "
-"global :doc:`configuration of email follow-ups <email_notifications>`"
+"**Administrator**: person whose email address has been defined in the global"
+" :doc:`configuration of email follow-ups <email_notifications>`"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:35
 msgid ""
-"**Entity Administrator**: person, for each entity, whose email address is"
-" defined in the entity :doc:`configuration of email follow-ups "
+"**Entity Administrator**: person, for each entity, whose email address is "
+"defined in the entity :doc:`configuration of email follow-ups "
 "<email_notifications>`"
 msgstr ""
 
@@ -140,39 +139,39 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:38
 msgid ""
-"**Group XXX**: All the people who have access in the entity and who are "
-"part of the group"
+"**Group XXX**: All the people who have access in the entity and who are part"
+" of the group"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:39
 msgid ""
-"**Group XXX without supervisor**: All members of the group except the "
-"person declared Manager of the group"
+"**Group XXX without supervisor**: All members of the group except the person"
+" declared Manager of the group"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:40
 msgid ""
-"**Group in charge of the ticket**: All the members of the group to which "
-"the ticket is assigned"
+"**Group in charge of the ticket**: All the members of the group to which the"
+" ticket is assigned"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:41
 msgid ""
 "**Group in charge of the ticket without supervisor**: All members of the "
-"group assigned to the ticket except for the person declared Manager of "
-"the group"
+"group assigned to the ticket except for the person declared Manager of the "
+"group"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:42
 msgid ""
-"**Requesting group**: All members of the group indicated as the "
-"requesting group of the ticket"
+"**Requesting group**: All members of the group indicated as the requesting "
+"group of the ticket"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:43
 msgid ""
-"**Observer group**: All members of the group indicated as the observer "
-"group of the ticket"
+"**Observer group**: All members of the group indicated as the observer group"
+" of the ticket"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:44
@@ -181,8 +180,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:45
 msgid ""
-"**Profile XXX** : All the people who have access in the entity and who "
-"have this profile"
+"**Profile XXX** : All the people who have access in the entity and who have "
+"this profile"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:46
@@ -191,7 +190,6 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/definitions.rst:47
 msgid ""
-"**Technical manager**: The person designated as the user responsible for "
-"the asset(s) related to the ticket"
+"**Technical manager**: The person designated as the user responsible for the"
+" asset(s) related to the ticket"
 msgstr ""
-

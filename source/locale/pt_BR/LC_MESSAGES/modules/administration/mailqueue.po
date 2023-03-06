@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/administration/mailqueue.rst:2
 msgid "Mailing queue"
@@ -29,28 +29,27 @@ msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:6
 msgid ""
-"An automatic action (``queuedmail``) allows the sending of pending emails"
-" (see :doc:`Configure automatic actions "
-"</modules/configuration/crontasks>`). Another automatic action "
-"(``queuemailclean``) cleans the queue by keeping only recent emails."
+"An automatic action (``queuedmail``) allows the sending of pending emails "
+"(see :doc:`Configure automatic actions </modules/configuration/crontasks>`)."
+" Another automatic action (``queuemailclean``) cleans the queue by keeping "
+"only recent emails."
 msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:8
 msgid ""
-"The delay applied for sending notifications can be defined at entity "
-"level, see :doc:`administration by entity "
-"</modules/administration/entities>`). This allows for example in the case"
-" of rapid multiple modifications of an object to send only one "
-"notification."
+"The delay applied for sending notifications can be defined at entity level, "
+"see :doc:`administration by entity </modules/administration/entities>`). "
+"This allows for example in the case of rapid multiple modifications of an "
+"object to send only one notification."
 msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:10
 msgid ""
-"using the queue does not work for a change, problem or ticket itself, "
-"only for a sub-object. For example, when changing the impact of a ticket,"
-" the email will be sent immediately; on the other hand, in the event of "
-"addition or modification of a follow-up, a task, a validation request... "
-"the email will be placed in the queue."
+"using the queue does not work for a change, problem or ticket itself, only "
+"for a sub-object. For example, when changing the impact of a ticket, the "
+"email will be sent immediately; on the other hand, in the event of addition "
+"or modification of a follow-up, a task, a validation request... the email "
+"will be placed in the queue."
 msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:16
@@ -59,16 +58,15 @@ msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:18
 msgid ""
-"In the example above, the deadline for sending email notifications has "
-"been set to 20 minutes in the configuration of the entity; as a "
-"consequence the sending date is set at 20 minutes after the creation "
-"date."
+"In the example above, the deadline for sending email notifications has been "
+"set to 20 minutes in the configuration of the entity; as a consequence the "
+"sending date is set at 20 minutes after the creation date."
 msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:20
 msgid ""
-"Once the notification has been sent, the queue is placed in the recycle "
-"bin with the date sent."
+"Once the notification has been sent, the queue is placed in the recycle bin "
+"with the date sent."
 msgstr ""
 
 #: ../../source/modules/administration/mailqueue.rst:22
@@ -76,4 +74,3 @@ msgid ""
 "there will be as many queues in the recycle bin as there are recipients, "
 "each with its own sending date."
 msgstr ""
-

@@ -1,31 +1,32 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/notifications/template_example.rst:2
 msgid "Template example"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:4
-msgid "In this example, we will create a template for ticket mail notifications."
+msgid ""
+"In this example, we will create a template for ticket mail notifications."
 msgstr ""
 
-#: ../../source/modules/configuration/notifications/template_example.rst:-1
+#: ../../source/modules/configuration/notifications/template_example.rst-1
 msgid "Final result"
 msgstr ""
 
@@ -79,8 +80,7 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:30
 msgid ""
-"**Comments**: ``Generic template for tickets, using timeline`` *for "
-"example*"
+"**Comments**: ``Generic template for tickets, using timeline`` *for example*"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:31
@@ -125,8 +125,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:51
 msgid ""
-"**Email HTML body**: *this is the field that we will mainly modify in the"
-" next chapters*"
+"**Email HTML body**: *this is the field that we will mainly modify in the "
+"next chapters*"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:56
@@ -146,8 +146,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:74
 msgid ""
-"``##lang.ticket.status##``: text \"Status\" *automatically translated "
-"into the recipient's language*"
+"``##lang.ticket.status##``: text \"Status\" *automatically translated into "
+"the recipient's language*"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:75
@@ -164,14 +164,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:78
 msgid ""
-"``##lang.ticket.description##``: text \"Ticket Description\" "
-"*automatically translated*"
+"``##lang.ticket.description##``: text \"Ticket Description\" *automatically "
+"translated*"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:79
 msgid ""
-"``##ticket.authors##``: ticket requesters *separated by ',' if there is "
-"more than one*"
+"``##ticket.authors##``: ticket requesters *separated by ',' if there is more"
+" than one*"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:80
@@ -205,7 +205,8 @@ msgid "``##timelineitems.date##``: date of the timeline item"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:111
-msgid "``##timelineitems.description##``: description text of the timeline item"
+msgid ""
+"``##timelineitems.description##``: description text of the timeline item"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:112
@@ -262,8 +263,7 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:141
 msgid ""
-"Click on the **format** drop-down list and select **Headings > Headings "
-"1**"
+"Click on the **format** drop-down list and select **Headings > Headings 1**"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:145
@@ -272,8 +272,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:147
 msgid ""
-"Without selecting any text, click on the place where you want to put your"
-" image"
+"Without selecting any text, click on the place where you want to put your "
+"image"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:148
@@ -294,14 +294,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:156
 msgid ""
-"This table will allow us to display the logo at the same row as the "
-"ticket title and its URL."
+"This table will allow us to display the logo at the same row as the ticket "
+"title and its URL."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:158
 msgid ""
-"Without selecting any text, click on the place where you want to put your"
-" table"
+"Without selecting any text, click on the place where you want to put your "
+"table"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:159
@@ -323,11 +323,13 @@ msgid "Clic on **Row** > **Delete row**"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:165
-msgid "Select the previously added image, to drag and drop it into the left cell"
+msgid ""
+"Select the previously added image, to drag and drop it into the left cell"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:166
-msgid "Select the text of the tags below, to drag and drop it into the right cell"
+msgid ""
+"Select the text of the tags below, to drag and drop it into the right cell"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:174
@@ -336,8 +338,7 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:175
 msgid ""
-"In **Advanced**, click on **Background color** field to select **Dark "
-"Blue**"
+"In **Advanced**, click on **Background color** field to select **Dark Blue**"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:176
@@ -350,8 +351,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:182
 msgid ""
-"As the background of the table is dark, we will write in white to be more"
-" readable."
+"As the background of the table is dark, we will write in white to be more "
+"readable."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:184
@@ -396,8 +397,8 @@ msgstr ""
 #: ../../source/modules/configuration/notifications/template_example.rst:204
 msgid ""
 "Let's take the case where we have users who only understand one language "
-"(English, French or Spanish). And we want to add a text under the URL "
-"that everyone can understand:"
+"(English, French or Spanish). And we want to add a text under the URL that "
+"everyone can understand:"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:207
@@ -408,8 +409,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:208
 msgid ""
-"Si vous souhaitez ajouter des informations supplémentaires, cliquez sur "
-"les liens précédents, ou répondez directement à cet e-mail. *French*"
+"Si vous souhaitez ajouter des informations supplémentaires, cliquez sur les "
+"liens précédents, ou répondez directement à cet e-mail. *French*"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:209
@@ -437,12 +438,13 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:215
 msgid ""
-"Go back to the template header by clicking on the **Notification "
-"templates** value at the top"
+"Go back to the template header by clicking on the **Notification templates**"
+" value at the top"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:216
-msgid "In **Template translations** tab click on **Add a new translation** button"
+msgid ""
+"In **Template translations** tab click on **Add a new translation** button"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:217
@@ -487,17 +489,17 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:239
 msgid ""
-"Everything we have done in the \"Email HTML body\" field is converted "
-"into HTML code which you can edit via **right-click** > **Source code**. "
-"So if you are familiar with HTML, you can edit the code directly. "
-"Depending on the case and your skills, this is sometimes easier."
+"Everything we have done in the \"Email HTML body\" field is converted into "
+"HTML code which you can edit via **right-click** > **Source code**. So if "
+"you are familiar with HTML, you can edit the code directly. Depending on the"
+" case and your skills, this is sometimes easier."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:243
 msgid ""
-"The following code repeats what we did earlier by separating the CSS "
-"layout from the HTML and adding colors to the timeline items. It is not "
-"explained, it is just an example."
+"The following code repeats what we did earlier by separating the CSS layout "
+"from the HTML and adding colors to the timeline items. It is not explained, "
+"it is just an example."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/template_example.rst:248
@@ -507,4 +509,3 @@ msgstr ""
 #: ../../source/modules/configuration/notifications/template_example.rst:281
 msgid "Code in \"CSS\" field"
 msgstr ""
-

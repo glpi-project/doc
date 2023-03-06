@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assets/printers.rst:2
 msgid "Printers"
@@ -103,8 +103,8 @@ msgstr ""
 #: ../../source/modules/assets/printers.rst:38
 msgid ""
 "Unitary management corresponds to one printer per computer while global "
-"management make the printer a virtual global element that will be "
-"connected to several computers."
+"management make the printer a virtual global element that will be connected "
+"to several computers."
 msgstr ""
 
 #: ../../source/modules/assets/printers.rst:40
@@ -129,11 +129,11 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:4
 msgid ""
-"This tab, named `Components` and visible in a `Computer` entry, allows to"
-" manage the hardware components of a computer."
+"This tab, named `Components` and visible in a `Computer` entry, allows to "
+"manage the hardware components of a computer."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Components screen"
 msgstr ""
 
@@ -145,22 +145,22 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:15
 msgid ""
-"If several components of the same type are used, they will be grouped in "
-"the view."
+"If several components of the same type are used, they will be grouped in the"
+" view."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst
+#: ../../source/modules/assets/tabs/components.rst:0
 msgid "Grouped components"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:21
 msgid ""
-"It is possible to add a component by first selecting its family in the "
-"drop-down list at the top of the table and then its name and the number "
-"of components to add."
+"It is possible to add a component by first selecting its family in the drop-"
+"down list at the top of the table and then its name and the number of "
+"components to add."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Adding a component"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgid ""
 "clicking on the link under its name."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 #: ../../source/modules/assets/tabs/components.rst:65
 msgid "Modify a component"
 msgstr ""
@@ -179,28 +179,27 @@ msgstr ""
 msgid ""
 "To act on several components (for example modify an element of the "
 "component, activate accounting information or modify them, delete a "
-"component...), first select the components and then use the `Actions` "
-"button present at the top or the bottom of the list."
+"component...), first select the components and then use the `Actions` button"
+" present at the top or the bottom of the list."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:39
 msgid ""
 "If several types of different components, not having the same "
-"characteristics, are selected for modification, in the actions it will be"
-" asked on which component modification must be applied."
+"characteristics, are selected for modification, in the actions it will be "
+"asked on which component modification must be applied."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Mass actions on a component"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:48
 msgid ""
-"Selection button in left column allows to select all the components at "
-"once."
+"Selection button in left column allows to select all the components at once."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Component selection (left)"
 msgstr ""
 
@@ -210,7 +209,7 @@ msgid ""
 "components of the same type (processor, memory, network interface...)."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Component selection (right)"
 msgstr ""
 
@@ -230,14 +229,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:73
 msgid ""
-"Tab \"Element - Link name of component\" : list the characteristics of "
-"this component"
+"Tab \"Element - Link name of component\" : list the characteristics of this "
+"component"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:74
 msgid ""
-":doc:`Tab \"Management\" </modules/tabs/management>` : manage "
-"administrative and accounting information"
+":doc:`Tab \"Management\" </modules/tabs/management>` : manage administrative"
+" and accounting information"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:75
@@ -246,8 +245,7 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:76
 msgid ""
-":doc:`Tab \"History\" </modules/tabs/historical>` : history of "
-"modifications"
+":doc:`Tab \"History\" </modules/tabs/historical>` : history of modifications"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:77
@@ -256,20 +254,20 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:78
 msgid ""
-":doc:`Tab \"Debug\" </modules/tabs/debug>` : only if you are connected in"
-" Debug mode"
+":doc:`Tab \"Debug\" </modules/tabs/debug>` : only if you are connected in "
+"Debug mode"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:79
 msgid ""
-":doc:`Tab \"All\" </modules/tabs/all>` : all the information are "
-"displayed on a single page"
+":doc:`Tab \"All\" </modules/tabs/all>` : all the information are displayed "
+"on a single page"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:83
 msgid ""
-"Every deletion or addition of a component is recorded in the history of "
-"the computer."
+"Every deletion or addition of a component is recorded in the history of the "
+"computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:87
@@ -284,8 +282,7 @@ msgstr ""
 
 #: ../../source/modules/assets/printers.rst:54
 msgid ""
-"This tab displays the cartridges associated with the selected printer "
-"model:"
+"This tab displays the cartridges associated with the selected printer model:"
 msgstr ""
 
 #: ../../source/modules/assets/printers.rst:56
@@ -294,9 +291,8 @@ msgstr ""
 
 #: ../../source/modules/assets/printers.rst:57
 msgid ""
-"used cartridges, with cartridge model, add date, use date, end of life "
-"date, printing counter and number of printed pages since last cartridge "
-"change"
+"used cartridges, with cartridge model, add date, use date, end of life date,"
+" printing counter and number of printed pages since last cartridge change"
 msgstr ""
 
 #: ../../source/modules/assets/printers.rst:61
@@ -311,14 +307,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:4
 msgid ""
-"This tab allows to manage the direct connections between a computer and "
-"its connected elements."
+"This tab allows to manage the direct connections between a computer and its "
+"connected elements."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:6
 msgid ""
-"Direct connections represent the relation between different hardwares "
-"linked either physically or virtually."
+"Direct connections represent the relation between different hardwares linked"
+" either physically or virtually."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:10
@@ -327,12 +323,12 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:12
 msgid ""
-"The connection can be made toward one or several elements of type "
-"display, printer, peripheral or phone. For each type of connected object,"
-" its name, serial number and inventory number are displayed."
+"The connection can be made toward one or several elements of type display, "
+"printer, peripheral or phone. For each type of connected object, its name, "
+"serial number and inventory number are displayed."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/connexions.rst:-1
+#: ../../source/modules/assets/tabs/connexions.rst-1
 msgid "List of connections"
 msgstr ""
 
@@ -342,8 +338,8 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:25
 msgid ""
-"To add a connection, select the computer in the drop-down list presented "
-"at top of the table."
+"To add a connection, select the computer in the drop-down list presented at "
+"top of the table."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:31
@@ -355,14 +351,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:37
 msgid ""
-"The deletion of a connection can be made from the entry of each connected"
-" hardware (tab `Connections`) via mass actions."
+"The deletion of a connection can be made from the entry of each connected "
+"hardware (tab `Connections`) via mass actions."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:41
 msgid ""
-"Every deletion or addition of a connection is recorded in the history of "
-"the computer."
+"Every deletion or addition of a connection is recorded in the history of the"
+" computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:45
@@ -377,11 +373,11 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:4
 msgid ""
-"This tab, named `Network ports` and visible in a `Computer` entry, allows"
-" to manage the network ports attached to a computer."
+"This tab, named `Network ports` and visible in a `Computer` entry, allows to"
+" manage the network ports attached to a computer."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/network-ports.rst:-1
+#: ../../source/modules/assets/tabs/network-ports.rst-1
 msgid "List of network ports"
 msgstr ""
 
@@ -393,37 +389,37 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:13
 msgid ""
-"It is possible on a network port to add one or more VLAN, these VLANs "
-"being defined by a name, an optional comment and a VLAN number."
+"It is possible on a network port to add one or more VLAN, these VLANs being "
+"defined by a name, an optional comment and a VLAN number."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/network-ports.rst:-1
+#: ../../source/modules/assets/tabs/network-ports.rst-1
 msgid "VLAN"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:20
 msgid ""
-"One or more :doc:`network name "
-"</modules/configuration/dropdowns/internet>` can be associated to each "
-"network port. This can be done in tab `Network name`."
+"One or more :doc:`network name </modules/configuration/dropdowns/internet>` "
+"can be associated to each network port. This can be done in tab `Network "
+"name`."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/network-ports.rst:-1
+#: ../../source/modules/assets/tabs/network-ports.rst-1
 msgid "Network name"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:27
 msgid ""
-"When a network port has only one network name, this name is displayed in "
-"the network port form itself and it is possible to modify the name "
-"directly. It is also possible to modify the network name via its own "
-"form, accessible by clicking on the link under the name."
+"When a network port has only one network name, this name is displayed in the"
+" network port form itself and it is possible to modify the name directly. It"
+" is also possible to modify the network name via its own form, accessible by"
+" clicking on the link under the name."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:32
 msgid ""
-"When a network port has several network names, the only way to modify the"
-" network names is via the network name form."
+"When a network port has several network names, the only way to modify the "
+"network names is via the network name form."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:35
@@ -444,17 +440,17 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:41
 msgid ""
-"The `Network port` tab groups in a table the ports that are available on "
-"the equipment. The table header contains the total number of ports and a "
-"link that allows to choose display options. This allows to selectively "
-"display or mask information such as network data (IP...), port "
-"characteristics depending on its type, MAC address, VLANs..."
+"The `Network port` tab groups in a table the ports that are available on the"
+" equipment. The table header contains the total number of ports and a link "
+"that allows to choose display options. This allows to selectively display or"
+" mask information such as network data (IP...), port characteristics "
+"depending on its type, MAC address, VLANs..."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:49
 msgid ""
-"GLPI allows to present complex network connection with for example WiFi "
-"or Ethernet port aliases associated to VLANs grouped in aggregates..."
+"GLPI allows to present complex network connection with for example WiFi or "
+"Ethernet port aliases associated to VLANs grouped in aggregates..."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:53
@@ -467,8 +463,8 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:57
 msgid ""
-"An Ethernet port is characterized by its type (twisted pair, mono-mode"
-"/multi-mode optical fiber...), a transfer rate ((10Mb, 100Mb, 1Gb, "
+"An Ethernet port is characterized by its type (twisted pair, mono-"
+"mode/multi-mode optical fiber...), a transfer rate ((10Mb, 100Mb, 1Gb, "
 "10Gb...) and a MAC address. It is possible to associate to the port a "
 "network card and a network plug."
 msgstr ""
@@ -477,8 +473,8 @@ msgstr ""
 msgid ""
 "Ethernet connections are realized by linking two Ethernet ports, which "
 "requires that there is a free port on each equipment to be connected. In "
-"general, a connection links a port attached to a computer, a peripheral "
-"or a printer and a port attached to a network equipment (hub, switch)."
+"general, a connection links a port attached to a computer, a peripheral or a"
+" printer and a port attached to a network equipment (hub, switch)."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:71
@@ -491,9 +487,9 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:75
 msgid ""
-"A WiFi port is characterized by the mode of the network card (ad-hoc, "
-"access point, repeater...), the WiFi protocol version (ab, g...) and its "
-"MAX address."
+"A WiFi port is characterized by the mode of the network card (ad-hoc, access"
+" point, repeater...), the WiFi protocol version (ab, g...) and its MAX "
+"address."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:79
@@ -521,9 +517,9 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:89
 msgid ""
-"The local loop-back is a virtual port used by most equipments for "
-"internal communication. It is this port that is used when connecting to "
-"``localhost`` or ``127.0.0.1``."
+"The local loop-back is a virtual port used by most equipments for internal "
+"communication. It is this port that is used when connecting to ``localhost``"
+" or ``127.0.0.1``."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:91
@@ -535,7 +531,8 @@ msgid "Management of network port aliases"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:96
-msgid "A network port alias is a virtual port that can refine a physical port."
+msgid ""
+"A network port alias is a virtual port that can refine a physical port."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:98
@@ -551,8 +548,8 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:103
 msgid ""
-"Note that when the origin port is changed, the MAC address of the new "
-"port is affected to the port alias."
+"Note that when the origin port is changed, the MAC address of the new port "
+"is affected to the port alias."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:106
@@ -568,9 +565,9 @@ msgstr ""
 #: ../../source/modules/assets/tabs/network-ports.rst:112
 msgid ""
 "On Linux, aggregates are represented by bridges `bridges "
-"<http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>`"
-" linking together different ports. In the same way, an Ethernet firewall "
-"uses a bridge that links interfaces to be filtered."
+"<http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>` "
+"linking together different ports. In the same way, an Ethernet firewall uses"
+" a bridge that links interfaces to be filtered."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:114
@@ -579,14 +576,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:118
 msgid ""
-"Every deletion or addition of a network port is recorded in the history "
-"of the computer."
+"Every deletion or addition of a network port is recorded in the history of "
+"the computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:122
 msgid ""
-"If using native inventory or third-party inventory tool, the network "
-"ports information can be automatically imported and updated."
+"If using native inventory or third-party inventory tool, the network ports "
+"information can be automatically imported and updated."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:2
@@ -595,36 +592,36 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:4
 msgid ""
-"Management of financial and administrative information, this information "
-"is visible in the 'Management' tab on the computer's form."
+"Management of financial and administrative information, this information is "
+"visible in the 'Management' tab on the computer's form."
 msgstr ""
 
-#: ../../source/modules/tabs/management.rst:-1
+#: ../../source/modules/tabs/management.rst-1
 msgid "Management screen"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:10
 msgid ""
 "By default this management is disabled. It is possible to activate the "
-"financial information on any type of object in the inventory by using the"
-" link in the *Management* tab of the material detail."
+"financial information on any type of object in the inventory by using the "
+"link in the *Management* tab of the material detail."
 msgstr ""
 
-#: ../../source/modules/tabs/management.rst:-1
+#: ../../source/modules/tabs/management.rst-1
 msgid "Enable management"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:18
 msgid ""
-"It is possible to activate the administrative and financial information "
-"from the massive actions on a set of elements (computer, monitor, ...)"
+"It is possible to activate the administrative and financial information from"
+" the massive actions on a set of elements (computer, monitor, ...)"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:21
 msgid ""
-"It is possible to activate the administrative and financial information "
-"as soon as an element is created. See \"Enable default administrative and"
-" financial information\" option in Setup > General > Asset tab."
+"It is possible to activate the administrative and financial information as "
+"soon as an element is created. See \"Enable default administrative and "
+"financial information\" option in Setup > General > Asset tab."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:24
@@ -665,9 +662,9 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:39
 msgid ""
-"Supplier: Third party who sold the equipment. See :doc:`Managing "
-"suppliers </modules/management/suppliers>`. Suppliers are managed from "
-"the menu **Management > Suppliers**."
+"Supplier: Third party who sold the equipment. See :doc:`Managing suppliers "
+"</modules/management/suppliers>`. Suppliers are managed from the menu "
+"**Management > Suppliers**."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:40
@@ -692,20 +689,20 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:45
 msgid ""
-"Warranty extension value: cost of the warranty extension, but preferably "
-"use contracts."
+"Warranty extension value: cost of the warranty extension, but preferably use"
+" contracts."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:46
 msgid ""
-"Account net value: this is the automatic calculation of the gross value "
-"of a piece of equipment minus the amount of depreciation."
+"Account net value: this is the automatic calculation of the gross value of a"
+" piece of equipment minus the amount of depreciation."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:47
 msgid ""
-"Type of depreciation: choice of the type of depreciation between linear "
-"and declining balance."
+"Type of depreciation: choice of the type of depreciation between linear and "
+"declining balance."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:48
@@ -728,8 +725,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:51
 msgid ""
-"Budget: the budget on which this equipment was purchased See "
-":doc:`Managing the budget <../management/budgets>`."
+"Budget: the budget on which this equipment was purchased See :doc:`Managing "
+"the budget <../management/budgets>`."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:52
@@ -750,8 +747,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:56
 msgid ""
-"Date of last physical inventory: date of the last physical inventory of "
-"the equipment."
+"Date of last physical inventory: date of the last physical inventory of the "
+"equipment."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:57
@@ -760,8 +757,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:58
 msgid ""
-"Monthly TCO: TCO divided by the number of months between today's date and"
-" the date of purchase of the equipment."
+"Monthly TCO: TCO divided by the number of months between today's date and "
+"the date of purchase of the equipment."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:61
@@ -769,7 +766,8 @@ msgid "Warranty information"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:63
-msgid "Warranty start date: date on which the warranty of the equipment starts"
+msgid ""
+"Warranty start date: date on which the warranty of the equipment starts"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:64
@@ -789,9 +787,9 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:68
 msgid ""
-"All the dates defined can be managed automatically according to changes "
-"in the status of the equipment. Some dates can also be copied from "
-"another date. All this configuration is done by "
+"All the dates defined can be managed automatically according to changes in "
+"the status of the equipment. Some dates can also be copied from another "
+"date. All this configuration is done by "
 "[entity](administration_entity_delegation.dita)."
 msgstr ""
 
@@ -801,27 +799,26 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:73
 msgid ""
-"GLPI allows you to configure a notification on the expiry of the hardware"
-" warranty. This is configurable by entity in :ref:`notification "
-"management <configure_notifications>` to define the models and recipients"
-" used and in :doc:`the administration of entities "
-"</modules/administration/entities>` to enable or disable this feature, "
-"define the default values and anticipate the sending of the notification "
-"if necessary."
+"GLPI allows you to configure a notification on the expiry of the hardware "
+"warranty. This is configurable by entity in :ref:`notification management "
+"<configure_notifications>` to define the models and recipients used and in "
+":doc:`the administration of entities </modules/administration/entities>` to "
+"enable or disable this feature, define the default values and anticipate the"
+" sending of the notification if necessary."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:75
 msgid ""
-"GLPI can perform a simple net book value calculation based on straight-"
-"line or declining balance depreciation. To do so, a certain amount of "
-"information (value, date, etc.) must be entered. The user must also enter"
-" the date of the financial year the general configuration."
+"GLPI can perform a simple net book value calculation based on straight-line "
+"or declining balance depreciation. To do so, a certain amount of information"
+" (value, date, etc.) must be entered. The user must also enter the date of "
+"the financial year the general configuration."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:78
 msgid ""
-"The display of financial information for each type of equipment depends "
-"on the profile of the user logged in."
+"The display of financial information for each type of equipment depends on "
+"the profile of the user logged in."
 msgstr ""
 
 #: ../../source/modules/tabs/contracts.rst:2
@@ -832,7 +829,7 @@ msgstr ""
 msgid "The *Contracts* tab is used to show or add linked contracts."
 msgstr ""
 
-#: ../../source/modules/tabs/contracts.rst:-1
+#: ../../source/modules/tabs/contracts.rst-1
 msgid "Contract display screen"
 msgstr ""
 
@@ -840,14 +837,14 @@ msgstr ""
 msgid ""
 "For each associated contract, the name, number, contract type, supplier, "
 "start date and initial duration of the contract are listed. In the last "
-"field, the end date of the contract is also shown with a red display if "
-"the date is earlier than the current date."
+"field, the end date of the contract is also shown with a red display if the "
+"date is earlier than the current date."
 msgstr ""
 
 #: ../../source/modules/tabs/contracts.rst:13
 msgid ""
-"Refer to :doc:`contract management </modules/management/contract>` for "
-"more information."
+"Refer to :doc:`contract management </modules/management/contract>` for more "
+"information."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:2
@@ -856,30 +853,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/tickets.rst:2
@@ -892,7 +889,7 @@ msgid ""
 "object. It also lists the tickets already linked to the object."
 msgstr ""
 
-#: ../../source/modules/tabs/tickets.rst:-1
+#: ../../source/modules/tabs/tickets.rst-1
 msgid "Image of the ticket list"
 msgstr ""
 
@@ -910,8 +907,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:4
 msgid ""
-"The *Problems* tab is used to create a problem associated with the "
-"current object. It also lists the changes already linked to the object."
+"The *Problems* tab is used to create a problem associated with the current "
+"object. It also lists the changes already linked to the object."
 msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:6
@@ -920,8 +917,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:9
 msgid ""
-"Date (opening or expiry date, resolution or closing date depending on the"
-" status of the problem)"
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the problem)"
 msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:10
@@ -948,7 +945,7 @@ msgstr ""
 msgid "Column indicating the number of scheduled tasks"
 msgstr ""
 
-#: ../../source/modules/tabs/problems.rst:-1
+#: ../../source/modules/tabs/problems.rst-1
 msgid "Creation and list of associated problems"
 msgstr ""
 
@@ -970,15 +967,14 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:6
 msgid ""
-"For some items, external links are managed from the menu **Setup > "
-"External links**."
+"For some items, external links are managed from the menu **Setup > External "
+"links**."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:8
 msgid ""
-"These links can use object fields such as IP, name, etc. See "
-":doc:`Configure protocol external links "
-"</modules/configuration/external_links>`."
+"These links can use object fields such as IP, name, etc. See :doc:`Configure"
+" protocol external links </modules/configuration/external_links>`."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:10
@@ -987,8 +983,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:12
 msgid ""
-"A web link: http://192.168.0.1 (IP retrieved from the network port of the"
-" hardware) ;"
+"A web link: http://192.168.0.1 (IP retrieved from the network port of the "
+"hardware) ;"
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:13
@@ -1007,7 +1003,7 @@ msgid ""
 "information. Notes are displayed in the order of their creation."
 msgstr ""
 
-#: ../../source/modules/tabs/notes.rst:-1
+#: ../../source/modules/tabs/notes.rst-1
 msgid "View and enter a note"
 msgstr ""
 
@@ -1018,8 +1014,8 @@ msgstr ""
 #: ../../source/modules/assets/printers.rst:82
 msgid ""
 "Fix this reference (include or link???) **[Onglet "
-"\"Réservations\"](Les_différents_onglets/Onglet_Réservations.rst)** "
-"Gestion des réservations pour un objet d'inventaire"
+"\"Réservations\"](Les_différents_onglets/Onglet_Réservations.rst)** Gestion "
+"des réservations pour un objet d'inventaire"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:2
@@ -1028,8 +1024,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -1056,16 +1052,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:2
@@ -1075,14 +1071,14 @@ msgstr ""
 #: ../../source/modules/tabs/debug.rst:4
 msgid ""
 "If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
-"appear before the *All* tab. This tab offers information to help you "
-"resolve an issue."
+"appear before the *All* tab. This tab offers information to help you resolve"
+" an issue."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:6
 msgid ""
-"For example, for a computer, you have one or more tables depending on the"
-" affected object (financial information, reservations...) listing the "
+"For example, for a computer, you have one or more tables depending on the "
+"affected object (financial information, reservations...) listing the "
 "notifications that will be triggered on this computer with:"
 msgstr ""
 
@@ -1102,7 +1098,7 @@ msgstr ""
 msgid "Recipient(s) email address"
 msgstr ""
 
-#: ../../source/modules/tabs/debug.rst:-1
+#: ../../source/modules/tabs/debug.rst-1
 msgid "Debugging page"
 msgstr ""
 
@@ -1112,9 +1108,9 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
 
 #: ../../source/modules/assets/printers.rst:94
@@ -1126,4 +1122,3 @@ msgid ""
 "Printers do not have specific actions; report to :doc:`common actions "
 "<../overview/actions>`."
 msgstr ""
-

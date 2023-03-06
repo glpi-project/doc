@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/general/assistance.rst:2
 #: ../../source/modules/configuration/general/assistance.rst:7
@@ -34,43 +34,43 @@ msgstr ""
 #: ../../source/modules/configuration/general/assistance.rst:14
 msgid ""
 "**Step for the hours (minutes)** Amount of minutes between each step for "
-"minutes under an hour in duration dropdowns. Example: 5 minutes shows 5, "
-"10, 15, 20, ..., 55, 60."
+"minutes under an hour in duration dropdowns. Example: 5 minutes shows 5, 10,"
+" 15, 20, ..., 55, 60."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:18
 msgid ""
-"**Default file size limit imported by the mails receiver** Maximum size "
-"of files to allow to import by the mail collector. This should be "
-"adjusted along with the maximum file size option on the `management tab "
+"**Default file size limit imported by the mails receiver** Maximum size of "
+"files to allow to import by the mail collector. This should be adjusted "
+"along with the maximum file size option on the `management tab "
 "<management.html>`_ and the `max_upload_size` PHP directive."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:22
 msgid ""
-"**Default heading when adding a document to a ticket** Allows you to set "
-"a default classification for documents uploaded to a ticket."
+"**Default heading when adding a document to a ticket** Allows you to set a "
+"default classification for documents uploaded to a ticket."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:25
 msgid ""
 "**Keep tickets when purging hardware in the inventory** If enabled, the "
-"tickets related to an asset being purged will remain. Otherwise, they are"
-" purged along with the asset."
+"tickets related to an asset being purged will remain. Otherwise, they are "
+"purged along with the asset."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:29
 msgid ""
 "**Allow anonymous ticket creation (helpdesk.receiver)** Anonymous ticket "
 "creation is disabled by default. Activating the option is necessary when "
-"using a collector or the anonymous ticket entry form to allow the "
-"creation of tickets by users not recognized by GLPI."
+"using a collector or the anonymous ticket entry form to allow the creation "
+"of tickets by users not recognized by GLPI."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:33
 msgid ""
-"**Limit of the schedules for planning** Time range displayed in the "
-"planning screen."
+"**Limit of the schedules for planning** Time range displayed in the planning"
+" screen."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:36
@@ -81,15 +81,15 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:39
 msgid ""
-"**Show personal information in new ticket form (simplified information)**"
-" Display the name, phone number, and location of the user. If needed, the"
-" **Edit** button redirects to the main tab of the user's preferences."
+"**Show personal information in new ticket form (simplified information)** "
+"Display the name, phone number, and location of the user. If needed, the "
+"**Edit** button redirects to the main tab of the user's preferences."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:43
 msgid ""
-"**Allow anonymous followups (receiver)** Allows a user not present in "
-"GLPI to respond to an email from GLPI."
+"**Allow anonymous followups (receiver)** Allows a user not present in GLPI "
+"to respond to an email from GLPI."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:47
@@ -98,9 +98,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/assistance.rst:49
 msgid ""
-"|image| The priority definition matrix allows you to define the priority "
-"of tickets according to the level of impact and urgency. The availability"
-" of these levels in the application can also be defined but the Medium "
-"level cannot be deleted."
+"|image| The priority definition matrix allows you to define the priority of "
+"tickets according to the level of impact and urgency. The availability of "
+"these levels in the application can also be defined but the Medium level "
+"cannot be deleted."
 msgstr ""
-

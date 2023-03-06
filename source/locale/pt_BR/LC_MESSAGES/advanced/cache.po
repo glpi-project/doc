@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/advanced/cache.rst:2
 msgid "Using the cache"
@@ -29,16 +29,14 @@ msgstr ""
 
 #: ../../source/advanced/cache.rst:10
 msgid ""
-"If one of the APCu or WinCache cache systems is present on the server, it"
-" will be automatically used by GLPI. The system is based on Symfony "
-"Cache."
+"If one of the APCu or WinCache cache systems is present on the server, it "
+"will be automatically used by GLPI. The system is based on Symfony Cache."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:12
 msgid ""
 "The cache makes it possible to improve performance on certain relatively "
-"heavy operations, such as loading translations, or calculating entity "
-"trees."
+"heavy operations, such as loading translations, or calculating entity trees."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:14
@@ -55,23 +53,23 @@ msgstr ""
 
 #: ../../source/advanced/cache.rst:19
 msgid ""
-"This distinction makes it possible to avoid storing the translation cache"
-" on a network, which could produce too many requests on the network and "
+"This distinction makes it possible to avoid storing the translation cache on"
+" a network, which could produce too many requests on the network and "
 "ultimately have a negative impact."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:21
 msgid ""
-"Conversely, the database cache should be on the network in case of "
-"multiple front-ends."
+"Conversely, the database cache should be on the network in case of multiple "
+"front-ends."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:23
 msgid ""
 "In order to allow you to refine the settings, or to use another cache "
-"system, a manual solution is proposed. To take advantage of it, add to "
-"the ``glpi_configs`` table a ``cache_db`` and/or ``cache_trans`` key for "
-"the ``core`` context and adapt the value according to what you want."
+"system, a manual solution is proposed. To take advantage of it, add to the "
+"``glpi_configs`` table a ``cache_db`` and/or ``cache_trans`` key for the "
+"``core`` context and adapt the value according to what you want."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:27
@@ -82,17 +80,17 @@ msgstr ""
 
 #: ../../source/advanced/cache.rst:37
 msgid ""
-"Refer to the `Config::getCache() <https://forge.glpi-project.org/apidoc"
-"/source-class-Config.html>`_ method and `Symfony Cache documentation "
-"<https://symfony.com/doc/current/components/cache.html>`_ for more "
-"information."
+"Refer to the `Config::getCache() <https://forge.glpi-"
+"project.org/apidoc/source-class-Config.html>`_ method and `Symfony Cache "
+"documentation <https://symfony.com/doc/current/components/cache.html>`_ for "
+"more information."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:41
 msgid ""
 "If you install several instances of GLPI on the same server, the cache "
-"namespace must be unique per instance, which was not the case in GLPI "
-"before version 9.2.4."
+"namespace must be unique per instance, which was not the case in GLPI before"
+" version 9.2.4."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:43
@@ -113,34 +111,30 @@ msgstr ""
 
 #: ../../source/advanced/cache.rst:50
 msgid ""
-"OPCache stores pre-compiled PHP files in memory, which improves "
-"performance. The only thing to do is to install it on your PHP instance "
-"and configure it (the default configuration should be fine in the vast "
-"majority of cases)."
+"OPCache stores pre-compiled PHP files in memory, which improves performance."
+" The only thing to do is to install it on your PHP instance and configure it"
+" (the default configuration should be fine in the vast majority of cases)."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:52
 msgid ""
-"However, on instances that could be heavily used, it may be useful not to"
-" include font files for PDFs in this cache. Indeed, they take up a lot of"
-" space, and the gain is relatively minimal."
+"However, on instances that could be heavily used, it may be useful not to "
+"include font files for PDFs in this cache. Indeed, they take up a lot of "
+"space, and the gain is relatively minimal."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:54
 msgid ""
 "In order to exclude the font files from the cache, all you have to do is "
-"enter their full path in a blacklist file for opcache. The path to this "
-"file is determined by the configuration diective "
-"``opcache.blacklist_filename`` ( ``/etc/php.d/opcache-glpi.blacklist`` "
-"for example under Fedora). If your GLPI instance is in the folder "
-"``/var/www/``, the path to exclude will be "
+"enter their full path in a blacklist file for opcache. The path to this file"
+" is determined by the configuration diective ``opcache.blacklist_filename`` "
+"( ``/etc/php.d/opcache-glpi.blacklist`` for example under Fedora). If your "
+"GLPI instance is in the folder ``/var/www/``, the path to exclude will be "
 "``/var/www/html/glpi/glpi-9.2.1/vendor/tecnickcom/tcpdf/fonts/``."
 msgstr ""
 
 #: ../../source/advanced/cache.rst:56
 msgid ""
-"Of course, the location of the configuration file and the path to the "
-"fonts should be adapted according to your system and your type of "
-"installation."
+"Of course, the location of the configuration file and the path to the fonts "
+"should be adapted according to your system and your type of installation."
 msgstr ""
-

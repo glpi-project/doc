@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/overview/actions.rst:2
 msgid "Actions"
@@ -29,15 +29,15 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:6
 msgid ""
-"Likewise, some actions in the tab depend on profile permission, such as "
-"mass actions."
+"Likewise, some actions in the tab depend on profile permission, such as mass"
+" actions."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:8
 msgid ""
-"This page describes only main actions that can apply to different types "
-"of objects. If an action is specific to an object, it will be described "
-"in the documentation of this object."
+"This page describes only main actions that can apply to different types of "
+"objects. If an action is specific to an object, it will be described in the "
+"documentation of this object."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:13
@@ -66,8 +66,7 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:20
 msgid ""
-"Go to the object page, for example `Assets > Computers` to add a computer"
-" ;"
+"Go to the object page, for example `Assets > Computers` to add a computer ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:21
@@ -76,8 +75,8 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:22
 msgid ""
-"If the inventory object has a template management, choose the template to"
-" be applied ;"
+"If the inventory object has a template management, choose the template to be"
+" applied ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:23
@@ -91,9 +90,9 @@ msgstr ""
 #: ../../source/modules/overview/actions.rst:26
 msgid ""
 "An option located in user preferences, *After creation, go to created "
-"element*, allows to choose, after creating an object, if the newly "
-"created object is displayed or if a new empty form is displayed in order "
-"to create another object."
+"element*, allows to choose, after creating an object, if the newly created "
+"object is displayed or if a new empty form is displayed in order to create "
+"another object."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:29
@@ -108,8 +107,8 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:36
 msgid ""
-"Go to the object page, for example, to modify a computer, go to `Assets >"
-" Computers` ;"
+"Go to the object page, for example, to modify a computer, go to `Assets > "
+"Computers` ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:37
@@ -118,8 +117,8 @@ msgstr ""
 #: ../../source/modules/overview/actions.rst:102
 #: ../../source/modules/overview/actions.rst:163
 msgid ""
-"Or alternatively: search the object in the search engine available on top"
-" of objects list ;"
+"Or alternatively: search the object in the search engine available on top of"
+" objects list ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:38
@@ -186,20 +185,19 @@ msgid ""
 "If the permission to display an object is not granted, the name of this "
 "object will not appear in GLPI different menus. For example, if the "
 "permission to read a `Computer` type object is not granted in the user's "
-"profile, the sub-menu `Computer` will not appear in menu `Assets`, even "
-"if the permission to modify a `Computer` is granted."
+"profile, the sub-menu `Computer` will not appear in menu `Assets`, even if "
+"the permission to modify a `Computer` is granted."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:61
 msgid ""
-"For all inventory objects, displaying an object is realized in the same "
-"way:"
+"For all inventory objects, displaying an object is realized in the same way:"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:64
 msgid ""
-"Go to the object page, for example, to display a computer, go to `Assets "
-"> Computers` ;"
+"Go to the object page, for example, to display a computer, go to `Assets > "
+"Computers` ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:66
@@ -212,15 +210,15 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:72
 msgid ""
-"When available for the item type, attaching a document is realized in the"
-" same way:"
+"When available for the item type, attaching a document is realized in the "
+"same way:"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:75
 #: ../../source/modules/overview/actions.rst:101
 msgid ""
-"Go to the object menu, for example, to attach to a computer, go to "
-"`Assets > Computers` ;"
+"Go to the object menu, for example, to attach to a computer, go to `Assets >"
+" Computers` ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:78
@@ -270,8 +268,8 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:98
 msgid ""
-"When available for the item type, attaching a contract is realized in the"
-" same way:"
+"When available for the item type, attaching a contract is realized in the "
+"same way:"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:109
@@ -296,16 +294,16 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:124
 msgid ""
-"Entities open the possibility to define transfer profiles in order to "
-"move elements between entities. This allows in particular to switch from "
-"a single entity GLPI to a GLPI with multiple entities."
+"Entities open the possibility to define transfer profiles in order to move "
+"elements between entities. This allows in particular to switch from a single"
+" entity GLPI to a GLPI with multiple entities."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:126
 msgid ""
-"To make a transfer, it is first necessary to check that the used profile "
-"has permission to make transfers (`Administration > Profiles > "
-"Administration --> Transfer read permission`)."
+"To make a transfer, it is first necessary to check that the used profile has"
+" permission to make transfers (`Administration > Profiles > Administration "
+"--> Transfer read permission`)."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:130
@@ -314,15 +312,15 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:132
 msgid ""
-"Configure the actions performed by the transfer :doc:`Administration "
-"Rules Transfer </modules/administration/rules/rulesmanagement>` ;"
+"Configure the actions performed by the transfer :doc:`Administration Rules "
+"Transfer </modules/administration/rules/rulesmanagement>` ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:133
 msgid ""
-"Check that profile performing transfer has permission on the origin "
-"entity and on the destination entity (simplest solution is to use a "
-"recursive profile from root entity) ;"
+"Check that profile performing transfer has permission on the origin entity "
+"and on the destination entity (simplest solution is to use a recursive "
+"profile from root entity) ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:134
@@ -339,8 +337,8 @@ msgstr ""
 
 #: ../../source/modules/overview/actions.rst:137
 msgid ""
-"In **Transfer mode**, select a transfer configuration profile that has "
-"been created at step 2 ;"
+"In **Transfer mode**, select a transfer configuration profile that has been "
+"created at step 2 ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:138
@@ -365,8 +363,8 @@ msgstr ""
 msgid ""
 "Example : transfer of a `Computer` with a provider defined in accounting "
 "informations: if this provider exists only in origin entity, it will be "
-"created in destination entity; however, a provider defined in root entity"
-" with recursivity enable will not be recreated."
+"created in destination entity; however, a provider defined in root entity "
+"with recursivity enable will not be recreated."
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:151
@@ -384,13 +382,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:159
-msgid "For all inventory objects, deleting an object is realized in the same way:"
+msgid ""
+"For all inventory objects, deleting an object is realized in the same way:"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:162
 msgid ""
-"Go to the object page, for example, to delete a computer, go to `Assets >"
-" Computers` ;"
+"Go to the object page, for example, to delete a computer, go to `Assets > "
+"Computers` ;"
 msgstr ""
 
 #: ../../source/modules/overview/actions.rst:164
@@ -422,7 +421,6 @@ msgstr ""
 #: ../../source/modules/overview/actions.rst:179
 msgid ""
 "*Delete permanently* if object does not have an associated trash bin. In "
-"this case, GLPI will ask for confirmation before real deletion of the "
-"object in the database."
+"this case, GLPI will ask for confirmation before real deletion of the object"
+" in the database."
 msgstr ""
-

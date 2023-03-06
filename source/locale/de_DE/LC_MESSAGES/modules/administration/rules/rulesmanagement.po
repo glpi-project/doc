@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:2
 msgid "Rules"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:6
 msgid ""
-"Export, import and duplication is possible for all rules. These "
-"operations can be carried out globally from the main rules page or by "
-"batch from the search engines for the various rules via massive actions. "
-"These features are interesting for example in the context of switching of"
-" rules from a pre-production environment to a production environment."
+"Export, import and duplication is possible for all rules. These operations "
+"can be carried out globally from the main rules page or by batch from the "
+"search engines for the various rules via massive actions. These features are"
+" interesting for example in the context of switching of rules from a pre-"
+"production environment to a production environment."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:8
@@ -44,8 +44,8 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:13
 msgid ""
-"GLPI contains a rules engine which enables a certain number of actions "
-"and associations to be carried out automatically."
+"GLPI contains a rules engine which enables a certain number of actions and "
+"associations to be carried out automatically."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:15
@@ -126,10 +126,10 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:42
 msgid ""
-"in general, it is recommended to test the rules well before using them "
-"and to make a backup before setting up each new rule. On the main form of"
-" a rule, a *Test* button opens an additional window that allows to see "
-"all the criteria and results of the rule."
+"in general, it is recommended to test the rules well before using them and "
+"to make a backup before setting up each new rule. On the main form of a "
+"rule, a *Test* button opens an additional window that allows to see all the "
+"criteria and results of the rule."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:45
@@ -163,11 +163,11 @@ msgstr ""
 #: ../../source/modules/administration/rules/rulesmanagement.rst:60
 msgid ""
 "Classification by category makes it easier to display and find software. "
-"This can be done automatically for any new software, or retroactively. "
-"The available criteria are the publisher, the name and the comment of the"
-" software. The only possible action is to assign software to a category. "
-"It is possible to replay the rules from the software list, using massive "
-"action *Recalculate category*."
+"This can be done automatically for any new software, or retroactively. The "
+"available criteria are the publisher, the name and the comment of the "
+"software. The only possible action is to assign software to a category. It "
+"is possible to replay the rules from the software list, using massive action"
+" *Recalculate category*."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:63
@@ -192,8 +192,8 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:72
 msgid ""
-"The two menus below are only visible if you use an inventory agent for an"
-" automatic inventory of computers in GLPI."
+"The two menus below are only visible if you use an inventory agent for an "
+"automatic inventory of computers in GLPI."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:74
@@ -239,14 +239,15 @@ msgid "**Keep**: the item will remain in the ceding entity;"
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:87
-msgid "**Disconnect**: the connection between element and object will be deleted"
+msgid ""
+"**Disconnect**: the connection between element and object will be deleted"
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:89
 msgid ""
 "**Blacklists** Thanks to the GLPI blacklist mechanism, it is possible to "
-"exclude certain values ​​from processing by the rules engine. The types "
-"that can be taken into account are:"
+"exclude certain values ​​from processing by the rules engine. The types that"
+" can be taken into account are:"
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:91
@@ -271,10 +272,9 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:97
 msgid ""
-"This allows, for example, to exclude certain IP addresses from the "
-"inventory agent (for example an IP 127.0.0.1 or 0.0.0.0) or not to create"
-" a ticket from a particular email address (for example daily backup of a "
-"server)."
+"This allows, for example, to exclude certain IP addresses from the inventory"
+" agent (for example an IP 127.0.0.1 or 0.0.0.0) or not to create a ticket "
+"from a particular email address (for example daily backup of a server)."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:100
@@ -283,9 +283,9 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:102
 msgid ""
-"A rule is composed of a series of criteria. Depending on the option "
-"chosen (OR/ ND) one or all of the criteria must be verified to trigger an"
-" action list."
+"A rule is composed of a series of criteria. Depending on the option chosen "
+"(OR/ ND) one or all of the criteria must be verified to trigger an action "
+"list."
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:104
@@ -328,14 +328,14 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:116
 msgid ""
-"under (for tree dropdowns, indicates to be this dropdown or one of the "
-"child dropdowns)"
+"under (for tree dropdowns, indicates to be this dropdown or one of the child"
+" dropdowns)"
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:117
 msgid ""
-"not under (for tree dropdowns, indicates not to be this dropdown or one "
-"of the child dropdowns))"
+"not under (for tree dropdowns, indicates not to be this dropdown or one of "
+"the child dropdowns))"
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:119
@@ -352,19 +352,18 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:124
 msgid ""
-"Regular expressions (otherwise known as regex) return one or more results"
-" which can then be used by actions using the #x directive (where x is the"
-" number of the result of the regular expression)."
+"Regular expressions (otherwise known as regex) return one or more results "
+"which can then be used by actions using the #x directive (where x is the "
+"number of the result of the regular expression)."
 msgstr ""
 
-#: ../../source/modules/administration/rules/rulesmanagement.rst:-1
+#: ../../source/modules/administration/rules/rulesmanagement.rst-1
 msgid "Example"
 msgstr ""
 
 #: ../../source/modules/administration/rules/rulesmanagement.rst:128
 msgid ""
-"Criteria : name matching regular expression ``/DESKTOP\\_(.\\*)/`` If "
-"object is named ``DESKTOP_0001``, then it will be possible to use "
-"``0001`` in the actions of the rules using parameter ``#0``"
+"Criteria : name matching regular expression ``/DESKTOP\\_(.\\*)/`` If object"
+" is named ``DESKTOP_0001``, then it will be possible to use ``0001`` in the "
+"actions of the rules using parameter ``#0``"
 msgstr ""
-

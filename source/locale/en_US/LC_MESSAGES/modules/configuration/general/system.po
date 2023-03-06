@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/general/system.rst:2
 msgid "System"
@@ -23,33 +23,32 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:4
 msgid ""
-"This tab allows you to view a summary of information about the web "
-"server, configure the proxy information, and to define the logging "
-"information to be recorded."
+"This tab allows you to view a summary of information about the web server, "
+"configure the proxy information, and to define the logging information to be"
+" recorded."
 msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:8
 msgid ""
-"**Logging level** Each internal event of the application is recorded in "
-"the logs which are visible in `Administration > Logs "
+"**Logging level** Each internal event of the application is recorded in the "
+"logs which are visible in `Administration > Logs "
 "<../../administration/logs.html>`_."
 msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:11
 msgid ""
 "**Logs in files (SQL, email, automatic action...)** : It is possible to "
-"record certain additional events (SQL, notifications, automatic "
-"action...) in files. These files are then available in the `files/\\_log`"
-" directory."
+"record certain additional events (SQL, notifications, automatic action...) "
+"in files. These files are then available in the `files/\\_log` directory."
 msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:15
 msgid ""
 "**Maximum number of automatic actions (run by CLI)** When configuring "
-"automatic actions, it is possible to determine that they will be executed"
-" by a system external to GLPI (CLI). By default, it executes these "
-"actions one by one. It possible to increase the number of executions "
-"launched simultaneously."
+"automatic actions, it is possible to determine that they will be executed by"
+" a system external to GLPI (CLI). By default, it executes these actions one "
+"by one. It possible to increase the number of executions launched "
+"simultaneously."
 msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:20
@@ -61,25 +60,24 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:26
 msgid ""
-"A maintenance mode can be activated to allow a technical operation such "
-"as an update for example. A maintenance message is configurable and would"
-" show on the login page. In maintenance mode, you can still access GLPI "
-"via ``index.php?skipMaintenance=1``."
+"A maintenance mode can be activated to allow a technical operation such as "
+"an update for example. A maintenance message is configurable and would show "
+"on the login page. In maintenance mode, you can still access GLPI via "
+"``index.php?skipMaintenance=1``."
 msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:32
 msgid ""
 "In the case GLPI sits behind a proxy, it is necessary to indicate the "
-"information to allow GLPI to access the Internet. This affects the "
-"checking of new versions, fetching RSS feeds, etc."
+"information to allow GLPI to access the Internet. This affects the checking "
+"of new versions, fetching RSS feeds, etc."
 msgstr ""
 
 #: ../../source/modules/configuration/general/system.rst:37
 msgid ""
-"The following screen lists all the information of GLPI necessary to "
-"report a malfunction to the GLPI development team. It is preferred to "
-"click the `Copy system information` button which will add a rich-text "
-"version of the system information tables to your clipboard. This format "
-"shows up in a cleaner format on GitHub than if you copy it directly."
+"The following screen lists all the information of GLPI necessary to report a"
+" malfunction to the GLPI development team. It is preferred to click the "
+"`Copy system information` button which will add a rich-text version of the "
+"system information tables to your clipboard. This format shows up in a "
+"cleaner format on GitHub than if you copy it directly."
 msgstr ""
-

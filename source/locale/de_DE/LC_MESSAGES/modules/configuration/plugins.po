@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/plugins.rst:2
 msgid "Install and update plugins"
@@ -27,25 +27,25 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:6
 msgid ""
-"Before installing or updating a plugin, it is recommended that you "
-"perform a backup of your GLPI database."
+"Before installing or updating a plugin, it is recommended that you perform a"
+" backup of your GLPI database."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:8
 msgid ""
-"Starting in GLPI 9.5.0, you can install and update plugins directly from "
-"the GLPI web interface."
+"Starting in GLPI 9.5.0, you can install and update plugins directly from the"
+" GLPI web interface."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:10
 msgid ""
-"The first time you go to the plugins page under `Setup > Plugins`, you "
-"will be asked if you want to use the marketplace UI by default or the "
-"older plugin list. Regardless of your choice, you can always switch UIs "
-"by clicking the \"Marketplace\" and \"Plugins\" buttons at the top of the"
-" page. You may install plugins using both methods. If a plugin is install"
-" through the marketplace and manually for some reason, the version "
-"installed through the marketplace will be used."
+"The first time you go to the plugins page under `Setup > Plugins`, you will "
+"be asked if you want to use the marketplace UI by default or the older "
+"plugin list. Regardless of your choice, you can always switch UIs by "
+"clicking the \"Marketplace\" and \"Plugins\" buttons at the top of the page."
+" You may install plugins using both methods. If a plugin is install through "
+"the marketplace and manually for some reason, the version installed through "
+"the marketplace will be used."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:15
@@ -54,10 +54,10 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:17
 msgid ""
-"To use the marketplace, you will need a GLPI Network registration key. If"
-" you are not paying for a GLPI Network subscription, you can still get a "
-"free key from `<https://www.glpi-network.cloud>`_. After you get the key,"
-" you may enter it under `Setup > General` on the `GLPI Network` tab."
+"To use the marketplace, you will need a GLPI Network registration key. If "
+"you are not paying for a GLPI Network subscription, you can still get a free"
+" key from `<https://www.glpi-network.cloud>`_. After you get the key, you "
+"may enter it under `Setup > General` on the `GLPI Network` tab."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:21
@@ -66,22 +66,22 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:23
 msgid ""
-"In the plugin marketplace UI, click on the `Discovery` tab to view the "
-"list of all plugins offered through the marketplace. These include "
-"official plugins (free and subscription) and community plugins. On the "
-"left, you can select a category to filter plugins and use the search bar "
-"to further limit the results."
+"In the plugin marketplace UI, click on the `Discovery` tab to view the list "
+"of all plugins offered through the marketplace. These include official "
+"plugins (free and subscription) and community plugins. On the left, you can "
+"select a category to filter plugins and use the search bar to further limit "
+"the results."
 msgstr ""
 
-#: ../../source/modules/configuration/plugins.rst:-1
+#: ../../source/modules/configuration/plugins.rst-1
 msgid "Discover tab in Marketplace"
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:31
 msgid ""
-"Any plugin that has a `GLPI NETWORK` requires a non-free subscription. "
-"These plugins will also indicate the tier required such as `BASIC` or "
-"`STANDARD`. Each paid tier includes the plugins from the lower tiers."
+"Any plugin that has a `GLPI NETWORK` requires a non-free subscription. These"
+" plugins will also indicate the tier required such as `BASIC` or `STANDARD`."
+" Each paid tier includes the plugins from the lower tiers."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:34
@@ -90,24 +90,23 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:36
 msgid ""
-"On the right side of each plugin, you should see a button to install it "
-"or one or more errors explaining why it cannot be installed. When you "
-"find a plugin available to install, you can click the install button to "
-"automatically download the latest version available for your GLPI version"
-" and install it."
+"On the right side of each plugin, you should see a button to install it or "
+"one or more errors explaining why it cannot be installed. When you find a "
+"plugin available to install, you can click the install button to "
+"automatically download the latest version available for your GLPI version "
+"and install it."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:39
 msgid ""
-"Plugins installed via the marketplace are stored in the `marketplace` "
-"folder in the root of your GLPI instance."
+"Plugins installed via the marketplace are stored in the `marketplace` folder"
+" in the root of your GLPI instance."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:41
 msgid ""
-"After installation, the install button will change to an enable toggle. "
-"You will need to click that button to enable the plugin after "
-"installation."
+"After installation, the install button will change to an enable toggle. You "
+"will need to click that button to enable the plugin after installation."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:44
@@ -116,16 +115,16 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:46
 msgid ""
-"In the marketplace UI on the `Installed` tab, you can see all the plugins"
-" currently installed."
+"In the marketplace UI on the `Installed` tab, you can see all the plugins "
+"currently installed."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:48
 msgid ""
-"Similar to installing plugins, there will be an update button showing if "
-"an update is available or one or more errors if there is some issue "
-"preventing an update. Like with installing plugin, you will need to re-"
-"enable the plugins after an update."
+"Similar to installing plugins, there will be an update button showing if an "
+"update is available or one or more errors if there is some issue preventing "
+"an update. Like with installing plugin, you will need to re-enable the "
+"plugins after an update."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:52
@@ -136,27 +135,27 @@ msgstr ""
 msgid ""
 "The main way to discover new plugins is through the `plugin catalog "
 "<https://plugins.glpi-project.org>`_. Each plugin should have a download "
-"link that will take you to a GitHub page, the GLPI Network Services "
-"website (if it is a subscription-only plugin), or some other page that "
-"offers the downloads."
+"link that will take you to a GitHub page, the GLPI Network Services website "
+"(if it is a subscription-only plugin), or some other page that offers the "
+"downloads."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:57
 msgid ""
-"A plugin can have several versions and each version usually supports only"
-" certain versions of GLPI so be sure to download the version of the "
-"plugins that are compatible with your version of GLPI. If you try to "
-"install or update a plugin that is not compatible with your GLPI version,"
-" it should tell you in the GLPI web interface."
+"A plugin can have several versions and each version usually supports only "
+"certain versions of GLPI so be sure to download the version of the plugins "
+"that are compatible with your version of GLPI. If you try to install or "
+"update a plugin that is not compatible with your GLPI version, it should "
+"tell you in the GLPI web interface."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:59
 msgid ""
-"After you download the plugin, you will need to extract it to the "
-"`plugins` folder in your GLPI directory. The new folder inside `plugins` "
-"should be the \"internal\" name of the plugin. This is an all lowercase "
-"identifier containing no spaces. Inside that folder should be at least "
-"two files named `hook.php` and `setup.php`."
+"After you download the plugin, you will need to extract it to the `plugins` "
+"folder in your GLPI directory. The new folder inside `plugins` should be the"
+" \"internal\" name of the plugin. This is an all lowercase identifier "
+"containing no spaces. Inside that folder should be at least two files named "
+"`hook.php` and `setup.php`."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:61
@@ -167,8 +166,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:63
 msgid ""
-"All plugins listed will have a group of actions along the right side (or "
-"a message indicating why they cannot be installed or updated). After "
+"All plugins listed will have a group of actions along the right side (or a "
+"message indicating why they cannot be installed or updated). After "
 "installing or updating a plugin, you will need to re-enable it."
 msgstr ""
 
@@ -178,16 +177,15 @@ msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:69
 msgid ""
-"When you unstall a plugin using the uninstall button in the plugin list "
-"or in the marketplace UI, it does not remove the plugin code and the "
-"plugin will still show in the list of plugins to re-install."
+"When you unstall a plugin using the uninstall button in the plugin list or "
+"in the marketplace UI, it does not remove the plugin code and the plugin "
+"will still show in the list of plugins to re-install."
 msgstr ""
 
 #: ../../source/modules/configuration/plugins.rst:71
 msgid ""
 "To permenantly remove the plugin, it is nessacary to delete the plugin's "
-"folder. After removing the plugin's folder there should be a new "
-"\"cleanup\" action available for the plugin in GLPI. This will remove the"
-" reference to the plugin from the database."
+"folder. After removing the plugin's folder there should be a new \"cleanup\""
+" action available for the plugin in GLPI. This will remove the reference to "
+"the plugin from the database."
 msgstr ""
-

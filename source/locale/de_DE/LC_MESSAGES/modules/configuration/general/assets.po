@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/general/assets.rst:2
 #: ../../source/modules/configuration/general/assets.rst:7
@@ -35,8 +35,8 @@ msgstr ""
 #: ../../source/modules/configuration/general/assets.rst:14
 msgid ""
 "**Software category deleted by the dictionary rules** It is possible to "
-"automatically change the category of software deleted by dictionary "
-"rules. By default they are automatically moved to the FUSION category."
+"automatically change the category of software deleted by dictionary rules. "
+"By default they are automatically moved to the FUSION category."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:18
@@ -45,10 +45,10 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:21
 msgid ""
-"**Automatic fields (marked by*)** When a template is created, it is "
-"possible to add automatically generated fields from a template. For "
-"example, the name of the asset or the inventory number. The values of "
-"these fields can be incremented either by entity or globally."
+"**Automatic fields (marked by*)** When a template is created, it is possible"
+" to add automatically generated fields from a template. For example, the "
+"name of the asset or the inventory number. The values of these fields can be"
+" incremented either by entity or globally."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:26
@@ -65,14 +65,13 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:29
 msgid ""
-"**Restrict printer management** When creating a device manually, the user"
-" is asked to choose the type of management (unitary or global). A global "
-"management only imports an element once, unlike a unitary management "
-"which imports it as many times as it is used. For example, a printer "
-"shared by several users or a monitor connected to a screen switch. "
-"Subsequently, a unitary managed equipment can be switched to global "
-"management mode. It is possible to restrict the type of management "
-"depending on the equipment."
+"**Restrict printer management** When creating a device manually, the user is"
+" asked to choose the type of management (unitary or global). A global "
+"management only imports an element once, unlike a unitary management which "
+"imports it as many times as it is used. For example, a printer shared by "
+"several users or a monitor connected to a screen switch. Subsequently, a "
+"unitary managed equipment can be switched to global management mode. It is "
+"possible to restrict the type of management depending on the equipment."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:37
@@ -81,9 +80,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:41
 msgid ""
-"Interfacing with an inventory tool makes it possible to take an automated"
-" inventory of the equipment. This interfacing is possible through the "
-"native inventory feature or a plugin."
+"Interfacing with an inventory tool makes it possible to take an automated "
+"inventory of the equipment. This interfacing is possible through the native "
+"inventory feature or a plugin."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:44
@@ -95,16 +94,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:46
 msgid ""
-"**When disconnecting** When disconnecting a device (that is unit managed)"
-" from a computer, it is possible to remove some of the data in the "
-"Computer such as the User."
+"**When disconnecting** When disconnecting a device (that is unit managed) "
+"from a computer, it is possible to remove some of the data in the Computer "
+"such as the User."
 msgstr ""
 
 #: ../../source/modules/configuration/general/assets.rst:49
 msgid ""
-"For example, When the inventory is first retrieved, you can define that "
-"the monitor connected to the computer will have the status "
-"\"Production\". Then, when disconnected, it will take the status "
-"\"Available\"."
+"For example, When the inventory is first retrieved, you can define that the "
+"monitor connected to the computer will have the status \"Production\". Then,"
+" when disconnected, it will take the status \"Available\"."
 msgstr ""
-

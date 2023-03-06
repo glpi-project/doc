@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/cli.rst:5
 msgid "GLPI command-line interface"
@@ -24,15 +24,15 @@ msgstr ""
 #: ../../source/cli.rst:7
 msgid ""
 "GLPI includes a CLI tool to help you to manage your GLPI instance. This "
-"interface is provided by the `bin/console` script which can be run from "
-"the root of your GLPI directory."
+"interface is provided by the `bin/console` script which can be run from the "
+"root of your GLPI directory."
 msgstr ""
 
 #: ../../source/cli.rst:10
 msgid ""
 "Each command may have zero or more arguments or options. Arguments are "
-"positional pieces of information while options are not and are prefixed "
-"by one or two hyphens"
+"positional pieces of information while options are not and are prefixed by "
+"one or two hyphens"
 msgstr ""
 
 #: ../../source/cli.rst:14
@@ -56,28 +56,30 @@ msgstr ""
 #: ../../source/cli.rst:839 ../../source/cli.rst:855 ../../source/cli.rst:875
 #: ../../source/cli.rst:889 ../../source/cli.rst:906 ../../source/cli.rst:920
 #: ../../source/cli.rst:937 ../../source/cli.rst:954 ../../source/cli.rst:974
-#: ../../source/cli.rst:987 ../../source/cli.rst:1004 ../../source/cli.rst:1024
-#: ../../source/cli.rst:1041 ../../source/cli.rst:1061
-#: ../../source/cli.rst:1074 ../../source/cli.rst:1087
-#: ../../source/cli.rst:1104 ../../source/cli.rst:1152
-#: ../../source/cli.rst:1165 ../../source/cli.rst:1178
-#: ../../source/cli.rst:1191 ../../source/cli.rst:1205
-#: ../../source/cli.rst:1221 ../../source/cli.rst:1241
-#: ../../source/cli.rst:1255 ../../source/cli.rst:1271
-#: ../../source/cli.rst:1291 ../../source/cli.rst:1305
-#: ../../source/cli.rst:1321 ../../source/cli.rst:1369
-#: ../../source/cli.rst:1386 ../../source/cli.rst:1406
-#: ../../source/cli.rst:1451 ../../source/cli.rst:1464
-#: ../../source/cli.rst:1477 ../../source/cli.rst:1490
-#: ../../source/cli.rst:1507 ../../source/cli.rst:1541
-#: ../../source/cli.rst:1558 ../../source/cli.rst:1599
-#: ../../source/cli.rst:1616 ../../source/cli.rst:1643
-#: ../../source/cli.rst:1656 ../../source/cli.rst:1673
+#: ../../source/cli.rst:987 ../../source/cli.rst:1004
+#: ../../source/cli.rst:1024 ../../source/cli.rst:1041
+#: ../../source/cli.rst:1061 ../../source/cli.rst:1074
+#: ../../source/cli.rst:1087 ../../source/cli.rst:1104
+#: ../../source/cli.rst:1152 ../../source/cli.rst:1165
+#: ../../source/cli.rst:1178 ../../source/cli.rst:1191
+#: ../../source/cli.rst:1205 ../../source/cli.rst:1221
+#: ../../source/cli.rst:1241 ../../source/cli.rst:1255
+#: ../../source/cli.rst:1271 ../../source/cli.rst:1291
+#: ../../source/cli.rst:1305 ../../source/cli.rst:1321
+#: ../../source/cli.rst:1369 ../../source/cli.rst:1386
+#: ../../source/cli.rst:1406 ../../source/cli.rst:1451
+#: ../../source/cli.rst:1464 ../../source/cli.rst:1477
+#: ../../source/cli.rst:1490 ../../source/cli.rst:1507
+#: ../../source/cli.rst:1541 ../../source/cli.rst:1558
+#: ../../source/cli.rst:1599 ../../source/cli.rst:1616
+#: ../../source/cli.rst:1643 ../../source/cli.rst:1656
+#: ../../source/cli.rst:1673
 msgid "Description"
 msgstr ""
 
 #: ../../source/cli.rst:21
-msgid "Remove software versions with no installation and software with no version"
+msgid ""
+"Remove software versions with no installation and software with no version"
 msgstr ""
 
 #: ../../source/cli.rst:24 ../../source/cli.rst:61 ../../source/cli.rst:105
@@ -99,10 +101,11 @@ msgstr ""
 #: ../../source/cli.rst:144 ../../source/cli.rst:219 ../../source/cli.rst:348
 #: ../../source/cli.rst:427 ../../source/cli.rst:519 ../../source/cli.rst:626
 #: ../../source/cli.rst:684 ../../source/cli.rst:795 ../../source/cli.rst:944
-#: ../../source/cli.rst:994 ../../source/cli.rst:1031 ../../source/cli.rst:1094
-#: ../../source/cli.rst:1376 ../../source/cli.rst:1413
-#: ../../source/cli.rst:1497 ../../source/cli.rst:1548
-#: ../../source/cli.rst:1606 ../../source/cli.rst:1663
+#: ../../source/cli.rst:994 ../../source/cli.rst:1031
+#: ../../source/cli.rst:1094 ../../source/cli.rst:1376
+#: ../../source/cli.rst:1413 ../../source/cli.rst:1497
+#: ../../source/cli.rst:1548 ../../source/cli.rst:1606
+#: ../../source/cli.rst:1663
 msgid "There are no arguments for this command"
 msgstr ""
 
@@ -126,13 +129,14 @@ msgstr ""
 #: ../../source/cli.rst:435 ../../source/cli.rst:527 ../../source/cli.rst:634
 #: ../../source/cli.rst:692 ../../source/cli.rst:803 ../../source/cli.rst:838
 #: ../../source/cli.rst:853 ../../source/cli.rst:888 ../../source/cli.rst:919
-#: ../../source/cli.rst:952 ../../source/cli.rst:1002 ../../source/cli.rst:1039
-#: ../../source/cli.rst:1102 ../../source/cli.rst:1204
-#: ../../source/cli.rst:1219 ../../source/cli.rst:1254
-#: ../../source/cli.rst:1269 ../../source/cli.rst:1304
-#: ../../source/cli.rst:1319 ../../source/cli.rst:1384
-#: ../../source/cli.rst:1505 ../../source/cli.rst:1556
-#: ../../source/cli.rst:1614 ../../source/cli.rst:1671
+#: ../../source/cli.rst:952 ../../source/cli.rst:1002
+#: ../../source/cli.rst:1039 ../../source/cli.rst:1102
+#: ../../source/cli.rst:1204 ../../source/cli.rst:1219
+#: ../../source/cli.rst:1254 ../../source/cli.rst:1269
+#: ../../source/cli.rst:1304 ../../source/cli.rst:1319
+#: ../../source/cli.rst:1384 ../../source/cli.rst:1505
+#: ../../source/cli.rst:1556 ../../source/cli.rst:1614
+#: ../../source/cli.rst:1671
 msgid "Name"
 msgstr ""
 
@@ -155,13 +159,14 @@ msgstr ""
 #: ../../source/cli.rst:438 ../../source/cli.rst:530 ../../source/cli.rst:637
 #: ../../source/cli.rst:695 ../../source/cli.rst:806 ../../source/cli.rst:840
 #: ../../source/cli.rst:856 ../../source/cli.rst:890 ../../source/cli.rst:921
-#: ../../source/cli.rst:955 ../../source/cli.rst:1005 ../../source/cli.rst:1042
-#: ../../source/cli.rst:1105 ../../source/cli.rst:1206
-#: ../../source/cli.rst:1222 ../../source/cli.rst:1256
-#: ../../source/cli.rst:1272 ../../source/cli.rst:1306
-#: ../../source/cli.rst:1322 ../../source/cli.rst:1387
-#: ../../source/cli.rst:1508 ../../source/cli.rst:1559
-#: ../../source/cli.rst:1617 ../../source/cli.rst:1674
+#: ../../source/cli.rst:955 ../../source/cli.rst:1005
+#: ../../source/cli.rst:1042 ../../source/cli.rst:1105
+#: ../../source/cli.rst:1206 ../../source/cli.rst:1222
+#: ../../source/cli.rst:1256 ../../source/cli.rst:1272
+#: ../../source/cli.rst:1306 ../../source/cli.rst:1322
+#: ../../source/cli.rst:1387 ../../source/cli.rst:1508
+#: ../../source/cli.rst:1559 ../../source/cli.rst:1617
+#: ../../source/cli.rst:1674
 msgid "Required"
 msgstr ""
 
@@ -171,13 +176,14 @@ msgstr ""
 #: ../../source/cli.rst:439 ../../source/cli.rst:531 ../../source/cli.rst:638
 #: ../../source/cli.rst:696 ../../source/cli.rst:807 ../../source/cli.rst:841
 #: ../../source/cli.rst:857 ../../source/cli.rst:891 ../../source/cli.rst:922
-#: ../../source/cli.rst:956 ../../source/cli.rst:1006 ../../source/cli.rst:1043
-#: ../../source/cli.rst:1106 ../../source/cli.rst:1207
-#: ../../source/cli.rst:1223 ../../source/cli.rst:1257
-#: ../../source/cli.rst:1273 ../../source/cli.rst:1307
-#: ../../source/cli.rst:1323 ../../source/cli.rst:1388
-#: ../../source/cli.rst:1509 ../../source/cli.rst:1560
-#: ../../source/cli.rst:1618 ../../source/cli.rst:1675
+#: ../../source/cli.rst:956 ../../source/cli.rst:1006
+#: ../../source/cli.rst:1043 ../../source/cli.rst:1106
+#: ../../source/cli.rst:1207 ../../source/cli.rst:1223
+#: ../../source/cli.rst:1257 ../../source/cli.rst:1273
+#: ../../source/cli.rst:1307 ../../source/cli.rst:1323
+#: ../../source/cli.rst:1388 ../../source/cli.rst:1509
+#: ../../source/cli.rst:1560 ../../source/cli.rst:1618
+#: ../../source/cli.rst:1675
 msgid "Default"
 msgstr ""
 
@@ -387,8 +393,8 @@ msgstr ""
 
 #: ../../source/cli.rst:124
 msgid ""
-"Cache context to clear (i.e. 'core' or 'plugin:plugin_name'). All "
-"contexts are cleared by default."
+"Cache context to clear (i.e. 'core' or 'plugin:plugin_name'). All contexts "
+"are cleared by default."
 msgstr ""
 
 #: ../../source/cli.rst:132
@@ -425,8 +431,7 @@ msgstr ""
 
 #: ../../source/cli.rst:175
 msgid ""
-"Unset cache configuration to use default filesystem cache for given "
-"context"
+"Unset cache configuration to use default filesystem cache for given context"
 msgstr ""
 
 #: ../../source/cli.rst:180
@@ -450,9 +455,9 @@ msgstr ""
 #: ../../source/cli.rst:193
 msgid ""
 "Memcached DSN format: "
-"memcached://[user:pass@][ip|host|socket[:port]][?weight=int] Redis (TCP) "
-"DSN format: redis://[pass@][ip|host|socket[:port]][/db-index] Redis (TLS)"
-" DSN format: rediss://[pass@][ip|host|socket[:port]][/db-index]"
+"memcached://[user:pass@][ip|host|socket[:port]][?weight=int] Redis (TCP) DSN"
+" format: redis://[pass@][ip|host|socket[:port]][/db-index] Redis (TLS) DSN "
+"format: rediss://[pass@][ip|host|socket[:port]][/db-index]"
 msgstr ""
 
 #: ../../source/cli.rst:197
@@ -579,8 +584,7 @@ msgstr ""
 
 #: ../../source/cli.rst:343
 msgid ""
-"Check for schema differences between current database and installation "
-"file."
+"Check for schema differences between current database and installation file."
 msgstr ""
 
 #: ../../source/cli.rst:363
@@ -714,7 +718,8 @@ msgid "--db-user"
 msgstr ""
 
 #: ../../source/cli.rst:471 ../../source/cli.rst:563 ../../source/cli.rst:642
-#: ../../source/cli.rst:707 ../../source/cli.rst:1131 ../../source/cli.rst:1344
+#: ../../source/cli.rst:707 ../../source/cli.rst:1131
+#: ../../source/cli.rst:1344
 msgid "-u"
 msgstr ""
 
@@ -740,8 +745,8 @@ msgstr ""
 
 #: ../../source/cli.rst:486 ../../source/cli.rst:578
 msgid ""
-"Use strict configuration, to enforce warnings triggering on deprecated or"
-" discouraged usages"
+"Use strict configuration, to enforce warnings triggering on deprecated or "
+"discouraged usages"
 msgstr ""
 
 #: ../../source/cli.rst:494
@@ -799,8 +804,8 @@ msgstr ""
 
 #: ../../source/cli.rst:599 ../../source/cli.rst:657
 msgid ""
-"Allow usage statistics sending to Telemetry service (https://telemetry"
-".glpi-project.org)"
+"Allow usage statistics sending to Telemetry service (https://telemetry.glpi-"
+"project.org)"
 msgstr ""
 
 #: ../../source/cli.rst:604 ../../source/cli.rst:662
@@ -809,8 +814,8 @@ msgstr ""
 
 #: ../../source/cli.rst:606 ../../source/cli.rst:664
 msgid ""
-"Disallow usage statistics sending to Telemetry service (https://telemetry"
-".glpi-project.org)"
+"Disallow usage statistics sending to Telemetry service "
+"(https://telemetry.glpi-project.org)"
 msgstr ""
 
 #: ../../source/cli.rst:614
@@ -835,8 +840,8 @@ msgstr ""
 
 #: ../../source/cli.rst:650
 msgid ""
-"Force execution of update from v-1 version of GLPI even if schema did not"
-" changed"
+"Force execution of update from v-1 version of GLPI even if schema did not "
+"changed"
 msgstr ""
 
 #: ../../source/cli.rst:672
@@ -945,8 +950,8 @@ msgstr ""
 
 #: ../../source/cli.rst:757
 msgid ""
-"Force strategy used for restored users (current configured action: \"0\")"
-" Possible values are:"
+"Force strategy used for restored users (current configured action: \"0\") "
+"Possible values are:"
 msgstr ""
 
 #: ../../source/cli.rst:760
@@ -989,7 +994,8 @@ msgstr ""
 msgid "--text"
 msgstr ""
 
-#: ../../source/cli.rst:811 ../../source/cli.rst:1124 ../../source/cli.rst:1585
+#: ../../source/cli.rst:811 ../../source/cli.rst:1124
+#: ../../source/cli.rst:1585
 msgid "-t"
 msgstr ""
 
@@ -1073,13 +1079,13 @@ msgstr ""
 msgid "Migrate Appliances plugin data into GLPI core tables"
 msgstr ""
 
-#: ../../source/cli.rst:959 ../../source/cli.rst:1009 ../../source/cli.rst:1046
-#: ../../source/cli.rst:1116
+#: ../../source/cli.rst:959 ../../source/cli.rst:1009
+#: ../../source/cli.rst:1046 ../../source/cli.rst:1116
 msgid "--skip-errors"
 msgstr ""
 
-#: ../../source/cli.rst:961 ../../source/cli.rst:1011 ../../source/cli.rst:1048
-#: ../../source/cli.rst:1118
+#: ../../source/cli.rst:961 ../../source/cli.rst:1011
+#: ../../source/cli.rst:1048 ../../source/cli.rst:1118
 msgid "Do not exit on import errors"
 msgstr ""
 
@@ -1113,8 +1119,8 @@ msgstr ""
 
 #: ../../source/cli.rst:1063
 msgid ""
-"Convert database tables to \"Dynamic\" row format (required for "
-"\"utf8mb4\" character support)."
+"Convert database tables to \"Dynamic\" row format (required for \"utf8mb4\" "
+"character support)."
 msgstr ""
 
 #: ../../source/cli.rst:1069
@@ -1171,8 +1177,8 @@ msgstr ""
 
 #: ../../source/cli.rst:1139
 msgid ""
-"Enable migration without plugin files (we cannot validate that plugin "
-"data are compatible with supported 1.8.0 version)"
+"Enable migration without plugin files (we cannot validate that plugin data "
+"are compatible with supported 1.8.0 version)"
 msgstr ""
 
 #: ../../source/cli.rst:1147
@@ -1310,8 +1316,7 @@ msgstr ""
 
 #: ../../source/cli.rst:1393
 msgid ""
-"Process rule for all software, even those having already a defined "
-"category"
+"Process rule for all software, even those having already a defined category"
 msgstr ""
 
 #: ../../source/cli.rst:1401
@@ -1430,8 +1435,8 @@ msgstr ""
 
 #: ../../source/cli.rst:1572
 msgid ""
-"Execution time (in cycles) from which the task is considered as stuck "
-"(delay = task frequency * cycle)"
+"Execution time (in cycles) from which the task is considered as stuck (delay"
+" = task frequency * cycle)"
 msgstr ""
 
 #: ../../source/cli.rst:1577
@@ -1503,4 +1508,3 @@ msgstr ""
 #: ../../source/cli.rst:1680
 msgid "Simulate the command without actually delete anything"
 msgstr ""
-

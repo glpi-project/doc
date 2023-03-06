@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/collectors.rst:2
 msgid "E-Mail collectors"
@@ -29,46 +29,45 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:6
 msgid ""
-"A mail collector allow to import emails from a mailbox ans turn them into"
-" GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring "
-"them to the destination entity."
+"A mail collector allow to import emails from a mailbox ans turn them into "
+"GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring them "
+"to the destination entity."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:8
 msgid ""
-"A mail collector is associated with an email address. It is possible to "
-"add as many collectors as you want. Of course, the more collectors you "
+"A mail collector is associated with an email address. It is possible to add "
+"as many collectors as you want. Of course, the more collectors you "
 "configure, the more import will take time."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:10
 msgid ""
-"To declare a new collector, you will have to provide a server name, as "
-"well as connection options (IMAP or POP, SSL, TLS, certificate "
-"validation). It is possible to limit the maximum size for attachments (no"
-" import, or from 1 to 100 Mio). This configuration value is inherited "
-"from the main configuration (`Setup -> General -> Assistance`) A "
-"configuration option permit to switch tickets creation date between "
-"import date or email date."
+"To declare a new collector, you will have to provide a server name, as well "
+"as connection options (IMAP or POP, SSL, TLS, certificate validation). It is"
+" possible to limit the maximum size for attachments (no import, or from 1 to"
+" 100 Mio). This configuration value is inherited from the main configuration"
+" (`Setup -> General -> Assistance`) A configuration option permit to switch "
+"tickets creation date between import date or email date."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:13
 msgid ""
-"Optionally, you can set an archive directory in the mailbox where "
-"imported and refused emails will be stored."
+"Optionally, you can set an archive directory in the mailbox where imported "
+"and refused emails will be stored."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:15
 msgid ""
-"Collectors that have errors will be indicated above the list. In that "
-"case, number of successive errors will be displayed in collector "
-"configuration form."
+"Collectors that have errors will be indicated above the list. In that case, "
+"number of successive errors will be displayed in collector configuration "
+"form."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:17
 msgid ""
-"Once the form validated, you can test connection and messages retrieving "
-"by using the dedicated button."
+"Once the form validated, you can test connection and messages retrieving by "
+"using the dedicated button."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:19
@@ -86,9 +85,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:25
 msgid ""
-"Answers to emails generated from GLPI for tickets are cleaned when "
-"importing from a collector: all content between up and bottom tags will "
-"be removed. Answers must be done before or after original message."
+"Answers to emails generated from GLPI for tickets are cleaned when importing"
+" from a collector: all content between up and bottom tags will be removed. "
+"Answers must be done before or after original message."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:28
@@ -97,15 +96,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:30
 msgid ""
-"Collectors can use a blacklist mechanism in order to remove recurrent but"
-" useless contents, like email signatures."
+"Collectors can use a blacklist mechanism in order to remove recurrent but "
+"useless contents, like email signatures."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:32
 msgid ""
 "Blacklist can also prevent emails to be imported from specific email "
-"addresses; this can be useful to prevent spam, or to handle emails "
-"aliases."
+"addresses; this can be useful to prevent spam, or to handle emails aliases."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:37
@@ -114,8 +112,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:39
 msgid ""
-"GLPI implements a mechanism for routing tickets opened by email, in order"
-" to create them in the right entity. This is based on the rules engine."
+"GLPI implements a mechanism for routing tickets opened by email, in order to"
+" create them in the right entity. This is based on the rules engine."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:41
@@ -142,9 +140,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:48
 msgid ""
-"email headers: ``auto_submitted``, ``from``, ``in_reply_to``, "
-"``received``, ``subject``, ``to``, ``X-Auto-Response-Suppress``, "
-"``X-priority``, ``X-UCE-Status``"
+"email headers: ``auto_submitted``, ``from``, ``in_reply_to``, ``received``, "
+"``subject``, ``to``, ``X-Auto-Response-Suppress``, ``X-priority``, ``X-UCE-"
+"Status``"
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:49
@@ -153,16 +151,16 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:51
 msgid ""
-"Finally, there is a third type of criteria which operates on data "
-"specific to the user or to the configuration of the entities:"
+"Finally, there is a third type of criteria which operates on data specific "
+"to the user or to the configuration of the entities:"
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:53
 msgid ""
 "**known email domain**: checks that the email domain of the email sent "
 "corresponds to a domain entered in an entity. This criterion makes it "
-"possible to eliminate, for example, all spam, i.e. messages not coming "
-"from authorized domains"
+"possible to eliminate, for example, all spam, i.e. messages not coming from "
+"authorized domains"
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:54
@@ -177,17 +175,17 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:56
 msgid ""
-"**user with single profile**: the user has one and only one profile in "
-"GLPI. If the profile is associated with several different entities, then "
-"the one that is defined as the default entity in the user's "
-"personalization options will be the entity of the ticket. If none is "
-"defined in the preferences, the rule does not match"
+"**user with single profile**: the user has one and only one profile in GLPI."
+" If the profile is associated with several different entities, then the one "
+"that is defined as the default entity in the user's personalization options "
+"will be the entity of the ticket. If none is defined in the preferences, the"
+" rule does not match"
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:57
 msgid ""
-"**user with the profile only once**: the user has a given profile only "
-"once: it does not have the profile assigned on several separate entities."
+"**user with the profile only once**: the user has a given profile only once:"
+" it does not have the profile assigned on several separate entities."
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:59
@@ -225,8 +223,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:69
 msgid ""
-"rules affecting emails if the user has only one profile (case of users of"
-" the simplified interface);"
+"rules affecting emails if the user has only one profile (case of users of "
+"the simplified interface);"
 msgstr ""
 
 #: ../../source/modules/configuration/collectors.rst:70
@@ -235,4 +233,3 @@ msgid ""
 "(e.g. for super administrators, who have access to all entities, but are "
 "physically in a particular entity)."
 msgstr ""
-

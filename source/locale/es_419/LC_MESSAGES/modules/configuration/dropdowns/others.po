@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/dropdowns/others.rst:2
 msgid "Others"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:6
 msgid ""
-"Some plugins can provide additional headings, which are configurable in "
-"the same menu."
+"Some plugins can provide additional headings, which are configurable in the "
+"same menu."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:9
@@ -33,8 +33,7 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:11
 msgid ""
-"Whatever the type, the list is a flat list of values valid for all "
-"entities."
+"Whatever the type, the list is a flat list of values valid for all entities."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:13
@@ -53,8 +52,7 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:20
 msgid ""
-"It allows to define the name of the model of the tab and can be "
-"translated."
+"It allows to define the name of the model of the tab and can be translated."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:23
@@ -63,14 +61,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:25
 msgid ""
-"Whatever the sub-title (models or virtualization system, state of virtual"
-" machines), the list is a flat value list valid for all entities."
+"Whatever the sub-title (models or virtualization system, state of virtual "
+"machines), the list is a flat value list valid for all entities."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:27
 msgid ""
-"It allows you to define the name of the virtualization model or system or"
-" the name of the state of the virtual machines."
+"It allows you to define the name of the virtualization model or system or "
+"the name of the state of the virtual machines."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:29
@@ -83,14 +81,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:34
 msgid ""
-"This list is tree-like: each element can have sub-elements. It is valid "
-"for all entities."
+"This list is tree-like: each element can have sub-elements. It is valid for "
+"all entities."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:36
 msgid ""
-"The *Document headings* tab lists the subheadings already created and "
-"allows you to add a new one."
+"The *Document headings* tab lists the subheadings already created and allows"
+" you to add a new one."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:39
@@ -103,8 +101,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:43
 msgid ""
-"The application offers a number of types by default, but it is possible "
-"to add more by providing the following information:"
+"The application offers a number of types by default, but it is possible to "
+"add more by providing the following information:"
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:45
@@ -113,8 +111,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:46
 msgid ""
-"the extension, for example: `.txt` or `.pdf`; the detection of the "
-"documents that can be added is based on this information"
+"the extension, for example: `.txt` or `.pdf`; the detection of the documents"
+" that can be added is based on this information"
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:47
@@ -133,9 +131,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:53
 msgid ""
-"The type of document can be a regular expression. This allows for example"
-" to authorize to define a set of documents FILENAME.XXXXYYY where XXXX is"
-" a number and YYYY the date of the current fiscal year. In this case the "
+"The type of document can be a regular expression. This allows for example to"
+" authorize to define a set of documents FILENAME.XXXXYYY where XXXX is a "
+"number and YYYY the date of the current fiscal year. In this case the "
 "regular expression could be /[0-9]+/ to indicate any extension composed "
 "exclusively of numbers."
 msgstr ""
@@ -152,15 +150,15 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:62
 msgid ""
-"In the record of a category in the knowledge base, in addition to the "
-"name of the category, there is information about the parent category (as "
-"a child of) and whether the category can be visible to sub entities."
+"In the record of a category in the knowledge base, in addition to the name "
+"of the category, there is information about the parent category (as a child "
+"of) and whether the category can be visible to sub entities."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:64
 msgid ""
-"The *Knowledge Base Categories* tab lists the sub-categories already "
-"created and allows you to add a new one."
+"The *Knowledge Base Categories* tab lists the sub-categories already created"
+" and allows you to add a new one."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:67
@@ -201,14 +199,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:85
 msgid ""
-"This list is tree-like: each element can have sub-elements. The values "
-"are defined for all entities"
+"This list is tree-like: each element can have sub-elements. The values are "
+"defined for all entities"
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:87
 msgid ""
-"The *Software categories* tab lists the subcategories and allows you to "
-"add a new one."
+"The *Software categories* tab lists the subcategories and allows you to add "
+"a new one."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:90
@@ -216,7 +214,8 @@ msgid "User titles"
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:92
-msgid "The lists in this part are flat lists of values valid for all entities."
+msgid ""
+"The lists in this part are flat lists of values valid for all entities."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:95
@@ -243,15 +242,15 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:106
 msgid ""
-"It is possible to indicate, for each type of object, values that must not"
-" be taken into account when checking the uniqueness of an object in the "
+"It is possible to indicate, for each type of object, values that must not be"
+" taken into account when checking the uniqueness of an object in the "
 "database."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:108
 msgid ""
-"For example not to use the generic serial number \"To Be Filled By OEM\" "
-"to check if a computer already exists in GLPI."
+"For example not to use the generic serial number \"To Be Filled By OEM\" to "
+"check if a computer already exists in GLPI."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/others.rst:111
@@ -261,4 +260,3 @@ msgstr ""
 #: ../../source/modules/configuration/dropdowns/others.rst:113
 msgid "The list is a list of flat values valid for all entities."
 msgstr ""
-

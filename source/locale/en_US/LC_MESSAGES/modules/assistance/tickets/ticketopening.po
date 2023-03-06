@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:2
 msgid "Opening a ticket"
@@ -32,12 +32,12 @@ msgstr ""
 #: ../../source/modules/assistance/tickets/ticketopening.rst:8
 msgid ""
 "asking a delegate in the group to open the ticket (see :doc:`Administer "
-"groups </modules/administration/groups>`. In simplified interface, this "
-"is put into evidence by an option allowing to indicate if the ticket "
-"concerns the requesting user or another user. In standard interface, this"
-" mechanism is active as long as authorization **See all tickets** is set "
-"to *No* in the profile; all users for which delegation is active will be "
-"added as requester;"
+"groups </modules/administration/groups>`. In simplified interface, this is "
+"put into evidence by an option allowing to indicate if the ticket concerns "
+"the requesting user or another user. In standard interface, this mechanism "
+"is active as long as authorization **See all tickets** is set to *No* in the"
+" profile; all users for which delegation is active will be added as "
+"requester;"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:10
@@ -83,10 +83,9 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:30
 msgid ""
-"This interface can be accessed at URL http:///front/helpdesk.html; it "
-"allows users having no GLPI account to send an incident signaling form to"
-" the help desk. Once filled and submitted, a mail will confirm the ticket"
-" opening."
+"This interface can be accessed at URL http:///front/helpdesk.html; it allows"
+" users having no GLPI account to send an incident signaling form to the help"
+" desk. Once filled and submitted, a mail will confirm the ticket opening."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:32
@@ -106,8 +105,7 @@ msgid ""
 "If templates are used (see :doc:`Using templates "
 "</modules/overview/templates>`), some fields can be made mandatory, "
 "predefined or masked when opening the ticket (content, title and/or "
-"category). If a mandatory field is missing, the ticket will not be "
-"opened."
+"category). If a mandatory field is missing, the ticket will not be opened."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:41
@@ -126,10 +124,9 @@ msgstr ""
 msgid ""
 "When activating option **Use rich text for assistance** in general "
 "configuration, the *Description* field of the ticket will be able to be "
-"formatted as HTML. Moreover, an added zone will be available for images "
-"drag and drop, for example screenshots. A tag will then be added "
-"automatically to the description in order to formalize the content of the"
-" demand."
+"formatted as HTML. Moreover, an added zone will be available for images drag"
+" and drop, for example screenshots. A tag will then be added automatically "
+"to the description in order to formalize the content of the demand."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:48
@@ -138,15 +135,15 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:50
 msgid ""
-"This interface allows an authenticated user to open quickly a ticket, for"
-" the user or by delegation for another person."
+"This interface allows an authenticated user to open quickly a ticket, for "
+"the user or by delegation for another person."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:52
 msgid ""
-"Ticket opening form can be accompanied by a message inviting user to "
-"check personal information (location, phone number) in order to be easily"
-" contacted by technicians."
+"Ticket opening form can be accompanied by a message inviting user to check "
+"personal information (location, phone number) in order to be easily "
+"contacted by technicians."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:54
@@ -156,27 +153,27 @@ msgstr ""
 #: ../../source/modules/assistance/tickets/ticketopening.rst:56
 msgid ""
 "**Inform me about he actions take**: Appears if email followup are "
-"configured, see :ref:`notification management <configure_notifications>`."
-" If set to `Yes`, the requester will be kept informed by mail of the "
-"different processing of the ticket. The field *Mail* contains the email "
-"address to which notifications will be sent. If several email addresses "
-"are defined, GLPI will select the default email defined in user's "
-"preferences. It is possible to select another email address or to enter "
-"an address if user's profile does not mention an email;"
+"configured, see :ref:`notification management <configure_notifications>`. If"
+" set to `Yes`, the requester will be kept informed by mail of the different "
+"processing of the ticket. The field *Mail* contains the email address to "
+"which notifications will be sent. If several email addresses are defined, "
+"GLPI will select the default email defined in user's preferences. It is "
+"possible to select another email address or to enter an address if user's "
+"profile does not mention an email;"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:59
 msgid ""
-"**Associated elements**: Allows to associate an item of the inventory "
-"with the ticket. The content of the list depends upon parameters defined "
-"in user's profile (see :doc:`Administer user profile "
+"**Associated elements**: Allows to associate an item of the inventory with "
+"the ticket. The content of the list depends upon parameters defined in "
+"user's profile (see :doc:`Administer user profile "
 "</modules/administration/profiles/profiles>`."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:62
 msgid ""
-"**Watchers**: Allows to add a watcher and to define notification "
-"parameters. Only members of the requester group can be added."
+"**Watchers**: Allows to add a watcher and to define notification parameters."
+" Only members of the requester group can be added."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:67
@@ -187,17 +184,17 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:71
 msgid ""
-"If images or documents are added to the ticket, it is important to add "
-"them **after** having filled **all** mandatory fields marked with a red "
-"star, this because the reloading of the ticket opening form triggered by "
-"a missing mandatory field suppress attached images or documents."
+"If images or documents are added to the ticket, it is important to add them "
+"**after** having filled **all** mandatory fields marked with a red star, "
+"this because the reloading of the ticket opening form triggered by a missing"
+" mandatory field suppress attached images or documents."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:73
 #: ../../source/modules/assistance/tickets/ticketopening.rst:82
 msgid ""
-"A message confirms the creation of the ticket which is then accessible by"
-" clicking on the ticket number highlighted in green."
+"A message confirms the creation of the ticket which is then accessible by "
+"clicking on the ticket number highlighted in green."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:76
@@ -206,14 +203,14 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:78
 msgid ""
-"To create a ticket, go to menu **Assistance > Ticket** then click add "
-"button with the \"+\" icon."
+"To create a ticket, go to menu **Assistance > Ticket** then click add button"
+" with the \"+\" icon."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:80
 msgid ""
-"When adding a new image from tab *Documents* of the ticket, the generated"
-" tag can also be used to insert image in ticket's description."
+"When adding a new image from tab *Documents* of the ticket, the generated "
+"tag can also be used to insert image in ticket's description."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:84
@@ -225,9 +222,9 @@ msgstr ""
 #: ../../source/modules/assistance/tickets/ticketopening.rst:88
 msgid ""
 "When filling assigned requester, technician or group, information is "
-"displayed about the number of tickets this person or this group has "
-"opened or is in charge of. Similarly, when selecting an item, a "
-"simplified view of current tickets for this item is displayed."
+"displayed about the number of tickets this person or this group has opened "
+"or is in charge of. Similarly, when selecting an item, a simplified view of "
+"current tickets for this item is displayed."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:91
@@ -264,8 +261,8 @@ msgstr ""
 #: ../../source/modules/assistance/tickets/ticketopening.rst:102
 msgid ""
 "When activating option **Use rich text for assistance** in general "
-"configuration, the images present in the message body will become visible"
-" in the description of the ticket."
+"configuration, the images present in the message body will become visible in"
+" the description of the ticket."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketopening.rst:106
@@ -277,4 +274,3 @@ msgid ""
 "This mechanism is activated through :doc:`Recurrent tickets "
 "<recurrentticket>`."
 msgstr ""
-

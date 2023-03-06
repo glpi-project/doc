@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/notifications/templates.rst:2
 msgid "Notification templates"
@@ -23,26 +23,26 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:4
 msgid ""
-"A template is a global object of GLPI that defines the information "
-"included in a notification and the formatting of the information."
+"A template is a global object of GLPI that defines the information included "
+"in a notification and the formatting of the information."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:6
 msgid ""
-"The creation of a template is a complex operation, which impacts the "
-"users. Therefore, templates can only be modified by Administrators with "
-"the *Update* permission for the *Config* right. Moreover a template is "
-"not linked to an entity, which means that it is not possible to delegate "
-"its management to an administrator of a of a sub-entity."
+"The creation of a template is a complex operation, which impacts the users. "
+"Therefore, templates can only be modified by Administrators with the "
+"*Update* permission for the *Config* right. Moreover a template is not "
+"linked to an entity, which means that it is not possible to delegate its "
+"management to an administrator of a of a sub-entity."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:10
 msgid ""
 "A template reflects a communication to a user and can be available in "
-"several languages thanks to a translation mechanism. The use of tags "
-"(i.e. markers that are independent of the language used) language used) "
-"makes it possible to create a generic translation, available for all the "
-"languages of GLPI."
+"several languages thanks to a translation mechanism. The use of tags (i.e. "
+"markers that are independent of the language used) language used) makes it "
+"possible to create a generic translation, available for all the languages of"
+" GLPI."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:13
@@ -92,15 +92,15 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:36
 msgid ""
-"Tab that lists the different notifications defined by language and allows"
-" adding a new language."
+"Tab that lists the different notifications defined by language and allows "
+"adding a new language."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:38
 msgid ""
-"**Language**: Indicates the language to which this translation refers. If"
-" no language is selected in the drop-down list, this translation will be "
-"the default for this template."
+"**Language**: Indicates the language to which this translation refers. If no"
+" language is selected in the drop-down list, this translation will be the "
+"default for this template."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:39
@@ -109,9 +109,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:40
 msgid ""
-"**Email text body**: Plain text without layout, used in cases where HTML "
-"is not allowed. If the field is empty then it is generated from the HTML "
-"body text."
+"**Email text body**: Plain text without layout, used in cases where HTML is "
+"not allowed. If the field is empty then it is generated from the HTML body "
+"text."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:41
@@ -120,8 +120,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:44
 msgid ""
-"A default translation is applicable to all GLPI languages that do not "
-"have their own translation."
+"A default translation is applicable to all GLPI languages that do not have "
+"their own translation."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:48
@@ -130,9 +130,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:50
 msgid ""
-"The tags allow to display data of the notification trigger object. "
-"**e.g.**: in a ticket you can retrieve its title, description, actors, "
-"..."
+"The tags allow to display data of the notification trigger object. **e.g.**:"
+" in a ticket you can retrieve its title, description, actors, ..."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:52
@@ -144,7 +143,8 @@ msgid "There are several types of tags:"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:57
-msgid "**Simple**: ``##<object>.<field>##`` for the field value of a GLPI object"
+msgid ""
+"**Simple**: ``##<object>.<field>##`` for the field value of a GLPI object"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:58
@@ -172,7 +172,8 @@ msgid "**Loop**: to display sub-objects:"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:66
-msgid "all <objects>: ``##FOREACH<objects>##`` ... ``##ENDFOREACH<objects>##``"
+msgid ""
+"all <objects>: ``##FOREACH<objects>##`` ... ``##ENDFOREACH<objects>##``"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/templates.rst:67
@@ -186,4 +187,3 @@ msgid ""
 "last <N> <objects>: ``##FOREACH LAST <N> <objects>##`` ... "
 "``##ENDFOREACH<objects>##``"
 msgstr ""
-

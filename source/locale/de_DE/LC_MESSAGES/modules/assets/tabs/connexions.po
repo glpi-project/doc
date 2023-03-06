@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assets/tabs/connexions.rst:2
 msgid "Connections"
@@ -23,14 +23,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:4
 msgid ""
-"This tab allows to manage the direct connections between a computer and "
-"its connected elements."
+"This tab allows to manage the direct connections between a computer and its "
+"connected elements."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:6
 msgid ""
-"Direct connections represent the relation between different hardwares "
-"linked either physically or virtually."
+"Direct connections represent the relation between different hardwares linked"
+" either physically or virtually."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:10
@@ -39,12 +39,12 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:12
 msgid ""
-"The connection can be made toward one or several elements of type "
-"display, printer, peripheral or phone. For each type of connected object,"
-" its name, serial number and inventory number are displayed."
+"The connection can be made toward one or several elements of type display, "
+"printer, peripheral or phone. For each type of connected object, its name, "
+"serial number and inventory number are displayed."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/connexions.rst:-1
+#: ../../source/modules/assets/tabs/connexions.rst-1
 msgid "List of connections"
 msgstr ""
 
@@ -54,8 +54,8 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:25
 msgid ""
-"To add a connection, select the computer in the drop-down list presented "
-"at top of the table."
+"To add a connection, select the computer in the drop-down list presented at "
+"top of the table."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:31
@@ -67,14 +67,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:37
 msgid ""
-"The deletion of a connection can be made from the entry of each connected"
-" hardware (tab `Connections`) via mass actions."
+"The deletion of a connection can be made from the entry of each connected "
+"hardware (tab `Connections`) via mass actions."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:41
 msgid ""
-"Every deletion or addition of a connection is recorded in the history of "
-"the computer."
+"Every deletion or addition of a connection is recorded in the history of the"
+" computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/connexions.rst:45
@@ -82,4 +82,3 @@ msgid ""
 "If using native inventory or third-party inventory tool, the connections "
 "informations can be automatically imported and updated."
 msgstr ""
-

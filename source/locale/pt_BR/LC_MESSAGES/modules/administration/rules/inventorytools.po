@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/administration/rules/inventorytools.rst:6
 msgid "Rules for assigning an item to an entity"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:8
 msgid ""
-"GLPI has a type of rules that automatically assign an item from an "
-"inventory tool to an entity and a location."
+"GLPI has a type of rules that automatically assign an item from an inventory"
+" tool to an entity and a location."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:10
 msgid ""
-"A certain number of criteria are available: those containing generic "
-"fields (name, description, serial number, domain, IP address, subnet) but"
-" also fields coming from the inventory tool if the tool provides them."
+"A certain number of criteria are available: those containing generic fields "
+"(name, description, serial number, domain, IP address, subnet) but also "
+"fields coming from the inventory tool if the tool provides them."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:12
@@ -56,20 +56,20 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:20
 msgid ""
-"The engine stops at the first matching rule. It is therefore necessary to"
-" carefully order the list of rules. In addition, it is preferable to put "
-"the rules which are most likely to be verified first, for example for "
-"entities containing a lot of assets. The rules for assignment to an "
-"entity are only played during the initial import of the machine into "
-"GLPI, which means that once a machine is imported, there is no automated "
-"process to change its entity and that manual **transfer** must be used."
+"The engine stops at the first matching rule. It is therefore necessary to "
+"carefully order the list of rules. In addition, it is preferable to put the "
+"rules which are most likely to be verified first, for example for entities "
+"containing a lot of assets. The rules for assignment to an entity are only "
+"played during the initial import of the machine into GLPI, which means that "
+"once a machine is imported, there is no automated process to change its "
+"entity and that manual **transfer** must be used."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:22
 msgid ""
 "Using GLPI blacklist mechanism, it is possible to exclude certain values "
-"​​from processing by the rules engine such as certain IP or MAC "
-"addresses, for example an IP 127.0.0.1; see :doc:`Blacklists "
+"​​from processing by the rules engine such as certain IP or MAC addresses, "
+"for example an IP 127.0.0.1; see :doc:`Blacklists "
 "</modules/administration/rules/rulesmanagement>`."
 msgstr ""
 
@@ -91,30 +91,30 @@ msgstr ""
 #: ../../source/modules/administration/rules/inventorytools.rst:31
 msgid ""
 "computer to be imported pass through the entity assignment engine. If it "
-"does not return any entity, then the machine is not imported. Otherwise, "
-"the process continues."
+"does not return any entity, then the machine is not imported. Otherwise, the"
+" process continues."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:32
 msgid ""
-"computer pass through the import and link engine. Depending on the rules,"
-" it is either imported into its destination entity, or linked with "
-"another present in GLPI, or not imported."
+"computer pass through the import and link engine. Depending on the rules, it"
+" is either imported into its destination entity, or linked with another "
+"present in GLPI, or not imported."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:34
 msgid ""
 "A certain number of criteria are available: generic fields (name, "
 "description, serial number, domain, IP address, subnet) but also fields "
-"coming from the inventory tool if the tool provides them, the destination"
-" entity of the machine as well as a status used to search for a machine "
+"coming from the inventory tool if the tool provides them, the destination "
+"entity of the machine as well as a status used to search for a machine "
 "already present in GLPI."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:36
 msgid ""
-"The possible actions are to ignore the import, to link it if possible, if"
-" not to import it if possible otherwise to refuse the import."
+"The possible actions are to ignore the import, to link it if possible, if "
+"not to import it if possible otherwise to refuse the import."
 msgstr ""
 
 #: ../../source/modules/administration/rules/inventorytools.rst:38
@@ -139,4 +139,3 @@ msgstr ""
 #: ../../source/modules/administration/rules/inventorytools.rst:56
 msgid "Refuse a computer because of wrong serial number:"
 msgstr ""
-

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/tools/reservations.rst:2
 msgid "Manage reservations"
@@ -23,12 +23,12 @@ msgstr ""
 
 #: ../../source/modules/tools/reservations.rst:4
 msgid ""
-"GLPI includes an equipment reservation tool that allows to select assets "
-"in order to reserve them for a time slot. For repetitive reservations, it"
-" is possible to declare a reservation as recurrent."
+"GLPI includes an equipment reservation tool that allows to select assets in "
+"order to reserve them for a time slot. For repetitive reservations, it is "
+"possible to declare a reservation as recurrent."
 msgstr ""
 
-#: ../../source/modules/tools/reservations.rst:-1
+#: ../../source/modules/tools/reservations.rst-1
 msgid "Characteristics of a reservation"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgstr ""
 msgid "A reserved equipment will be displayed in global reservation planning."
 msgstr ""
 
-#: ../../source/modules/tools/reservations.rst:-1
+#: ../../source/modules/tools/reservations.rst-1
 msgid "Global reservation planning"
 msgstr ""
 
@@ -56,7 +56,7 @@ msgid ""
 "equipment. A reservation can also be created from this planning."
 msgstr ""
 
-#: ../../source/modules/tools/reservations.rst:-1
+#: ../../source/modules/tools/reservations.rst-1
 msgid "Specific reservation planning"
 msgstr ""
 
@@ -70,8 +70,8 @@ msgstr ""
 
 #: ../../source/modules/tools/reservations.rst:35
 msgid ""
-"This main tab of the tool allows to display and select available "
-"reservable equipments."
+"This main tab of the tool allows to display and select available reservable "
+"equipments."
 msgstr ""
 
 #: ../../source/modules/tools/reservations.rst:38
@@ -80,7 +80,6 @@ msgstr ""
 
 #: ../../source/modules/tools/reservations.rst:40
 msgid ""
-"This tab display all reservable items and not only the available ones. As"
-" for main GLPI items, it offers a search engine with mass actions."
+"This tab display all reservable items and not only the available ones. As "
+"for main GLPI items, it offers a search engine with mass actions."
 msgstr ""
-

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/first-steps/conclusion.rst:2
 msgid "Conclusion"
@@ -27,14 +27,14 @@ msgstr ""
 
 #: ../../source/first-steps/conclusion.rst:6
 msgid ""
-"GLPI is a community project. Its strength is its powerful community on "
-"which you can rely to carry out your project."
+"GLPI is a community project. Its strength is its powerful community on which"
+" you can rely to carry out your project."
 msgstr ""
 
 #: ../../source/first-steps/conclusion.rst:9
 msgid ""
-"You will find a list of resources and discussion spaces that you can use "
-"to go further."
+"You will find a list of resources and discussion spaces that you can use to "
+"go further."
 msgstr ""
 
 #: ../../source/first-steps/conclusion.rst:12
@@ -44,9 +44,9 @@ msgstr ""
 #: ../../source/first-steps/conclusion.rst:14
 msgid ""
 "The GLPI Project maintains a curated `catalog <https://plugins.glpi-"
-"project.org>`_ of first-party and community-made plugins that can be used"
-" to expand the functionality of GLPI. Plugins may be available outside of"
-" this catalog, but they have not been verified."
+"project.org>`_ of first-party and community-made plugins that can be used to"
+" expand the functionality of GLPI. Plugins may be available outside of this "
+"catalog, but they have not been verified."
 msgstr ""
 
 #: ../../source/first-steps/conclusion.rst:17
@@ -61,10 +61,10 @@ msgstr ""
 
 #: ../../source/first-steps/conclusion.rst:22
 msgid ""
-"The `forum <http://forum.glpi-project.org/>`_ is a community support "
-"space. Ask your questions on this space, making sure to respect the rules"
-" of operation which that are specific to it. You can then benefit from "
-"the advice, opinions, help from other users. Don't forget to do the same "
+"The `forum <http://forum.glpi-project.org/>`_ is a community support space. "
+"Ask your questions on this space, making sure to respect the rules of "
+"operation which that are specific to it. You can then benefit from the "
+"advice, opinions, help from other users. Don't forget to do the same "
 "afterwards with new beginners to share your experience."
 msgstr ""
 
@@ -80,12 +80,10 @@ msgstr ""
 
 #: ../../source/first-steps/conclusion.rst:32
 msgid ""
-"The growing demand for services around the GLPI project has given birth "
-"to a network of partners. These partners are able to bring you the high "
-"value-added services and the assistance to the GLPI deployment that you "
-"need. As an end user, you are assured of the close collaboration between "
-"the GLPI project and its partners and you bring your support to the "
-"project since each partner is committed to actively contribute to the "
-"GLPI project."
+"The growing demand for services around the GLPI project has given birth to a"
+" network of partners. These partners are able to bring you the high value-"
+"added services and the assistance to the GLPI deployment that you need. As "
+"an end user, you are assured of the close collaboration between the GLPI "
+"project and its partners and you bring your support to the project since "
+"each partner is committed to actively contribute to the GLPI project."
 msgstr ""
-

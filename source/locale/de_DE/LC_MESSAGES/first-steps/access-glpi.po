@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/first-steps/access-glpi.rst:2
 msgid "Administering access controls"
@@ -29,30 +29,28 @@ msgstr ""
 
 #: ../../source/first-steps/access-glpi.rst:6
 msgid ""
-"In GLPI each user does not have access to the same interface nor to the "
-"same same functionalities. For each user, a specific context of use is "
+"In GLPI each user does not have access to the same interface nor to the same"
+" same functionalities. For each user, a specific context of use is "
 "determined, which grants them access only to the functionalities and "
-"information that is needed. Access to identity information about the user"
-" allows us to determine his or her authorizations."
+"information that is needed. Access to identity information about the user "
+"allows us to determine his or her authorizations."
 msgstr ""
 
 #: ../../source/first-steps/access-glpi.rst:10
 msgid ""
-"The first step is to configure the desired authentication method(s). GLPI"
-" is able to manage user authentication and information completely locally"
-" in its database, however it is recommended to delegate the "
-"authentication to an external service like LDAP. See :doc:`Configuring "
-"authentication methods <../modules/configuration/authentication/index>` "
-"for more information."
+"The first step is to configure the desired authentication method(s). GLPI is"
+" able to manage user authentication and information completely locally in "
+"its database, however it is recommended to delegate the authentication to an"
+" external service like LDAP. See :doc:`Configuring authentication methods "
+"<../modules/configuration/authentication/index>` for more information."
 msgstr ""
 
 #: ../../source/first-steps/access-glpi.rst:14
 msgid ""
-"The import or creation of new users and management of users known to GLPI"
-" including deletion, syncronization, activation/deactivation and "
-"management of information such as email, phone, etc is covered in "
-":doc:`the user administration documentation "
-"<../modules/administration/users/users>`."
+"The import or creation of new users and management of users known to GLPI "
+"including deletion, syncronization, activation/deactivation and management "
+"of information such as email, phone, etc is covered in :doc:`the user "
+"administration documentation <../modules/administration/users/users>`."
 msgstr ""
 
 #: ../../source/first-steps/access-glpi.rst:16
@@ -78,15 +76,14 @@ msgstr ""
 #: ../../source/first-steps/access-glpi.rst:25
 msgid ""
 "Profiles are sets of permissions that can be granted to users. Multiple "
-"profiles can be given to a user but only one can be active at a time. See"
-" :doc:`Administering profiles "
-"<../modules/administration/profiles/profiles>` for more information."
+"profiles can be given to a user but only one can be active at a time. See "
+":doc:`Administering profiles <../modules/administration/profiles/profiles>` "
+"for more information."
 msgstr ""
 
 #: ../../source/first-steps/access-glpi.rst:28
 msgid ""
 "Finally, you can configure :doc:`Rules for assigning authorizations to a "
-"user <../modules/administration/rules/userauthorizations>` to dynamically"
-" assign entities, groups and profiles to users."
+"user <../modules/administration/rules/userauthorizations>` to dynamically "
+"assign entities, groups and profiles to users."
 msgstr ""
-

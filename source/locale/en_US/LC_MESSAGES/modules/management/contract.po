@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/management/contract.rst:2
 msgid "Contracts"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../source/modules/management/contract.rst:4
 msgid ""
-"GLPI supports contracts management, in order to manage contract types "
-"such as loan, maintenance, support..."
+"GLPI supports contracts management, in order to manage contract types such "
+"as loan, maintenance, support..."
 msgstr ""
 
 #: ../../source/modules/management/contract.rst:6
@@ -43,7 +43,7 @@ msgstr ""
 msgid "anticipate and follow contract renewal."
 msgstr ""
 
-#: ../../source/modules/management/contract.rst:-1
+#: ../../source/modules/management/contract.rst-1
 msgid "Main fields of a contract"
 msgstr ""
 
@@ -55,14 +55,14 @@ msgstr ""
 
 #: ../../source/modules/management/contract.rst:20
 msgid ""
-"It is possible to receive notifications in order to be informed of events"
-" such as contract end. When contract must be renewed expressly, it is "
-"useful to be notified before end of contract. For periodic contracts, it "
-"is also possible to be notified at the end of each period. Notifications "
-"are configured at entity level, in menu **Setup > Notifications** to "
-"define models and destination and in menu **Administration > Entities** "
-"to enable notification, define default values and a possible anticipation"
-" of notification."
+"It is possible to receive notifications in order to be informed of events "
+"such as contract end. When contract must be renewed expressly, it is useful "
+"to be notified before end of contract. For periodic contracts, it is also "
+"possible to be notified at the end of each period. Notifications are "
+"configured at entity level, in menu **Setup > Notifications** to define "
+"models and destination and in menu **Administration > Entities** to enable "
+"notification, define default values and a possible anticipation of "
+"notification."
 msgstr ""
 
 #: ../../source/modules/management/contract.rst:26
@@ -71,8 +71,8 @@ msgstr ""
 
 #: ../../source/modules/management/contract.rst:28
 msgid ""
-"**Contract type**: by default, no contract type is defined, contract "
-"types must be configured in drop-down configuration;"
+"**Contract type**: by default, no contract type is defined, contract types "
+"must be configured in drop-down configuration;"
 msgstr ""
 
 #: ../../source/modules/management/contract.rst:29
@@ -81,8 +81,8 @@ msgstr ""
 
 #: ../../source/modules/management/contract.rst:30
 msgid ""
-"**Start date**: date at which contract starts, all periodicity based "
-"events are computed using this date;"
+"**Start date**: date at which contract starts, all periodicity based events "
+"are computed using this date;"
 msgstr ""
 
 #: ../../source/modules/management/contract.rst:31
@@ -111,8 +111,8 @@ msgstr ""
 
 #: ../../source/modules/management/contract.rst:36
 msgid ""
-"**Renewal**: *Tacit* (the contract is automatically renewed if no party "
-"has ended it) or *Express* (needs agreement for renewal);"
+"**Renewal**: *Tacit* (the contract is automatically renewed if no party has "
+"ended it) or *Express* (needs agreement for renewal);"
 msgstr ""
 
 #: ../../source/modules/management/contract.rst:37
@@ -123,8 +123,8 @@ msgstr ""
 
 #: ../../source/modules/management/contract.rst:38
 msgid ""
-"**Support hours**: support hours as defined in the contract, it is "
-"possible to distinguish week days, Saturdays and Sundays/holidays."
+"**Support hours**: support hours as defined in the contract, it is possible "
+"to distinguish week days, Saturdays and Sundays/holidays."
 msgstr ""
 
 #: ../../source/modules/management/contract.rst:42
@@ -141,7 +141,7 @@ msgid ""
 "GLPI budget: the cost of the contract will be imputed to this budget."
 msgstr ""
 
-#: ../../source/modules/management/contract.rst:-1
+#: ../../source/modules/management/contract.rst-1
 msgid "A cost associated to a contract"
 msgstr ""
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "This tab allows to associate one or several suppliers to the contract."
 msgstr ""
 
-#: ../../source/modules/management/contract.rst:-1
+#: ../../source/modules/management/contract.rst-1
 msgid "Suppliers associated to a contract"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "The *Items* tab is used to show or add linked assets."
 msgstr ""
 
-#: ../../source/modules/tabs/elements.rst:-1
+#: ../../source/modules/tabs/elements.rst-1
 msgid "Adding and viewing an element"
 msgstr ""
 
@@ -175,30 +175,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:2
@@ -211,15 +211,14 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:6
 msgid ""
-"For some items, external links are managed from the menu **Setup > "
-"External links**."
+"For some items, external links are managed from the menu **Setup > External "
+"links**."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:8
 msgid ""
-"These links can use object fields such as IP, name, etc. See "
-":doc:`Configure protocol external links "
-"</modules/configuration/external_links>`."
+"These links can use object fields such as IP, name, etc. See :doc:`Configure"
+" protocol external links </modules/configuration/external_links>`."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:10
@@ -228,8 +227,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:12
 msgid ""
-"A web link: http://192.168.0.1 (IP retrieved from the network port of the"
-" hardware) ;"
+"A web link: http://192.168.0.1 (IP retrieved from the network port of the "
+"hardware) ;"
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:13
@@ -248,7 +247,7 @@ msgid ""
 "information. Notes are displayed in the order of their creation."
 msgstr ""
 
-#: ../../source/modules/tabs/notes.rst:-1
+#: ../../source/modules/tabs/notes.rst-1
 msgid "View and enter a note"
 msgstr ""
 
@@ -258,8 +257,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -286,16 +285,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:2
@@ -305,14 +304,14 @@ msgstr ""
 #: ../../source/modules/tabs/debug.rst:4
 msgid ""
 "If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
-"appear before the *All* tab. This tab offers information to help you "
-"resolve an issue."
+"appear before the *All* tab. This tab offers information to help you resolve"
+" an issue."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:6
 msgid ""
-"For example, for a computer, you have one or more tables depending on the"
-" affected object (financial information, reservations...) listing the "
+"For example, for a computer, you have one or more tables depending on the "
+"affected object (financial information, reservations...) listing the "
 "notifications that will be triggered on this computer with:"
 msgstr ""
 
@@ -332,7 +331,7 @@ msgstr ""
 msgid "Recipient(s) email address"
 msgstr ""
 
-#: ../../source/modules/tabs/debug.rst:-1
+#: ../../source/modules/tabs/debug.rst-1
 msgid "Debugging page"
 msgstr ""
 
@@ -342,8 +341,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

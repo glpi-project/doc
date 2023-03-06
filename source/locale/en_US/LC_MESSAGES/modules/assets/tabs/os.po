@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assets/tabs/os.rst:2
 msgid "Operating systems"
@@ -27,7 +27,7 @@ msgid ""
 "`Operating system` for a Computer entry."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/os.rst:-1
+#: ../../source/modules/assets/tabs/os.rst-1
 msgid "Screen presenting an operating system"
 msgstr ""
 
@@ -69,18 +69,18 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/os.rst:23
 msgid ""
-"The creation and management of the titles for operating systems is "
-"located in the menu `Configuration > Drop-downs > Operating systems`."
+"The creation and management of the titles for operating systems is located "
+"in the menu `Configuration > Drop-downs > Operating systems`."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/os.rst
+#: ../../source/modules/assets/tabs/os.rst:0
 msgid "Screen of titles definition for operating systems"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/os.rst:31
 msgid ""
-"A deletion or addition of an operating system is recorded in the history "
-"of the computer."
+"A deletion or addition of an operating system is recorded in the history of "
+"the computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/os.rst:36
@@ -88,4 +88,3 @@ msgid ""
 "If using native inventory or third-party inventory tool, the operation "
 "system information can be automatically imported and updated."
 msgstr ""
-

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/management/suppliers.rst:2
 msgid "Suppliers"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: ../../source/modules/management/suppliers.rst:4
 msgid ""
-"GLPI supports suppliers management, in order to identity the supplier of "
-"an asset in asset management but also to attribute tickets to the "
-"supplier, either a person or a company."
+"GLPI supports suppliers management, in order to identity the supplier of an "
+"asset in asset management but also to attribute tickets to the supplier, "
+"either a person or a company."
 msgstr ""
 
 #: ../../source/modules/management/suppliers.rst:6
 msgid ""
-"When buying an equipment of make X from supplier Y, two distinct "
-"information must be managed in GLPI: the vendor (X) and the supplier (Y)."
+"When buying an equipment of make X from supplier Y, two distinct information"
+" must be managed in GLPI: the vendor (X) and the supplier (Y)."
 msgstr ""
 
 #: ../../source/modules/management/suppliers.rst:8
@@ -57,7 +57,7 @@ msgstr ""
 msgid "include suppliers in GLPI assistance"
 msgstr ""
 
-#: ../../source/modules/management/suppliers.rst:-1
+#: ../../source/modules/management/suppliers.rst-1
 msgid "A supplier in GLPI"
 msgstr ""
 
@@ -73,22 +73,22 @@ msgstr ""
 msgid "The *Contacts* tab is used to show or add linked contacts."
 msgstr ""
 
-#: ../../source/modules/tabs/contacts.rst:-1
+#: ../../source/modules/tabs/contacts.rst-1
 msgid "View and add associated contacts"
 msgstr ""
 
 #: ../../source/modules/management/suppliers.rst:28
 msgid ""
-"There is a clear distinction between a supplier (which can be attached to"
-" assets) and a contact (which are the persons allowing to contact the "
+"There is a clear distinction between a supplier (which can be attached to "
+"assets) and a contact (which are the persons allowing to contact the "
 "supplier). Therefore, a supplier must be associated with contacts."
 msgstr ""
 
 #: ../../source/modules/management/suppliers.rst:30
 msgid ""
-"Example : M. Doe is sale assistant in company Foo. Create a supplier "
-"named Foo. Create a contact for M. Doe. Assign to this contact the type "
-"\"Sale\" Attach the contact to supplier Foo"
+"Example : M. Doe is sale assistant in company Foo. Create a supplier named "
+"Foo. Create a contact for M. Doe. Assign to this contact the type \"Sale\" "
+"Attach the contact to supplier Foo"
 msgstr ""
 
 #: ../../source/modules/tabs/contracts.rst:2
@@ -99,7 +99,7 @@ msgstr ""
 msgid "The *Contracts* tab is used to show or add linked contracts."
 msgstr ""
 
-#: ../../source/modules/tabs/contracts.rst:-1
+#: ../../source/modules/tabs/contracts.rst-1
 msgid "Contract display screen"
 msgstr ""
 
@@ -107,14 +107,14 @@ msgstr ""
 msgid ""
 "For each associated contract, the name, number, contract type, supplier, "
 "start date and initial duration of the contract are listed. In the last "
-"field, the end date of the contract is also shown with a red display if "
-"the date is earlier than the current date."
+"field, the end date of the contract is also shown with a red display if the "
+"date is earlier than the current date."
 msgstr ""
 
 #: ../../source/modules/tabs/contracts.rst:13
 msgid ""
-"Refer to :doc:`contract management </modules/management/contract>` for "
-"more information."
+"Refer to :doc:`contract management </modules/management/contract>` for more "
+"information."
 msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:12
@@ -127,7 +127,7 @@ msgstr ""
 msgid "The *Items* tab is used to show or add linked assets."
 msgstr ""
 
-#: ../../source/modules/tabs/elements.rst:-1
+#: ../../source/modules/tabs/elements.rst-1
 msgid "Adding and viewing an element"
 msgstr ""
 
@@ -137,30 +137,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/tickets.rst:2
@@ -173,7 +173,7 @@ msgid ""
 "object. It also lists the tickets already linked to the object."
 msgstr ""
 
-#: ../../source/modules/tabs/tickets.rst:-1
+#: ../../source/modules/tabs/tickets.rst-1
 msgid "Image of the ticket list"
 msgstr ""
 
@@ -191,8 +191,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:4
 msgid ""
-"The *Problems* tab is used to create a problem associated with the "
-"current object. It also lists the changes already linked to the object."
+"The *Problems* tab is used to create a problem associated with the current "
+"object. It also lists the changes already linked to the object."
 msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:6
@@ -206,8 +206,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:9
 msgid ""
-"Date (opening or expiry date, resolution or closing date depending on the"
-" status of the problem)"
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the problem)"
 msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:10
@@ -234,7 +234,7 @@ msgstr ""
 msgid "Column indicating the number of scheduled tasks"
 msgstr ""
 
-#: ../../source/modules/tabs/problems.rst:-1
+#: ../../source/modules/tabs/problems.rst-1
 msgid "Creation and list of associated problems"
 msgstr ""
 
@@ -262,15 +262,15 @@ msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:9
 msgid ""
-"Date (opening or expiry date, resolution or closing date depending on the"
-" status of the change)"
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the change)"
 msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:15
 msgid "Number of scheduled tasks"
 msgstr ""
 
-#: ../../source/modules/tabs/changes.rst:-1
+#: ../../source/modules/tabs/changes.rst-1
 msgid "Creation and list of associated changes"
 msgstr ""
 
@@ -292,15 +292,14 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:6
 msgid ""
-"For some items, external links are managed from the menu **Setup > "
-"External links**."
+"For some items, external links are managed from the menu **Setup > External "
+"links**."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:8
 msgid ""
-"These links can use object fields such as IP, name, etc. See "
-":doc:`Configure protocol external links "
-"</modules/configuration/external_links>`."
+"These links can use object fields such as IP, name, etc. See :doc:`Configure"
+" protocol external links </modules/configuration/external_links>`."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:10
@@ -309,8 +308,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:12
 msgid ""
-"A web link: http://192.168.0.1 (IP retrieved from the network port of the"
-" hardware) ;"
+"A web link: http://192.168.0.1 (IP retrieved from the network port of the "
+"hardware) ;"
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:13
@@ -329,7 +328,7 @@ msgid ""
 "information. Notes are displayed in the order of their creation."
 msgstr ""
 
-#: ../../source/modules/tabs/notes.rst:-1
+#: ../../source/modules/tabs/notes.rst-1
 msgid "View and enter a note"
 msgstr ""
 
@@ -343,7 +342,7 @@ msgid ""
 "articles."
 msgstr ""
 
-#: ../../source/modules/tabs/knowledgebase.rst:-1
+#: ../../source/modules/tabs/knowledgebase.rst-1
 msgid "Viewing or adding a knowledge base entry"
 msgstr ""
 
@@ -353,8 +352,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -381,16 +380,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/all.rst:2
@@ -399,8 +398,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

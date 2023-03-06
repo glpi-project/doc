@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/tools/knowledgebase.rst:2
 msgid "Manage knowledge base"
@@ -31,32 +31,31 @@ msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:7
 msgid ""
-"Provide information as a public FAQ to enable users to solve simple "
-"problems on their own."
+"Provide information as a public FAQ to enable users to solve simple problems"
+" on their own."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:10
 msgid ""
-"Only public FAQ items are visible to users of simplified interface. Other"
-" elements are visible only to technicians via standard interface. FAQ "
-"items are public to everyone (within their entity) that has access to "
-"read FAQs. The additional visibility restrictions will have no affect in "
-"this case."
+"Only public FAQ items are visible to users of simplified interface. Other "
+"elements are visible only to technicians via standard interface. FAQ items "
+"are public to everyone (within their entity) that has access to read FAQs. "
+"The additional visibility restrictions will have no affect in this case."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:13
 msgid ""
-"Each article of the knowledge base that is not in the FAQ must have one "
-"or several targets, a target being either an entity, a group, a profile "
-"or a user, to be readable. As long as an article has no target, it is "
-"visible only by its writer, is flagged as `unpublished` and appears in "
-"table `Unpublished articles` on the home page of the knowledge base."
+"Each article of the knowledge base that is not in the FAQ must have one or "
+"several targets, a target being either an entity, a group, a profile or a "
+"user, to be readable. As long as an article has no target, it is visible "
+"only by its writer, is flagged as `unpublished` and appears in table "
+"`Unpublished articles` on the home page of the knowledge base."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:15
 msgid ""
-"By default, articles are not translatable. However, this functionality "
-"can be activated, see :doc:`general configuration "
+"By default, articles are not translatable. However, this functionality can "
+"be activated, see :doc:`general configuration "
 "</modules/configuration/general/general_configuration>`."
 msgstr ""
 
@@ -66,37 +65,36 @@ msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:20
 msgid ""
-"An article can be made visible during a time slot by defining a start "
-"date and an end date."
+"An article can be made visible during a time slot by defining a start date "
+"and an end date."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:23
 msgid ""
-"Elements which should not be interpreted when displayed can be defined "
-"with preformated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` "
-"can therefore be inserted and will be displayed. Other HTML tags "
-"(``<TAG>...</TAG>`` may disappear when editing; to have complete "
-"visibility of the text, it is possible to switch to HTML mode where all "
-"elements will be visible. The browser may also modify dynamically content"
-" (case change, tags adding) when editing."
+"Elements which should not be interpreted when displayed can be defined with "
+"preformated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` can "
+"therefore be inserted and will be displayed. Other HTML tags "
+"(``<TAG>...</TAG>`` may disappear when editing; to have complete visibility "
+"of the text, it is possible to switch to HTML mode where all elements will "
+"be visible. The browser may also modify dynamically content (case change, "
+"tags adding) when editing."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:25
 msgid ""
-"It is possible to create categories and sub-categories in order to "
-"organize browsing (see :doc:`Configure drop-downs "
-"</modules/configuration/dropdowns/index>`). User can then use several "
-"tabs to search and browse knowledge base:"
+"It is possible to create categories and sub-categories in order to organize "
+"browsing (see :doc:`Configure drop-downs "
+"</modules/configuration/dropdowns/index>`). User can then use several tabs "
+"to search and browse knowledge base:"
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:27
 msgid ""
-"**Search** This tab is the default tab, displaying recent articles, "
-"popular articles and last changes. It allows also to search inside "
-"knowledge base."
+"**Search** This tab is the default tab, displaying recent articles, popular "
+"articles and last changes. It allows also to search inside knowledge base."
 msgstr ""
 
-#: ../../source/modules/tools/knowledgebase.rst
+#: ../../source/modules/tools/knowledgebase.rst:0
 msgid "Knowledge base search tab"
 msgstr ""
 
@@ -104,7 +102,7 @@ msgstr ""
 msgid "**Browse** This tab allows to browse tree structure of categories."
 msgstr ""
 
-#: ../../source/modules/tools/knowledgebase.rst
+#: ../../source/modules/tools/knowledgebase.rst:0
 msgid "Knowledge base browse tab"
 msgstr ""
 
@@ -115,14 +113,14 @@ msgid ""
 "articles, user's unpublished articles, all unpublished articles..."
 msgstr ""
 
-#: ../../source/modules/tools/knowledgebase.rst
+#: ../../source/modules/tools/knowledgebase.rst:0
 msgid "Knowledge base manage tab"
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:49
 msgid ""
-"The knowledge base search engine provides operators for complex search: "
-"``+ - ~ < > * ” ” ()``."
+"The knowledge base search engine provides operators for complex search: ``+ "
+"- ~ < > * ” ” ()``."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:51
@@ -159,9 +157,8 @@ msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:90
 msgid ""
-"This tab displays a table with article category, subject, content, "
-"writer, creation date, last modification date, number of views and FAQ "
-"membership."
+"This tab displays a table with article category, subject, content, writer, "
+"creation date, last modification date, number of views and FAQ membership."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:92
@@ -180,15 +177,14 @@ msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:99
 msgid ""
-"An article is by default personal and therefore only visible by its "
-"creator."
+"An article is by default personal and therefore only visible by its creator."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:101
 msgid ""
-"For an article to become visible by other users, targets must be added to"
-" it, a target being either an entity, a group, a profile or a user who "
-"will be able to consult the article."
+"For an article to become visible by other users, targets must be added to "
+"it, a target being either an entity, a group, a profile or a user who will "
+"be able to consult the article."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:104
@@ -197,8 +193,7 @@ msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:106
 msgid ""
-"This tab allows, if appropriate permission, to modify or delete an "
-"article."
+"This tab allows, if appropriate permission, to modify or delete an article."
 msgstr ""
 
 #: ../../source/modules/tabs/elements.rst:2
@@ -209,7 +204,7 @@ msgstr ""
 msgid "The *Items* tab is used to show or add linked assets."
 msgstr ""
 
-#: ../../source/modules/tabs/elements.rst:-1
+#: ../../source/modules/tabs/elements.rst-1
 msgid "Adding and viewing an element"
 msgstr ""
 
@@ -219,30 +214,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:2
@@ -251,8 +246,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -279,16 +274,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:115
@@ -297,16 +292,16 @@ msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:117
 msgid ""
-"This tab allows to consult all article revisions: each saved modification"
-" of the article will create a revision storing the previous version of "
-"the article."
+"This tab allows to consult all article revisions: each saved modification of"
+" the article will create a revision storing the previous version of the "
+"article."
 msgstr ""
 
 #: ../../source/modules/tools/knowledgebase.rst:119
 msgid "Revisions can be shown and restored."
 msgstr ""
 
-#: ../../source/modules/tools/knowledgebase.rst:-1
+#: ../../source/modules/tools/knowledgebase.rst-1
 msgid "Article revisions"
 msgstr ""
 
@@ -320,7 +315,7 @@ msgid ""
 "article."
 msgstr ""
 
-#: ../../source/modules/tools/knowledgebase.rst:-1
+#: ../../source/modules/tools/knowledgebase.rst-1
 msgid "Article comments"
 msgstr ""
 
@@ -330,8 +325,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

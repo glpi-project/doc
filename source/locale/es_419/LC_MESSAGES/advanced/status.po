@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/advanced/status.rst:2
 msgid "GLPI Status Monitoring"
@@ -23,14 +23,13 @@ msgstr ""
 
 #: ../../source/advanced/status.rst:4
 msgid ""
-"GLPI contains a helpful endpoint for monitoring its health at "
-"`/status.php` and the `glpi:system:status` CLI command. The `/status.php`"
-" endpoint does not require you to be logged in and therefore only shows "
-"basic status information. Sensitive information like the GLPI version and"
-" plugin names and versions (could be used to identify vulerabilities) are"
-" not shown. The difference with the CLI command though is that since it "
-"isn't accessible from the web, you can optionally retrieve private "
-"information too."
+"GLPI contains a helpful endpoint for monitoring its health at `/status.php` "
+"and the `glpi:system:status` CLI command. The `/status.php` endpoint does "
+"not require you to be logged in and therefore only shows basic status "
+"information. Sensitive information like the GLPI version and plugin names "
+"and versions (could be used to identify vulerabilities) are not shown. The "
+"difference with the CLI command though is that since it isn't accessible "
+"from the web, you can optionally retrieve private information too."
 msgstr ""
 
 #: ../../source/advanced/status.rst:10
@@ -39,8 +38,8 @@ msgstr ""
 
 #: ../../source/advanced/status.rst:12
 msgid ""
-"The status of GLPI is separated into multiple \"services\". These "
-"services can be listed using the `glpi:system:list_services` CLI command."
+"The status of GLPI is separated into multiple \"services\". These services "
+"can be listed using the `glpi:system:list_services` CLI command."
 msgstr ""
 
 #: ../../source/advanced/status.rst:22
@@ -85,16 +84,15 @@ msgstr ""
 
 #: ../../source/advanced/status.rst:27
 msgid ""
-"By default, the `/status.php` endpoint provides a plain-text output of "
-"the public status information. The plain-text output is deprecated in "
-"favor of the JSON format, but it remains the default for backwards "
-"compatibility."
+"By default, the `/status.php` endpoint provides a plain-text output of the "
+"public status information. The plain-text output is deprecated in favor of "
+"the JSON format, but it remains the default for backwards compatibility."
 msgstr ""
 
 #: ../../source/advanced/status.rst:30
 msgid ""
-"The following formats are currently supported and can be chosen by using "
-"the HTTP `Accept` header or the `format` query parameter. When using the "
+"The following formats are currently supported and can be chosen by using the"
+" HTTP `Accept` header or the `format` query parameter. When using the "
 "`format` parameter, the short format identifier should be used."
 msgstr ""
 
@@ -124,8 +122,8 @@ msgstr ""
 
 #: ../../source/advanced/status.rst:42
 msgid ""
-"You can filter the output to a specific service using the `service` query"
-" parameter."
+"You can filter the output to a specific service using the `service` query "
+"parameter."
 msgstr ""
 
 #: ../../source/advanced/status.rst:45
@@ -134,19 +132,18 @@ msgstr ""
 
 #: ../../source/advanced/status.rst:47
 msgid ""
-"Similar to the `/status.php` endpoint, the CLI command "
-"`glpi:system:status` only shows the public status information by default."
-" However, since this tool is not available from the web interface, you "
-"may add the `-p` or `--private` option to see all of the status "
-"information."
+"Similar to the `/status.php` endpoint, the CLI command `glpi:system:status` "
+"only shows the public status information by default. However, since this "
+"tool is not available from the web interface, you may add the `-p` or "
+"`--private` option to see all of the status information."
 msgstr ""
 
 #: ../../source/advanced/status.rst:50
 msgid ""
 "By default, it uses the plain-text format for its output for backwards "
 "compatibility, but this is deprecated. The same formats are supported as "
-"listed above in the \"Status Endpoint\" section and the short identifier "
-"can be passed in the `-f` or `--format` option."
+"listed above in the \"Status Endpoint\" section and the short identifier can"
+" be passed in the `-f` or `--format` option."
 msgstr ""
 
 #: ../../source/advanced/status.rst:53
@@ -154,4 +151,3 @@ msgid ""
 "You can filter the output to a specific service using the `-s` or "
 "`--service` option."
 msgstr ""
-

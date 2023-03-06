@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 10:24+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/glossary.rst:2
 msgid "Glossary"
@@ -88,7 +88,8 @@ msgid "Asset"
 msgstr ""
 
 #: ../../source/glossary.rst:169
-msgid "Generic term for an element that can be inventoried and managed in GLPI."
+msgid ""
+"Generic term for an element that can be inventoried and managed in GLPI."
 msgstr ""
 
 #: ../../source/glossary.rst:21
@@ -97,8 +98,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:23
 msgid ""
-"Process for regular actions triggering, either internal to GLPI or "
-"external (Unix cron, Windows planned tasks...)."
+"Process for regular actions triggering, either internal to GLPI or external "
+"(Unix cron, Windows planned tasks...)."
 msgstr ""
 
 #: ../../source/glossary.rst:24
@@ -106,7 +107,8 @@ msgid "Automatic closing"
 msgstr ""
 
 #: ../../source/glossary.rst:26
-msgid "GLPI internal process that closes unresolved tickets after a given time."
+msgid ""
+"GLPI internal process that closes unresolved tickets after a given time."
 msgstr ""
 
 #: ../../source/glossary.rst:270
@@ -130,7 +132,8 @@ msgid "Budget"
 msgstr ""
 
 #: ../../source/glossary.rst:32
-msgid "Accounting operation that groups all provisional expenses and receipts."
+msgid ""
+"Accounting operation that groups all provisional expenses and receipts."
 msgstr ""
 
 #: ../../source/glossary.rst:33
@@ -157,8 +160,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:47
 msgid ""
-"Status of a ticket whose solution has been approved by the ticket issuer "
-"or that has been close automatically."
+"Status of a ticket whose solution has been approved by the ticket issuer or "
+"that has been close automatically."
 msgstr ""
 
 #: ../../source/glossary.rst:249
@@ -167,8 +170,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:251
 msgid ""
-"Functionality of GLPI that allows to create tickets or followup by "
-"importing messages from a mailbox."
+"Functionality of GLPI that allows to create tickets or followup by importing"
+" messages from a mailbox."
 msgstr ""
 
 #: ../../source/glossary.rst:48
@@ -209,8 +212,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:65
 msgid ""
-"Element or pattern used by search engines to select an information or "
-"used by rules engines and dictionaries to perform actions."
+"Element or pattern used by search engines to select an information or used "
+"by rules engines and dictionaries to perform actions."
 msgstr ""
 
 #: ../../source/glossary.rst:69
@@ -219,8 +222,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:71
 msgid ""
-"Profile attributed by the application in the absence of particular "
-"settings (rules, manual attribution...)."
+"Profile attributed by the application in the absence of particular settings "
+"(rules, manual attribution...)."
 msgstr ""
 
 #: ../../source/glossary.rst:66
@@ -228,7 +231,8 @@ msgid "Depreciation type"
 msgstr ""
 
 #: ../../source/glossary.rst:68
-msgid "Characteristic of depreciation which balance can be linear or declining."
+msgid ""
+"Characteristic of depreciation which balance can be linear or declining."
 msgstr ""
 
 #: ../../source/glossary.rst:72
@@ -253,8 +257,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:86
 msgid ""
-"Element that defines a link and/or store a file and that can be "
-"associated to other objects of GLPI."
+"Element that defines a link and/or store a file and that can be associated "
+"to other objects of GLPI."
 msgstr ""
 
 #: ../../source/glossary.rst:90
@@ -279,8 +283,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:98
 msgid ""
-"Organizational object allowing to partition view and action scope of "
-"users."
+"Organizational object allowing to partition view and action scope of users."
 msgstr ""
 
 #: ../../source/glossary.rst:294
@@ -289,8 +292,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:296
 msgid ""
-"The contract is renewed only if both parties agree for its renewal "
-"(opposite to tacit renewal)."
+"The contract is renewed only if both parties agree for its renewal (opposite"
+" to tacit renewal)."
 msgstr ""
 
 #: ../../source/glossary.rst:105
@@ -339,9 +342,9 @@ msgstr ""
 
 #: ../../source/glossary.rst:110
 msgid ""
-"Specifically in GLPI, selection of elements of the knowledge base that "
-"can be provided independently, for example articles that are made "
-"accessible to users having only access to the simplified interface."
+"Specifically in GLPI, selection of elements of the knowledge base that can "
+"be provided independently, for example articles that are made accessible to "
+"users having only access to the simplified interface."
 msgstr ""
 
 #: ../../source/glossary.rst:131
@@ -375,7 +378,8 @@ msgid "Global view"
 msgstr ""
 
 #: ../../source/glossary.rst:371
-msgid "In a GLPI menu, display of columns in a list that is common to all users."
+msgid ""
+"In a GLPI menu, display of columns in a list that is common to all users."
 msgstr ""
 
 #: ../../source/glossary.rst:143
@@ -434,9 +438,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:157
 msgid ""
-":abbr:`IMAP (Internet Message Access Protocol)` and :abbr:`POP (Post "
-"Office Protocol)` are messaging protocols allowing to retrieve mail "
-"messages."
+":abbr:`IMAP (Internet Message Access Protocol)` and :abbr:`POP (Post Office "
+"Protocol)` are messaging protocols allowing to retrieve mail messages."
 msgstr ""
 
 #: ../../source/glossary.rst:158
@@ -445,8 +448,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:160
 msgid ""
-"Measure of the effect of an incident, problem or change in business "
-"process."
+"Measure of the effect of an incident, problem or change in business process."
 msgstr ""
 
 #: ../../source/glossary.rst:228
@@ -511,8 +513,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:123
 msgid ""
-"A computer name is composed of a label and the name of the domain it "
-"belongs to, for example `www` name in domain `glpi-project.org`."
+"A computer name is composed of a label and the name of the domain it belongs"
+" to, for example `www` name in domain `glpi-project.org`."
 msgstr ""
 
 #: ../../source/glossary.rst:125
@@ -574,7 +576,8 @@ msgid "Mount point"
 msgstr ""
 
 #: ../../source/glossary.rst:188
-msgid "Directory from which the data contained in a partition can be accessed."
+msgid ""
+"Directory from which the data contained in a partition can be accessed."
 msgstr ""
 
 #: ../../source/glossary.rst:189
@@ -656,7 +659,8 @@ msgid "Personal view"
 msgstr ""
 
 #: ../../source/glossary.rst:374
-msgid "In a GLPI menu, display of columns in a list that is specific to a user."
+msgid ""
+"In a GLPI menu, display of columns in a list that is specific to a user."
 msgstr ""
 
 #: ../../source/glossary.rst:210
@@ -699,8 +703,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:224
 msgid ""
-"Scale that identifies the relative importance of a ticket and that "
-"results from impact and urgency."
+"Scale that identifies the relative importance of a ticket and that results "
+"from impact and urgency."
 msgstr ""
 
 #: ../../source/glossary.rst:225
@@ -759,8 +763,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:254
 msgid ""
-"Property of an object belonging to an entity that makes it visible from "
-"sub-entities."
+"Property of an object belonging to an entity that makes it visible from sub-"
+"entities."
 msgstr ""
 
 #: ../../source/glossary.rst:255
@@ -835,8 +839,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:281
 msgid ""
-"First entity of GLPI entities tree structure, that is always present even"
-" if no other entity is defined and that cannot be deleted."
+"First entity of GLPI entities tree structure, that is always present even if"
+" no other entity is defined and that cannot be deleted."
 msgstr ""
 
 #: ../../source/glossary.rst:282
@@ -844,7 +848,8 @@ msgid "Rule"
 msgstr ""
 
 #: ../../source/glossary.rst:284
-msgid "List of criteria that trig a list of actions if criteria are satisfied."
+msgid ""
+"List of criteria that trig a list of actions if criteria are satisfied."
 msgstr ""
 
 #: ../../source/glossary.rst:246
@@ -853,8 +858,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:248
 msgid ""
-"Recording of GLPI search engine state that allows to store and perform "
-"again the search."
+"Recording of GLPI search engine state that allows to store and perform again"
+" the search."
 msgstr ""
 
 #: ../../source/glossary.rst:285
@@ -871,8 +876,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:308
 msgid ""
-"GLPI user interface that gives access to a reduced set of functionalities"
-" and that targets end users (opposite to `standard interface`)."
+"GLPI user interface that gives access to a reduced set of functionalities "
+"and that targets end users (opposite to `standard interface`)."
 msgstr ""
 
 #: ../../source/glossary.rst:387
@@ -881,9 +886,9 @@ msgstr ""
 
 #: ../../source/glossary.rst:389
 msgid ""
-"SLA (for Service-Level Agreement) is a contract between a service "
-"provider and a client that defines the requested quality of service and "
-"the responsibilities in case of failure."
+"SLA (for Service-Level Agreement) is a contract between a service provider "
+"and a client that defines the requested quality of service and the "
+"responsibilities in case of failure."
 msgstr ""
 
 #: ../../source/glossary.rst:291
@@ -908,8 +913,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:299
 msgid ""
-"GLPI user interface that gives access to all functionalities (opposite to"
-" `simplified interface`)."
+"GLPI user interface that gives access to all functionalities (opposite to "
+"`simplified interface`)."
 msgstr ""
 
 #: ../../source/glossary.rst:300
@@ -968,8 +973,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:326
 msgid ""
-"A tagged :abbr:`VLAN (Virtual Local Area Network)` is a :term:`VLAN` "
-"which tag is transmited in network frame (see `802.1Q "
+"A tagged :abbr:`VLAN (Virtual Local Area Network)` is a :term:`VLAN` which "
+"tag is transmited in network frame (see `802.1Q "
 "<http://fr.wikipedia.org/wiki/IEEE_802.1Q>`_)."
 msgstr ""
 
@@ -1047,8 +1052,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:356
 msgid ""
-"Management mode in which an inventory object can be connected to only one"
-" computer."
+"Management mode in which an inventory object can be connected to only one "
+"computer."
 msgstr ""
 
 #: ../../source/glossary.rst:357
@@ -1057,8 +1062,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:359
 msgid ""
-"Criteria defined by the requester that specifies for a ticket the desired"
-" resolution speed."
+"Criteria defined by the requester that specifies for a ticket the desired "
+"resolution speed."
 msgstr ""
 
 #: ../../source/glossary.rst:360
@@ -1126,4 +1131,3 @@ msgstr ""
 #: ../../source/glossary.rst:386
 msgid "Exchange format for calendar data."
 msgstr ""
-

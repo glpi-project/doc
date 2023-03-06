@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/overview/templates.rst:2
 msgid "Template management in GLPI"
@@ -36,8 +36,8 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:9
 msgid ""
-"Template management is accessible via the button *Templates* located in "
-"the menu bar."
+"Template management is accessible via the button *Templates* located in the "
+"menu bar."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:12
@@ -47,9 +47,9 @@ msgstr ""
 #: ../../source/modules/overview/templates.rst:14
 msgid ""
 "For assets, the template defines a default standard object in which some "
-"fields are pre-filled and can later be reused to create new objects. This"
-" allows to simplify drastically adding a large number of objects that are"
-" nearly identical."
+"fields are pre-filled and can later be reused to create new objects. This "
+"allows to simplify drastically adding a large number of objects that are "
+"nearly identical."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:16
@@ -74,9 +74,8 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:22
 msgid ""
-"When creating a new printer from this template, serial number and "
-"inventory number are the only fields to be entered; other fields are "
-"already set."
+"When creating a new printer from this template, serial number and inventory "
+"number are the only fields to be entered; other fields are already set."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:25
@@ -85,11 +84,11 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:27
 msgid ""
-"A automatic fill and increment mechanism is provided for some fields that"
-" can be identified with to the |autofill_mark|. These fields (name, "
-"inventory number...) are then automatically completed when creating the "
-"object. To use this mechanism, the corresponding field in the template "
-"must contain a string following a syntax which is described below."
+"A automatic fill and increment mechanism is provided for some fields that "
+"can be identified with to the |autofill_mark|. These fields (name, inventory"
+" number...) are then automatically completed when creating the object. To "
+"use this mechanism, the corresponding field in the template must contain a "
+"string following a syntax which is described below."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:88
@@ -111,7 +110,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:34
-msgid "``\\g`` lookup of number in all identical fields based on the same format;"
+msgid ""
+"``\\g`` lookup of number in all identical fields based on the same format;"
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:35
@@ -138,24 +138,23 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:42
 msgid ""
-"For example, when creating a printer, it is possible in the printer "
-"template to use this mechanism to automatically generate inventory "
-"numbers."
+"For example, when creating a printer, it is possible in the printer template"
+" to use this mechanism to automatically generate inventory numbers."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:44
 msgid ""
 "Let suppose that we want an inventory number under the form: "
-"`YEAR+MONTH+DAY+fixed code structure equals to 555 + fixed operation code"
-" equals to 1234 + 2_DIGITS_COUNTER`; then the inventory number field in "
-"the template will be: ``<\\Y-\\m-\\d-555-1234-##\\>``."
+"`YEAR+MONTH+DAY+fixed code structure equals to 555 + fixed operation code "
+"equals to 1234 + 2_DIGITS_COUNTER`; then the inventory number field in the "
+"template will be: ``<\\Y-\\m-\\d-555-1234-##\\>``."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:46
 msgid ""
-"On each printer creation, the first printer will have its inventory "
-"number be `1984-JAN-02-555-1234-01`, the second printer "
-"`1984-JAN-02-555-1234-02` and so on."
+"On each printer creation, the first printer will have its inventory number "
+"be `1984-JAN-02-555-1234-01`, the second printer `1984-JAN-02-555-1234-02` "
+"and so on."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:51
@@ -165,8 +164,8 @@ msgstr ""
 #: ../../source/modules/overview/templates.rst:53
 msgid ""
 "As with inventory objects, templates are available for tickets. A ticket "
-"template allow to customize the ticket creation interface based on ticket"
-" type and category."
+"template allow to customize the ticket creation interface based on ticket "
+"type and category."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:55
@@ -187,24 +186,24 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:63
 msgid ""
-"For mandatory fields control, the only fields that will be controlled are"
-" the fields available in the user's interface. Therefore, if a field is "
+"For mandatory fields control, the only fields that will be controlled are "
+"the fields available in the user's interface. Therefore, if a field is "
 "defined as mandatory but is not visible in the interface, it will not "
-"trigger an error. When defining mandatory fields, the interfaces in which"
-" these fields are used are displayed."
+"trigger an error. When defining mandatory fields, the interfaces in which "
+"these fields are used are displayed."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:65
 msgid ""
-"A template is attached to the entity where it has been created and can be"
-" visible in sub-entities."
+"A template is attached to the entity where it has been created and can be "
+"visible in sub-entities."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:67
 msgid ""
-"Default templates can be defined at entity level or at profile level. For"
-" the profiles, only the template of the root entity that are visible from"
-" sub-entities can be attached."
+"Default templates can be defined at entity level or at profile level. For "
+"the profiles, only the template of the root entity that are visible from "
+"sub-entities can be attached."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:69
@@ -231,8 +230,8 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:79
 msgid ""
-"In last two cases, if the template defines a new couple type/category, "
-"then the first case is then tested again with these new values."
+"In last two cases, if the template defines a new couple type/category, then "
+"the first case is then tested again with these new values."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:83
@@ -243,14 +242,12 @@ msgstr ""
 
 #: ../../source/modules/overview/templates.rst:84
 msgid ""
-"If one of the parameter entity, profile, type or category is modified "
-"when filling the ticket, the template to use is then searched again "
-"according to these new values."
+"If one of the parameter entity, profile, type or category is modified when "
+"filling the ticket, the template to use is then searched again according to "
+"these new values."
 msgstr ""
 
 #: ../../source/modules/overview/templates.rst:85
 msgid ""
-"The template is used to create :ref:`recurrent tickets <recurrent-"
-"tickets>`."
+"The template is used to create :ref:`recurrent tickets <recurrent-tickets>`."
 msgstr ""
-

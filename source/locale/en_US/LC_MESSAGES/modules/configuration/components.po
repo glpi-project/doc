@@ -1,55 +1,56 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/components.rst:2
 msgid "Components"
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:4
-msgid "The hardware components that can be added to computers are configurable."
+msgid ""
+"The hardware components that can be added to computers are configurable."
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:6
 msgid ""
 "A hardware component is defined by a type, a name, a manufacturer, a "
-"comment, and several fields specific to the type of component. For "
-"example, for a system board, you can enter the chipset."
+"comment, and several fields specific to the type of component. For example, "
+"for a system board, you can enter the chipset."
 msgstr ""
 
-#: ../../source/modules/configuration/components.rst:-1
+#: ../../source/modules/configuration/components.rst-1
 msgid "List of component types"
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:14
 msgid ""
 "It is possible to fill in other component types inside the *Other "
-"Components* type. However, it is not possible to add other types than "
-"those listed here."
+"Components* type. However, it is not possible to add other types than those "
+"listed here."
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:17
 msgid ""
-"Once a component type has been selected (*Motherboard*, *Processor*...), "
-"you are redirected to the list of components already created."
+"Once a component type has been selected (*Motherboard*, *Processor*...), you"
+" are redirected to the list of components already created."
 msgstr ""
 
-#: ../../source/modules/configuration/components.rst:-1
+#: ../../source/modules/configuration/components.rst-1
 msgid "List of components"
 msgstr ""
 
@@ -71,7 +72,7 @@ msgstr ""
 msgid "Example for a Processor:"
 msgstr ""
 
-#: ../../source/modules/configuration/components.rst:-1
+#: ../../source/modules/configuration/components.rst-1
 msgid "Processor component details"
 msgstr ""
 
@@ -81,22 +82,22 @@ msgstr ""
 
 #: ../../source/modules/configuration/components.rst:40
 msgid ""
-"The elements tab allows to visualize the computers linked to the "
-"component."
+"The elements tab allows to visualize the computers linked to the component."
 msgstr ""
 
-#: ../../source/modules/configuration/components.rst:-1
+#: ../../source/modules/configuration/components.rst-1
 msgid "Component associated items"
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:48
 msgid ""
-"**It is possible to modify the characteristics of a component only for "
-"the linked item**"
+"**It is possible to modify the characteristics of a component only for the "
+"linked item**"
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:50
-msgid "From the *Elements* tab of the component, click on the **Update** link."
+msgid ""
+"From the *Elements* tab of the component, click on the **Update** link."
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:52
@@ -125,14 +126,13 @@ msgstr ""
 
 #: ../../source/modules/configuration/components.rst:58
 msgid ""
-":doc:`Debug tab <../tabs/debug>`: only shown if you have debug mode "
-"enabled"
+":doc:`Debug tab <../tabs/debug>`: only shown if you have debug mode enabled"
 msgstr ""
 
 #: ../../source/modules/configuration/components.rst:59
 msgid ""
-":doc:`All tab <../tabs/all>`: for an item, all information is displayed "
-"on a page"
+":doc:`All tab <../tabs/all>`: for an item, all information is displayed on a"
+" page"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:2
@@ -141,30 +141,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:2
@@ -173,8 +173,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -201,16 +201,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/all.rst:2
@@ -219,8 +219,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

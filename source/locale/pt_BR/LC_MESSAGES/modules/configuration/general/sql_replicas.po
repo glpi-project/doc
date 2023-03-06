@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:2
 msgid "SQL replicas"
@@ -29,21 +29,21 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:6
 msgid ""
-"This tab is only visible if the option has been enabled in the `system "
-"tab <system.html>`_."
+"This tab is only visible if the option has been enabled in the `system tab "
+"<system.html>`_."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:11
 msgid ""
-"To activate the replica management, you just have to fill in the "
-"connection parameters. It is advisable to use a login that has only read "
-"privileges on the database."
+"To activate the replica management, you just have to fill in the connection "
+"parameters. It is advisable to use a login that has only read privileges on "
+"the database."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:14
 msgid ""
-"You can use several replicates by separating them with a comma. A "
-"specific port can also be added."
+"You can use several replicates by separating them with a comma. A specific "
+"port can also be added."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:19
@@ -56,8 +56,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:23
 msgid ""
-"The main server cannot be reached. In this case, GLPI will switch to "
-"read-only mode."
+"The main server cannot be reached. In this case, GLPI will switch to read-"
+"only mode."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:25
@@ -66,8 +66,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:27
 msgid ""
-"It is also possible to use replicas for the search engine depending on "
-"the option chosen."
+"It is also possible to use replicas for the search engine depending on the "
+"option chosen."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:29
@@ -76,23 +76,22 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:31
 msgid ""
-"**If synced (all changes)** GLPI will check the synchronization and use "
-"the replica if all changes have been replicated."
+"**If synced (all changes)** GLPI will check the synchronization and use the "
+"replica if all changes have been replicated."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:34
 msgid ""
-"**If synced (current user changes)** GLPI will check the synchronization "
-"and use the replica if all the changes for the current user have been "
-"replicated. If using a read-only account, the replica will always be "
-"used."
+"**If synced (current user changes)** GLPI will check the synchronization and"
+" use the replica if all the changes for the current user have been "
+"replicated. If using a read-only account, the replica will always be used."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:38
 msgid ""
-"**If synced or read-only account** GLPI will check the synchronization "
-"and use the replica if all changes have been replicated. If using a read-"
-"only account, the replica will always be used."
+"**If synced or read-only account** GLPI will check the synchronization and "
+"use the replica if all changes have been replicated. If using a read-only "
+"account, the replica will always be used."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:42
@@ -101,14 +100,13 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:46
 msgid ""
-"When always using the replica, it is possible that the results will be "
-"out of date. A different option should be considered before this one."
+"When always using the replica, it is possible that the results will be out "
+"of date. A different option should be considered before this one."
 msgstr ""
 
 #: ../../source/modules/configuration/general/sql_replicas.rst:51
 msgid ""
-"The replication configuration of your database is not set by GLPI. You "
-"still need to configure that with the appropriate tools for your database"
-" management system."
+"The replication configuration of your database is not set by GLPI. You still"
+" need to configure that with the appropriate tools for your database "
+"management system."
 msgstr ""
-

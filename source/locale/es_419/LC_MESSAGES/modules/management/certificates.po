@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/management/certificates.rst:2
 msgid "Certificates"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Anticipate and follow certificates renewal."
 msgstr ""
 
-#: ../../source/modules/management/certificates.rst:-1
+#: ../../source/modules/management/certificates.rst-1
 msgid "Main fields of a certificate"
 msgstr ""
 
@@ -67,9 +67,9 @@ msgstr ""
 
 #: ../../source/modules/management/certificates.rst:22
 msgid ""
-"**DNS name**: The prefix of the domain name associated with the "
-"certificate (for example, if domain name is `server.mycompany.com`, DNS "
-"name is `server`);"
+"**DNS name**: The prefix of the domain name associated with the certificate "
+"(for example, if domain name is `server.mycompany.com`, DNS name is "
+"`server`);"
 msgstr ""
 
 #: ../../source/modules/management/certificates.rst:23
@@ -81,8 +81,8 @@ msgstr ""
 
 #: ../../source/modules/management/certificates.rst:24
 msgid ""
-"**Expiration date**: Expiration date of the certificate, useful to "
-"configure alerts and anticipate renewal;"
+"**Expiration date**: Expiration date of the certificate, useful to configure"
+" alerts and anticipate renewal;"
 msgstr ""
 
 #: ../../source/modules/management/certificates.rst:25
@@ -93,8 +93,8 @@ msgstr ""
 
 #: ../../source/modules/management/certificates.rst:26
 msgid ""
-"**Certificate Request (CSR)**: Can store the system command that "
-"generated the CSR file;"
+"**Certificate Request (CSR)**: Can store the system command that generated "
+"the CSR file;"
 msgstr ""
 
 #: ../../source/modules/management/certificates.rst:27
@@ -115,7 +115,7 @@ msgstr ""
 msgid "The *Items* tab is used to show or add linked assets."
 msgstr ""
 
-#: ../../source/modules/tabs/elements.rst:-1
+#: ../../source/modules/tabs/elements.rst-1
 msgid "Adding and viewing an element"
 msgstr ""
 
@@ -125,36 +125,36 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:4
 msgid ""
-"Management of financial and administrative information, this information "
-"is visible in the 'Management' tab on the computer's form."
+"Management of financial and administrative information, this information is "
+"visible in the 'Management' tab on the computer's form."
 msgstr ""
 
-#: ../../source/modules/tabs/management.rst:-1
+#: ../../source/modules/tabs/management.rst-1
 msgid "Management screen"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:10
 msgid ""
 "By default this management is disabled. It is possible to activate the "
-"financial information on any type of object in the inventory by using the"
-" link in the *Management* tab of the material detail."
+"financial information on any type of object in the inventory by using the "
+"link in the *Management* tab of the material detail."
 msgstr ""
 
-#: ../../source/modules/tabs/management.rst:-1
+#: ../../source/modules/tabs/management.rst-1
 msgid "Enable management"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:18
 msgid ""
-"It is possible to activate the administrative and financial information "
-"from the massive actions on a set of elements (computer, monitor, ...)"
+"It is possible to activate the administrative and financial information from"
+" the massive actions on a set of elements (computer, monitor, ...)"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:21
 msgid ""
-"It is possible to activate the administrative and financial information "
-"as soon as an element is created. See \"Enable default administrative and"
-" financial information\" option in Setup > General > Asset tab."
+"It is possible to activate the administrative and financial information as "
+"soon as an element is created. See \"Enable default administrative and "
+"financial information\" option in Setup > General > Asset tab."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:24
@@ -195,9 +195,9 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:39
 msgid ""
-"Supplier: Third party who sold the equipment. See :doc:`Managing "
-"suppliers </modules/management/suppliers>`. Suppliers are managed from "
-"the menu **Management > Suppliers**."
+"Supplier: Third party who sold the equipment. See :doc:`Managing suppliers "
+"</modules/management/suppliers>`. Suppliers are managed from the menu "
+"**Management > Suppliers**."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:40
@@ -222,20 +222,20 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:45
 msgid ""
-"Warranty extension value: cost of the warranty extension, but preferably "
-"use contracts."
+"Warranty extension value: cost of the warranty extension, but preferably use"
+" contracts."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:46
 msgid ""
-"Account net value: this is the automatic calculation of the gross value "
-"of a piece of equipment minus the amount of depreciation."
+"Account net value: this is the automatic calculation of the gross value of a"
+" piece of equipment minus the amount of depreciation."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:47
 msgid ""
-"Type of depreciation: choice of the type of depreciation between linear "
-"and declining balance."
+"Type of depreciation: choice of the type of depreciation between linear and "
+"declining balance."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:48
@@ -258,8 +258,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:51
 msgid ""
-"Budget: the budget on which this equipment was purchased See "
-":doc:`Managing the budget <../management/budgets>`."
+"Budget: the budget on which this equipment was purchased See :doc:`Managing "
+"the budget <../management/budgets>`."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:52
@@ -280,8 +280,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:56
 msgid ""
-"Date of last physical inventory: date of the last physical inventory of "
-"the equipment."
+"Date of last physical inventory: date of the last physical inventory of the "
+"equipment."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:57
@@ -290,8 +290,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:58
 msgid ""
-"Monthly TCO: TCO divided by the number of months between today's date and"
-" the date of purchase of the equipment."
+"Monthly TCO: TCO divided by the number of months between today's date and "
+"the date of purchase of the equipment."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:61
@@ -299,7 +299,8 @@ msgid "Warranty information"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:63
-msgid "Warranty start date: date on which the warranty of the equipment starts"
+msgid ""
+"Warranty start date: date on which the warranty of the equipment starts"
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:64
@@ -319,9 +320,9 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:68
 msgid ""
-"All the dates defined can be managed automatically according to changes "
-"in the status of the equipment. Some dates can also be copied from "
-"another date. All this configuration is done by "
+"All the dates defined can be managed automatically according to changes in "
+"the status of the equipment. Some dates can also be copied from another "
+"date. All this configuration is done by "
 "[entity](administration_entity_delegation.dita)."
 msgstr ""
 
@@ -331,27 +332,26 @@ msgstr ""
 
 #: ../../source/modules/tabs/management.rst:73
 msgid ""
-"GLPI allows you to configure a notification on the expiry of the hardware"
-" warranty. This is configurable by entity in :ref:`notification "
-"management <configure_notifications>` to define the models and recipients"
-" used and in :doc:`the administration of entities "
-"</modules/administration/entities>` to enable or disable this feature, "
-"define the default values and anticipate the sending of the notification "
-"if necessary."
+"GLPI allows you to configure a notification on the expiry of the hardware "
+"warranty. This is configurable by entity in :ref:`notification management "
+"<configure_notifications>` to define the models and recipients used and in "
+":doc:`the administration of entities </modules/administration/entities>` to "
+"enable or disable this feature, define the default values and anticipate the"
+" sending of the notification if necessary."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:75
 msgid ""
-"GLPI can perform a simple net book value calculation based on straight-"
-"line or declining balance depreciation. To do so, a certain amount of "
-"information (value, date, etc.) must be entered. The user must also enter"
-" the date of the financial year the general configuration."
+"GLPI can perform a simple net book value calculation based on straight-line "
+"or declining balance depreciation. To do so, a certain amount of information"
+" (value, date, etc.) must be entered. The user must also enter the date of "
+"the financial year the general configuration."
 msgstr ""
 
 #: ../../source/modules/tabs/management.rst:78
 msgid ""
-"The display of financial information for each type of equipment depends "
-"on the profile of the user logged in."
+"The display of financial information for each type of equipment depends on "
+"the profile of the user logged in."
 msgstr ""
 
 #: ../../source/modules/tabs/contracts.rst:2
@@ -362,7 +362,7 @@ msgstr ""
 msgid "The *Contracts* tab is used to show or add linked contracts."
 msgstr ""
 
-#: ../../source/modules/tabs/contracts.rst:-1
+#: ../../source/modules/tabs/contracts.rst-1
 msgid "Contract display screen"
 msgstr ""
 
@@ -370,14 +370,14 @@ msgstr ""
 msgid ""
 "For each associated contract, the name, number, contract type, supplier, "
 "start date and initial duration of the contract are listed. In the last "
-"field, the end date of the contract is also shown with a red display if "
-"the date is earlier than the current date."
+"field, the end date of the contract is also shown with a red display if the "
+"date is earlier than the current date."
 msgstr ""
 
 #: ../../source/modules/tabs/contracts.rst:13
 msgid ""
-"Refer to :doc:`contract management </modules/management/contract>` for "
-"more information."
+"Refer to :doc:`contract management </modules/management/contract>` for more "
+"information."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:2
@@ -386,30 +386,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/knowledgebase.rst:2
@@ -422,7 +422,7 @@ msgid ""
 "articles."
 msgstr ""
 
-#: ../../source/modules/tabs/knowledgebase.rst:-1
+#: ../../source/modules/tabs/knowledgebase.rst-1
 msgid "Viewing or adding a knowledge base entry"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgid ""
 "object. It also lists the tickets already linked to the object."
 msgstr ""
 
-#: ../../source/modules/tabs/tickets.rst:-1
+#: ../../source/modules/tabs/tickets.rst-1
 msgid "Image of the ticket list"
 msgstr ""
 
@@ -454,8 +454,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:4
 msgid ""
-"The *Problems* tab is used to create a problem associated with the "
-"current object. It also lists the changes already linked to the object."
+"The *Problems* tab is used to create a problem associated with the current "
+"object. It also lists the changes already linked to the object."
 msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:6
@@ -469,8 +469,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/problems.rst:9
 msgid ""
-"Date (opening or expiry date, resolution or closing date depending on the"
-" status of the problem)"
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the problem)"
 msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:10
@@ -497,7 +497,7 @@ msgstr ""
 msgid "Column indicating the number of scheduled tasks"
 msgstr ""
 
-#: ../../source/modules/tabs/problems.rst:-1
+#: ../../source/modules/tabs/problems.rst-1
 msgid "Creation and list of associated problems"
 msgstr ""
 
@@ -525,15 +525,15 @@ msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:9
 msgid ""
-"Date (opening or expiry date, resolution or closing date depending on the"
-" status of the change)"
+"Date (opening or expiry date, resolution or closing date depending on the "
+"status of the change)"
 msgstr ""
 
 #: ../../source/modules/tabs/changes.rst:15
 msgid "Number of scheduled tasks"
 msgstr ""
 
-#: ../../source/modules/tabs/changes.rst:-1
+#: ../../source/modules/tabs/changes.rst-1
 msgid "Creation and list of associated changes"
 msgstr ""
 
@@ -555,15 +555,14 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:6
 msgid ""
-"For some items, external links are managed from the menu **Setup > "
-"External links**."
+"For some items, external links are managed from the menu **Setup > External "
+"links**."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:8
 msgid ""
-"These links can use object fields such as IP, name, etc. See "
-":doc:`Configure protocol external links "
-"</modules/configuration/external_links>`."
+"These links can use object fields such as IP, name, etc. See :doc:`Configure"
+" protocol external links </modules/configuration/external_links>`."
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:10
@@ -572,8 +571,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:12
 msgid ""
-"A web link: http://192.168.0.1 (IP retrieved from the network port of the"
-" hardware) ;"
+"A web link: http://192.168.0.1 (IP retrieved from the network port of the "
+"hardware) ;"
 msgstr ""
 
 #: ../../source/modules/tabs/external-links.rst:13
@@ -592,7 +591,7 @@ msgid ""
 "information. Notes are displayed in the order of their creation."
 msgstr ""
 
-#: ../../source/modules/tabs/notes.rst:-1
+#: ../../source/modules/tabs/notes.rst-1
 msgid "View and enter a note"
 msgstr ""
 
@@ -602,8 +601,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -630,16 +629,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/all.rst:2
@@ -648,8 +647,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

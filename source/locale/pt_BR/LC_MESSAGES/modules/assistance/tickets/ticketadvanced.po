@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:2
 msgid "To go further"
@@ -35,8 +35,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:12
 msgid ""
-"Using ticket templates, it is possible to customize ticket creation form "
-"by masking, pre-defining or making mandatory some fields."
+"Using ticket templates, it is possible to customize ticket creation form by "
+"masking, pre-defining or making mandatory some fields."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:14
@@ -48,7 +48,8 @@ msgid "Collectors"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:19
-msgid "External tools can interact with assistance module using mail collectors."
+msgid ""
+"External tools can interact with assistance module using mail collectors."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:21
@@ -93,7 +94,8 @@ msgid "Ticket is created"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:34
-msgid "An answer to a mail coming from GLPI will go through the following steps:"
+msgid ""
+"An answer to a mail coming from GLPI will go through the following steps:"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:37
@@ -109,7 +111,8 @@ msgid "Recurrent tickets"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:44
-msgid "See :doc:`Recurrent tickets </modules/assistance/tickets/recurrentticket>`"
+msgid ""
+"See :doc:`Recurrent tickets </modules/assistance/tickets/recurrentticket>`"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:48
@@ -117,7 +120,8 @@ msgid "Attached costs"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:50
-msgid "See :doc:`Attached costs </modules/assistance/tickets/ticketmanagement>`"
+msgid ""
+"See :doc:`Attached costs </modules/assistance/tickets/ticketmanagement>`"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:54
@@ -174,13 +178,13 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:82
 msgid ""
-"ITIL best practices recommends a validation of the solution by the ticket"
-" requester, who validates that the answer provided by the technician "
-"corresponds to the demand. However, if the requester does not fulfill "
-"this validation, it is possible to parameterize an administrative closure"
-" after a delay which can be configured at entity level (see "
-":doc:`Assistance tab </modules/administration/entities>`). If this delay "
-"is set to zero, the ticket is automatically closed."
+"ITIL best practices recommends a validation of the solution by the ticket "
+"requester, who validates that the answer provided by the technician "
+"corresponds to the demand. However, if the requester does not fulfill this "
+"validation, it is possible to parameterize an administrative closure after a"
+" delay which can be configured at entity level (see :doc:`Assistance tab "
+"</modules/administration/entities>`). If this delay is set to zero, the "
+"ticket is automatically closed."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:86
@@ -193,10 +197,10 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:90
 msgid ""
-"A satisfaction survey is triggered when the ticket status is set to "
-"*Closed* and the triggering delay is elapsed. This triggering delay is "
-"parameterized at entity level (see :doc:`Delegate administration at "
-"entity level </modules/administration/entities>`)."
+"A satisfaction survey is triggered when the ticket status is set to *Closed*"
+" and the triggering delay is elapsed. This triggering delay is parameterized"
+" at entity level (see :doc:`Delegate administration at entity level "
+"</modules/administration/entities>`)."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:94
@@ -206,14 +210,14 @@ msgstr ""
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:96
 msgid ""
 "When ticket is closed, a notification that includes a link to the "
-"satisfaction survey can be sent to the requester. The requester will also"
-" have access to the survey from the ticket form in tab `Satisfaction`."
+"satisfaction survey can be sent to the requester. The requester will also "
+"have access to the survey from the ticket form in tab `Satisfaction`."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:98
 msgid ""
-"The requester can then select the satisfaction level (from 0 to 5, given "
-"as stars) about the ticket solution. A comment can also be added."
+"The requester can then select the satisfaction level (from 0 to 5, given as "
+"stars) about the ticket solution. A comment can also be added."
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:100
@@ -230,8 +234,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:105
 msgid ""
-"a notification can be sent when satisfaction survey is generated, but "
-"also on each answer to this survey"
+"a notification can be sent when satisfaction survey is generated, but also "
+"on each answer to this survey"
 msgstr ""
 
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:109
@@ -241,4 +245,3 @@ msgstr ""
 #: ../../source/modules/assistance/tickets/ticketadvanced.rst:111
 msgid "See :doc:`Advanced configuration </modules/assistance/categories>`."
 msgstr ""
-
