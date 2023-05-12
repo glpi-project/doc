@@ -58,7 +58,7 @@ LDAP directory
 
 * **Default server**: If you have multiple LDAP servers set up, you can only define one default server. Choosing this setting will remove it from the server it was previously set to.
 * **Server** and **Port**: Represent the address and port of the LDAP directory.
-   GLPI can connect to a LDAP directory through a LDAPS connection. To enable this, prefix your server entry by *ldaps://* and change the port to the LDAPS one of your LDAP directory (default 636).
+   GLPI can connect to an LDAP directory through an LDAPS connection. To enable this, prefix your server field with *ldaps://* and change the port to the LDAPS one of your LDAP directory (default 636).
 
 * **Connection filter**: Allows you to restrict the search for users in the directory. For example, if only a restricted set of users have the right to connect to GLPI, you can create a condition to restrict the search to that set of users.
 
