@@ -58,6 +58,8 @@ LDAP directory
 
 * **Default server**: If you have multiple LDAP servers set up, you can only define one default server. Choosing this setting will remove it from the server it was previously set to.
 * **Server** and **Port**: Represent the address and port of the LDAP directory.
+   GLPI can connect to a LDAP directory through a LDAPS connection. To enable this, prefix your server entry by *ldaps://* and change the port to the LDAPS one of your LDAP directory (default 636).
+
 * **Connection filter**: Allows you to restrict the search for users in the directory. For example, if only a restricted set of users have the right to connect to GLPI, you can create a condition to restrict the search to that set of users.
 
    Some example filters:
@@ -138,9 +140,6 @@ Advanced Information
 
 In case the server hosting the LDAP directory is in a different timezone as GLPI, it is necessary to modify the **Timezone** variable to account for the difference.
 
-**Secure LDAP connection**
-
-GLPI can connect to a LDAP directory through a LDAPS connection. To enable this, add the *ldaps://* prefix to your host/server IP and change the port to your server's LDAPS port (default 636).
 
 **Limit of the number of records returned**
 
@@ -188,6 +187,7 @@ To help avoid this situation, replicates can be declared in GLPI. These are LDAP
 
 Replicates are only used when the connection to the main server is lost.
 The addition of replicates in GLPI is done by entering a **Name** which is displayed in GLPI, as well as a **Server**, **Port**, and **Timeout** in the **Replicates** tab in the LDAP directory.
+To enable LDAPS, prefix your server entry by *ldaps://* and change the port to the LDAPS one of your LDAP directory (default 636).
 There is no limit to the number of replicates per LDAP directory.
 
 .. include:: ../../tabs/historical.rst
