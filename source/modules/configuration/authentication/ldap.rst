@@ -187,7 +187,7 @@ To help avoid this situation, replicates can be declared in GLPI. These are LDAP
 
 Replicates are only used when the connection to the main server is lost.
 The addition of replicates in GLPI is done by entering a **Name** which is displayed in GLPI, as well as a **Server**, **Port**, and **Timeout** in the **Replicates** tab in the LDAP directory.
-To enable LDAPS, prefix your server entry by *ldaps://* and change the port to the LDAPS one of your LDAP directory (default 636).
+To enable LDAPS, prefix your server entry with *ldaps://* and change the port to the LDAPS one of your LDAP directory (default 636).
 There is no limit to the number of replicates per LDAP directory.
 
 .. include:: ../../tabs/historical.rst
