@@ -5,7 +5,7 @@ GLPI uses `gettext` tool to manage its translations. You can override the defaul
 This is the preferred method rather editing the original po files and avoid losing your changes when updating GLPI.
 
 To do so, you need to create a file named `filename.po` in the `files/_locales` directory.
-Depending on your GLPI configuration, the _locales directory can be located elsewhere (if you provided a `local_define.php` file with a `GLPI_LOCALES_DIR` constant).
+Depending on your GLPI configuration, the _locales directory can be located elsewhere (if you provided a `local_define.php` file with a `GLPI_LOCAL_I18N_DIR` constant).
 It's possible to have multiple files, to manage several languages for example.
 
 The file must be a valid `gettext` file. You can use `Poedit <https://poedit.net/>`_ to create it.
