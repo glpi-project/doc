@@ -11,6 +11,7 @@ It's possible to have multiple files, to manage several languages for example.
 The file must be a valid `gettext` file. You can use [Poedit](https://poedit.net/) to create it.
 
 .. code-block:: po
+
     # Override PO file
     #
     msgid ""
@@ -33,6 +34,7 @@ The file must be a valid `gettext` file. You can use [Poedit](https://poedit.net
 Next you need to compile your .po file into a .mo file readable by GLPI. To do so, you can use the following command:
 
 .. code-block:: bash
+
     $ cd files/_locales
     $ msgfmt -o filename.mo filename.po
 
