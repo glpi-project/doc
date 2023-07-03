@@ -8,7 +8,7 @@ To do so, you need to create a file named `filename.po` in the `files/_locales` 
 Depending on your GLPI configuration, the _locales directory can be located elsewhere (if you provided a `local_define.php` file with a `GLPI_LOCALES_DIR` constant).
 It's possible to have multiple files, to manage several languages for example.
 
-The file must be a valid `gettext` file. You can use [Poedit](https://poedit.net/) to create it.
+The file must be a valid `gettext` file. You can use `Poedit <https://poedit.net/>`_ to create it.
 
 .. code-block:: po
 
