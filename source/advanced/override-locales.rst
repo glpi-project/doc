@@ -1,7 +1,7 @@
 Override GLPI locales
 ---------------------
 
-GLPI uses `gettext <https://www.gnu.org/software/gettext/>`_ tool to manage its translations. You can override the default.
+GLPI uses the `gettext <https://www.gnu.org/software/gettext/>`_ tool to manage its translations. You can override the default.
 This is the preferred method rather than editing the original po files and risk losing your changes when updating GLPI.
 
 To do so, you need to create a file named ``filename.po`` in the ``files/_locales/core/`` directory.
