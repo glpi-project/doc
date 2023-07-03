@@ -43,4 +43,4 @@ Next you need to compile your .po file into a .mo file readable by GLPI. To do s
     $ msgfmt -o filename.mo filename.po
 
 Finally, GLPI uses a cache system to avoid loading MO files at each request. You need to clear the cache to see your changes.
-To do so, go to "Setup > General", "Performance" tab and click on "Reset" button on the "Translation cache" section.
+To do so, in Debug mode, go to "Setup > General", "Performance" tab and click on "Reset" button on the "Translation cache" section.
