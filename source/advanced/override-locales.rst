@@ -32,8 +32,8 @@ The file must be a valid `gettext` file. You can use `Poedit <https://poedit.net
     msgid "Login"
     msgstr "Login from local gettext"
 
-`msgid` is the original string, `msgstr` is the translation.
-You can find the correct sentences to use in the `locales/glpi.pot` file.
+`msgid` is the source string, `msgstr` is the translation.
+You can find the correct source sentences to use in the `locales/glpi.pot` file.
 
 Next you need to compile your .po file into a .mo file readable by GLPI. To do so, you can use the following command:
 
