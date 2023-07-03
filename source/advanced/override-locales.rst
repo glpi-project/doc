@@ -4,7 +4,8 @@ Override GLPI locales
 GLPI uses `gettext` tool to manage its translations. You can override the default.
 This is the preferred method rather editing the original po files and avoid losing your changes when updating GLPI.
 
-To do so, you need to create a file named `filename.po` in the `files/_locales` directory.
+To do so, you need to create a file named `filename.po` in the `files/_locales/core/` directory.
+You can also create overrides for plugins with the same method in `files/_locales/pluginkey/` directory where `pluginkey` matches the plugin folder name.
 Depending on your GLPI configuration, the _locales directory can be located elsewhere (if you provided a `local_define.php` file with a `GLPI_LOCAL_I18N_DIR` constant).
 It's possible to have multiple files, to manage several languages for example.
 
@@ -38,7 +39,7 @@ Next you need to compile your .po file into a .mo file readable by GLPI. To do s
 
 .. code-block:: bash
 
-    $ cd files/_locales
+    $ cd files/_locales/core/
     $ msgfmt -o filename.mo filename.po
 
 Finally, GLPI uses a cache system to avoid loading the .mo files at each request. You need to clear the cache to see your changes.
