@@ -6,8 +6,11 @@ This is the preferred method rather than editing the original po files and risk 
 
 To do so, you need to create a file named ``filename.po`` in the ``files/_locales/core/`` directory.
 You can also create overrides for plugins with the same method in ``files/_locales/pluginkey/`` directory where ``pluginkey`` matches the plugin folder name.
-Depending on your GLPI configuration, the ``_locales`` directory can be located elsewhere (if you provided a ``local_define.php`` file with a ``GLPI_LOCAL_I18N_DIR`` constant).
-It's possible to have multiple files, to manage several languages for example.
+
+.. note::
+
+   Depending on your GLPI configuration, the ``_locales`` directory can be located elsewhere (if you provided a ``local_define.php`` file with a ``GLPI_LOCAL_I18N_DIR`` constant).
+   It's possible to have multiple files, to manage several languages for example.
 
 The file must be a valid `gettext` file. You can use `Poedit <https://poedit.net/>`_ to create it.
 
