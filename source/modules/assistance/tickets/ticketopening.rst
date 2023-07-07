@@ -60,7 +60,7 @@ Specific fields:
   Allows to associate an item of the inventory with the ticket. The content of the list depends upon parameters defined in user's profile (see :doc:`Administer user profile </modules/administration/profiles/profiles>`.
 
 * **Watchers**:
-  Allows to add a watcher and to define notification parameters. Only members of the requester group can be added.
+  Allows to add a watcher and to define notification parameters.
 
   .. hint::
 
