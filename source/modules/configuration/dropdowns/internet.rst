@@ -21,11 +21,11 @@ At the IP protocol level, networks are either in IPv4 or IPv6.
 
    GLPI manages IPv4 and IPv6 differently. The only differences are the format of the addresses and masks.
 
-`212.85.137.66` is an IPv4 address, while `2a00:1450:4007:803::1012` is in IPv6.
+`212.85.137.66` is an IPv4 address, while `2a00:1450:4007:803::1012` is an IPv6 address.
 
 GLPI considers IPv4 as a subset of IPv6 through IPv4-mapped IPv6 addresses and treats them the same.
 
-GLPI, uses two representations for the IP addresses (IPv6 ad IPv4:
+GLPI uses two representations for the IP addresses (IPv6 ad IPv4):
 
 .. If the binary is only used internally, is there a need to add it to that user docs?
 
