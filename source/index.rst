@@ -37,8 +37,9 @@ Table of contents
    advanced/index
    cli
    glossary
+   common_fields
 
-   
+
 Documentation license
 ---------------------
 

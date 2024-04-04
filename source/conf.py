@@ -36,6 +36,7 @@ import sphinx_glpi_theme
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
+    'sphinx_new_tab_link',
 ]
 
 todo_include_todos = True
