@@ -38,6 +38,7 @@ Table of contents
    cli
    glossary
    common_fields
+   common_tabs
 
 
 Documentation license
