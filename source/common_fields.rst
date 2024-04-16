@@ -74,18 +74,18 @@ You can add a group manually or create a group directly by this field.
 - Click **+ Add**
 
 .. image:: ../image/add-group-1.png
-   :alt: module assets - user
+   :alt: module assets - group
    :align: center
    :scale: 63%
 .. image:: ../image/add-group-2.png
-   :alt: module assets - user
+   :alt: module assets - group
    :align: center
    :scale: 63%
 
 - In this window, you need to add users. In **Users** tab, select those you wish to associate with the group (prefer users with a technical or higher profile)
 
 .. image:: ../image/add-users-in-group.png
-   :alt: module assets - add user in group in charge
+   :alt: module assets - add user in group
    :align: center
    :scale: 43%
 
@@ -117,12 +117,12 @@ A group in charge can modify the information of the computer and his elements (s
 - Select if this group **can contain** **Items** and/or **Users**
 - Click **+ Add**
 
-.. image:: ../image/add-group-in-charge-1.png
+.. image:: ../image/add-group-1.png
    :alt: module assets - group in charge
    :align: center
    :scale: 63%
 
-.. image:: ../image/add-group-in-charge-2.png
+.. image:: ../image/add-group-2.png
    :alt: module assets - group in charge
    :align: center
    :scale: 63%
