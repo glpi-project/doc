@@ -195,7 +195,7 @@ Notifications
 ~~~~~~~~~~~~~
 
 .. image:: images/userprefs-custom-notifications.png
-   :alt: Screen for customizing user preferences custome notifications
+   :alt: Screen for customizing user notifications preferences
    :align: center
    :scale: 42 %
 
