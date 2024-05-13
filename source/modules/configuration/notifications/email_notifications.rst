@@ -12,35 +12,39 @@ Global Configuration
 
 The global configuration allows you to set the following options:
 
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                           **Option**                 |                                  **Meaning**                                                                                                                                 |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Administrator email`                                | GLPI Administrator email. This can be used as a special recipient in notifications                                                                                           |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Administrator name`                                 | The display name to use for the Administrator email address.                                                                                                                 |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `From email`                                         | The email address to use in the From field for emails sent by GLPI.                                                                                                          |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `From name`                                          | The display name to use for the From email address. |br| This name will be seen by end users.                                                                                |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Reply-to address`                                   | The email address to use when user's reply to the email notifications.                                                                                                       |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Reply-to name`                                      | The display name to use for the Reply-to email address.                                                                                                                      |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `No-Reply address`                                   | The email address to use for emails that shouldn't be responded to.                                                                                                          |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `No-Reply name`                                      | The display name to use for the No-Reply email address.                                                                                                                      |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Add documents into |br| ticket notifications`       | If enabled, documents attached to a ticket will be added to related notifications as links. |br| The links will use the GLPI URL specified in the general configuration.     |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Email signature`                                    | Text added at the end of every notification.                                                                                                                                 |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Way of sending emails`                              | Method to send emails (PHP, SMTP, SMTP+SSL, SMTP+TLS).                                                                                                                       |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Max delivery retries`                               | Number times GLPI will try to send a notification.                                                                                                                           |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Try to deliver again in (minutes)`                  | Time between notification delivery attempts.                                                                                                                                 |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+|                           **Option**                 |                                  **Meaning**                                                   |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Administrator email`                                | | GLPI Administrator email.                                                                    |
+|                                                      | | This can be used as a special recipient in notifications                                     |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Administrator name`                                 | The display name to use for the Administrator email address.                                   |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `From email`                                         | The email address to use in the From field for emails sent by GLPI.                            |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `From name`                                          | | The display name to use for the From email address.                                          |
+|                                                      | | This name will be seen by end users.                                                         |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Reply-to address`                                   | The email address to use when user's reply to the email notifications.                         |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Reply-to name`                                      | The display name to use for the Reply-to email address.                                        |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `No-Reply address`                                   | The email address to use for emails that shouldn't be responded to.                            |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `No-Reply name`                                      | The display name to use for the No-Reply email address.                                        |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+|  | `Add documents into`                              | | If enabled, documents attached to a ticket will be added                                     |
+|  | `ticket notifications`                            | | to related notifications as links.                                                           |
+|                                                      | | The links will use the GLPI URL specified in the general configuration.                      |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Email signature`                                    | Text added at the end of every notification.                                                   |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Way of sending emails`                              | Method to send emails (PHP, SMTP, SMTP+SSL, SMTP+TLS).                                         |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Max delivery retries`                               | Number times GLPI will try to send a notification.                                             |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| `Try to deliver again in (minutes)`                  | Time between notification delivery attempts.                                                   |
++------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 You can test the sending of notifications from the global notification configuration form by trying to send an email to the specified Administrator email address.
 
@@ -61,8 +65,8 @@ The following configuration options are available for the `SMTP` email method(s)
 - Check certificate - Verify the email server has a valid certificate.
 - SMTP host - The SMTP server address.
 - Port - The port to communicate with the SMTP host over.
-    Typically, this is port 25. Check your provider's documentation for more info.|br|
-    Also, additional configuration may be needed if your provider needs `IMAP OAuth <https://glpi-plugins.readthedocs.io/en/latest/oauthimap/index.html>`_
+    | Typically, this is port 25. Check your provider's documentation for more info.
+    | Also, additional configuration may be needed if your provider needs `IMAP OAuth <https://glpi-plugins.readthedocs.io/en/latest/oauthimap/index.html>`_.
 - SMTP login (optional) - Username to authenticate with the email server.
 - SMTP password (optional) - Password to authenticate with the email server.
 - Email sender - This may be needed for some email providers.
