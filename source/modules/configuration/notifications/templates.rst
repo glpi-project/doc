@@ -5,12 +5,12 @@ A template is a global object of GLPI that defines the information included in a
 
 The creation of a template is a complex operation, which impacts the users.
 Therefore, templates can only be modified by Administrators with the *Update* permission for the *Config* right.
-Moreover a template is not linked to an entity, which means that it is not possible to delegate its management to an administrator of a of a sub-entity.
+Moreover, a template is not linked to an entity, which means that it is not possible to delegate its management to an administrator of a sub-entity.
 
 A template reflects a communication to a user and can be available in several languages thanks to a translation mechanism.
-The use of tags (i.e. markers that are independent of the language used) language used) makes it possible to create a generic translation, available for all the languages of GLPI.
+The use of tags (i.e. markers that are independent of the language used) makes it possible to create a generic translation, available for all the languages of GLPI.
 
-GLPI comes with a set of pre-defined templates for all notifications (tickets, reservations, financial information, cartridges, consumables, licenses, MySQL synchronization ...).
+GLPI comes with a set of pre-defined templates for all notifications (tickets, reservations, financial information, cartridges, consumables, licenses, MySQL synchronization...).
 
 
 Parameters
@@ -37,7 +37,7 @@ Tab that lists the different notifications defined by language and allows adding
 
 - **Language**: Indicates the language to which this translation refers. If no language is selected in the drop-down list, this translation will be the default for this template.
 - **Subject**: Subject of the mail.
-- **Email text body**: Plain text without layout, used in cases where HTML is not allowed. If the field is empty then it is generated from the HTML body text.
+- **Email text body**: Plain text without layout, used in cases where HTML is not allowed. If the field is empty, then it is generated from the HTML body text.
 - **Email HTML body**: Text with HTML layout.
 
 .. note::
@@ -47,7 +47,7 @@ Tab that lists the different notifications defined by language and allows adding
 Tags
 ~~~~
 
-The tags allow to display data of the notification trigger object. **e.g.**: in a ticket you can retrieve its title, description, actors, ...
+The tags allow to display data of the notification trigger object. **e.g.**: in a ticket you can retrieve its title, description, actors...
 
 A tag is identified by **##** at the beginning and at the end.
 
