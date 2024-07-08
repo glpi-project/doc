@@ -8,6 +8,7 @@ It is also possible to quickly create a document via this tab by specifying the 
 .. image:: /modules/tabs/images/documents.png
    :alt: Document creation screen
    :align: center
+   :scale: 43%
 
 .. note::
 

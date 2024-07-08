@@ -16,23 +16,23 @@ Computer tab, includes basic information about the machine :
 
 
 * Name
-* `Location <../../common_fields.html#location>`_
-* `Technician in charge <../../common_fields.html#technician-in-charge>`_
-* `Group in charge <../../common_fields.html#group-in-charge>`_
-* `Alternate usernmame number <../../common_fields.html#Alternate-usernmame-number>`_
-* `Alternate usernmame <../../common_fields.html#Alternate-usernmame-number>`_
-* `User <../../common_fields.html#user>`_
-* `Group <../../common_fields.html#group>`_
-* `Comments <../../common_fields.html#comments>`_
-* `Status <../../common_fields.html#status>`_
-* `Computer type <../../common_fields.html#computer-type>`_
-* `Manufacturer <../../common_fields.html#manufacturer>`_
-* `Model <../../common_fields.html#model>`_
-* `Serial number <../../common_fields.html#serial-number>`_
-* `Inventory number <../../common_fields.html#inventory-number>`_
-* `Network <../../common_fields.html#network>`_
-* `UUID <../../common_fields.html#uuid>`_
-* `Update source <../../common_fields.html#update-source>`_
+* :doc:`Location </tabs/common_fields/location>`
+* :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
+* :doc:`Group in charge </tabs/common_fields/group_in_charge>`
+* :doc:`Alternate usernmame number </tabs/common_fields/alternate_username>`
+* :doc:`Alternate usernmame </tabs/common_fields/alternate_user>`
+* :doc:`User </tabs/common_fields/user>`
+* :doc:`Group </tabs/common_fields/group>`
+* :doc:`Comments </tabs/common_fields/comments>`
+* :doc:`Status </tabs/common_fields/status>`
+* :doc:`Computer type </tabs/common_fields/computer_type>`
+* :doc:`Manufacturer </tabs/common_fields/manufacturer>`
+* :doc:`Model </tabs/common_fields/model>`
+* :doc:`Serial number </tabs/common_fields/serial_number>`
+* :doc:`Inventory number </tabs/common_fields/inventory_number>`
+* :doc:`Network </tabs/common_fields/network>`
+* :doc:`UUID </tabs/common_fields/uuid>`
+* :doc:`Update source </tabs/common_fields/update_source>`
 
 If your computer has been inventoried by the automatic inventory, you can find informtions about the `Agent GLPI <https://glpi-agent.readthedocs.io/en/latest/>`_
 
@@ -48,33 +48,31 @@ If your computer has been inventoried by the automatic inventory, you can find i
 Impact Analysis
 ---------------
 
-`Impact analysis <../../common_tabs.html#impact-analysis>`_ enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
+:doc:`Impact analysis <../../tabs/impact_analysis>` enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
 This can be saved and exported
 
 
-Operating system
+Operating systems
 ----------------
 
-Operating system includes information about your machine's OS :
+:doc:`Operating systems <../../tabs/operating_systems>`  includes information about your machine's OS :
 
 * Name
-* Architecture
-* Kernel
-* Product ID
-* Company
-* Installation date
 * Version
-* Service pack
+* Architecture
+* Service Pack
+* Kernel
 * Edition
+* Product ID
 * Serial number
+* Company
 * Owner
 * Host ID
-
 
 Components
 ----------
 
-This tab lists the PC's components :
+This tab lists the PC's :doc:`compenents <../../tabs/components>` :
 
 * BIOS
 * Processor
@@ -87,18 +85,18 @@ This tab lists the PC's components :
 * Soundcard
 * Controller
 
-Each item has its own information (name, model, brand, memory capacity, number of cores/threads, etc.).
+Each item has its :doc:`own information <../../tabs/components>` (name, model, brand, memory capacity, number of cores/threads, etc.).
 
 Lines
 -----
 
-You can add telephone lines created in :doc:`Lines <../management/lines>`
+You can add telephone lines created in `Lines <../management/lines.html>`_
 
 
 Volumes
 -------
 
-Summarises all the volumes present (hard disk, DVD) as well as the partitions present on the workstation
+Summarises all the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) as well as the partitions present on the workstation
 (virtual disks such as Google Cloud may appear if they are installed as a network drive).
 
 * Name
@@ -115,117 +113,179 @@ Summarises all the volumes present (hard disk, DVD) as well as the partitions pr
 Software
 --------
 
-Lists all the applications brought up during the inventory and those added manually
+Lists all the :doc:`software <../../tabs/software>` brought up during the inventory and those added manually
+
+It is possible to install (in the logical sense) software on a PC manually.
+
+To add new :doc:`software <../../modules/assets/softwares>`  to the list of applications, you need to go to the Assets > Software tab,
+which will then be visible from the software tab of the various elements of the installed base.
 
 
+Connections
+-----------
+
+The :doc:`connections <../../tabs/connections>`  are all the other hardware connected to the machine :
+
+* `Device <devices.html>`_
+* `Monitor <monitors.html>`_
+* `Phone  <phones.html>`_
+* `Printers <printers.html>`_
+
+These items can be updated by the automatic inventory, but you can also connect them manually.
 
 
+Network Ports
+-------------
+
+This tab allows to manage the :doc:`network ports <../../tabs/network_ports>` attached to an equipment.
+The information that can be viewed is:
+
+* Name
+* Port number
+* MTU
+* Speed
+* Internal status
+* Last change
+* Number of I/O bytes
+* Number of I/O erros
+* Duplex
+* VLAN
+* Connected to
+* Connection
+* Deleted
 
 
-**-------------------OLD DOCUMENTATION-----------------**
+Sockets
+-------
+
+:doc:`Sockets <../../tabs/sockets>` are the list of physical sockets present on the hardware. These sockets can be Ethernet, USB, HDMI, etc.
+This information cannot be returned by the automatic inventory, so you have to add it manually.
+
+It enables hardware to be linked by cables. Socket is also linked to the :doc:`cables <../modules/assets/cables>` object
+
+Remote management
+-----------------
+
+:doc:`Remote mamagement <../../tabs/remote-management>` is used to reference the remote access software installed on the workstation, such as Teamviewer, Anydesk, etc.
+It is possible to add software manually if required, but the information can be fed back via the automatic inventory.
+
+Management
+----------
+
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+
+Contracts
+---------
+
+**Résumé** :
+
+GLPI supports :doc:`contracts <../management/contract>` management, in order to manage contract types such as loan, maintenance, support...
+
+Contracts management allows to:
+
+* make an inventory of all contracts related to the organization assets
+* integrate contracts in GLPI financial management
+* anticipate and follow contract renewal.
+
+**Plus d'information** : :doc:`contracts <../management/contract>`
+
+Documents
+---------
+
+The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+You can attach a document already uploaded to GLPI or add a new one directly from this tab.
+
+Virtualization
+--------------
+
+:doc:`Virtualization <tabs/virtualization>` lists all the virtual machines present on the computer. Depending on the configuration,
+it is possible to create a new computer for each VM found or to reference the VMs in this tab.
+
+Antiviruses
+-----------
+
+:doc:`Antiviruses <tabs/antivirus>` lists all the antivirus programs detected on the computer.
+For Windows, it must be detected in the Windows Security Center in order to be listed in this tab.
 
 
+Knowledge Base
+--------------
+
+Lists all the articles in the :doc:`knowledge base <../tabs/knowledgebase>` relating to the material.
+
+Tickets
+-------
+
+View all :doc:`tickets <../tabs/tickets>` linked to the computer
+
+Problems
+--------
+
+This tab refers to all hardware-related :doc:`problems <../assistance/problems>`.
+Problems can also be linked to tickets, projects, etc. This allows you to have a complete scenario when necessary.
+
+Changes
+-------
+
+:doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+You can create a new change from this page, which will be linked to the material you have selected.
+
+Links
+-----
+
+:doc:`Links <../configuration/external_links>` offer several possibilities. Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
 
 
+Certificates
+------------
+
+Link a :doc:`certificate </modules/management/certificates>` to your registration. You can manage certificates in **Management** > **Certificates**
 
 
+Locks
+-----
 
-In a computer form, the following information is available:
-
-* Operating system:
-
-  * Name
-  * Version
-  * Service pack
-  * Serial number
-  * Product ID
-  * ...
-
-* General characteristics:
-
-  * Manufacturer
-  * Model
-  * Type
-  * Serial number
-  * ...
-
-* Management information:
-
-  * Technical manager
-  * Status
-  * Location
-  * ...
-
-* Users:
-
-  * Computer users, either known by GLPI or not
-
-Other fields are informative, such as `Network` (connexion type) and `Update source` (where are computer updates coming from (Windows update, yum, apt...).
-
-It is possible to use :doc:`templates with computers <../overview/templates>`.
-
-.. note::
-
-   * when GLPI is used with an inventory tool, various information provided by the tool itself are also available
-   * a computer can be a server, a desktop computer or a laptop; to differentiate them, it is possible to use the `type` field
+:doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
+You can lock/unlock the fields you wish in a GLPI object.
 
 
-The different tabs
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
+
+
+Domains
+-------
+
+You can attach :doc:`Domains </modules/management/domains>` to your computer. Domains are also linked to other objects such as records, problems, etc.
+
+
+Appliances
+----------
+
+:doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
+They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
+
+Databases
+---------
+
+:ref:`Databases </modules/management/databases>` list databases discovered by automatic inventory and those entered manually
+
+
+Import information
 ------------------
 
-.. include:: tabs/os.rst
+Import information is information that is uploaded and governed by equipment import rules
+(administration > rules > Rules for import and link equipments)
 
-.. include:: tabs/components.rst
-
-.. include:: tabs/volumes.rst
-
-.. include:: tabs/softwares.rst
-
-.. include:: tabs/connexions.rst
-
-.. include:: tabs/network-ports.rst
-
-.. include:: ../tabs/management.rst
-
-.. include:: ../tabs/contracts.rst
-
-.. include:: ../tabs/documents.rst
-
-.. include:: tabs/virtualization.rst
-
-.. include:: tabs/antivirus.rst
-
-.. include:: ../tabs/tickets.rst
-
-.. include:: ../tabs/problems.rst
-
-.. include:: ../tabs/changes.rst
-
-.. include:: ../tabs/external-links.rst
-
-.. include:: ../tabs/notes.rst
-
-.. todo::
-   Fix this reference (include or link???)
-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-   Gestion des réservations pour un objet d'inventaire
 
 .. include:: ../tabs/historical.rst
 
-.. include:: ../tabs/debug.rst
-
 .. include:: ../tabs/all.rst
-
-
-The different actions
----------------------
-
-Apart from :doc:`common actions <../overview/actions>`, some actions are specific to computers:
-
-* **Install a software with a license on a computer**
-  From the tab *Softwares*, add a license by choosing the name of the software followed by the name of the license.
-  From the *Mass actions* of summary table, choose **Install**
-
-.. warning::
-
-   A software can only be installed if its license has a version in use or a purchase version.

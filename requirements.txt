@@ -1,4 +1,8 @@
+#sphinx
+#recommonmark
+#sphinx_glpi_theme
+#sphinx_new_tab_link
+
 sphinx
-recommonmark
-sphinx_glpi_theme
-sphinx_new_tab_link
+sphinx-material
+sphinx-toolbox

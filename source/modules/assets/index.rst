@@ -24,7 +24,7 @@ Available types
    :maxdepth: 3
 
    computers
-   displays
+   monitors
    softwares
    Network equipments <network-equipments>
    peripherals
@@ -32,6 +32,7 @@ Available types
    cartridges
    consumables
    phones
+   cables
    global
 
 .. todo::

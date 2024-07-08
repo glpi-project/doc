@@ -13,59 +13,204 @@ Same as tickets, task, costs and solution allow to follow and solve the change. 
 
 Changes use their own notifications (see :doc:`configuration of email follow-ups <email_notifications>`).
 
+Add a change
+------------
+
+* To add a new change, click on **+ Add** at the top of the screen
+* Fill in the various tabs of your change to make it as complete as possible
+
+
+Status
+~~~~~~
+
+Several statuses are available, including some for test phases, validation, qualification, etc.
+
+.. image:: images/changes-status-1.png
+    :alt: View changes analysis
+    :scale: 100%
+    :align: center
+
+.. image:: images/changes-status-2.png
+    :alt: View changes analysis
+    :scale: 100%
+    :align: center
+
+Delete a change
+---------------
+
+* To delete a change, click on the change concerned
+* Click on put in trashbin at the bottom of the screen
+
+Restore or delete permanently
+-----------------------------
+
+* To delete or restore a change, click on the trashbin (at top right of screen)
+* Select the change concerned
+* Click on **Actions**
+* Select **Restore** or **Delete permanently**
+* Click on **Post**
+
+.. image:: images/changes-delete.png
+    :alt: View changes analysis
+    :scale: 45%
+
+.. Danger:: **Delete permanently** remove definitively the change, you won't be able to get it back.
+
 The different tabs
 ------------------
 
 Analysis
 ~~~~~~~~
 
-This tab contains impacts and check-lists in order to implement the change.
+This tab contains :
+
+- Impacts
+- Control list in order to implement the change.
+
+.. image:: images/changes-analysis.png
+    :alt: View changes analysis
+    :scale: 100%
 
 Plans
 ~~~~~
 
-This plan contains deployment plans, backup plans and check-lists.
+This plan contains :
 
-Projects
-~~~~~~~~
+- Deployment plan
+- Backup plan
+- Checklist
 
-This tab allows to attach a project to the change and displays already attached projects. 
+.. image:: images/changes-plans.png
+    :alt: View changes plans
+    :scale: 100%
 
-The summary table contains for each project status, opening or closing dates, priority and supervisors.
-
-Solutions
-~~~~~~~~~
-
-This tab allows to describe the resolution of the change. See :doc:`Solutions </Les_différents_onglets/Onglet_Solution>`
 
 Statistics
 ~~~~~~~~~~
 
-Statistics similar to tickets are available for changes. See :doc:`Statistics </Les_différents_onglets/Onglet_Statistiques>`
+The statistics are intended to provide information, showing how long it takes to take over, close a change, etc. Statistics similar to tickets
 
 Approvals
 ~~~~~~~~~
 
-See :doc:`Approvals </Les_différents_onglets/Onglet_Validations>`
+Approval allows you to send requests to groups and/or users (or certain users within a group) in order to obtain their validation of the change in question.
+You can see :doc:`Approvals <../../tabs/approvals>` for more information.
 
-Tasks
-~~~~~
 
-A task is an action linked with a change, usually a technical intervention. See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`
+.. include:: ../../tabs/cost.rst
 
-Costs
-~~~~~
+.. inlcude:: ../../tabs/projects.rst
 
-This tab defines the costs applicable to this change. See :doc:`Costs </Les_différents_onglets/Onglet_Coûts>`
-
-Elements
+Problems
 ~~~~~~~~
 
-This tab allows to attach an item to the change by choosing the type and the selected item. See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`
+Changes may be due to problems. In this tab, you can link a problem to your change.
 
-.. include:: ../tabs/tickets.rst
+.. image:: images/changes-problems.png
+    :alt: View problems tab
+    :scale: 43%
 
-.. include:: ../tabs/documents.rst
+Problems can be linked in several ways :
+
+* Linked To
+* Duplicates
+* Son of
+* Parent of
+
+.. image:: images/changes-problems-linkable.png
+    :alt: Possibily to link a problem
+    :scale: 100%
+
+
+Problems can be linked in several ways. This information is for information purposes only.
+
+Link a problem
+^^^^^^^^^^^^^^
+
+* To link a problem, select it une the dropdown list
+* Select the type of the link
+* Click on **Add**
+
+.. note:: You can not add a new problem here, you can just add an existing problem.
+    To add a new :doc:`problem <problems>`, go to **Assistance** > **Problems**
+
+Unlink a problem
+^^^^^^^^^^^^^^^^
+
+To unlink a problem, you need to use **massive actions**
+
+* Select the check box of the problem(s)
+* Click on **Actions**
+* Select **Unlink ITIL Object**
+* Select **Change**
+* Select the change concerned
+* Click on **Delete permanently**
+
+.. image:: images/changes-unlink.png
+    :alt: Possibily to link a problem
+    :scale: 42%
+
+
+Tickets
+~~~~~~~
+
+A change may have been introduced via a ticket. In this tab you can attach the ticket(s) affected by the change.
+
+.. image:: images/changes-tickets.png
+    :alt: View tickets tab
+    :scale: 43%
+
+Like problems, tickets can be linked in several ways :
+
+* Linked To
+* Duplicates
+* Son of
+* Parent of
+
+.. image:: images/changes-problems-linkable.png
+    :alt: Possibily to link a ticket
+    :scale: 100%
+
+Tickets can be linked in several ways. This information is for information purposes only.
+
+Link a ticket
+^^^^^^^^^^^^^^
+
+* To link a ticket, select it une the dropdown list
+* Select the type of the link
+* Click on **Add**
+
+.. note:: You can not add a new ticket here, you can just add an existing ticket.
+    To add a new :doc:`ticket <tickets>`, go to **Assistance** > **Tickets**
+
+Unlink a ticket
+^^^^^^^^^^^^^^^^
+
+To unlink a ticket, you need to use **massive actions**
+
+* Select the check box of the ticket(s)
+* Click on **Actions**
+* Select **Unlink ITIL Object**
+* Select **ticket**
+* Select the ticket concerned
+* Click on **Delete permanently**
+
+.. image:: images/changes-unlink.png
+    :alt: Possibily to link a problem
+    :scale: 42%
+
+.. include:: ../../tabs/item.rst
+
+
+Impact Analysis
+~~~~~~~~~~~~~~~~
+
+Impact analysis allows you to create diagrams of your infrastructure and see the impact of a change on it.
+
+To see how impact analysis works, go to :doc:`imapct analysis<../../tabs/impact_analysis>`
+
+
+.. include:: ../../tabs/knowledgebase.rst
 
 .. include:: ../tabs/notes.rst
 

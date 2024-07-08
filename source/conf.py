@@ -37,6 +37,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx_new_tab_link',
+    'sphinx_toolbox.collapse',
 ]
 
 todo_include_todos = True
