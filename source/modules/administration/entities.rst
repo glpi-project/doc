@@ -142,6 +142,15 @@ The option *Software creation entity* allows to redirect software creation to an
 
    This configuration option is not present if you have only one entity in your instance.
 
+UI Customization
+~~~~~~~~~~~~~~~~
+
+This tab allows you to configure custom CSS rules on a per-entity basis, specify inheriting custom CSS from a parent entity, or disabling custom CSS completely.
+
+.. note::
+
+   For creating custom palettes, see :doc:`Create custom palettes</advanced/custom_palettes>`.
+
 Users
 ~~~~~
 
