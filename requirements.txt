@@ -2,3 +2,4 @@ sphinx
 recommonmark
 sphinx_glpi_theme
 sphinx_new_tab_link
+sphinx_toolbox
