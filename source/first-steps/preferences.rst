@@ -199,7 +199,7 @@ Notifications
    :align: center
    :scale: 42 %
 
-you can define whether GLPI displays notifications when changes are made (updating a ticket, adding a task, etc.). you can define whether these should be displayed :
+You can define whether GLPI displays notifications when changes are made (updating a ticket, adding a task, etc.). You can define whether these should be displayed:
 
 - Top left
 - Top right

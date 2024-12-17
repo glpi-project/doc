@@ -13,4 +13,4 @@ Only users with an e-mail address defined in GLPI and not authenticating via an 
 
 Passwords must follow the defined security policy. A real-time check of the entered password is then carried out.
 
-See the :doc:`secruity <../modules/configuration/general/security>` tab in the configuration module
+See the :doc:`security configuration tab <../modules/configuration/general/security>`.
