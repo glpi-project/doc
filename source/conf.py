@@ -71,7 +71,7 @@ author = u'GLPI Project, Teclib\''
 # built documents.
 #
 # The short X.Y version.
-version = u'10.0'
+version = u'11'
 # The full version, including alpha/beta/rc tags.
 release = u'10.0'
 
