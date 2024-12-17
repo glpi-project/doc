@@ -246,7 +246,8 @@ You can test the rule location by clicking on **Test rules engines** in **Admini
 Manufacturer
 ~~~~~~~~~~~~~
 
-Manufacturers are automatically retrieved by the automatic inventory and assigned to the computer. you can also create/add them manually.
+Manufacturers are automatically retrieved by the automatic inventory and assigned to the computer. You can also create/add them manually.
+
 
 .. image:: ../image/manufacturer.png
    :alt: module assets - computer-manufacturer
@@ -295,7 +296,8 @@ Modeles can also be used by templates and rules.
    :scale: 63%
 
 
-Example with picture :
+Example with picture:
+
 
 .. image:: ../image/rack-model.png
    :alt: module assets - rack model
@@ -304,7 +306,8 @@ Example with picture :
 
 If you insert a machine with photos in a rack, the photos will be visible in that rack
 
-Example of a server in a rack with photo :
+Example of a server in a rack with photo:
+
 
 .. image:: ../image/example-rack-model.png
    :alt: module assets - rack view

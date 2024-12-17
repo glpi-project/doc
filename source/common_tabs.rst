@@ -20,7 +20,8 @@ This can be saved and exported
 Notions
 ~~~~~~~
 
-2 concepts need to be understood:
+Two concepts need to be understood:
+
 
 - **Impact**: represented by default by a red arrow. If this element encounters a problem, it will impact all linked elements.
 - **Dependency**: represented by default by a blue arrow. A dependency is an element which will be directly affected by the impact. A dependency does not necessarily affect the elements linked to it.
