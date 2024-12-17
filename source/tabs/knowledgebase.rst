@@ -11,7 +11,7 @@ The *Knowledge base* tab is used to show or add linked knowledge base articles.
 From this window, you can link an existing article to a GLPI object. However, it is not possible to create an article from this section.
 
 .. note:: You cannot create an article from this tab.
-    To create a new article, go to :doc:`knowledge base <../tools/knowledgebase>`
+    To create a new article, go to :doc:`knowledge base <../modules/tools/knowledgebase>`
 
 Link an article
 ^^^^^^^^^^^^^^^

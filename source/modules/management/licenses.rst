@@ -8,8 +8,8 @@ Licenses management in GLPI allows to manage software licenses:
 * Linking licenses to financial management;
 * Anticipating and following licenses renewal.
 
-.. note:: 
-        
+.. note::
+
    A license cannot exists in GLPI without a software associated to the license when creating it.
 
    License management is not automated, a human follow-up is needed for information update.
@@ -18,6 +18,7 @@ Licenses management in GLPI allows to manage software licenses:
 .. image:: images/licenses.png
    :alt: Characteristics of a license
    :align: center
+   :scale: 38 %
 
 .. include:: ../tabs/templates.rst
 
@@ -31,46 +32,56 @@ Description of specific fields
 * **Allow Over-Quota**: allow or not the overflow of maximum number configured in field `Number`;
 * **Expiration date**: expiration date of the license, useful to configure alerts and anticipate renewal.
 
-The different tabs
-------------------
 
 Licenses
-~~~~~~~~
+--------
 
 This tab lists all licenses declared as child of this license.
 
-.. note:: 
+.. note::
 
    Some licenses can be obtained by pack or by group, linking them by child/parent relationship allows to declare it.
 
-.. image:: images/child-licenses.png
+.. image:: images/licenses-child.png
    :alt: List of child licenses
    :align: center
+   :scale: 48 %
+
+To add a child licence, you need to create a licence from software and enter the parent licence in the **as child of** field.
+
+.. image:: images/licenses-child-add.png
+   :alt: Add licence child
+   :align: center
+   :scale: 48 %
+
+To unlink/modify/delete a child/parent, you can modify the entry in this same field
 
 
 Summary
-~~~~~~~
+-------
 
 This tab lists all types and entities of items linked to this license.
 
 .. note::
-   
+
    The number of installations must be carefully checked against the field `Number` of the license.
-        
+
    Creating a link between an asset and the license id done in tab `Softwares` of the asset.
 
-.. image:: images/summary-licenses.png
+.. image:: images/licenses-summary.png
    :alt: Summary of item types linked to the license
    :align: center
+   :scale: 48 %
 
 Items
-~~~~~
+-----
 
 This tab details each item linked to the license.
 
-.. image:: images/elements-licenses.png
+.. image:: images/licenses-elements.png
    :alt: List of items linked to the license
    :align: center
+   :scale: 48 %
 
 
 .. include:: ../tabs/management.rst
@@ -91,7 +102,7 @@ This tab details each item linked to the license.
 
 
 Certificates
-~~~~~~~~~~~~
+------------
 
 This tab allows to attach a certificate present in GLPI to the license.
 
@@ -100,3 +111,7 @@ This tab allows to attach a certificate present in GLPI to the license.
 .. include:: ../tabs/historical.rst
 
 .. include:: ../tabs/all.rst
+
+
+.. note:: You can prevent certain software, such as Microsoft KBs, from being brought up.
+          To do this, you need to set their parameters in :doc:`Management > Dictionnaries <../administration/dictionnaries>`

@@ -2,7 +2,7 @@ Computers
 =========
 
 Each computer has its own information and related hardware (monitor, components, etc.).
-All this information is divided into tabs? You can find your computers in **Assets > Computers**:
+All this information is divided into tabs. You can find your computers in **Assets > Computers**:
 
 Computer
 --------
@@ -68,6 +68,7 @@ Operating systems
 * Company
 * Owner
 * Host ID
+* Installation date
 
 Components
 ----------
@@ -177,8 +178,6 @@ Management
 Contracts
 ---------
 
-**Résumé** :
-
 GLPI supports :doc:`contracts <../management/contract>` management, in order to manage contract types such as loan, maintenance, support...
 
 Contracts management allows to:
@@ -187,7 +186,6 @@ Contracts management allows to:
 * integrate contracts in GLPI financial management
 * anticipate and follow contract renewal.
 
-**Plus d'information** : :doc:`contracts <../management/contract>`
 
 Documents
 ---------

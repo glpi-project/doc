@@ -1,5 +1,5 @@
 Network ports
-~~~~~~~~~~~~~
+-------------
 
 This tab, named `Network ports` and visible in a `Computer` entry, allows to manage the network ports attached to a computer.
 

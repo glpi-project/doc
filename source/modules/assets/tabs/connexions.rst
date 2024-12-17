@@ -1,5 +1,5 @@
 Connections
-~~~~~~~~~~~
+-----------
 
 This tab allows to manage the direct connections between a computer and its connected elements.
 

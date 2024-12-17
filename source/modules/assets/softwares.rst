@@ -7,13 +7,9 @@ A software is by default associated with an entity.
 
 Financial management is done at the level of licenses; the financial management at software level is only a model for the licenses associated with this software.
 
-Software can be imported automatically using a third-party inventory tool; in this case a dictionary can be used to filter or clean the import data (see [Configure data dictionaries](07_Module_Administration/06_Dictionnaires.rst "The dictionaries are managed from menu entry Administration > Dictionaries")).
-
-Some fields are specific in the software form:
-
-- **Update** is an information, with no processing associated and which tells whether the software is an update of another software
-- **Category** allows to group software in the list of software of an asset
-- **Can be associated with a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
+Software can be imported automatically using a third-party inventory tool; in this case
+a dictionary can be used to filter or clean the import data (see :doc:`Configure data dictionaries <../administration/dictionnaries>`.
+Dictionaries are managed from menu entry **Administration > Dictionaries**).
 
 
 It is recommended to first create the software without a version number in the name, then to create the versions and last to create the licenses.
@@ -24,30 +20,56 @@ It is recommended to first create the software without a version number in the n
 
 It is possible to use :doc:`templates with software <../overview/templates>`.
 
-The different tabs
-------------------
 
-.. _versions_soft:
+.. image:: images/softwares_global_view.png
+   :alt: module assets - software
+   :align: center
+   :scale: 38 %
+
+
+* Name
+* :doc:`Location </tabs/common_fields/location>`
+* :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
+* :doc:`Group in charge </tabs/common_fields/group_in_charge>`
+* :doc:`User </tabs/common_fields/user>`
+* :doc:`Group </tabs/common_fields/group>`
+* :doc:`Comments </tabs/common_fields/comments>`
+* :doc:`Pictures </tabs/common_fields/pictures>`
+
+Some fields are specific in the software form:
+
+- **Upgrade From** is an information, with no processing associated and which tells whether the software is an update of another software
+- **Sofware category** allows to group software in the list of software of an asset
+- **Associable to a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
+
+
+Impact Analysis
+---------------
+
+:doc:`Impact analysis <../../tabs/impact_analysis>` enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
+This can be saved and exported
+
 
 
 Versions
-~~~~~~~~
+--------
 
 A version of a software is the element that can be installed on a asset; see also :ref:`*Installations* tab <tab-install-software>`.
 
 The main view lists the number of installations of the version.
 
-Specific fields:
 
 * **Name**: the version number
 * **Status**: in ITIL recommendations, it allows to follow the DSL (library storing authorized versions)
 * **Operating system**: the operating system on which this software version runs
+* **Summuray**: overview of installations and entities in which the software is installed
 * **Installations**: the number of installations of the version
-* **Comment**: some comments
+* **Historical**: historical of the events
+* **All**: all previous elements
 
 
 Licenses
-~~~~~~~~
+--------
 
 
 ..  _tab-install-software:
@@ -104,7 +126,7 @@ How to realize a grouping:
 
 #. If the software does not exist in mother entity, create in this mother entity a software whose name is strictly identical to the name of software in child entities
 
-#. Open the form of the software of the mother entity 
+#. Open the form of the software of the mother entity
 
 #. Activate recursivity (sub-entities to Yes at top right); this will make a new tab `Grouping` appear after tab `History`
 
