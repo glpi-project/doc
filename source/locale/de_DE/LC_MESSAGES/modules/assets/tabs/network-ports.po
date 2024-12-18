@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assets/tabs/network-ports.rst:2
 msgid "Network ports"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:4
 msgid ""
-"This tab, named `Network ports` and visible in a `Computer` entry, allows"
-" to manage the network ports attached to a computer."
+"This tab, named `Network ports` and visible in a `Computer` entry, allows to"
+" manage the network ports attached to a computer."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/network-ports.rst:-1
+#: ../../source/modules/assets/tabs/network-ports.rst-1
 msgid "List of network ports"
 msgstr ""
 
@@ -39,37 +39,37 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:13
 msgid ""
-"It is possible on a network port to add one or more VLAN, these VLANs "
-"being defined by a name, an optional comment and a VLAN number."
+"It is possible on a network port to add one or more VLAN, these VLANs being "
+"defined by a name, an optional comment and a VLAN number."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/network-ports.rst:-1
+#: ../../source/modules/assets/tabs/network-ports.rst-1
 msgid "VLAN"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:20
 msgid ""
-"One or more :doc:`network name "
-"</modules/configuration/dropdowns/internet>` can be associated to each "
-"network port. This can be done in tab `Network name`."
+"One or more :doc:`network name </modules/configuration/dropdowns/internet>` "
+"can be associated to each network port. This can be done in tab `Network "
+"name`."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/network-ports.rst:-1
+#: ../../source/modules/assets/tabs/network-ports.rst-1
 msgid "Network name"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:27
 msgid ""
-"When a network port has only one network name, this name is displayed in "
-"the network port form itself and it is possible to modify the name "
-"directly. It is also possible to modify the network name via its own "
-"form, accessible by clicking on the link under the name."
+"When a network port has only one network name, this name is displayed in the"
+" network port form itself and it is possible to modify the name directly. It"
+" is also possible to modify the network name via its own form, accessible by"
+" clicking on the link under the name."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:32
 msgid ""
-"When a network port has several network names, the only way to modify the"
-" network names is via the network name form."
+"When a network port has several network names, the only way to modify the "
+"network names is via the network name form."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:35
@@ -90,17 +90,17 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:41
 msgid ""
-"The `Network port` tab groups in a table the ports that are available on "
-"the equipment. The table header contains the total number of ports and a "
-"link that allows to choose display options. This allows to selectively "
-"display or mask information such as network data (IP...), port "
-"characteristics depending on its type, MAC address, VLANs..."
+"The `Network port` tab groups in a table the ports that are available on the"
+" equipment. The table header contains the total number of ports and a link "
+"that allows to choose display options. This allows to selectively display or"
+" mask information such as network data (IP...), port characteristics "
+"depending on its type, MAC address, VLANs..."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:49
 msgid ""
-"GLPI allows to present complex network connection with for example WiFi "
-"or Ethernet port aliases associated to VLANs grouped in aggregates..."
+"GLPI allows to present complex network connection with for example WiFi or "
+"Ethernet port aliases associated to VLANs grouped in aggregates..."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:53
@@ -113,8 +113,8 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:57
 msgid ""
-"An Ethernet port is characterized by its type (twisted pair, mono-mode"
-"/multi-mode optical fiber...), a transfer rate ((10Mb, 100Mb, 1Gb, "
+"An Ethernet port is characterized by its type (twisted pair, mono-"
+"mode/multi-mode optical fiber...), a transfer rate ((10Mb, 100Mb, 1Gb, "
 "10Gb...) and a MAC address. It is possible to associate to the port a "
 "network card and a network plug."
 msgstr ""
@@ -123,8 +123,8 @@ msgstr ""
 msgid ""
 "Ethernet connections are realized by linking two Ethernet ports, which "
 "requires that there is a free port on each equipment to be connected. In "
-"general, a connection links a port attached to a computer, a peripheral "
-"or a printer and a port attached to a network equipment (hub, switch)."
+"general, a connection links a port attached to a computer, a peripheral or a"
+" printer and a port attached to a network equipment (hub, switch)."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:71
@@ -137,9 +137,9 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:75
 msgid ""
-"A WiFi port is characterized by the mode of the network card (ad-hoc, "
-"access point, repeater...), the WiFi protocol version (ab, g...) and its "
-"MAX address."
+"A WiFi port is characterized by the mode of the network card (ad-hoc, access"
+" point, repeater...), the WiFi protocol version (ab, g...) and its MAX "
+"address."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:79
@@ -167,9 +167,9 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:89
 msgid ""
-"The local loop-back is a virtual port used by most equipments for "
-"internal communication. It is this port that is used when connecting to "
-"``localhost`` or ``127.0.0.1``."
+"The local loop-back is a virtual port used by most equipments for internal "
+"communication. It is this port that is used when connecting to ``localhost``"
+" or ``127.0.0.1``."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:91
@@ -181,7 +181,8 @@ msgid "Management of network port aliases"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:96
-msgid "A network port alias is a virtual port that can refine a physical port."
+msgid ""
+"A network port alias is a virtual port that can refine a physical port."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:98
@@ -197,8 +198,8 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:103
 msgid ""
-"Note that when the origin port is changed, the MAC address of the new "
-"port is affected to the port alias."
+"Note that when the origin port is changed, the MAC address of the new port "
+"is affected to the port alias."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:106
@@ -214,9 +215,9 @@ msgstr ""
 #: ../../source/modules/assets/tabs/network-ports.rst:112
 msgid ""
 "On Linux, aggregates are represented by bridges `bridges "
-"<http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>`"
-" linking together different ports. In the same way, an Ethernet firewall "
-"uses a bridge that links interfaces to be filtered."
+"<http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge>` "
+"linking together different ports. In the same way, an Ethernet firewall uses"
+" a bridge that links interfaces to be filtered."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:114
@@ -225,13 +226,12 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:118
 msgid ""
-"Every deletion or addition of a network port is recorded in the history "
-"of the computer."
+"Every deletion or addition of a network port is recorded in the history of "
+"the computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/network-ports.rst:122
 msgid ""
-"If using native inventory or third-party inventory tool, the network "
-"ports information can be automatically imported and updated."
+"If using native inventory or third-party inventory tool, the network ports "
+"information can be automatically imported and updated."
 msgstr ""
-

@@ -1,51 +1,57 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Matheus Rafael, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Last-Translator: Matheus Rafael, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/authentication/imap.rst:2
 msgid "Authenticate from IMAP"
-msgstr ""
+msgstr "Autenticar a partir do IMAP"
 
 #: ../../source/modules/configuration/authentication/imap.rst:4
-msgid "The interfacing of GLPI with mail servers as a source of authentication."
+msgid ""
+"The interfacing of GLPI with mail servers as a source of authentication."
 msgstr ""
+"A interface do GLPI com servidores de e-mail como fonte de autenticação."
 
 #: ../../source/modules/configuration/authentication/imap.rst:6
 msgid ""
 "This authentication source is configured from the menu Configuration > "
 "Authentication > Mail servers."
 msgstr ""
+"Esta fonte de autenticação é configurada no menu Configurar > Autenticação >"
+" Servidores de e-mail."
 
 #: ../../source/modules/configuration/authentication/imap.rst:8
 msgid ""
-"This ability can compensate for the absence of directory or of CAS "
-"server. However, contrary to what is possible with other sources of other"
-" authentication sources, no mass import is available. A user is "
-"authenticated by GLPI if the server of mail server has authenticated him "
-"beforehand."
+"This ability can compensate for the absence of directory or of CAS server. "
+"However, contrary to what is possible with other sources of other "
+"authentication sources, no mass import is available. A user is authenticated"
+" by GLPI if the server of mail server has authenticated him beforehand."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/imap.rst:12
 msgid ""
 "The connection to the mail server uses the IMAP or POP protocols. The "
 "options of SSL and TLS encryption are available. The distinction is made "
-"between the mail domain which is the part of the of the mail address that"
-" follows the asterisk character, and the fully qualified name of the mail"
-" server, which can serve several mail domains."
+"between the mail domain which is the part of the of the mail address that "
+"follows the asterisk character, and the fully qualified name of the mail "
+"server, which can serve several mail domains."
 msgstr ""
-

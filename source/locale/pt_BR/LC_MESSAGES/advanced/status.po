@@ -1,157 +1,186 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Matheus Rafael, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Last-Translator: Matheus Rafael, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/advanced/status.rst:2
 msgid "GLPI Status Monitoring"
-msgstr ""
+msgstr "Monitoramento do status do GLPI"
 
 #: ../../source/advanced/status.rst:4
 msgid ""
-"GLPI contains a helpful endpoint for monitoring its health at "
-"`/status.php` and the `glpi:system:status` CLI command. The `/status.php`"
-" endpoint does not require you to be logged in and therefore only shows "
-"basic status information. Sensitive information like the GLPI version and"
-" plugin names and versions (could be used to identify vulerabilities) are"
-" not shown. The difference with the CLI command though is that since it "
-"isn't accessible from the web, you can optionally retrieve private "
-"information too."
+"GLPI contains a helpful endpoint for monitoring its health at `/status.php` "
+"and the `glpi:system:status` CLI command. The `/status.php` endpoint does "
+"not require you to be logged in and therefore only shows basic status "
+"information. Sensitive information like the GLPI version and plugin names "
+"and versions (could be used to identify vulerabilities) are not shown. The "
+"difference with the CLI command though is that since it isn't accessible "
+"from the web, you can optionally retrieve private information too."
 msgstr ""
+"O GLPI contém um endpoint útil para monitorar sua integridade em "
+"`/status.php` e o comando CLI `glpi:system:status` .O endpoint `/status.php`"
+" não exige que você esteja logado e mostra apenas informações básicas de "
+"status. Informações confidenciais, como a versão do GLPI e os nomes e "
+"versões do plug-in (podem ser usadas para identificar vulnerabilidades), não"
+" são mostradas. A diferença com o comando CLI, porém, é que, como não é "
+"acessível pela Web, você também pode recuperar informações privadas."
 
 #: ../../source/advanced/status.rst:10
 msgid "Services"
-msgstr ""
+msgstr "Serviços"
 
 #: ../../source/advanced/status.rst:12
 msgid ""
-"The status of GLPI is separated into multiple \"services\". These "
-"services can be listed using the `glpi:system:list_services` CLI command."
+"The status of GLPI is separated into multiple \"services\". These services "
+"can be listed using the `glpi:system:list_services` CLI command."
 msgstr ""
+"O status do GLPI é separado em vários \"serviços\". Esses serviços podem ser"
+" listados usando o comando CLI `glpi:system:list_services` ."
 
 #: ../../source/advanced/status.rst:22
 msgid "A non exhaustive list of services available:"
-msgstr ""
+msgstr "Uma lista não exaustiva de serviços disponíveis:"
 
 #: ../../source/advanced/status.rst:15
 msgid "db - Database (Main and replicants)"
-msgstr ""
+msgstr "db - Banco de Dados (Principal e replicantes)"
 
 #: ../../source/advanced/status.rst:16
 msgid "cas - Central Authentication Server"
-msgstr ""
+msgstr "cas - Central Authentication Server"
 
 #: ../../source/advanced/status.rst:17
 msgid "ldap - LDAP/Active Directory"
-msgstr ""
+msgstr "ldap - LDAP/Active Directory"
 
 #: ../../source/advanced/status.rst:18
 msgid "imap - Email Server(s)"
-msgstr ""
+msgstr "imap - Servidor(es) de e-mail"
 
 #: ../../source/advanced/status.rst:19
 msgid "mail_collectors - Email collectors"
-msgstr ""
+msgstr "mail_collectors - Coletores de email"
 
 #: ../../source/advanced/status.rst:20
 msgid "crontasks - Automatic actions"
-msgstr ""
+msgstr "crontasks - Ações automáticas"
 
 #: ../../source/advanced/status.rst:21
 msgid "filesystem - Filesystem access"
-msgstr ""
+msgstr "filesystem - Acesso ao sistema de arquivos"
 
 #: ../../source/advanced/status.rst:22
 msgid "plugins - Plugins status"
-msgstr ""
+msgstr "plugins - Status dos plugins"
 
 #: ../../source/advanced/status.rst:25
 msgid "Status Endpoint"
-msgstr ""
+msgstr "Status Endpoint"
 
 #: ../../source/advanced/status.rst:27
 msgid ""
-"By default, the `/status.php` endpoint provides a plain-text output of "
-"the public status information. The plain-text output is deprecated in "
-"favor of the JSON format, but it remains the default for backwards "
-"compatibility."
+"By default, the `/status.php` endpoint provides a plain-text output of the "
+"public status information. The plain-text output is deprecated in favor of "
+"the JSON format, but it remains the default for backwards compatibility."
 msgstr ""
+"Por padrão, o endpoint `/status.php` fornece uma saída de texto simples das "
+"informações públicas de status. A saída de texto simples foi preterida em "
+"favor do formato JSON, mas continua sendo o padrão para compatibilidade com "
+"versões anteriores."
 
 #: ../../source/advanced/status.rst:30
 msgid ""
-"The following formats are currently supported and can be chosen by using "
-"the HTTP `Accept` header or the `format` query parameter. When using the "
+"The following formats are currently supported and can be chosen by using the"
+" HTTP `Accept` header or the `format` query parameter. When using the "
 "`format` parameter, the short format identifier should be used."
 msgstr ""
+"Os seguintes formatos são atualmente suportados e podem ser escolhidos "
+"usando o cabeçalho HTTP `Accept` ou o parâmetro de consulta `format`. Ao "
+"usar o parâmetro `format`, o identificador de formato curto deve ser usado."
 
 #: ../../source/advanced/status.rst:33
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: ../../source/advanced/status.rst:35
 msgid "HTTP Accept - application/json"
-msgstr ""
+msgstr "HTTP Accept - application/json"
 
 #: ../../source/advanced/status.rst:36
 msgid "Format parameter - json"
-msgstr ""
+msgstr "Parâmetro de formato - JSON"
 
 #: ../../source/advanced/status.rst:37
 msgid "Plain-text (deprectated)"
-msgstr ""
+msgstr "Texto plano (depreciado)"
 
 #: ../../source/advanced/status.rst:39
 msgid "HTTP Accept - text/plain"
-msgstr ""
+msgstr "HTTP Accept - text/plain"
 
 #: ../../source/advanced/status.rst:40
 msgid "Format parameter - plain"
-msgstr ""
+msgstr "Parâmetro de formato - simples"
 
 #: ../../source/advanced/status.rst:42
 msgid ""
-"You can filter the output to a specific service using the `service` query"
-" parameter."
+"You can filter the output to a specific service using the `service` query "
+"parameter."
 msgstr ""
+"Você pode filtrar a saída para um serviço específico usando o parâmetro de "
+"consulta `service`."
 
 #: ../../source/advanced/status.rst:45
 msgid "CLI Command"
-msgstr ""
+msgstr "Linha de comando"
 
 #: ../../source/advanced/status.rst:47
 msgid ""
-"Similar to the `/status.php` endpoint, the CLI command "
-"`glpi:system:status` only shows the public status information by default."
-" However, since this tool is not available from the web interface, you "
-"may add the `-p` or `--private` option to see all of the status "
-"information."
+"Similar to the `/status.php` endpoint, the CLI command `glpi:system:status` "
+"only shows the public status information by default. However, since this "
+"tool is not available from the web interface, you may add the `-p` or "
+"`--private` option to see all of the status information."
 msgstr ""
+"Semelhante ao terminal `/status.php`, o comando CLI `glpi:system:status` "
+"mostra apenas as informações públicas de status por padrão. No entanto, como"
+" esta ferramenta não está disponível na interface da web, você pode "
+"adicionar a opção `-p` ou `--private` para ver todas as informações de "
+"status."
 
 #: ../../source/advanced/status.rst:50
 msgid ""
 "By default, it uses the plain-text format for its output for backwards "
 "compatibility, but this is deprecated. The same formats are supported as "
-"listed above in the \"Status Endpoint\" section and the short identifier "
-"can be passed in the `-f` or `--format` option."
+"listed above in the \"Status Endpoint\" section and the short identifier can"
+" be passed in the `-f` or `--format` option."
 msgstr ""
+"Por padrão, ele usa o formato de texto simples para sua saída para "
+"compatibilidade com versões anteriores, mas está obsoleto. Os mesmos "
+"formatos são suportados conforme listado acima na seção \"Status Endpoint\" "
+"e o identificador curto pode ser passado na opção `-f` ou `--format`."
 
 #: ../../source/advanced/status.rst:53
 msgid ""
 "You can filter the output to a specific service using the `-s` or "
 "`--service` option."
 msgstr ""
-
+"Você pode filtrar a saída para um serviço específico usando a opção `-s` ou "
+"`--service`."

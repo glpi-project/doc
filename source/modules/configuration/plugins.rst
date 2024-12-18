@@ -14,7 +14,7 @@ You may install plugins using both methods. If a plugin is install through the m
 Using the plugin marketplace
 ----------------------------
 
-To use the marketplace, you will need a GLPI Network registration key. If you are not paying for a GLPI Network subscription, you can still get a free key from `<https://www.glpi-network.cloud>`_.
+To use the marketplace, you will need a GLPI Network registration key. If you are not paying for a GLPI Network subscription, you can still get a free key from `<https://services.glpi-network.com>`_.
 After you get the key, you may enter it under `Setup > General` on the `GLPI Network` tab.
 
 Finding plugins

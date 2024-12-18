@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/general/performances.rst:2
 msgid "Performances"
@@ -23,14 +23,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/performances.rst:4
 msgid ""
-"Displays information related to the different caching systems used by "
-"GLPI including:"
+"Displays information related to the different caching systems used by GLPI "
+"including:"
 msgstr ""
 
 #: ../../source/modules/configuration/general/performances.rst:6
 msgid ""
-"PHP opcode cache - Improves performance of the PHP engine when "
-"interpreting the different PHP files."
+"PHP opcode cache - Improves performance of the PHP engine when interpreting "
+"the different PHP files."
 msgstr ""
 
 #: ../../source/modules/configuration/general/performances.rst:7
@@ -39,8 +39,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/performances.rst:8
 msgid ""
-"Translation cache - Cache used for translations to avoid having to read "
-"the locale files for all translations."
+"Translation cache - Cache used for translations to avoid having to read the "
+"locale files for all translations."
 msgstr ""
 
 #: ../../source/modules/configuration/general/performances.rst:10
@@ -52,4 +52,3 @@ msgid ""
 "The cache systems for user data and translations can be changed or "
 "configured from the `cache:configure` CLI command."
 msgstr ""
-

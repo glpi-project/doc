@@ -1,44 +1,45 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/authentication/index.rst:2
 msgid "Authentication"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:4
-msgid "This is where GLPI manages the authentication and information of users."
+msgid ""
+"This is where GLPI manages the authentication and information of users."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:6
 msgid ""
-"GLPI uses its own internal database of users. These are either created in"
-" GLPI itself or imported from one or more external sources. Depending on "
-"the type of source, the import can be done in bulk or at the time of "
-"login if the user is not yet known to GLPI but exists in an external "
-"authentication server with matching credentials."
+"GLPI uses its own internal database of users. These are either created in "
+"GLPI itself or imported from one or more external sources. Depending on the "
+"type of source, the import can be done in bulk or at the time of login if "
+"the user is not yet known to GLPI but exists in an external authentication "
+"server with matching credentials."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:9
 msgid ""
 "The general authentication configuration and the management of external "
-"authentication servers can be done in the :doc:`Setup > Authentication "
-"menu <configuration>`."
+"authentication servers can be done in the :doc:`Setup > Authentication menu "
+"<configuration>`."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:11
@@ -57,7 +58,8 @@ msgid "A user enters their login and password in GLPI"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:18
-msgid "GLPI checks if the user is already registered in its database and if not:"
+msgid ""
+"GLPI checks if the user is already registered in its database and if not:"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:20
@@ -74,8 +76,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:22
 msgid ""
-"If no method of authentication is able to authenticate the user, they are"
-" shown an error indicating that their username or password is incorrect"
+"If no method of authentication is able to authenticate the user, they are "
+"shown an error indicating that their username or password is incorrect"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:24
@@ -86,14 +88,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:26
 msgid ""
-"GLPI tries authenticating the user only with the last source that was "
-"able to successfully authenticate them"
+"GLPI tries authenticating the user only with the last source that was able "
+"to successfully authenticate them"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:27
 msgid ""
-"If the authentication fails, they are shown an error indicating that "
-"their username or password is incorrect"
+"If the authentication fails, they are shown an error indicating that their "
+"username or password is incorrect"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:29
@@ -102,21 +104,21 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:31
 msgid ""
-"If the engine has granted one or more authorizations to the user, then "
-"that user has access to GLPI"
+"If the engine has granted one or more authorizations to the user, then that "
+"user has access to GLPI"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:32
 msgid ""
-"If the user is not granted any authorizations, then the user will be "
-"known to GLPI but will not be able to login"
+"If the user is not granted any authorizations, then the user will be known "
+"to GLPI but will not be able to login"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:35
 msgid ""
-"In order to use an external source of authentication you may need to "
-"enable the relevant PHP extension(s). For example, LDAP sources will "
-"require the `php-ldap` extension."
+"In order to use an external source of authentication you may need to enable "
+"the relevant PHP extension(s). For example, LDAP sources will require the "
+"`php-ldap` extension."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/index.rst:38
@@ -129,8 +131,7 @@ msgstr ""
 msgid ""
 "To allow GLPI to create users automatically from external authentication "
 "sources as they try to log in, it must be enabled in the **Setup > "
-"Authentication > Setup** form. When using LDAP directories, it is "
-"possible to configure the action that GLPI takes when a user is no longer"
-" present in the LDAP directory from this same form."
+"Authentication > Setup** form. When using LDAP directories, it is possible "
+"to configure the action that GLPI takes when a user is no longer present in "
+"the LDAP directory from this same form."
 msgstr ""
-

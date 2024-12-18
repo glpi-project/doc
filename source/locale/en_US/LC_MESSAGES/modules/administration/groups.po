@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/administration/groups.rst:2
 msgid "Groups"
@@ -47,25 +47,25 @@ msgstr ""
 msgid ""
 "Groups can be used in several way to group users by: * *skills*: for the "
 "helpdesk, for example network technicians, or database administrators, * "
-"*organizational groups*: for example all the computers of the management "
-"or the accounting department but also set of persons to be notified."
+"*organizational groups*: for example all the computers of the management or "
+"the accounting department but also set of persons to be notified."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:19
 msgid ""
 "The options available to adjust these behaviors are: * **Visible in a "
 "ticket**: requesting group and/or assignment to this group; * **Can be "
-"notified**: recipient of notifications; * **Can be supervisor**: only for"
-" a :doc:`project </modules/tools/projects>`; * **May contain**: assets "
-"and/or users."
+"notified**: recipient of notifications; * **Can be supervisor**: only for a "
+":doc:`project </modules/tools/projects>`; * **May contain**: assets and/or "
+"users."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:25
 msgid ""
 "In an item form, 2 notions of groups are available: * *technical group* "
-"which indicates which group of people is in charge of the asset "
-"(equivalent for a group of the technical manager) * *group* which "
-"indicates to which group of items it belongs."
+"which indicates which group of people is in charge of the asset (equivalent "
+"for a group of the technical manager) * *group* which indicates to which "
+"group of items it belongs."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:29
@@ -79,16 +79,16 @@ msgstr ""
 
 #: ../../source/modules/administration/groups.rst:31
 msgid ""
-"if all options are set to *No*, the group will not appear in any "
-"selection list; this can be useful for a group that is deleted and kept "
-"for history or for adding empty groups in the hierarchical structure."
+"if all options are set to *No*, the group will not appear in any selection "
+"list; this can be useful for a group that is deleted and kept for history or"
+" for adding empty groups in the hierarchical structure."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:33
 msgid ""
-"A group can have one or more supervisors, concept which can then be used "
-"for notifications, for example to send an email to the supervisor(s) of "
-"the group when a ticket is opened, see :ref:`notification management "
+"A group can have one or more supervisors, concept which can then be used for"
+" notifications, for example to send an email to the supervisor(s) of the "
+"group when a ticket is opened, see :ref:`notification management "
 "<configure_notifications>`."
 msgstr ""
 
@@ -98,7 +98,7 @@ msgid ""
 "himself but for one of the members of this group."
 msgstr ""
 
-#: ../../source/modules/administration/groups.rst:-1
+#: ../../source/modules/administration/groups.rst-1
 msgid "Example: delegation"
 msgstr ""
 
@@ -108,8 +108,8 @@ msgstr ""
 
 #: ../../source/modules/administration/groups.rst:41
 msgid ""
-"The concepts of delegation and supervisor can be configured in the "
-"\"Users\" tab (see below)."
+"The concepts of delegation and supervisor can be configured in the \"Users\""
+" tab (see below)."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:43
@@ -127,23 +127,23 @@ msgstr ""
 
 #: ../../source/modules/administration/groups.rst:47
 msgid ""
-"From the list of groups, a group can be imported from a LDAP directory "
-"via the *LDAP directory link* button if external authentication is used "
-"and the \"Auth and sync update\" authorization is granted in profile. The"
-" assignment of users to groups will be automatic, see :doc:`Profiles "
+"From the list of groups, a group can be imported from a LDAP directory via "
+"the *LDAP directory link* button if external authentication is used and the "
+"\"Auth and sync update\" authorization is granted in profile. The assignment"
+" of users to groups will be automatic, see :doc:`Profiles "
 "</modules/administration/profiles/profiles>`. If several directories are "
-"configured, the choice between directories is proposed, otherwise the "
-"search form is directly accessible."
+"configured, the choice between directories is proposed, otherwise the search"
+" form is directly accessible."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:49
 msgid ""
-"Depending on how you search for groups (see: doc: `Authenticating users "
-"from LDAP directories </modules/configuration/authentification/ldap>`), a"
-" **Search filter in groups** and/or a **User search filter** appear: "
-"these allow to refine the list to be imported. If GLPI is used in multi-"
-"entities, it is necessary to select the destination entity of the group "
-"as well as its visibility in the sub-entities."
+"Depending on how you search for groups (see: doc: `Authenticating users from"
+" LDAP directories </modules/configuration/authentification/ldap>`), a "
+"**Search filter in groups** and/or a **User search filter** appear: these "
+"allow to refine the list to be imported. If GLPI is used in multi-entities, "
+"it is necessary to select the destination entity of the group as well as its"
+" visibility in the sub-entities."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:51
@@ -182,9 +182,9 @@ msgstr ""
 
 #: ../../source/modules/administration/groups.rst:66
 msgid ""
-"This tab lists the elements for which the *Group* field corresponds to "
-"the current group. The search can be extended to sub-groups as well as to"
-" the members of the group (*User* field of the item)."
+"This tab lists the elements for which the *Group* field corresponds to the "
+"current group. The search can be extended to sub-groups as well as to the "
+"members of the group (*User* field of the item)."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:68
@@ -198,9 +198,9 @@ msgstr ""
 #: ../../source/modules/administration/groups.rst:73
 msgid ""
 "This tab lists the elements for which the *Technical Group* field "
-"corresponds to the current group. The search can be extended to sub-"
-"groups as well as to the members of the group (*Technical manager* field "
-"of the item)."
+"corresponds to the current group. The search can be extended to sub-groups "
+"as well as to the members of the group (*Technical manager* field of the "
+"item)."
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:75
@@ -224,8 +224,8 @@ msgstr ""
 
 #: ../../source/modules/administration/groups.rst:85
 msgid ""
-"This tab allows to add a user to this group by defining whether the added"
-" user is *delegatee* and/or *supervisor* of the group. It also lists the "
+"This tab allows to add a user to this group by defining whether the added "
+"user is *delegatee* and/or *supervisor* of the group. It also lists the "
 "users of this group with possible search by criteria (delegatee or "
 "supervisor) and also in the subgroups of the current group."
 msgstr ""
@@ -235,7 +235,8 @@ msgid "Notifications"
 msgstr ""
 
 #: ../../source/modules/administration/groups.rst:94
-msgid "List of notifications for which destination is group or group supervisor"
+msgid ""
+"List of notifications for which destination is group or group supervisor"
 msgstr ""
 
 #: ../../source/modules/tabs/tickets.rst:2
@@ -248,7 +249,7 @@ msgid ""
 "object. It also lists the tickets already linked to the object."
 msgstr ""
 
-#: ../../source/modules/tabs/tickets.rst:-1
+#: ../../source/modules/tabs/tickets.rst-1
 msgid "Image of the ticket list"
 msgstr ""
 
@@ -270,8 +271,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -298,16 +299,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:2
@@ -317,14 +318,14 @@ msgstr ""
 #: ../../source/modules/tabs/debug.rst:4
 msgid ""
 "If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
-"appear before the *All* tab. This tab offers information to help you "
-"resolve an issue."
+"appear before the *All* tab. This tab offers information to help you resolve"
+" an issue."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:6
 msgid ""
-"For example, for a computer, you have one or more tables depending on the"
-" affected object (financial information, reservations...) listing the "
+"For example, for a computer, you have one or more tables depending on the "
+"affected object (financial information, reservations...) listing the "
 "notifications that will be triggered on this computer with:"
 msgstr ""
 
@@ -344,7 +345,7 @@ msgstr ""
 msgid "Recipient(s) email address"
 msgstr ""
 
-#: ../../source/modules/tabs/debug.rst:-1
+#: ../../source/modules/tabs/debug.rst-1
 msgid "Debugging page"
 msgstr ""
 
@@ -354,8 +355,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

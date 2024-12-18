@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assistance/statistics.rst:2
 msgid "Display statistics"
@@ -23,8 +23,7 @@ msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:4
 msgid ""
-"Statistics group reports on tickets as well as reports coming from "
-"plugins."
+"Statistics group reports on tickets as well as reports coming from plugins."
 msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:6
@@ -82,9 +81,9 @@ msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:28
 msgid ""
-"Average `Take into account` time (duration between ticket opening and "
-"first action on ticket, follow-up, task or solution), resolution time or "
-"closure time;"
+"Average `Take into account` time (duration between ticket opening and first "
+"action on ticket, follow-up, task or solution), resolution time or closure "
+"time;"
 msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:29
@@ -129,14 +128,14 @@ msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:43
 msgid ""
-"The option **See graphics**, when available, allows to display result as "
-"a pie chart."
+"The option **See graphics**, when available, allows to display result as a "
+"pie chart."
 msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:47
 msgid ""
-"When statistics are done on a tree structured item (groups or categories "
-"for example), two presentations are available:"
+"When statistics are done on a tree structured item (groups or categories for"
+" example), two presentations are available:"
 msgstr ""
 
 #: ../../source/modules/assistance/statistics.rst:49
@@ -146,7 +145,6 @@ msgstr ""
 #: ../../source/modules/assistance/statistics.rst:50
 msgid ""
 "Tree: only values at same level are displayed, taking into account the "
-"tickets attached to child elements. It is possible to navigate into "
-"values tree."
+"tickets attached to child elements. It is possible to navigate into values "
+"tree."
 msgstr ""
-

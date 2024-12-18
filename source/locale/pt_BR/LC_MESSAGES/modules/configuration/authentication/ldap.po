@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/authentication/ldap.rst:2
 msgid "LDAP directories"
@@ -24,17 +24,17 @@ msgstr ""
 #: ../../source/modules/configuration/authentication/ldap.rst:4
 msgid ""
 "GLPI can interface with one or more :term:`LDAP directories <LDAP "
-"directory>`  in order to authenticate users, control their access, "
-"retrieve their personal information and import groups."
+"directory>`  in order to authenticate users, control their access, retrieve "
+"their personal information and import groups."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:6
 msgid ""
 "All the directories compatible LDAP v3 are supported by GLPI. It is thus "
-"also the case for the ':term:`Active Directory <Active Directory "
-"service>` of Microsoft. There is no limit as to the number of directories"
-" informed. However, the higher the number, the longer the search for a "
-"new user to authenticate can be."
+"also the case for the ':term:`Active Directory <Active Directory service>` "
+"of Microsoft. There is no limit as to the number of directories informed. "
+"However, the higher the number, the longer the search for a new user to "
+"authenticate can be."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:9
@@ -43,11 +43,11 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:11
 msgid ""
-"At the first login, the user is created in GLPI. At each login, his "
-"personal information is synchronized with the directory. In the case "
-"where the mail collectors are used and there is an email not associated "
-"with an existing user, the unknown email address will be searched in the "
-"directory to create the associated user."
+"At the first login, the user is created in GLPI. At each login, his personal"
+" information is synchronized with the directory. In the case where the mail "
+"collectors are used and there is an email not associated with an existing "
+"user, the unknown email address will be searched in the directory to create "
+"the associated user."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:13
@@ -58,21 +58,21 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:17
 msgid ""
-"If no LDAP configuration is visible (see an error message on this part) "
-"it means that the LDAP module for PHP is not installed."
+"If no LDAP configuration is visible (see an error message on this part) it "
+"means that the LDAP module for PHP is not installed."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:19
 msgid ""
-"Under Linux, install the ldap package for PHP (for example *php7.4-ldap* "
-"on Debian), then restart the web server."
+"Under Linux, install the ldap package for PHP (for example *php7.4-ldap* on "
+"Debian), then restart the web server."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:21
 msgid ""
 "Under Windows it is necessary to uncomment in the file *php.ini* (file "
-"present in the directory *apache/bin*) the line "
-"*extension=php\\_ldap.dll* then restart the Web server."
+"present in the directory *apache/bin*) the line *extension=php\\_ldap.dll* "
+"then restart the Web server."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:23
@@ -90,17 +90,17 @@ msgstr ""
 msgid ""
 "At the time of the first login of the user, GLPI will search all of the "
 "configured directories until finding one that contains the user. If the "
-"option allowing to import users from an external source is active, then "
-"the user is created and the identifier of the method of connection and "
-"the LDAP server are stored in database."
+"option allowing to import users from an external source is active, then the "
+"user is created and the identifier of the method of connection and the LDAP "
+"server are stored in database."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:31
 msgid ""
 "Then, at each login the user is authenticated on the directory whose "
-"identifier is stored in GLPI. The other directories are not used; If a "
-"user is deactivated in the directory which it used until then to connect,"
-" it cannot connect with another source of authentication."
+"identifier is stored in GLPI. The other directories are not used; If a user "
+"is deactivated in the directory which it used until then to connect, it "
+"cannot connect with another source of authentication."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:35
@@ -109,9 +109,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:37
 msgid ""
-"Access control is the assignment of permissions to a user. Even if a user"
-" is authenticated on a directory it is not necessarily entitled to "
-"connect to GLPI."
+"Access control is the assignment of permissions to a user. Even if a user is"
+" authenticated on a directory it is not necessarily entitled to connect to "
+"GLPI."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:40
@@ -122,29 +122,28 @@ msgstr ""
 msgid "The different tabs"
 msgstr ""
 
-#: ../../source/modules/configuration/authentication/ldap.rst:-1
+#: ../../source/modules/configuration/authentication/ldap.rst-1
 #: ../../source/modules/configuration/authentication/ldap.rst:46
 msgid "LDAP directory"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:55
 msgid ""
-"There is an Active Directory pre-configuration template, which pre-fills "
-"a certain number of fields."
+"There is an Active Directory pre-configuration template, which pre-fills a "
+"certain number of fields."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:57
 msgid ""
-"To load it, click on the **Active Directory** link when adding a "
-"directory. The **Default value(s)** link will reset the values to the "
-"default."
+"To load it, click on the **Active Directory** link when adding a directory. "
+"The **Default value(s)** link will reset the values to the default."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:59
 msgid ""
-"**Default server**: If you have multiple LDAP servers set up, you can "
-"only define one default server. Choosing this setting will remove it from"
-" the server it was previously set to."
+"**Default server**: If you have multiple LDAP servers set up, you can only "
+"define one default server. Choosing this setting will remove it from the "
+"server it was previously set to."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:60
@@ -155,10 +154,10 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:61
 msgid ""
-"**Connection filter**: Allows you to restrict the search for users in the"
-" directory. For example, if only a restricted set of users have the right"
-" to connect to GLPI, you can create a condition to restrict the search to"
-" that set of users."
+"**Connection filter**: Allows you to restrict the search for users in the "
+"directory. For example, if only a restricted set of users have the right to "
+"connect to GLPI, you can create a condition to restrict the search to that "
+"set of users."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:63
@@ -183,20 +182,20 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:69
 msgid ""
-"**BaseDN**: The location in the directory from which the searches will be"
-" made."
+"**BaseDN**: The location in the directory from which the searches will be "
+"made."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:70
 msgid ""
-"**RootDN**: The distinguished name of the user account to authenticate to"
-" LDAP with when not using anonymouse binds."
+"**RootDN**: The distinguished name of the user account to authenticate to "
+"LDAP with when not using anonymouse binds."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:74
 msgid ""
-"RootDN and BaseDN are case sensitive and must not contain spaces betwen "
-"the parts. Examples:"
+"RootDN and BaseDN are case sensitive and must not contain spaces betwen the "
+"parts. Examples:"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:77
@@ -209,21 +208,21 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:80
 msgid ""
-"**Password**: The password for the account specified (if any) in the "
-"RootDN field."
+"**Password**: The password for the account specified (if any) in the RootDN "
+"field."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:81
 msgid ""
-"**Login field**: The name of the field in the LDAP directory "
-"corresponding to the user's login (Ex: ``uid`` in LDAP or "
-"``samaccountname`` in Active Directory)."
+"**Login field**: The name of the field in the LDAP directory corresponding "
+"to the user's login (Ex: ``uid`` in LDAP or ``samaccountname`` in Active "
+"Directory)."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:82
 msgid ""
-"**Synchronization field**: The name of the field in the LDAP directory "
-"used for Synchronization. This field must be unique for every user (Ex: "
+"**Synchronization field**: The name of the field in the LDAP directory used "
+"for Synchronization. This field must be unique for every user (Ex: "
 "``employeeuid`` in LDAP or ``objectguid`` in Active Directory)."
 msgstr ""
 
@@ -242,18 +241,18 @@ msgstr ""
 #: ../../source/modules/configuration/authentication/ldap.rst:89
 msgid ""
 "This should be enough if anonymous binds are allowed. If not, and if all "
-"users are not located within the same DN, you have to specify the DN of "
-"an authorized user and his password through the RootDN/Password "
-"parameters. For Active Directory, it is required to specify an account "
-"that has the right to authenticate on the domain."
+"users are not located within the same DN, you have to specify the DN of an "
+"authorized user and his password through the RootDN/Password parameters. For"
+" Active Directory, it is required to specify an account that has the right "
+"to authenticate on the domain."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:95
 msgid ""
 "If some of the users have connection restrictions to certain machines "
-"configured in their Active Directory profile, a user not found error may "
-"be seen. The solution is to add the Active Directory server to the list "
-"of computers the user is allowed to connect to."
+"configured in their Active Directory profile, a user not found error may be "
+"seen. The solution is to add the Active Directory server to the list of "
+"computers the user is allowed to connect to."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:100
@@ -267,20 +266,21 @@ msgid "Test"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:105
-msgid "Allows the testing of the configuration defined in the LDAP directory tab."
+msgid ""
+"Allows the testing of the configuration defined in the LDAP directory tab."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:107
 msgid ""
-"The message **Connection test successful** indicates that GLPI was able "
-"to connect to the LDAP directory with the information provided (host, "
-"port, user account)."
+"The message **Connection test successful** indicates that GLPI was able to "
+"connect to the LDAP directory with the information provided (host, port, "
+"user account)."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:109
 msgid ""
-"It remains now to import the users. For that, it is necessary to check "
-"the other parameters (connection filter, login field, etc)."
+"It remains now to import the users. For that, it is necessary to check the "
+"other parameters (connection filter, login field, etc)."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:112
@@ -289,12 +289,12 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:114
 msgid ""
-"Allows you to configure how the link between the fields of the directory "
-"and those of GLPI will be made. Most of the fields are automatically "
-"mapped for you but can still be changed."
+"Allows you to configure how the link between the fields of the directory and"
+" those of GLPI will be made. Most of the fields are automatically mapped for"
+" you but can still be changed."
 msgstr ""
 
-#: ../../source/modules/configuration/authentication/ldap.rst:-1
+#: ../../source/modules/configuration/authentication/ldap.rst-1
 msgid "Configuration of LDAP users"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgid ""
 "directory."
 msgstr ""
 
-#: ../../source/modules/configuration/authentication/ldap.rst:-1
+#: ../../source/modules/configuration/authentication/ldap.rst-1
 msgid "Confiuguration of LDAP groups"
 msgstr ""
 
@@ -316,15 +316,15 @@ msgstr ""
 msgid "Advanced Information"
 msgstr ""
 
-#: ../../source/modules/configuration/authentication/ldap.rst:-1
+#: ../../source/modules/configuration/authentication/ldap.rst-1
 msgid "Configuration advanced LDAP settings"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:139
 msgid ""
-"In case the server hosting the LDAP directory is in a different timezone "
-"as GLPI, it is necessary to modify the **Timezone** variable to account "
-"for the difference."
+"In case the server hosting the LDAP directory is in a different timezone as "
+"GLPI, it is necessary to modify the **Timezone** variable to account for the"
+" difference."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:141
@@ -333,9 +333,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:143
 msgid ""
-"GLPI can connect to a LDAP directory through a LDAPS connection. To "
-"enable this, add the *ldaps://* prefix to your host/server IP and change "
-"the port to your server's LDAPS port (default 636)."
+"GLPI can connect to a LDAP directory through a LDAPS connection. To enable "
+"this, add the *ldaps://* prefix to your host/server IP and change the port "
+"to your server's LDAPS port (default 636)."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:145
@@ -343,7 +343,8 @@ msgid "**Limit of the number of records returned**"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:147
-msgid "There are often two limits on the number of records retured per request."
+msgid ""
+"There are often two limits on the number of records retured per request."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:149
@@ -354,43 +355,43 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:150
 msgid ""
-"The server limit: If the server limit is lower than the client limit, "
-"then that is the effective limit"
+"The server limit: If the server limit is lower than the client limit, then "
+"that is the effective limit"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:154
 msgid ""
-"If the limit is reached, the optional GLPI behavior for LDAP user "
-"deletion can not work. Moreover, GLPI will display a warning message "
-"during the import or synchronization."
+"If the limit is reached, the optional GLPI behavior for LDAP user deletion "
+"can not work. Moreover, GLPI will display a warning message during the "
+"import or synchronization."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:157
 msgid ""
 "It is possible to bypass the limitation by enabling **Pagination of "
-"results** in the **Advanced Information** tab of the LDAP directory in "
-"GLPI. This will split requests into smaller requests that are under the "
+"results** in the **Advanced Information** tab of the LDAP directory in GLPI."
+" This will split requests into smaller requests that are under the "
 "configured limit."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:160
 msgid ""
 "The **Page size** option adjusts the number of results retreived per "
-"\"page\" with pagination enabled. The **Maximum number of results** "
-"option is the limit for the total number of records. This option may be "
-"useful to avoid high memory usage."
+"\"page\" with pagination enabled. The **Maximum number of results** option "
+"is the limit for the total number of records. This option may be useful to "
+"avoid high memory usage."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:165
 msgid ""
-"On an OpenLDAP directory, the default limit is 500 and in Active "
-"Directory, it is 1000."
+"On an OpenLDAP directory, the default limit is 500 and in Active Directory, "
+"it is 1000."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:167
 msgid ""
-"In Active Directory it is possible to modify the value of `MaxPageSize` "
-"with the following commands (This modification is global for the whole "
+"In Active Directory it is possible to modify the value of `MaxPageSize` with"
+" the following commands (This modification is global for the whole "
 "directory):"
 msgstr ""
 
@@ -400,24 +401,24 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:185
 msgid ""
-"If an LDAP directory is not accessible, the users provided by it will not"
-" be able to connect to GLPI."
+"If an LDAP directory is not accessible, the users provided by it will not be"
+" able to connect to GLPI."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:187
 msgid ""
-"To help avoid this situation, replicates can be declared in GLPI. These "
-"are LDAP servers that have the same data as the main server, but are "
-"available at a different address."
+"To help avoid this situation, replicates can be declared in GLPI. These are "
+"LDAP servers that have the same data as the main server, but are available "
+"at a different address."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:189
 msgid ""
-"Replicates are only used when the connection to the main server is lost. "
-"The addition of replicates in GLPI is done by entering a **Name** which "
-"is displayed in GLPI, as well as a **Server**, **Port**, and **Timeout** "
-"in the **Replicates** tab in the LDAP directory. There is no limit to the"
-" number of replicates per LDAP directory."
+"Replicates are only used when the connection to the main server is lost. The"
+" addition of replicates in GLPI is done by entering a **Name** which is "
+"displayed in GLPI, as well as a **Server**, **Port**, and **Timeout** in the"
+" **Replicates** tab in the LDAP directory. There is no limit to the number "
+"of replicates per LDAP directory."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:2
@@ -426,8 +427,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -454,16 +455,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/all.rst:2
@@ -472,9 +473,9 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/ldap.rst:198
@@ -484,4 +485,3 @@ msgstr ""
 #: ../../source/modules/configuration/authentication/ldap.rst:200
 msgid "See the :doc:`common actions <../../overview/actions>`."
 msgstr ""
-

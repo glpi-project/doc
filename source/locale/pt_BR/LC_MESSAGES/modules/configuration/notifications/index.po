@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/notifications/index.rst:2
 msgid "Notifications"
@@ -23,26 +23,27 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:4
 msgid ""
-"GLPI has a notification feature that allows it to send messages following"
-" an event in the application, to users via email, browser notifications, "
-"and other methods (expandable by plugins)."
+"GLPI has a notification feature that allows it to send messages following an"
+" event in the application, to users via email, browser notifications, and "
+"other methods (expandable by plugins)."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:6
 msgid ""
-"GLPI comes with notification definitions pre-defined and they can be used"
-" out of the box right away after enabling notifications."
+"GLPI comes with notification definitions pre-defined and they can be used "
+"out of the box right away after enabling notifications."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:8
 msgid ""
-"To do this, you must activate the **Enable followup** option then "
-"**Enable followup via email** or **Browser followups from browser** to "
-"display the settings menu:"
+"To do this, you must activate the **Enable followup** option then **Enable "
+"followup via email** or **Browser followups from browser** to display the "
+"settings menu:"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:20
-msgid "Notifications work as follows (*e.g.: ticket creation notified by email*):"
+msgid ""
+"Notifications work as follows (*e.g.: ticket creation notified by email*):"
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:22
@@ -61,20 +62,18 @@ msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:25
 msgid ""
-"For each recipient, GLPI generates the mail in the language of the user "
-"if the translation exists, otherwise it is the \"**Default "
-"translation**\"."
+"For each recipient, GLPI generates the mail in the language of the user if "
+"the translation exists, otherwise it is the \"**Default translation**\"."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:26
 msgid ""
-"The emails are placed in **Administration > Notification queue** waiting "
-"to be sent by the automatic task ``queuednotification``."
+"The emails are placed in **Administration > Notification queue** waiting to "
+"be sent by the automatic task ``queuednotification``."
 msgstr ""
 
 #: ../../source/modules/configuration/notifications/index.rst:29
 msgid ""
-"When new notifications are added to GLPI through an update, they are "
-"enabled by default."
+"When new notifications are added to GLPI through an update, they are enabled"
+" by default."
 msgstr ""
-

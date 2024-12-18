@@ -1,28 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/authentication/imap.rst:2
 msgid "Authenticate from IMAP"
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/imap.rst:4
-msgid "The interfacing of GLPI with mail servers as a source of authentication."
+msgid ""
+"The interfacing of GLPI with mail servers as a source of authentication."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/imap.rst:6
@@ -33,19 +34,17 @@ msgstr ""
 
 #: ../../source/modules/configuration/authentication/imap.rst:8
 msgid ""
-"This ability can compensate for the absence of directory or of CAS "
-"server. However, contrary to what is possible with other sources of other"
-" authentication sources, no mass import is available. A user is "
-"authenticated by GLPI if the server of mail server has authenticated him "
-"beforehand."
+"This ability can compensate for the absence of directory or of CAS server. "
+"However, contrary to what is possible with other sources of other "
+"authentication sources, no mass import is available. A user is authenticated"
+" by GLPI if the server of mail server has authenticated him beforehand."
 msgstr ""
 
 #: ../../source/modules/configuration/authentication/imap.rst:12
 msgid ""
 "The connection to the mail server uses the IMAP or POP protocols. The "
 "options of SSL and TLS encryption are available. The distinction is made "
-"between the mail domain which is the part of the of the mail address that"
-" follows the asterisk character, and the fully qualified name of the mail"
-" server, which can serve several mail domains."
+"between the mail domain which is the part of the of the mail address that "
+"follows the asterisk character, and the fully qualified name of the mail "
+"server, which can serve several mail domains."
 msgstr ""
-

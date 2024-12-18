@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/first-steps/search.rst:2
 msgid "Search for information in GLPI"
@@ -24,10 +24,9 @@ msgstr ""
 #: ../../source/first-steps/search.rst:4
 msgid ""
 "GLPI has a search engine allowing you to display a set of elements "
-"satisfying a certain number of criteria. The proposed lists are "
-"paginated. A navigation bar at the top and bottom of the list is used to "
-"define the number of items to display per page and to navigate between "
-"pages."
+"satisfying a certain number of criteria. The proposed lists are paginated. A"
+" navigation bar at the top and bottom of the list is used to define the "
+"number of items to display per page and to navigate between pages."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:6
@@ -38,8 +37,8 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:8
 msgid ""
-"In addition to the list of elements corresponding to the stated criteria;"
-" these lists offer some additional features:"
+"In addition to the list of elements corresponding to the stated criteria; "
+"these lists offer some additional features:"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:10
@@ -60,10 +59,9 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:17
 msgid ""
-"The basic search makes it possible to carry out multiple searches "
-"configured and sorted, on one of the types of the inventory. Depending on"
-" the data on which the search is carried out, the following operators can"
-" be proposed:"
+"The basic search makes it possible to carry out multiple searches configured"
+" and sorted, on one of the types of the inventory. Depending on the data on "
+"which the search is carried out, the following operators can be proposed:"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:19
@@ -88,12 +86,11 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:25
 msgid ""
-"Searching on dates allows you to specify a specific date (*Specify a "
-"date*) or to define it in relation to the current date (*Now*, *+* or *-*"
-" *X* *hour(s)*, *day(s)*, *month* or *year(s)*). It is also possible to "
-"specify a search before or after a given date, as defined intervals "
-"(*Monday*, *Last Saturday*, *Start of month*, *Start of year*, *Start of "
-"year*, etc)."
+"Searching on dates allows you to specify a specific date (*Specify a date*) "
+"or to define it in relation to the current date (*Now*, *+* or *-* *X* "
+"*hour(s)*, *day(s)*, *month* or *year(s)*). It is also possible to specify a"
+" search before or after a given date, as defined intervals (*Monday*, *Last "
+"Saturday*, *Start of month*, *Start of year*, *Start of year*, etc)."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:27
@@ -104,10 +101,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/first-steps/search.rst:29
-#, python-format
 msgid ""
-"For example, to find computers with more than 1024 MiB of memory and more"
-" than 80% free disk space:"
+"For example, to find computers with more than 1024 MiB of memory and more "
+"than 80% free disk space:"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:32
@@ -180,8 +176,8 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:40
 msgid ""
-"Once the criteria have been defined, the search is launched by pressing "
-"the Search button."
+"Once the criteria have been defined, the search is launched by pressing the "
+"Search button."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:43
@@ -192,15 +188,14 @@ msgstr ""
 msgid ""
 "The multi-criteria search makes it possible to refine the search by "
 "extending it to other types of objects by adding global search criteria. "
-"This type of search is obtained by adding criteria with the ``+`` on a "
-"white background."
+"This type of search is obtained by adding criteria with the ``+`` on a white"
+" background."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:47
-#, python-format
 msgid ""
-"For example, to find computers with more than 1024 MiB of memory and more"
-" than 80% free disk space, attached to a 17-inch monitor and having "
+"For example, to find computers with more than 1024 MiB of memory and more "
+"than 80% free disk space, attached to a 17-inch monitor and having "
 "LibreOffice software installed:"
 msgstr ""
 
@@ -239,9 +234,9 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:61
 msgid ""
-"Some items in GLPI can be trashed. To view them in order to restore them "
-"or delete them permanently, click on the icon representing a recycle bin."
-" To return to the display of active elements, click again on this icon."
+"Some items in GLPI can be trashed. To view them in order to restore them or "
+"delete them permanently, click on the icon representing a recycle bin. To "
+"return to the display of active elements, click again on this icon."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:64
@@ -258,16 +253,18 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:69
 msgid ""
-"Find the records with such empty field with a date field: "
-"<number_of_months or> number_of_months"
+"Find the records with such empty field with a date field: <number_of_months "
+"or> number_of_months"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:70
-msgid "Search for materials with a deadline corresponding to the number of months"
+msgid ""
+"Search for materials with a deadline corresponding to the number of months"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:71
-msgid "Search for computers that are 5 years old: Date of purchase contains <-60."
+msgid ""
+"Search for computers that are 5 years old: Date of purchase contains <-60."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:77
@@ -280,8 +277,7 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:77
 msgid ""
-"On some systems, you have to type ^, the space bar then the first "
-"character."
+"On some systems, you have to type ^, the space bar then the first character."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:79
@@ -324,7 +320,7 @@ msgstr ""
 msgid "Search for all computers in the « Root entity » which are not laptops."
 msgstr ""
 
-#: ../../source/first-steps/search.rst
+#: ../../source/first-steps/search.rst:0
 msgid "Search interface"
 msgstr ""
 
@@ -350,14 +346,14 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:101
 msgid ""
-"The export of the search result in SLK or CSV spreadsheet formats, or in "
-"PDF format can be done in two different forms:"
+"The export of the search result in SLK or CSV spreadsheet formats, or in PDF"
+" format can be done in two different forms:"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:103
 msgid ""
-"*Current page* exports only the data displayed on the screen (for example"
-" the first 10 results out of 200)"
+"*Current page* exports only the data displayed on the screen (for example "
+"the first 10 results out of 200)"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:104
@@ -366,29 +362,29 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:106
 msgid ""
-"There is also an option to copy the names of the results to the clipboard"
-" (Ex: Computer names)."
+"There is also an option to copy the names of the results to the clipboard "
+"(Ex: Computer names)."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:108
 msgid ""
-"The SLK format can be used by a lot of spreadsheet software. Fields that "
-"are too long will be truncated when using software that does not fully "
-"comply with the standards. In this case, it is preferable to use the "
-"exports in CSV format."
+"The SLK format can be used by a lot of spreadsheet software. Fields that are"
+" too long will be truncated when using software that does not fully comply "
+"with the standards. In this case, it is preferable to use the exports in CSV"
+" format."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:110
 msgid ""
 "If the data exported in CSV format is imported into Microsoft Excel "
-"software, accented characters may not be displayed correctly. This "
-"software seems to have difficulty with data encoded in UTF-8."
+"software, accented characters may not be displayed correctly. This software "
+"seems to have difficulty with data encoded in UTF-8."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:112
 msgid ""
-"You can export search results by clicking on the `Export` button above "
-"the search results list."
+"You can export search results by clicking on the `Export` button above the "
+"search results list."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:115
@@ -401,8 +397,8 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:119
 msgid ""
-"List/Table - The default view that shows results in a table with the "
-"field names along the top as headers and each result as a row"
+"List/Table - The default view that shows results in a table with the field "
+"names along the top as headers and each result as a row"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:120
@@ -417,8 +413,8 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:126
 msgid ""
-"If an item type does not have the ability to have a location, then the "
-"map view toggle will be hidden."
+"If an item type does not have the ability to have a location, then the map "
+"view toggle will be hidden."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:129
@@ -428,19 +424,19 @@ msgstr ""
 #: ../../source/first-steps/search.rst:131
 msgid ""
 "In the table view, you have the option to sort the results by any of the "
-"displayed fields by clicking on the relevant column headers. You may "
-"perform a multi-sort by holding the ``Ctrl`` or ``Command (MacOS)`` keys "
-"while left clicking on the column header. Clicking on column headers "
-"multiple times will cycle between sort directions and removing the sort."
+"displayed fields by clicking on the relevant column headers. You may perform"
+" a multi-sort by holding the ``Ctrl`` or ``Command (MacOS)`` keys while left"
+" clicking on the column header. Clicking on column headers multiple times "
+"will cycle between sort directions and removing the sort."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:135
 msgid ""
-"At the bottom of the results table is a dropdown that can be used to "
-"change the number of results that will show on each page. There are also "
-"pagination controls that let you navigate between the search results "
-"pages, and an indicator of where you are currently at within the results "
-"(Ex: Showing 1 to 20 of 30 rows)."
+"At the bottom of the results table is a dropdown that can be used to change "
+"the number of results that will show on each page. There are also pagination"
+" controls that let you navigate between the search results pages, and an "
+"indicator of where you are currently at within the results (Ex: Showing 1 to"
+" 20 of 30 rows)."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:139
@@ -449,10 +445,10 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:141
 msgid ""
-"A massive action system is integrated into the search engine. It allows "
-"you to make bulk modifications and perform actions to all the selected "
-"elements. Some examples of the available massive actions (Will differ "
-"based on the type of item):"
+"A massive action system is integrated into the search engine. It allows you "
+"to make bulk modifications and perform actions to all the selected elements."
+" Some examples of the available massive actions (Will differ based on the "
+"type of item):"
 msgstr ""
 
 #: ../../source/first-steps/search.rst:143
@@ -498,45 +494,43 @@ msgstr ""
 #: ../../source/first-steps/search.rst:154
 msgid ""
 "To use it, simply select the elements for which you want to perform an "
-"action then click on the Actions button available at the top and bottom "
-"of the list. Then, once the type of action has been selected, options are"
-" optionally presented, as well as a validation button."
+"action then click on the Actions button available at the top and bottom of "
+"the list. Then, once the type of action has been selected, options are "
+"optionally presented, as well as a validation button."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:156
 msgid ""
-"The results of the actions as well as the information messages are "
-"presented at the end of the execution of all the actions."
+"The results of the actions as well as the information messages are presented"
+" at the end of the execution of all the actions."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:160
 msgid ""
-"You will find in the headers of the table (at the top and at the bottom) "
-"a checkbox allowing you to select or unselect all the elements of the "
-"list."
+"You will find in the headers of the table (at the top and at the bottom) a "
+"checkbox allowing you to select or unselect all the elements of the list."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:161
 msgid ""
-"A similar system of actions is available in certain lists present within "
-"the objects themselves. The operation is identical to that explained "
-"here."
+"A similar system of actions is available in certain lists present within the"
+" objects themselves. The operation is identical to that explained here."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:165
 msgid ""
-"The number of elements that can be handled simultaneously is limited by "
-"the values ​​of ``max_input_vars`` or ``suhosin.post.max_vars`` in your "
-"PHP configuration. You may therefore get a message indicating that "
-"massive edits are disabled. You just need to increase the values ​​of "
-"your PHP configuration or reduce the number of items displayed."
+"The number of elements that can be handled simultaneously is limited by the "
+"values ​​of ``max_input_vars`` or ``suhosin.post.max_vars`` in your PHP "
+"configuration. You may therefore get a message indicating that massive edits"
+" are disabled. You just need to increase the values ​​of your PHP "
+"configuration or reduce the number of items displayed."
 msgstr ""
 
 #: ../../source/first-steps/search.rst:168
 msgid "Quick search"
 msgstr ""
 
-#: ../../source/first-steps/search.rst:-1
+#: ../../source/first-steps/search.rst-1
 msgid "Quick search box"
 msgstr ""
 
@@ -621,8 +615,7 @@ msgstr ""
 
 #: ../../source/first-steps/search.rst:197
 msgid ""
-"The search is carried out only on the fields displayed by default for "
-"each of the elements mentioned above. In essence, it is the same as an "
-"``items seen`` search on each type of element."
+"The search is carried out only on the fields displayed by default for each "
+"of the elements mentioned above. In essence, it is the same as an ``items "
+"seen`` search on each type of element."
 msgstr ""
-

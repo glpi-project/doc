@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:53+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/assets/index.rst:26
 msgid "Network equipments"
@@ -27,8 +27,8 @@ msgstr ""
 
 #: ../../source/modules/assets/index.rst:4
 msgid ""
-"The GLPI Asset module is used to manage all the assets that are part of "
-"your IT infrastructure."
+"The GLPI Asset module is used to manage all the assets that are part of your"
+" IT infrastructure."
 msgstr ""
 
 #: ../../source/modules/assets/index.rst:7
@@ -51,37 +51,35 @@ msgstr ""
 #: ../../source/modules/assets/index.rst:13
 msgid ""
 "More information on the GLPI Agent can be found in its dedicated "
-"`documentation <https://glpi-"
-"agent.readthedocs.io/en/latest/index.html>`_."
+"`documentation <https://glpi-agent.readthedocs.io/en/latest/index.html>`_."
 msgstr ""
 
 #: ../../source/modules/assets/index.rst:15
 msgid ""
-"If you have used Fusion Inventory in the past with GLPI, it is very easy "
-"to migrate over to the GLPI Agent due to the native inventory remaining "
+"If you have used Fusion Inventory in the past with GLPI, it is very easy to "
+"migrate over to the GLPI Agent due to the native inventory remaining "
 "compatible with the Fusion Inventory agent."
 msgstr ""
 
 #: ../../source/modules/assets/index.rst:17
 msgid ""
-"GLPI also supports automatic inventory via multiple plugins including but"
-" not limited to:"
+"GLPI also supports automatic inventory via multiple plugins including but "
+"not limited to:"
 msgstr ""
 
 #: ../../source/modules/assets/index.rst:19
 msgid ""
-"The `Fusion Inventory <https://github.com/fusioninventory"
-"/fusioninventory-for-glpi/>`_ plugin transforms GLPI into an inventory "
-"server with the Fusion Inventory agents interfacing directly with the "
-"GLPI server."
+"The `Fusion Inventory <https://github.com/fusioninventory/fusioninventory-"
+"for-glpi/>`_ plugin transforms GLPI into an inventory server with the Fusion"
+" Inventory agents interfacing directly with the GLPI server."
 msgstr ""
 
 #: ../../source/modules/assets/index.rst:21
 msgid ""
-"The `ocsinventoryng <https://github.com/pluginsGLPI/ocsinventoryng>`_ "
-"plugin allow to synchronize the GLPI database with the `OCS Inventory NG "
-"<http://www.ocsinventory-ng.org>`_  inventory tool: the agents installed "
-"on the computers interface directly the the OCS Inventory NG server."
+"The `ocsinventoryng <https://github.com/pluginsGLPI/ocsinventoryng>`_ plugin"
+" allow to synchronize the GLPI database with the `OCS Inventory NG "
+"<http://www.ocsinventory-ng.org>`_  inventory tool: the agents installed on "
+"the computers interface directly the the OCS Inventory NG server."
 msgstr ""
 
 #: ../../source/modules/assets/index.rst:24
@@ -102,7 +100,6 @@ msgstr ""
 
 #: ../../source/modules/assets/index.rst:45
 msgid ""
-"Le protocole IP est matérialisé sous plusieurs formes : adresses IP, "
-"réseaux IP, mais aussi des FQDN"
+"Le protocole IP est matérialisé sous plusieurs formes : adresses IP, réseaux"
+" IP, mais aussi des FQDN"
 msgstr ""
-

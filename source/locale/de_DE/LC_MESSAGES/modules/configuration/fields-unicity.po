@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/configuration/fields-unicity.rst:2
 msgid "Fields unicity"
@@ -23,29 +23,28 @@ msgstr ""
 
 #: ../../source/modules/configuration/fields-unicity.rst:4
 msgid ""
-"GLPI has a mechanism to perform uniqueness checks before the creation of "
-"an object in the database."
+"GLPI has a mechanism to perform uniqueness checks before the creation of an "
+"object in the database."
 msgstr ""
 
 #: ../../source/modules/configuration/fields-unicity.rst:6
 msgid ""
 "This allows you to track and/or block the presence of duplicate objects "
-"based on matching certain fields. For example, you can configure a fields"
-" unicity rule for computers using the serial number field. This applies "
-"to manual additions and additions made from an external source such as an"
-" inventory tool."
+"based on matching certain fields. For example, you can configure a fields "
+"unicity rule for computers using the serial number field. This applies to "
+"manual additions and additions made from an external source such as an "
+"inventory tool."
 msgstr ""
 
 #: ../../source/modules/configuration/fields-unicity.rst:10
 msgid ""
 "Uniqueness is defined by a name, an object type, and one or more fields. "
-"When multiple fields are specified, all of them are checked together "
-"instead of individually (Ex: serial number AND UUID match another "
-"computer. Uniqueness checks for fields only apply if the field is not "
-"empty. For example, multiple computers with a blank serial number would "
-"be allowed. Each uniqueness rule has options to refuse the addition of "
-"the object and/or send a notification if it is determined to not be "
-"unique."
+"When multiple fields are specified, all of them are checked together instead"
+" of individually (Ex: serial number AND UUID match another computer. "
+"Uniqueness checks for fields only apply if the field is not empty. For "
+"example, multiple computers with a blank serial number would be allowed. "
+"Each uniqueness rule has options to refuse the addition of the object and/or"
+" send a notification if it is determined to not be unique."
 msgstr ""
 
 #: ../../source/modules/configuration/fields-unicity.rst:15
@@ -64,8 +63,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/fields-unicity.rst:23
 msgid ""
-"The duplicates tab lists all the values corresponding to the criteria "
-"that are currently duplicated."
+"The duplicates tab lists all the values corresponding to the criteria that "
+"are currently duplicated."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:2
@@ -74,8 +73,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -102,16 +101,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:2
@@ -121,14 +120,14 @@ msgstr ""
 #: ../../source/modules/tabs/debug.rst:4
 msgid ""
 "If you have `Debug` mode enabled in your preferences, a *Debug* tab will "
-"appear before the *All* tab. This tab offers information to help you "
-"resolve an issue."
+"appear before the *All* tab. This tab offers information to help you resolve"
+" an issue."
 msgstr ""
 
 #: ../../source/modules/tabs/debug.rst:6
 msgid ""
-"For example, for a computer, you have one or more tables depending on the"
-" affected object (financial information, reservations...) listing the "
+"For example, for a computer, you have one or more tables depending on the "
+"affected object (financial information, reservations...) listing the "
 "notifications that will be triggered on this computer with:"
 msgstr ""
 
@@ -148,7 +147,7 @@ msgstr ""
 msgid "Recipient(s) email address"
 msgstr ""
 
-#: ../../source/modules/tabs/debug.rst:-1
+#: ../../source/modules/tabs/debug.rst-1
 msgid "Debugging page"
 msgstr ""
 
@@ -158,8 +157,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

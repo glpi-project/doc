@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/first-steps/interfaces.rst:2
 msgid "User interfaces"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:6
 msgid ""
-"The choice of the default interface as well as the visiblity of different"
-" modules can be configured in the profiles or from :doc:`the user's "
+"The choice of the default interface as well as the visiblity of different "
+"modules can be configured in the profiles or from :doc:`the user's "
 "preferences <preferences>`."
 msgstr ""
 
@@ -38,14 +38,14 @@ msgid ""
 "available, but there are limits depending on the profile settings."
 msgstr ""
 
-#: ../../source/first-steps/interfaces.rst:-1
+#: ../../source/first-steps/interfaces.rst-1
 msgid "GLPI standard interface"
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:21
 msgid ""
-"The home page of the standard interface provides a summary view for quick"
-" access to active elements (tickets, notes, planning, contracts, etc.)."
+"The home page of the standard interface provides a summary view for quick "
+"access to active elements (tickets, notes, planning, contracts, etc.)."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:23
@@ -67,8 +67,8 @@ msgstr ""
 #: ../../source/first-steps/interfaces.rst:30
 msgid ""
 "Shows the tickets opened, rejected, to be processed, to be approved (for "
-"which the logged-in user is the requestor) or those on which this user "
-"has an interaction as a validator or technician (awaiting validation, in "
+"which the logged-in user is the requestor) or those on which this user has "
+"an interaction as a validator or technician (awaiting validation, in "
 "progress, to be closed, in waiting). This view also offers him current "
 "issues, his schedule and available notes."
 msgstr ""
@@ -79,10 +79,10 @@ msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:33
 msgid ""
-"Offers the same information about tickets and issues as the personal "
-"view, but using the groups to which it belongs as a reference. Depending "
-"on their profile, they may or may not have access to the tickets for "
-"which their groups are requesting."
+"Offers the same information about tickets and issues as the personal view, "
+"but using the groups to which it belongs as a reference. Depending on their "
+"profile, they may or may not have access to the tickets for which their "
+"groups are requesting."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:35
@@ -92,9 +92,9 @@ msgstr ""
 #: ../../source/first-steps/interfaces.rst:37
 msgid ""
 "Offers statistics on tickets and issues according to their status and on "
-"contracts according to their expiration date. It also offers the view of "
-"the latest additions of objects in GLPI. Depending on the configuration "
-"used, new tickets can also be presented in this tab."
+"contracts according to their expiration date. It also offers the view of the"
+" latest additions of objects in GLPI. Depending on the configuration used, "
+"new tickets can also be presented in this tab."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:39
@@ -103,29 +103,30 @@ msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:41
 msgid ""
-"Proposes the content of defined RSS feeds. :doc:`RSS feeds are managed "
-"from the \"Tools  > RSS Feeds\" menu <../modules/tools/rssfeed>`."
+"Proposes the content of defined RSS feeds. :doc:`RSS feeds are managed from "
+"the \"Tools  > RSS Feeds\" menu <../modules/tools/rssfeed>`."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:45
-msgid "For Personal and Group views, only tables with information are displayed."
+msgid ""
+"For Personal and Group views, only tables with information are displayed."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:49
 msgid ""
-"Two security messages may be displayed when you log in for the first time"
-" after completing the installation procedure."
+"Two security messages may be displayed when you log in for the first time "
+"after completing the installation procedure."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:51
 msgid ""
 "The first asks you to change the passwords of the accounts created by "
 "default in GLPI, the second asks you to delete the directory "
-"``glpi/install``. There may also be one or more other messages here "
-"related to security or needed database schema changes"
+"``glpi/install``. There may also be one or more other messages here related "
+"to security or needed database schema changes"
 msgstr ""
 
-#: ../../source/first-steps/interfaces.rst:-1
+#: ../../source/first-steps/interfaces.rst-1
 msgid "Security messages"
 msgstr ""
 
@@ -141,32 +142,31 @@ msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:66
 msgid ""
-"It is the most restrictive interface of the application and is built for "
-"an end-user more than a technician. Therefore, the number of available "
-"modules is reduced to a minimum."
+"It is the most restrictive interface of the application and is built for an "
+"end-user more than a technician. Therefore, the number of available modules "
+"is reduced to a minimum."
 msgstr ""
 
-#: ../../source/first-steps/interfaces.rst:-1
+#: ../../source/first-steps/interfaces.rst-1
 msgid "GLPI simplified interface"
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:73
 msgid ""
-"It is intended for users with very limited permissions in the application"
-" such as the built-in self-service and helpdesk profiles."
+"It is intended for users with very limited permissions in the application "
+"such as the built-in self-service and helpdesk profiles."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:75
 msgid ""
-"In the default configuration, a user can, from this interface, only "
-"create tickets, follow the processing of their tickets, make "
-"reservations, view the notes or public RSS feeds (or create private notes"
-" or feeds) and consult the Frequently Asked Questions."
+"In the default configuration, a user can, from this interface, only create "
+"tickets, follow the processing of their tickets, make reservations, view the"
+" notes or public RSS feeds (or create private notes or feeds) and consult "
+"the Frequently Asked Questions."
 msgstr ""
 
 #: ../../source/first-steps/interfaces.rst:77
 msgid ""
-"The home page offers the number of its tickets according to their status "
-"as well as the most popular and recent FAQ topics."
+"The home page offers the number of its tickets according to their status as "
+"well as the most popular and recent FAQ topics."
 msgstr ""
-

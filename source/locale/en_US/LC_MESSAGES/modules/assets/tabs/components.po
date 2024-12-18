@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/1637/en_US/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assets/tabs/components.rst:2
 msgid "Components"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:4
 msgid ""
-"This tab, named `Components` and visible in a `Computer` entry, allows to"
-" manage the hardware components of a computer."
+"This tab, named `Components` and visible in a `Computer` entry, allows to "
+"manage the hardware components of a computer."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Components screen"
 msgstr ""
 
@@ -39,22 +39,22 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:15
 msgid ""
-"If several components of the same type are used, they will be grouped in "
-"the view."
+"If several components of the same type are used, they will be grouped in the"
+" view."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst
+#: ../../source/modules/assets/tabs/components.rst:0
 msgid "Grouped components"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:21
 msgid ""
-"It is possible to add a component by first selecting its family in the "
-"drop-down list at the top of the table and then its name and the number "
-"of components to add."
+"It is possible to add a component by first selecting its family in the drop-"
+"down list at the top of the table and then its name and the number of "
+"components to add."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Adding a component"
 msgstr ""
 
@@ -64,7 +64,7 @@ msgid ""
 "clicking on the link under its name."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 #: ../../source/modules/assets/tabs/components.rst:65
 msgid "Modify a component"
 msgstr ""
@@ -73,28 +73,27 @@ msgstr ""
 msgid ""
 "To act on several components (for example modify an element of the "
 "component, activate accounting information or modify them, delete a "
-"component...), first select the components and then use the `Actions` "
-"button present at the top or the bottom of the list."
+"component...), first select the components and then use the `Actions` button"
+" present at the top or the bottom of the list."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:39
 msgid ""
 "If several types of different components, not having the same "
-"characteristics, are selected for modification, in the actions it will be"
-" asked on which component modification must be applied."
+"characteristics, are selected for modification, in the actions it will be "
+"asked on which component modification must be applied."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Mass actions on a component"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:48
 msgid ""
-"Selection button in left column allows to select all the components at "
-"once."
+"Selection button in left column allows to select all the components at once."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Component selection (left)"
 msgstr ""
 
@@ -104,7 +103,7 @@ msgid ""
 "components of the same type (processor, memory, network interface...)."
 msgstr ""
 
-#: ../../source/modules/assets/tabs/components.rst:-1
+#: ../../source/modules/assets/tabs/components.rst-1
 msgid "Component selection (right)"
 msgstr ""
 
@@ -124,14 +123,14 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:73
 msgid ""
-"Tab \"Element - Link name of component\" : list the characteristics of "
-"this component"
+"Tab \"Element - Link name of component\" : list the characteristics of this "
+"component"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:74
 msgid ""
-":doc:`Tab \"Management\" </modules/tabs/management>` : manage "
-"administrative and accounting information"
+":doc:`Tab \"Management\" </modules/tabs/management>` : manage administrative"
+" and accounting information"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:75
@@ -140,8 +139,7 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:76
 msgid ""
-":doc:`Tab \"History\" </modules/tabs/historical>` : history of "
-"modifications"
+":doc:`Tab \"History\" </modules/tabs/historical>` : history of modifications"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:77
@@ -150,20 +148,20 @@ msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:78
 msgid ""
-":doc:`Tab \"Debug\" </modules/tabs/debug>` : only if you are connected in"
-" Debug mode"
+":doc:`Tab \"Debug\" </modules/tabs/debug>` : only if you are connected in "
+"Debug mode"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:79
 msgid ""
-":doc:`Tab \"All\" </modules/tabs/all>` : all the information are "
-"displayed on a single page"
+":doc:`Tab \"All\" </modules/tabs/all>` : all the information are displayed "
+"on a single page"
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:83
 msgid ""
-"Every deletion or addition of a component is recorded in the history of "
-"the computer."
+"Every deletion or addition of a component is recorded in the history of the "
+"computer."
 msgstr ""
 
 #: ../../source/modules/assets/tabs/components.rst:87
@@ -171,4 +169,3 @@ msgid ""
 "If using native inventory or third-party inventory tool, the components "
 "information can be automatically imported and updated."
 msgstr ""
-

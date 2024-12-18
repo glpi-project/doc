@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/first-steps/general.rst:2
 msgid "General"
@@ -31,8 +31,8 @@ msgstr ""
 
 #: ../../source/first-steps/general.rst:9
 msgid ""
-"Optimal functioning of the application is obtained by using a modern "
-"browser compliant with web standards."
+"Optimal functioning of the application is obtained by using a modern browser"
+" compliant with web standards."
 msgstr ""
 
 #: ../../source/first-steps/general.rst:11
@@ -69,9 +69,9 @@ msgstr ""
 
 #: ../../source/first-steps/general.rst:24
 msgid ""
-"Access to the full functionality of the application requires "
-"authentication. An unauthenticated user can possibly access certain "
-"functions if GLPI has been configured to allow it:"
+"Access to the full functionality of the application requires authentication."
+" An unauthenticated user can possibly access certain functions if GLPI has "
+"been configured to allow it:"
 msgstr ""
 
 #: ../../source/first-steps/general.rst:26
@@ -88,8 +88,8 @@ msgstr ""
 
 #: ../../source/first-steps/general.rst:30
 msgid ""
-"Depending on the profile of the authenticated user, they may be shown the"
-" :ref:`standard interface <standard_interface>`, or :ref:`simplified "
+"Depending on the profile of the authenticated user, they may be shown the "
+":ref:`standard interface <standard_interface>`, or :ref:`simplified "
 "interface <simplified_interface>`."
 msgstr ""
 
@@ -102,4 +102,3 @@ msgid ""
 "To log out, click the Logout button in the top right of the screen. Once "
 "logged out, you will be redirected to the login page."
 msgstr ""
-

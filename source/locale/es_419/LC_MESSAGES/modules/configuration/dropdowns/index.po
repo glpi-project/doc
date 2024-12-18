@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/dropdowns/index.rst:2
 msgid "Dropdowns"
@@ -23,8 +23,7 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:4
 msgid ""
-"Some dropdown lists can be configured in GLPI including but not limited "
-"to:"
+"Some dropdown lists can be configured in GLPI including but not limited to:"
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:6
@@ -49,29 +48,28 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:12
 msgid ""
-"Some of the dropdowns have some default values added during the "
-"installation of GLPI when they may benefit many users. For example, GLPI "
-"defines multiple files system formats by default."
+"Some of the dropdowns have some default values added during the installation"
+" of GLPI when they may benefit many users. For example, GLPI defines "
+"multiple files system formats by default."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:15
 msgid ""
-"The list of dropdown types may vary depending on the user's current "
-"profile."
+"The list of dropdown types may vary depending on the user's current profile."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:17
 msgid ""
-"The dropdown options can be translated into multiple languages, however "
-"this feature is disabled by default. It can be enabled in `Setup > "
-"General > General setup`. This will add a new tab in the dropdown form to"
-" manage the translations."
+"The dropdown options can be translated into multiple languages, however this"
+" feature is disabled by default. It can be enabled in `Setup > General > "
+"General setup`. This will add a new tab in the dropdown form to manage the "
+"translations."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:21
 msgid ""
-"Some of the dropdowns are simple, flat lists while others can be "
-"organized into a tree structure by defining their parent option."
+"Some of the dropdowns are simple, flat lists while others can be organized "
+"into a tree structure by defining their parent option."
 msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:23
@@ -82,7 +80,6 @@ msgstr ""
 
 #: ../../source/modules/configuration/dropdowns/index.rst:25
 msgid ""
-"The types of dropdowns that can be associated with specific entities will"
-" show a \"stack\" icon (Same as the Entity menu item)."
+"The types of dropdowns that can be associated with specific entities will "
+"show a \"stack\" icon (Same as the Entity menu item)."
 msgstr ""
-

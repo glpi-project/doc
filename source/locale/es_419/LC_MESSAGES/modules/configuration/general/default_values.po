@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/configuration/general/default_values.rst:2
 msgid "Default values"
@@ -38,10 +38,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:15
 msgid ""
-"**Results to display by page** The number of results displayed in the "
-"search results list. If a user sets this higher than what is specified in"
-" the general setup, then they will be limited to the general setup's "
-"value."
+"**Results to display by page** The number of results displayed in the search"
+" results list. If a user sets this higher than what is specified in the "
+"general setup, then they will be limited to the general setup's value."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:19
@@ -51,15 +50,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:22
-msgid "**Show GLPI ID** Adds the GLPI ID after its name on the item's edit form"
+msgid ""
+"**Show GLPI ID** Adds the GLPI ID after its name on the item's edit form"
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:25
 msgid ""
-"**Notifications for my changes** Receive notifications for the actions "
-"that the logged in user has done. This does not apply to the creation of "
-"a ticket for which the notification is systematically sent (proof of "
-"creation)."
+"**Notifications for my changes** Receive notifications for the actions that "
+"the logged in user has done. This does not apply to the creation of a ticket"
+" for which the notification is systematically sent (proof of creation)."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:29
@@ -69,8 +68,8 @@ msgstr ""
 #: ../../source/modules/configuration/general/default_values.rst:32
 msgid ""
 "**Go to created item after creation** If enabled, the user would be "
-"redirected to the edit from of the item after it gets created. Otherwise,"
-" they would remain on the new item form to be able to add more items."
+"redirected to the edit from of the item after it gets created. Otherwise, "
+"they would remain on the new item form to be able to add more items."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:36
@@ -83,14 +82,14 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:42
 msgid ""
-"**Display order of surnames/firstnames** Display order for a user's first"
-" and last name"
+"**Display order of surnames/firstnames** Display order for a user's first "
+"and last name"
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:45
 msgid ""
-"**Display counters** If enabled, the number of elements will be shown "
-"next to some tab names such as the `Items` tab in a Ticket."
+"**Display counters** If enabled, the number of elements will be shown next "
+"to some tab names such as the `Items` tab in a Ticket."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:48
@@ -99,17 +98,17 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:51
 msgid ""
-"**Results to display on home page** The number of items to display in the"
-" Ticket, Change, and Problem tables on the home page. If this parameter "
-"is set to 0, only the table titles will be displayed but you can access "
-"their respective contents by clicking on the name of the table."
+"**Results to display on home page** The number of items to display in the "
+"Ticket, Change, and Problem tables on the home page. If this parameter is "
+"set to 0, only the table titles will be displayed but you can access their "
+"respective contents by clicking on the name of the table."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:55
 msgid ""
-"**Keep devices when purging an item** : If enabled, the components linked"
-" to an item that is being deleted can be preserved. Otherwise, they will "
-"be deleted along with the item."
+"**Keep devices when purging an item** : If enabled, the components linked to"
+" an item that is being deleted can be preserved. Otherwise, they will be "
+"deleted along with the item."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:60
@@ -118,8 +117,8 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:64
 msgid ""
-"**Private followups by default** If enabled, followups are pre-selected "
-"to be private."
+"**Private followups by default** If enabled, followups are pre-selected to "
+"be private."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:67
@@ -134,33 +133,34 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:73
 msgid ""
-"**Pre-select me as a technician when creating a ticket** The logged in "
-"user will automatically be assigned to the ticket while creating it. This"
-" only applies to users who can be assigned to tickets."
+"**Pre-select me as a technician when creating a ticket** The logged in user "
+"will automatically be assigned to the ticket while creating it. This only "
+"applies to users who can be assigned to tickets."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:77
 msgid ""
-"**Priority colors** Define the colors used in the interface to "
-"differentiate the different priority levels."
+"**Priority colors** Define the colors used in the interface to differentiate"
+" the different priority levels."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:80
 msgid ""
-"**Show new tickets on the home page** If the logged in user has the right"
-" to see all tickets, a table listing all tickets with the \"New\" will be"
-" displayed in the *Overview* tab of the home page."
+"**Show new tickets on the home page** If the logged in user has the right to"
+" see all tickets, a table listing all tickets with the \"New\" will be "
+"displayed in the *Overview* tab of the home page."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:83
-msgid "**Request sources by default** Pre-selected request source for new tickets"
+msgid ""
+"**Request sources by default** Pre-selected request source for new tickets"
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:86
 msgid ""
-"**Automatically refresh data (tickets list, project kanban) in minutes** "
-": Automatically refresh the information in the tickets list and Kanban. "
-"If set to 0, the automatic refresh is disabled."
+"**Automatically refresh data (tickets list, project kanban) in minutes** : "
+"Automatically refresh the information in the tickets list and Kanban. If set"
+" to 0, the automatic refresh is disabled."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:91
@@ -169,9 +169,9 @@ msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:95
 msgid ""
-"Allows to define the colors that will be applied in the progress bar of "
-"an object. These different states depend on the thresholds set in "
-"percent, hours or days."
+"Allows to define the colors that will be applied in the progress bar of an "
+"object. These different states depend on the thresholds set in percent, "
+"hours or days."
 msgstr ""
 
 #: ../../source/modules/configuration/general/default_values.rst:99
@@ -183,4 +183,3 @@ msgid ""
 "Configure the default dashboards for the home page (central), assistance "
 "module, assets module, and above the tickets search results list."
 msgstr ""
-

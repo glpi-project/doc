@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/1637/es_419/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/assistance/problems.rst:2
 msgid "Manage problems"
@@ -23,23 +23,22 @@ msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:4
 msgid ""
-"A problem is the cause of potential incidents and, once identified, can "
-"be managed in GLPI."
+"A problem is the cause of potential incidents and, once identified, can be "
+"managed in GLPI."
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:6
 msgid ""
-"Creating a problem object can be done either from the ticket form, in tab"
-" *Problem*, or directly from menu *Assistance > Problems*."
+"Creating a problem object can be done either from the ticket form, in tab "
+"*Problem*, or directly from menu *Assistance > Problems*."
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:8
 msgid ""
-"The problem creation form is very similar to the ticket creation form and"
-" shares with it many concepts: `Requester`, `Watcher`, `Assigned to`, "
-"`Status`, `Urgency`, `Impact`, `Priority`, `Category`. For more "
-"information, see :doc:`Manage tickets "
-"</modules/assistance/tickets/ticketmanagement>`."
+"The problem creation form is very similar to the ticket creation form and "
+"shares with it many concepts: `Requester`, `Watcher`, `Assigned to`, "
+"`Status`, `Urgency`, `Impact`, `Priority`, `Category`. For more information,"
+" see :doc:`Manage tickets </modules/assistance/tickets/ticketmanagement>`."
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:10
@@ -49,9 +48,9 @@ msgstr ""
 #: ../../source/modules/assistance/problems.rst:11
 msgid ""
 "Check what is means From tickets list, an alternative solution can be "
-"associated to linked tickets without solving the problem. Depuis la liste"
-" des tickets, une solution de contournement peut être associé massivement"
-" aux tickets liés sans pour autant résoudre le problème."
+"associated to linked tickets without solving the problem. Depuis la liste "
+"des tickets, une solution de contournement peut être associé massivement aux"
+" tickets liés sans pour autant résoudre le problème."
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:15
@@ -62,8 +61,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:17
 msgid ""
-"Statistics similar to tickets are available for problems, see "
-":doc:`Display statistics </modules/assistance/statistics>`."
+"Statistics similar to tickets are available for problems, see :doc:`Display "
+"statistics </modules/assistance/statistics>`."
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:21
@@ -76,9 +75,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:26
 msgid ""
-"This tab allows to display changes associated with the problem and add "
-"new changes. See :doc:`Solutions "
-"</Les_différents_onglets/Onglet_Changements>`"
+"This tab allows to display changes associated with the problem and add new "
+"changes. See :doc:`Solutions </Les_différents_onglets/Onglet_Changements>`"
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:29
@@ -117,8 +115,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:46
 msgid ""
-"A task is an action linked with a problem, usually a technical "
-"intervention. See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`"
+"A task is an action linked with a problem, usually a technical intervention."
+" See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`"
 msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:49
@@ -137,8 +135,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/problems.rst:56
 msgid ""
-"This tab allows to attach an item to the problem by choosing the type and"
-" the selected item. See :doc:`Items "
+"This tab allows to attach an item to the problem by choosing the type and "
+"the selected item. See :doc:`Items "
 "</Les_différents_onglets/Onglet_Eléments>`"
 msgstr ""
 
@@ -152,7 +150,7 @@ msgid ""
 "object. It also lists the tickets already linked to the object."
 msgstr ""
 
-#: ../../source/modules/tabs/tickets.rst:-1
+#: ../../source/modules/tabs/tickets.rst-1
 msgid "Image of the ticket list"
 msgstr ""
 
@@ -170,30 +168,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/notes.rst:2
@@ -206,7 +204,7 @@ msgid ""
 "information. Notes are displayed in the order of their creation."
 msgstr ""
 
-#: ../../source/modules/tabs/notes.rst:-1
+#: ../../source/modules/tabs/notes.rst-1
 msgid "View and enter a note"
 msgstr ""
 
@@ -216,8 +214,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -244,16 +242,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/all.rst:2
@@ -262,8 +260,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

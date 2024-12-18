@@ -6,3 +6,4 @@ Advanced Configuration
 
    cache
    status
+   override-locales

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/assistance/changes.rst:2
 msgid "Manage changes"
@@ -27,36 +27,34 @@ msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:6
 msgid ""
-"A change can be created either from a ticket form or a problem form, in "
-"tab **Changes**, or from menu **Assistance > Changes**."
+"A change can be created either from a ticket form or a problem form, in tab "
+"**Changes**, or from menu **Assistance > Changes**."
 msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:8
 msgid ""
 "The form to create a change is similar to the ticket creation form and "
-"shares with it many terms: *requester*, *watcher*, *assigned to*, "
-"*status*, *urgency*, *impact*, *priority*, *category*. For more "
-"information see :doc:`Manage tickets "
-"</modules/assistance/tickets/ticketmanagement>`. The validation process "
-"is also the same as tickets in order to allow preliminary validation of "
-"the change (tab *Validations*)."
+"shares with it many terms: *requester*, *watcher*, *assigned to*, *status*, "
+"*urgency*, *impact*, *priority*, *category*. For more information see "
+":doc:`Manage tickets </modules/assistance/tickets/ticketmanagement>`. The "
+"validation process is also the same as tickets in order to allow preliminary"
+" validation of the change (tab *Validations*)."
 msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:10
 msgid ""
 "Once the change is created, it is possible to attach tickets but also "
-"impacted items (tab *Items*). An analysis phase (tab *Analysis*) consists"
-" in describing impacts and controls list in order to implement this "
-"change through a deployment plan, a backup plan and a checklist (tab "
-"*Plans*)."
+"impacted items (tab *Items*). An analysis phase (tab *Analysis*) consists in"
+" describing impacts and controls list in order to implement this change "
+"through a deployment plan, a backup plan and a checklist (tab *Plans*)."
 msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:12
 msgid ""
 "Same as tickets, task, costs and solution allow to follow and solve the "
-"change. For complex changes management, a change can be linked with one "
-"or several projects allowing a mode detailed management (:doc:`Manage "
-"projects </modules/tools/projects>`)."
+"change. For complex changes management, a change can be linked with one or "
+"several projects allowing a mode detailed management (:doc:`Manage projects "
+"</modules/tools/projects>`)."
 msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:14
@@ -75,8 +73,7 @@ msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:22
 msgid ""
-"This tab contains impacts and check-lists in order to implement the "
-"change."
+"This tab contains impacts and check-lists in order to implement the change."
 msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:25
@@ -137,8 +134,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:54
 msgid ""
-"A task is an action linked with a change, usually a technical "
-"intervention. See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`"
+"A task is an action linked with a change, usually a technical intervention. "
+"See :doc:`Tasks </Les_différents_onglets/Onglet_Tâches>`"
 msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:57
@@ -157,9 +154,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/changes.rst:64
 msgid ""
-"This tab allows to attach an item to the change by choosing the type and "
-"the selected item. See :doc:`Items "
-"</Les_différents_onglets/Onglet_Eléments>`"
+"This tab allows to attach an item to the change by choosing the type and the"
+" selected item. See :doc:`Items </Les_différents_onglets/Onglet_Eléments>`"
 msgstr ""
 
 #: ../../source/modules/tabs/tickets.rst:2
@@ -172,7 +168,7 @@ msgid ""
 "object. It also lists the tickets already linked to the object."
 msgstr ""
 
-#: ../../source/modules/tabs/tickets.rst:-1
+#: ../../source/modules/tabs/tickets.rst-1
 msgid "Image of the ticket list"
 msgstr ""
 
@@ -190,30 +186,30 @@ msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:4
 msgid ""
-"Additional information is stored in the form of external documents which "
-"are files uploaded into GLPI. In the *Documents* tab, documents can be "
-"associated and unlinked with the selected item. The :doc:`management of "
-"the documents themselves </modules/management/documents>` is dealt with "
-"in another chapter."
+"Additional information is stored in the form of external documents which are"
+" files uploaded into GLPI. In the *Documents* tab, documents can be "
+"associated and unlinked with the selected item. The :doc:`management of the "
+"documents themselves </modules/management/documents>` is dealt with in "
+"another chapter."
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:6
 msgid ""
-"It is also possible to quickly create a document via this tab by "
-"specifying the desired file and optionally the field in which the new "
-"document is to be placed. The name of the created document will be based "
-"on the name of the added file."
+"It is also possible to quickly create a document via this tab by specifying "
+"the desired file and optionally the field in which the new document is to be"
+" placed. The name of the created document will be based on the name of the "
+"added file."
 msgstr ""
 
-#: ../../source/modules/tabs/documents.rst:-1
+#: ../../source/modules/tabs/documents.rst-1
 msgid "Document creation screen"
 msgstr ""
 
 #: ../../source/modules/tabs/documents.rst:14
 msgid ""
-"When you delete a document from this tab via mass actions, you only "
-"remove the link between the object and the document; the document itself "
-"is still present."
+"When you delete a document from this tab via mass actions, you only remove "
+"the link between the object and the document; the document itself is still "
+"present."
 msgstr ""
 
 #: ../../source/modules/tabs/notes.rst:2
@@ -226,7 +222,7 @@ msgid ""
 "information. Notes are displayed in the order of their creation."
 msgstr ""
 
-#: ../../source/modules/tabs/notes.rst:-1
+#: ../../source/modules/tabs/notes.rst-1
 msgid "View and enter a note"
 msgstr ""
 
@@ -236,8 +232,8 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:4
 msgid ""
-"The *History* tab is used to show any changes made to an item. The "
-"following information about the changes is available:"
+"The *History* tab is used to show any changes made to an item. The following"
+" information about the changes is available:"
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:6
@@ -264,16 +260,16 @@ msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:12
 msgid ""
-"The description of the change represents either the difference between "
-"the old and the new value (For example with location field: Change HQ to "
-"Remote Office A), or the explanation of the action which was carried out "
-"(For example: Uninstallation of a software: \"Gimp 2.0\")."
+"The description of the change represents either the difference between the "
+"old and the new value (For example with location field: Change HQ to Remote "
+"Office A), or the explanation of the action which was carried out (For "
+"example: Uninstallation of a software: \"Gimp 2.0\")."
 msgstr ""
 
 #: ../../source/modules/tabs/historical.rst:16
 msgid ""
-"For dropdowns or objects with a parent/child relationship, the "
-"modification of a child will appear in the history of the parent element."
+"For dropdowns or objects with a parent/child relationship, the modification "
+"of a child will appear in the history of the parent element."
 msgstr ""
 
 #: ../../source/modules/tabs/all.rst:2
@@ -282,8 +278,7 @@ msgstr ""
 
 #: ../../source/modules/tabs/all.rst:4
 msgid ""
-"For an item, all information is displayed on one page from the *All* tab."
-" This shows all of the tabs of an object's form in one view, one below "
-"the other."
+"For an item, all information is displayed on one page from the *All* tab. "
+"This shows all of the tabs of an object's form in one view, one below the "
+"other."
 msgstr ""
-

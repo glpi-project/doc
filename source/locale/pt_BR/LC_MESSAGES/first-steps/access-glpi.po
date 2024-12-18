@@ -1,65 +1,87 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Matheus Rafael, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Last-Translator: Matheus Rafael, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/first-steps/access-glpi.rst:2
 msgid "Administering access controls"
-msgstr ""
+msgstr "Administrando controles de acesso"
 
 #: ../../source/first-steps/access-glpi.rst:4
 msgid ""
 "This section describes how to administer the access control system that "
 "allows each user to access a specific context of use."
 msgstr ""
+"Esta seção descreve como administrar o sistema de controle de acesso que "
+"permite a cada usuário acessar um contexto específico de uso."
 
 #: ../../source/first-steps/access-glpi.rst:6
 msgid ""
-"In GLPI each user does not have access to the same interface nor to the "
-"same same functionalities. For each user, a specific context of use is "
+"In GLPI each user does not have access to the same interface nor to the same"
+" same functionalities. For each user, a specific context of use is "
 "determined, which grants them access only to the functionalities and "
-"information that is needed. Access to identity information about the user"
-" allows us to determine his or her authorizations."
+"information that is needed. Access to identity information about the user "
+"allows us to determine his or her authorizations."
 msgstr ""
+"No GLPI cada usuário não tem acesso à mesma interface nem às mesmas "
+"funcionalidades. Para cada utilizador é determinado um contexto de "
+"utilização específico, que lhe permite aceder apenas às funcionalidades e "
+"informações necessárias. O acesso às informações de identidade do usuário "
+"nos permite determinar suas autorizações."
 
 #: ../../source/first-steps/access-glpi.rst:10
 msgid ""
-"The first step is to configure the desired authentication method(s). GLPI"
-" is able to manage user authentication and information completely locally"
-" in its database, however it is recommended to delegate the "
-"authentication to an external service like LDAP. See :doc:`Configuring "
-"authentication methods <../modules/configuration/authentication/index>` "
-"for more information."
+"The first step is to configure the desired authentication method(s). GLPI is"
+" able to manage user authentication and information completely locally in "
+"its database, however it is recommended to delegate the authentication to an"
+" external service like LDAP. See :doc:`Configuring authentication methods "
+"<../modules/configuration/authentication/index>` for more information."
 msgstr ""
+"A primeira etapa é configurar o(s) método(s) de autenticação desejado(s). O "
+"GLPI é capaz de gerenciar a autenticação e as informações do usuário de "
+"forma totalmente local em seu banco de dados, porém é recomendável delegar a"
+" autenticação a um serviço externo como o LDAP.Veja :doc:`Configuring "
+"authentication methods <../modules/configuration/authentication/index>` para"
+" mais informações."
 
 #: ../../source/first-steps/access-glpi.rst:14
 msgid ""
-"The import or creation of new users and management of users known to GLPI"
-" including deletion, syncronization, activation/deactivation and "
-"management of information such as email, phone, etc is covered in "
-":doc:`the user administration documentation "
-"<../modules/administration/users/users>`."
+"The import or creation of new users and management of users known to GLPI "
+"including deletion, syncronization, activation/deactivation and management "
+"of information such as email, phone, etc is covered in :doc:`the user "
+"administration documentation <../modules/administration/users/users>`."
 msgstr ""
+"A importação ou criação de novos usuários e gerenciamento de usuários "
+"conhecidos pelo GLPI, incluindo exclusão, sincronização, "
+"ativação/desativação e gerenciamento de informações como e-mail, telefone, "
+"etc. :doc:`the user administration documentation "
+"<../modules/administration/users/users>`."
 
 #: ../../source/first-steps/access-glpi.rst:16
 msgid ""
 "A user can associated with groups, entities, and profiles which are the "
 "means of determining usage contexts."
 msgstr ""
+"Um usuário pode ser associado a grupos, entidades e perfis que são os meios "
+"de determinar os contextos de uso."
 
 #: ../../source/first-steps/access-glpi.rst:18
 msgid ""
@@ -67,6 +89,10 @@ msgid ""
 "organizational units. See :doc:`Administering groups "
 "<../modules/administration/groups>` for more information."
 msgstr ""
+"Os grupos permitem que os usuários sejam agrupados de acordo com as "
+"semelhanças em habilidades ou unidades organizacionais. Veja "
+":doc:`Administering groups <../modules/administration/groups>` para mais "
+"informações."
 
 #: ../../source/first-steps/access-glpi.rst:22
 msgid ""
@@ -74,19 +100,28 @@ msgid ""
 "departments that are isolated from each other. See :doc:`Administering "
 "entities <../modules/administration/entities>` for more information."
 msgstr ""
+"As entidades permitem que você segmente sua frota de ativos, help desk, "
+"etc., em departamentos isolados uns dos outros. Veja :doc:`Administering "
+"entities <../modules/administration/entities>` para mais informações."
 
 #: ../../source/first-steps/access-glpi.rst:25
 msgid ""
 "Profiles are sets of permissions that can be granted to users. Multiple "
-"profiles can be given to a user but only one can be active at a time. See"
-" :doc:`Administering profiles "
-"<../modules/administration/profiles/profiles>` for more information."
+"profiles can be given to a user but only one can be active at a time. See "
+":doc:`Administering profiles <../modules/administration/profiles/profiles>` "
+"for more information."
 msgstr ""
+"Os perfis são conjuntos de permissões que podem ser concedidas aos usuários."
+" Vários perfis podem ser atribuídos a um usuário, mas apenas um pode estar "
+"ativo por vez.Veja :doc:`Administering profiles "
+"<../modules/administration/profiles/profiles>` para mais informações."
 
 #: ../../source/first-steps/access-glpi.rst:28
 msgid ""
 "Finally, you can configure :doc:`Rules for assigning authorizations to a "
-"user <../modules/administration/rules/userauthorizations>` to dynamically"
-" assign entities, groups and profiles to users."
+"user <../modules/administration/rules/userauthorizations>` to dynamically "
+"assign entities, groups and profiles to users."
 msgstr ""
-
+"Finalmente, você pode configurar :doc:`Rules for assigning authorizations to"
+" a user <../modules/administration/rules/userauthorizations>` para atribuir "
+"dinamicamente entidades, grupos e perfis aos usuários."

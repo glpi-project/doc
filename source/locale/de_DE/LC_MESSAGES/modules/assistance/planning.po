@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:55+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/assistance/planning.rst:2
 msgid "Managing plannings"
@@ -24,14 +24,12 @@ msgstr ""
 #: ../../source/modules/assistance/planning.rst:4
 msgid ""
 "Planning view allows to display planned tasks attached to a ticket, a "
-"problem or a change as well as planned notes or plugins' planned "
-"elements."
+"problem or a change as well as planned notes or plugins' planned elements."
 msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:6
 msgid ""
-"This menu is only visible if profile includes `View planning` "
-"authorization."
+"This menu is only visible if profile includes `View planning` authorization."
 msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:8
@@ -50,8 +48,8 @@ msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:13
 msgid ""
-"Group view: includes only the elements of the connected user's group, "
-"needs *See planning of group's persons* authorization;"
+"Group view: includes only the elements of the connected user's group, needs "
+"*See planning of group's persons* authorization;"
 msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:14
@@ -75,21 +73,21 @@ msgid "Ical, in order to integrate planning in third-party tool calendar;"
 msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:20
-msgid "Webcal, which allows to subscribe a third-party calendar to GLPI planning."
+msgid ""
+"Webcal, which allows to subscribe a third-party calendar to GLPI planning."
 msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:24
 msgid ""
-"Access to Ical and Webcall feed is protected by a security key integrated"
-" into the URL. It is possible to regenerate this key in menu "
-"`Preferences`. See :doc:`Manage preferences </first-steps/preferences>`."
+"Access to Ical and Webcall feed is protected by a security key integrated "
+"into the URL. It is possible to regenerate this key in menu `Preferences`. "
+"See :doc:`Manage preferences </first-steps/preferences>`."
 msgstr ""
 
 #: ../../source/modules/assistance/planning.rst:26
 msgid ""
-"User's planning can be displayed on home page if profile has "
-"authorization *See my personal planning*. However, it is not possible to "
-"add an element to a planning from this interface; it is mandatory to plan"
-" a task or a note so that planning fills up."
+"User's planning can be displayed on home page if profile has authorization "
+"*See my personal planning*. However, it is not possible to add an element to"
+" a planning from this interface; it is mandatory to plan a task or a note so"
+" that planning fills up."
 msgstr ""
-

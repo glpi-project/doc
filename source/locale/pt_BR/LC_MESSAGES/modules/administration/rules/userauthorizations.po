@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/1637/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:6
 msgid "Rules for assigning authorizations to a user"
@@ -29,22 +29,22 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:10
 msgid ""
-"An authorization in GLPI results from the attribution of permissions over"
-" a scope (one or more entities); it is the joint membership to a profile "
-"and to an entity."
+"An authorization in GLPI results from the attribution of permissions over a "
+"scope (one or more entities); it is the joint membership to a profile and to"
+" an entity."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:12
 msgid ""
-"Authorizations can be assigned statically, by assigning a user to a "
-"profile in an entity; however this is not the recommended method."
+"Authorizations can be assigned statically, by assigning a user to a profile "
+"in an entity; however this is not the recommended method."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:14
 msgid ""
-"It is recommended to use the entity and permissions assignment rules "
-"engine to automatically assign permissions. This requires using an "
-"external authentication."
+"It is recommended to use the entity and permissions assignment rules engine "
+"to automatically assign permissions. This requires using an external "
+"authentication."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:16
@@ -68,10 +68,9 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:23
 msgid ""
-"If a default profile is defined in the configuration of GLPI profiles, "
-"and if an authorization assignment rule does not include a profile "
-"assignment, then the default profile is used when assigning a user to the"
-" entity."
+"If a default profile is defined in the configuration of GLPI profiles, and "
+"if an authorization assignment rule does not include a profile assignment, "
+"then the default profile is used when assigning a user to the entity."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:25
@@ -87,11 +86,11 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:30
 msgid ""
-"IMAP/POP email information can be used to automatically assign "
-"permissions. The IMAP/POP identifier (the user's login) and the URL of "
-"the mail server can be used as criteria. Users can be created on the fly "
-"when they log in. On the other hand, it is not possible to do a bulk "
-"import from the mail server."
+"IMAP/POP email information can be used to automatically assign permissions. "
+"The IMAP/POP identifier (the user's login) and the URL of the mail server "
+"can be used as criteria. Users can be created on the fly when they log in. "
+"On the other hand, it is not possible to do a bulk import from the mail "
+"server."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:33
@@ -100,12 +99,12 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:35
 msgid ""
-"When multiple mail servers are defined as the authentication source and "
-"the mail server URL is a relevant criterion, this information can be used"
-" to define authorizations."
+"When multiple mail servers are defined as the authentication source and the "
+"mail server URL is a relevant criterion, this information can be used to "
+"define authorizations."
 msgstr ""
 
-#: ../../source/modules/administration/rules/userauthorizations.rst:-1
+#: ../../source/modules/administration/rules/userauthorizations.rst-1
 #: ../../source/modules/administration/rules/userauthorizations.rst:33
 #: ../../source/modules/administration/rules/userauthorizations.rst:52
 #: ../../source/modules/administration/rules/userauthorizations.rst:123
@@ -114,10 +113,10 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:39
 msgid ""
-"Authentication uses the following IMAP/POP servers: ``imap.exemple.fr`` "
-"et ``imap.exemple.be``. Each server is defined as an authentication "
-"source. This information allows to assign user to `France` or `Belgium` "
-"entities. To achieve that, two static rules are necessary:"
+"Authentication uses the following IMAP/POP servers: ``imap.exemple.fr`` et "
+"``imap.exemple.be``. Each server is defined as an authentication source. "
+"This information allows to assign user to `France` or `Belgium` entities. To"
+" achieve that, two static rules are necessary:"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:41
@@ -155,20 +154,20 @@ msgstr ""
 #: ../../source/modules/administration/rules/userauthorizations.rst:54
 msgid ""
 "When the users' e-mail addresses contain several domain names, or "
-"information relevant to defining the authorizations, this information can"
-" be used to define the authorizations. It is also possible to assign an "
-"entity to a user using the mail domain if this is specific to an entity. "
-"The email domain used by the entity is defined in the :doc:`advanced "
-"information for entities </modules/administration/entities>`."
+"information relevant to defining the authorizations, this information can be"
+" used to define the authorizations. It is also possible to assign an entity "
+"to a user using the mail domain if this is specific to an entity. The email "
+"domain used by the entity is defined in the :doc:`advanced information for "
+"entities </modules/administration/entities>`."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:58
 msgid ""
 "Users authenticate using e-mail addresses of the following form: "
-"``user@example.fr`` and ``user@example.be``. It does not matter if one or"
-" more mail servers are used for authentication. This information is used "
-"to assign the user to the `France` or `Belgium` entity. For this purpose "
-"two static rules will be necessary:"
+"``user@example.fr`` and ``user@example.be``. It does not matter if one or "
+"more mail servers are used for authentication. This information is used to "
+"assign the user to the `France` or `Belgium` entity. For this purpose two "
+"static rules will be necessary:"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:62
@@ -186,9 +185,9 @@ msgstr ""
 #: ../../source/modules/administration/rules/userauthorizations.rst:73
 msgid ""
 "A user's LDAP attributes can be used as a source to dynamically assign "
-"permissions to that user using permission assignment rules. There are "
-"many ways to use an LDAP tree to create authorization rules for users, "
-"best solution depend on the context of the directory implementation."
+"permissions to that user using permission assignment rules. There are many "
+"ways to use an LDAP tree to create authorization rules for users, best "
+"solution depend on the context of the directory implementation."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:76
@@ -197,16 +196,15 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:78
 msgid ""
-"Given an LDAP directory where the organization of branches "
-"(organizational units) corresponds to the organization of GLPI entities. "
-"Each organizational unit (`ou`) contains the users, either directly or in"
-" a sub-branch. Each of the branches can be used to establish a rule for "
-"assigning a user to an entity. The case of users belonging to several "
-"entities must be dealt with elsewhere. This model is relevant when a "
-"default profile can be assigned to the majority of users. The assignment "
-"of non-standard profiles should be dealt with elsewhere. The information "
-"on the user sent from the directory is sufficient to create the "
-"assignment rules in GLPI."
+"Given an LDAP directory where the organization of branches (organizational "
+"units) corresponds to the organization of GLPI entities. Each organizational"
+" unit (`ou`) contains the users, either directly or in a sub-branch. Each of"
+" the branches can be used to establish a rule for assigning a user to an "
+"entity. The case of users belonging to several entities must be dealt with "
+"elsewhere. This model is relevant when a default profile can be assigned to "
+"the majority of users. The assignment of non-standard profiles should be "
+"dealt with elsewhere. The information on the user sent from the directory is"
+" sufficient to create the assignment rules in GLPI."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:82
@@ -229,9 +227,9 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:99
 msgid ""
-"For example, for the Lyon entity: LDAP information representing the "
-"entity: ``ou=lyon,ou=france,dc=example,dc=org``. Then, define the rule(s)"
-" in *Administration > Rules > Entity and rights assignment rules*."
+"For example, for the Lyon entity: LDAP information representing the entity: "
+"``ou=lyon,ou=france,dc=example,dc=org``. Then, define the rule(s) in "
+"*Administration > Rules > Entity and rights assignment rules*."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:101
@@ -256,8 +254,8 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:108
 msgid ""
-"Adaptive rule: a single rule based on regular expressions is sufficient "
-"to define the assignment to all entities:"
+"Adaptive rule: a single rule based on regular expressions is sufficient to "
+"define the assignment to all entities:"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:110
@@ -268,7 +266,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:111
-msgid "Actions: assign entity from LDAP, value from regular expression: ``#0``"
+msgid ""
+"Actions: assign entity from LDAP, value from regular expression: ``#0``"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:113
@@ -277,31 +276,30 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:116
 msgid ""
-"Actions: assign entity full name value from regular expression: Root "
-"entity > ``#0``"
+"Actions: assign entity full name value from regular expression: Root entity "
+"> ``#0``"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:118
 msgid ""
-"Running the rule retrieves its organizational unit (``ou``) from the "
-"user's *distinguished name*. It will then compare it to the values ​​of "
-"the LDAP Information attribute representing the entity in the database. "
-"If an entity has the attribute whose value matches, then that attribute "
-"is used as the result of the rule."
+"Running the rule retrieves its organizational unit (``ou``) from the user's "
+"*distinguished name*. It will then compare it to the values ​​of the LDAP "
+"Information attribute representing the entity in the database. If an entity "
+"has the attribute whose value matches, then that attribute is used as the "
+"result of the rule."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:120
 msgid ""
-"the value of the action ``#0`` indicates that we must use the first "
-"result of the regular expression. ``#1`` indicates the second and so on. "
-"The **Test** button of the form allows you to try values ​​and see the "
-"result obtained."
+"the value of the action ``#0`` indicates that we must use the first result "
+"of the regular expression. ``#1`` indicates the second and so on. The "
+"**Test** button of the form allows you to try values ​​and see the result "
+"obtained."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:123
 msgid ""
-"Authorizations based on groups or attributes of a user in an LDAP "
-"directory"
+"Authorizations based on groups or attributes of a user in an LDAP directory"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:125
@@ -309,35 +307,35 @@ msgid ""
 "In the directory, each user is part of a group corresponding to a GLPI "
 "profile and of a group corresponding to an entity. A user can be part of "
 "several profiles and several entities. Depending on the directory "
-"configuration, the information of the user's group membership can be "
-"found in the user object or in the group object."
+"configuration, the information of the user's group membership can be found "
+"in the user object or in the group object."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:127
 msgid ""
 "In the first case, the information contained in the user object is "
-"sufficient to create authorization rules: it is not necessary to import "
-"the groups from the directory into GLPI"
+"sufficient to create authorization rules: it is not necessary to import the "
+"groups from the directory into GLPI"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:128
 msgid ""
 "In the second case, the information contained in the user object is not "
-"sufficient and it is necessary to retrieve the information on the groups."
-" You must first configure the LDAP groups and the automatic linking of "
-"users to groups."
+"sufficient and it is necessary to retrieve the information on the groups. "
+"You must first configure the LDAP groups and the automatic linking of users "
+"to groups."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:130
 msgid ""
-"this is not limited to group type attributes, but is valid for other "
-"types of attributes stored in the directory."
+"this is not limited to group type attributes, but is valid for other types "
+"of attributes stored in the directory."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:152
 msgid ""
-"In this example, profiles and entities are defined as groups. For "
-"example: ``cn=post-only,ou=profil,dc=exemple,dc=org`` ou "
+"In this example, profiles and entities are defined as groups. For example: "
+"``cn=post-only,ou=profil,dc=exemple,dc=org`` ou "
 "``cn=paris,ou=entité,dc=exemple,dc=org``"
 msgstr ""
 
@@ -347,8 +345,8 @@ msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:156
 msgid ""
-"In *Administration > Rules > Entity and rights assignment rules*, define "
-"the following rules:"
+"In *Administration > Rules > Entity and rights assignment rules*, define the"
+" following rules:"
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:158
@@ -378,10 +376,10 @@ msgstr ""
 #: ../../source/modules/administration/rules/userauthorizations.rst:168
 msgid ""
 "the calculation of authorizations is done once all the rules have been "
-"executed. In the previous example, one rule attributes only an entity and"
-" the other only a profile. The product of the 2 makes it possible to "
-"define the authorization of the user. Likewise, if the user is assigned 2"
-" entities by 2 different rules and a single profile, then he will have 2 "
+"executed. In the previous example, one rule attributes only an entity and "
+"the other only a profile. The product of the 2 makes it possible to define "
+"the authorization of the user. Likewise, if the user is assigned 2 entities "
+"by 2 different rules and a single profile, then he will have 2 "
 "authorizations: one on each entity with the same profile."
 msgstr ""
 
@@ -392,15 +390,14 @@ msgstr ""
 #: ../../source/modules/administration/rules/userauthorizations.rst:173
 msgid ""
 "Mixed cases can be encountered: the rules can use both membership of "
-"organizational units for assignment to an entity, and membership of a "
-"group for assignment to a profile."
+"organizational units for assignment to an entity, and membership of a group "
+"for assignment to a profile."
 msgstr ""
 
 #: ../../source/modules/administration/rules/userauthorizations.rst:175
 msgid ""
 "it is possible to add additional LDAP criteria by clicking on the *plus "
-"button* next to the drop-down list. A criterion is composed of a name "
-"(used in the drop-down list), a criterion (corresponding to the attribute"
-" in the LDAP directory) and a comment."
+"button* next to the drop-down list. A criterion is composed of a name (used "
+"in the drop-down list), a criterion (corresponding to the attribute in the "
+"LDAP directory) and a comment."
 msgstr ""
-

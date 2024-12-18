@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:6
 msgid "Administration permissions"
@@ -33,9 +33,9 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:14
 msgid ""
-"Some permissions apply globally to GLPI, other permissions may be "
-"delegated locally. This is indicated by the color of permissions zones, "
-"as described in image below."
+"Some permissions apply globally to GLPI, other permissions may be delegated "
+"locally. This is indicated by the color of permissions zones, as described "
+"in image below."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:16
@@ -55,8 +55,8 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:33
 msgid ""
-"**Read Auth**: adds a field in the user form indicating the "
-"authentication method as well as the date of the last synchronization"
+"**Read Auth**: adds a field in the user form indicating the authentication "
+"method as well as the date of the last synchronization"
 msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:35
@@ -75,9 +75,8 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:39
 msgid ""
-"Displays a *LDAP directory link* tab in the group containing the "
-"information allowing GLPI to find the group and its users in the LDAP "
-"directory."
+"Displays a *LDAP directory link* tab in the group containing the information"
+" allowing GLPI to find the group and its users in the LDAP directory."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:41
@@ -98,14 +97,14 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:49
 msgid ""
-"**Update Parameters**: allows to modify the data of the *Assistance* tab "
-"in the entity."
+"**Update Parameters**: allows to modify the data of the *Assistance* tab in "
+"the entity."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:51
 msgid ""
-"**Read Parameters**: allows to view the data in the *Assistance* tab in "
-"the entity."
+"**Read Parameters**: allows to view the data in the *Assistance* tab in the "
+"entity."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:54
@@ -118,9 +117,9 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:62
 msgid ""
-"**Parent Business**: displays a **applied rules (entity name)** tab in "
-"the business rules for tickets. This tab lists all the played rules of "
-"the parent entities."
+"**Parent Business**: displays a **applied rules (entity name)** tab in the "
+"business rules for tickets. This tab lists all the played rules of the "
+"parent entities."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/administrationtab.rst:64
@@ -132,4 +131,3 @@ msgstr ""
 #: ../../source/modules/administration/profiles/administrationtab.rst:70
 msgid "Dictionaries permissions"
 msgstr ""
-

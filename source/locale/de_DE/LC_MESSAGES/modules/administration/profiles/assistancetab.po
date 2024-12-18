@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016-2023, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-19 09:54+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/1637/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:6
 msgid "Assistance permissions"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Simplified interface"
 msgstr ""
 
-#: ../../source/modules/administration/profiles/assistancetab.rst:-1
+#: ../../source/modules/administration/profiles/assistancetab.rst-1
 msgid "image"
 msgstr ""
 
@@ -44,18 +44,17 @@ msgstr ""
 #: ../../source/modules/administration/profiles/assistancetab.rst:19
 msgid ""
 "**Create**: adds a **Create Ticket** menu. If you do not have this "
-"permission, when you log in, you will be directed to the list of tickets."
-" Otherwise, you will be redirected to the home page which displays my "
+"permission, when you log in, you will be directed to the list of tickets. "
+"Otherwise, you will be redirected to the home page which displays my "
 "tickets, sorted by status, with the **Create ticket** menu as the table "
 "title."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:21
 msgid ""
-"**See Group Ticket**: see the tickets created which have one of my groups"
-" as an requester or observer. For example, if I am a member of the "
-"*Management* group, I will see all the tickets having a requester in "
-"group *Management*."
+"**See Group Ticket**: see the tickets created which have one of my groups as"
+" an requester or observer. For example, if I am a member of the *Management*"
+" group, I will see all the tickets having a requester in group *Management*."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:24
@@ -72,15 +71,15 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:30
 msgid ""
-"**Add followup (requester)**: add a follow-up to a ticket for which I am "
-"a writer or requester. This right also allows you to add a document to a "
+"**Add followup (requester)**: add a follow-up to a ticket for which I am a "
+"writer or requester. This right also allows you to add a document to a "
 "ticket."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:32
 msgid ""
-"**Add followup (associated groups)**: add a follow-up to a ticket for "
-"which the requesting group is one of the groups of which I am a member."
+"**Add followup (associated groups)**: add a follow-up to a ticket for which "
+"the requesting group is one of the groups of which I am a member."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:35
@@ -90,8 +89,8 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:37
 msgid ""
-"**See Public Ones**: see all the tasks typed as a public task. This right"
-" also allows the display of the *Tasks* tab of a ticket."
+"**See Public Ones**: see all the tasks typed as a public task. This right "
+"also allows the display of the *Tasks* tab of a ticket."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:40
@@ -108,15 +107,14 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:50
 msgid ""
-"**Validate a Request**: respond to a validation request concerning a "
-"Request type ticket. Having this right makes you appear in the list of "
-"people who can validate."
+"**Validate a Request**: respond to a validation request concerning a Request"
+" type ticket. Having this right makes you appear in the list of people who "
+"can validate."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:52
 msgid ""
-"**Create for Request**: send a validation request for a Request type "
-"ticket."
+"**Create for Request**: send a validation request for a Request type ticket."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:54
@@ -127,10 +125,10 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:56
 msgid ""
-"The *Validation* tab will only appear in the ticket if you have one of "
-"the validation creation permission. Otherwise, it will only be displayed "
-"if you have one of the validation permissions and only if the type of the"
-" ticket corresponds to the permission."
+"The *Validation* tab will only appear in the ticket if you have one of the "
+"validation creation permission. Otherwise, it will only be displayed if you "
+"have one of the validation permissions and only if the type of the ticket "
+"corresponds to the permission."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:59
@@ -140,18 +138,18 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:67
 msgid ""
-"**Link with items for the creation of tickets**: * **My Devices**: assets"
-" whose type is authorized and for which I am the user; * **All Items**: "
-"all assets of my entity whose type is authorized"
+"**Link with items for the creation of tickets**: * **My Devices**: assets "
+"whose type is authorized and for which I am the user; * **All Items**: all "
+"assets of my entity whose type is authorized"
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:71
 msgid ""
-"**Associable items to a ticket**: types of asset on which a ticket can be"
-" associated. To add a type, just click in the white area and choose the "
+"**Associable items to a ticket**: types of asset on which a ticket can be "
+"associated. To add a type, just click in the white area and choose the "
 "authorized type or *All* if you want to authorize all types. To delete a "
-"type, simply click on the cross to the left of its name or on *None* if "
-"you do not want to allow any associated element"
+"type, simply click on the cross to the left of its name or on *None* if you "
+"do not want to allow any associated element"
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:73
@@ -162,20 +160,20 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:75
 msgid ""
-"the template being applied to the profile which is an element of the "
-"general configuration, the list contains only the recursive templates of "
-"the root entity."
+"the template being applied to the profile which is an element of the general"
+" configuration, the list contains only the recursive templates of the root "
+"entity."
 msgstr ""
 
-#: ../../source/modules/administration/profiles/assistancetab.rst
+#: ../../source/modules/administration/profiles/assistancetab.rst:0
 #: ../../source/modules/administration/profiles/assistancetab.rst:81
 msgid "Default ITIL templates"
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:83
 msgid ""
-"**See hardware of my groups**: asset whose type is authorized and for "
-"which I am a member of the group."
+"**See hardware of my groups**: asset whose type is authorized and for which "
+"I am a member of the group."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:86
@@ -185,29 +183,29 @@ msgstr ""
 #: ../../source/modules/administration/profiles/assistancetab.rst:88
 msgid ""
 "Common fields with the simplified interface will not be detailed.  The 7 "
-"standard permissions will not be listed (see :doc:`Permissions "
-"description </modules/administration/profiles/profiles>`)."
+"standard permissions will not be listed (see :doc:`Permissions description "
+"</modules/administration/profiles/profiles>`)."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:99
 msgid ""
-"**Assigned Tickets**: be assigned to a ticket. All the users of this "
-"profile having this option enabled will be present in the list of "
-"technicians who can be assigned to a ticket."
+"**Assigned Tickets**: be assigned to a ticket. All the users of this profile"
+" having this option enabled will be present in the list of technicians who "
+"can be assigned to a ticket."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:101
 msgid ""
-"**Steal**: become the technician assigned to the ticket. In this case, "
-"the list of technicians who can be assigned to the ticket will only "
-"include the name of the person connected."
+"**Steal**: become the technician assigned to the ticket. In this case, the "
+"list of technicians who can be assigned to the ticket will only include the "
+"name of the person connected."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:103
 msgid ""
-"**Change the Priority**: change the priority in order to make an incident"
-" a Major priority, among other things. Modifying the priority therefore "
-"cancels the automatic calculation defined in the general configuration."
+"**Change the Priority**: change the priority in order to make an incident a "
+"Major priority, among other things. Modifying the priority therefore cancels"
+" the automatic calculation defined in the general configuration."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:105
@@ -216,8 +214,8 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:107
 msgid ""
-"**See Assigned**: see tickets for which I am the technician or having one"
-" of my groups as group of technicians."
+"**See Assigned**: see tickets for which I am the technician or having one of"
+" my groups as group of technicians."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:109
@@ -241,8 +239,8 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:124
 msgid ""
-"a technician assigned to a ticket or member of the assigned group, can "
-"also modify all follow-ups."
+"a technician assigned to a ticket or member of the assigned group, can also "
+"modify all follow-ups."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:126
@@ -259,8 +257,8 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:135
 msgid ""
-"a technician assigned to a ticket or member of the assigned group, can "
-"also modify all tasks."
+"a technician assigned to a ticket or member of the assigned group, can also "
+"modify all tasks."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:137
@@ -286,15 +284,14 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:158
 msgid ""
-"**See schedule of people in my groups**: see the data of the plannings of"
-" the members of my groups."
+"**See schedule of people in my groups**: see the data of the plannings of "
+"the members of my groups."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:160
 msgid ""
-"Depending on the permissions of the profile, you can see the notes "
-"published in the planning as well as the tasks of a ticket, a problem or "
-"a change."
+"Depending on the permissions of the profile, you can see the notes published"
+" in the planning as well as the tasks of a ticket, a problem or a change."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:163
@@ -303,9 +300,9 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:168
 msgid ""
-"**See (author)**: view problems for which I am a requester, or a member "
-"of the requesting group, or an observer, or a member of the observer "
-"group, or the assigned technician, or member of the assigned group."
+"**See (author)**: view problems for which I am a requester, or a member of "
+"the requesting group, or an observer, or a member of the observer group, or "
+"the assigned technician, or member of the assigned group."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:170
@@ -346,9 +343,9 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:188
 msgid ""
-"**See (author)**: see the changes for which I am the requester, or member"
-" of the requesting group, or observer, or member of the observer group, "
-"or the assigned technician, or member of the assigned group."
+"**See (author)**: see the changes for which I am the requester, or member of"
+" the requesting group, or observer, or member of the observer group, or the "
+"assigned technician, or member of the assigned group."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:190
@@ -357,8 +354,7 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:195
 msgid ""
-"resolve the change if I am the assigned technician or assigned group "
-"member."
+"resolve the change if I am the assigned technician or assigned group member."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:197
@@ -379,13 +375,12 @@ msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:205
 msgid ""
-"**Validate**: respond to a validation request. Having this right makes "
-"you appear in the list of people who can validate."
+"**Validate**: respond to a validation request. Having this right makes you "
+"appear in the list of people who can validate."
 msgstr ""
 
 #: ../../source/modules/administration/profiles/assistancetab.rst:207
 msgid ""
-"The *Validation* tab will only be displayed in the ticket if you have one"
-" of the *Validation* permissions."
+"The *Validation* tab will only be displayed in the ticket if you have one of"
+" the *Validation* permissions."
 msgstr ""
-
