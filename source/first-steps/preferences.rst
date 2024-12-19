@@ -98,11 +98,11 @@ General customisation
 - **Display the tree dropdown complete name in dropdown inputs** : whether or not to display the full names of drop-down lists (if not, this may affect the layout in some cases) (Yes / No)
 - **Diplay counters** : display the counters of saved searches (Yes / No)
 - **Keep devices when purging an item** : (Yes / No. No by default)
-- **Results to display on home page** : display the number of results on the home page of a module (tickets, compuers, etc.) (5 to 30)
+- **Results to display on home page** : display the number of results on the home page of a module (tickets, computers, etc.) (5 to 30)
 - **CSV delimiter** : delimiter for import/export CSV (; or , by default **;**)
 - **Page layout** : change the position of the main menu (horizontal or vertical)
 - **Enable high constrast** : feature that alters the colors (Yes / No)
-- **Default central bar** : choose which element will be visible on your home page (dashboard, personnal view, group view, global view, RSS feeds)
+- **Default central bar** : choose which element will be visible on your home page (dashboard, personal view, group view, global view, RSS feeds)
 - **Show search from above results** : whether or not to include the search engine in the toolbar (Yes / No)
 - **Date format** : how to display date (YYY-MM-DD,DD-MM-YYYY, MM-DD-YYYY)
 - **Number format** : how to display number (1 234.56 / 1,2345.56 / 1 234,56 / 1234.56 / 1234,56)
@@ -114,14 +114,14 @@ General customisation
 - **Color palette** : Choose your theme for your GLPI interface
 - **Rich text field layout** : define the behaviour of the text formatting bar
 - **Timezone** : select your timezone
-- **Timeline order** : order of display of the history of the different types of follow-up in a ticket (natural order (old items on top, recent on bottom) reverse order (old itmes on bottom, recent on top))
+- **Timeline order** : order of display of the history of the different types of follow-up in a ticket (natural order (old items on top, recent on bottom) reverse order (old times on bottom, recent on top))
 
 .. note::
 
    The Number of results per page value shown here cannot exceed the maximum value set in the general display options.
 
 Assistance customisation and priority colors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. image:: images/userprefs-custom-assistance.png
@@ -136,12 +136,15 @@ Assistance customisation and priority colors
 - **Add me as a technician when adding a ticket follow-up**: if you are not assigned to the ticket and you add a follow-up, you will be assigned to this ticket (Yes / No)
 - **Action button layout** : choose the layout of the buttons when you are about to reply to a ticket (Splitted or Merged)
 - **Show new tickets on the home page** : display tickets in the global view from the home page (Yes / No)
-- **Request sources bu default** : when creating a ticket (before submission), define the source of the request (Direct / E-Mail / Fromcreator / Other / Phone /Written)
+- **Request sources bu default** : when creating a ticket (before submission), define the source of the request (Direct / E-Mail / Fromcreator / Other / Phone / Written)
 - **Automatically refresh data (tickets list, project kanban) in minutes** : Choose whether you want to update your interface pages regularly (never to 30)
-.. Warning::
-   Be carreful, if you activate this option, it is possible that the refresh will take place when you write a follow-up, for example, which will cause you to lose what you have written. We advise you to deactivate this option.
+
+   .. Warning::
+
+      Be careful, if you activate this option, it is possible that the refresh will take place when you write a follow-up, for example, which will cause you to lose what you have written. We advise you to deactivate this option.
+
 - **Pre-select me as a requester when creating a ticket** : indicate me as the requester when I write a new ticket (this does not prevent you from selecting other people/groups at a later date if you have the rights to do so). (Yes / No)
-- **Add me as a techncian when adding a ticket solution** : Add me as a technician when I add a solution to the ticket if it wasn't already assigned to me (Yes /No)
+- **Add me as a technician when adding a ticket solution** : Add me as a technician when I add a solution to the ticket if it wasn't already assigned to me (Yes /No)
 - **Timeline date display** : deletes seconds from dates (Precise / Relative)
 
 You can change the priority colours. This will change all the colours for the :
@@ -169,9 +172,9 @@ Due date progression
 
 When you add a :doc:`../modules/configuration/service_levels`, you can define :
 
-- **The colours of the differents states** (You can select a color that is already defined, either using the colour selector or the Hex code if you know it (#000000))
-- **The threshold of the warning state** (it is possible to steup the thresold in **percentage**, **hours** or **days**)
-- **The threshold for the critical state** (it is possible to steup the thresold in **percentage**, **hours** or **days**)
+- **The colours of the different states** (You can select a color that is already defined, either using the colour selector or the Hex code if you know it (#000000))
+- **The threshold of the warning state** (it is possible to setup the threshold in **percentage**, **hours** or **days**)
+- **The threshold for the critical state** (it is possible to setup the threshold in **percentage**, **hours** or **days**)
 
 Dashboards
 ~~~~~~~~~~
@@ -189,13 +192,13 @@ You can setup a default dashboard for :
 4. Tickets (mini dashboard)
 
 - For the third options, you can select the dashboard of your choice, including those you have added.
-- For the last option, tickets (mini dashboard), you can desactivate it or display the mini dashboard in the tickets tab.
+- For the last option, tickets (mini dashboard), you can deactivate it or display the mini dashboard in the tickets tab.
 
 Notifications
 ~~~~~~~~~~~~~
 
 .. image:: images/userprefs-custom-notifications.png
-   :alt: Screen for customizing user preferences custome notifications
+   :alt: Screen for customizing user preferences custom notifications
    :align: center
    :scale: 42 %
 
