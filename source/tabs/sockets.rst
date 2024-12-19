@@ -55,7 +55,7 @@ When the socket is validated, you can setup the advanced options.
 * Then, select the hardware on which the socket is present (generally a network card)
 
 .. image:: images/sockets-advanced-setup.png
-   :alt: Network port locks
+   :alt: Advanced socket setup
    :align: center
    :scale: 49%
 
