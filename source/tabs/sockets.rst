@@ -20,7 +20,7 @@ Add a socket
 * Select the socket model. You can add them by clicking on **+**.
 
    .. image:: images/sockets-add-socket-model.png
-      :alt: Network port locks
+      :alt: Add socket model
       :align: center
       :scale: 68%
 
@@ -29,7 +29,8 @@ Add a socket
 * Click on **Add** to save your socket
 
    .. image:: images/sockets-add.png
-      :alt: Network port locks
+      :alt: Add socket
+
       :align: center
       :scale: 50%
 
@@ -37,7 +38,8 @@ Add a socket
   to identify the sockets
 
    .. image:: images/sockets-add-several.png
-      :alt: Network port locks
+      :alt: Add several sockets
+
       :align: center
       :scale: 50%
 
