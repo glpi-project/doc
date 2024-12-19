@@ -60,7 +60,7 @@ It is the version of the kernel. This information can be updated by the automati
   * Click **+ Add**
   * Enter the name you want
   * Click **+ Add**
-  * Go back to **computer > operting systems** and repeat the previous step to create your kernel
+  * Go back to **computer > operating systems** and repeat the previous step to create your kernel
 
 * Click **+ Add** to save your architecture
 * You can, now, select it in the drop-down list
