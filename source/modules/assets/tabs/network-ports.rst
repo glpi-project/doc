@@ -50,7 +50,7 @@ port characteristics depending on its type, MAC address, VLANs...
 
 
 Management of Ethernet network ports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Ethernet protocol is classically used on internal networks.
 
@@ -68,7 +68,7 @@ equipment (hub, switch).
 
 
 Management of WiFi network ports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The WiFi protocol is widely used on wireless networks.
 
@@ -84,14 +84,14 @@ A WiFi network can be associated to a given port. Apart from its name, a WiFi ne
 *Ad-hoc:* WiFi network between similar systems without access points
 
 Management of local loop-back ports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The local loop-back is a virtual port used by most equipments for internal communication. It is this port that is used when connecting to ``localhost`` or ``127.0.0.1``.
 
 Local loop-back has no specific attribute.
 
 Management of network port aliases
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A network port alias is a virtual port that can refine a physical port.
 
@@ -103,7 +103,7 @@ A port alias contains its base port and a MAC address.
 Note that when the origin port is changed, the MAC address of the new port is affected to the port alias.
 
 Management of network port aggregates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A network port aggregate is a virtual port that allows to group several physical ports.
 

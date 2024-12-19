@@ -62,7 +62,7 @@ Impact Analysis
 This can be saved and exported
 
 Operating systems
-----------------
+-----------------
 
 :doc:`Operating systems <../../tabs/operating_systems>`  includes information about your machine's OS :
 
@@ -113,7 +113,7 @@ The information that can be viewed is:
 * Internal status
 * Last change
 * Number of I/O bytes
-* Number of I/O erros
+* Number of I/O errors
 * Duplex
 * VLAN
 * Connected to

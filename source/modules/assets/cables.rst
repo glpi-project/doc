@@ -54,14 +54,14 @@ You can link 2 devices together to find out which cable connects them and on whi
 To be linked to a socket, it must be specified on the hardware concerned
 
 
-* To link two material by a cable, select de frist object in endoint A
+* To link two material by a cable, select the first object in endpoint A
 
  * Type of asset
  * The asset
  * The socket model
  * The socket
  * If it is entered for the equipment in question, the position will be added.
-* Do the same with endpoint B
+ * Do the same with endpoint B
 
 Management
 ----------

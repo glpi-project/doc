@@ -59,7 +59,7 @@ This can be saved and exported
 
 
 Operating systems
-----------------
+-----------------
 
 :doc:`Operating systems <../../tabs/operating_systems>`  includes information about your machine's OS :
 
@@ -79,7 +79,7 @@ Operating systems
 Components
 ----------
 
-This tab lists the PC's :doc:`compenents <../../tabs/components>` :
+This tab lists the PC's :doc:`components <../../tabs/components>` :
 
 * BIOS
 * Processor
@@ -114,7 +114,7 @@ Summarises all the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) a
 * Global size
 * Free size
 * Free percentage
-* Encryptation (if the disk is encrypted, a padlock will be displayed)
+* Encryption (if the disk is encrypted, a padlock will be displayed)
 
 
 Software
@@ -154,7 +154,7 @@ The information that can be viewed is:
 * Internal status
 * Last change
 * Number of I/O bytes
-* Number of I/O erros
+* Number of I/O errors
 * Duplex
 * VLAN
 * Connected to
@@ -173,7 +173,7 @@ It enables hardware to be linked by cables. Socket is also linked to the :doc:`c
 Remote management
 -----------------
 
-:doc:`Remote mamagement <../../tabs/remote-management>` is used to reference the remote access software installed on the workstation, such as Teamviewer, Anydesk, etc.
+:doc:`Remote management <../../tabs/remote-management>` is used to reference the remote access software installed on the workstation, such as Teamviewer, Anydesk, etc.
 It is possible to add software manually if required, but the information can be fed back via the automatic inventory.
 
 Management

@@ -29,7 +29,7 @@ An antivirus is characterized by:
    If using native inventory or third-party inventory tool, the antivirus information can be automatically imported and updated.
 
 Add an antivirus
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 - Click on **Add an antivirus**
 - Enter the information of the antivirus

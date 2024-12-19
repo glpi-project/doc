@@ -1,5 +1,5 @@
 Network Name
-~~~~~~~~~~~~
+------------
 
 
 .. image:: ../images/network_name.png

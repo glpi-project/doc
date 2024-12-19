@@ -65,7 +65,7 @@ This can be saved and exported
 
 
 Operating systems
-----------------
+-----------------
 
 :doc:`Operating systems <../../tabs/operating_systems>`  includes information about your machine's OS :
 
@@ -97,7 +97,7 @@ which will then be visible from the software tab of the various elements of the 
 Components
 ----------
 
-This tab lists the PC's :doc:`compenents <../../tabs/components>` :
+This tab lists the PC's :doc:`components <../../tabs/components>` :
 
 * BIOS
 * Processor
@@ -132,7 +132,7 @@ Summarises all the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) a
 * Global size
 * Free size
 * Free percentage
-* Encryptation (if the disk is encrypted, a padlock will be displayed)
+* Encryption (if the disk is encrypted, a padlock will be displayed)
 
 
 Network Ports
@@ -148,7 +148,7 @@ The information that can be viewed is:
 * Internal status
 * Last change
 * Number of I/O bytes
-* Number of I/O erros
+* Number of I/O errors
 * Duplex
 * VLAN
 * Connected to

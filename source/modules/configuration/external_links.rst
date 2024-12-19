@@ -91,7 +91,7 @@ For remote access on computer
 
 * Create an external protocol link with the name link with the name `{{ NAME }}.rdp`
 * Set the **file content** by inserting the content of an RDP type file and replacing the ip / name / domain by TAGS like [IP], [NAME], [DOMAIN].
-(To obtain the contents of an RDP file, open it with a notepad-type tool)
+ (To obtain the contents of an RDP file, open it with a notepad-type tool)
 
 .. image:: images/external_link_rdp.png
    :alt: Add an external RDP Link

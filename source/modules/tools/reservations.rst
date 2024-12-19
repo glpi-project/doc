@@ -40,20 +40,20 @@ Add a reservation
 * Add a comment if it's necessary
 
 Add a repetition
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 If your booking is to be repeated or spread over several **days/weeks/months**, you can add a repeat to it
 
 Daily repetition
 ^^^^^^^^^^^^^^^^
 
-* Select **daily** in reptition
+* Select **daily** in repetition
 * select the **end date** (the reservation will also be added to the last day selected)
 
 Weekly repetition
 ^^^^^^^^^^^^^^^^^
 
-* Select **weekly** in reptition
+* Select **weekly** in repetition
 * select the **end date** (the reservation will also be added to the last day selected)
 * Select the days on which the rehearsal will take place
 
@@ -61,7 +61,7 @@ Weekly repetition
 Monthly repetition
 ^^^^^^^^^^^^^^^^^^
 
-* Select **monthly** in reptition
+* Select **monthly** in repetition
 * select the **end date** (the reservation will also be added to the last day selected)
 In the dropdown list select :
 

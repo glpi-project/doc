@@ -99,7 +99,7 @@ You can see :doc:`Approvals <../../tabs/approvals>` for more information.
 
 .. include:: ../../tabs/cost.rst
 
-.. inlcude:: ../../tabs/projects.rst
+.. include:: ../../tabs/projects.rst
 
 Problems
 ~~~~~~~~
@@ -118,7 +118,7 @@ Problems can be linked in several ways :
 * Parent of
 
 .. image:: images/changes-problems-linkable.png
-    :alt: Possibily to link a problem
+    :alt: Possibility to link a problem
     :scale: 100%
 
 
@@ -147,7 +147,7 @@ To unlink a problem, you need to use **massive actions**
 * Click on **Delete permanently**
 
 .. image:: images/changes-unlink.png
-    :alt: Possibily to link a problem
+    :alt: Possibility to link a problem
     :scale: 42%
 
 
@@ -168,7 +168,7 @@ Like problems, tickets can be linked in several ways :
 * Parent of
 
 .. image:: images/changes-problems-linkable.png
-    :alt: Possibily to link a ticket
+    :alt: Possibility to link a ticket
     :scale: 100%
 
 Tickets can be linked in several ways. This information is for information purposes only.
@@ -207,7 +207,7 @@ Impact Analysis
 
 Impact analysis allows you to create diagrams of your infrastructure and see the impact of a change on it.
 
-To see how impact analysis works, go to :doc:`imapct analysis<../../tabs/impact_analysis>`
+To see how impact analysis works, go to :doc:`impact analysis<../../tabs/impact_analysis>`
 
 
 .. include:: ../../tabs/knowledgebase.rst
