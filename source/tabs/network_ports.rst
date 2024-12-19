@@ -70,7 +70,7 @@ The WiFi protocol is widely used on wireless networks.
 
 A WiFi port is characterized by the mode of the network card (ad-hoc,
 access point, repeater...), the WiFi protocol version (ab, g...) and
-its MAX address.
+its MAC address.
 
 It is possible to associate a network card to the port, similarly to Ethernet ports.
 
