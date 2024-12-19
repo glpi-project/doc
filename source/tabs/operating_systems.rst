@@ -141,7 +141,7 @@ Serial number
 ~~~~~~~~~~~~~
 
 Generally for Windows, this field references the `Client Product Key <https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys>`_ installed on the machine.
-This is not the licence of the OS but genric key the Operating system edition (Windows Pro 11, Windows Server 2022 Datacenter, etc.)
+This is not the license of the OS but generic key the Operating system edition (Windows Pro 11, Windows Server 2022 Datacenter, etc.)
 This information is updated by the automatic inventory but you can add/modify this value manually.
 
 Owner
