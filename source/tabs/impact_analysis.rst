@@ -165,4 +165,4 @@ In the colours tab, you can change the colours of dependencies, impacts and impa
 Maximum depth
 ~~~~~~~~~~~~~
 
-The maximum depth is the number of elements that can be displayed on your imapct analysis. If you select "infinity", there will be no display limit.
+The maximum depth is the number of elements that can be displayed on your impact analysis. If you select "infinity", there will be no display limit.
