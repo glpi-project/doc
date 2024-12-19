@@ -28,24 +28,24 @@ It is possible to attach documents to articles of the knowledge base.
 
 .. warning::
    Elements which should not be interpreted when displayed can be defined with preformated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` can therefore be inserted and will be displayed. Other HTML tags (``<TAG>...</TAG>`` may disappear when editing; to have complete visibility of the text, it is possible to switch to HTML mode where all elements will be visible. The browser may also modify dynamically content (case change, tags adding) when editing.
-   
+
 It is possible to create categories and sub-categories in order to organize browsing (see :doc:`Configure drop-downs </modules/configuration/dropdowns/index>`). User can then use several tabs to search and browse knowledge base:
 
-* **Search** 
+* **Search**
   This tab is the default tab, displaying recent articles, popular articles and last changes. It allows also to search inside knowledge base.
 
   .. image:: images/research-knowledgebase.png
      :alt: Knowledge base search tab
      :align: center
 
-* **Browse** 
+* **Browse**
   This tab allows to browse tree structure of categories.
 
   .. image:: images/browse-knowledgebase.png
      :alt: Knowledge base browse tab
      :align: center
 
-* **Manage** 
+* **Manage**
   This tab is only visible for knowledge base administrators. Depending on user's permissions, it is possible to access quickly user's articles, user's unpublished articles, all unpublished articles...
 
   .. image:: images/manage-knowledgebase.png
@@ -55,11 +55,11 @@ It is possible to create categories and sub-categories in order to organize brow
 .. note::
    The knowledge base search engine provides operators for complex search: ``+ - ~ < > * ” ” ()``.
 
-   * ``+``: word must be there; 
-   * ``-``: word must not be there; 
-   * ``*``: truncate suffix; 
+   * ``+``: word must be there;
+   * ``-``: word must not be there;
+   * ``*``: truncate suffix;
    * ``" "``: contained sequence must be searched literally;
-   * ``< >``: define order on search elements; 
+   * ``< >``: define order on search elements;
    * ``()``: group when using < and >.
 
      ::

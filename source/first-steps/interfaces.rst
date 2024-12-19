@@ -15,8 +15,7 @@ This is the main interface of the application. All the modules are available, bu
 .. image:: images/standard-interface.png
    :alt: GLPI standard interface
    :align: center
-   :scale: 50%
-
+   :scale: 35%
 
 The home page of the standard interface provides a summary view for quick access to active elements (tickets, notes, planning, contracts, etc.).
 

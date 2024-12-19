@@ -90,7 +90,7 @@ ITIL objects
 
 This tab allows to attach to the project GLPI ITIL objects: tickets, problems and changes. It is also possible to create these objects directly from this tab.
 
-.. include:: ../tabs/elements.rst
+.. include:: ../tabs/item.rst
 
 .. include:: ../tabs/documents.rst
 

@@ -5,11 +5,11 @@ The GLPI Management module is used to manage the following items:
 
 .. toctree::
    :maxdepth: 1
-   
+
    licenses
    budgets
-   certificates
    suppliers
+   certificates
    contacts
    contract
    documents
@@ -17,3 +17,6 @@ The GLPI Management module is used to manage the following items:
    data-centers
    clusters
    domains
+   domains_records
+   appliance
+   Databases

@@ -80,5 +80,5 @@ msgstr ""
 #: ../../source/modules/assets/tabs/connexions.rst:45
 msgid ""
 "If using native inventory or third-party inventory tool, the connections "
-"informations can be automatically imported and updated."
+"information can be automatically imported and updated."
 msgstr ""

@@ -144,7 +144,7 @@ In order to make a transfer:
    If a linked element does not exist in destination entity, it will be automatically created if transfer profile asks to keep it.
 
 
-   Example : transfer of a `Computer` with a provider defined in accounting informations: if this provider exists only in origin entity, it will be created in destination entity; however, a provider defined in root entity with recursivity enable will not be recreated.
+   Example : transfer of a `Computer` with a provider defined in accounting information: if this provider exists only in origin entity, it will be created in destination entity; however, a provider defined in root entity with recursivity enable will not be recreated.
 
 .. warning::
 
