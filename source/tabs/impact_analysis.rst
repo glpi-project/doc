@@ -104,7 +104,7 @@ There is one last type of link, those that have no dependency or impact:
    :align: center
    :scale: 43%
 
-The black arrows mean that from the element you are on, there will be no imapct if that element were to fail. In our example, we are on **Rack 1**. This does not communicate with **Rack 2**, so there will be no dependency or impact in the event of a failure.
+The black arrows mean that from the element you are on, there will be no impact if that element were to fail. In our example, we are on **Rack 1**. This does not communicate with **Rack 2**, so there will be no dependency or impact in the event of a failure.
 
 Groups
 ~~~~~~
