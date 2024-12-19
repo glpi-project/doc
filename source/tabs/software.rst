@@ -3,7 +3,7 @@ Software
 
 This field displays the list of applications installed on a machine (computer, network equipment, etc.).
 
-.. image:: ../../image/software-view.png
+.. image:: images/software-view.png
    :alt: software-view
    :align: center
    :scale: 50%
@@ -19,7 +19,7 @@ You can install new software from the list of existing applications
 - click on **install**
 
 
-.. image:: ../../image/software-install.png
+.. image:: images/software-install.png
    :alt: software-install
    :align: center
    :scale: 50%

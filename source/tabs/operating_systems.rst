@@ -1,7 +1,7 @@
 Operating Systems
 -----------------
 
-.. image:: ../../image/operating-systems-view.png
+.. image:: images/operating-systems-view.png
    :alt: operating systems view
    :align: center
    :scale: 54%

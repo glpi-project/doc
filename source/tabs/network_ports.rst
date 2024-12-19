@@ -4,7 +4,7 @@ Network ports
 This tab, named **Network ports** allows to manage the network ports attached to a computer.
 They can be brought up by the automatic inventory or added manually
 
-.. image:: ../../image/network-port-view.png
+.. image:: images/network-port-view.png
    :alt: List of network ports
    :align: center
    :scale: 49%
@@ -126,7 +126,7 @@ To add a port, select the one you want and click on **Add**
 
 You will be asked to provide a certain amount of information. Once you have filled in the details, click on **+ Add**
 
-.. image:: ../../image/network-port-add.png
+.. image:: images/network-port-add.png
    :alt: add new port
    :align: center
    :scale: 43%
@@ -136,7 +136,7 @@ Additional configuration of new port
 
 Once added, you can view/modify/add a certain amount of information from the various fields that have just been added.
 
-.. image:: ../../image/network-port-details.png
+.. image:: images/network-port-details.png
    :alt: view new port details
    :align: center
    :scale: 43%
@@ -146,7 +146,7 @@ Metrics
 
 In the **Metrics** tab, you can see the machine's network consumption
 
-.. image:: ../../image/network-port-metrics.png
+.. image:: images/network-port-metrics.png
    :alt: view new port metrics
    :align: center
    :scale: 42%
@@ -157,7 +157,7 @@ Network Name
 You can associate a  via this tab or create a new one by clicking on create a new network name.
 Go to :doc:`Network Name <../../modules/configuration/dropdowns/network-name>` for more details.
 
-.. image:: ../../image/network-port-name.png
+.. image:: images/network-port-name.png
    :alt: network port name
    :align: center
    :scale: 42%
@@ -177,7 +177,7 @@ Associate a VLAN
 It is possible on a network port to add one or more VLAN, these VLANs being defined by a name, an optional comment and a VLAN number.
 Tags are avaialble for VLAN.
 
-.. image:: ../../image/network-port-vlan.png
+.. image:: images/network-port-vlan.png
    :alt: view new port vlan
    :align: center
    :scale: 42%
@@ -190,7 +190,7 @@ Create a VLAN
 - Fill in the necessary fields
 - Click on **+ Add**
 
-.. image:: ../../image/network-port-vlan-add.png
+.. image:: images/network-port-vlan-add.png
    :alt: add new VLAN
    :align: center
    :scale: 62%
@@ -204,7 +204,7 @@ Locks
 A locked field is a manually modified field. The automatic inventory will no longer modify this field, unless you unlock it.
 You can manually deleted a connection, for example a monitor. The automatic inventory will no longer handle this item, unless you unlock it.
 
-.. image:: ../../image/network-port-locks.png
+.. image:: images/network-port-locks.png
    :alt: Networl port locks
    :align: center
    :scale: 46%
@@ -214,7 +214,7 @@ You can manually deleted a connection, for example a monitor. The automatic inve
 - Select **Delete permanently**
 - And **Post**
 
-.. image:: ../../image/network-port-unlock.png
+.. image:: images/network-port-unlock.png
    :alt: Network port locks
    :align: center
    :scale: 44%
@@ -225,7 +225,7 @@ Historical
 
 This field references all the changes that have been made to the network port, whether manually or via the automatic inventory
 
-.. image:: ../../image/network-port-historical.png
+.. image:: images/network-port-historical.png
    :alt: Network port historical
    :align: center
    :scale: 44%

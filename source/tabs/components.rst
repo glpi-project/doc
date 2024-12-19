@@ -1,7 +1,7 @@
 Components
 ----------
 
-.. image:: ../../image/component.png
+.. image:: images/component.png
    :alt: component view
    :align: center
    :scale: 49%
@@ -11,7 +11,7 @@ Components
    The component you want to add must already exist. If it is not in the list, you can add new ones in
    `setup > components </modules/configuration/components.html>`_.
 
-   .. image:: ../../image/component-add.png
+   .. image:: images/component-add.png
       :alt: component add
       :align: center
       :scale: 55%

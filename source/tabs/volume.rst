@@ -1,14 +1,14 @@
 Volumes
 -------
 
-.. image:: ../../image/volume-view.png
+.. image:: images/volume-view.png
    :alt: volume
    :align: center
    :scale: 51%
 
 Each partition has its own information that can be consulted
 
-.. image:: ../../image/volume-details.png
+.. image:: images/volume-details.png
    :alt: volume details
    :align: center
    :scale: 45%

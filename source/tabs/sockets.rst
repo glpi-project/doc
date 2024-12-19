@@ -8,7 +8,7 @@ It enables hardware to be linked by cables. Socket is also linked to the :doc:`c
 
 You can add them either en masse or one by one.
 
-.. image:: ../../image/sockets.png
+.. image:: images/sockets.png
    :alt: Networl port locks
    :align: center
    :scale: 49%
@@ -18,7 +18,7 @@ Add a socket
 
 * To add a socket, enter a name,
 * Select the socket model. You can add them by clicking on **+**.
-.. image:: ../../image/sockets-add-socket-model.png
+.. image:: images/sockets-add-socket-model.png
    :alt: Networl port locks
    :align: center
    :scale: 68%
@@ -26,7 +26,7 @@ Add a socket
 * Define the **wiring side** (rear or front)
 * Click on **Add** to save your socket
 
-.. image:: ../../image/sockets-add.png
+.. image:: images/sockets-add.png
    :alt: Networl port locks
    :align: center
    :scale: 50%
@@ -34,7 +34,7 @@ Add a socket
 * To add several sockets, repeat the above actions but tick the Add several sockets box. You can add a prefix or suffix to help you 
   to indentify the sockets
 
-.. image:: ../../image/sockets-add-several.png
+.. image:: images/sockets-add-several.png
    :alt: Networl port locks
    :align: center
    :scale: 50%
@@ -50,7 +50,7 @@ When the socket is valideted, you can setup the advanced options.
 * Select the machine you require
 * Then, select the hardware on which the socket is present (generally a network card)
 
-.. image:: ../../image/sockets-advanced-setup.png
+.. image:: images/sockets-advanced-setup.png
    :alt: Networl port locks
    :align: center
    :scale: 49%

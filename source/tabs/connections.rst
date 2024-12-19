@@ -3,7 +3,7 @@ Connections
 
 This field lists all the devices that have either been detected by the automatic inventory or added manually.
 
-.. image:: ../../image/connections-view.png
+.. image:: images/connections-view.png
    :alt: Connection view
    :align: center
    :scale: 49%
@@ -22,7 +22,7 @@ Add a connection
 - Select the **materiel**
 - Click on **Connect**
 
-.. image:: ../../image/connections-add.png
+.. image:: images/connections-add.png
    :alt: computer-type
    :align: center
    :scale: 50%
