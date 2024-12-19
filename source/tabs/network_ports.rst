@@ -154,7 +154,7 @@ In the **Metrics** tab, you can see the machine's network consumption
 Network Name
 ~~~~~~~~~~~~
 
-You can associate a  via this tab or create a new one by clicking on create a new network name.
+You can associate a network name via this tab or create a new one by clicking on **+ Add**.
 Go to :doc:`Network Name <../../modules/configuration/dropdowns/network-name>` for more details.
 
 .. image:: images/network-port-name.png
