@@ -1434,8 +1434,7 @@ Options:
      - No
    * - --manufacturer-id
      - -m
-     - If option is set, only items having given manufacturer ID will be processed.
-Currently only available for Software dictionnary.
+     - If option is set, only items having given manufacturer ID will be processed. Currently only available for Software dictionary.
      - Yes
      - 
      - No
