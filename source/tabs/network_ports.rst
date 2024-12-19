@@ -175,7 +175,7 @@ Associate a VLAN
 ~~~~~~~~~~~~~~~~
 
 It is possible on a network port to add one or more VLAN, these VLANs being defined by a name, an optional comment and a VLAN number.
-Tags are avaialble for VLAN.
+Tags are available for VLAN.
 
 .. image:: images/network-port-vlan.png
    :alt: view new port vlan
