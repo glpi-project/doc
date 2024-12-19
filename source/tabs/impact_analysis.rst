@@ -160,7 +160,7 @@ In visibility, you can choose to show only impacts and/or dependencies.
 Colours
 ~~~~~~~
 
-In the colours tab, you can change the colours of dependencies, impacts and impacts and dependencies.
+In the colours tab, you can change the colours of dependencies, impacts and impacts of dependencies.
 
 Maximum depth
 ~~~~~~~~~~~~~
