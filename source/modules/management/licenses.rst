@@ -47,10 +47,10 @@ This tab lists all licenses declared as child of this license.
    :align: center
    :scale: 48 %
 
-To add a child licence, you need to create a licence from software and enter the parent licence in the **as child of** field.
+To add a child license, you need to create a license from software and enter the parent license in the **as child of** field.
 
 .. image:: images/licenses-child-add.png
-   :alt: Add licence child
+   :alt: Add license child
    :align: center
    :scale: 48 %
 
