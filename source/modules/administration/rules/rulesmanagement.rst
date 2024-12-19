@@ -137,7 +137,7 @@ In our example, we're going to create a rule that takes the `inventory tag <http
 
 * In **administration > Rules > Location Rules**
 * Click **+ Add**
-* You can add differents informations (name, logical operator, comments, description, active)
+* You can add differents information (name, logical operator, comments, description, active)
 .. Warning:: **Logical operator AND / OR**
 
    - **"OR"** the rule will then apply from the 1st corresponding criterion. It will ignore all subsequent criteria.

@@ -30,7 +30,7 @@ You can add a generic link for all elements of a GLPI object
 
 * In the **links** tab of your objet, click on **Configure XXXXXXXX links** (or go to **Setup** > **External Links**)
 * Click on **+ Add**
-* Enter your informations
+* Enter your information
 
 .. image:: ../tabs/images/external_link_add_generic.png
     :alt: add a generic external link

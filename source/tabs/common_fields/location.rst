@@ -17,7 +17,7 @@ If your have already entered locations :
 If you have not previously entered a location :
 
 * Click on **+**
-* In the new box, enter the informations that you need :
+* In the new box, enter the information that you need :
 
   * Name
   * Code

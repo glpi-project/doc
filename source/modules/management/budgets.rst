@@ -23,7 +23,7 @@ Add a new budget
 ----------------
 
 * To add a new budget, click on **+ Add** at the top of the screen
-* Enter the informations required
+* Enter the information required
 .. image:: images/budgets.png
    :alt: Main fields of a budget
    :align: center

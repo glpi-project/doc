@@ -42,4 +42,4 @@ inventory numbers.
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the connections informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the connections information can be automatically imported and updated.

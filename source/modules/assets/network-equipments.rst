@@ -45,7 +45,7 @@ Network device tab, includes basic information about the material :
 * :doc:`UUID </tabs/common_fields/uuid>`
 * :doc:`Update source </tabs/common_fields/update_source>`
 
-If your computer has been inventoried by the automatic inventory, you can find informtions about the `Agent GLPI <https://glpi-agent.readthedocs.io/en/latest/>`_
+If your computer has been inventoried by the automatic inventory, you can find information about the `GLPI Agent <https://glpi-agent.readthedocs.io/en/latest/>`_
 
 * Agents
 * Public contact address
