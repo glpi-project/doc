@@ -29,7 +29,7 @@ If you have not previously entered a location :
   * Latitude
   * Altitude
   * Comments
-  * Aliras
+  * Alias
   * Address
   * Town
   * Country
