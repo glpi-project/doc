@@ -147,7 +147,7 @@ This information is updated by the automatic inventory but you can add/modify th
 Owner
 ~~~~~
 
-The field is the owner of the licence. This information can be updated by the automatic inventory or can be added manually.
+The field is the owner of the license. This information can be updated by the automatic inventory or can be added manually.
 
 
 =========== ===============================================================================================
