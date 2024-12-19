@@ -202,7 +202,7 @@ Locks
 ~~~~~
 
 A locked field is a manually modified field. The automatic inventory will no longer modify this field, unless you unlock it.
-You can manually deleted a connection, for example a monitor. The automatic inventory will no longer handle this item, unless you unlock it.
+The automatic inventory will no longer handle this item, unless you unlock it.
 
 .. image:: images/network-port-locks.png
    :alt: Network port locks
