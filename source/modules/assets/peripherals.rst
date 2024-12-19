@@ -1,24 +1,23 @@
-Monitors
-========
+Peripherals
+===========
 
-Each monitor has its own information (connections, contrats, network ports, etc.).
-All this information is divided into tabs. You can find your computers in **Assets > Monitors**:
+Peripherals object refers to ancillary equipment or accessories connected to a main system (computer, server, etc.).
+This includes hardware elements required to operate or extend the capabilities of a workstation or network.
 
 
-.. image:: images/global_view.png
-   :alt: module assets - monitor
-   :align: center
-   :scale: 38 %
+.. image:: images/peripherals.png
+   :alt: module assets - global view peripherals
+   :scale: 42 %
 
+
+In a peripheral form, the following information is available:
+
+.. Note:: It is possible to use :doc:`templates with peripherals <../overview/templates>`.
 
 .. tip:: Note that if you modify a field manually, it will be considered locked.
           This will prevent it from being modified the next time the automatic inventory is uploaded.
 
           For more information, see :doc:`lock </modules/configuration/locks>`
-
-
-In a display form, the following information is available:
-
 
 * Name
 * :doc:`Location </tabs/common_fields/location>`
@@ -28,31 +27,17 @@ In a display form, the following information is available:
 * :doc:`Alternate usernmame </tabs/common_fields/alternate_user>`
 * :doc:`User </tabs/common_fields/user>`
 * :doc:`Group </tabs/common_fields/group>`
-* Size
-* :doc:`UUID </tabs/common_fields/uuid>`
-* :doc:`Update source </tabs/common_fields/update_source>`
+* :doc:`Comments </tabs/common_fields/comments>`
 * :doc:`Status </tabs/common_fields/status>`
-* :doc:`Monitor type </tabs/common_fields/monitor_type>`
+* :doc:`Device type </tabs/common_fields/computer_type>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Model </tabs/common_fields/model>`
 * :doc:`Serial number </tabs/common_fields/serial_number>`
 * :doc:`Inventory number </tabs/common_fields/inventory_number>`
-* :doc:`Network </tabs/common_fields/network>`
 * :doc:`Management type </tabs/common_fields/management_type>`
-* :doc:`Comments </tabs/common_fields/comments>`
-* :doc:`Ports </tabs/common_fields/ports>`
-
-
-
-**Management type:**
-
-It is possible to manage displays either unitary or globally.
-
-Unitary management corresponds to one display per computer while global management make the printer a virtual global element that will be connected to several computers.
-
-Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
-
-It is possible to use :doc:`templates with displays <../overview/templates>`.
+* :doc:`Network </tabs/common_fields/network>`
+* :doc:`UUID </tabs/common_fields/uuid>`
+* :doc:`Update source </tabs/common_fields/update_source>`
 
 
 Impact Analysis
@@ -60,6 +45,7 @@ Impact Analysis
 
 :doc:`Impact analysis <../../tabs/impact_analysis>` enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
 This can be saved and exported
+
 
 Operating systems
 -----------------
@@ -89,13 +75,39 @@ It is possible to install (in the logical sense) software on a PC manually.
 To add new :doc:`software <../../modules/assets/softwares>`  to the list of applications, you need to go to the Assets > Software tab,
 which will then be visible from the software tab of the various elements of the installed base.
 
+Components
+----------
+
+This tab lists the PC's :doc:`components <../../tabs/components>` :
+
+* BIOS
+* Processor
+* Memory
+* Hard Drive
+* Network card
+* Drive
+* Battery
+* Graphics card
+* Soundcard
+* Controller
+
+Each item has its :doc:`own information <../../tabs/components>` (name, model, brand, memory capacity, number of cores/threads, etc.).
+
+Lines
+-----
+
+You can add telephone lines created in `Lines <../management/lines.html>`_
+
+
 Connections
 -----------
 
 The :doc:`connections <../../tabs/connections>`  are all the other hardware connected to the machine :
 
-* `Computer <computer.html>`_
-* Other asset you have created
+* `Device <devices.html>`_
+* `Monitor <monitors.html>`_
+* `Phone  <phones.html>`_
+* `Printers <printers.html>`_
 
 These items can be updated by the automatic inventory, but you can also connect them manually.
 
@@ -119,6 +131,15 @@ The information that can be viewed is:
 * Connected to
 * Connection
 * Deleted
+
+
+Sockets
+-------
+
+:doc:`Sockets <../../tabs/sockets>` are the list of physical sockets present on the hardware. These sockets can be Ethernet, USB, HDMI, etc.
+This information cannot be returned by the automatic inventory, so you have to add it manually.
+
+It enables hardware to be linked by cables. Socket is also linked to the :doc:`cables <../modules/assets/cables>` object
 
 
 Management
@@ -168,10 +189,17 @@ Changes
 :doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
 You can create a new change from this page, which will be linked to the material you have selected.
 
+Projects
+--------
+
+This tab lists all the projects linked to the software. Here you can only add a project that already exists.
+To create a new one, go to :doc:`Projects <../tools/projects>`
+
 Links
 -----
 
-:doc:`Links <../configuration/external_links>` offer several possibilities. Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
+:doc:`Links <../configuration/external_links>` offer several possibilities.
+Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
 
 Locks
 -----
@@ -192,6 +220,13 @@ The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipm
 By default, equipment cannot be reserved; you must first authorize this action manually.
 
 
+Certificates
+------------
+
+Link a :doc:`certificate </modules/management/certificates>` to your registration.
+You can manage certificates in **Management** > **Certificates**
+
+
 Domains
 -------
 
@@ -203,11 +238,6 @@ Appliances
 
 :doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
 They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
-
-Databases
----------
-
-:ref:`Databases </modules/management/databases>` list databases discovered by automatic inventory and those entered manually
 
 
 Import information
@@ -224,6 +254,4 @@ Import information is information that is uploaded and governed by equipment imp
 The different actions
 ---------------------
 
-Apart from :doc:`common actions <../overview/actions>`, some actions are specific to displays:
-
-* :doc:`connect a display to a monitor <../../commontabs/item_connexions>`
+Peripherals do not have specific actions; report to :doc:`common actions <../overview/actions>`.

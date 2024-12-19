@@ -33,6 +33,7 @@ Available types
    consumables
    phones
    cables
+   databases
    global
 
 .. todo::
