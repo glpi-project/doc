@@ -6,10 +6,10 @@ This information cannot be returned by the automatic inventory, so you have to a
 
 It enables hardware to be linked by cables. Socket is also linked to the :doc:`cables <../modules/assets/cables>` object
 
-You can add them either en masse or one by one.
+You can add them either in bulk or one by one.
 
 .. image:: images/sockets.png
-   :alt: Networl port locks
+   :alt: Sockets
    :align: center
    :scale: 49%
 

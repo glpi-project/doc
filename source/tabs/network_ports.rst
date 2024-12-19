@@ -19,7 +19,7 @@ The information that can be viewed is:
 * Internal status
 * Last change
 * Number of I/O bytes
-* Number of I/O erros
+* Number of I/O errors
 * Duplex
 * VLAN
 * Connected to
@@ -205,7 +205,7 @@ A locked field is a manually modified field. The automatic inventory will no lon
 You can manually deleted a connection, for example a monitor. The automatic inventory will no longer handle this item, unless you unlock it.
 
 .. image:: images/network-port-locks.png
-   :alt: Networl port locks
+   :alt: Network port locks
    :align: center
    :scale: 46%
 

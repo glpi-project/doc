@@ -161,6 +161,6 @@ MAC          No information
 Host ID
 ~~~~~~~
 
-Typically for Linux, HostID allows administrators to associate it with software licences or perform system-specific operations.
+Typically for Linux, HostID allows administrators to associate it with software licenses or perform system-specific operations.
 This information is updated by the automatic inventory but you can add it manually.
 You can find this information with ``hostid`` command on Linux System.

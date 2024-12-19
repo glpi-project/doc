@@ -19,6 +19,8 @@ The applications detected are :
 * Meshcentral
 * Supremo
 * Rustdesk
+* RMS
+* TacticalRMM
 
 Add a new remote access
 -----------------------

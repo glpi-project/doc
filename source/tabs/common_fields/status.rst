@@ -25,7 +25,7 @@ You can also add statuses in **Setup > Dropdowns > Common > Statuses of items**
   * Devices
   * Phones
   * Printers
-  * Licences
+  * Licenses
   * Certificates
   * Enclosures
   * PDUs

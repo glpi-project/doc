@@ -77,9 +77,9 @@ Licenses
 --------
 
 :doc:`Licenses </modules/management/licenses>` play an important role in managing the software used in an organisation. They make it possible to manage software usage rights, 
-to know who is using a licence, how many are available and how many are being used.
-GLPI makes it possible to associate costs with licences, which facilitates budget management.
-Licences can be linked to equipment (computers, servers, etc.) or to specific users, so you know who is using what.
+to know who is using a license, how many are available and how many are being used.
+GLPI makes it possible to associate costs with licenses, which facilitates budget management.
+Licenses can be linked to equipment (computers, servers, etc.) or to specific users, so you know who is using what.
 It is also possible to set up expiry alerts.
 
 Here are the fields available from this tab:
