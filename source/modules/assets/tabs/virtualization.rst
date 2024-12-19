@@ -35,7 +35,7 @@ In some case, it is possible that the UUID is different inside the physical mach
 it is therefore impossible to make the link automatically.
 
 
-Several systems are supported, including HyperV, VMWare, VirutalBox, WSL, etc.
+Several systems are supported, including HyperV, VMWare, VirtualBox, WSL, etc.
 
 The only way to link manually a virtual machine to a physical machine is to attribute the *same* UUID to the virtual machine declared on the host and to the virtual machine inside GLPI.
 
@@ -47,7 +47,7 @@ The only way to link manually a virtual machine to a physical machine is to attr
 Add a virtual machine
 ~~~~~~~~~~~~~~~~~~~~~
 
-* To add a new virutal machine, cloick on **Add a virtual machine**
+* To add a new virtual machine, click on **Add a virtual machine**
 * Enter the information of the new machine
 
 .. image:: ../images/virtualization-add.png
@@ -59,9 +59,8 @@ Add a virtual machine
 
   * Virtualization system
   * Virtualization model
-  * Virtualization model
 
-You can manage these items in **Setup** > **Dopdowns** > **Virtual Machines**
+You can manage these items in **Setup** > **Dropdowns** > **Virtual Machines**
 
 .. image:: ../images/virtualization-manage.png
    :alt: module assets - manager your VM

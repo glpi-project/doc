@@ -67,7 +67,7 @@ The main view lists the number of installations of the version.
 * **Name**: the version number
 * **Status**: in ITIL recommendations, it allows to follow the DSL (library storing authorized versions)
 * **Operating system**: the operating system on which this software version runs
-* **Summuray**: overview of installations and entities in which the software is installed
+* **Summary**: overview of installations and entities in which the software is installed
 * **Installations**: the number of installations of the version
 * **Historical**: historical of the events
 * **All**: all previous elements
