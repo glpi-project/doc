@@ -8,7 +8,7 @@ This can be saved and exported
 .. Note:: We'll take a simple example. A router is connected to a switch to which a rack containing a server is attached.
 
    .. image:: ../../image/analysis_impact-1.png
-      :alt: module assets - example analysis imapct
+      :alt: module assets - example analysis impact
       :align: center
       :scale: 60%
 
