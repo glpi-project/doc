@@ -7,7 +7,7 @@ This can be saved and exported
 
 .. Note:: We'll take a simple example. A router is connected to a switch to which a rack containing a server is attached.
 
-   .. image:: ../../image/analysis_impact-1.png
+   .. image:: images/analysis_impact-1.png
       :alt: module assets - example analysis impact
       :align: center
       :scale: 60%
@@ -43,7 +43,7 @@ If we go back to our example given above, we'll start from the 1st item, i.e. th
 
 You'll get a result like this (depending on how you've placed your items)
 
-.. image:: ../../image/analysis_impact-2.png
+.. image:: images/analysis_impact-2.png
    :alt: module assets - creation
    :align: center
    :scale: 43%
@@ -59,7 +59,7 @@ Now that our materials have been placed, we need to add the links in order to ch
 - Hold your mouse over the 1st element, and release the mouse over the element to be linked.
 - Repeat the operation for all the desired elements
 
-.. image:: ../../image/analysis_impact-1.png
+.. image:: images/analysis_impact-1.png
    :alt: module assets - add connection
    :align: center
    :scale: 62%
@@ -71,7 +71,7 @@ As mentioned above, you need to understand the context of the selected element. 
 
 If we position ourselves on **Rack 1**, the behaviour will not be the same:
 
-.. image:: ../../image/analysis_impact-3.png
+.. image:: images/analysis_impact-3.png
    :alt: module assets - explain connection
    :align: center
    :scale: 42%
@@ -85,7 +85,7 @@ Dependency and impact on the same hardware
 
 We can add a router to our example, which will be linked to the 1st original router:
 
-.. image:: ../../image/analysis_impact-4.png
+.. image:: images/analysis_impact-4.png
    :alt: module assets - dependency/imapct
    :align: center
    :scale: 72%
@@ -99,7 +99,7 @@ No impact
 
 There is one last type of link, those that have no dependency or impact:
 
-.. image:: ../../image/analysis_impact-5.png
+.. image:: images/analysis_impact-5.png
    :alt: module assets - No impact
    :align: center
    :scale: 43%
@@ -113,7 +113,7 @@ Groups can be created using the :fontawesome-regular-object-group: icon in the r
 
 Groups allow you to see all the elements that depend on another piece of equipment. You can create a name for the group and choose a background colour.
 
-.. image:: ../../image/analysis_impact-6.png
+.. image:: images/analysis_impact-6.png
    :alt: module assets - Groups
    :align: center
    :scale: 47%
@@ -147,7 +147,7 @@ Link configuration
 
 You can configure certain options using the **adjustments** icon:
 
-.. image:: ../../image/analysis_impact-7.png
+.. image:: images/analysis_impact-7.png
    :alt: module assets - Groups
    :align: center
    :scale: 100%
