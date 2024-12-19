@@ -11,6 +11,12 @@ All this information is divided into tabs. You can find your computers in **Asse
    :scale: 38 %
 
 
+.. tip:: Note that if you modify a field manually, it will be considered locked.
+          This will prevent it from being modified the next time the automatic inventory is uploaded.
+
+          For more information, see :doc:`lock </modules/configuration/locks>`
+
+
 In a display form, the following information is available:
 
 

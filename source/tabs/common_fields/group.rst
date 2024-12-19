@@ -1,7 +1,8 @@
 Group
 ~~~~~
-You can add a group manually or create a group directly by this field.
 
+This field, like the user field, corresponds to the membership of the GLPI object
+You can add a group manually or create a group directly by this field.
 
 .. image:: /tabs/common_fields/images/group.png
    :alt: user
@@ -40,4 +41,6 @@ You can add a group manually or create a group directly by this field.
 3. whether or not to authorise **Delegatee** rights (can open ticket for the group)
 4. **Add** your group
 
-Once the group has been created, you can add another or select it from the drop-down list.
+Once you have created a group, you can either create another or select the one you have just created from the drop-down list.
+
+.. Note:: For more information, see :doc:`../administration/groups`

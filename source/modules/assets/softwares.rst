@@ -26,6 +26,11 @@ It is possible to use :doc:`templates with software <../overview/templates>`.
    :align: center
    :scale: 38 %
 
+.. tip:: Note that if you modify a field manually, it will be considered locked.
+          This will prevent it from being modified the next time the automatic inventory is uploaded.
+
+          For more information, see :doc:`lock </modules/configuration/locks>`
+
 
 * Name
 * :doc:`Location </tabs/common_fields/location>`
@@ -230,15 +235,3 @@ This grouping have the following effects:
    * Empty trash after grouping, otherwise synchronization will restore the old software in case of new version
    * Associate the same vendor to the new software; as the synchronization checks vendor name, a new software would then be created
 
-.. include:: ../tabs/debug.rst
-
-.. include:: ../tabs/all.rst
-
-The different actions
----------------------
-
-Apart from :doc:`common actions <../overview/actions>`, some actions are specific to software:
-
-* :ref:`Add a version to a software <versions_soft>`
-* **[Manage licenses](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**
-  From menu ***Assets > Softwares*** click on license name in tab *Licenses*.
