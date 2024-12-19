@@ -32,4 +32,4 @@ You can delete one or more softwares, you can select the check box, and click on
 If you make a mistake, you can always go back to the previous step to add it again
 
 .. Note::
-   If you need to add or modify a softawre  (not already presents in the list),  you need to go to the `Assets > Software </modules/assets/softwares.html>`_ tab.
+   If you need to add or modify a software  (not already presents in the list),  you need to go to the `Assets > Software </modules/assets/softwares.html>`_ tab.

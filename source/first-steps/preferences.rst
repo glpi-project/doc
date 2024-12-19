@@ -42,7 +42,7 @@ Depending on the profiles, the experienced user can also choose to exit the norm
 Two-factor authentication Tab
 -----------------------------
 
-MFA is now native to GLPI. MFA (or multi-factor authentication) allows you to secure access to your account by means of double authentication.
+:abbr:`MFA (Multi Factor Authentication)` is now native to GLPI. It allows you to secure access to your account by means of double authentication.
 After entering your password, you'll need to enter the access code provided by your application (Free OTP, Authy, Authenticator, etc.).
 
 - First, you need to download an application like *Authy*,

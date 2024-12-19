@@ -7,7 +7,6 @@ User interfaces
 
 .. _standard_interface:
 
-
 Standard Interface
 ------------------
 

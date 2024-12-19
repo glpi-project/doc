@@ -14,7 +14,6 @@ The following web browsers are supported:
 * Firefox (including 2 latests ESR version)
 * Chrome
 
-
 GLPI also works on mobile; it is generally compatible with the mobile versions of the supported browsers.
 
 How to connect

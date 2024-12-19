@@ -20,7 +20,7 @@ Add a volume
 
 You can delete one or more softwares, you can select the check box, and click on **Actions** and select **Delete permanently**.
 
-* To add a new volutme, click on **Add a volume**
+* To add a new volume, click on **Add a volume**
 * Fill in the necessary fields
 * If your file systems is not present, you can a new one by clicking on **+**
 
