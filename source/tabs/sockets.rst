@@ -56,8 +56,6 @@ When the socket is validated, you can setup the advanced options.
    :alt: Advanced socket setup
    :align: center
    :scale: 49%
-
-
 .. tip:: In the case of a bulk addition, you will need to select each socket and add the information to it
 
 .. note:: To connect this computer to an other equipment, go to :doc:`cables <../modules/assets/cables>`

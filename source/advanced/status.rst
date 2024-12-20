@@ -3,7 +3,7 @@ GLPI Status Monitoring
 
 GLPI contains a helpful endpoint for monitoring its health at `/status.php` and the `glpi:system:status` CLI command.
 The `/status.php` endpoint does not require you to be logged in and therefore only shows basic status information.
-Sensitive information like the GLPI version and plugin names and versions (could be used to identify vulerabilities) are not shown.
+Sensitive information like the GLPI version and plugin names and versions (could be used to identify vulnerabilities) are not shown.
 Information from the PHP script and the CLI command is presented as JSON.
 The difference with the CLI command though is that since it isn't accessible from the web, you can optionally retrieve private information too.
 

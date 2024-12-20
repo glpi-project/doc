@@ -4,7 +4,6 @@ Impact Analysis
 Impact analysis enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
 This can be saved and exported
 
-
 .. Note:: We'll take a simple example. A router is connected to a switch to which a rack containing a server is attached.
 
    .. image:: images/analysis_impact-1.png
@@ -12,13 +11,10 @@ This can be saved and exported
       :align: center
       :scale: 60%
 
-
-
 Notions
 ~~~~~~~
 
 Two concepts need to be understood:
-
 
 - **Impact**: represented by default by a red arrow. If this element encounters a problem, it will impact all linked elements.
 - **Dependency**: represented by default by a blue arrow. A dependency is an element which will be directly affected by the impact. A dependency does not necessarily affect the elements linked to it.
@@ -120,7 +116,7 @@ Groups allow you to see all the elements that depend on another piece of equipme
 
 To delete a group, right-click on it and select delete. This only deletes the group, not the items it contains.
 
-Save your imapct analysis
+Save your impact analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Remember to save your project with the **floppy** icon

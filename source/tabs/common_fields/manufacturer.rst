@@ -14,7 +14,7 @@ Add a manufacturer
 
 - To create a manufacturer, click **+**
 - Add a **Name**
-- You can add a registrered ID issued by `PCI-SIG <https://pcisig.com/developers/integrators-list>`_ for USB or/and PCI. You can add more by clicking **+**.
+- You can add a registered ID issued by `PCI-SIG <https://pcisig.com/developers/integrators-list>`_ for USB or/and PCI. You can add more by clicking **+**.
 
 Once the manufacturer has been created, you can add another or select it from the drop-down list.
 

@@ -12,7 +12,7 @@ Network
 
 - To create a network, click **+**
 - Enter a **Name**
-- Enter a **Comment** (optionnal)
+- Enter a **Comment** (optional)
 - Click **+ Add**
 - You can add another one or close this window
 - Then select the network you want from the drop-down list

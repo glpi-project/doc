@@ -17,7 +17,7 @@ Create a group
 - To create a group, click on **+ Add**
 - If it's necessary, check the box **Child entities** (this group will be visible in the sub-entity of the one you are in)
 - Enter a **Name**
-- A **Code** (optionnal)
+- A **Code** (optional)
 - Choose if this group is **Child of**
 - Select yes or no to **Recursive membership** (if enabled, members of this group will also become implicit members of its children groups)
 - You can define whether this group can be **visible in a ticket** (as a requester, observer, assigned to, task, can be notified)
@@ -42,7 +42,7 @@ Create a group
    :scale: 43%
 
 1. Select **user**
-2. Define it this user can be **Manage** group (add/modify memebers, name, etc.)
+2. Define it this user can be **Manage** group (add/modify members, name, etc.)
 3. whether or not to authorise **Delegatee** rights (can open ticket for the group)
 4. **Add** your group
 

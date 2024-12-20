@@ -21,6 +21,6 @@ This information can be exported in two formats:
 
 .. note::
 
-   * Access to Ical and Webcall feed is protected by a security key integrated into the URL. It is possible to regenerate this key in menu `Preferences`. See :doc:`Manage preferences </first-steps/preferences>`.
+   * Access to Ical and Webcal feed is protected by a security key integrated into the URL. It is possible to regenerate this key in menu `Preferences`. See :doc:`Manage preferences </first-steps/preferences>`.
 
    * User's planning can be displayed on home page if profile has authorization *See my personal planning*. However, it is not possible to add an element to a planning from this interface; it is mandatory to plan a task or a note so that planning fills up.

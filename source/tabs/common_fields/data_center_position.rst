@@ -7,4 +7,3 @@ itself housed in a :doc:`datacenter </modules/management/data-centers>`.
 .. image:: /tabs/common_fields/images/rack_data_center_position.png
    :alt: view data center position
    :scale: 48%
-

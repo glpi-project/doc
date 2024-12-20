@@ -27,7 +27,7 @@ The *Replay the dictionary rules* button (under the list of rules of the diction
 
 .. hint::
    * it is highly recommended to play rules on a test database and to backup database before production launch of the dictionary or before inserting new rules
-   * a script is available in directory *scripts* of GLPI installation, named *compute\_dictionnary.php*, that allows to launch dictionnary processing in command line mode; this allows to bypass problems of execution limit and provides a significant speedup
+   * a script is available in directory *scripts* of GLPI installation, named *compute\_dictionnary.php*, that allows to launch dictionary processing in command line mode; this allows to bypass problems of execution limit and provides a significant speedup
 
 Global dictionaries
 ~~~~~~~~~~~~~~~~~~~
@@ -39,7 +39,7 @@ The software dictionary modifies software data (name, version, manufacturer) in 
 
 This dictionary allows also to redirect the creation of a software or of a set of software in a given entity, by choosing action *Entity* and to select the entity in which to create the software. This functionality can also be used with general option *Entity for software* available in entity configuration.
 
-.. note:: for an optimal management of software and licenses in a multi-entity environment, it is possible to use the software dictionnary simultaneously with software visible in sub-entities and thus to use grouping functionality.
+.. note:: for an optimal management of software and licenses in a multi-entity environment, it is possible to use the software dictionary simultaneously with software visible in sub-entities and thus to use grouping functionality.
 
 .. warning:: using action *Add regexp result* on a version must be used with maximum care; indeed, this action is only taken into account when importing data coming from an inventory tool and will be ignored when re-applying dictionary on an existing database.
 

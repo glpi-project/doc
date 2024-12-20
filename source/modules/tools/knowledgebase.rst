@@ -27,7 +27,7 @@ It is possible to attach documents to articles of the knowledge base.
    An article can be made visible during a time slot by defining a start date and an end date.
 
 .. warning::
-   Elements which should not be interpreted when displayed can be defined with preformated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` can therefore be inserted and will be displayed. Other HTML tags (``<TAG>...</TAG>`` may disappear when editing; to have complete visibility of the text, it is possible to switch to HTML mode where all elements will be visible. The browser may also modify dynamically content (case change, tags adding) when editing.
+   Elements which should not be interpreted when displayed can be defined with pre-formated style (``<pre>`` in HTML). Tags like ``<VirtualHost>`` can therefore be inserted and will be displayed. Other HTML tags (``<TAG>...</TAG>`` may disappear when editing; to have complete visibility of the text, it is possible to switch to HTML mode where all elements will be visible. The browser may also modify dynamically content (case change, tags adding) when editing.
 
 It is possible to create categories and sub-categories in order to organize browsing (see :doc:`Configure drop-downs </modules/configuration/dropdowns/index>`). User can then use several tabs to search and browse knowledge base:
 
