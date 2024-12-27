@@ -8,6 +8,10 @@ Location
 
 You can add location manually or dynamically.
 
+
+Add a location
+^^^^^^^^^^^^^^
+
 To add a location **manually** :
 
 If your have already entered locations :
@@ -16,7 +20,7 @@ If your have already entered locations :
 
 If you have not previously entered a location :
 
-* Click on **+**
+* Click on **+** (or go to **Setup > Dropdowns> Location**)
 * In the new box, enter the information that you need :
 
   * Name
@@ -47,6 +51,17 @@ If you have not previously entered a location :
 * Click **+ Add**
 * After saving, you can add a new location or close this window
 * Now, select the location for your computer
+
+
+Delete a Location
+^^^^^^^^^^^^^^^^^
+
+To delete a location, use the massive action with **Actions** button
+
+.. image:: /tabs/common_fields/images/delete-location.png
+   :alt: delete location
+   :align: center
+   :scale: 41 %
 
 
 To add a location **dynamically**, see :doc:`rules </modules/administration/rules/rulesmanagement>`

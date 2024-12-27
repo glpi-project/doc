@@ -26,8 +26,8 @@ Network device tab, includes basic information about the material :
 
 
 * Name
-* :doc:`Data center position </tabs/common_fields/location>`
-* :doc:`Location </tabs/common_fields/data_center_position>`
+* :doc:`Data center position </tabs/common_fields/data_center_position>`
+* :doc:`Location </tabs/common_fields/location>`
 * :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
 * :doc:`Group in charge </tabs/common_fields/group_in_charge>`
 * :doc:`Alternate usernmame number </tabs/common_fields/alternate_username>`

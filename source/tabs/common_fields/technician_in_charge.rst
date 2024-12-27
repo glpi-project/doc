@@ -3,6 +3,8 @@ Technician in charge
 
 A technician in charge can modify the information of the computer and his elements (status, computer type, etc.)
 
+For users created from an AD/LDAP(S) or SCIM, please refer to your internal procedures.
+
 .. Note:: A technician is a person with a technician profile or higher
 
 - In **Technician in charge** tab, select the technician you require.
@@ -18,3 +20,5 @@ A technician in charge can see the material that he can manage in **Administrati
    :alt: technician in charge user file
    :align: center
    :scale: 44%
+
+To create or import a user, go to :doc:`users </modules/administration/users/users>`
