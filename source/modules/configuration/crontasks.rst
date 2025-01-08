@@ -167,7 +167,7 @@ Send notification alerts for warranties (Set in the Management tab on an asset f
 If you don't have notifications enabled, the expiration warnings are still listed in the action's log.
 The expiration warning delay can be changed for each Entity.
 Notifications are only sent for assets that are not deleted.
-If a deleted asset is restored before the warranty expires, this action will trigger a notification for it as anu other non-deleted asset.
+If a deleted asset is restored before the warranty expires, this action will trigger a notification for it as any other non-deleted asset.
 
 logs (CronTask)
 ~~~~~~~~~~~~~~~
