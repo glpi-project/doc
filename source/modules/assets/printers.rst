@@ -95,114 +95,197 @@ the number of prints can be reduced. A filter is available for viewing the last 
 or for viewing daily, weekly, etc. printouts.
 You can also compare the number of prints against another printer.
 
+Components
+----------
+
+This tab lists the PC's :doc:`components <../../tabs/components>` :
+
+* BIOS
+* Processor
+* Memory
+* Hard Drive
+* Network card
+* Drive
+* Battery
+* Graphics card
+* Soundcard
+* Controller
+
+Each item has its :doc:`own information <../../tabs/components>` (name, model, brand, memory capacity, number of cores/threads, etc.).
+
+Lines
+-----
+
+You can add telephone lines created in `Lines <../management/lines.html>`_
 
 
+Volumes
+-------
+
+Summarises all the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) as well as the partitions present on the workstation
+(virtual disks such as Google Cloud may appear if they are installed as a network drive).
+
+* Name
+* Automatic inventory (Yes /No)
+* partition
+* Mount point
+* File system
+* Global size
+* Free size
+* Free percentage
+* Encryption (if the disk is encrypted, a padlock will be displayed)
+
+Connections
+-----------
+
+The :doc:`connections <../../tabs/connections>`  are all the other hardware connected to the machine :
+
+* `Device <devices.html>`_
+* `Monitor <monitors.html>`_
+* `Phone  <phones.html>`_
+* `Printers <printers.html>`_
+
+These items can be updated by the automatic inventory, but you can also connect them manually.
 
 
+Network Ports
+-------------
+
+This tab allows to manage the :doc:`network ports <../../tabs/network_ports>` attached to an equipment.
+The information that can be viewed is:
+
+* Name
+* Port number
+* MTU
+* Speed
+* Internal status
+* Last change
+* Number of I/O bytes
+* Number of I/O errors
+* Duplex
+* VLAN
+* Connected to
+* Connection
+* Deleted
 
 
+Sockets
+-------
+
+:doc:`Sockets <../../tabs/sockets>` are the list of physical sockets present on the hardware. These sockets can be Ethernet, USB, HDMI, etc.
+This information cannot be returned by the automatic inventory, so you have to add it manually.
+
+It enables hardware to be linked by cables. Socket is also linked to the :doc:`cables <../modules/assets/cables>` object
+
+Management
+----------
+
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+
+Contracts
+---------
+
+GLPI supports :doc:`contracts <../management/contract>` management, in order to manage contract types such as loan, maintenance, support...
+
+Contracts management allows to:
+
+* make an inventory of all contracts related to the organization assets
+* integrate contracts in GLPI financial management
+* anticipate and follow contract renewal.
 
 
+Documents
+---------
+
+The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
 
+Knowledge Base
+--------------
+
+Lists all the articles in the :doc:`knowledge base <../tabs/knowledgebase>` relating to the material.
+
+Tickets
+-------
+
+View all :doc:`tickets <../tabs/tickets>` linked to the computer
+
+Problems
+--------
+
+This tab refers to all hardware-related :doc:`problems <../assistance/problems>`.
+Problems can also be linked to tickets, projects, etc. This allows you to have a complete scenario when necessary.
+
+Changes
+-------
+
+:doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+You can create a new change from this page, which will be linked to the material you have selected.
+
+Projects
+--------
+
+This tab lists all the projects linked to the software. Here you can only add a project that already exists.
+To create a new one, go to :doc:`Projects <../tools/projects>`
+
+Links
+-----
+
+:doc:`Links <../configuration/external_links>` offer several possibilities.
+Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
+
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
 
 
+Certificates
+------------
+
+Link a :doc:`certificate </modules/management/certificates>` to your registration. You can manage certificates in **Management** > **Certificates**
 
 
+Locks
+-----
+
+:doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
+You can lock/unlock the fields you wish in a GLPI object.
 
 
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
 
 
-In a printer form, several information are available:
+Domains
+-------
 
-* General characteristics of the printer:
-
-  * Vendor
-  * Model
-  * Type
-  * Serial number
-  * ...
-
-* Printer management: 
-
-  * Technical person in charge
-  * Status
-  * Location
-  * ...
-
-* Printer users:
-
-  * Users known to GLPI or not
-  * Groups of users
-  * ..
-
-* Specifications:
-
-  * Page counter
-  * Port types
-  * ...
-
-Management Type
----------------
-
-It is possible to manage printers either unitary or globally.
-
-Unitary management corresponds to one printer per computer while global management make the printer a virtual global element that will be connected to several computers.
-
-Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
+You can attach :doc:`Domains </modules/management/domains>` to your computer. Domains are also linked to other objects such as records, problems, etc.
 
 
-It is possible to use :doc:`templates with printers <../overview/templates>`.
+Appliances
+----------
 
-
-The different tabs
-------------------
-
-.. include:: tabs/components.rst
-
-Cartridges
-~~~~~~~~~~
-
-This tab displays the cartridges associated with the selected printer model:
-
-* cartridges in use, with add date and use date
-* used cartridges, with cartridge model, add date, use date, end of life date, printing counter and number of printed pages since last cartridge change
-
-.. note::
-
-   For cartridge adding or removing, report to :doc:`cartridges management <cartridges>`.
-
-.. include:: tabs/connexions.rst
-
-.. include:: tabs/network-ports.rst
-
-.. include:: ../tabs/management.rst
-
-.. include:: ../tabs/contracts.rst
-
-.. include:: ../tabs/documents.rst
-
-.. include:: ../tabs/tickets.rst
-
-.. include:: ../tabs/problems.rst
-
-.. include:: ../tabs/external-links.rst
-
-.. include:: ../tabs/notes.rst
-
-.. todo::
-   Fix this reference (include or link???)
-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-   Gestion des réservations pour un objet d'inventaire
+:doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
+They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
 
 .. include:: ../tabs/historical.rst
-
-.. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
 
 
-The different actions
----------------------
-
-Printers do not have specific actions; report to :doc:`common actions <../overview/actions>`.
