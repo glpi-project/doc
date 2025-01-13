@@ -63,6 +63,7 @@ Monthly repetition
 
 * Select **monthly** in repetition
 * select the **end date** (the reservation will also be added to the last day selected)
+
 In the dropdown list select :
 
    * Each month, same date

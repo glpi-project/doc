@@ -54,6 +54,7 @@ To delete a group, use the massive action with **Actions** button
    :alt: delete location
    :align: center
    :scale: 41 %
+
 Or enter in the group you want and click on **Delete permanently**
 
 .. image:: /tabs/common_fields/images/delete-individual-group.png
