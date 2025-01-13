@@ -1,5 +1,5 @@
 Network Name
-~~~~~~~~~~~~
+------------
 
 A network name is the unique identification of a machine from the Internet point of view.
 
