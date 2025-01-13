@@ -26,8 +26,8 @@ Network device tab, includes basic information about the material :
 
 
 * Name
-* :doc:`Data center position </tabs/common_fields/location>`
-* :doc:`Location </tabs/common_fields/data_center_position>`
+* :doc:`Data center position </tabs/common_fields/data_center_position>`
+* :doc:`Location </tabs/common_fields/location>`
 * :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
 * :doc:`Group in charge </tabs/common_fields/group_in_charge>`
 * :doc:`Alternate usernmame number </tabs/common_fields/alternate_username>`
@@ -168,69 +168,145 @@ The visible fields are :
 * IP networks
 
 
+Sockets
+-------
+
+:doc:`Sockets <../../tabs/sockets>` are the list of physical sockets present on the hardware. These sockets can be Ethernet, USB, HDMI, etc.
+This information cannot be returned by the automatic inventory, so you have to add it manually.
+
+It enables hardware to be linked by cables. Socket is also linked to the :doc:`cables <../modules/assets/cables>` object
 
 
+Management
+----------
+
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
 
 
+Contracts
+---------
+
+GLPI supports :doc:`contracts <../management/contract>` management, in order to manage contract types such as loan, maintenance, support...
+
+Contracts management allows to:
+
+* make an inventory of all contracts related to the organization assets
+* integrate contracts in GLPI financial management
+* anticipate and follow contract renewal.
 
 
+Documents
+---------
+
+The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
 
+Knowledge Base
+--------------
+
+Lists all the articles in the :doc:`knowledge base <../tabs/knowledgebase>` relating to the material.
+
+Tickets
+-------
+
+View all :doc:`tickets <../tabs/tickets>` linked to the computer
+
+Problems
+--------
+
+This tab refers to all hardware-related :doc:`problems <../assistance/problems>`.
+Problems can also be linked to tickets, projects, etc. This allows you to have a complete scenario when necessary.
+
+Changes
+-------
+
+:doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+You can create a new change from this page, which will be linked to the material you have selected.
 
 
+Projects
+--------
+
+This tab lists all the projects linked to the software. Here you can only add a project that already exists.
+To create a new one, go to :doc:`Projects <../tools/projects>`
+
+Links
+-----
+
+:doc:`Links <../configuration/external_links>` offer several possibilities.
+Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
+
+Locks
+-----
+
+:doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
+You can lock/unlock the fields you wish in a GLPI object.
 
 
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
 
 
+Certificates
+------------
+
+Link a :doc:`certificate </modules/management/certificates>` to your registration. You can manage certificates in **Management** > **Certificates**
 
 
+Locks
+-----
+
+:doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
+You can lock/unlock the fields you wish in a GLPI object.
 
 
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
 
 
+Domains
+-------
+
+You can attach :doc:`Domains </modules/management/domains>` to your computer. Domains are also linked to other objects such as records, problems, etc.
 
 
+Appliances
+----------
+
+:doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
+They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
+
+Databases
+---------
+
+:ref:`Databases </modules/management/databases>` list databases discovered by automatic inventory and those entered manually
 
 
-
-
-
-
-
-
-
-The different tabs
+Import information
 ------------------
 
-.. include:: tabs/components.rst
+Import information is information that is uploaded and governed by equipment import rules
+(administration > rules > Rules for import and link equipments)
 
-.. include:: tabs/network-ports.rst
-
-- **Tab "Network names"**
-  Summary of IP address and IP networks for each network name
-
-.. include:: ../tabs/management.rst
-
-.. include:: ../tabs/contracts.rst
-
-.. include:: ../tabs/documents.rst
-
-.. include:: ../tabs/tickets.rst
-
-.. include:: ../tabs/problems.rst
-
-.. include:: ../tabs/external-links.rst
-
-.. include:: ../tabs/notes.rst
-
-.. todo::
-   Fix this reference (include or link???)
-   **[Tab "Reservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-   Management of reservations for an inventory object
 
 .. include:: ../tabs/historical.rst
-
-.. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
 

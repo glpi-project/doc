@@ -24,16 +24,15 @@ Add a new budget
 
 * To add a new budget, click on **+ Add** at the top of the screen
 * Enter the information required
-.. image:: images/budgets.png
-   :alt: Main fields of a budget
-   :align: center
-   :scale: 42%
-
+   .. image:: images/budgets.png
+      :alt: Main fields of a budget
+      :align: center
+      :scale: 42%
 * You can add a budget type (administrative value)
-.. image:: images/budgets-type.png
-   :alt: Main fields of a budget
-   :align: center
-   :scale: 36%
+   .. image:: images/budgets-type.png
+      :alt: Main fields of a budget
+      :align: center
+      :scale: 36%
 
 .. tip:: You can manage your budget type in **Setup** > **Dropdowns** > **Types** > **Budget types**
 

@@ -6,4 +6,4 @@ You can select a color that is already defined, either using the colour selector
 
 .. image:: /tabs/common_fields/images/color.png
    :alt: select your color
-   :scale: 70%
+   :scale: 100%

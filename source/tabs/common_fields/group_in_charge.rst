@@ -8,6 +8,8 @@ A group in charge can modify the information of the computer and his elements (s
    :align: center
    :scale: 51%
 
+For groups created from an AD/LDAP(S) or SCIM, please refer to your internal procedures.
+
 - To create a group, click on **+ Add**
 - If it's necessary, check the box **Child entities** (this group will be visible in the sub-entity of the one you are in)
 - Enter a **Name**
@@ -43,4 +45,22 @@ A group in charge can modify the information of the computer and his elements (s
 
 Once you have created a group, you can either create another or select the one you have just created from the drop-down list.
 
-.. Note:: For more information, see :doc:`../administration/groups`
+Delete a group
+^^^^^^^^^^^^^^
+
+To delete a group, use the massive action with **Actions** button
+
+.. image:: /tabs/common_fields/images/delete-location.png
+   :alt: delete location
+   :align: center
+   :scale: 41 %
+
+Or enter in the group you want and click on **Delete permanently**
+
+.. image:: /tabs/common_fields/images/delete-individual-group.png
+   :alt: delete location
+   :align: center
+   :scale: 41 %
+
+
+.. Note:: For more information, see :doc:`groups </modules/administration/groups>`

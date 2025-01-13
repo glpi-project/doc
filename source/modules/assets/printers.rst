@@ -1,96 +1,291 @@
 Printers
 ========
 
-In a printer form, several information are available:
+Printers can be brought up via SNMP discovery or manually.
+Certain information such as ink level or page counter can be fed in.
 
-* General characteristics of the printer:
+.. note:: Note that this depends on the manufacturer and the information that the printer is able to retrieve.
 
-  * Vendor
-  * Model
-  * Type
-  * Serial number
-  * ...
 
-* Printer management: 
+.. tip:: To inventory your printers, a procedure is available `here <https://faq.teclib.com/03_knowledgebase/inventory/snmp_inventory/>`_
 
-  * Technical person in charge
-  * Status
-  * Location
-  * ...
 
-* Printer users:
 
-  * Users known to GLPI or not
-  * Groups of users
-  * ..
+In a printer form, the following information is available:
 
-* Specifications:
+.. Note:: It is possible to use :doc:`templates with printers <../overview/templates>`.
 
-  * Page counter
-  * Port types
-  * ...
+.. tip:: Note that if you modify a field manually, it will be considered locked.
+          This will prevent it from being modified the next time the automatic inventory is uploaded.
 
-Management Type
+          For more information, see :doc:`lock </modules/configuration/locks>`
+
+
+* Name
+* :doc:`Location </tabs/common_fields/location>`
+* :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
+* :doc:`Group in charge </tabs/common_fields/group_in_charge>`
+* :doc:`Alternate usernmame number </tabs/common_fields/alternate_username>`
+* :doc:`Alternate usernmame </tabs/common_fields/alternate_user>`
+* :doc:`Sysdescr </tabs/common_fields/sysdescr>`
+* :doc:`User </tabs/common_fields/user>`
+* :doc:`Group </tabs/common_fields/group>`
+* :doc:`Comments </tabs/common_fields/comments>`
+* :doc:`Status </tabs/common_fields/status>`
+* :doc:`Printer type </tabs/common_fields/computer_type>`
+* :doc:`Manufacturer </tabs/common_fields/manufacturer>`
+* :doc:`Model </tabs/common_fields/model>`
+* :doc:`Serial number </tabs/common_fields/serial_number>`
+* :doc:`Inventory number </tabs/common_fields/inventory_number>`
+* :doc:`SNMP Credentials </tabs/common_fields/SNMP_credentials>`
+* :doc:`Management type </tabs/common_fields/management_type>`
+* :doc:`Network </tabs/common_fields/network>`
+* :doc:`UUID </tabs/common_fields/uuid>`
+* :doc:`Update source </tabs/common_fields/update_source>`
+* :doc:`Memory </tabs/common_fields/uuid>`
+
+
+Impact Analysis
 ---------------
 
-It is possible to manage printers either unitary or globally.
+:doc:`Impact analysis <../../tabs/impact_analysis>` enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
+This can be saved and exported
 
-Unitary management corresponds to one printer per computer while global management make the printer a virtual global element that will be connected to several computers.
+Operating systems
+-----------------
 
-Global management allows to limit the number of elements to manage when these elements are not a strategic data in the assets management.
+:doc:`Operating systems <../../tabs/operating_systems>`  includes information about your machine's OS :
 
+* Name
+* Version
+* Architecture
+* Service Pack
+* Kernel
+* Edition
+* Product ID
+* Serial number
+* Company
+* Owner
+* Host ID
+* Installation date
 
-It is possible to use :doc:`templates with printers <../overview/templates>`.
+Software
+--------
 
+Lists all the :doc:`software <../../tabs/software>` brought up during the inventory and those added manually
 
-The different tabs
-------------------
+It is possible to install (in the logical sense) software on a PC manually.
 
-.. include:: tabs/components.rst
+To add new :doc:`software <../../modules/assets/softwares>`  to the list of applications, you need to go to the Assets > Software tab,
+which will then be visible from the software tab of the various elements of the installed base.
 
 Cartridges
-~~~~~~~~~~
+-----------
 
-This tab displays the cartridges associated with the selected printer model:
+:doc:`Cartridges <cartridges>` reference the printer's ink cartridges. They can be sent via the SNMP interface or manually.
+If they are reported by the inventory, the ink level will also be indicated.
 
-* cartridges in use, with add date and use date
-* used cartridges, with cartridge model, add date, use date, end of life date, printing counter and number of printed pages since last cartridge change
 
-.. note::
+Page counters
+-------------
 
-   For cartridge adding or removing, report to :doc:`cartridges management <cartridges>`.
+If the printer allows it (this depends on the information that the manufacturer authorises),
+the number of prints can be reduced. If the printer allows it (this depends on the information the manufacturer allows),
+the number of prints can be reduced. A filter is available for viewing the last 7 or 30 days, the last year, etc.
+or for viewing daily, weekly, etc. printouts.
+You can also compare the number of prints against another printer.
 
-.. include:: tabs/connexions.rst
+Components
+----------
 
-.. include:: tabs/network-ports.rst
+This tab lists the PC's :doc:`components <../../tabs/components>` :
 
-.. include:: ../tabs/management.rst
+* BIOS
+* Processor
+* Memory
+* Hard Drive
+* Network card
+* Drive
+* Battery
+* Graphics card
+* Soundcard
+* Controller
 
-.. include:: ../tabs/contracts.rst
+Each item has its :doc:`own information <../../tabs/components>` (name, model, brand, memory capacity, number of cores/threads, etc.).
 
-.. include:: ../tabs/documents.rst
+Lines
+-----
 
-.. include:: ../tabs/tickets.rst
+You can add telephone lines created in `Lines <../management/lines.html>`_
 
-.. include:: ../tabs/problems.rst
 
-.. include:: ../tabs/external-links.rst
+Volumes
+-------
 
-.. include:: ../tabs/notes.rst
+Summarises all the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) as well as the partitions present on the workstation
+(virtual disks such as Google Cloud may appear if they are installed as a network drive).
 
-.. todo::
-   Fix this reference (include or link???)
-   **[Onglet "Réservations"](Les_différents_onglets/Onglet_Réservations.rst)**
-   Gestion des réservations pour un objet d'inventaire
+* Name
+* Automatic inventory (Yes /No)
+* partition
+* Mount point
+* File system
+* Global size
+* Free size
+* Free percentage
+* Encryption (if the disk is encrypted, a padlock will be displayed)
+
+Connections
+-----------
+
+The :doc:`connections <../../tabs/connections>`  are all the other hardware connected to the machine :
+
+* `Device <devices.html>`_
+* `Monitor <monitors.html>`_
+* `Phone  <phones.html>`_
+* `Printers <printers.html>`_
+
+These items can be updated by the automatic inventory, but you can also connect them manually.
+
+
+Network Ports
+-------------
+
+This tab allows to manage the :doc:`network ports <../../tabs/network_ports>` attached to an equipment.
+The information that can be viewed is:
+
+* Name
+* Port number
+* MTU
+* Speed
+* Internal status
+* Last change
+* Number of I/O bytes
+* Number of I/O errors
+* Duplex
+* VLAN
+* Connected to
+* Connection
+* Deleted
+
+
+Sockets
+-------
+
+:doc:`Sockets <../../tabs/sockets>` are the list of physical sockets present on the hardware. These sockets can be Ethernet, USB, HDMI, etc.
+This information cannot be returned by the automatic inventory, so you have to add it manually.
+
+It enables hardware to be linked by cables. Socket is also linked to the :doc:`cables <../modules/assets/cables>` object
+
+Management
+----------
+
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+
+Contracts
+---------
+
+GLPI supports :doc:`contracts <../management/contract>` management, in order to manage contract types such as loan, maintenance, support...
+
+Contracts management allows to:
+
+* make an inventory of all contracts related to the organization assets
+* integrate contracts in GLPI financial management
+* anticipate and follow contract renewal.
+
+
+Documents
+---------
+
+The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+You can attach a document already uploaded to GLPI or add a new one directly from this tab.
+
+
+Knowledge Base
+--------------
+
+Lists all the articles in the :doc:`knowledge base <../tabs/knowledgebase>` relating to the material.
+
+Tickets
+-------
+
+View all :doc:`tickets <../tabs/tickets>` linked to the computer
+
+Problems
+--------
+
+This tab refers to all hardware-related :doc:`problems <../assistance/problems>`.
+Problems can also be linked to tickets, projects, etc. This allows you to have a complete scenario when necessary.
+
+Changes
+-------
+
+:doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+You can create a new change from this page, which will be linked to the material you have selected.
+
+Projects
+--------
+
+This tab lists all the projects linked to the software. Here you can only add a project that already exists.
+To create a new one, go to :doc:`Projects <../tools/projects>`
+
+Links
+-----
+
+:doc:`Links <../configuration/external_links>` offer several possibilities.
+Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
+
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
+
+
+Certificates
+------------
+
+Link a :doc:`certificate </modules/management/certificates>` to your registration. You can manage certificates in **Management** > **Certificates**
+
+
+Locks
+-----
+
+:doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
+You can lock/unlock the fields you wish in a GLPI object.
+
+
+Notes
+-----
+
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+Reservations
+------------
+
+The :doc:`reservation </modules/tools/reservations>` tab lets you reserve equipment, view the reservation schedule, or cancel the possibility of reserving this equipment.
+By default, equipment cannot be reserved; you must first authorize this action manually.
+
+
+Domains
+-------
+
+You can attach :doc:`Domains </modules/management/domains>` to your computer. Domains are also linked to other objects such as records, problems, etc.
+
+
+Appliances
+----------
+
+:doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
+They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
 
 .. include:: ../tabs/historical.rst
-
-.. include:: ../tabs/debug.rst
 
 .. include:: ../tabs/all.rst
 
 
-The different actions
----------------------
-
-Printers do not have specific actions; report to :doc:`common actions <../overview/actions>`.

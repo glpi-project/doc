@@ -30,7 +30,6 @@ Add a socket
 
    .. image:: images/sockets-add.png
       :alt: Add socket
-
       :align: center
       :scale: 50%
 
@@ -39,7 +38,6 @@ Add a socket
 
    .. image:: images/sockets-add-several.png
       :alt: Add several sockets
-
       :align: center
       :scale: 50%
 
@@ -58,7 +56,6 @@ When the socket is validated, you can setup the advanced options.
    :alt: Advanced socket setup
    :align: center
    :scale: 49%
-
 
 
 .. tip:: In the case of a bulk addition, you will need to select each socket and add the information to it
