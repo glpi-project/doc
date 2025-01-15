@@ -3,59 +3,70 @@ Cartridges
 
 This functionality of `Asset` module allows to create cartridges models and corresponding cartridges.
 
+.. image:: images/cartridge_view.png
+   :alt: general view cartridge
+   :align: center
+   :scale: 50%
+
 In a cartridge form, the following information is available:
 
-* General characteristics of the cartridge:
+* Name
+* :doc:`Location </tabs/common_fields/location>`
+* :doc:`Cartridge type </tabs/common_fields/cartridge_type>`
+* :doc:`Reference </tabs/common_fields/reference>`
+* :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
+* :doc:`Manufacturer </tabs/common_fields/manufacturer>`
+* :doc:`Group in charge </tabs/common_fields/group_in_charge>`
+* :doc:`Comments </tabs/common_fields/comments>`
+* :doc:`Alert threshold </tabs/common_fields/alert_threshold>`
+* :doc:`Stock target </tabs/common_fields/stock_target>`
+* :doc:`Pictures </tabs/common_fields/pictures>`
 
-  * Vendor
-  * Type
-  * Reference
-  * ...
 
-* Printer management:
+Cartridges
+----------
 
-  * Technical person in charge
-  * Storage site
-  * ...
+:doc:`Cartridges <../../tabs/Cartridges>` allows adding as many cartridges as needed by the model.
+It is also possible to add several cartridges at once.
 
-The alert threshold is the minimal value at which an alert is triggered.
-A restock threshold which represents the amount you wish to have in stock after ordering.
 
-For example, you want to have 10 of a certain cartridge in stock but it isn't worth ordering them until you have 2 or less in stock (due to bulk discounts, process overhead, etc).
-You can set your alarm threshold to 2 and your restock value to 10.
-When you receive the alarm notification, it will let you know what the restock value is and plainly say how many need to be ordered to meet that value (configurable in notification templates).
+Printer models
+---------------
 
-.. note:: For alerts to be effective, notifications must be activated; see :ref:`notification management <configure_notifications>`.
+:doc:`Printer model <../../tabs/printer_models>` allows cartridges to be shared between several compatible printer models
 
-For a cartridge to be installable on a printer, it must be declared as compatible with this printer.
 
-Management of shared stock is possible by defining the element as recursive on an entity. The elements will then be available for all sub-entities.
 
-The different tabs
-------------------
+Management
+----------
 
-- **Tab "Cartridges"**
-  This tab allows adding as many cartridges as needed by the model. It is also possible to add several cartridges at once.
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information,
+this information is visible in the 'Management' tab on the computer's form.
 
-A first table lists the new or unused cartridges, the second table lists used cartridges.
 
-.. image:: images/cartridge.png
-   :alt: A cartridge form
-   :align: center
+Documents
+---------
 
-- **Tab "Printer models"**
-  This tab allows to declare the printer models that are compatible with the cartridge.
+The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
-.. include:: ../tabs/management.rst
 
-.. include:: ../tabs/documents.rst
+Links
+-----
 
-.. include:: ../tabs/external-links.rst
+:doc:`Links <../configuration/external_links>` offer several possibilities.
+Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
 
-.. include:: ../tabs/notes.rst
 
-.. include:: ../tabs/historical.rst
+Notes
+-----
 
-.. include:: ../tabs/debug.rst
+:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+
+
+Historical
+----------
+
+:doc:`Historical <../tabs/historical>` lists all the actions carried out on the object in question
 
 .. include:: ../tabs/all.rst

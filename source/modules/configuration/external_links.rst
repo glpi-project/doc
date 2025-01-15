@@ -115,3 +115,4 @@ Remote control through a VNC extension
 Some VNC implementations provide an extension that allows to take control of a computer through a browser.
 In general, the port used is 5900.
 The corresponding link will be of type `https://{{IP}}:5900` or `https://{{NAME}}.{{DOMAIN}}:5900`.
+

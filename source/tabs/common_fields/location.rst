@@ -64,5 +64,6 @@ To delete a location, use the massive action with **Actions** button
    :scale: 41 %
 
 
+
 To add a location **dynamically**, see :doc:`rules </modules/administration/rules/rulesmanagement>`
 
