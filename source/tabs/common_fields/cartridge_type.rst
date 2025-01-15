@@ -19,10 +19,12 @@ Add a type of cartridge
 Delete a type of cartridge
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* To delete a cartridge type, list the cartridge type by clicking on use massive action
+* To delete a cartridge type, list the cartridge type by clicking on **i** (show cartridges type) or go to **Setup > Dropdowns > Cartridge types**
+
 .. image:: /tabs/common_fields/images/cartridge_type_list.png
    :alt: list a cartridge type
    :scale:  100%
+
 * Click on the cartridge you want to delete
 * Then click on **delete permanently**
 
