@@ -26,7 +26,7 @@ In a cartridge form, the following information is available:
 Cartridges
 ----------
 
-:doc:`Cartridges <../../tabs/Cartridges>` allows adding as many cartridges as needed by the model.
+:doc:`Cartridges <../../tabs/cartridges>` allows adding as many cartridges as needed by the model.
 It is also possible to add several cartridges at once.
 
 
