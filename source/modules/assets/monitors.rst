@@ -32,7 +32,7 @@ In a display form, the following information is available:
 * :doc:`UUID </tabs/common_fields/uuid>`
 * :doc:`Update source </tabs/common_fields/update_source>`
 * :doc:`Status </tabs/common_fields/status>`
-* :doc:`Monitor type </tabs/common_fields/monitor_type>`
+* :doc:`Monitor type </tabs/common_fields/computer_type>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Model </tabs/common_fields/model>`
 * :doc:`Serial number </tabs/common_fields/serial_number>`
