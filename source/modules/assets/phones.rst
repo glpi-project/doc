@@ -146,7 +146,7 @@ It enables hardware to be linked by cables. Socket is also linked to the :doc:`c
 Remote management
 -----------------
 
-:doc:`Remote management <../../tabs/remote-management>` is used to reference the remote access software installed on the workstation, such as Teamviewer, Anydesk, etc.
+:doc:`Remote management <../../tabs/remote-management>` is used to reference the remote access software installed on the phone, such as Teamviewer, Anydesk, etc.
 It is possible to add software manually if required, but the information can be fed back via the automatic inventory.
 
 Management
