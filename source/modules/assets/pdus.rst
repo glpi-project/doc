@@ -2,4 +2,4 @@ PDUs
 ====
 
 
-TO DO
+.. todo:: This page must be redacted
