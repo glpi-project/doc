@@ -2,7 +2,7 @@ Phones
 ======
 
 
-Phones can be registered manually or uploaded using the Android agent (not currently compatible with Apple terminals).
+Phones can be registered manually or uploaded using the Android agent (no agent is currently compatible with iPadOS/iOS devices).
 
 
 .. tip:: Note that if you modify a field manually, it will be considered locked.
@@ -152,7 +152,7 @@ It is possible to add software manually if required, but the information can be 
 Management
 ----------
 
-:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the phone's form.
 
 Contracts
 ---------
@@ -186,7 +186,7 @@ Lists all the articles in the :doc:`knowledge base <../tabs/knowledgebase>` rela
 Tickets
 -------
 
-View all :doc:`tickets <../tabs/tickets>` linked to the computer
+View all :doc:`tickets <../tabs/tickets>` linked to the phone
 
 Problems
 --------
@@ -198,7 +198,7 @@ Changes
 -------
 
 :doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
-You can create a new change from this page, which will be linked to the material you have selected.
+You can create a new change from this page, which will be linked to the phone you have selected.
 
 Links
 -----
@@ -220,7 +220,7 @@ By default, equipment cannot be reserved; you must first authorize this action m
 Domains
 -------
 
-You can attach :doc:`Domains </modules/management/domains>` to your computer. Domains are also linked to other objects such as records, problems, etc.
+You can attach :doc:`Domains </modules/management/domains>` to your phone. Domains are also linked to other objects such as records, problems, etc.
 
 
 Appliances
