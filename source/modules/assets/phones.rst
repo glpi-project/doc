@@ -175,8 +175,7 @@ You can attach a document already uploaded to GLPI or add a new one directly fro
 Antiviruses
 -----------
 
-:doc:`Antiviruses <tabs/antivirus>` lists all the antivirus programs detected on the computer.
-For Windows, it must be detected in the Windows Security Center in order to be listed in this tab.
+:doc:`Antiviruses <tabs/antivirus>` lists all the antivirus programs detected on the phone.
 
 
 Knowledge Base
