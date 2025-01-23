@@ -12,7 +12,7 @@ In a cartridge form, the following information is available:
 
 * Name
 * :doc:`Location </tabs/common_fields/location>`
-* :doc:`Cartridge type </tabs/common_fields/cartridge_type>`
+* :doc:`Cartridge type </tabs/common_fields/asset_type>`
 * :doc:`Reference </tabs/common_fields/reference>`
 * :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`

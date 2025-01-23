@@ -1,8 +1,8 @@
-Computer type
-~~~~~~~~~~~~~
+Asset type
+~~~~~~~~~~
 
 .. note:: This field is used in the same way for many GLPI objects (printer, computer, peripheral, etc.).
-
+   We'll use computers as an example, but the process is identical for other GLPI objects.
 
 .. Tip:: You can use **templates** or **rules** with computer type
 
@@ -16,7 +16,7 @@ There is no predefined type; the different types must be created.
    :scale: 50%
 
 
-Add a computer type
+Add an asset type
 ^^^^^^^^^^^^^^^^^^^
 
 - To create a **computer type**, click **+**
@@ -31,7 +31,7 @@ Add a computer type
    :scale: 64%
 
 
-Delete a computer type
+Delete a asset type
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 To delete a comptuer type, use the massive action with **Actions** button

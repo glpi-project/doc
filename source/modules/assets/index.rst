@@ -32,6 +32,8 @@ Available types
    cartridges
    consumables
    phones
+   racks
+   pdus
    cables
    databases
    global
