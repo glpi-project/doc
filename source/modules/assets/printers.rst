@@ -32,7 +32,7 @@ In a printer form, the following information is available:
 * :doc:`Group </tabs/common_fields/group>`
 * :doc:`Comments </tabs/common_fields/comments>`
 * :doc:`Status </tabs/common_fields/status>`
-* :doc:`Printer type </tabs/common_fields/computer_type>`
+* :doc:`Printer type </tabs/common_fields/asset_type>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Model </tabs/common_fields/model>`
 * :doc:`Serial number </tabs/common_fields/serial_number>`

@@ -35,7 +35,7 @@ When you add a rack (by **+ Add** at the top of the screen), you can add certain
 * Max. Power (in watts)
 * Max. weight
 * :doc:`Status </tabs/common_fields/status>`
-* :doc:`Rack type </tabs/common_fields/computer_type>`
+* :doc:`Rack type </tabs/common_fields/asset_type>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Model </tabs/common_fields/model>`
 * :doc:`Inventory number </tabs/common_fields/inventory_number>`
@@ -51,7 +51,7 @@ When you add a rack (by **+ Add** at the top of the screen), you can add certain
 Items
 -----
 
-The :doc:`Item <tabs/items>` tab shows the position of each element in the rack.
+The :doc:`Item <tabs/rack_items>` tab shows the position of each element in the rack.
 You can modify, add or remove an item from your park to your rack.
 
 Impact Analysis

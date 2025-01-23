@@ -31,7 +31,7 @@ Computer tab, includes basic information about the machine :
 * :doc:`Group </tabs/common_fields/group>`
 * :doc:`Comments </tabs/common_fields/comments>`
 * :doc:`Status </tabs/common_fields/status>`
-* :doc:`Computer type </tabs/common_fields/computer_type>`
+* :doc:`Computer type </tabs/common_fields/asset_type>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Model </tabs/common_fields/model>`
 * :doc:`Serial number </tabs/common_fields/serial_number>`

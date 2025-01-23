@@ -36,7 +36,7 @@ Network device tab, includes basic information about the material :
 * :doc:`Group </tabs/common_fields/group>`
 * :doc:`Comments </tabs/common_fields/comments>`
 * :doc:`Status </tabs/common_fields/status>`
-* :doc:`Computer type </tabs/common_fields/computer_type>`
+* :doc:`Network equipment type </tabs/common_fields/asset_type>`
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Model </tabs/common_fields/model>`
 * :doc:`Serial number </tabs/common_fields/serial_number>`
@@ -236,13 +236,6 @@ Links
 
 :doc:`Links <../configuration/external_links>` offer several possibilities.
 Send the GLPI object file to another URL of your choice, or generate an RDP file, for example.
-
-Locks
------
-
-:doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
-You can lock/unlock the fields you wish in a GLPI object.
-
 
 Notes
 -----
