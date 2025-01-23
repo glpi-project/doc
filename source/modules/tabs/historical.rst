@@ -1,5 +1,5 @@
 History
--------
+~~~~~~~
 
 The *History* tab is used to show any changes made to an item. The following information about the changes is available:
 

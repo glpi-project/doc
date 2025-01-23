@@ -20,7 +20,7 @@ Add consumable in new status
 .. note:: The status of the consumable by default is **new**
 
 Change a consumable in used status
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * To change the status of a consumable, select it by the check box
 * Click on **Actions** button
