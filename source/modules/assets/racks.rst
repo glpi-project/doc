@@ -2,7 +2,7 @@ Racks
 =====
 
 A rack is a piece of equipment such as a patch bay or computer cabinet used to organize,
-house and physically connect different network equipment and servers in a datacenter or technical room.
+host and physically connect different network equipments and servers in a datacenter or technical room.
 
 A rack is a dedicated object in GLPI that virtually represents the physical structure of a rack or cabinet.
 It is designed to :
