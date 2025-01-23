@@ -92,7 +92,7 @@ You can add telephone lines created in `Lines <../management/lines.html>`_
 Volumes
 -------
 
-Summarises all the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) as well as the partitions present on the workstation
+Summarises all of the :doc:`volumes <../../tabs/volume>` present (hard disk, DVD) as well as the partitions present on the workstation
 (virtual disks such as Google Cloud may appear if they are installed as a network drive).
 
 * Name
