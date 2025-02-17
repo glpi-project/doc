@@ -46,6 +46,15 @@ Options:
      - No
      - No
 
+In GLPI WebUI
+*************
+
+.. image:: images/assets_purge_software.png
+   :alt: Global view enclosure
+   :align: center
+   :scale: 44%
+
+
 
 glpi:build:compile_scss
 -----------------------
