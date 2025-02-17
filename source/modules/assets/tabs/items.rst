@@ -1,8 +1,6 @@
 Items
 -----
 
-.. warning:: waiting for incident to be resolved before finalising the document https://github.com/glpi-project/glpi/issues/18994
-
 This tab displays the list of items linked to the chassis.
 This allows for better organisation and simplified management thanks to a centralised view.
 
@@ -28,7 +26,13 @@ Add a item
    :scale: 42%
 
 
-Modify/dissociate the affectation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Delete an item
+~~~~~~~~~~~~~~
 
-If you want to dissociate,
+To delete an item from enclosure, use the massive action :
+
+
+.. image:: ../images/enclosure_remove_item.png
+   :alt: Enclosure - delete item
+   :align: center
+   :scale: 42%
