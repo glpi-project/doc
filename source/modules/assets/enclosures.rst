@@ -96,7 +96,8 @@ Contracts management allows to:
 Documents
 ---------
 
-The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+The :doc:`document <../management/documents>` tab lets you link different types of file to current item (PDF, txt, png, etc.)
+
 You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
 
