@@ -15,7 +15,8 @@ Add a item
 * To add an item (this item must already exist in your glpi), click on **Add new item to this enclosure**
 * Select the **item type** (computer, monitor, network device, peripheral, PDU, passive device)
 * Select the required **item**
-* Select the **enclosure** in which the equipment is to be positioned
+* Select the **enclosure** in which the item is to be positioned
+
 * Choose a **position**
 * Click on **+ Add**
 
