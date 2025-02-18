@@ -1,7 +1,7 @@
 PDUs
 ====
 
-PDU (Power distribution unit)  lists all the item used to manage and monitor electrical distribution in a rack or datacenter.
+:abbr:`PDU (Power distribution unit)` lists all the item used to manage and monitor electrical distribution in a rack or datacenter.
 
 .. image:: images/pdu.png
    :alt: global view PDUs
