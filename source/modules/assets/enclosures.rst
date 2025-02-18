@@ -102,7 +102,8 @@ You can attach a document already uploaded to GLPI or add a new one directly fro
 Tickets
 -------
 
-View all :doc:`tickets <../tabs/tickets>` linked to the computer
+View all :doc:`tickets <../tabs/tickets>` linked to the enclosure
+
 
 Problems
 --------
