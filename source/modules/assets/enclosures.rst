@@ -21,7 +21,8 @@ When you add an enclosure (by **+ Add** at the top of the screen), you can add c
 * :doc:`Manufacturer </tabs/common_fields/manufacturer>`
 * :doc:`Serial number </tabs/common_fields/serial_number>`
 * :doc:`User </tabs/common_fields/user>`
-* Power Supplies (number of power supply)
+* Power Supplies (number of power supplies)
+
 * :doc:`Status </tabs/common_fields/status>`
 * :doc:`Technician in charge </tabs/common_fields/technician_in_charge>`
 * :doc:`Model </tabs/common_fields/model>`
