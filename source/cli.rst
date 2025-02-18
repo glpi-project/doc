@@ -46,6 +46,40 @@ Options:
      - No
      - No
 
+glpi:assets:purgesoftware
+--------------------
+
+Aliases: `assets:purgesoftware`
+
+Description
+***********
+
+Purge software with no version that are deleted.
+
+Arguments/Options
+*****************
+
+There are no arguments for this command
+
+Options:
+
+.. list-table::
+
+  * - **Name**
+    - **Shortcut**
+    - **Description**
+    - **Required**
+    - **Default**
+    - **Array**
+    - **Negatable**
+  * - -max
+    - -m
+    - Max items to handle in one execution
+    - Yes
+    - 500
+    - No
+    - No
+
 In GLPI WebUI
 *************
 
