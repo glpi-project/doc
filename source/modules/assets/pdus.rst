@@ -7,7 +7,8 @@ PDU (Power distribution unit)  lists all the item used to manage and monitor ele
    :alt: global view PDUs
    :scale: 38 %
 
-In a PDUs form, the following information is available:
+In a PDU form, the following information is available:
+
 
 .. Note:: It is possible to use :doc:`templates with PDUs <../overview/templates>`.
 
