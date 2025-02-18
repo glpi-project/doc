@@ -67,7 +67,7 @@ The information that can be viewed is:
 Management
 ----------
 
-:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the item's form.
 
 
 Contracts
@@ -85,14 +85,14 @@ Contracts management allows to:
 Documents
 ---------
 
-The :doc:`document <../management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+The :doc:`document <../management/documents>` tab lets you link different types of files to the item (PDF, txt, png, etc.)
 You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
 
 Tickets
 -------
 
-View all :doc:`tickets <../tabs/tickets>` linked to the computer
+View all :doc:`tickets <../tabs/tickets>` linked to the item.
 
 Problems
 --------
@@ -104,7 +104,7 @@ Changes
 -------
 
 :doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
-You can create a new change from this page, which will be linked to the material you have selected.
+You can create a new change from this page, which will be linked to the item you have selected.
 
 
 .. include:: ../tabs/historical.rst
