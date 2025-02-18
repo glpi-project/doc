@@ -40,7 +40,7 @@ This can be saved and exported
 Items
 -----
 
-:doc:`Items <tabs/items>` lists all the elements present in the chassis. This operation must be carried out manually.
+:doc:`Items <tabs/enclosures_items>` lists all the elements present in the chassis. This operation must be carried out manually.
 
 Components
 ----------
