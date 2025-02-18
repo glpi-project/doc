@@ -76,7 +76,8 @@ The information that can be viewed is:
 Management
 ----------
 
-:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+:doc:`Management <../../modules/tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the enclosure's form.
+
 
 
 Contracts
