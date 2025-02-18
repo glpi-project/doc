@@ -1,7 +1,8 @@
 Enclosures
 ==========
 
-In GLPI,enclosure is a type of equipment used to manage modular infrastructures, such as blade servers, storage bays or certain network equipment.
+In GLPI, an enclosure is a type of equipment used to manage modular infrastructures, such as blade servers, storage bays or certain network equipment.
+
 It enables several physical elements to be grouped together in the same box, while retaining individual management of the components.
 
 .. note:: It is possible to use :doc:`templates with enclosure <../overview/templates>`.
