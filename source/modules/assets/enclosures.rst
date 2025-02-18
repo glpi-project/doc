@@ -117,7 +117,8 @@ Changes
 -------
 
 :doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
-You can create a new change from this page, which will be linked to the material you have selected.
+You can create a new change from this page, which will be linked to current item.
+
 
 .. include:: ../tabs/historical.rst
 
