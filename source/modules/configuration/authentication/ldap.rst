@@ -9,7 +9,7 @@ There is no limit as to the number of directories informed. However, the higher 
 It is possible to import and synchronize users in 2 ways:
 
 * At the first login, the user is created in GLPI. At each login, his personal information is synchronized with the directory.
-  In the case where the mail collectors are used and there is an email not associated with an existing user, the unknown email address will be searched in the directory to create the associated user.
+  In the case where the receivers are used and there is an email not associated with an existing user, the unknown email address will be searched in the directory to create the associated user.
 * In mass either via the web interface or the CLI `glpi:ldap:synchronize_users` command.
 
 .. warning::

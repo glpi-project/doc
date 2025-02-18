@@ -1,22 +1,22 @@
-E-Mail collectors
+Receivers
 =================
 
-E-Mail Collectors configuration can be reached from `Configuration -> Collectors` menu.
+Receivers configuration can be reached from `Configuration -> Receivers ` menu.
 
-A mail collector allow to import emails from a mailbox ans turn them into GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring them to the destination entity.
+A receiver allow to import emails from a mailbox ans turn them into GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring them to the destination entity.
 
-A mail collector is associated with an email address. It is possible to add as many collectors as you want. Of course, the more collectors you configure, the more import will take time.
+A receiver is associated with an email address. It is possible to add as many receivers as you want. Of course, the more receivers you configure, the more import will take time.
 
 To declare a new collector, you will have to provide a server name, as well as connection options (IMAP or POP, SSL, TLS, certificate validation). It is possible to limit the maximum size for attachments (no import, or from 1 to 100 Mio). This configuration value is inherited from the main configuration (`Setup -> General -> Assistance`)
 A configuration option permit to switch tickets creation date between import date or email date.
 
 Optionally, you can set an archive directory in the mailbox where imported and refused emails will be stored.
 
-Collectors that have errors will be indicated above the list. In that case, number of successive errors will be displayed in collector configuration form.
+Receivers that have errors will be indicated above the list. In that case, number of successive errors will be displayed in collector configuration form.
 
 Once the form validated, you can test connection and messages retrieving by using the dedicated button.
 
-An automatic action will do the import on configured collectors; time between two executions can be configured in automated task form.
+An automatic action will do the import on configured receivers ; time between two executions can be configured in automated task form.
 
 Another automatic action will send notifications when any collector repetitively fails to import emails. See `notifications configuration <modules/configuration/notifications>`.
 
@@ -27,13 +27,13 @@ Another automatic action will send notifications when any collector repetitively
 Blacklists
 ----------
 
-Collectors can use a blacklist mechanism in order to remove recurrent but useless contents, like email signatures.
+Receivers can use a blacklist mechanism in order to remove recurrent but useless contents, like email signatures.
 
 Blacklist can also prevent emails to be imported from specific email addresses; this can be useful to prevent spam, or to handle emails aliases.
 
 .. _collectors_rules:
 
-Rules for assigning a ticket opened via a mail collector
+Rules for assigning a ticket opened via a receiver
 --------------------------------------------------------
 
 GLPI implements a mechanism for routing tickets opened by email, in order to create them in the right entity. This is based on the rules engine.
@@ -42,7 +42,7 @@ GLPI implements a mechanism for routing tickets opened by email, in order to cre
 
 Available criteria are:
 
-* name of mail collector
+* name of receiver
 * requester
 * email domain, whether it is known or not
 * email headers: ``auto_submitted``, ``from``, ``in_reply_to``, ``received``, ``subject``, ``to``, ``X-Auto-Response-Suppress``, ``X-priority``, ``X-UCE-Status``

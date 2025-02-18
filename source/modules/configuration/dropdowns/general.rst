@@ -74,7 +74,7 @@ Blacklists
 This list is a flat list of values valid for all entities.
 
 It includes the value you want to blacklist as well as what type to blacklist (IP, MAC, serial number, UUID or email).
-Blacklists are used for automatic imports via an inventory agent or by the email collector.
+Blacklists are used for automatic imports via an inventory agent or by the receiver.
 
 This dropdown type cannot be translated.
 
@@ -87,7 +87,7 @@ Blacklisted email content
 
 This list is a flat list of values valid for all entities.
 
-It allows the email collector to not import an email containing the defined text.
+It allows the receiver to not import an email containing the defined text.
 This can allow, among other things, to fight against spam in the case of the authorization of ticket creation for anonymous emails.
 
 This dropdown type cannot be translated.

@@ -4,7 +4,7 @@ Configuration
 Configuration module gives access to all GLPI configuration options such as:
 - Global configuration
 - Notifications
-- Mail Collectors
+- Receivers
 - Automatic actions
 - Authentication
 - Plugins
