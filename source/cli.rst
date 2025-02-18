@@ -47,7 +47,7 @@ Options:
      - No
 
 glpi:assets:purgesoftware
---------------------
+-------------------------
 
 Aliases: `assets:purgesoftware`
 
@@ -84,7 +84,7 @@ In GLPI WebUI
 *************
 
 .. image:: images/assets_purge_software.png
-   :alt: Global view enclosure
+   :alt: Purge software action
    :align: center
    :scale: 44%
 
