@@ -1,9 +1,8 @@
-Passives devices
-================
+Passive devices
+===============
 
-Passives devices list equipment that does not actively process data but plays an essential role in the IT infrastructure,
-
-often for connectivity or signal transmission (like a patch panel, a non-manageable swith, etc.)
+Passive devices list equipment that do not actively process data but still play an essential role in the IT infrastructure.
+They are often used for connectivity or signal transmission (like a patch panel, a non-manageable switch, etc.)
 
 .. note:: Passives devices cannot be added to the automatic inventory.
 
