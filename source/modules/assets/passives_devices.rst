@@ -32,7 +32,8 @@ In a passive device form, the following information is available:
 
 
 .. image:: images/passives_devices_details.png
-   :alt: Passives devices details view
+   :alt: Passive devices details view
+
    :align: center
    :scale: 42 %
 
