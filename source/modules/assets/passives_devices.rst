@@ -4,9 +4,10 @@ Passive devices
 Passive devices list equipment that do not actively process data but still play an essential role in the IT infrastructure.
 They are often used for connectivity or signal transmission (like a patch panel, a non-manageable switch, etc.)
 
-.. note:: Passives devices cannot be added to the automatic inventory.
+.. note:: Passive devices cannot be added to the automatic inventory.
 
-.. note:: It is possible to use :doc:`templates with passives devices <../overview/templates>`.
+.. note:: It is possible to use :doc:`templates with passive devices <../overview/templates>`.
+
 
 
 .. image:: images/passives_devices.png
