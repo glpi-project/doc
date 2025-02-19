@@ -36,6 +36,7 @@ Available types
    pdus
    cables
    databases
+   sim
    global
 
 .. todo::
