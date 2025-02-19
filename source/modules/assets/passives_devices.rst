@@ -1,7 +1,8 @@
 Passives devices
 ================
 
-Passives peripherals list equipment that does not actively process data but plays an essential role in the IT infrastructure,
+Passives devices list equipment that does not actively process data but plays an essential role in the IT infrastructure,
+
 often for connectivity or signal transmission (like a patch panel, a non-manageable swith, etc.)
 
 .. note:: Passives devices cannot be added to the automatic inventory.
