@@ -34,6 +34,7 @@ Available types
    phones
    racks
    pdus
+   passives_devices
    cables
    databases
    sim
