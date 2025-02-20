@@ -85,7 +85,8 @@ Notes
 Domains
 -------
 
-You can attach :doc:`Domains </modules/management/domains>` to the database. Domains are also linked to other objects such as records, problems, etc.
+You can attach :doc:`Domains </modules/management/domains>` to the current item. Domains are also linked to other items such as records, problems, etc.
+
 
 
 Appliances
