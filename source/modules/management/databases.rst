@@ -54,7 +54,8 @@ Lists all the articles in the :doc:`knowledge base </tabs/knowledgebase>` relati
 Tickets
 -------
 
-View all :doc:`tickets </modules/tabs/tickets>` linked to the database
+View all :doc:`tickets </modules/tabs/tickets>` linked to the current item.
+
 
 
 Problems
