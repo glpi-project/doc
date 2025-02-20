@@ -19,7 +19,8 @@ A database instance groups together all the databases retrieved from the same se
 In a database instance form, the following information is available:
 
 .. image:: ../images/bdd_instances_details_view.png
-   :alt: Bdd instances - details view
+   :alt: database instance - details view
+
    :align: center
    :scale: 42%
 
