@@ -138,6 +138,6 @@ Appliances
 :doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
 They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
 
-.. include:: ../tabs/historical.rst
+.. include:: ../../tabs/historical.rst
 
-.. include:: ../tabs/all.rst
+.. include:: ../../tabs/all.rst
