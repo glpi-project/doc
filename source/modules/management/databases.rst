@@ -48,7 +48,8 @@ You can attach a document already uploaded to GLPI or add a new one directly fro
 Knowledge Base
 --------------
 
-Lists all the articles in the :doc:`knowledge base </tabs/knowledgebase>` relating to the database.
+Lists all the articles in the :doc:`knowledge base </tabs/knowledgebase>` relating to the current item.
+
 
 
 Tickets
