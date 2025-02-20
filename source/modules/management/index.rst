@@ -19,4 +19,4 @@ The GLPI Management module is used to manage the following items:
    domains
    domains_records
    appliance
-   Databases
+   databases

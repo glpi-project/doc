@@ -35,7 +35,6 @@ Available types
    racks
    pdus
    cables
-   databases
    sim
    global
 
