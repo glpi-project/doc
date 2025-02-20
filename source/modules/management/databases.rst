@@ -68,7 +68,8 @@ Problems can also be linked to tickets, projects, etc. This allows you to have a
 Changes
 -------
 
-:doc:`Changes </modules/assistance/changes>` lists all changes related to a database. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+:doc:`Changes </modules/assistance/changes>` lists all changes related to the current item. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+
 You can create a new change from this page, which will be linked to the current item you have selected.
 
 
