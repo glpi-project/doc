@@ -73,7 +73,8 @@ You can create a new change from this page, which will be linked to the material
 Notes
 -----
 
-:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+:doc:`Note </modules/tabs/notes>` lets you add rich-text and attach a document.
+
 
 
 Domains
