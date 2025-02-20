@@ -27,8 +27,9 @@ Database
 * **Active** : Yes/No
 * **Database instance** : determines the database instance
 * Size (Mio)
-* Has backup : Ye/No
-* Last backup date :*date*
+* Has backup: Yes/No
+* Last backup date: *date*
+
 
 
 Management
