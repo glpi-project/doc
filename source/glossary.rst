@@ -101,7 +101,7 @@ Glossary
       Permission applicable to a given scope (entity).
 
    Tacit renewal
-      The contract is renewed automaticaly if none of the parties declares its will to break it.
+      The contract is renewed automatically if none of the parties declares its will to break it.
 
    External link
       Link displayed on an asset form in GLPI and built dynamically using the asset data.
@@ -323,7 +323,7 @@ Glossary
       :abbr:`VLAN (Virtual Local Area Network)` : Virtual Local Network.
 
    Tagged VLAN
-      A tagged :abbr:`VLAN (Virtual Local Area Network)` is a :term:`VLAN` which tag is transmited in network frame (see `802.1Q <http://fr.wikipedia.org/wiki/IEEE_802.1Q>`_).
+      A tagged :abbr:`VLAN (Virtual Local Area Network)` is a :term:`VLAN` which tag is transmitted in network frame (see `802.1Q <http://fr.wikipedia.org/wiki/IEEE_802.1Q>`_).
 
    Virtual network port
       A virtual network port is a port which does not correspond to a physical network hardware.
@@ -335,7 +335,7 @@ Glossary
       User in charge of tickets processing.
 
    Template
-      Reusable model of object containing predefined fieds and allowing easier user entry.
+      Reusable model of object containing predefined fields and allowing easier user entry.
 
    Tier type
       Category of providers.

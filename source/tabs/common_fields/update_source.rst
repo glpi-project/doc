@@ -11,7 +11,7 @@ If it was done by the agent, GLPI Native Inventory will be indicated. For a manu
 
 - To create update source, click **+**
 - Enter a **Name**
-- Enter a comment (optionnal)
+- Enter a comment (optional)
 - Close the window and select the value in the drop-down list
 
 .. image:: /tabs/common_fields/images/add-update-source.png

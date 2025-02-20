@@ -1,7 +1,7 @@
 Administration
 ==============
 
-Administration module allows to administrate users, groups, entities, profiles, rules and dictionnaries.
+Administration module allows to administrate users, groups, entities, profiles, rules and dictionaries.
 
 .. toctree::
    :maxdepth: 1

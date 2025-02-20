@@ -38,7 +38,7 @@ Delete a connection
 ~~~~~~~~~~~~~~~~~~~
 
 The deletion of a connection can be made from the entry of each connected hardware via mass actions (select the **check box** and
-click on **Actions** buttom)
+click on **Actions** button)
 
 .. note::
    Every deletion or addition of a connection is recorded in the history of the computer.

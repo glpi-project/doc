@@ -13,7 +13,7 @@ This information is updated by the automatic inventory. You can add/modify it ma
 
 * To create a name, click **+**
 * Enter the **Name**
-* Enter a comment (optionnal)
+* Enter a comment (optional)
 * Click **+ Add** to save your OS
 * You can, now, select your OS in the drop-down list
 
@@ -34,7 +34,7 @@ This information can be provided automatically via the automatic inventory or ca
 
 * To create an architecture, click **+**
 * Enter the **Name**
-* Enter a comment (optionnal)
+* Enter a comment (optional)
 * Click **+ Add** to save your architecture
 * You can, now, select your OS in the drop-down list
 
@@ -53,7 +53,7 @@ It is the version of the kernel. This information can be updated by the automati
 
 * To create a Kernel, click **+**
 * Enter the **Name** (the version)
-* Enter a comment (optionnal)
+* Enter a comment (optional)
 * In Kernel field, select the one that suits you best.
 
   * If none match, click on the **i**
@@ -107,7 +107,7 @@ You can create a version if you want to customize this field :
 
 * To create a version, click on **+**
 * Enter a **Name**
-* Enter a **Comment** (optionnal)
+* Enter a **Comment** (optional)
 * Click **+ Add**
 * Select now the version you want by the drop-down list
 
@@ -119,7 +119,7 @@ This information can be provided automatically via the automatic inventory or ca
 
 * To create a service pack, click **+**
 * Enter a **Name**
-* Enter a **Comment** (optionnal)
+* Enter a **Comment** (optional)
 * Click **+ Add**
 * Select now the service pack you want by the drop-down list
 
@@ -132,7 +132,7 @@ This information can be provided automatically via the automatic inventory or ca
 
 * To create an Edition, click **+**
 * Enter a **Name**
-* Enter a **Comment** (optionnal)
+* Enter a **Comment** (optional)
 * Click **+ Add**
 * Select now the edition you want by the drop-down list
 

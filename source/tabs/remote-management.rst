@@ -1,7 +1,7 @@
 Remote Management
 =================
 
-Remote mamagement is used to reference the remote access software installed on the workstation, such as Teamviewer, Anydesk, etc.
+Remote management is used to reference the remote access software installed on the workstation, such as Teamviewer, Anydesk, etc.
 It is possible to add software manually if required, but the information can be fed back via the automatic inventory.
 
 .. image:: images/remote-management.png
@@ -25,7 +25,7 @@ The applications detected are :
 Add a new remote access
 -----------------------
 
-- To add a remote access manually, click on **Add a remote mannagement**
+- To add a remote access manually, click on **Add a remote management**
 - Enter the ID number (which can be found on the user's PC or on a management console if your tool has one)
 - Select the tool from the list
 - Click on  **+ Add**

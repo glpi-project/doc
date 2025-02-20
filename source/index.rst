@@ -13,7 +13,7 @@ GLPI User Documentation
 Preface
 -------
 
-This documentation covers the installation and use of GLPI (Gestion Libre de Parc Informatique) !
+This documentation covers the installation and use of :abbr:`GLPI (Gestion Libre de Parc Informatique)`!
 
 Free and open-source solution for IT asset management and helpdesk, and more. GLPI is a web application designed to manage all of your IT asset management issues from inventory management of hardware components and software to the management of user assistance.
 

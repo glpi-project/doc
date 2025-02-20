@@ -3,7 +3,7 @@ User interfaces
 
 .. note::
 
-   The choice of the default interface as well as the visiblity of different modules can be configured in the profiles or from :doc:`the user's preferences <preferences>`.
+   The choice of the default interface as well as the visibility of different modules can be configured in the profiles or from :doc:`the user's preferences <preferences>`.
 
 .. _standard_interface:
 
@@ -26,7 +26,7 @@ It is divided into 5 views:
    A customizable dashboard
 * *Personal view*
 
-   Shows the tickets opened, rejected, to be processed, to be approved (for which the logged-in user is the requestor) or those on which this user has an interaction as a validator or technician (awaiting validation, in progress, to be closed, in waiting). This view also offers him current issues, his schedule and available notes.
+   Shows the tickets opened, rejected, to be processed, to be approved (for which the logged-in user is the requester) or those on which this user has an interaction as a validator or technician (awaiting validation, in progress, to be closed, in waiting). This view also offers him current issues, his schedule and available notes.
 * *Group view*
 
    Offers the same information about tickets and issues as the personal view, but using the groups to which it belongs as a reference. Depending on their profile, they may or may not have access to the tickets for which their groups are requesting.

@@ -51,7 +51,7 @@ It is possible to link several types of objects to GLPI :
    * Budget
    * Camera
    * Camera item
-   * Cartbridge Model
+   * Cartridge Model
    * Case
    * Case item
    * Certificate
@@ -103,12 +103,12 @@ It is possible to link several types of objects to GLPI :
    * Reminder
    * Sensor
    * Sensor item
-   * Simcard
-   * Simcard item
+   * Sim card
+   * Sim card item
    * Software
    * Solution
-   * Soundcard
-   * Soundcard item
+   * Sound card
+   * Sound card item
    * Supplier
    * System board
    * System board item

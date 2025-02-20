@@ -44,7 +44,7 @@ It is possible to use :doc:`templates with software <../overview/templates>`.
 Some fields are specific in the software form:
 
 - **Upgrade From** is an information, with no processing associated and which tells whether the software is an update of another software
-- **Sofware category** allows to group software in the list of software of an asset
+- **Software category** allows to group software in the list of software of an asset
 - **Associable to a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
 
 

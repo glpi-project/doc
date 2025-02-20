@@ -7,7 +7,7 @@ They are SCSS files which contain CSS rules and they may be used in the same man
 Custom palettes must be placed in the `files/_themes` folder inside your GLPI installation or the location determined by the `GLPI_VAR_DIR` or `GLPI_THEMES_DIR` configuration options if you overrode them.
 
 All palette files are loaded at all times. This allows the instant preview when switching the palette selection in the user preferences and also makes debugging easier.
-Because of this, the CSS rules inside palettes must be restricted using the `:root[data-glpi-theme='mycustompalette']` selector (where mycustompalette is the name of the file and therefore the palette).
+Because of this, the CSS rules inside palettes must be restricted using the `:root[data-glpi-theme='mycustompalette']` selector (where *mycustompalette* is the name of the file and therefore the palette).
 
 Custom palettes should also attempt to restrict themselves to changing only the CSS variables that are prefixed with `--tblr` or `--glpi`.
 This helps keep the styling of GLPI uniform. However, you are free to make fine-tuned adjustments by changing CSS properties on specific elements as well.

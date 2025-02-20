@@ -89,7 +89,7 @@ This tab lists the PC's :doc:`components <../../tabs/components>` :
 * Drive
 * Battery
 * Graphics card
-* Soundcard
+* Sound card
 * Controller
 
 Each item has its :doc:`own information <../../tabs/components>` (name, model, brand, memory capacity, number of cores/threads, etc.).

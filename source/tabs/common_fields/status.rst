@@ -38,7 +38,8 @@ You can also add statuses in **Setup > Dropdowns > Common > Statuses of items**
   * Database instances
   * Cables
   * Unmanaged devices
-  * Passivces devices
+  * Passive devices
+
   * System board items
   * Firmware items
   * Processor items
@@ -48,13 +49,13 @@ You can also add statuses in **Setup > Dropdowns > Common > Statuses of items**
   * Drive items
   * Battery items
   * Graphical card items
-  * Soudncard items
+  * Sound card items
   * Controller items
   * PCI device items
   * Case items
   * Power supply items
   * Generic device items
-  * Simcar items
+  * Sim card items
   * Sensor items
   * Camera items
 

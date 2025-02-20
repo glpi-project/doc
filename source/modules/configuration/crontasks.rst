@@ -12,7 +12,7 @@ Some actions may support only one of the modes.
 Configure CLI mode
 ------------------
 
-To run CLI mode tasks, you will need to configure your external task scheduler to call GLPI's `front/cron.php` file periodically.
+To run CLI mode tasks, you will need to configure your external task scheduler to call GLPI `front/cron.php` file periodically.
 It is recommended to have it run every minute to ensure that actions that are ready to run, get ran as soon as possible.
 
 For Linux/MacOS, you should add the following to the web server's user's (www-data, apache, etc) crontab:

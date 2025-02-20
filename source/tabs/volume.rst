@@ -18,7 +18,7 @@ Volumes are added by the automatic inventory, but can also be added manually.
 Add a volume
 ~~~~~~~~~~~~~
 
-You can delete one or more softwares, you can select the check box, and click on **Actions** and select **Delete permanently**.
+You can delete one or more software, you can select the check box, and click on **Actions** and select **Delete permanently**.
 
 * To add a new volume, click on **Add a volume**
 * Fill in the necessary fields

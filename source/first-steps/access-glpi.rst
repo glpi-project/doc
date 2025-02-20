@@ -11,7 +11,7 @@ The first step is to configure the desired authentication method(s).
 GLPI is able to manage user authentication and information completely locally in its database, however it is recommended to delegate the authentication to an external service like LDAP.
 See :doc:`Configuring authentication methods <../modules/configuration/authentication/index>` for more information.
 
-The import or creation of new users and management of users known to GLPI including deletion, syncronization, activation/deactivation and management of information such as email, phone, etc is covered in :doc:`the user administration documentation <../modules/administration/users/users>`.
+The import or creation of new users and management of users known to GLPI including deletion, synchronization, activation/deactivation and management of information such as email, phone, etc is covered in :doc:`the user administration documentation <../modules/administration/users/users>`.
 
 A user can associated with groups, entities, and profiles which are the means of determining usage contexts.
 

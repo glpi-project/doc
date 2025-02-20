@@ -115,7 +115,7 @@ Given an LDAP directory where the organization of branches (organizational units
      * Criteria: (LDAP)DistinghuishedName matches following regular expression: ``/(ou=.*)/``
      * Actions: assign entity full name value from regular expression: Root entity > ``#0``
 
-   Running the rule retrieves its organizational unit (``ou``) from the user's *distinguished name*. It will then compare it to the values ​​of the LDAP Information attribute representing the entity in the database. If an entity has the attribute whose value matches, then that attribute is used as the result of the rule.
+   Running the rule retrieves its organizational unit (``ou``) from the user's *distinguished name*. It will then compare it to the values of the LDAP Information attribute representing the entity in the database. If an entity has the attribute whose value matches, then that attribute is used as the result of the rule.
 
 .. note:: the value of the action ``#0`` indicates that we must use the first result of the regular expression. ``#1`` indicates the second and so on. The **Test** button of the form allows you to try values ​​and see the result obtained.
 

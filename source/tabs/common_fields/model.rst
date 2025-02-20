@@ -2,7 +2,7 @@ Model
 ~~~~~
 
 When the inventory is uploaded, the template field is filled in automatically. You can also create/add templates manually.
-Modeles can also be used by templates and rules.
+Models can also be used by templates and rules.
 
 .. image:: /tabs/common_fields/images/model.png
    :alt: computer model

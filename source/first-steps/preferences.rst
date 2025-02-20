@@ -92,29 +92,29 @@ General customisation
    :align: center
    :scale: 42 %
 
-- **Language** : change the language of your interface (the language in this section takes over if another language is defined in the `default values <../../../modules/configuration/general/default_values.html>`_ of the general configuration)
-- **Display order of surnames** : how do you want to display the identity of your contacts (surname, first name or first name, surname)
-- **Results to display by page** : select the number of results to display for the various searches carried out in the modules (1 to 50)
-- **Display the tree dropdown complete name in dropdown inputs** : whether or not to display the full names of drop-down lists (if not, this may affect the layout in some cases) (Yes / No)
-- **Diplay counters** : display the counters of saved searches (Yes / No)
-- **Keep devices when purging an item** : (Yes / No. No by default)
-- **Results to display on home page** : display the number of results on the home page of a module (tickets, computers, etc.) (5 to 30)
-- **CSV delimiter** : delimiter for import/export CSV (; or , by default **;**)
-- **Page layout** : change the position of the main menu (horizontal or vertical)
-- **Enable high constrast** : feature that alters the colors (Yes / No)
-- **Default central bar** : choose which element will be visible on your home page (dashboard, personal view, group view, global view, RSS feeds)
-- **Show search from above results** : whether or not to include the search engine in the toolbar (Yes / No)
-- **Date format** : how to display date (YYY-MM-DD,DD-MM-YYYY, MM-DD-YYYY)
-- **Number format** : how to display number (1 234.56 / 1,2345.56 / 1 234,56 / 1234.56 / 1234,56)
-- **Go to created item after creation** : After creating an object, you can go directly to this object (Yes / No)
-- **Display the complete name of tree dopdown in search results** : Yes / No
-- **Show GLPI ID** : show the ID of the GLPI's objects (Yes / No)
-- Notifications for my changes :
-- **PDF export font** : choose the font for PDF exports
-- **Color palette** : Choose your theme for your GLPI interface
-- **Rich text field layout** : define the behaviour of the text formatting bar
-- **Timezone** : select your timezone
-- **Timeline order** : order of display of the history of the different types of follow-up in a ticket (natural order (old items on top, recent on bottom) reverse order (old times on bottom, recent on top))
+- **Language**: change the language of your interface (the language in this section takes over if another language is defined in the `default values <../../../modules/configuration/general/default_values.html>`_ of the general configuration)
+- **Display order of surnames**: how do you want to display the identity of your contacts (surname, first name or first name, surname)
+- **Results to display by page**: select the number of results to display for the various searches carried out in the modules (1 to 50)
+- **Display the tree dropdown complete name in dropdown inputs**: whether or not to display the full names of drop-down lists (if not, this may affect the layout in some cases) (Yes / No)
+- **Display counters**: display the counters of saved searches (Yes / No)
+- **Keep devices when purging an item**: (Yes / No. No by default)
+- **Results to display on home page**: display the number of results on the home page of a module (tickets, computers, etc.) (5 to 30)
+- **CSV delimiter**: delimiter for import/export CSV (; or , by default **;**)
+- **Page layout**: change the position of the main menu (horizontal or vertical)
+- **Enable high contrast**: feature that alters the colors (Yes / No)
+- **Default central bar**: choose which element will be visible on your home page (dashboard, personal view, group view, global view, RSS feeds)
+- **Show search from above results**: whether or not to include the search engine in the toolbar (Yes / No)
+- **Date format**: how to display date (YYY-MM-DD,DD-MM-YYYY, MM-DD-YYYY)
+- **Number format**: how to display number (1 234.56 / 1,2345.56 / 1 234,56 / 1234.56 / 1234,56)
+- **Go to created item after creation**: After creating an object, you can go directly to this object (Yes / No)
+- **Display the complete name of tree dropdown in search results**: Yes / No
+- **Show GLPI ID**: show the ID of the GLPI objects (Yes / No)
+- **Notifications for my changes**: be notified for your own changes
+- **PDF export font**: choose the font for PDF exports
+- **Color palette**: Choose your theme for your GLPI interface
+- **Rich text field layout**: define the behaviour of the text formatting bar
+- **Timezone**: select your timezone
+- **Timeline order**: order of display of the history of the different types of follow-up in a ticket (natural order (old items on top, recent on bottom) reverse order (old times on bottom, recent on top))
 
 .. note::
 
@@ -129,23 +129,23 @@ Assistance customisation and priority colors
    :align: center
    :scale: 42 %
 
-- **Private followups by default** : all your follow-ups will be considered private. To make them public, uncheck the private box (Yes / No)
-- **Private tasks by default** : all your tasks will be considered private. To make them public, uncheck the private box (Yes / No)
-- **Tasks state by default** : choose the default status for your tasks (Information, To do, Done)
-- **Pre-select me as a technician when adding a ticket follow-up** : when you create a ticket as a technician, choose whether you will be selected as "assigned to" (Yes / No)
+- **Private followups by default**: all your follow-ups will be considered private. To make them public, uncheck the private box (Yes / No)
+- **Private tasks by default**: all your tasks will be considered private. To make them public, uncheck the private box (Yes / No)
+- **Tasks state by default**: choose the default status for your tasks (Information, To do, Done)
+- **Pre-select me as a technician when adding a ticket follow-up**: when you create a ticket as a technician, choose whether you will be selected as "assigned to" (Yes / No)
 - **Add me as a technician when adding a ticket follow-up**: if you are not assigned to the ticket and you add a follow-up, you will be assigned to this ticket (Yes / No)
-- **Action button layout** : choose the layout of the buttons when you are about to reply to a ticket (Splitted or Merged)
-- **Show new tickets on the home page** : display tickets in the global view from the home page (Yes / No)
-- **Request sources bu default** : when creating a ticket (before submission), define the source of the request (Direct / E-Mail / Fromcreator / Other / Phone / Written)
-- **Automatically refresh data (tickets list, project kanban) in minutes** : Choose whether you want to update your interface pages regularly (never to 30)
+- **Action button layout**: choose the layout of the buttons when you are about to reply to a ticket (*Splitted* or *Merged*)
+- **Show new tickets on the home page**: display tickets in the global view from the home page (Yes / No)
+- **Request sources bu default**: when creating a ticket (before submission), define the source of the request (Direct / E-Mail / Fromcreator / Other / Phone / Written)
+- **Automatically refresh data (tickets list, project kanban) in minutes**: Choose whether you want to update your interface pages regularly (never to 30)
 
    .. Warning::
 
       Be careful, if you activate this option, it is possible that the refresh will take place when you write a follow-up, for example, which will cause you to lose what you have written. We advise you to deactivate this option.
 
-- **Pre-select me as a requester when creating a ticket** : indicate me as the requester when I write a new ticket (this does not prevent you from selecting other people/groups at a later date if you have the rights to do so). (Yes / No)
-- **Add me as a technician when adding a ticket solution** : Add me as a technician when I add a solution to the ticket if it wasn't already assigned to me (Yes /No)
-- **Timeline date display** : deletes seconds from dates (Precise / Relative)
+- **Pre-select me as a requester when creating a ticket**: indicate me as the requester when I write a new ticket (this does not prevent you from selecting other people/groups at a later date if you have the rights to do so). (Yes / No)
+- **Add me as a technician when adding a ticket solution**: Add me as a technician when I add a solution to the ticket if it wasn't already assigned to me (Yes /No)
+- **Timeline date display**: deletes seconds from dates (Precise / Relative)
 
 You can change the priority colours. This will change all the colours for the :
 

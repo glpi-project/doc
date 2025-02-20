@@ -114,4 +114,4 @@ This tab allows to attach a certificate present in GLPI to the license.
 
 
 .. note:: You can prevent certain software, such as Microsoft KBs, from being brought up.
-          To do this, you need to set their parameters in :doc:`Management > Dictionnaries <../administration/dictionnaries>`
+          To do this, you need to set their parameters in :doc:`Management > Dictionaries <../administration/dictionnaries>`

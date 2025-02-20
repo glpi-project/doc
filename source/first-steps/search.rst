@@ -129,7 +129,7 @@ Using the table view
 --------------------
 
 In the table view, you have the option to sort the results by any of the displayed fields by clicking on the relevant column headers.
-You may perform a multi-sort by holding the ``Ctrl`` or ``Command (MacOS)`` keys while left clicking on the column header.
+You may perform a multi-sort by holding the ``Ctrl`` or ``Command``  (MacOS) keys while left clicking on the column header.
 Clicking on column headers multiple times will cycle between sort directions and removing the sort.
 
 At the bottom of the results table is a dropdown that can be used to change the number of results that will show on each page.
@@ -162,7 +162,7 @@ The results of the actions as well as the information messages are presented at 
 
 .. warning::
 
-   The number of elements that can be handled simultaneously is limited by the values ​​of ``max_input_vars`` or ``suhosin.post.max_vars`` in your PHP configuration. You may therefore get a message indicating that massive edits are disabled. You just need to increase the values ​​of your PHP configuration or reduce the number of items displayed.
+   The number of elements that can be handled simultaneously is limited by the values of ``max_input_vars`` or ``suhosin.post.max_vars`` in your PHP configuration. You may therefore get a message indicating that massive edits are disabled. You just need to increase the values ​​of your PHP configuration or reduce the number of items displayed.
 
 Quick search
 ------------

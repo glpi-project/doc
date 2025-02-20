@@ -8,7 +8,7 @@ it is possible to add an image that will be reflected in the rack, or a computer
 Add an image
 ~~~~~~~~~~~~
 
-- To add an image, click on "Chosse files" and select the image that you want (png, jpg, jpeg).
+- To add an image, click on "Choose files" and select the image that you want (png, jpg, jpeg).
 - Click on Save to add your image
 
 
