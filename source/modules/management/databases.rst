@@ -61,7 +61,8 @@ View all :doc:`tickets </modules/tabs/tickets>` linked to the current item.
 Problems
 --------
 
-This tab refers to all databases :doc:`problems </modules/assistance/problems>`.
+This tab refers to all related :doc:`problems </modules/assistance/problems>`.
+
 Problems can also be linked to tickets, projects, etc. This allows you to have a complete scenario when necessary.
 
 Changes
