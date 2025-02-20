@@ -90,7 +90,8 @@ You can attach :doc:`Domains </modules/management/domains>` to the database. Dom
 Appliances
 ----------
 
-:doc:`Appliances </modules/management/appliance>` include all business applications managed within GLPI and the databases linked
+:doc:`Appliances </modules/management/appliance>` include all business applications managed within GLPI and linked with the current item.
+
 to them.
 They can also be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
 
