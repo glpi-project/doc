@@ -36,7 +36,6 @@ Available types
    pdus
    passives_devices
    cables
-   databases
    sim
    global
 
