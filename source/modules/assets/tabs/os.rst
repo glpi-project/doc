@@ -20,7 +20,7 @@ An operating system is associated with the following elements:
 
 .. note::
 
-   The creation and management of the titles for operating systems is located in the menu `Configuration > Drop-downs > Operating systems`.
+   The creation and management of the titles for operating systems is located in the menu `Setup > Drop-downs > Operating systems`.
 
    .. image:: /modules/assets/images/os_dropdown.png
       :alt: Screen of titles definition for operating systems
