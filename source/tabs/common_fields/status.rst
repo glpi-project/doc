@@ -38,7 +38,8 @@ You can also add statuses in **Setup > Dropdowns > Common > Statuses of items**
   * Database instances
   * Cables
   * Unmanaged devices
-  * Passives devices
+  * Passive devices
+
   * System board items
   * Firmware items
   * Processor items

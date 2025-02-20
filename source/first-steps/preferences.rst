@@ -109,7 +109,7 @@ General customisation
 - **Go to created item after creation**: After creating an object, you can go directly to this object (Yes / No)
 - **Display the complete name of tree dropdown in search results**: Yes / No
 - **Show GLPI ID**: show the ID of the GLPI objects (Yes / No)
-- **Notifications for my changes**: begin notified for your own changes
+- **Notifications for my changes**: be notified for your own changes
 - **PDF export font**: choose the font for PDF exports
 - **Color palette**: Choose your theme for your GLPI interface
 - **Rich text field layout**: define the behaviour of the text formatting bar
