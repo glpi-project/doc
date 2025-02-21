@@ -46,7 +46,8 @@ Plugs
 Network Ports
 -------------
 
-This tab allows to manage the :doc:`network ports <../../tabs/network_ports>` attached to an item.
+This tab allows to manage the :doc:`network ports <../../tabs/network_ports>` attached to current item.
+
 The information that can be viewed is:
 
 * Name
