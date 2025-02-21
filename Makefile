@@ -2,7 +2,7 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    =
+SPHINXOPTS    ?=
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
@@ -19,7 +19,6 @@ DOCXSPHINXOPTS  = -d $(BUILDDIR)/doctrees -D "extensions = ['sphinx.ext.todo', '
 
 #Watcher
 ALLSPHINXLIVEOPTS   = $(ALLSPHINXOPTS) -q \
-   -B \
    --delay 1 \
    --ignore "*.swp" \
    --ignore "*.pdf" \
