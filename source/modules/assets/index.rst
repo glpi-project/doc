@@ -33,6 +33,7 @@ Available types
    consumables
    phones
    racks
+   enclosures
    pdus
    passives_devices
    cables
