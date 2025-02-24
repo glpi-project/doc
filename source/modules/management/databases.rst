@@ -36,12 +36,14 @@ Management
 ----------
 
 :doc:`Management </modules/tabs/management>` of financial and administrative information,
-this information is visible in the 'Management' tab on the Database's form.
+this information is visible in the 'Management' tab on the item's form.
+
 
 Documents
 ---------
 
-The :doc:`document </modules/management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+The :doc:`document </modules/management/documents>` tab lets you link different types of file to the current item (PDF, txt, png, etc.)
+
 You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
 

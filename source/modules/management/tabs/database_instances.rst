@@ -79,19 +79,22 @@ Contracts management allows to:
 Documents
 ---------
 
-The :doc:`document <../documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+The :doc:`document <../documents>` tab lets you link different types of file to the current item (PDF, txt, png, etc.)
+
 You can attach a document already uploaded to GLPI or add a new one directly from this tab.
 
 
 Knowledge Base
 --------------
 
-Lists all the articles in the :doc:`knowledge base <../../../tabs/knowledgebase>` relating to the material.
+Lists all the articles in the :doc:`knowledge base <../../../tabs/knowledgebase>` relating to the current item.
+
 
 Tickets
 -------
 
-View all :doc:`tickets <../../tabs/tickets>` linked to the computer
+View all :doc:`tickets <../../tabs/tickets>` linked to the current item
+
 
 Problems
 --------
@@ -102,8 +105,10 @@ Problems can also be linked to tickets, projects, etc. This allows you to have a
 Changes
 -------
 
-:doc:`Changes <../../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
-You can create a new change from this page, which will be linked to the material you have selected.
+:doc:`Changes <../../assistance/changes>` lists all changes related to the current item. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+
+You can create a new change from this page, which will be linked to the current item you have selected.
+
 
 Links
 -----
@@ -120,25 +125,29 @@ Locks
 -----
 
 :doc:`Locks </modules/assets/tabs/locks>` are used to prevent a field from being modified when the inventory is uploaded.
-You can lock/unlock the fields you wish in a GLPI object.
+You can lock/unlock the fields you wish in a GLPI item.
+
 
 
 Notes
 -----
 
-:doc:`Note </modules/tabs/notes>` lets you add enriched text and attach a document.
+:doc:`Note </modules/tabs/notes>` lets you add rich-text text and attach a document.
+
 
 Domains
 -------
 
-You can attach :doc:`Domains </modules/management/domains>` to your computer. Domains are also linked to other objects such as records, problems, etc.
+You can attach :doc:`Domains </modules/management/domains>` to the current item. Domains are also linked to other items such as records, problems, etc.
+
 
 
 Appliances
 ----------
 
 :doc:`Appliances </modules/management/appliance>` includes all business applications managed within GLPI.
-They can be linked to another GLPI object (computer, application, etc.) as well as to another appliance.
+They can be linked to another GLPI item (computer, application, etc.) as well as to another appliance.
+
 
 .. include:: ../../tabs/historical.rst
 
