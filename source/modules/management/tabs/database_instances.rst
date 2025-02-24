@@ -60,7 +60,8 @@ Databases
 Management
 ----------
 
-:doc:`Management <../../tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the computer's form.
+:doc:`Management <../../tabs/management>` of financial and administrative information, this information is visible in the 'Management' tab on the current item's form.
+
 
 
 Contracts
