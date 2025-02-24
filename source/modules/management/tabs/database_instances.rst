@@ -38,7 +38,8 @@ In a database instance form, the following information is available:
 * :doc:`Update source </tabs/common_fields/update_source>`
 * Active : Yes / No
 * Database instance category
-* Has backup : Ye/No
+* Has backup : Yes/No
+
 * Last backup date :*date*
 * Port
 * Path
