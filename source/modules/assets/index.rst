@@ -36,6 +36,7 @@ Available types
    enclosures
    pdus
    passives_devices
+   unmanaged_assets
    cables
    sim
    global
