@@ -98,7 +98,8 @@ Particularity
 Massive actions
 ~~~~~~~~~~~~~~~
 
-This item has a specific massive action which allows it to be converted into another type of object (computer, printers, etc.).
+This item has a specific massive action which allows it to be converted into another type of object (computer, printer, etc.).
+
 You can convert it manually via this massive action, or report it via SNMP, WMI, etc.
 
 
