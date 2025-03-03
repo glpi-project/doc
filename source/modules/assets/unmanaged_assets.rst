@@ -42,7 +42,8 @@ In a unmanaged asset form, the following information is available:
 * :doc:`User </tabs/common_fields/user>`
 * :doc:`Comments </tabs/common_fields/comments>`
 * IP
-* Network hub : Yes /No
+* Network hub: Yes/No
+
 
 
 Network Ports
