@@ -83,7 +83,8 @@ Import information
 ------------------
 
 Import information is information that is uploaded and governed by equipment import rules
-(administration > rules > Rules for import and link equipments)
+(Administration > Rules > Rules for import and link equipments)
+
 
 
 .. include:: ../tabs/historical.rst
