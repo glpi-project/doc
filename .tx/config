@@ -907,3 +907,14 @@ source_file = build/locale/modules/tools/rssfeed.pot
 source_lang = en
 type        = PO
 
+[o:glpi:p:glpi-user-documentation:r:modules--administration--users--tabs--authorizations]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/users/tabs/authorizations.po
+source_file = build/locale/modules/administration/users/tabs/authorizations.pot
+source_lang = en
+type        = PO
+
+[o:glpi:p:glpi-user-documentation:r:modules--administration--users--tabs--groups]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/users/tabs/groups.po
+source_file = build/locale/modules/administration/users/tabs/groups.pot
+source_lang = en
+type        = PO
