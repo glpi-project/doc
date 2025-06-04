@@ -5,9 +5,9 @@ Entities
    :alt: Global view GLPI Entities
    :scale: 50%
 
-Entity concept is a **key concept in GLPI**. Having many similarities with a hierarchy or a division inside a company, it allows on a single instance of GLPI to isolate sets organized in a hierarchical manner. The chosen term is voluntarily neutral in order to adapt to many information systems.
+Entities are a **key concept in GLPI**. Having many similarities with a hierarchy or a division inside a company, it allows on a single instance of GLPI to isolate sets organized in a hierarchical manner. The chosen term is voluntarily neutral in order to adapt to many information systems.
 
-A single instance (or installation) of GLPI, when composed of several entities, allows to consolidate common data and rules. Using entities allows to create a rather tight isolation between organizational units. 
+A single instance (or installation) of GLPI, when composed of several entities, allows to consolidate common data and rules. Using entities allows to create a tight isolation between organizational units. 
 
 .. hint:: When this isolation is not desired, it is better to use the functionalities offered by GLPI *Groups*.
 
@@ -38,7 +38,7 @@ Each entity has access to its assets and subsidiary entities:
    * **Entity 1** has access to its assets as well as to child-entity 1 and 2 assets
    * **Child-entity 1** has only access to its own assets
 
-A user can be attached to several entities with different authorizations in each entity, these authorizations being kept in daughter entities or not. For example a user will be able to open a ticket only inside user's division, the ticket applying only to the items of the same division.
+A user can be attached to several entities with different authorizations in each entity, these authorizations being kept in child entities or not. For example a user will be able to open a ticket only inside user's division, the ticket applying only to the items of the same division.
 
 On the contrary, a user being granted larger authorizations will be able to view all items, tickets and other objects, and this on all entities in which user's authorizations apply.
 
@@ -85,7 +85,7 @@ Advanced information
 --------------------
 
 This tab groups technical identification data of the entity, those concerning generic entity assignment rules and those concerning users search interface.
-These data will be used by rules for automatic assignment to the entity (hardware if coupled with an inventory tool, user or group if connected to a LDAP directory,
+This data will be used by rules for automatic assignment to the entity (hardware if coupled with an inventory tool, user or group if connected to a LDAP directory,
 ticket if enabled ticket creation via mail collector) as well as for import and synchronization of users originating from a LDAP directory.
 
 .. image:: images/advanced_information_entity.png
@@ -252,7 +252,7 @@ Tickets configuration
 * **Display initials for users without picture**: No/Yes/Inheritance of the parent entity
 * **Default contract**: Inheritance of the parent entity/Contact in ticket entity
 
-.. tip:: When you select customize, a new nickname field will appear in the group and/or user's profile (if you are in the entity in which you selected this option).
+.. tip:: When you select the anonymization option to use a customized name, a new nickname field will appear in the group and/or user's profile (if you are in the entity in which you selected this option).
    This custom name will therefore be visible to users.
 
 Automatic closing configuration
@@ -454,7 +454,7 @@ For GLPI page and External page, you can choose :
 * *A description*
 * *An illustration* (existing or add a new one)
 
-For forms, they can be created from *administration > forms*, see the :doc:`dedicated article <../forms/forms>` for more information
+For forms, they can be created from *Administration > Forms*, see the :doc:`dedicated article <../forms/forms>` for more information
 
 Users
 -----
