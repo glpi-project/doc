@@ -8,7 +8,7 @@ Glossary
       State of a demand which has been validated by an approver.
 
    Actions
-      Grouping in a list of available handling of GLPI objects. 
+      Grouping in a list of available handling of GLPI objects.
 
    Adaptive rule
       Rule in which at least one action is the result of a regular expression defined in a criteria.
@@ -18,6 +18,9 @@ Glossary
 
    Alert threshold
       Minimal value from which an alert is triggered.
+
+   Asset
+      Generic term for an element that can be inventoried and managed in GLPI.
 
    Automatic action
       Process for regular actions triggering, either internal to GLPI or external (Unix cron, Windows planned tasks...).
@@ -51,6 +54,9 @@ Glossary
 
    Registered user
       Person having an accreditation allowing to connect to GLPI.
+
+   CLI
+      Command Line Interface
 
    Contact
       Referent person linked to a supplier.
@@ -105,7 +111,7 @@ Glossary
 
    External link
       Link displayed on an asset form in GLPI and built dynamically using the asset data.
-      
+
    Frequently Asked Questions (FAQ)
       Specifically in GLPI, selection of elements of the knowledge base that can be provided independently, for example articles that are made accessible to users having only access to the simplified interface.
 
@@ -164,10 +170,6 @@ Glossary
 
    Intervention
       Action of a technician to solve an incident.
-
-   Asset
-      Generic term for an element that can be inventoried and managed in GLPI.
-
 
    Knowledge base
       Database allowing to gather, analyze, store and share knowledge and information inside an organization.
@@ -351,6 +353,12 @@ Glossary
 
    Tree
       Hierarchical organization of data using a tree structure.
+
+   TTO
+      TTO (Time To Own) means the total time elapsed between the opening of an incident and its assignment to a technician.
+
+   TTR
+      TTR (Time To Resolve) means the total time elapsed between the opening of an incident or request and its complete resolution.
 
    Unitary management
       Management mode in which an inventory object can be connected to only one computer.
