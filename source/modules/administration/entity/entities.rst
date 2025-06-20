@@ -38,9 +38,15 @@ Each entity has access to its assets and subsidiary entities:
    * **Entity 1** has access to its assets as well as to child-entity 1 and 2 assets
    * **Child-entity 1** has only access to its own assets
 
-A user can be attached to several entities with different authorizations in each entity, these authorizations being kept in child entities or not. For example a user will be able to open a ticket only inside user's division, the ticket applying only to the items of the same division.
+A user can have different authorizations in different entities and these authorizations can be made recursive to apply optionally to child entities.
 
-On the contrary, a user being granted larger authorizations will be able to view all items, tickets and other objects, and this on all entities in which user's authorizations apply.
+For example, a user can be attached to several entities with different permissions in each entity, these permissions being retained (or not) in child entities.
+Without permission, they will then only be able to view the elements from their own entity that they would like to link to this ticket (FAQ, asset, category, etc.).
+
+
+On the other hand, if a user has sufficient permissions (see profile, and I'll provide a link to that part of the documentation), they could then see certain items that are not allowed for other profiles.
+For example, a user with a technician profile could see their entity's inventory, while a manager could see the inventory of the parent entity and all child entities.
+We can also assume that an IT technician could only see the computers in their entity, while an infrastructure technician could see all the assets (network equipment, racks, enclosures, etc.) in that same entity.
 
 By default, GLPI has a single generic entity named *Root Entity*. This entity can be renamed at user's convenience.
 
