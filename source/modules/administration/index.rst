@@ -8,12 +8,12 @@ Administration module allows to administrate users, groups, entities, profiles, 
 
    users/users
    groups
-   entities
+   entity/entities
    rules/rulesmanagement
    dictionnaries
    profiles/profiles
    mailqueue
    logs
-	      
+
 
 
