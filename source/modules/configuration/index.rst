@@ -14,6 +14,7 @@ Configuration module gives access to all GLPI configuration options such as:
 .. toctree::
    :maxdepth: 2
 
+   asset_definitions/asset_definitions
    authentication/index
    dropdowns/index
    components
