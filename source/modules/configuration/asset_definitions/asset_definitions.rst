@@ -44,7 +44,7 @@ Create an asset
 .. note:: The **system name field** correspondands to what will be used when development is involved.
    Examples : API calls, webhooks, etc.
    It can be personnalized, but some words are reserved such as classes from GLPI like Computer, Monitor, etc.
-   Items linked to the system name "Example" will have the class "GLPI\CustomAsset\ExampleAsset"
+   Items linked to the system name "Example" will have the class "Glpi\CustomAsset\ExampleAsset"
 
 After the creation, an error message appears : There is currently no profile with access to items with current definition
 You need to go to :doc:`profiles <#profiles>`
