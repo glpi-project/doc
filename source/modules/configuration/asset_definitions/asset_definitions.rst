@@ -1,14 +1,14 @@
 Asset Definitions
 =================
 
-Since GLPI 11, the generic asset plugin has been integrated into the heart of GLPI.
+Since GLPI 11, the generic asset plugin has been integrated into GLPI natively.
 This makes it possible to create customised asset types to suit your needs.
 
 
 Migration generic assets to asset definitions
 ---------------------------------------------
 
-.. warning:: generic assets migration must be done from the GLPI 10 database. It is not possible to import your sssets GLPI 10 to GLPI 11.
+.. warning:: generic assets migration must be done from the GLPI 10 database. It is not possible to import your assets from GLPI 10 to GLPI 11.
 
 When migrating your instance to GLPI 11, the **generic asset** plugin must be installed.
 Once the migration is complete, enter the command in :term:`CLI` mode from your GLPI folder:
@@ -19,8 +19,8 @@ Once the migration is complete, enter the command in :term:`CLI` mode from your 
 Definitions
 -----------
 
-Asset definitions can be used to add assets that are not already on the list. For example, you can add servers, separate laptops from desktops or add absolutely any other equipment you need.
-Each asset added will behave like any other piece of equipment and will be subject to administration rules, contracts, etc.
+Asset definitions can be used to add assets that are not natively available. For example, you can add servers or laptops separately from the native Computers type.
+Each custom asset could be configured to behave like any other asset via capacities.
 
 
 Create an asset
@@ -53,7 +53,7 @@ You need to go to :doc:`profiles <#profiles>`
 Capacities
 ----------
 
-Capacities lets you add items such as software, network ports, contacts, etc. to the asset.
+Capacities lets you add behaviors such as the ability to link software, network ports, contacts, etc. to the asset.
 Each asset can be selected and customised as required.
 
 
@@ -61,7 +61,7 @@ Each asset can be selected and customised as required.
    :alt: Add new capacities
    :scale: 37 %
 
-List of the elements that can be linked:
+List of the behaviors/elements that can be linked:
 
 * Antivirus
 * Appliances
@@ -96,7 +96,7 @@ List of the elements that can be linked:
 Fields
 ------
 
-The fields tab is used to add additional fields.
+The fields tab is used to add additional fields and modify native ones.
 You can customise them by indicating whether they should be text, URL, date, etc.
 
 Create a custom field
@@ -109,19 +109,19 @@ Create a custom field
    :alt: Add a custom field
    :scale: 37 %
 
-* **Label**: name which will be displayed on the equipment sheet
+* **Label**: name which will be displayed on the asset form, search results, etc
 * **System name**: The system name field corresponds to what will be used when development is involved. Examples: API calls, webhooks, etc.
   In the legacy API, the field name is prefixed by ``custom_``; to avoid conflicts with standard fields.
 * **Type**: string, date, URL, dropdown, yes/no, text, date and time, number. Cannot be modified once saved
-* **Full width**: authorises the field to be extended along the entire length of the form
-* **Mandatory**: make it mandatory or not to fill in the field before saving the equipment file
+* **Full width**: indicates the field will be extended along the entire length of the form
+* **Mandatory**: make it mandatory or not to fill in the field before saving the asset
 * **Readonly for these profiles**: select one or more profiles with read-only access to this field.
   The permissions in the profiles tab take precedence over this field.
 * **Hidden for these profiles**: select one or more profiles whose fields will be hidden
   The authorisations in the profiles tab take precedence over this field. It will therefore be visible to a profile even if it is selected in this field.
 * **Default values**: specify a default value
 
-.. note:: For dropdown list, you need to select the item in the list. You can specify if multiple selection is authorised. You can select a default value if necessary
+.. note:: For dropdown list, you need to select the item type in the list. You can specify if multiple selections are allowed. You can also select a default value if necessary.
 
    .. image:: images/dropdown_field.png
       :alt: Dropdown list selection
@@ -302,7 +302,7 @@ Delete a custom field
    :alt: Hide a custom field
    :scale: 100 %
 
-* Then, click on the bin. Note that this action is irreversible
+* Then, click on the trashbin icon. Note that this action is irreversible
 
 .. image:: images/delete_field.png
    :alt: Delete a custom field
@@ -311,7 +311,7 @@ Delete a custom field
 Hide or show a field
 ~~~~~~~~~~~~~~~~~~~~
 
-Each field can be hidden in the equipment file.
+Each field can be hidden in the asset form.
 
 * To hide a field, click on the hide icon
 
@@ -340,7 +340,7 @@ In a default field, you can modify :
 In a custom field, you can modify :
 
 * **Label**
-* **System name** (will be modify by the label)
+* **System name** (will be modified automatically when changing the label)
 * **Full width**
 * **Mandatory**
 * **Readonly for these profiles**
@@ -367,7 +367,7 @@ To change the order of the list of fields, drag and drop your field to the desir
 Profiles
 --------
 
-The profiles tab is used to authorise or disable certain actions on the asset created
+The profiles tab is used to authorise certain permissions on the assets of this type
 
 .. image:: images/profiles.png
    :alt: Update profiles
