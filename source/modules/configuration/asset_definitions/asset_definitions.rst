@@ -390,7 +390,7 @@ You can add **profiles that can associate Server with tickets, problems or chang
 Translations
 ------------
 
-You can translate the **asset name** and the **system name**
+You can translate the **label** and the **system name**
 
 * Click on **+ New translation**
 * Select the field to **translate**
