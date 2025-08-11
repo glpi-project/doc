@@ -90,8 +90,9 @@ After removing the plugin's folder there should be a new "cleanup" action availa
 Plugins and Update GLPI
 -----------------------
 
-When GLPI is updated, you can suspend the plugins.
+When GLPI is updated, the plugins execution is suspended.
 This allows you to preserve the state of a plugin before the GLPI update and restore it to its previous state once the update is complete.
+The plugins execution will be automatically resumed when the update corresponds to a bugfix update only (e.g. 11.0.x to 11.0.y), but this will have to be done manually in case of a major or intermediate update (11.0.x to 11.1.y or 12.0.z).
 This avoids having to activate the plugins one by one and avoid activating a plugin that was not activated.
 
 If GLPI behaves abnormally, you can also use this option to suspend all plugins and and check that the anomaly is not due to a plugin you have installed.
