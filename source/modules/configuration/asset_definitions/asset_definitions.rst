@@ -5,12 +5,12 @@ Since GLPI 11, the generic asset plugin has been integrated into GLPI natively.
 This makes it possible to create customised asset types to suit your needs.
 
 
-Migration generic assets to asset definitions
+Migration generic objects to asset definitions
 ---------------------------------------------
 
 .. warning:: generic assets migration must be done from the GLPI 10 database. It is not possible to import your assets from GLPI 10 to GLPI 11.
 
-When migrating your instance to GLPI 11, the **generic asset** plugin must be installed.
+When migrating your instance to GLPI 11, the **generic objects** plugin must be installed.
 Once the migration is complete, enter the command in :term:`CLI` mode from your GLPI folder:
 
 ``php bin/console migration:genericobject_plugin_to_core``
@@ -35,7 +35,7 @@ Create an asset
 
 
 * Label (this field will appear in the list of assets)
-* System name
+* System name (it cannot be changed later)
 * Comments
 * Active
 * Icon
@@ -96,7 +96,7 @@ List of the behaviors/elements that can be linked:
 Fields
 ------
 
-The fields tab is used to add additional fields and modify native ones.
+The fields tab is used to add additional fields and and hide, or reorder native ones.
 You can customise them by indicating whether they should be text, URL, date, etc.
 
 Create a custom field
@@ -403,5 +403,13 @@ You can translate the **label** and the **system name**
    :alt: Translate a field
    :scale: 37%
 
+
+1. Add a new translation
+2. Select the field to translate
+3. Select the language
+4. Fill in the translation fields:
+  * One - the singular form of the label
+  * Many - the plural form of the label
+  * Other - the translation that will appear in the list of assets
 
 .. include:: ../../tabs/all.rst
