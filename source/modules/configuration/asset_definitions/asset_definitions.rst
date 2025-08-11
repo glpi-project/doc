@@ -6,14 +6,16 @@ This makes it possible to create customised asset types to suit your needs.
 
 
 Migration generic objects to asset definitions
----------------------------------------------
+----------------------------------------------
 
 .. warning:: generic assets migration must be done from the GLPI 10 database. It is not possible to import your assets from GLPI 10 to GLPI 11.
 
 When migrating your instance to GLPI 11, the **generic objects** plugin must be installed.
 Once the migration is complete, enter the command in :term:`CLI` mode from your GLPI folder:
 
-``php bin/console migration:genericobject_plugin_to_core``
+::
+
+   php bin/console migration:genericobject_plugin_to_core
 
 
 Definitions
@@ -42,11 +44,11 @@ Create an asset
 
 
 .. note:: The **system name field** correspondands to what will be used when development is involved.
-   Examples : API calls, webhooks, etc.
+   Examples: API calls, webhooks, etc.
    It can be personnalized, but some words are reserved such as classes from GLPI like Computer, Monitor, etc.
    Items linked to the system name "Example" will have the class "Glpi\CustomAsset\ExampleAsset"
 
-After the creation, an error message appears : There is currently no profile with access to items with current definition
+After the creation, an error message appears: There is currently no profile with access to items with current definition
 You need to go to :doc:`profiles <#profiles>`
 
 
@@ -326,7 +328,7 @@ Modify a field
 
 You can change all the fields, but some information cannot be changed in a default field.
 
-In a default field, you can modify :
+In a default field, you can modify:
 
 * **Full width**
 * **Mandatory**
@@ -337,7 +339,7 @@ In a default field, you can modify :
    :alt: Modify a default field
    :scale: 60 %
 
-In a custom field, you can modify :
+In a custom field, you can modify:
 
 * **Label**
 * **System name** (will be modified automatically when changing the label)
@@ -408,6 +410,7 @@ You can translate the **label** and the **system name**
 2. Select the field to translate
 3. Select the language
 4. Fill in the translation fields:
+
   * One - the singular form of the label
   * Many - the plural form of the label
   * Other - the translation that will appear in the list of assets
