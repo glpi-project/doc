@@ -5,8 +5,6 @@ Adding and maintaining extensions (plugins) in GLPI.
 
 .. warning:: Before installing or updating a plugin, it is recommended that you perform a backup of your GLPI database.
 
-Starting in GLPI 9.5.0, you can install and update plugins directly from the GLPI web interface.
-
 The first time you go to the plugins page under `Setup > Plugins`, you will be asked if you want to use the marketplace UI by default or the older plugin list.
 Regardless of your choice, you can always switch UIs by clicking the "Marketplace" and "Plugins" buttons at the top of the page.
 You may install plugins using both methods. If a plugin is install through the marketplace and manually for some reason, the version installed through the marketplace will be used.
@@ -26,9 +24,9 @@ On the left, you can select a category to filter plugins and use the search bar 
 
 .. image:: images/marketplace_discover.png
    :alt: Discover tab in Marketplace
-   :align: center
+   :scale: 38%
 
-Any plugin that has a `GLPI NETWORK` requires a non-free subscription. These plugins will also indicate the tier required such as `BASIC` or `STANDARD`. Each paid tier includes the plugins from the lower tiers.
+Any plugin that has a `GLPI NETWORK` requires a non-free subscription. These plugins will also indicate the tier required such as `BASIC`, `STANDARD`or `ADVANCED`. Each paid tier includes the plugins from the lower tiers.
 
 Installing plugins
 ^^^^^^^^^^^^^^^^^^
@@ -40,6 +38,14 @@ Plugins installed via the marketplace are stored in the `marketplace` folder in 
 
 After installation, the install button will change to an enable toggle. You will need to click that button to enable the plugin after installation.
 
+.. image:: images/search_plugin.png
+   :alt: Search a plugin in marketplace
+   :scale: 38%
+
+.. note:: Some plugins require specific configuration.
+   You can click on the spanner icon to access this configuration. This plugin will also appear in the corresponding module (support, management, tools, administration, setup).
+
+
 Updating plugins
 ^^^^^^^^^^^^^^^^
 
@@ -47,6 +53,10 @@ In the marketplace UI on the `Installed` tab, you can see all the plugins curren
 
 Similar to installing plugins, there will be an update button showing if an update is available or one or more errors if there is some issue preventing an update.
 Like with installing plugin, you will need to re-enable the plugins after an update.
+
+.. image:: images/update_plugin.png
+   :alt: Update a plugin in marketplace
+   :scale: 100%
 
 Manually managing plugins
 --------------------------
@@ -70,3 +80,30 @@ When you uninstall a plugin using the uninstall button in the plugin list or in 
 
 To permanently remove the plugin, it is necessary to delete the plugin's folder.
 After removing the plugin's folder there should be a new "cleanup" action available for the plugin in GLPI. This will remove the reference to the plugin from the database.
+
+.. image:: images/uninstall_plugin.png
+   :alt: Uninstall plugin
+   :scale: 100%
+
+
+
+Plugins and Update GLPI
+-----------------------
+
+When GLPI is updated, you can suspend the plugins.
+This allows you to preserve the state of a plugin before the GLPI update and restore it to its previous state once the update is complete.
+This avoids having to activate the plugins one by one and avoid activating a plugin that was not activated.
+
+If GLPI behaves abnormally, you can also use this option to suspend all plugins and and check that the anomaly is not due to a plugin you have installed.
+
+- To suspend your plugins, click on ``Suspend execution of all plugins``:
+
+.. image:: images/plugins_enabled.png
+   :alt: Plugins enabled
+   :scale: 38%
+
+- To reactivate the status of plugins before suspension click on ``Resume execution of all active plugins``:
+
+.. image:: images/plugins_suspended.png
+   :alt: Plugins suspended
+   :scale: 38%
