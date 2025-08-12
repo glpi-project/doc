@@ -1,5 +1,5 @@
 Documents
-~~~~~~~~~
+---------
 
 Additional information is stored in the form of external documents which are files uploaded into GLPI. In the *Documents* tab, documents can be associated and unlinked with the selected item. The :doc:`management of the documents themselves </modules/management/documents>` is dealt with in another chapter.
 
