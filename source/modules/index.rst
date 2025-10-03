@@ -11,3 +11,4 @@ Modules
    assistance/index
    administration/index
    configuration/index
+   user-settings/index

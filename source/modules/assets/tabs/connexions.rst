@@ -1,5 +1,5 @@
 Connections
-~~~~~~~~~~~
+-----------
 
 This tab allows to manage the direct connections between a computer and its connected elements.
 
@@ -7,7 +7,7 @@ Direct connections represent the relation between different hardwares linked eit
 
 
 From a computer
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 The connection can be made toward one or several elements of type
 display, printer, peripheral or phone. For each type of connected
@@ -20,7 +20,7 @@ object, its name, serial number and inventory number are displayed.
 
 
 From an element other than a computer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To add a connection, select the computer in the drop-down list presented at top of the table.
 
@@ -42,4 +42,4 @@ inventory numbers.
 
 .. note::
 
-   If using native inventory or third-party inventory tool, the connections informations can be automatically imported and updated.
+   If using native inventory or third-party inventory tool, the connections information can be automatically imported and updated.

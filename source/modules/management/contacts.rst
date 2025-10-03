@@ -3,7 +3,7 @@ Contacts
 
 GLPI users are the persons having an authentication for the GLPI application. External persons, usually associated with contracts, are known to GLPI as `Contacts`.
 
-A contact is characterized by usual identity informations as well as title, phone number, mail address... Defining a list of contact types allows to sort contacts by types. It is also possible to export a contact in vCard format.
+A contact is characterized by usual identity information as well as title, phone number, mail address... Defining a list of contact types allows to sort contacts by types. It is also possible to export a contact in vCard format.
 
 .. image:: images/contacts.png
    :alt: A contact in GLPI

@@ -9,11 +9,16 @@ Contracts management allows to:
 * integrate contracts in GLPI financial management
 * anticipate and follow contract renewal.
 
-.. image:: images/contract.png
+.. image:: ../../modules/tabs/images/contract-view.png
    :alt: Main fields of a contract
    :align: center
+   :scale: 43%
 
-.. include:: ../tabs/templates.rst
+* To add a new contract, click on **+ Add** at the top of the screen
+
+
+.. Tip:: You can use :doc:`template <../../modules/overview/templates>` to add a new contract
+
 
 .. note::
 
@@ -46,9 +51,27 @@ Costs
 
 This tab allows to define a cost related to the contract and linked to a GLPI budget: the cost of the contract will be imputed to this budget.
 
+
 .. image:: images/cost.png
    :alt: A cost associated to a contract
    :align: center
+   :scale: 42%
+
+- To add cost, click on **Add a new cost**
+- Enter a **name**
+- The **start** and **end dates** of the costs covered by the contract
+- If a **budget** has already been created, select it from the list, otherwise go to :doc:`budget <../../modules/management/budgets>`
+- Enter the real cost
+
+
+All the costs you add will be visible and added together in this same tab.
+
+.. image:: images/cost-total.png
+   :alt: total cost of expenses
+   :align: center
+   :scale: 49%
+
+
 
 Suppliers
 ~~~~~~~~~
@@ -58,8 +81,15 @@ This tab allows to associate one or several suppliers to the contract.
 .. image:: images/suppliers-contract.png
    :alt: Suppliers associated to a contract
    :align: center
+   :scale: 46%
 
-.. include:: ../tabs/elements.rst
+
+- To add a supplier, select it from the drop-down list
+- If there are none, go to :doc:`supplier <../../modules/management/suppliers>`
+
+
+
+.. include:: ../tabs/items.rst
 
 .. include:: ../tabs/documents.rst
 

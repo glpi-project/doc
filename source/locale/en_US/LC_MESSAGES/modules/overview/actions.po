@@ -362,7 +362,7 @@ msgstr ""
 #: ../../source/modules/overview/actions.rst:147
 msgid ""
 "Example : transfer of a `Computer` with a provider defined in accounting "
-"informations: if this provider exists only in origin entity, it will be "
+"information: if this provider exists only in origin entity, it will be "
 "created in destination entity; however, a provider defined in root entity "
 "with recursivity enable will not be recreated."
 msgstr ""

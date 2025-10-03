@@ -1,5 +1,5 @@
 Volumes
-~~~~~~~
+-------
 
 This tab, named `Volumes` and visible in a `Computer` entry, allows to manage the volumes attached to a computer.
 

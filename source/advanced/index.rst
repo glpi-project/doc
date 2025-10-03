@@ -7,3 +7,4 @@ Advanced Configuration
    cache
    status
    override-locales
+   custom_palettes

@@ -1,5 +1,5 @@
 Software
-~~~~~~~~
+--------
 
 This tab, named `Softwares` and visible in a `Computer` entry, allows to manage the software installed on a computer. Those software are sorted by their category and are characterized by name, version and version status.
 

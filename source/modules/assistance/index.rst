@@ -5,7 +5,7 @@ Assistance module allows users to create, follow and process tickets. Plannings,
 
 Depending on profile permissions, it is possible as well to create, follow and process problems and changes. 
 
-GLPI assistance module is compliant with ITIL best practises guide and integrates therefore some fields normalization. However, following ITIL best practises is recommanded but not mandatory and it is perfectly feasible, thanks to module's flexibility, to implement an assistance service tailored to the organization's needs.
+GLPI assistance module is compliant with ITIL best practises guide and integrates therefore some fields normalization. However, following ITIL best practises is recommended but not mandatory and it is perfectly feasible, thanks to module's flexibility, to implement an assistance service tailored to the organization's needs.
 
 .. toctree::
    :maxdepth: 2

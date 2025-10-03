@@ -8,9 +8,6 @@ Domains management in GLPI allows to manage domains (i.e. Internet domains) and 
 * Anticipating and following domain names renewal;
 * Integrating domains in GLPI financial management;
 * Linking assets to domains;
-
-  .. versionchanged:: 9.5.0
-
 * Include domains and records in GLPI assistance.
 
 .. note::
@@ -27,67 +24,78 @@ A `Domain` object represents an Internet domain, with its name, expire date... T
    :align: center
 
 The different tabs
-~~~~~~~~~~~~~~~~~~
+------------------
+
+Impact Analysis
+~~~~~~~~~~~~~~~
+
+:doc:`Impact analysis </tabs/impact_analysis>` enables an infrastructure diagram to be drawn up, showing the dependencies and impacts in the event of equipment loss.
+This can be saved and exported
+
 
 Records
 ~~~~~~~
 
 This tab allow to create or select a domain record to be associated with the domain.
-
+For more information, go to :doc:`domains records </modules/management/domains_records>`
 
 .. image:: images/recordslist-domains.png
    :alt: List of attached records
    :align: center
-
-.. include:: ../tabs/elements.rst
-
-.. include:: ../tabs/management.rst
-
-.. include:: ../tabs/tickets.rst
-
-.. include:: ../tabs/problems.rst
-
-.. include:: ../tabs/changes.rst
-
-.. include:: ../tabs/contracts.rst
-
-.. include:: ../tabs/documents.rst
-
-.. include:: ../tabs/external-links.rst
-
-.. include:: ../tabs/historical.rst
-
-.. include:: ../tabs/all.rst
+   :scale: 42 %
 
 
-Record object
--------------
+Items
+~~~~~
 
-A `Record` object stores all record types that can be found in a DNS zone or DNS configuration file: TXT, A, PTR, SDA, CNAME...
+List of all other linked GLPI :doc:`Items </tabs/item>`. You can manually add an item by selecting it from the drop-down list.
 
-This object must be associated to a `Domain` object described earlier.
 
-.. image:: images/recordsadd-domains.png
-   :alt: Creation of a domain record
-   :align: center
+Management
+~~~~~~~~~~
 
-.. note::
+:doc:`Management </modules/tabs/management>` of financial and administrative information, this information is visible in the ‘Management’ tab on the object form.
 
-   Record types are not limited to the default ones and can be customized using drop-down management.
 
- 
-The different tabs
-~~~~~~~~~~~~~~~~~~
+Tickets
+~~~~~~~
 
-.. include:: ../tabs/tickets.rst
+View all :doc:`tickets <../tabs/tickets>` linked to the computer
 
-.. include:: ../tabs/problems.rst
+Problems
+~~~~~~~~
 
-.. include:: ../tabs/documents.rst
+This tab refers to all hardware-related :doc:`problems <../assistance/problems>`.
+Problems can also be linked to tickets, projects, etc. This allows you to have a complete scenario when necessary.
 
-.. include:: ../tabs/external-links.rst
+Changes
+~~~~~~~
 
-.. include:: ../tabs/notes.rst
+:doc:`Changes <../assistance/changes>` lists all changes related to a material. From this tab, you can't link a change directly, you can do it from **Assistance** > **Changes** > **Items**.
+You can create a new change from this page, which will be linked to the material you have selected.
+
+Contracts
+~~~~~~~~~
+
+GLPI supports :doc:`contracts <../management/contract>` management, in order to manage contract types such as loan, maintenance, support...
+
+Contracts management allows to:
+
+* make an inventory of all contracts related to the organization assets
+* integrate contracts in GLPI financial management
+* anticipate and follow contract renewal.
+
+
+Documents
+~~~~~~~~~
+
+The :doc:`document </modules/management/documents>` tab lets you link different types of file to a material (PDF, txt, png, etc.)
+You can attach a document already uploaded to GLPI or add a new one directly from this tab.
+
+Certificates
+~~~~~~~~~~~~
+
+Link a :doc:`certificate </modules/management/certificates>` to your registration
 
 .. include:: ../tabs/historical.rst
 

@@ -40,7 +40,7 @@ The different permissions of an object are listed on the line of its name. To ac
 
 .. warning:: no permission deduction is done; for example in order to be able to modify an object, read permission must also be granted.
 
-Permissions after migration: migration takes over old permissions in full, regardless of the purpose, and activates the corresponding values ​​in the new system. Previous *Write* permission is transformed into *Read*, *Update*, *Create*, *Delete* and *Purge* for most objects and must then be refined if needed. For others, the permissions are grouped by object, for example, FAQ permission are permissions of the Knowledge Base object.
+Permissions after migration: migration takes over old permissions in full, regardless of the purpose, and activates the corresponding values in the new system. Previous *Write* permission is transformed into *Read*, *Update*, *Create*, *Delete* and *Purge* for most objects and must then be refined if needed. For others, the permissions are grouped by object, for example, FAQ permission are permissions of the Knowledge Base object.
 
 Some permissions are standards for all objects:
 

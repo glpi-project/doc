@@ -8,7 +8,7 @@ This summary table includes the following fields for each object:
 * Status
 * Date (opening or expiry date, resolution or closing date depending on the status of the change)
 * Priority
-* Requestor(s) and assigned technician(s)
+* Requester(s) and assigned technician(s)
 * Associated elements
 * Category
 * Name

@@ -1,5 +1,5 @@
 Components
-~~~~~~~~~~
+----------
 
 This tab, named `Components` and visible in a `Computer` entry, allows to manage the hardware components of a computer.
 

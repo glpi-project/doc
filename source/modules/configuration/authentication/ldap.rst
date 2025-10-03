@@ -123,7 +123,7 @@ Allows you to configure how the link between the fields of the directory and tho
 Groups
 ~~~~~~
 
-Allows you to configure the method for retreiving groups from the LDAP directory.
+Allows you to configure the method for retrieving groups from the LDAP directory.
 
 .. image:: images/ldap-groups.png
    :alt: Confiuguration of LDAP groups
@@ -143,7 +143,7 @@ In case the server hosting the LDAP directory is in a different timezone as GLPI
 
 **Limit of the number of records returned**
 
-There are often two limits on the number of records retured per request.
+There are often two limits on the number of records returned per request.
 
 * The client limit (defined for example on Debian/Ubuntu in ``/etc/ldap/ldap.conf``)
 * The server limit: If the server limit is lower than the client limit, then that is the effective limit
@@ -156,7 +156,7 @@ There are often two limits on the number of records retured per request.
 It is possible to bypass the limitation by enabling **Pagination of results** in the **Advanced Information** tab of the LDAP directory in GLPI.
 This will split requests into smaller requests that are under the configured limit.
 
-The **Page size** option adjusts the number of results retreived per "page" with pagination enabled.
+The **Page size** option adjusts the number of results retrieved per "page" with pagination enabled.
 The **Maximum number of results** option is the limit for the total number of records. This option may be useful to avoid high memory usage.
 
 .. note::

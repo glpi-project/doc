@@ -12,7 +12,7 @@ Some actions may support only one of the modes.
 Configure CLI mode
 ------------------
 
-To run CLI mode tasks, you will need to configure your external task scheduler to call GLPI's `front/cron.php` file periodically.
+To run CLI mode tasks, you will need to configure your external task scheduler to call GLPI `front/cron.php` file periodically.
 It is recommended to have it run every minute to ensure that actions that are ready to run, get ran as soon as possible.
 
 For Linux/MacOS, you should add the following to the web server's user's (www-data, apache, etc) crontab:
@@ -166,6 +166,8 @@ infocom (Infocom)
 Send notification alerts for warranties (Set in the Management tab on an asset form) that are about to expire.
 If you don't have notifications enabled, the expiration warnings are still listed in the action's log.
 The expiration warning delay can be changed for each Entity.
+Notifications are only sent for assets that are not deleted.
+If a deleted asset is restored before the warranty expires, this action will trigger a notification for it as any other non-deleted asset.
 
 logs (CronTask)
 ~~~~~~~~~~~~~~~

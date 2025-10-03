@@ -1,7 +1,5 @@
-:orphan:
-
 External links
-~~~~~~~~~~~~~~
+--------------
 
 This tab allows to manage external links.
 

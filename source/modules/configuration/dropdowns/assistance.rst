@@ -9,7 +9,7 @@ The list of ticket categories is tree-like: each element can have sub-elements. 
 In the form of a ticket category, you can find some information about this category including but not limited to:
 
 * Responsible and technical group for the automatic assignment of tickets
-* Default category of the knowledgebase when you want to add a solution of a ticket
+* Default category of the knowledge base when you want to add a solution of a ticket
 * Visibility of the category depending on the interface (simplified/standard) or object
 * Ticket template to use for this category
 * Parent category

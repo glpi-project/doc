@@ -19,7 +19,9 @@ As an example, in order to prepare inventorying 20 identical printers in which o
 * in this template, all fields that will not changed are filled (vendor, model...)
 * the 20 printers will then be created from this template
 
-When creating a new printer from this template, serial number and inventory number are the only fields to be entered; other fields are already set. 
+When creating a new printer from this template, serial number and inventory number are the only fields to be entered; other fields are already set.
+
+You may retroactively create a template from an asset using the "Create template" action from the "Actions" menu within an asset's form.
 
 Increment
 ~~~~~~~~~

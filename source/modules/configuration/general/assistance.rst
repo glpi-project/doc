@@ -26,9 +26,9 @@ Assistance
    If enabled, the tickets related to an asset being purged will remain.
    Otherwise, they are purged along with the asset.
 
--  **Allow anonymous ticket creation (helpdesk.receiver)**
+-  **Allow anonymous ticket creation (receiver)**
    Anonymous ticket creation is disabled by default.
-   Activating the option is necessary when using a collector or the anonymous ticket entry form to allow the creation of tickets by users not recognized by GLPI.
+   Activating the option is necessary when using an email collector to allow the creation of tickets by users not recognized by GLPI.
 
 -  **Limit of the schedules for planning**
    Time range displayed in the planning screen.

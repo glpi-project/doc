@@ -14,7 +14,7 @@ The return web address parameter allows you to redirect the user to a specific p
 
 .. warning:: 
    Once the CAS authentication is activated, each authentication is automatically redirected to the CAS server.
-   In order to log into an internal account or one authenticated through a different method, you have to add "?noAUTO=1" to the login URL.
+   In order to log into an internal account or one authenticated through a different method, you have to add ``?noAUTO=1`` to the login URL.
 
 .. note::
    The `php-curl` or `php-dom` extensions are required to be enabled for CAS authentication to function.
@@ -24,9 +24,9 @@ The return web address parameter allows you to redirect the user to a specific p
 x509 certificate
 ----------------
 
-The **Email attribute for x509 authentication** tells GLPI to look at the value of this attribute in the SSL\_CLIENT\_S\_DN HTTP request variable passed by the authentication system.
+The **Email attribute for x509 authentication** tells GLPI to look at the value of this attribute in the ``SSL\_CLIENT\_S\_DN`` HTTP request variable passed by the authentication system.
 
-It is possible to restrict the accepted values for the O, OR, and CN fields of the client certificate.
+It is possible to restrict the accepted values for the ``O``, ``OR``, and ``CN`` fields of the client certificate.
 In order to specify multiple values for each field, you may separate each value with the *$* symbol.
 
 .. _auth_other:

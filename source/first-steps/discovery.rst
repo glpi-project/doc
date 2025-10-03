@@ -8,6 +8,7 @@ The GLPI interface is made up of different areas grouping together the applicati
 .. image:: images/main-ui.png
    :alt: General interface of GLPI
    :align: center
+   :scale: 37 %
 
 #. The user menu allows you to manage your preferences, access help, change the current language, change your current profile and entity, and disconnect.
 #. The main menu allows you to navigate through the different modules.

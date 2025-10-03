@@ -1,5 +1,6 @@
 Operating systems
-~~~~~~~~~~~~~~~~~
+-----------------
+
 
 The information on operating systems for a computer are visible in tabs `Operating system` for a Computer entry.
 

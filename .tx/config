@@ -115,9 +115,9 @@ source_file = build/locale/modules/administration/dictionnaries.pot
 source_lang = en
 type        = PO
 
-[o:glpi:p:glpi-user-documentation:r:modules--administration--entities]
-file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/entities.po
-source_file = build/locale/modules/administration/entities.pot
+[o:glpi:p:glpi-user-documentation:r:modules--administration--entity--entities]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/entity/entities.po
+source_file = build/locale/modules/administration/entity/entities.pot
 source_lang = en
 type        = PO
 
@@ -907,3 +907,21 @@ source_file = build/locale/modules/tools/rssfeed.pot
 source_lang = en
 type        = PO
 
+[o:glpi:p:glpi-user-documentation:r:modules--administration--users--tabs--authorizations]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/users/tabs/authorizations.po
+source_file = build/locale/modules/administration/users/tabs/authorizations.pot
+source_lang = en
+type        = PO
+
+[o:glpi:p:glpi-user-documentation:r:modules--administration--users--tabs--groups]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/users/tabs/groups.po
+source_file = build/locale/modules/administration/users/tabs/groups.pot
+source_lang = en
+type        = PO
+
+
+[o:glpi:p:glpi-user-documentation:r:modules--administration--forms--forms]
+file_filter = source/locale/<lang>/LC_MESSAGES/modules/administration/forms/forms.po
+source_file = build/locale/modules/administration/forms/forms.pot
+source_lang = en
+type        = PO
