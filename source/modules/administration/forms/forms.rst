@@ -230,13 +230,14 @@ This field has additional options
     * Licenses
     * Certificates
     * Unmanaged assets
-    * Appliances
+    * Custom Assets
     * Software
     * Cartridge models
     * Consumable models
-    * Lines
+    * Phone lines
     * Passive devices
     * PDUs
+    * Racks
 
 
 .. collapse:: Assistance
@@ -257,6 +258,8 @@ This field has additional options
     * Certificates
     * Appliances
     * Databases
+    * Clusters
+    * Data centers
 
 
 .. collapse:: Tools
@@ -337,11 +340,12 @@ This field has additional options
     * Passive device types
     * Cluster types
     * Database instance type
+    * Custom Asset types
 
 .. collapse:: Models
 
     * Computer models
-    * Networking models
+    * Networking equipment models
     * Printer models
     * Monitor models
     * Peripheral models
@@ -355,6 +359,7 @@ This field has additional options
     * Device hard drive models
     * Device memory models
     * System board models
+    * Network card models
     * Other component models
     * Device power supply models
     * Device processor models
@@ -364,6 +369,7 @@ This field has additional options
     * Enclosure models
     * PDU models
     * Passive device models
+    * Custom Asset models
 
 .. collapse:: Virtual machines
 
@@ -465,6 +471,10 @@ This field has additional options
     * PCI vendors
     * Webhook categories
 
+.. collapse:: Custom dropdowns
+
+   * Custom dropdowns
+
 Configure visibility
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -498,13 +508,27 @@ Select the question from the drop-down list
 Select the condition:
 
 * *Is visible*
-* *Is note visible*
+* *Is not visible*
 * *Is equal to*
 * *Is not equal to*
 * *Contains*
 * *Do not contains*
 * *Match regular expression*
 * *Do not match regular expression*
+* *Is empty*
+* *Is not empty*
+* *Length is greater than*
+* *Length is greater than or equal to*
+* *Length is less than*
+* *Length is less than or equal to*
+* *Is greater than*
+* *Is greater than or equal to*
+* *Is less than*
+* *Is less than or equal to*
+* *Is of itemtype*
+* *Is not of itemtype*
+* *At least one of itemtype*
+* *All items of itemtype*
 
 Enter the desired value as needed.
 

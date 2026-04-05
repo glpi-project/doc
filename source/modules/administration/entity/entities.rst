@@ -407,7 +407,7 @@ The information that can be managed
 
 * Alternate username
 * User
-* group
+* Group
 * Location
 * Status
 
