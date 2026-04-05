@@ -85,8 +85,6 @@ ITIL best practices recommends a validation of the solution by the ticket reques
 Satisfaction
 ------------
 
-(I can't get no)
-
 A satisfaction survey is triggered when the ticket status is set to *Closed* and the triggering delay is elapsed. This triggering delay is parameterized at entity level (see :doc:`Delegate administration at entity level </modules/administration/entities>`).
 
 .. note::
