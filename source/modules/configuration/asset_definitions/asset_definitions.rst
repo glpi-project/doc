@@ -65,7 +65,7 @@ Each asset can be selected and customised as required.
 
 List of the behaviors/elements that can be linked:
 
-* Antivirus
+* Antiviruses
 * Appliances
 * Certificates
 * Components
@@ -141,38 +141,14 @@ Create a custom field
        * Certificates
        * Unmanaged assets
        * Appliances
-       * Software
-       * Cartridge models
-       * Consumable models
-       * Lines
-       * Passive devices
-       * PDUs
-       * Tickets
-       * Changes
-       * Problems
-       * Recurrent tickets
-       * Budgets
-       * Suppliers
-       * Contacts
-       * Contracts
-       * Documents
-       * Projects
-       * Certificates
-       * Appliances
-       * Databases
-       * Reminders
-       * RSS Feed
-       * Users
-       * Groups
-       * Entities
-       * Profiles
+       * Custom Assets
        * Locations
        * Statuses of items
        * Manufacturers
        * Blacklists
        * Blacklisted mail content
        * Default filters
-       * ITIL category
+       * ITIL categories
        * Task categories
        * Task templates
        * Solution types
@@ -186,17 +162,17 @@ Create a custom field
        * Project tasks templates
        * External events templates
        * Event categories
-       * Pending reason
+       * Pending reasons
        * Service catalog categories
        * Approval steps
        * Computer types
-       * Networking types
+       * Networking equipment types
        * Printer types
        * Monitor types
        * Devices types
        * Phone types
        * License types
-       * Cartrige types
+       * Cartridge types
        * Consumable types
        * Contract types
        * Contact types
@@ -217,8 +193,9 @@ Create a custom field
        * Passive device types
        * Cluster types
        * Database instance type
+       * Custom Asset types
        * Computer models
-       * Networking models
+       * Networking equipment models
        * Printer models
        * Monitor models
        * Peripheral models
@@ -232,6 +209,7 @@ Create a custom field
        * Device hard drive models
        * Device memory models
        * System board models
+       * Network card models
        * Other component models
        * Device power supply models
        * Device processor models
@@ -241,6 +219,7 @@ Create a custom field
        * Enclosure models
        * PDU models
        * Passive device models
+       * Custom Asset models
        * Virtualization systems
        * Virtualization models
        * States of the virtual machine
@@ -274,7 +253,7 @@ Create a custom field
        * IP networks
        * Internet domains
        * Wifi networks
-       * Networks names
+       * Network names
        * Software categories
        * Users titles
        * User categories
@@ -289,6 +268,7 @@ Create a custom field
        * USB vendors
        * PCI vendors
        * Webhook categories
+       * Custom dropdowns
 
 
 

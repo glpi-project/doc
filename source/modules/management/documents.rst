@@ -64,8 +64,8 @@ It is possible to link several types of objects to GLPI :
    * Contract
    * Controller
    * Controller item
+   * Custom Assets
    * Database instance
-   * Device
    * Document
    * Drive
    * Drive item
@@ -81,7 +81,6 @@ It is possible to link several types of objects to GLPI :
    * Hard drive item
    * Knowledge base
    * License
-   * Line
    * Memory
    * Memory item
    * Monitor
@@ -90,7 +89,9 @@ It is possible to link several types of objects to GLPI :
    * Network device
    * PCI device
    * PCI device item
+   * Peripheral
    * Phone
+   * Phone line
    * Power supply
    * Power supply item
    * Printer
@@ -100,11 +101,12 @@ It is possible to link several types of objects to GLPI :
    * Processor item
    * Project
    * Project task
+   * Rack
    * Reminder
    * Sensor
    * Sensor item
-   * Sim card
-   * Sim card item
+   * Simcard
+   * Simcard item
    * Software
    * Solution
    * Sound card
