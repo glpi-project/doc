@@ -96,7 +96,7 @@ Tickets permissions
 
    Tickets permissions
 
-* **Assigned Tickets**: be assigned to a ticket. All the users of this profile having this option enabled will be present in the list of technicians who can be assigned to a ticket.
+* **Be in charge**: be assigned to a ticket. All the users of this profile having this option enabled will be present in the list of technicians who can be assigned to a ticket.
 
 * **Steal**: become the technician assigned to the ticket. In this case, the list of technicians who can be assigned to the ticket will only include the name of the person connected.
 
@@ -107,6 +107,8 @@ Tickets permissions
 * **See Assigned**: see tickets for which I am the technician or having one of my groups as group of technicians.
 
 * **Assign**: add a technician, a group of technicians or a supplier to a ticket.
+
+* **View new tickets**: see incoming tickets that have no technician assigned yet.
 
 Followups permissions
 +++++++++++++++++++++
