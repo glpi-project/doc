@@ -39,6 +39,8 @@ Description of specific fields
 
 * **Location**: indicates the intervention location, has no link with the location of associated items nor with the requester location (for example roaming requester with a laptop);
 
+* **External ID**: id for the ticket in an external system
+
 * **Actor**: implied actors are referenced in the ticket, which allows them to be notified during ticket life cycle, see :doc:`Defining actors and roles </modules/assistance/actors>`.
 
   If email followup have been configured (see :ref:`notification management <configure_notifications>`), information about notifications are displayed for a user or a supplier: *Email Followup* (yes or no) and *Email*. Email is pre-filled with user's email if defined in user or supplier form. If no email is defined in user or supplier form, an email can be entered in text field.
@@ -47,7 +49,7 @@ Description of specific fields
 
   When using GLPI with multiple entities and having technicians with authorizations for several entities, it is not needed to switch current entity to declare a new incident inside an entity. Entity to which ticket will be assigned is determined as so: technician selects requester and GLPI find entities for which this requester has authorizations; if only one entity, ticket creation form is updated and ticket will be declared in this entity, if several entities, a drop-down list allows to select the entity to which ticket will be assigned.
 
-* **Title**: if no tile is defined by the user when creating the ticket, the first 70 characters of the description will be used to define ticket title;
+* **Title**: if no title is defined by the user when creating the ticket, the first 70 characters of the description will be used to define ticket title;
 
 * **Description**: mandatory, for above reason;
 
