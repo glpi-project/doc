@@ -8,7 +8,9 @@ GLPI User Documentation
 
 .. warning::
 
-   The documentation is being rewritten. It is very likely that some parts are outdated, that there are dead links, etc
+   As of GLPI v11 documentation can be found at: https://help.glpi-project.org/documentation/
+
+   Current documentation won't evolve anymore.
 
 Preface
 -------

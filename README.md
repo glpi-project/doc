@@ -1,6 +1,8 @@
 # GLPI user documentation
 
-__Documentation is being rewrited... Some parts may be really out of date, some links can be broken, ...__
+__As of GLPI v11 documentation can be found at: https://help.glpi-project.org/documentation/__
+
+__Current documentation won't evolve anymore.__
 
 Current documentation is built on top of [Sphinx documentation generator](http://sphinx-doc.org/). 
 
