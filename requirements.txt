@@ -1,4 +1,4 @@
-sphinx
+sphinx~=8.2
 recommonmark
 sphinx_glpi_theme
 sphinx_new_tab_link
