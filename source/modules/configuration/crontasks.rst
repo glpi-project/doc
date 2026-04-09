@@ -15,14 +15,18 @@ Configure CLI mode
 To run CLI mode tasks, you will need to configure your external task scheduler to call GLPI `front/cron.php` file periodically.
 It is recommended to have it run every minute to ensure that actions that are ready to run, get ran as soon as possible.
 
-For Linux/MacOS, you should add the following to the web server's user's (www-data, apache, etc) crontab:
-
 ::
 
    * * * * * php GLPI/front/cron.php
 
+For Linux/MacOS, you should add the following to the web server's user's (**www-data, apache, etc**) crontab:
+
+::
+
+   * * * * * www-data cd GLPI/front && php cron.php
+
 You will need to replace `GLPI` with the path to your GLPI folder.
-You may also need to replace `php` with the full path to your php binary if it is not in the PATH.
+You may also need to replace `php` with the full path to your php binary if it is not in the PATH (`/usr/bin/php`).
 
 Force execution of action from CLI
 ----------------------------------
@@ -33,7 +37,15 @@ To execute a specific action from the command-line, you can run (for mailgate ac
 
    php GLPI/front/cron.php --force mailgate
 
+
+For Linux/MacOS, you should should use the web server's user's (**www-data, apache, etc**):
+
+::
+
+   sudo -u www-data php GLPI/front/cron.php --force mailgate
+
 You will need to replace `GLPI` with the path to your GLPI folder.
+You may also need to replace `php` with the full path to your php binary if it is not in the PATH (`/usr/bin/php`).
 
 Forcing the action to run will ensure it is run even if it is not scheduled to run again yet.
 
